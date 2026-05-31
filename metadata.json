@@ -1,0 +1,6 @@
+{
+  "name": "AprovaCard (FSRS Concursos)",
+  "description": "Sistema de repetição espaçada baseado em FSRS para concursos públicos, com geração de flashcards por IA, dashboard de desempenho e organização hierárquica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,126 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+  
+    // Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+    
+    function isSignedIn() { return request.auth != null; }
+    function isValidId(id) { return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$'); }
+    function incoming() { return request.resource.data; }
+    function existing() { return resource.data; }
+
+    function isValidDeck(data) {
+        return data.keys().hasAll(['userId', 'name', 'createdAt', 'updatedAt']) &&
+               data.size() >= 4 &&
+               data.size() <= 5 &&
+               data.userId == request.auth.uid &&
+               data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+               data.createdAt is timestamp &&
+               data.updatedAt is timestamp &&
+               (!('parentId' in data) || (data.parentId is string && data.parentId.size() <= 128));
+    }
+
+    match /users/{userId}/decks/{deckId} {
+        allow read: if isSignedIn() && request.auth.uid == userId;
+        allow list: if isSignedIn() && request.auth.uid == userId && resource.data.userId == request.auth.uid;
+        
+        allow create: if isSignedIn() && 
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(deckId) &&
+                      isValidDeck(incoming()) &&
+                      incoming().createdAt == request.time &&
+                      incoming().updatedAt == request.time;
+                      
+        allow update: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(deckId) &&
+                      isValidDeck(incoming()) &&
+                      incoming().userId == existing().userId &&
+                      incoming().createdAt == existing().createdAt &&
+                      incoming().updatedAt == request.time &&
+                      incoming().diff(existing()).affectedKeys().hasOnly(['name', 'parentId', 'updatedAt']);
+                      
+        allow delete: if isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidFSRS(fsrs) {
+        return fsrs.keys().hasAll(['state', 'due', 'stability', 'difficulty', 'elapsed_days', 'scheduled_days', 'reps', 'lapses']) &&
+               fsrs.size() >= 8 && fsrs.size() <= 9 &&
+               fsrs.state in ['New', 'Learning', 'Review', 'Relearning'] &&
+               fsrs.due is timestamp &&
+               fsrs.stability is number &&
+               fsrs.difficulty is number &&
+               fsrs.elapsed_days is number &&
+               fsrs.scheduled_days is number &&
+               fsrs.reps is number &&
+               fsrs.lapses is number &&
+               (!('last_review' in fsrs) || fsrs.last_review is timestamp);
+    }
+
+    function isValidCard(data) {
+        return data.keys().hasAll(['userId', 'deckId', 'front', 'back', 'fsrsData', 'createdAt', 'updatedAt']) &&
+               data.size() >= 7 && data.size() <= 8 &&
+               data.userId == request.auth.uid &&
+               data.deckId is string && data.deckId.size() <= 128 &&
+               data.front is string && data.front.size() > 0 && data.front.size() <= 5000 &&
+               data.back is string && data.back.size() > 0 && data.back.size() <= 5000 &&
+               (!('options' in data) || (data.options is list && data.options.size() <= 10 && (data.options.size() == 0 || data.options[0] is string))) &&
+               data.fsrsData is map && isValidFSRS(data.fsrsData) &&
+               data.createdAt is timestamp &&
+               data.updatedAt is timestamp;
+    }
+
+    match /users/{userId}/cards/{cardId} {
+        allow read: if isSignedIn() && request.auth.uid == userId;
+        allow list: if isSignedIn() && request.auth.uid == userId && resource.data.userId == request.auth.uid;
+        
+        allow create: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(cardId) &&
+                      isValidCard(incoming()) &&
+                      incoming().createdAt == request.time &&
+                      incoming().updatedAt == request.time &&
+                      exists(/databases/$(database)/documents/users/$(userId)/decks/$(incoming().deckId));
+                      
+        allow update: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(cardId) &&
+                      isValidCard(incoming()) &&
+                      incoming().userId == existing().userId &&
+                      incoming().createdAt == existing().createdAt &&
+                      incoming().updatedAt == request.time &&
+                      incoming().diff(existing()).affectedKeys().hasOnly(['front', 'back', 'options', 'fsrsData', 'deckId', 'updatedAt']);
+                      
+        allow delete: if isSignedIn() && request.auth.uid == userId;
+    }
+    function isValidReviewLog(data) {
+        return data.keys().hasAll(['userId', 'cardId', 'cardFront', 'deckId', 'deckName', 'rating', 'oldState', 'newState', 'reviewedAt']) &&
+               data.size() == 9 &&
+               data.userId == request.auth.uid &&
+               data.cardId is string && data.cardId.size() <= 128 &&
+               data.cardFront is string && data.cardFront.size() <= 5000 &&
+               data.deckId is string && data.deckId.size() <= 128 &&
+               data.deckName is string && data.deckName.size() <= 100 &&
+               data.rating in ['Again', 'Hard', 'Good', 'Easy'] &&
+               data.oldState in ['New', 'Learning', 'Review', 'Relearning'] &&
+               data.newState in ['New', 'Learning', 'Review', 'Relearning'] &&
+               data.reviewedAt is timestamp;
+    }
+
+    match /users/{userId}/reviewLogs/{logId} {
+        allow read: if isSignedIn() && request.auth.uid == userId;
+        allow list: if isSignedIn() && request.auth.uid == userId;
+        
+        allow create: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(logId) &&
+                      isValidReviewLog(incoming()) &&
+                      incoming().reviewedAt == request.time;
+                      
+        allow delete: if isSignedIn() && request.auth.uid == userId;
+    }
+  }
+}

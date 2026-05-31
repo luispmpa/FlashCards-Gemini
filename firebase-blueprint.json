@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "Deck": {
+      "title": "Deck",
+      "description": "Represents a collection of flashcards (subject/topic)",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "parentId": { "type": "string", "description": "Optional parent deck ID" },
+        "name": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "name", "createdAt", "updatedAt"]
+    },
+    "Card": {
+      "title": "Card",
+      "description": "Represents a single flashcard",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "deckId": { "type": "string" },
+        "front": { "type": "string" },
+        "options": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "back": { "type": "string" },
+        "fsrsData": {
+          "type": "object",
+          "properties": {
+            "state": { "type": "string", "enum": ["New", "Learning", "Review", "Relearning"] },
+            "due": { "type": "string", "format": "date-time" },
+            "stability": { "type": "number" },
+            "difficulty": { "type": "number" },
+            "elapsed_days": { "type": "number" },
+            "scheduled_days": { "type": "number" },
+            "reps": { "type": "number" },
+            "lapses": { "type": "number" },
+            "last_review": { "type": "string", "format": "date-time" }
+          },
+          "required": ["state", "due", "stability", "difficulty", "elapsed_days", "scheduled_days", "reps", "lapses"]
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "deckId", "front", "back", "fsrsData", "createdAt", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/decks/{deckId}": {
+      "schema": { "$ref": "#/entities/Deck" },
+      "description": "Decks owned by the user"
+    },
+    "/users/{userId}/cards/{cardId}": {
+      "schema": { "$ref": "#/entities/Card" },
+      "description": "Flashcards owned by the user"
+    }
+  }
+}
