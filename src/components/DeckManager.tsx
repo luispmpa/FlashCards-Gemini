@@ -197,7 +197,8 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
       const countMap: Record<string, number> = {};
       decks.forEach(deck => {
           const descendantIds = [deck.id, ...getChildrenIds(deck.id)];
-          const total = descendantIds.reduce((acc, id) => acc + (cards[id]?.length || 0), 0) + (cards[deck.id]?.length || 0);
+          // descendantIds já inclui deck.id, então somamos cada id uma única vez.
+          const total = descendantIds.reduce((acc, id) => acc + (cards[id]?.length || 0), 0);
           countMap[deck.id] = total;
       });
       return countMap;
