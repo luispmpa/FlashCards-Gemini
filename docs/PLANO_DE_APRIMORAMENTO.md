@@ -24,35 +24,21 @@ Estes itens já foram implementados e validados (lint + testes + CI passando). *
 
 ---
 
-## 🔒 TAREFA MANUAL DO DONO DO REPOSITÓRIO — Branch Protection
+## 🔒 Estratégia de segurança do `main` (decisão tomada)
 
-> ⚠️ **ATENÇÃO, GEMINI: este item NÃO é código e você NÃO consegue executá-lo.**
-> Branch protection é uma **configuração do GitHub**, feita na interface web pelo dono do repositório.
-> **Não** tente criar arquivos, scripts ou workflows para isso. Apenas ignore este bloco na implementação de código.
+**Contexto confirmado:** a ferramenta "Sync to GitHub" do Google AI Studio **só empurra direto para o `main`** — não permite escolher branch nem abrir Pull Request.
 
-**Por que:** impedir que qualquer push entre direto no `main` sem revisão e sem o CI verde. Já aconteceu de uma sincronização apagar arquivos silenciosamente no `main` — branch protection evita isso.
+**Decisão:** **NÃO** ativar Branch Protection com "Require a pull request", porque isso **rejeitaria os pushes do AI Studio** (o sync passaria a falhar com erro de permissão). Em vez de proteção rígida, usamos três camadas:
 
-### Passo a passo (feito pelo dono, no navegador)
-1. Acesse `https://github.com/luispmpa/FlashCards-Gemini` e clique em **Settings** (precisa ser admin do repo).
-2. No menu à esquerda, em *Code and automation*, clique em **Branches**.
-3. Clique em **Add branch protection rule** (ou **Add rule**).
-4. Em **Branch name pattern**, digite: `main`
-5. Marque **Require a pull request before merging**.
-   - *Required approvals* pode ficar em **0** (se você trabalha sozinho) — o importante é forçar que a mudança passe por um PR.
-6. Marque **Require status checks to pass before merging** e, na busca, selecione o check **build** (o job do `ci.yml`).
-   - Obs.: o check só aparece na lista **depois** que o CI rodou pelo menos uma vez (já rodou após o último push ao `main`).
-   - (Opcional) Marque **Require branches to be up to date before merging**.
-7. (Recomendado) Marque **Do not allow bypassing the above settings** para valer inclusive para administradores.
-8. Clique em **Create** / **Save changes**.
+| Camada | O que protege | Estado |
+|---|---|---|
+| **CI a cada push no `main`** (`.github/workflows/ci.yml` já roda em `push: branches:[main]`) | Quebra de build, lint e testes | Ativo |
+| **Auditoria externa após cada push** | **Regressões silenciosas que ainda compilam** (ex.: deleção acidental de arquivos) | Combinado |
+| **Pull do `main` antes de cada sessão no AI Studio** | Base atrasada que reverte trabalho já mergeado | Disciplina (ver abaixo) |
 
-### ⚠️ Consequência importante para o fluxo do AI Studio
-Depois de ativar "Require a pull request", **o AI Studio não conseguirá mais empurrar direto no `main`** — o push será **rejeitado**. A partir daí, o fluxo correto passa a ser:
+> ⚠️ **Importante:** o CI pega código quebrado, mas **não** pega uma deleção de arquivo que continue compilando (já aconteceu). Por isso a auditoria após o push e o "pull antes de editar" são as proteções que realmente importam aqui.
 
-1. No AI Studio, na hora do "Sync to GitHub", **escolha/crie um branch** (ex.: `ai-studio/work`) em vez de `main`.
-2. No GitHub, abra um **Pull Request** desse branch para o `main`.
-3. O CI roda no PR; a auditoria externa revisa; só então faz o **merge**.
-
-> Se o AI Studio só permitir sincronizar com `main` (sem opção de branch), avise o auditor antes de ativar a proteção — nesse caso mantemos o `main` sem o "require PR" e fazemos a auditoria a cada push, sem proteção rígida.
+> ⚠️ **GEMINI:** Branch Protection **não é código** e não deve ser implementado por você. Se um dia o fluxo de push mudar (ex.: passar a usar GitHub Desktop/CLI em vez do sync do AI Studio), aí sim o dono pode ativar proteção rígida via *GitHub → Settings → Branches*. Por ora, **não** crie nada para isso.
 
 ---
 
@@ -116,11 +102,10 @@ Depois de ativar "Require a pull request", **o AI Studio não conseguirá mais e
 ---
 
 ## Ordem sugerida
-1. **Branch protection** (tarefa manual do dono — antes de tudo).
-2. **#11** (ESLint + `noUnusedLocals`) — limpa a base e pega regressões.
-3. **#8** (resolver tags/comments) — tirar a inconsistência latente.
-4. **#10** (acessibilidade/atalhos).
-5. **#6** (escalabilidade da leitura).
-6. **#13** (retenção/streak).
+1. **#11** (ESLint + `noUnusedLocals`) — limpa a base e pega regressões.
+2. **#8** (resolver tags/comments) — tirar a inconsistência latente.
+3. **#10** (acessibilidade/atalhos).
+4. **#6** (escalabilidade da leitura).
+5. **#13** (retenção/streak).
 
 > Regra de ouro: **um item por PR**, com testes quando fizer sentido, `npm run lint` e `npm test` verdes antes de concluir, e **sem apagar nada fora do escopo do item**.
