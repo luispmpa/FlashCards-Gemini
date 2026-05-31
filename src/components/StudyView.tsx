@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Flashcard, Deck, Rating } from '../types';
 import { applyFSRSRating } from '../lib/fsrs';
 import { startOfToday, addDays } from 'date-fns';
-import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, ChevronUp, Check } from 'lucide-react';
+import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, ChevronUp, Check, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
 import ReactMarkdown from 'react-markdown';
 import { getCorrectIndex } from '../lib/cardUtils';
 import { getUserSettings } from '../lib/settings';
-import { getCardsForStudySession } from '../db';
+import { fetchDueCards, fetchNewCards } from '../db';
+import { auth } from '../firebase';
 
 interface StudyViewProps {
   decks: Deck[];
@@ -24,6 +25,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
   const [showAnswer, setShowAnswer] = useState(false);
   const [queue, setQueue] = useState<Flashcard[]>([]);
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
+  const [isLoadingSession, setIsLoadingSession] = useState(false);
 
   useEffect(() => {
      if (targetCardId) {
@@ -39,24 +41,40 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
      }
   }, [targetCardId]);
 
-  const startStudy = (deckId: string) => {
-    // If no deck picked, gather all. In real app, we filter by selected
-    const deckIds = deckId ? [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)] : decks.map(d => d.id);
-    
-    // Load user settings limits
-    const settings = getUserSettings();
-    
-    // Limits applied via our dedicated function for future-proofing
-    const targetDate = addDays(startOfToday(), 1);
-    const cardsToStudy = getCardsForStudySession(allCards, deckIds, settings.newPerDay, settings.reviewsPerDay, targetDate);
-    
-    // Shuffle
-    const shuffled = [...cardsToStudy].sort(() => Math.random() - 0.5);
-    
-    setQueue(shuffled);
-    setActiveCard(shuffled[0] || null);
-    setShowAnswer(false);
-    setSelectedOptionIndex(null);
+  const startStudy = async (deckId: string) => {
+    const userId = auth.currentUser?.uid;
+    if (!userId) return;
+
+    setIsLoadingSession(true);
+    try {
+        // If no deck picked, gather all. In real app, we filter by selected
+        const deckIds = deckId ? [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)] : decks.map(d => d.id);
+        
+        // Load user settings limits
+        const settings = getUserSettings();
+        
+        // Limits applied via direct Firestore queries
+        const targetDate = addDays(startOfToday(), 1);
+        
+        const [dueCards, newCards] = await Promise.all([
+             fetchDueCards(userId, deckIds, targetDate, settings.reviewsPerDay),
+             fetchNewCards(userId, deckIds, settings.newPerDay)
+        ]);
+        
+        const cardsToStudy = [...dueCards, ...newCards];
+        
+        // Shuffle
+        const shuffled = [...cardsToStudy].sort(() => Math.random() - 0.5);
+        
+        setQueue(shuffled);
+        setActiveCard(shuffled[0] || null);
+        setShowAnswer(false);
+        setSelectedOptionIndex(null);
+    } catch (e) {
+        console.error("Failed to load study session", e);
+    } finally {
+        setIsLoadingSession(false);
+    }
   };
 
   const handleRating = (rating: Rating) => {
@@ -146,9 +164,10 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
             />
             <button 
                 onClick={() => startStudy(selectedDeckId)}
-                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg flex items-center justify-center transition-colors shadow-sm"
+                disabled={isLoadingSession}
+                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg flex items-center justify-center transition-colors shadow-sm disabled:opacity-75"
             >
-                Iniciar Sessão
+                {isLoadingSession ? <Loader2 className="animate-spin" size={20} /> : "Iniciar Sessão"}
             </button>
          </div>
       </div>

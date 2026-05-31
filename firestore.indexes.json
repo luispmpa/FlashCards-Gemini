@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "cards",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "deckId", "order": "ASCENDING" },
+        { "fieldPath": "fsrsData.due", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

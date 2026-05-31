@@ -1,10 +1,11 @@
 import { useMemo, useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell } from 'recharts';
 import { Flashcard, Deck, ReviewLog } from '../types';
-import { isBefore, startOfToday, format, addDays, subDays, addMonths, isSameMonth } from "date-fns";
+import { isBefore, startOfToday, format, addDays, addMonths, isSameMonth } from "date-fns";
 import { CheckCircle2, TrendingUp, Brain, Calendar, ChevronRight, Flame } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { getUserSettings } from '../lib/settings';
+import { calculateStreak } from '../lib/streak';
 
 interface DashboardProps {
   cards: Record<string, Flashcard[]>;
@@ -70,34 +71,7 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
 
   const settings = getUserSettings();
   
-  const streak = useMemo(() => {
-      if (!logs || logs.length === 0) return 0;
-      
-      const distinctDays = [...new Set(logs.map(log => format(new Date(log.reviewedAt), 'yyyy-MM-dd')))].sort().reverse();
-      
-      let currentStreak = 0;
-      let checkDate = startOfToday();
-      
-      if (distinctDays[0] === format(checkDate, 'yyyy-MM-dd')) {
-          currentStreak++;
-          checkDate = subDays(checkDate, 1);
-      } else if (distinctDays[0] === format(subDays(checkDate, 1), 'yyyy-MM-dd')) {
-          // Started yesterday, acceptable to continue today
-          checkDate = subDays(checkDate, 1);
-      } else {
-          return 0; // No activity today or yesterday
-      }
-
-      for (let i = currentStreak === 1 ? 1 : 0; i < distinctDays.length; i++) {
-          if (distinctDays[i] === format(checkDate, 'yyyy-MM-dd')) {
-              currentStreak++;
-              checkDate = subDays(checkDate, 1);
-          } else {
-              break;
-          }
-      }
-      return currentStreak;
-  }, [logs]);
+  const streak = useMemo(() => calculateStreak(logs), [logs]);
 
   const reviewsToday = useMemo(() => {
       const todayStr = format(startOfToday(), 'yyyy-MM-dd');

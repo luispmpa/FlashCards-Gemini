@@ -1,6 +1,81 @@
-import { collection, doc, setDoc, updateDoc, deleteDoc, onSnapshot, query, serverTimestamp, orderBy, writeBatch } from 'firebase/firestore';
+import { collection, doc, setDoc, updateDoc, deleteDoc, onSnapshot, query, serverTimestamp, orderBy, writeBatch, getDocs, where, limit as fbLimit, Timestamp, QueryDocumentSnapshot, DocumentData } from 'firebase/firestore';
 import { db, auth } from './firebase';
 import { Deck, Flashcard, ReviewLog } from './types';
+
+const mapCardDoc = (doc: QueryDocumentSnapshot<DocumentData>): Flashcard => {
+    const data = doc.data();
+    return {
+        ...data,
+        id: doc.id,
+        createdAt: data.createdAt ? data.createdAt.toDate() : new Date(),
+        updatedAt: data.updatedAt ? data.updatedAt.toDate() : undefined,
+        fsrsData: {
+            ...data.fsrsData,
+            due: data.fsrsData.due ? data.fsrsData.due.toDate() : new Date(),
+            last_review: data.fsrsData.last_review ? data.fsrsData.last_review.toDate() : undefined
+        }
+    } as any;
+};
+
+export const fetchDueCards = async (userId: string, deckIds: string[], targetDate: Date, maxDue: number): Promise<Flashcard[]> => {
+    if (deckIds.length === 0 || maxDue <= 0) return [];
+    
+    const col = collection(db, 'users', userId, 'cards');
+    const targetTimestamp = Timestamp.fromDate(targetDate);
+    const allDue: Flashcard[] = [];
+    
+    const chunkSize = 30;
+    for (let i = 0; i < deckIds.length; i += chunkSize) {
+        const chunk = deckIds.slice(i, i + chunkSize);
+        
+        const q = query(
+            col,
+            where('deckId', 'in', chunk),
+            where('fsrsData.due', '<=', targetTimestamp),
+            orderBy('fsrsData.due', 'asc'),
+            fbLimit(maxDue * 3) // Fetches extra to compensate for filtering out New cards client-side
+        );
+        
+        try {
+            const snap = await getDocs(q);
+            const docs = snap.docs.map(mapCardDoc).filter(c => c.fsrsData.state !== "New");
+            allDue.push(...docs);
+        } catch (error) {
+            handleFirestoreError(error, OperationType.LIST, `users/${userId}/cards (due)`);
+        }
+    }
+    
+    allDue.sort((a, b) => a.fsrsData.due.getTime() - b.fsrsData.due.getTime());
+    return allDue.slice(0, maxDue);
+};
+
+export const fetchNewCards = async (userId: string, deckIds: string[], maxNew: number): Promise<Flashcard[]> => {
+    if (deckIds.length === 0 || maxNew <= 0) return [];
+    
+    const col = collection(db, 'users', userId, 'cards');
+    const allNew: Flashcard[] = [];
+    
+    const chunkSize = 30;
+    for (let i = 0; i < deckIds.length; i += chunkSize) {
+        const chunk = deckIds.slice(i, i + chunkSize);
+        
+        const q = query(
+            col,
+            where('deckId', 'in', chunk),
+            where('fsrsData.state', '==', 'New'),
+            fbLimit(maxNew)
+        );
+        
+        try {
+            const snap = await getDocs(q);
+            allNew.push(...snap.docs.map(mapCardDoc));
+        } catch (error) {
+            handleFirestoreError(error, OperationType.LIST, `users/${userId}/cards (new)`);
+        }
+    }
+    
+    return allNew.slice(0, maxNew);
+};
 
 export const saveCardsBatchToDb = async (userId: string, cards: Flashcard[]) => {
     try {
@@ -101,18 +176,7 @@ export const subscribeToCards = (userId: string, callback: (cards: Record<string
     return onSnapshot(q, (snapshot) => {
         const cardsRecord: Record<string, Flashcard[]> = {};
         snapshot.forEach(doc => {
-            const data = doc.data();
-            const card: Flashcard = {
-                ...data,
-                id: doc.id,
-                createdAt: data.createdAt ? data.createdAt.toDate() : new Date(),
-                updatedAt: data.updatedAt ? data.updatedAt.toDate() : undefined,
-                fsrsData: {
-                    ...data.fsrsData,
-                    due: data.fsrsData.due ? data.fsrsData.due.toDate() : new Date(),
-                    last_review: data.fsrsData.last_review ? data.fsrsData.last_review.toDate() : undefined
-                }
-            } as any;
+            const card = mapCardDoc(doc);
             
             if (!cardsRecord[card.deckId]) {
                 cardsRecord[card.deckId] = [];
