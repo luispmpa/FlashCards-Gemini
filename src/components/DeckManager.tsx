@@ -1,10 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Deck, Flashcard } from '../types';
-import { Folder, FolderPlus, Plus, Sparkles, X, ChevronDown, ChevronRight, Layers, AlertCircle, Trash2 } from 'lucide-react';
+import { Folder, FolderPlus, Plus, Sparkles, X, ChevronDown, ChevronRight, AlertCircle, Trash2 } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
-import { isSimilarTopic } from '../lib/topicUtils';
-import { updateCardInDb, deleteDeckFromDb } from '../db';
-import { auth } from '../firebase';
 
 interface DeckManagerProps {
   decks: Deck[];
@@ -18,8 +15,7 @@ interface DeckManagerProps {
 export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateAI, onNavigate }: DeckManagerProps) {
   const rootDecks = decks.filter(d => !d.parentId);
   const [generations, setGenerations] = useState<Record<string, boolean>>({});
-  const [isMerging, setIsMerging] = useState(false);
-  
+
   // Accordion state
   const [expandedDecks, setExpandedDecks] = useState<Set<string>>(new Set());
   
@@ -34,7 +30,6 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
   const [createDeckParentId, setCreateDeckParentId] = useState<string | undefined>();
   const [createDeckName, setCreateDeckName] = useState("");
 
-  const [confirmMergeOpen, setConfirmMergeOpen] = useState(false);
   const [deleteDeckInfo, setDeleteDeckInfo] = useState<{isOpen: boolean, deckId: string, deckName: string}>({isOpen: false, deckId: '', deckName: ''});
   const [alertInfo, setAlertInfo] = useState<{isOpen: boolean, message: string}>({isOpen: false, message: ""});
 
@@ -95,93 +90,6 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
       setGenerations(prev => ({...prev, [targetDeckId]: false}));
   }
 
-  const foundDuplicatesGroupInfo = useMemo(() => {
-      const duplicatePairs: { main: string, dup: string }[] = [];
-      const parentDecks = decks.filter(d => !d.parentId);
-      for (const root of parentDecks) {
-          const subs = decks.filter(d => d.parentId === root.id);
-          const visited = new Set<string>();
-          for (let i = 0; i < subs.length; i++) {
-              const subA = subs[i];
-              if (visited.has(subA.id)) continue;
-              for (let j = i + 1; j < subs.length; j++) {
-                  const subB = subs[j];
-                  if (visited.has(subB.id)) continue;
-                  if (isSimilarTopic(subA.name, subB.name, root.name)) {
-                      visited.add(subB.id);
-                      duplicatePairs.push({ main: subA.name, dup: subB.name });
-                  }
-              }
-          }
-      }
-      return duplicatePairs;
-  }, [decks]);
-
-  const hasDuplicates = foundDuplicatesGroupInfo.length > 0;
-
-  const handleMergeDuplicatesClick = () => {
-      setConfirmMergeOpen(true);
-  };
-
-  const executeMergeDuplicates = async () => {
-      const userId = auth.currentUser?.uid;
-      if (!userId) return;
-      setConfirmMergeOpen(false);
-
-      try {
-          setIsMerging(true);
-          const parentDecks = decks.filter(d => !d.parentId);
-          let mergedCount = 0;
-          
-          for (const root of parentDecks) {
-              const subs = decks.filter(d => d.parentId === root.id);
-              const visited = new Set<string>();
-              
-              for (let i = 0; i < subs.length; i++) {
-                  const subA = subs[i];
-                  if (visited.has(subA.id)) continue;
-                  
-                  const group = [subA];
-                  for (let j = i + 1; j < subs.length; j++) {
-                      const subB = subs[j];
-                      if (visited.has(subB.id)) continue;
-                      if (isSimilarTopic(subA.name, subB.name, root.name)) {
-                          group.push(subB);
-                      }
-                  }
-                  
-                  if (group.length > 1) {
-                      group.sort((a, b) => b.name.length - a.name.length);
-                      const canonical = group[0];
-                      
-                      for (let k = 1; k < group.length; k++) {
-                          const duplicate = group[k];
-                          visited.add(duplicate.id);
-                          
-                          const dupCards = cards[duplicate.id] || [];
-                          for (const card of dupCards) {
-                              await updateCardInDb(userId, { ...card, deckId: canonical.id });
-                          }
-                          
-                          await deleteDeckFromDb(userId, duplicate.id);
-                          mergedCount++;
-                      }
-                  }
-              }
-          }
-          
-          if (mergedCount > 0) {
-              setAlertInfo({isOpen: true, message: `${mergedCount} assunto(s) redundantes foram mesclados com sucesso! Todos os flashcards foram preservados e agrupados.`});
-          } else {
-              setAlertInfo({isOpen: true, message: "Nenhum tópico duplicado foi encontrado."});
-          }
-      } catch (error) {
-          console.error("Erro ao mesclar duplicados:", error);
-          setAlertInfo({isOpen: true, message: "Ocorreu um erro ao organizar os tópicos duplicados."});
-      } finally {
-          setIsMerging(false);
-      }
-  };
 
   // Helper to recursively get all descendant deck IDs
   const getChildrenIds = (deckId: string): string[] => {
@@ -274,20 +182,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
               <p className="text-slate-500 mt-1 text-sm md:text-base">Organize sua hierarquia de estudos e gere flashcards com IA.</p>
            </div>
            <div className="flex flex-col sm:flex-row gap-2 shrink-0 w-full sm:w-auto">
-              {hasDuplicates && (
-                  <button 
-                    onClick={handleMergeDuplicatesClick}
-                    disabled={isMerging}
-                    className="px-4 py-2 justify-center bg-amber-500 hover:bg-amber-600 active:bg-amber-700 text-white rounded-lg text-sm font-semibold transition flex items-center shadow-md select-none animate-pulse shrink-0"
-                  >
-                     <Layers size={16} className="mr-2"/> 
-                     {isMerging ? 'Mesclando...' : 'Mesclar Duplicados'}
-                     <span className="ml-1.5 px-2 py-0.5 bg-white text-amber-700 text-[10px] rounded-full font-bold">
-                        {foundDuplicatesGroupInfo.length}
-                     </span>
-                  </button>
-              )}
-              <button 
+              <button
                 onClick={handleCreateRoot}
                 className="px-4 py-2 justify-center bg-slate-900 text-white rounded-lg text-sm font-medium hover:bg-slate-800 transition flex items-center shadow-sm"
               >
@@ -430,45 +325,6 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
            </div>
        )}
 
-       {confirmMergeOpen && (
-           <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[70] backdrop-blur-sm">
-               <div className="bg-white rounded-2xl max-w-md w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
-                   <div className="p-6">
-                       <div className="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mb-4">
-                           <Layers size={24} />
-                       </div>
-                       <h3 className="text-lg font-bold text-slate-900 mb-2">Mesclar Assuntos Duplicados?</h3>
-                       <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-                           Identificamos <strong className="text-slate-800">{foundDuplicatesGroupInfo.length}</strong> redundâncias nas suas matérias. Eles serão organizados e unidos ao tópico principal correspondente. 
-                       </p>
-                       <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 max-h-40 overflow-y-auto mb-4 custom-scrollbar">
-                           <ul className="space-y-2 text-xs text-slate-600">
-                               {foundDuplicatesGroupInfo.map((pair, idx) => (
-                                   <li key={idx}>• <span className="font-semibold text-slate-700">"{pair.dup}"</span> integrado em <span className="font-semibold text-slate-700">"{pair.main}"</span></li>
-                               ))}
-                           </ul>
-                       </div>
-                       <p className="text-sm text-slate-600 mb-2">
-                           Todos os seus flashcards serão preservados. Esta ação não pode ser desfeita. Confirmar?
-                       </p>
-                   </div>
-                   <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-end space-x-3">
-                       <button 
-                           onClick={() => setConfirmMergeOpen(false)}
-                           className="px-4 py-2 text-sm font-medium text-slate-600 hover:text-slate-800 transition rounded-lg"
-                       >
-                           Cancelar
-                       </button>
-                       <button 
-                           onClick={executeMergeDuplicates}
-                           className="px-4 py-2 bg-amber-500 text-white rounded-lg text-sm font-medium hover:bg-amber-600 shadow-sm transition"
-                       >
-                           Confirmar Mesclagem
-                       </button>
-                   </div>
-               </div>
-           </div>
-       )}
 
        {deleteDeckInfo.isOpen && (
            <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[70] backdrop-blur-sm">
