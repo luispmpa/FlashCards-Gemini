@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { Flashcard, Deck } from '../types';
 import { Search, Edit2, Trash2, ArrowUpDown, ArrowUp, ArrowDown, Play } from 'lucide-react';
 import { format, isSameDay, isBefore, parseISO, isSameMonth } from 'date-fns';

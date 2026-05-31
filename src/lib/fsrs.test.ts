@@ -42,7 +42,6 @@ describe('FSRS Implementation', () => {
     const afterSecond = new Date(card.fsrsData.due);
     
     // The interval should increase
-    const interval1 = afterFirst.getTime() - start.getTime();
     const interval2 = afterSecond.getTime() - day2.getTime();
     
     expect(interval2).toBeGreaterThanOrEqual(0);

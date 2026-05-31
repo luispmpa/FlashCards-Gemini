@@ -8,16 +8,13 @@ import { Deck, Flashcard, ReviewLog } from './types';
 import { v4 as uuidv4 } from "uuid";
 import { createInitialFSRSData } from './lib/fsrs';
 import { SettingsView } from './components/SettingsView';
-import { Search, LogIn, Loader2, Menu, X } from 'lucide-react';
+import { Search, Loader2, Menu } from 'lucide-react';
 import { auth, loginWithGoogle, logout } from './firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
-import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, updateDeckInDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb, saveCardToDb } from './db';
+import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb } from './db';
 import { isSimilarTopic } from './lib/topicUtils';
-import { runDatabaseMigration } from './lib/migration';
 import { ReviewHistory } from './components/ReviewHistory';
 import { ReportProblemModal } from './components/ReportProblemModal';
-
-import { MOCK_CARDS } from './store/mockData';
 
 interface NavigationState {
   view: string;
@@ -30,7 +27,6 @@ export default function App() {
   const [decks, setDecks] = useState<Deck[]>([]);
   const [cards, setCards] = useState<Record<string, Flashcard[]>>({});
   const [reviewLogs, setReviewLogs] = useState<ReviewLog[]>([]);
-  const [isGenerating, setIsGenerating] = useState(false);
   const [globalSearch, setGlobalSearch] = useState("");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
@@ -38,9 +34,6 @@ export default function App() {
   const [authLoading, setAuthLoading] = useState(true);
   const [isLoggingIn, setIsLoggingIn] = useState(false);
   const [reportModalOpen, setReportModalOpen] = useState(false);
-  
-  const [isMigrating, setIsMigrating] = useState(false);
-  const [migrationStatus, setMigrationStatus] = useState("");
 
   const [alertInfo, setAlertInfo] = useState<{isOpen: boolean, message: string, title?: string}>({isOpen: false, message: ""});
 
@@ -166,7 +159,6 @@ export default function App() {
 
   const handleGenerateCards = async (deckId: string, subject: string, topicPrompt: string, count: number) => {
       try {
-         setIsGenerating(true);
          
          // Collect existing fronts for the deck (this is a bit shallow if it's a root deck, 
          // since it only checks cards ON the root deck. Let's find all cards in root or its subs)
@@ -241,26 +233,7 @@ export default function App() {
          setAlertInfo({isOpen: true, title: "Sucesso", message: `${newCards.length} flashcards gerados com sucesso!`});
       } catch (e: any) {
          setAlertInfo({isOpen: true, title: "Erro na Geração", message: "Erro ao gerar flashcards.\n\n" + e.message});
-      } finally {
-         setIsGenerating(false);
       }
-  };
-
-  const handleRunMigration = async () => {
-    if (!user) return;
-    setIsMigrating(true);
-    setMigrationStatus("Iniciando migração...");
-    try {
-        const allCardsList = Object.values(cards).flat();
-        await runDatabaseMigration(user.uid, decks, allCardsList, (msg) => {
-            setMigrationStatus(prev => prev + '\n' + msg);
-        });
-        setAlertInfo({isOpen: true, title: "Migração Concluída", message: "A estrutura de tópicos e organização de cards foi finalizada!"});
-    } catch (err: any) {
-        setAlertInfo({isOpen: true, title: "Erro", message: "Erro na migração: " + err.message});
-    } finally {
-        setIsMigrating(false);
-    }
   };
 
   if (authLoading) {
@@ -371,7 +344,7 @@ export default function App() {
          )}
 
          <div className="flex-1 overflow-y-auto">
-             {navState.view === 'dashboard' && <Dashboard cards={cards} decks={decks} onNavigate={handleNavigate} />}
+             {navState.view === 'dashboard' && <Dashboard cards={cards} decks={decks} logs={reviewLogs} onNavigate={handleNavigate} />}
              {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} onFinishStudy={() => handleNavigate('browser', navState.filter)} />}
              {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} initialFilter={navState.filter} /> }
              {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onGenerateAI={handleGenerateCards} onNavigate={handleNavigate} />}

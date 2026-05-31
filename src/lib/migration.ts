@@ -57,7 +57,7 @@ const getKeywords = (str: string) => {
     return normalizeTopic(str).split(' ').filter(w => w.length > 2 && !stopwords.has(w));
 };
 
-export const runDatabaseMigration = async (userId: string, stateDecks: Deck[], allCards: Flashcard[], onProgress: (msg: string) => void) => {
+export const runDatabaseMigration = async (userId: string, _stateDecks: Deck[], allCards: Flashcard[], onProgress: (msg: string) => void) => {
   onProgress("Sincronizando Estado com o Servidor...");
 
   const { collection, getDocs } = await import('firebase/firestore');
@@ -160,13 +160,6 @@ export const runDatabaseMigration = async (userId: string, stateDecks: Deck[], a
 
       if (currentDeck) {
           bestMatchSubtopic = findBestMatch(currentDeck.name);
-      }
-
-      if (!bestMatchSubtopic && card.tags) {
-         for (const tag of card.tags) {
-             bestMatchSubtopic = findBestMatch(tag);
-             if (bestMatchSubtopic) break;
-         }
       }
 
       if (bestMatchSubtopic) {

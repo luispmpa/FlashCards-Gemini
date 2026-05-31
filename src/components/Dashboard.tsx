@@ -1,17 +1,19 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell } from 'recharts';
-import { Flashcard, Deck } from '../types';
-import { isBefore, startOfToday, format, addDays, addMonths, isSameMonth } from "date-fns";
-import { CheckCircle2, TrendingUp, XCircle, Brain, Calendar, ChevronRight } from 'lucide-react';
+import { Flashcard, Deck, ReviewLog } from '../types';
+import { isBefore, startOfToday, format, addDays, subDays, addMonths, isSameMonth } from "date-fns";
+import { CheckCircle2, TrendingUp, Brain, Calendar, ChevronRight, Flame } from 'lucide-react';
 import { cn } from '../lib/utils';
+import { getUserSettings } from '../lib/settings';
 
 interface DashboardProps {
   cards: Record<string, Flashcard[]>;
   decks: Deck[];
+  logs: ReviewLog[];
   onNavigate: (view: string, filter?: any) => void;
 }
 
-export function Dashboard({ cards, decks, onNavigate }: DashboardProps) {
+export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
   type ChartRange = '7d' | '30d' | '6m' | '1a';
   const [chartRange, setChartRange] = useState<ChartRange>('7d');
   const allCards = useMemo(() => Object.values(cards).flat(), [cards]);
@@ -66,8 +68,85 @@ export function Dashboard({ cards, decks, onNavigate }: DashboardProps) {
      return data;
   }, [allCards, today, chartRange]);
 
+  const settings = getUserSettings();
+  
+  const streak = useMemo(() => {
+      if (!logs || logs.length === 0) return 0;
+      
+      const distinctDays = [...new Set(logs.map(log => format(new Date(log.reviewedAt), 'yyyy-MM-dd')))].sort().reverse();
+      
+      let currentStreak = 0;
+      let checkDate = startOfToday();
+      
+      if (distinctDays[0] === format(checkDate, 'yyyy-MM-dd')) {
+          currentStreak++;
+          checkDate = subDays(checkDate, 1);
+      } else if (distinctDays[0] === format(subDays(checkDate, 1), 'yyyy-MM-dd')) {
+          // Started yesterday, acceptable to continue today
+          checkDate = subDays(checkDate, 1);
+      } else {
+          return 0; // No activity today or yesterday
+      }
+
+      for (let i = currentStreak === 1 ? 1 : 0; i < distinctDays.length; i++) {
+          if (distinctDays[i] === format(checkDate, 'yyyy-MM-dd')) {
+              currentStreak++;
+              checkDate = subDays(checkDate, 1);
+          } else {
+              break;
+          }
+      }
+      return currentStreak;
+  }, [logs]);
+
+  const reviewsToday = useMemo(() => {
+      const todayStr = format(startOfToday(), 'yyyy-MM-dd');
+      return logs.filter(log => format(new Date(log.reviewedAt), 'yyyy-MM-dd') === todayStr).length;
+  }, [logs]);
+
+  const goalProgress = Math.min(100, Math.round((reviewsToday / settings.reviewsPerDay) * 100));
+
   return (
     <div className="p-4 md:p-8 max-w-7xl mx-auto space-y-8 animate-in fade-in duration-500">
+      
+      {/* Daily Goal & Streak Banner */}
+      <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="flex-1 w-full">
+            <h3 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-2">Meta Diária</h3>
+            <div className="flex items-end gap-2 mb-2">
+                <span className="text-3xl font-bold text-slate-900">{reviewsToday}</span>
+                <span className="text-slate-500 mb-1">/ {settings.reviewsPerDay} revisões</span>
+            </div>
+            <div className="w-full bg-slate-100 rounded-full h-3 max-w-md overflow-hidden border border-slate-200">
+                <div 
+                  className={cn(
+                      "h-full rounded-full transition-all duration-1000",
+                      goalProgress >= 100 ? "bg-emerald-500" : "bg-indigo-500"
+                  )} 
+                  style={{ width: `${goalProgress}%` }}
+                />
+            </div>
+            {goalProgress >= 100 && (
+                <p className="text-emerald-600 text-sm mt-2 font-medium flex items-center">
+                    <CheckCircle2 size={16} className="mr-1" /> Meta atingida!
+                </p>
+            )}
+        </div>
+        
+        <div className="flex items-center gap-4 bg-orange-50 px-6 py-4 rounded-xl border border-orange-100 shrink-0 min-w-[200px] justify-center">
+            <div className="bg-orange-100 p-3 rounded-full text-orange-500 shadow-sm">
+                <Flame size={28} className={streak > 0 ? "fill-orange-500" : ""} />
+            </div>
+            <div>
+                <p className="text-xs font-bold text-orange-600/80 uppercase tracking-wider">Ofensiva</p>
+                <div className="flex items-baseline gap-1">
+                    <span className="text-3xl font-bold text-orange-600">{streak}</span>
+                    <span className="text-orange-700/70 font-medium">dias</span>
+                </div>
+            </div>
+        </div>
+      </div>
+
       <div>
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 border-b pb-4">Visão Geral</h2>
       </div>
@@ -131,7 +210,7 @@ export function Dashboard({ cards, decks, onNavigate }: DashboardProps) {
                           }
                       }}
                  >
-                    {scheduleData.map((entry, index) => (
+                    {scheduleData.map((_entry, index) => (
                        <Cell key={`cell-${index}`} fill="#6366f1" className="cursor-pointer hover:opacity-80 transition-opacity" />
                     ))}
                  </Bar>

@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Flashcard, Deck, Rating } from '../types';
 import { applyFSRSRating } from '../lib/fsrs';
-import { isBefore, startOfToday, addDays } from 'date-fns';
+import { startOfToday, addDays } from 'date-fns';
 import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, ChevronUp, Check } from 'lucide-react';
 import { cn } from '../lib/utils';
 import ReactMarkdown from 'react-markdown';
 import { getCorrectIndex } from '../lib/cardUtils';
 import { getUserSettings } from '../lib/settings';
+import { getCardsForStudySession } from '../db';
 
 interface StudyViewProps {
   decks: Deck[];
@@ -41,21 +42,15 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
   const startStudy = (deckId: string) => {
     // If no deck picked, gather all. In real app, we filter by selected
     const deckIds = deckId ? [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)] : decks.map(d => d.id);
-    const allEligible = deckIds.flatMap(id => allCards[id] || []);
     
-    // Separate by type
-    const newCards = allEligible.filter(c => c.fsrsData.state === "New");
-    const dueCards = allEligible.filter(c => c.fsrsData.state !== "New" && isBefore(new Date(c.fsrsData.due), addDays(startOfToday(), 1)));
-
     // Load user settings limits
     const settings = getUserSettings();
     
-    // Limits
-    const limitedNew = newCards.slice(0, settings.newPerDay);
-    const limitedDue = dueCards.slice(0, settings.reviewsPerDay);
+    // Limits applied via our dedicated function for future-proofing
+    const targetDate = addDays(startOfToday(), 1);
+    const cardsToStudy = getCardsForStudySession(allCards, deckIds, settings.newPerDay, settings.reviewsPerDay, targetDate);
     
-    // Combine and shuffle
-    const cardsToStudy = [...limitedDue, ...limitedNew];
+    // Shuffle
     const shuffled = [...cardsToStudy].sort(() => Math.random() - 0.5);
     
     setQueue(shuffled);
@@ -95,6 +90,28 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
     setShowAnswer(false);
     setSelectedOptionIndex(null);
   };
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+        if (!activeCard) return;
+        if (['input', 'textarea'].includes(document.activeElement?.tagName.toLowerCase() || '')) return;
+
+        if (e.code === 'Space') {
+            e.preventDefault();
+            if (!showAnswer) setShowAnswer(true);
+        } else if (showAnswer) {
+            switch (e.key) {
+                case '1': handleRating("Again"); break;
+                case '2': handleRating("Hard"); break;
+                case '3': handleRating("Good"); break;
+                case '4': handleRating("Easy"); break;
+            }
+        }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [activeCard, showAnswer]);
 
   if (!activeCard) {
     if (targetCardId) {
@@ -164,18 +181,18 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
           {activeCard.options && !showAnswer && (
              <div className="mt-8 space-y-3">
                  {activeCard.options.map((opt, i) => (
-                     <div 
+                     <button 
                          key={i} 
                          onClick={() => setSelectedOptionIndex(i)}
                          className={cn(
-                             "p-4 border rounded-lg cursor-pointer transition-colors text-left font-medium",
+                             "w-full p-4 border rounded-lg transition-colors text-left font-medium",
                              selectedOptionIndex === i 
                                  ? "border-indigo-500 bg-indigo-50 text-indigo-700" 
                                  : "border-slate-200 text-slate-700 hover:bg-slate-50"
                          )}
                      >
                          {opt}
-                     </div>
+                     </button>
                  ))}
                  <p className="text-xs text-slate-400 text-center mt-2 italic">Apenas reflita sobre a opção correta antes de revelar a resposta.</p>
              </div>

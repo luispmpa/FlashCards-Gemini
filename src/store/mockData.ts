@@ -27,7 +27,6 @@ export const MOCK_CARDS: Flashcard[] = [
     back: "Gabarito: A\n\nO princípio da Exclusividade (art. 165, § 8º, da CF) determina que a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e contratação de operações de crédito, ainda que por antecipação de receita (ARO).",
     fsrsData: createInitialFSRSData(),
     createdAt: new Date(),
-    tags: ["afo", "princípios"],
   },
   {
     id: uuidv4(),
@@ -49,6 +48,5 @@ export const MOCK_CARDS: Flashcard[] = [
         reps: 2
     },
     createdAt: new Date(),
-    tags: ["atos"],
   }
 ];

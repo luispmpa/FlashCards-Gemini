@@ -1,9 +1,7 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Deck, Flashcard } from '../types';
-import { Folder, FolderPlus, Plus, Sparkles, X, ChevronDown, ChevronRight, Layers, AlertCircle, Trash2 } from 'lucide-react';
+import { Folder, FolderPlus, Plus, Sparkles, X, ChevronDown, ChevronRight, AlertCircle, Trash2 } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
-import { updateCardInDb, deleteDeckFromDb } from '../db';
-import { auth } from '../firebase';
 
 interface DeckManagerProps {
   decks: Deck[];

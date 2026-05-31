@@ -1,4 +1,6 @@
-import { collection, doc, setDoc, getDocs, updateDoc, deleteDoc, onSnapshot, query, where, serverTimestamp, orderBy, writeBatch } from 'firebase/firestore';
+import { collection, doc, setDoc, updateDoc, deleteDoc, onSnapshot, query, serverTimestamp, orderBy, writeBatch } from 'firebase/firestore';
+import { db, auth } from './firebase';
+import { Deck, Flashcard, ReviewLog } from './types';
 
 export const saveCardsBatchToDb = async (userId: string, cards: Flashcard[]) => {
     try {
@@ -42,8 +44,6 @@ export const deleteDeckCascade = async (userId: string, targetDeckIds: string[],
         handleFirestoreError(error, OperationType.DELETE, `users/${userId}/decks (cascade)`);
     }
 };
-import { db, auth } from './firebase';
-import { Deck, Flashcard, ReviewLog } from './types';
 
 enum OperationType {
   CREATE = 'create',
@@ -123,6 +123,22 @@ export const subscribeToCards = (userId: string, callback: (cards: Record<string
     }, (error) => {
         handleFirestoreError(error, OperationType.LIST, `users/${userId}/cards`);
     });
+};
+
+/**
+ * Incremental step towards #6: Isolates the reading of due cards for study sessions.
+ * Currently uses the fetched `allCards` to not break existing UI, but prepares the API
+ * for future direct Firestore querying using `getDocs` + `where`.
+ */
+export const getCardsForStudySession = (allCards: Record<string, Flashcard[]>, deckIds: string[], limitNew: number, limitDue: number, targetDate: Date): Flashcard[] => {
+    const allEligible = deckIds.flatMap(id => allCards[id] || []);
+    const newCards = allEligible.filter(c => c.fsrsData.state === "New");
+    const dueCards = allEligible.filter(c => c.fsrsData.state !== "New" && c.fsrsData.due.getTime() <= targetDate.getTime());
+
+    const limitedNew = newCards.slice(0, limitNew);
+    const limitedDue = dueCards.slice(0, limitDue);
+    
+    return [...limitedDue, ...limitedNew];
 };
 
 export const saveDeckToDb = async (userId: string, deck: Deck) => {

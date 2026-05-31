@@ -22,8 +22,6 @@ export interface Flashcard {
   correctOption?: string; // Optional for backward compatibility with old cards
   fsrsData: FSRSData;
   createdAt: Date;
-  tags?: string[];
-  comments?: string;
 }
 
 export interface Deck {

@@ -1,7 +1,7 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { ReviewLog } from '../types';
 import { format } from 'date-fns';
-import { Search, Calendar, Award, CheckCircle, Clock } from 'lucide-react';
+import { Search, Calendar } from 'lucide-react';
 
 interface ReviewHistoryProps {
   logs: ReviewLog[];
