@@ -177,29 +177,25 @@ export default function App() {
          const targetDeck = decks.find(d => d.id === deckId);
          const isRoot = targetDeck && !targetDeck.parentId;
 
+         // Tópicos sugeridos pela IA que ainda não existem nesta matéria (nome -> qtd de cards).
+         // Não criamos tópicos automaticamente: o usuário cria os tópicos/assuntos manualmente.
+         const missingTopics = new Map<string, number>();
+
          for (const c of aiCards) {
              let finalDeckId = deckId;
-             if (isRoot && c.topicName) {
-                 const topicStr = c.topicName.trim() || 'Assuntos Gerais';
-                 // have to lookup decks dynamically as we might have created one in the same loop
-                 let existingSub = decks.find(
+             if (isRoot && c.topicName && c.topicName.trim()) {
+                 const topicStr = c.topicName.trim();
+                 const existingSub = decks.find(
                      d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name)
                  );
-                 
+
                  if (existingSub) {
                      finalDeckId = existingSub.id;
                  } else {
-                     const newSubdeckId = uuidv4();
-                     const newSubDeck: Deck = {
-                         id: newSubdeckId,
-                         parentId: deckId,
-                         name: topicStr,
-                         createdAt: new Date()
-                     };
-                     await saveDeckToDb(user.uid, newSubDeck);
-                     // eagerly add to state so next iteration can find it (or just rely on snapshot, but it might be slower)
-                     decks.push(newSubDeck); 
-                     finalDeckId = newSubdeckId;
+                     // Sem tópico/assunto correspondente: mantém o card na própria matéria (raiz)
+                     // para o usuário mover depois, e registra qual tópico a IA sugeriu.
+                     finalDeckId = deckId;
+                     missingTopics.set(topicStr, (missingTopics.get(topicStr) || 0) + 1);
                  }
              }
 
@@ -212,11 +208,19 @@ export default function App() {
                  fsrsData: createInitialFSRSData(),
                  createdAt: new Date()
              };
-             
+
              await saveCardToDb(user.uid, newFlashcard);
          }
-         
-         setAlertInfo({isOpen: true, title: "Sucesso", message: `${aiCards.length} flashcards gerados com sucesso!`});
+
+         let successMsg = `${aiCards.length} flashcards gerados com sucesso!`;
+         if (missingTopics.size > 0) {
+             const unmatchedCount = Array.from(missingTopics.values()).reduce((a, b) => a + b, 0);
+             const detalhes = Array.from(missingTopics.entries())
+                 .map(([name, qtd]) => `• ${name} (${qtd} card${qtd > 1 ? 's' : ''})`)
+                 .join('\n');
+             successMsg += `\n\n${unmatchedCount} card${unmatchedCount > 1 ? 's foram inseridos' : ' foi inserido'} na matéria "${subject}" por não haver tópico/assunto correspondente. Crie ${missingTopics.size > 1 ? 'estes tópicos' : 'este tópico'} e mova ${unmatchedCount > 1 ? 'os cards' : 'o card'}:\n${detalhes}`;
+         }
+         setAlertInfo({isOpen: true, title: "Sucesso", message: successMsg});
       } catch (e: any) {
          setAlertInfo({isOpen: true, title: "Erro na Geração", message: "Erro ao gerar flashcards.\n\n" + e.message});
       } finally {
