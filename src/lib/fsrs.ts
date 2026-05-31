@@ -1,101 +1,84 @@
-import { Flashcard, FSRSData, Rating } from "../types";
-import { addDays, addMinutes, differenceInDays } from "date-fns";
+import { fsrs, generatorParameters, createEmptyCard, Rating as FsrsRating, State, type Card as FsrsCard } from 'ts-fsrs';
+import { Flashcard, FSRSData, Rating, FSRSState } from '../types';
 
-// This is a simplified, simulated FSRS scheduling algorithm.
-// A real implementation would use the exact FSRS weights and logarithmic formulas.
+const f = fsrs(generatorParameters({
+  request_retention: 0.9,
+  maximum_interval: 36500, // days (~100 years = no explosion, but absolute max)
+  enable_fuzz: true,
+}));
+
+// Provide exactly what ts-fsrs expects for Rating
+const RATING_MAP: Record<Rating, any> = {
+  Again: FsrsRating.Again, 
+  Hard: FsrsRating.Hard, 
+  Good: FsrsRating.Good, 
+  Easy: FsrsRating.Easy,
+};
+
+const STATE_TO_STR: Record<State, FSRSState> = {
+  [State.New]: "New",
+  [State.Learning]: "Learning",
+  [State.Review]: "Review",
+  [State.Relearning]: "Relearning"
+};
+
+const STR_TO_STATE: Record<FSRSState, State> = {
+  "New": State.New,
+  "Learning": State.Learning,
+  "Review": State.Review,
+  "Relearning": State.Relearning
+};
+
+function toFsrsCard(d: FSRSData): FsrsCard {
+  return {
+    due: d.due,
+    stability: d.stability,
+    difficulty: d.difficulty,
+    elapsed_days: d.elapsed_days,
+    scheduled_days: d.scheduled_days,
+    reps: d.reps,
+    lapses: d.lapses,
+    state: STR_TO_STATE[d.state],
+    last_review: d.last_review
+  } as FsrsCard; // Cast to FsrsCard as ts-fsrs might add internal fields like learning_steps in newer versions
+}
+
+function fromFsrsCard(c: FsrsCard): FSRSData {
+  return {
+    due: c.due,
+    stability: c.stability,
+    difficulty: c.difficulty,
+    elapsed_days: c.elapsed_days,
+    scheduled_days: c.scheduled_days,
+    reps: c.reps,
+    lapses: c.lapses,
+    state: STATE_TO_STR[c.state],
+    last_review: c.last_review
+  };
+}
+
 export function applyFSRSRating(card: Flashcard, rating: Rating, now: Date = new Date()): Flashcard {
   const currentData = card.fsrsData;
-  const oldState = currentData.state;
   
-  let nextState = currentData.state;
-  let nextDifficulty = currentData.difficulty;
-  let nextStability = currentData.stability;
-  let nextLapses = currentData.lapses;
-  let nextDue = now;
-  
-  // Rating multiplier approximations
-  const difficultyAdjustments = {
-    Again: +2,
-    Hard: +1,
-    Good: -0.5,
-    Easy: -2
-  };
-  
-  const stabilityMultipliers = {
-    Again: 0.1,
-    Hard: 1.2,
-    Good: 2.5,
-    Easy: 3.5
-  };
-
-  if (oldState === "New" || oldState === "Learning") {
-    if (rating === "Again") {
-      nextState = "Learning";
-      nextDue = addMinutes(now, 1);
-    } else if (rating === "Hard") {
-      nextState = "Learning";
-      nextDue = addMinutes(now, 5);
-    } else if (rating === "Good") {
-      nextState = "Review";
-      nextStability = 1;
-      nextDifficulty = 5;
-      nextDue = addDays(now, 1);
-    } else if (rating === "Easy") {
-      nextState = "Review";
-      nextStability = 4;
-      nextDifficulty = 3;
-      nextDue = addDays(now, 4);
-    }
-  } else if (oldState === "Review") {
-    if (rating === "Again") {
-      nextState = "Relearning";
-      nextLapses += 1;
-      nextStability = Math.max(0.1, nextStability * stabilityMultipliers.Again);
-      nextDue = addMinutes(now, 5);
-      nextDifficulty = Math.min(10, nextDifficulty + difficultyAdjustments.Again);
-    } else {
-      nextDifficulty = Math.max(1, Math.min(10, nextDifficulty + difficultyAdjustments[rating as keyof typeof difficultyAdjustments]));
-      nextStability = nextStability * stabilityMultipliers[rating as keyof typeof stabilityMultipliers];
-      nextDue = addDays(now, nextStability);
-    }
-  } else if (oldState === "Relearning") {
-    if (rating === "Again") {
-      nextDue = addMinutes(now, 5);
-    } else if (rating === "Hard") {
-      nextDue = addMinutes(now, 10);
-    } else {
-      nextState = "Review";
-      nextDue = addDays(now, 1);
+  // Compatibility: treat cards with old arbitrary states or 0 stability as new if state is 'New'
+  const fsrsReadyCard = toFsrsCard(currentData);
+  if (currentData.state === "New") {
+    // Ensuring new cards start completely clean in ts-fsrs eyes
+    Object.assign(fsrsReadyCard, createEmptyCard(fsrsReadyCard.due || now));
+    // Carry over last_review if it existed in some weird legacy state
+    if (currentData.last_review) {
+      fsrsReadyCard.last_review = currentData.last_review;
     }
   }
 
-  const elapsed = currentData.last_review ? differenceInDays(now, currentData.last_review) : 0;
+  const result = f.next(fsrsReadyCard, now, RATING_MAP[rating]);
   
   return {
     ...card,
-    fsrsData: {
-      state: nextState,
-      difficulty: nextDifficulty,
-      stability: nextStability,
-      due: nextDue,
-      reps: currentData.reps + 1,
-      lapses: nextLapses,
-      last_review: now,
-      elapsed_days: elapsed,
-      scheduled_days: differenceInDays(nextDue, now)
-    }
+    fsrsData: fromFsrsCard(result.card)
   };
 }
 
 export function createInitialFSRSData(): FSRSData {
-  return {
-    state: "New",
-    due: new Date(),
-    stability: 0,
-    difficulty: 5,
-    elapsed_days: 0,
-    scheduled_days: 0,
-    reps: 0,
-    lapses: 0
-  };
+  return fromFsrsCard(createEmptyCard(new Date()));
 }

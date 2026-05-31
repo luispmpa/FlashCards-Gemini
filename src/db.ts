@@ -1,4 +1,47 @@
-import { collection, doc, setDoc, getDocs, updateDoc, deleteDoc, onSnapshot, query, where, serverTimestamp, orderBy } from 'firebase/firestore';
+import { collection, doc, setDoc, getDocs, updateDoc, deleteDoc, onSnapshot, query, where, serverTimestamp, orderBy, writeBatch } from 'firebase/firestore';
+
+export const saveCardsBatchToDb = async (userId: string, cards: Flashcard[]) => {
+    try {
+        const batch = writeBatch(db);
+        cards.forEach(card => {
+            const ref = doc(db, 'users', userId, 'cards', card.id);
+            const { id, ...cardData } = card;
+            const data: any = {
+                ...cardData,
+                userId,
+                createdAt: serverTimestamp(),
+                updatedAt: serverTimestamp()
+            };
+            if (data.options === undefined) delete data.options;
+            if (data.correctOption === undefined) delete data.correctOption;
+            if (data.fsrsData?.last_review === undefined) delete data.fsrsData.last_review;
+            batch.set(ref, data);
+        });
+        await batch.commit();
+    } catch (error) {
+        handleFirestoreError(error, OperationType.WRITE, `users/${userId}/cards (batch)`);
+    }
+};
+
+export const deleteDeckCascade = async (userId: string, targetDeckIds: string[], targetCardIds: string[]) => {
+    try {
+        const batch = writeBatch(db);
+        
+        targetDeckIds.forEach(deckId => {
+            const ref = doc(db, 'users', userId, 'decks', deckId);
+            batch.delete(ref);
+        });
+        
+        targetCardIds.forEach(cardId => {
+            const ref = doc(db, 'users', userId, 'cards', cardId);
+            batch.delete(ref);
+        });
+        
+        await batch.commit();
+    } catch (error) {
+        handleFirestoreError(error, OperationType.DELETE, `users/${userId}/decks (cascade)`);
+    }
+};
 import { db, auth } from './firebase';
 import { Deck, Flashcard, ReviewLog } from './types';
 

@@ -2,7 +2,54 @@ import { Deck, Flashcard } from '../types';
 import { v4 as uuidv4 } from 'uuid';
 import { saveDeckToDb, updateCardInDb, deleteDeckFromDb, updateDeckInDb } from '../db';
 import { normalizeTopic } from './topicUtils';
-import { TARGET_STRUCTURE } from './topicStructure';
+
+const TARGET_STRUCTURE = [
+  {
+    name: "Direito Administrativo",
+    subtopics: [
+      "Princípios administrativos",
+      "Atos administrativos",
+      "Poderes administrativos",
+      "Organização administrativa",
+      "Agentes públicos",
+      "Licitações e contratos (Lei 14.133)",
+      "Responsabilidade civil do Estado",
+      "Improbidade administrativa",
+      "Serviços públicos",
+      "Controle da Administração"
+    ]
+  },
+  {
+    name: "Direito Constitucional",
+    subtopics: [
+      "Princípios fundamentais",
+      "Direitos e garantias fundamentais",
+      "Organização do Estado",
+      "Administração Pública",
+      "Poder Legislativo",
+      "Poder Executivo",
+      "Poder Judiciário",
+      "Controle de constitucionalidade",
+      "Processo legislativo",
+      "Poder constituinte"
+    ]
+  },
+  {
+    name: "AFO - Administração Financeira Orçamentária",
+    subtopics: [
+      "PPA",
+      "LDO",
+      "LOA",
+      "Créditos adicionais",
+      "Receita pública",
+      "Despesa pública",
+      "Restos a pagar",
+      "LRF",
+      "Ciclo orçamentário",
+      "Execução orçamentária"
+    ]
+  }
+];
 
 // Helper for strict matching
 const getKeywords = (str: string) => {

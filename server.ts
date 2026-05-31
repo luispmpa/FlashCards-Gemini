@@ -1,12 +1,55 @@
-import express from "express";
+import express, { Request, Response, NextFunction } from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
+import { initializeApp, applicationDefault } from 'firebase-admin/app';
+import { getAuth } from 'firebase-admin/auth';
+
+// Initialize firebase admin for token verification
+// This uses application default credentials on Cloud Run
+try {
+  initializeApp({ credential: applicationDefault() });
+} catch (e: any) {
+  if (e.code !== 'app/duplicate-app') {
+    console.error("Firebase admin init error:", e);
+  }
+}
+
+// Extend Request type to include uid
+declare global {
+  namespace Express {
+    interface Request {
+      uid?: string;
+    }
+  }
+}
 
 // We won't block startup if key is missing, only throw when we generate cards
 let ai: GoogleGenAI | null = null;
 if (process.env.GEMINI_API_KEY) {
   ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+}
+
+// Rate limit logic in memory
+const rateLimitMap = new Map<string, { count: number, windowStart: number }>();
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000; // 1 hour
+const MAX_GENERATIONS_PER_WINDOW = 20;
+
+async function requireAuth(req: Request, res: Response, next: NextFunction) {
+  const header = req.headers.authorization || '';
+  const token = header.startsWith('Bearer ') ? header.slice(7) : null;
+  if (!token) {
+    res.status(401).json({ error: 'Não autenticado.' });
+    return;
+  }
+  try { 
+    const decodedToken = await getAuth().verifyIdToken(token);
+    req.uid = decodedToken.uid;
+    next(); 
+  }
+  catch (e) {
+    res.status(401).json({ error: 'Token inválido.' });
+  }
 }
 
 async function startServer() {
@@ -16,10 +59,29 @@ async function startServer() {
   app.use(express.json());
 
   // API Routes
-  app.post("/api/generate-cards", async (req, res) => {
+  app.post("/api/generate-cards", requireAuth, async (req, res) => {
     try {
+      const uid = req.uid!;
+      
+      // Check rate limit
+      const now = Date.now();
+      const userRate = rateLimitMap.get(uid) || { count: 0, windowStart: now };
+      if (now - userRate.windowStart > RATE_LIMIT_WINDOW_MS) {
+        userRate.count = 0;
+        userRate.windowStart = now;
+      }
+      
+      if (userRate.count >= MAX_GENERATIONS_PER_WINDOW) {
+        res.status(429).json({ error: "Limite de geração excedido. Tente novamente mais tarde." });
+        return;
+      }
+      
+      // Increment only if we actually proceed to generate
+      rateLimitMap.set(uid, { ...userRate, count: userRate.count + 1 });
+      
       if (!ai) {
-        return res.status(500).json({ error: "GEMINI_API_KEY environment variable is required to generate cards." });
+        res.status(500).json({ error: "GEMINI_API_KEY environment variable is required to generate cards." });
+        return;
       }
 
       const { subject, topicPrompt, examBoard, count = 10, existingFronts = [], existingTopics = [] } = req.body;
@@ -84,9 +146,10 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
                         items: { type: "STRING" },
                         description: "Alternativas de A até E"
                       },
-                      back: { type: "STRING", description: "Gabarito (ex: Gabarito: B) e Explicação formatada em Markdown." }
+                      back: { type: "STRING", description: "Gabarito (ex: Gabarito: B) e Explicação formatada em Markdown." },
+                      correctOption: { type: "STRING", description: "Letra da alternativa correta: A, B, C, D ou E." }
                     },
-                    required: ["topicName", "front", "options", "back"]
+                    required: ["topicName", "front", "options", "back", "correctOption"]
                   }
                 }
             }

@@ -7,10 +7,11 @@ import { CardBrowser, CardBrowserFilter } from './components/CardBrowser';
 import { Deck, Flashcard, ReviewLog } from './types';
 import { v4 as uuidv4 } from "uuid";
 import { createInitialFSRSData } from './lib/fsrs';
+import { SettingsView } from './components/SettingsView';
 import { Search, LogIn, Loader2, Menu, X } from 'lucide-react';
 import { auth, loginWithGoogle, logout } from './firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
-import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardToDb, updateCardInDb, deleteCardFromDb, updateDeckInDb, deleteDeckFromDb, subscribeToReviewLogs, saveReviewLogInDb } from './db';
+import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, updateDeckInDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb, saveCardToDb } from './db';
 import { isSimilarTopic } from './lib/topicUtils';
 import { runDatabaseMigration } from './lib/migration';
 import { ReviewHistory } from './components/ReviewHistory';
@@ -108,9 +109,27 @@ export default function App() {
   };
 
   const handleDeleteDeck = async (deckId: string) => {
-      if (user) {
-          await deleteDeckFromDb(user.uid, deckId);
-      }
+      if (!user) return;
+      
+      const getChildrenIds = (parentId: string): string[] => {
+          let ids: string[] = [];
+          const children = decks.filter(d => d.parentId === parentId);
+          for (const c of children) {
+              ids.push(c.id);
+              ids = ids.concat(getChildrenIds(c.id));
+          }
+          return ids;
+      };
+
+      const deckIdsToDelete = [deckId, ...getChildrenIds(deckId)];
+      const cardIdsToDelete: string[] = [];
+      deckIdsToDelete.forEach(dId => {
+          if (cards[dId]) {
+              cardIdsToDelete.push(...cards[dId].map(c => c.id));
+          }
+      });
+
+      await deleteDeckCascade(user.uid, deckIdsToDelete, cardIdsToDelete);
   };
 
   const handleSaveCard = async (updatedCard: Flashcard) => {
@@ -159,9 +178,13 @@ export default function App() {
 
          const existingTopics = decks.filter(d => d.parentId === deckId).map(d => d.name);
 
+         const token = await auth.currentUser?.getIdToken();
          const res = await fetch("/api/generate-cards", {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers: { 
+              "Content-Type": "application/json",
+              "Authorization": `Bearer ${token}`
+            },
             body: JSON.stringify({ subject, topicPrompt, examBoard: "CEBRASPE/FGV", count, existingFronts, existingTopics })
          });
          
@@ -177,50 +200,45 @@ export default function App() {
          const targetDeck = decks.find(d => d.id === deckId);
          const isRoot = targetDeck && !targetDeck.parentId;
 
-         // Tópicos sugeridos pela IA que ainda não existem nesta matéria (nome -> qtd de cards).
-         // Não criamos tópicos automaticamente: o usuário cria os tópicos/assuntos manualmente.
-         const missingTopics = new Map<string, number>();
+         const newCards: Flashcard[] = [];
 
          for (const c of aiCards) {
              let finalDeckId = deckId;
-             if (isRoot && c.topicName && c.topicName.trim()) {
-                 const topicStr = c.topicName.trim();
-                 const existingSub = decks.find(
+             let frontPrefix = "";
+             if (isRoot && c.topicName) {
+                 const topicStr = c.topicName.trim() || 'Assuntos Gerais';
+                 // have to lookup decks dynamically as we might have created one in the same loop
+                 let existingSub = decks.find(
                      d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name)
                  );
-
+                 
                  if (existingSub) {
                      finalDeckId = existingSub.id;
                  } else {
-                     // Sem tópico/assunto correspondente: mantém o card na própria matéria (raiz)
-                     // para o usuário mover depois, e registra qual tópico a IA sugeriu.
-                     finalDeckId = deckId;
-                     missingTopics.set(topicStr, (missingTopics.get(topicStr) || 0) + 1);
+                     finalDeckId = deckId; // Keep in root
+                     frontPrefix = `**[Assunto Sugerido pela IA: ${topicStr}]**\n\n`;
                  }
              }
 
              const newFlashcard: Flashcard = {
                  id: uuidv4(),
                  deckId: finalDeckId,
-                 front: c.front,
+                 front: frontPrefix + c.front,
                  options: c.options,
                  back: c.back,
+                 correctOption: c.correctOption,
                  fsrsData: createInitialFSRSData(),
                  createdAt: new Date()
              };
-
-             await saveCardToDb(user.uid, newFlashcard);
+             
+             newCards.push(newFlashcard);
          }
 
-         let successMsg = `${aiCards.length} flashcards gerados com sucesso!`;
-         if (missingTopics.size > 0) {
-             const unmatchedCount = Array.from(missingTopics.values()).reduce((a, b) => a + b, 0);
-             const detalhes = Array.from(missingTopics.entries())
-                 .map(([name, qtd]) => `• ${name} (${qtd} card${qtd > 1 ? 's' : ''})`)
-                 .join('\n');
-             successMsg += `\n\n${unmatchedCount} card${unmatchedCount > 1 ? 's foram inseridos' : ' foi inserido'} na matéria "${subject}" por não haver tópico/assunto correspondente. Crie ${missingTopics.size > 1 ? 'estes tópicos' : 'este tópico'} e mova ${unmatchedCount > 1 ? 'os cards' : 'o card'}:\n${detalhes}`;
+         if (newCards.length > 0) {
+            await saveCardsBatchToDb(user.uid, newCards);
          }
-         setAlertInfo({isOpen: true, title: "Sucesso", message: successMsg});
+         
+         setAlertInfo({isOpen: true, title: "Sucesso", message: `${newCards.length} flashcards gerados com sucesso!`});
       } catch (e: any) {
          setAlertInfo({isOpen: true, title: "Erro na Geração", message: "Erro ao gerar flashcards.\n\n" + e.message});
       } finally {
@@ -358,37 +376,7 @@ export default function App() {
              {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} initialFilter={navState.filter} /> }
              {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onGenerateAI={handleGenerateCards} onNavigate={handleNavigate} />}
              {navState.view === 'history' && <ReviewHistory logs={reviewLogs} />}
-             {navState.view === 'settings' && (
-                 <div className="p-8 max-w-4xl mx-auto space-y-6">
-                     <h2 className="text-3xl font-bold tracking-tight text-slate-900 mb-6">Configurações</h2>
-                     <div className="bg-white p-6 rounded-xl border border-slate-200">
-                        <h3 className="text-lg font-bold text-slate-900 mb-2">Geração de Dados e Estudo</h3>
-                        <p className="text-slate-600 text-sm">
-                            A geração de cards utiliza as permissões do sistema.
-                            O algoritmo de espaçamento está operando em simulação local FSRS.
-                        </p>
-                     </div>
-
-                     <div className="bg-white p-6 rounded-xl border border-slate-200">
-                        <h3 className="text-lg font-bold text-slate-900 mb-2">Administração de Dados</h3>
-                        <p className="text-slate-600 text-sm mb-4">
-                            Você pode reconstruir a estrutura básica de tópicos solicitada (Dir. Administrativo, Dir. Constitucional, AFO) com um clique e reposicionar seus cards automaticamente.
-                        </p>
-                        <button 
-                            onClick={handleRunMigration}
-                            disabled={isMigrating}
-                            className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition disabled:opacity-50"
-                        >
-                            {isMigrating ? "Executando..." : "Reorganizar Tópicos (Migração BD)"}
-                        </button>
-                        {migrationStatus && (
-                            <pre className="mt-4 p-4 bg-slate-100 rounded-lg text-xs text-slate-600 overflow-aut whitespace-pre-wrap">
-                                {migrationStatus}
-                            </pre>
-                        )}
-                     </div>
-                 </div>
-             )}
+             {navState.view === 'settings' && <SettingsView />}
          </div>
 
          <ReportProblemModal isOpen={reportModalOpen} onClose={() => setReportModalOpen(false)} />

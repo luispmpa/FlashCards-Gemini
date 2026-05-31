@@ -62,12 +62,13 @@ service cloud.firestore {
 
     function isValidCard(data) {
         return data.keys().hasAll(['userId', 'deckId', 'front', 'back', 'fsrsData', 'createdAt', 'updatedAt']) &&
-               data.size() >= 7 && data.size() <= 8 &&
+               data.size() >= 7 && data.size() <= 9 &&
                data.userId == request.auth.uid &&
                data.deckId is string && data.deckId.size() <= 128 &&
                data.front is string && data.front.size() > 0 && data.front.size() <= 5000 &&
                data.back is string && data.back.size() > 0 && data.back.size() <= 5000 &&
                (!('options' in data) || (data.options is list && data.options.size() <= 10 && (data.options.size() == 0 || data.options[0] is string))) &&
+               (!('correctOption' in data) || (data.correctOption is string && data.correctOption.size() == 1)) &&
                data.fsrsData is map && isValidFSRS(data.fsrsData) &&
                data.createdAt is timestamp &&
                data.updatedAt is timestamp;
@@ -92,7 +93,7 @@ service cloud.firestore {
                       incoming().userId == existing().userId &&
                       incoming().createdAt == existing().createdAt &&
                       incoming().updatedAt == request.time &&
-                      incoming().diff(existing()).affectedKeys().hasOnly(['front', 'back', 'options', 'fsrsData', 'deckId', 'updatedAt']);
+                      incoming().diff(existing()).affectedKeys().hasOnly(['front', 'back', 'options', 'correctOption', 'fsrsData', 'deckId', 'updatedAt']);
                       
         allow delete: if isSignedIn() && request.auth.uid == userId;
     }

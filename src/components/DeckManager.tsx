@@ -1,7 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import { Deck, Flashcard } from '../types';
-import { Folder, FolderPlus, Plus, Sparkles, X, ChevronDown, ChevronRight, AlertCircle, Trash2 } from 'lucide-react';
+import { Folder, FolderPlus, Plus, Sparkles, X, ChevronDown, ChevronRight, Layers, AlertCircle, Trash2 } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
+import { updateCardInDb, deleteDeckFromDb } from '../db';
+import { auth } from '../firebase';
 
 interface DeckManagerProps {
   decks: Deck[];
@@ -15,7 +17,7 @@ interface DeckManagerProps {
 export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateAI, onNavigate }: DeckManagerProps) {
   const rootDecks = decks.filter(d => !d.parentId);
   const [generations, setGenerations] = useState<Record<string, boolean>>({});
-
+  
   // Accordion state
   const [expandedDecks, setExpandedDecks] = useState<Set<string>>(new Set());
   
@@ -90,7 +92,6 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
       setGenerations(prev => ({...prev, [targetDeckId]: false}));
   }
 
-
   // Helper to recursively get all descendant deck IDs
   const getChildrenIds = (deckId: string): string[] => {
       const children = decks.filter(d => d.parentId === deckId);
@@ -105,7 +106,6 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
       const countMap: Record<string, number> = {};
       decks.forEach(deck => {
           const descendantIds = [deck.id, ...getChildrenIds(deck.id)];
-          // descendantIds já inclui deck.id, então somamos cada id uma única vez.
           const total = descendantIds.reduce((acc, id) => acc + (cards[id]?.length || 0), 0);
           countMap[deck.id] = total;
       });
@@ -182,7 +182,8 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
               <p className="text-slate-500 mt-1 text-sm md:text-base">Organize sua hierarquia de estudos e gere flashcards com IA.</p>
            </div>
            <div className="flex flex-col sm:flex-row gap-2 shrink-0 w-full sm:w-auto">
-              <button
+              {/* removed */}
+              <button 
                 onClick={handleCreateRoot}
                 className="px-4 py-2 justify-center bg-slate-900 text-white rounded-lg text-sm font-medium hover:bg-slate-800 transition flex items-center shadow-sm"
               >
@@ -324,7 +325,6 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
                </div>
            </div>
        )}
-
 
        {deleteDeckInfo.isOpen && (
            <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[70] backdrop-blur-sm">

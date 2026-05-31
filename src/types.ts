@@ -19,6 +19,7 @@ export interface Flashcard {
   front: string;
   options?: string[]; // A, B, C, D, E for questions
   back: string;
+  correctOption?: string; // Optional for backward compatibility with old cards
   fsrsData: FSRSData;
   createdAt: Date;
   tags?: string[];

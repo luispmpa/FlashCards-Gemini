@@ -26,6 +26,7 @@
           "items": { "type": "string" }
         },
         "back": { "type": "string" },
+        "correctOption": { "type": "string" },
         "fsrsData": {
           "type": "object",
           "properties": {

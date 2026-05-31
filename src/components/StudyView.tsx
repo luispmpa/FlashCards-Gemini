@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Flashcard, Deck, Rating } from '../types';
 import { applyFSRSRating } from '../lib/fsrs';
 import { isBefore, startOfToday, addDays } from 'date-fns';
 import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, ChevronUp, Check } from 'lucide-react';
 import { cn } from '../lib/utils';
 import ReactMarkdown from 'react-markdown';
-
-import { useEffect } from 'react';
+import { getCorrectIndex } from '../lib/cardUtils';
+import { getUserSettings } from '../lib/settings';
 
 interface StudyViewProps {
   decks: Deck[];
@@ -41,12 +41,23 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
   const startStudy = (deckId: string) => {
     // If no deck picked, gather all. In real app, we filter by selected
     const deckIds = deckId ? [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)] : decks.map(d => d.id);
-    const cardsToStudy = deckIds.flatMap(id => allCards[id] || []).filter(c => {
-        // Due cards or New cards
-        return c.fsrsData.state === "New" || isBefore(new Date(c.fsrsData.due), addDays(startOfToday(), 1));
-    });
-    // Shuffle 
+    const allEligible = deckIds.flatMap(id => allCards[id] || []);
+    
+    // Separate by type
+    const newCards = allEligible.filter(c => c.fsrsData.state === "New");
+    const dueCards = allEligible.filter(c => c.fsrsData.state !== "New" && isBefore(new Date(c.fsrsData.due), addDays(startOfToday(), 1)));
+
+    // Load user settings limits
+    const settings = getUserSettings();
+    
+    // Limits
+    const limitedNew = newCards.slice(0, settings.newPerDay);
+    const limitedDue = dueCards.slice(0, settings.reviewsPerDay);
+    
+    // Combine and shuffle
+    const cardsToStudy = [...limitedDue, ...limitedNew];
     const shuffled = [...cardsToStudy].sort(() => Math.random() - 0.5);
+    
     setQueue(shuffled);
     setActiveCard(shuffled[0] || null);
     setShowAnswer(false);
@@ -129,11 +140,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
 
   let correctIndex = -1;
   if (activeCard && activeCard.options && activeCard.back && showAnswer) {
-      const match = activeCard.back.match(/Gabarito:\s*([A-E])/i);
-      if (match) {
-          const letter = match[1].toUpperCase();
-          correctIndex = letter.charCodeAt(0) - 65;
-      }
+      correctIndex = getCorrectIndex(activeCard);
   }
 
   return (
