@@ -16,6 +16,8 @@ import { isSimilarTopic } from './lib/topicUtils';
 import { ReviewHistory } from './components/ReviewHistory';
 import { ReportProblemModal } from './components/ReportProblemModal';
 
+import { useBackgroundGeneration } from './hooks/useBackgroundGeneration';
+
 interface NavigationState {
   view: string;
   filter?: CardBrowserFilter;
@@ -157,9 +159,7 @@ export default function App() {
       await Promise.all(cardsToDelete.map(c => deleteCardFromDb(user.uid, c.id)));
   }
 
-  const handleGenerateCards = async (deckId: string, subject: string, topicPrompt: string, count: number) => {
-      try {
-         
+  const generateCardsCore = async (deckId: string, subject: string, topicPrompt: string, count: number): Promise<number> => {
          // Collect existing fronts for the deck (this is a bit shallow if it's a root deck, 
          // since it only checks cards ON the root deck. Let's find all cards in root or its subs)
          const relevantDeckIds = [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)];
@@ -187,7 +187,7 @@ export default function App() {
 
          const aiCards: any[] = await res.json();
          
-         if (!user) return;
+         if (!user) return 0;
 
          const targetDeck = decks.find(d => d.id === deckId);
          const isRoot = targetDeck && !targetDeck.parentId;
@@ -230,11 +230,19 @@ export default function App() {
             await saveCardsBatchToDb(user.uid, newCards);
          }
          
-         setAlertInfo({isOpen: true, title: "Sucesso", message: `${newCards.length} flashcards gerados com sucesso!`});
+         return newCards.length;
+  };
+
+  const handleGenerateCards = async (deckId: string, subject: string, topicPrompt: string, count: number) => {
+      try {
+         const n = await generateCardsCore(deckId, subject, topicPrompt, count);
+         setAlertInfo({isOpen: true, title: "Sucesso", message: `${n} flashcards gerados com sucesso!`});
       } catch (e: any) {
          setAlertInfo({isOpen: true, title: "Erro na Geração", message: "Erro ao gerar flashcards.\n\n" + e.message});
       }
   };
+
+  const bgGen = useBackgroundGeneration(generateCardsCore);
 
   if (authLoading) {
       return (
@@ -289,6 +297,7 @@ export default function App() {
         isMobileOpen={isMobileMenuOpen}
         onCloseMobile={() => setIsMobileMenuOpen(false)}
         onOpenReport={() => setReportModalOpen(true)}
+        bgGenStatus={bgGen.status}
       />
       
       <main className="flex-1 flex flex-col overflow-hidden relative">
@@ -349,7 +358,14 @@ export default function App() {
              {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} initialFilter={navState.filter} /> }
              {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onGenerateAI={handleGenerateCards} onNavigate={handleNavigate} />}
              {navState.view === 'history' && <ReviewHistory logs={reviewLogs} />}
-             {navState.view === 'settings' && <SettingsView />}
+             {navState.view === 'settings' && (
+                 <SettingsView
+                   decks={decks}
+                   bgGenStatus={bgGen.status}
+                   onStartBgGen={bgGen.start}
+                   onStopBgGen={bgGen.stop}
+                 />
+             )}
          </div>
 
          <ReportProblemModal isOpen={reportModalOpen} onClose={() => setReportModalOpen(false)} />
