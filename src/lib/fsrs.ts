@@ -76,8 +76,8 @@ export function applyFSRSRating(card: Flashcard, rating: Rating, now: Date = new
 
 // Formata uma duração (ms) de forma curta e legível: "<1min", "10min", "5h", "1d", "3mes", "1a".
 export function formatInterval(ms: number): string {
+  if (ms < 60000) return '<1min';
   const minutes = Math.round(ms / 60000);
-  if (minutes < 1) return '<1min';
   if (minutes < 60) return `${minutes}min`;
   const hours = Math.round(minutes / 60);
   if (hours < 24) return `${hours}h`;
