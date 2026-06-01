@@ -174,7 +174,7 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
                   className="text-xs font-medium text-indigo-700 bg-indigo-50 border-none outline-none px-3 py-1.5 rounded-lg cursor-pointer hover:bg-indigo-100 transition-colors"
                >
                    <option value="7d">7 dias</option>
-                    <option value="14d">14 dias (FSRS)</option>
+                    <option value="14d">14 dias</option>
                    <option value="30d">30 dias</option>
                    <option value="6m">6 meses</option>
                    <option value="1a">1 ano</option>
