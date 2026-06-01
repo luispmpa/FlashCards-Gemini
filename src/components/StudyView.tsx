@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Flashcard, Deck, Rating } from '../types';
 import { applyFSRSRating, shouldRequeue } from '../lib/fsrs';
 import { startOfToday, addDays } from 'date-fns';
-import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, ChevronUp, Check, Loader2 } from 'lucide-react';
+import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
 import ReactMarkdown from 'react-markdown';
 import { getCorrectIndex } from '../lib/cardUtils';
 import { getUserSettings } from '../lib/settings';
 import { fetchDueCards, fetchNewCards } from '../db';
 import { auth } from '../firebase';
+import { countDueAndNew } from '../lib/studyCounts';
 
 interface StudyViewProps {
   decks: Deck[];
@@ -20,12 +21,12 @@ interface StudyViewProps {
 }
 
 export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishStudy, onLogReview }: StudyViewProps) {
-  const [selectedDeckId, setSelectedDeckId] = useState<string>("");
   const [activeCard, setActiveCard] = useState<Flashcard | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [queue, setQueue] = useState<Flashcard[]>([]);
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
-  const [isLoadingSession, setIsLoadingSession] = useState(false);
+  const [expandedDecks, setExpandedDecks] = useState<Record<string, boolean>>({});
+  const [loadingDeckId, setLoadingDeckId] = useState<string | null>(null);
 
   useEffect(() => {
      if (targetCardId) {
@@ -45,7 +46,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
     const userId = auth.currentUser?.uid;
     if (!userId) return;
 
-    setIsLoadingSession(true);
+    setLoadingDeckId(deckId);
     try {
         // If no deck picked, gather all. In real app, we filter by selected
         const deckIds = deckId ? [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)] : decks.map(d => d.id);
@@ -73,7 +74,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
     } catch (e) {
         console.error("Failed to load study session", e);
     } finally {
-        setIsLoadingSession(false);
+        setLoadingDeckId(null);
     }
   };
 
@@ -150,26 +151,137 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
         )
     }
 
+    const now = new Date();
+    const rootDecks = decks.filter(d => !d.parentId);
+
+    const rows = rootDecks.map(root => {
+      const children = decks.filter(d => d.parentId === root.id);
+      const ownCards = allCards[root.id] || [];
+      const aggregateCards = [ownCards, ...children.map(c => allCards[c.id] || [])].flat();
+      return {
+        deck: root,
+        counts: countDueAndNew(aggregateCards, now),
+        children: children.map(c => ({ deck: c, counts: countDueAndNew(allCards[c.id] || [], now) })),
+      };
+    });
+
+    rows.sort((a, b) =>
+      (b.counts.due - a.counts.due) ||
+      (b.counts.newCards - a.counts.newCards) ||
+      a.deck.name.localeCompare(b.deck.name)
+    );
+
+    const totalDue = rows.reduce((s, r) => s + r.counts.due, 0);
+    const totalNew = rows.reduce((s, r) => s + r.counts.newCards, 0);
+
     return (
-      <div className="flex flex-col items-center justify-start pt-24 h-full p-8 space-y-6 overflow-y-auto pb-32">
-         <div className="p-6 bg-slate-100 rounded-full text-slate-400">
-            <Brain size={64} />
-         </div>
-         <h2 className="text-2xl font-bold text-slate-800">Pronto para estudar?</h2>
-         <div className="w-full max-w-md relative">
-            <CustomDeckDropdown 
-               decks={decks} 
-               selectedDeckId={selectedDeckId} 
-               onSelect={setSelectedDeckId} 
-            />
-            <button 
-                onClick={() => startStudy(selectedDeckId)}
-                disabled={isLoadingSession}
-                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg flex items-center justify-center transition-colors shadow-sm disabled:opacity-75"
-            >
-                {isLoadingSession ? <Loader2 className="animate-spin" size={20} /> : "Iniciar Sessão"}
-            </button>
-         </div>
+      <div className="max-w-2xl mx-auto w-full p-6 space-y-6 overflow-y-auto pb-32">
+        {/* Cabeçalho: revisão do dia + estudar tudo */}
+        <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 text-center space-y-4">
+          <div className="mx-auto p-4 bg-indigo-50 rounded-full text-indigo-500 w-fit">
+            <Brain size={40} />
+          </div>
+          <div>
+            <h2 className="text-xl font-bold text-slate-800">Revisão do dia</h2>
+            <p className="text-sm text-slate-500 mt-1">
+              {totalDue} a revisar · {totalNew} novos
+            </p>
+          </div>
+          <button
+            onClick={() => startStudy("")}
+            disabled={loadingDeckId !== null || (totalDue + totalNew === 0)}
+            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg flex items-center justify-center transition-colors shadow-sm disabled:opacity-50"
+          >
+            {loadingDeckId === "" ? <Loader2 className="animate-spin" size={20} /> : "Estudar tudo"}
+          </button>
+        </div>
+
+        {/* Lista de matérias */}
+        <div className="space-y-3">
+          {rows.map(({ deck, counts, children }) => {
+            const isEmDia = counts.due === 0 && counts.newCards === 0;
+            const isExpanded = expandedDecks[deck.id];
+            return (
+              <div
+                key={deck.id}
+                className={cn(
+                  "bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden transition-opacity",
+                  isEmDia && "opacity-60"
+                )}
+              >
+                <div className="flex items-center p-4 gap-2">
+                  {/* expandir */}
+                  {children.length > 0 ? (
+                    <button
+                      onClick={() => setExpandedDecks(prev => ({ ...prev, [deck.id]: !prev[deck.id] }))}
+                      className="text-slate-400 hover:text-slate-600 p-1"
+                      aria-label="Expandir"
+                    >
+                      {isExpanded ? <ChevronDown size={18} /> : <ChevronRight size={18} />}
+                    </button>
+                  ) : <span className="w-6" />}
+
+                  {/* nome + contadores */}
+                  <div className="flex-1 min-w-0">
+                    <div className="font-semibold text-slate-800 truncate">{deck.name}</div>
+                    <div className="text-xs mt-0.5 flex gap-3">
+                      {isEmDia ? (
+                        <span className="text-emerald-600 font-medium">✓ Em dia</span>
+                      ) : (
+                        <>
+                          {counts.due > 0 && <span className="text-rose-600 font-medium">{counts.due} a revisar</span>}
+                          {counts.newCards > 0 && <span className="text-sky-600 font-medium">{counts.newCards} novos</span>}
+                        </>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* estudar matéria */}
+                  <button
+                    onClick={() => startStudy(deck.id)}
+                    disabled={loadingDeckId !== null || (counts.due + counts.newCards === 0)}
+                    className="px-4 py-2 text-sm font-medium bg-indigo-50 text-indigo-700 rounded-lg hover:bg-indigo-100 transition-colors disabled:opacity-40 flex items-center"
+                  >
+                    {loadingDeckId === deck.id ? <Loader2 className="animate-spin" size={16} /> : "Estudar"}
+                  </button>
+                </div>
+
+                {/* assuntos */}
+                {isExpanded && children.length > 0 && (
+                  <div className="border-t border-slate-100 bg-slate-50/60 divide-y divide-slate-100">
+                    {children.map(({ deck: child, counts: cc }) => {
+                      const childEmDia = cc.due === 0 && cc.newCards === 0;
+                      return (
+                        <div key={child.id} className={cn("flex items-center gap-2 pl-12 pr-4 py-3", childEmDia && "opacity-60")}>
+                          <div className="flex-1 min-w-0">
+                            <div className="text-sm text-slate-700 truncate">{child.name}</div>
+                            <div className="text-xs mt-0.5 flex gap-3">
+                              {childEmDia ? (
+                                <span className="text-emerald-600">✓ Em dia</span>
+                              ) : (
+                                <>
+                                  {cc.due > 0 && <span className="text-rose-600">{cc.due} a revisar</span>}
+                                  {cc.newCards > 0 && <span className="text-sky-600">{cc.newCards} novos</span>}
+                                </>
+                              )}
+                            </div>
+                          </div>
+                          <button
+                            onClick={() => startStudy(child.id)}
+                            disabled={loadingDeckId !== null || (cc.due + cc.newCards === 0)}
+                            className="px-3 py-1.5 text-xs font-medium bg-white border border-slate-200 text-slate-700 rounded-lg hover:bg-slate-100 transition-colors disabled:opacity-40 flex items-center"
+                          >
+                            {loadingDeckId === child.id ? <Loader2 className="animate-spin" size={14} /> : "Estudar"}
+                          </button>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   }
@@ -289,91 +401,4 @@ function RatingButton({ label, time, color, onClick }: any) {
             <span className="text-xs opacity-70 mt-0.5">{time}</span>
         </button>
     )
-}
-
-function CustomDeckDropdown({ decks, selectedDeckId, onSelect }: { decks: Deck[], selectedDeckId: string, onSelect: (id: string) => void }) {
-  const [isOpen, setIsOpen] = useState(false);
-  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
-
-  const toggleGroup = (id: string, e: React.MouseEvent) => {
-    e.stopPropagation();
-    setExpandedGroups(prev => ({ ...prev, [id]: !prev[id] }));
-  };
-
-  const parents = decks.filter(d => !d.parentId);
-  
-  const getSelectedLabel = () => {
-    if (!selectedDeckId) return "Todas as Matérias";
-    const selected = decks.find(d => d.id === selectedDeckId);
-    if (!selected) return "Todas as Matérias";
-    if (!selected.parentId) return `Tudo de ${selected.name}`;
-    return selected.name;
-  };
-
-  return (
-    <div className="relative mb-4">
-       <button 
-         onClick={() => setIsOpen(!isOpen)}
-         className="w-full p-3 border border-slate-300 bg-white rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none flex items-center justify-between shadow-sm"
-       >
-         <span className="truncate mr-2 text-slate-800 font-medium">{getSelectedLabel()}</span>
-         {isOpen ? <ChevronUp size={18} className="text-slate-400 min-w-max" /> : <ChevronDown size={18} className="text-slate-400 min-w-max" />}
-       </button>
-
-       {isOpen && (
-         <>
-         <div className="fixed inset-0 z-0" onClick={() => setIsOpen(false)}></div>
-         <div className="absolute z-10 w-full mt-1 bg-white border border-slate-200 rounded-lg shadow-lg overflow-y-auto max-h-64 text-left">
-           <div 
-             className={cn("p-3 cursor-pointer hover:bg-slate-50 flex items-center justify-between", !selectedDeckId ? "bg-indigo-50 text-indigo-700" : "text-slate-700")}
-             onClick={() => { onSelect(""); setIsOpen(false); }}
-           >
-             <span className="font-medium pr-2">Todas as Matérias</span>
-             {!selectedDeckId && <Check size={16} className="text-indigo-600 flex-shrink-0"/>}
-           </div>
-           
-           {parents.map(parent => {
-             const children = decks.filter(sub => sub.parentId === parent.id);
-             const isExpanded = expandedGroups[parent.id] !== false;
-             
-             return (
-               <div key={parent.id} className="border-t border-slate-100">
-                 <div className="flex items-start">
-                    <div 
-                      className="p-3 pl-2 pr-1 flex-shrink-0 cursor-pointer text-slate-400 hover:text-slate-600"
-                      onClick={(e) => toggleGroup(parent.id, e)}
-                    >
-                      {isExpanded ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
-                    </div>
-                    <div 
-                      className={cn("p-3 pl-2 font-semibold flex-1 cursor-pointer hover:bg-slate-50 flex items-start justify-between", selectedDeckId === parent.id ? "text-indigo-700" : "text-slate-800")}
-                      onClick={() => { onSelect(parent.id); setIsOpen(false); }}
-                    >
-                      <span className="pr-2 leading-snug break-words">Tudo de {parent.name}</span>
-                      {selectedDeckId === parent.id && <Check size={16} className="text-indigo-600 flex-shrink-0 mt-0.5"/>}
-                    </div>
-                 </div>
-
-                 {isExpanded && children.length > 0 && (
-                   <div className="bg-slate-50 border-t border-slate-100">
-                     {children.map(child => (
-                       <div 
-                         key={child.id}
-                         className={cn("p-3 py-2 pl-10 cursor-pointer hover:bg-slate-100 flex items-start text-sm justify-between w-full", selectedDeckId === child.id ? "text-indigo-700 font-medium" : "text-slate-600")}
-                         onClick={() => { onSelect(child.id); setIsOpen(false); }}
-                       >
-                         <span className="pr-2 leading-snug break-words">{child.name}</span>
-                         {selectedDeckId === child.id && <Check size={16} className="text-indigo-600 flex-shrink-0 mt-0.5"/>}
-                       </div>
-                     ))}
-                   </div>
-                 )}
-               </div>
-             );
-           })}
-         </div>
-         </>
-       )}
-    </div>
-  );
 }
