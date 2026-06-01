@@ -223,7 +223,7 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
       // Cota/limite da API atingido (429)
       if (raw.includes("429") || raw.toUpperCase().includes("RESOURCE_EXHAUSTED")) {
         res.status(429).json({
-          error: "Muitas requisições à IA em pouco tempo. Aguarde um momento e tente novamente.",
+          error: "Limite de cota da API (Free Tier) atingido. Nota: A assinatura do Google One AI Premium (gemini.google.com) NÃO se aplica à API de Desenvolvedor. Para expandir os limites da API para uso pesado, é necessário configurar o Faturamento no Google AI Studio (Pay-as-you-go). Acesse: https://aistudio.google.com/app/billing",
         });
         return;
       }
