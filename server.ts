@@ -114,7 +114,7 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
       const prompt = `Gere ${count} flashcards focados em um nível avançado e estilo da banca ${examBoard || 'institucional padrão'} para a matéria "${subject}". 
       Instruções sobre o que o usuário quer que você gere: "${topicPrompt}". (Se o usuário não especificou nada ou disse "decida", escolha os tópicos mais cobrados em concursos públicos para esta matéria).
       Os flashcards devem estar no formato de questões de múltipla escolha (alternativas de A até E).
-      A resposta (back) deve conter apenas a alternativa correta e a explicação didática detalhada. A explicação MÁXIMA deve ser ESTRUTURADA USANDO MARKDOWN RIQUEZA DE DETALHES (use cabeçalhos '###', listas '-', e **negrito** nas palavras-chave) para que a leitura não seja cansativa. Abranja por que a certa é a certa e, brevemente, os erros das demais. CERTIFIQUE-SE DE ESCAPAR AS QUEBRAS DE LINHA (use \\n) PARA MANTER O JSON VÁLIDO.
+      A resposta (back) deve conter apenas a alternativa correta e a explicação didática detalhada. A explicação MÁXIMA deve ser ESTRUTURADA USANDO MARKDOWN RIQUEZA DE DETALHES (use cabeçalhos '###', listas '-', e **negrito** nas palavras-chave) para que a leitura não seja cansativa. Abranja por que a certa é a certa e, brevemente, os erros das demais. Sempre que for adequado e fizer sentido, enriqueça a explicação com **mnemônicos** (apenas aqueles amplamente conhecidos por concurseiros), **esquemas textuais articulados** ou representações de **mapas mentais em Markdown** para ajudar fortemente na memorização. Mantenha a objetividade, mas traga esse detalhe a mais, detalhando o raciocínio. CERTIFIQUE-SE DE ESCAPAR AS QUEBRAS DE LINHA (use \\n) PARA MANTER O JSON VÁLIDO.
       ${existingText}
       ${topicsText}
 
@@ -132,7 +132,7 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
       while (attempt <= maxRetries) {
         try {
           const response = await ai.models.generateContent({
-            model: "gemini-3.5-flash",
+            model: "gemini-3.1-pro-preview",
             contents: prompt,
             config: {
                 temperature: 0.1,
