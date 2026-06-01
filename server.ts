@@ -126,7 +126,7 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
       `;
 
       let attempt = 0;
-      const maxRetries = 2;
+      const maxRetries = 3;
       let jsonText = "[]";
 
       while (attempt <= maxRetries) {
@@ -173,8 +173,9 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
           if (attempt > maxRetries) {
             throw err;
           }
-          // Wait 1 second before retrying
-          await new Promise(resolve => setTimeout(resolve, 1000));
+          // Backoff exponencial: 1s, 2s, 4s — dá tempo para picos de demanda (503) passarem
+          const backoffMs = 1000 * Math.pow(2, attempt - 1);
+          await new Promise(resolve => setTimeout(resolve, backoffMs));
         }
       }
 
@@ -203,7 +204,40 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
       res.json(responseCards);
     } catch (error: any) {
       console.error("Error generating cards:", error);
-      res.status(500).json({ error: error.message || "Failed to generate cards." });
+      const raw = String(error?.message || "");
+
+      // Modelo sobrecarregado / indisponível (503)
+      if (
+        raw.includes("503") ||
+        raw.toUpperCase().includes("UNAVAILABLE") ||
+        raw.toLowerCase().includes("overloaded") ||
+        raw.toLowerCase().includes("high demand")
+      ) {
+        res.status(503).json({
+          error: "O modelo de IA está sobrecarregado no momento. Aguarde alguns instantes e tente gerar novamente.",
+        });
+        return;
+      }
+
+      // Cota/limite da API atingido (429)
+      if (raw.includes("429") || raw.toUpperCase().includes("RESOURCE_EXHAUSTED")) {
+        res.status(429).json({
+          error: "Muitas requisições à IA em pouco tempo. Aguarde um momento e tente novamente.",
+        });
+        return;
+      }
+
+      // Falha ao interpretar o JSON retornado pela IA
+      if (error instanceof SyntaxError) {
+        res.status(502).json({
+          error: "A IA retornou uma resposta inválida. Tente gerar novamente.",
+        });
+        return;
+      }
+
+      res.status(500).json({
+        error: "Não foi possível gerar os flashcards agora. Tente novamente em instantes.",
+      });
     }
   });
 
