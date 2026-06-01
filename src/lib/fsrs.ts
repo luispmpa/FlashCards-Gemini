@@ -82,3 +82,11 @@ export function applyFSRSRating(card: Flashcard, rating: Rating, now: Date = new
 export function createInitialFSRSData(): FSRSData {
   return fromFsrsCard(createEmptyCard(new Date()));
 }
+
+export function shouldRequeue(card: Flashcard, now: Date = new Date()): boolean {
+  // A card should be re-queued if its due time is within the same calendar day or earlier (<= end of today)
+  const endOfToday = new Date(now);
+  endOfToday.setHours(23, 59, 59, 999);
+  
+  return card.fsrsData.due.getTime() <= endOfToday.getTime();
+}

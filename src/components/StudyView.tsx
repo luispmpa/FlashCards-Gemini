@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Flashcard, Deck, Rating } from '../types';
-import { applyFSRSRating } from '../lib/fsrs';
+import { applyFSRSRating, shouldRequeue } from '../lib/fsrs';
 import { startOfToday, addDays } from 'date-fns';
 import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, ChevronUp, Check, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
@@ -98,9 +98,9 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
 
     // Move to next
     const nextQueue = queue.slice(1);
-    // If rating is Again, put it back in queue (mock behavior for Learning steps)
-    if (rating === "Again" || rating === "Hard") {
-        nextQueue.push(updatedCard); // Re-queue slightly incorrectly for simplicity, but guarantees repetition
+    // Re-queue inside today's session only if the card's FSRS due date is still within today
+    if (shouldRequeue(updatedCard)) {
+        nextQueue.push(updatedCard);
     }
 
     setQueue(nextQueue);

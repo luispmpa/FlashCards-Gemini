@@ -6,6 +6,10 @@ import { CheckCircle2, TrendingUp, Brain, Calendar, ChevronRight, Flame } from '
 import { cn } from '../lib/utils';
 import { getUserSettings } from '../lib/settings';
 import { calculateStreak } from '../lib/streak';
+import { getDueForecast } from '../lib/forecast';
+import { getRetentionBySubject } from '../lib/retention';
+import { getActivityByDay } from '../lib/heatmap';
+import { Heatmap } from './Heatmap';
 
 interface DashboardProps {
   cards: Record<string, Flashcard[]>;
@@ -15,8 +19,8 @@ interface DashboardProps {
 }
 
 export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
-  type ChartRange = '7d' | '30d' | '6m' | '1a';
-  const [chartRange, setChartRange] = useState<ChartRange>('7d');
+  type ChartRange = '7d' | '14d' | '30d' | '6m' | '1a';
+  const [chartRange, setChartRange] = useState<ChartRange>('14d');
   const allCards = useMemo(() => Object.values(cards).flat(), [cards]);
   
   const today = startOfToday();
@@ -35,7 +39,15 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
 
   const scheduleData = useMemo(() => {
      const data = [];
-     if (chartRange === '7d' || chartRange === '30d') {
+     if (chartRange === '14d') {
+          const forecast = getDueForecast(allCards, 14, today);
+          return forecast.map((fPoint, index) => ({
+              dateObj: addDays(today, index),
+              isMonth: false,
+              day: fPoint.date,
+              revisoes: fPoint.count
+          }));
+     } else if (chartRange === '7d' || chartRange === '30d') {
          const days = chartRange === '7d' ? 7 : 30;
          for (let i = 0; i < days; i++) {
              const d = addDays(today, i);
@@ -80,6 +92,9 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
 
   const goalProgress = Math.min(100, Math.round((reviewsToday / settings.reviewsPerDay) * 100));
 
+  const heatmapDays = useMemo(() => getActivityByDay(logs, 112, today), [logs, today]);
+  const subjectRetentions = useMemo(() => getRetentionBySubject(decks, logs), [decks, logs]);
+
   return (
     <div className="p-4 md:p-8 max-w-7xl mx-auto space-y-8 animate-in fade-in duration-500">
       
@@ -121,6 +136,9 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
         </div>
       </div>
 
+      {/* Heatmap Section */}
+      <Heatmap days={heatmapDays} />
+
       <div>
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 border-b pb-4">Visão Geral</h2>
       </div>
@@ -156,6 +174,7 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
                   className="text-xs font-medium text-indigo-700 bg-indigo-50 border-none outline-none px-3 py-1.5 rounded-lg cursor-pointer hover:bg-indigo-100 transition-colors"
                >
                    <option value="7d">7 dias</option>
+                    <option value="14d">14 dias (FSRS)</option>
                    <option value="30d">30 dias</option>
                    <option value="6m">6 meses</option>
                    <option value="1a">1 ano</option>
@@ -194,32 +213,48 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
         </div>
 
         <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
-           <h3 className="text-lg font-semibold mb-6">Matérias e Desempenho</h3>
-           <div className="space-y-4 max-h-72 overflow-y-auto pr-2">
-               {decks.filter(d => !d.parentId).map(deck => {
-                  const deckCards = cards[deck.id] || [];
-                  const subDecks = decks.filter(sub => sub.parentId === deck.id);
-                  const totalCards = deckCards.length + subDecks.reduce((acc, sub) => acc + (cards[sub.id]?.length || 0), 0);
-                  
-                  return (
-                      <div 
-                         key={deck.id} 
-                         onClick={() => onNavigate('browser', { deckId: deck.id })}
-                         className="flex flex-col space-y-2 pb-4 border-b border-slate-100 last:border-0 cursor-pointer group"
-                      >
-                         <div className="flex justify-between items-center group-hover:text-indigo-600 transition-colors">
-                             <span className="font-medium text-slate-700 group-hover:text-indigo-600">{deck.name}</span>
-                             <div className="flex items-center text-sm text-slate-500 group-hover:text-indigo-500">
-                                {totalCards} cards <ChevronRight size={14} className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity"/>
-                             </div>
-                         </div>
-                         <div className="w-full bg-slate-100 rounded-full h-2">
-                            <div className="bg-indigo-500 h-2 rounded-full transition-all" style={{ width: `${Math.min(100, Math.max(0, allCards.length ? (totalCards / allCards.length) * 100 : 0))}%` }}></div>
-                         </div>
-                      </div>
-                  )
-               })}
-           </div>
+           <h3 className="text-lg font-semibold mb-2">Matérias e Retenção</h3>
+            <p className="text-xs text-slate-400 mb-6">Taxa de retenção acumulada baseada no histórico de acertos de cada matéria.</p>
+            <div className="space-y-4 max-h-72 overflow-y-auto pr-2">
+                {decks.filter(d => !d.parentId).map(deck => {
+                   const deckCards = cards[deck.id] || [];
+                   const subDecks = decks.filter(sub => sub.parentId === deck.id);
+                   const totalCards = deckCards.length + subDecks.reduce((acc, sub) => acc + (cards[sub.id]?.length || 0), 0);
+                   
+                   const retentionInfo = subjectRetentions.find(r => r.subjectId === deck.id);
+                   const rate = retentionInfo ? retentionInfo.retentionRate : 100;
+                   const totalReviews = retentionInfo ? retentionInfo.totalReviews : 0;
+                   
+                   const getProgressColor = (r: number) => {
+                     if (r >= 85) return "bg-emerald-500";
+                     if (r >= 70) return "bg-orange-500";
+                     return "bg-rose-500";
+                   };
+
+                   return (
+                       <div 
+                          key={deck.id} 
+                          onClick={() => onNavigate('browser', { deckId: deck.id })}
+                          className="flex flex-col space-y-2 pb-4 border-b border-slate-100 last:border-0 cursor-pointer group"
+                       >
+                          <div className="flex justify-between items-start group-hover:text-indigo-600 transition-colors">
+                              <div className="flex flex-col">
+                                 <span className="font-medium text-slate-700 group-hover:text-indigo-600">{deck.name}</span>
+                                 <span className="text-[11px] text-slate-400 group-hover:text-indigo-400">
+                                   Retenção: <strong className="font-semibold text-slate-600">{rate}%</strong> ({totalReviews} {totalReviews === 1 ? 'rev.' : 'revs.'})
+                                 </span>
+                              </div>
+                              <div className="flex items-center text-xs text-slate-500 group-hover:text-indigo-500">
+                                 {totalCards} cards <ChevronRight size={14} className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity"/>
+                              </div>
+                          </div>
+                          <div className="w-full bg-slate-100 rounded-full h-2">
+                             <div className={cn("h-2 rounded-full transition-all", getProgressColor(rate))} style={{ width: `${rate}%` }}></div>
+                          </div>
+                       </div>
+                   )
+                })}
+            </div>
         </div>
       </div>
     </div>

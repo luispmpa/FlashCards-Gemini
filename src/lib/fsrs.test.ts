@@ -1,5 +1,5 @@
 import { expect, test, describe } from 'vitest';
-import { applyFSRSRating, createInitialFSRSData } from './fsrs';
+import { applyFSRSRating, createInitialFSRSData, shouldRequeue } from './fsrs';
 import { Flashcard } from '../types';
 
 describe('FSRS Implementation', () => {
@@ -45,5 +45,26 @@ describe('FSRS Implementation', () => {
     const interval2 = afterSecond.getTime() - day2.getTime();
     
     expect(interval2).toBeGreaterThanOrEqual(0);
+  });
+
+  test('shouldRequeue returns true for cards due today or earlier, and false for tomorrow', () => {
+    const card = createMockCard();
+    const now = new Date('2026-06-01T12:00:00Z');
+
+    // Due today earlier
+    card.fsrsData.due = new Date('2026-06-01T10:00:00Z');
+    expect(shouldRequeue(card, now)).toBe(true);
+
+    // Due today later but within same day
+    card.fsrsData.due = new Date('2026-06-01T23:00:00Z');
+    expect(shouldRequeue(card, now)).toBe(true);
+
+    // Due yesterday
+    card.fsrsData.due = new Date('2026-05-31T12:00:00Z');
+    expect(shouldRequeue(card, now)).toBe(true);
+
+    // Due tomorrow
+    card.fsrsData.due = new Date('2026-06-02T01:00:00Z');
+    expect(shouldRequeue(card, now)).toBe(false);
   });
 });

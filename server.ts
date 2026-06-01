@@ -112,6 +112,8 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
       ${existingText}
       ${topicsText}
 
+      Antes de finalizar cada questão, REVISE criticamente: confirme que a alternativa marcada como correta está de fato correta segundo a doutrina/jurisprudência majoritária e que as demais estão de fato erradas. Se houver qualquer dúvida sobre o gabarito, REFORMULE a questão para uma que você tenha certeza. O campo "correctOption" deve ser exatamente a letra da alternativa correta e DEVE ser coerente com o 'Gabarito:' escrito no campo "back".
+
       Importante: Inclua também um campo "topicName" em cada item do JSON informando o nome do Sub-Tópico ao qual a questão pertence (ex: "Princípios do Orçamento", "Atos Administrativos", "Licitações", etc.). Evite criar múltiplos tópicos redundantes.
 
       Você DEVE retornar APENAS um array JSON puro. O formato do array gerado deve ser válido (cuidado com aspas duplas, escape corretamente com \\" e as quebras de linha com \\n na string JSON).
@@ -147,9 +149,11 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
                         description: "Alternativas de A até E"
                       },
                       back: { type: "STRING", description: "Gabarito (ex: Gabarito: B) e Explicação formatada em Markdown." },
-                      correctOption: { type: "STRING", description: "Letra da alternativa correta: A, B, C, D ou E." }
+                      correctOption: { type: "STRING", description: "Letra da alternativa correta: A, B, C, D ou E." },
+                      verification: { type: "STRING", description: "Justificativa curta de por que a alternativa correta está certa (fonte ou raciocínio)." },
+                      confidence: { type: "STRING", description: "Autoavaliação da certeza do gabarito. Deve ser exatamente: alta, media ou baixa." }
                     },
-                    required: ["topicName", "front", "options", "back", "correctOption"]
+                    required: ["topicName", "front", "options", "back", "correctOption", "verification", "confidence"]
                   }
                 }
             }
@@ -172,7 +176,25 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
       jsonText = jsonText.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
 
       const cards = JSON.parse(jsonText);
-      res.json(cards);
+      const filteredCards = cards.filter((c: any) => {
+        if (c.confidence === "baixa") {
+          console.log(`[Double-Check] Descartando card de baixa confiança: Topic: ${c.topicName}, Question: ${c.front?.substring(0, 50)}... Reason: ${c.verification}`);
+          return false;
+        }
+        return true;
+      });
+
+      console.log(`[Double-Check] Geração finalizada: originais=${cards.length}, válidos=${filteredCards.length}, descartados=${cards.length - filteredCards.length}`);
+
+      const responseCards = filteredCards.map((c: any) => ({
+        topicName: c.topicName,
+        front: c.front,
+        options: c.options,
+        back: c.back,
+        correctOption: c.correctOption
+      }));
+
+      res.json(responseCards);
     } catch (error: any) {
       console.error("Error generating cards:", error);
       res.status(500).json({ error: error.message || "Failed to generate cards." });
