@@ -57,36 +57,62 @@ function fromFsrsCard(c: FsrsCard): FSRSData {
   };
 }
 
-export function applyFSRSRating(card: Flashcard, rating: Rating, now: Date = new Date()): Flashcard {
-  const currentData = card.fsrsData;
-  
-  // Compatibility: treat cards with old arbitrary states or 0 stability as new if state is 'New'
+function prepFsrsCard(currentData: FSRSData, now: Date): FsrsCard {
   const fsrsReadyCard = toFsrsCard(currentData);
   if (currentData.state === "New") {
-    // Ensuring new cards start completely clean in ts-fsrs eyes
     Object.assign(fsrsReadyCard, createEmptyCard(fsrsReadyCard.due || now));
-    // Carry over last_review if it existed in some weird legacy state
     if (currentData.last_review) {
       fsrsReadyCard.last_review = currentData.last_review;
     }
   }
+  return fsrsReadyCard;
+}
 
+export function applyFSRSRating(card: Flashcard, rating: Rating, now: Date = new Date()): Flashcard {
+  const fsrsReadyCard = prepFsrsCard(card.fsrsData, now);
   const result = f.next(fsrsReadyCard, now, RATING_MAP[rating]);
-  
-  return {
-    ...card,
-    fsrsData: fromFsrsCard(result.card)
-  };
+  return { ...card, fsrsData: fromFsrsCard(result.card) };
+}
+
+// Formata uma duração (ms) de forma curta e legível: "<1min", "10min", "5h", "1d", "3mes", "1a".
+export function formatInterval(ms: number): string {
+  const minutes = Math.round(ms / 60000);
+  if (minutes < 1) return '<1min';
+  if (minutes < 60) return `${minutes}min`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours}h`;
+  const days = Math.round(hours / 24);
+  if (days < 30) return `${days}d`;
+  const months = Math.round(days / 30);
+  if (months < 12) return `${months}mes`;
+  return `${Math.round(days / 365)}a`;
+}
+
+export interface ScheduledOption {
+  card: Flashcard;        // o card já agendado para esta avaliação (reusar ao confirmar)
+  intervalLabel: string;  // rótulo legível do próximo intervalo
+}
+
+// Para o card atual, calcula via ts-fsrs o resultado de cada avaliação (Again/Hard/Good/Easy).
+export function getSchedulingOptions(card: Flashcard, now: Date = new Date()): Record<Rating, ScheduledOption> {
+  const ratings: Rating[] = ['Again', 'Hard', 'Good', 'Easy'];
+  const out = {} as Record<Rating, ScheduledOption>;
+  for (const r of ratings) {
+    const base = prepFsrsCard(card.fsrsData, now); // fresco a cada avaliação
+    const result = f.next(base, now, RATING_MAP[r]);
+    out[r] = {
+      card: { ...card, fsrsData: fromFsrsCard(result.card) },
+      intervalLabel: formatInterval(result.card.due.getTime() - now.getTime()),
+    };
+  }
+  return out;
 }
 
 export function createInitialFSRSData(): FSRSData {
   return fromFsrsCard(createEmptyCard(new Date()));
 }
 
-export function shouldRequeue(card: Flashcard, now: Date = new Date()): boolean {
-  // A card should be re-queued if its due time is within the same calendar day or earlier (<= end of today)
-  const endOfToday = new Date(now);
-  endOfToday.setHours(23, 59, 59, 999);
-  
-  return card.fsrsData.due.getTime() <= endOfToday.getTime();
+// Reaparece na MESMA sessão apenas se o FSRS agendou um passo de aprendizado sub-diário (< 1 dia).
+export function shouldRequeue(card: Flashcard): boolean {
+  return card.fsrsData.scheduled_days < 1;
 }

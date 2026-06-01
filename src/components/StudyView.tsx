@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Flashcard, Deck, Rating } from '../types';
-import { applyFSRSRating, shouldRequeue } from '../lib/fsrs';
+import { applyFSRSRating, shouldRequeue, getSchedulingOptions } from '../lib/fsrs';
 import { startOfToday, addDays } from 'date-fns';
 import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
@@ -27,6 +27,11 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
   const [expandedDecks, setExpandedDecks] = useState<Record<string, boolean>>({});
   const [loadingDeckId, setLoadingDeckId] = useState<string | null>(null);
+
+  const scheduling = useMemo(
+    () => (activeCard ? getSchedulingOptions(activeCard) : null),
+    [activeCard]
+  );
 
   useEffect(() => {
      if (targetCardId) {
@@ -81,7 +86,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
   const handleRating = (rating: Rating) => {
     if (!activeCard) return;
     const oldState = activeCard.fsrsData.state;
-    const updatedCard = applyFSRSRating(activeCard, rating);
+    const updatedCard = scheduling ? scheduling[rating].card : applyFSRSRating(activeCard, rating);
     onSaveCard(updatedCard);
     
     if (onLogReview) {
@@ -99,7 +104,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
 
     // Move to next
     const nextQueue = queue.slice(1);
-    // Re-queue inside today's session only if the card's FSRS due date is still within today
+    // FSRS-nativo: volta à sessão só se foi um passo sub-diário (< 1 dia).
     if (shouldRequeue(updatedCard)) {
         nextQueue.push(updatedCard);
     }
@@ -379,10 +384,10 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
              </button>
          ) : (
              <div className="grid grid-cols-4 gap-3 animate-in fade-in slide-in-from-bottom-2 duration-300">
-                 <RatingButton rating="Again" label="Errei" time="< 1m" color="bg-rose-100 text-rose-700 border-rose-200 hover:bg-rose-200" onClick={() => handleRating("Again")}/>
-                 <RatingButton rating="Hard" label="Difícil" time="5m" color="bg-orange-100 text-orange-700 border-orange-200 hover:bg-orange-200" onClick={() => handleRating("Hard")}/>
-                 <RatingButton rating="Good" label="Bom" time="1d" color="bg-indigo-100 text-indigo-700 border-indigo-200 hover:bg-indigo-200" onClick={() => handleRating("Good")}/>
-                 <RatingButton rating="Easy" label="Fácil" time="4d" color="bg-emerald-100 text-emerald-700 border-emerald-200 hover:bg-emerald-200" onClick={() => handleRating("Easy")}/>
+                 <RatingButton rating="Again" label="Errei" time={scheduling?.Again.intervalLabel ?? ''} color="bg-rose-100 text-rose-700 border-rose-200 hover:bg-rose-200" onClick={() => handleRating("Again")}/>
+                 <RatingButton rating="Hard" label="Difícil" time={scheduling?.Hard.intervalLabel ?? ''} color="bg-orange-100 text-orange-700 border-orange-200 hover:bg-orange-200" onClick={() => handleRating("Hard")}/>
+                 <RatingButton rating="Good" label="Bom" time={scheduling?.Good.intervalLabel ?? ''} color="bg-indigo-100 text-indigo-700 border-indigo-200 hover:bg-indigo-200" onClick={() => handleRating("Good")}/>
+                 <RatingButton rating="Easy" label="Fácil" time={scheduling?.Easy.intervalLabel ?? ''} color="bg-emerald-100 text-emerald-700 border-emerald-200 hover:bg-emerald-200" onClick={() => handleRating("Easy")}/>
              </div>
          )}
       </div>
