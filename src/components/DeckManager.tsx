@@ -8,7 +8,7 @@ interface DeckManagerProps {
   cards: Record<string, Flashcard[]>;
   onAddDeck: (deck: Deck) => void;
   onDeleteDeck: (deckId: string) => void;
-  onGenerateAI: (deckId: string, subject: string, topicPrompt: string, count: number) => void;
+  onGenerateAI: (deckId: string, subject: string, topicPrompt: string, count: number, modelPreference: 'pro' | 'flash') => void;
   onNavigate: (view: string, filter?: any) => void;
 }
 
@@ -25,6 +25,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
   const [targetSubject, setTargetSubject] = useState("");
   const [topicPrompt, setTopicPrompt] = useState("");
   const [count, setCount] = useState<number>(10);
+  const [modelPreference, setModelPreference] = useState<'pro'|'flash'>('flash');
 
   const [createDeckModalOpen, setCreateDeckModalOpen] = useState(false);
   const [createDeckParentId, setCreateDeckParentId] = useState<string | undefined>();
@@ -79,6 +80,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
       setTargetSubject(subject);
       setTopicPrompt("");
       setCount(10);
+      setModelPreference("flash");
       setModalOpen(true);
   }
 
@@ -86,7 +88,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
       if (!targetDeckId) return;
       setModalOpen(false);
       setGenerations(prev => ({...prev, [targetDeckId]: true}));
-      await onGenerateAI(targetDeckId, targetSubject, topicPrompt || "decida os tópicos mais importantes", count);
+      await onGenerateAI(targetDeckId, targetSubject, topicPrompt || "decida os tópicos mais importantes", count, modelPreference);
       setGenerations(prev => ({...prev, [targetDeckId]: false}));
   }
 
@@ -255,6 +257,20 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
                            <p className="text-xs text-slate-500 mt-1">
                                Deixe em branco para a IA decidir os temas mais importantes com base na Matéria Atual.
                            </p>
+                       </div>
+
+                       <div>
+                           <label className="block text-sm font-medium text-slate-700 mb-1">
+                               Modelo de IA
+                           </label>
+                           <select 
+                               value={modelPreference}
+                               onChange={e => setModelPreference(e.target.value as 'pro'|'flash')}
+                               className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm bg-white"
+                           >
+                               <option value="flash">Flash (Rápido, Alta Cota Recomendada)</option>
+                               <option value="pro">Pro (Maior Raciocínio, Risco de Falha por Cota)</option>
+                           </select>
                        </div>
                    </div>
 

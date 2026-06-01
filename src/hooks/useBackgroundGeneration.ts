@@ -7,6 +7,7 @@ export interface BgGenConfig {
   total: number;       // total de cards a gerar
   batchSize: number;   // cards por requisição
   intervalMin: number; // minutos entre lotes
+  modelPreference: 'pro' | 'flash'; // Modelo selecionado (Flash é mais leve)
 }
 
 export interface BgGenStatus {
@@ -17,7 +18,7 @@ export interface BgGenStatus {
   lastError: string | null;
 }
 
-type GenerateFn = (deckId: string, subject: string, topicPrompt: string, count: number) => Promise<number>;
+type GenerateFn = (deckId: string, subject: string, topicPrompt: string, count: number, modelPreference: 'pro' | 'flash') => Promise<number>;
 
 const MIN_INTERVAL_MIN = 3;          // respeita o limite do servidor (20 gerações/hora)
 const MAX_CONSECUTIVE_FAILURES = 5;  // pausa se a IA estiver realmente indisponível
@@ -57,7 +58,7 @@ export function useBackgroundGeneration(generate: GenerateFn) {
 
     const count = Math.min(cfg.batchSize, remaining);
     try {
-      await generateRef.current(cfg.deckId, cfg.subject, cfg.topicPrompt, count);
+      await generateRef.current(cfg.deckId, cfg.subject, cfg.topicPrompt, count, cfg.modelPreference);
       failuresRef.current = 0;
       generatedRef.current += count; // avança pelo solicitado para garantir término
       setStatus(s => ({ ...s, generated: generatedRef.current, lastError: null }));

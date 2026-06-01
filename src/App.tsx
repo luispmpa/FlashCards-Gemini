@@ -159,7 +159,7 @@ export default function App() {
       await Promise.all(cardsToDelete.map(c => deleteCardFromDb(user.uid, c.id)));
   }
 
-  const generateCardsCore = async (deckId: string, subject: string, topicPrompt: string, count: number): Promise<number> => {
+  const generateCardsCore = async (deckId: string, subject: string, topicPrompt: string, count: number, modelPreference: 'pro' | 'flash' = 'flash'): Promise<number> => {
          // Collect existing fronts for the deck (this is a bit shallow if it's a root deck, 
          // since it only checks cards ON the root deck. Let's find all cards in root or its subs)
          const relevantDeckIds = [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)];
@@ -177,7 +177,7 @@ export default function App() {
               "Content-Type": "application/json",
               "Authorization": `Bearer ${token}`
             },
-            body: JSON.stringify({ subject, topicPrompt, examBoard: "CEBRASPE/FGV", count, existingFronts, existingTopics })
+            body: JSON.stringify({ subject, topicPrompt, examBoard: "CEBRASPE/FGV", count, existingFronts, existingTopics, modelPreference })
          });
          
          if (!res.ok) {
@@ -233,9 +233,9 @@ export default function App() {
          return newCards.length;
   };
 
-  const handleGenerateCards = async (deckId: string, subject: string, topicPrompt: string, count: number) => {
+  const handleGenerateCards = async (deckId: string, subject: string, topicPrompt: string, count: number, modelPreference: 'pro' | 'flash' = 'flash') => {
       try {
-         const n = await generateCardsCore(deckId, subject, topicPrompt, count);
+         const n = await generateCardsCore(deckId, subject, topicPrompt, count, modelPreference);
          setAlertInfo({isOpen: true, title: "Sucesso", message: `${n} flashcards gerados com sucesso!`});
       } catch (e: any) {
          setAlertInfo({isOpen: true, title: "Erro na Geração", message: "Erro ao gerar flashcards.\n\n" + e.message});

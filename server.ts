@@ -90,7 +90,7 @@ async function startServer() {
         return;
       }
 
-      const { subject, topicPrompt, examBoard, count = 10, existingFronts = [], existingTopics = [] } = req.body;
+      const { subject, topicPrompt, examBoard, modelPreference, count = 10, existingFronts = [], existingTopics = [] } = req.body;
       
       let existingText = "";
       if (existingFronts.length > 0) {
@@ -131,8 +131,9 @@ Para agrupar os novos flashcards, siga estritamente estas diretrizes:
 
       while (attempt <= maxRetries) {
         try {
+          const selectedModel = modelPreference === 'pro' ? "gemini-3.1-pro-preview" : "gemini-3.5-flash";
           const response = await ai.models.generateContent({
-            model: "gemini-3.1-pro-preview",
+            model: selectedModel,
             contents: prompt,
             config: {
                 temperature: 0.1,

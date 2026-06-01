@@ -20,6 +20,7 @@ export function SettingsView({ decks, bgGenStatus, onStartBgGen, onStopBgGen }: 
   const [bgTotal, setBgTotal] = useState(30);
   const [bgBatchSize, setBgBatchSize] = useState(10);
   const [bgIntervalMin, setBgIntervalMin] = useState(5);
+  const [bgModelPreference, setBgModelPreference] = useState<'pro' | 'flash'>('flash');
 
   const flatDecks = decks.map(d => {
     if (!d.parentId) return d;
@@ -110,7 +111,7 @@ export function SettingsView({ decks, bgGenStatus, onStartBgGen, onStopBgGen }: 
               />
            </div>
 
-           <div className="grid grid-cols-3 gap-4">
+           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">Total a gerar</label>
                 <input 
@@ -138,6 +139,18 @@ export function SettingsView({ decks, bgGenStatus, onStartBgGen, onStopBgGen }: 
                   className="w-full px-3 py-2 border rounded-lg bg-slate-50"
                 />
                 <p className="text-xs text-slate-400 mt-1">Mínimo 3</p>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-1">Modelo de IA</label>
+                <select 
+                  value={bgModelPreference} 
+                  onChange={e => setBgModelPreference(e.target.value as 'pro' | 'flash')}
+                  disabled={bgGenStatus.running}
+                  className="w-full px-3 py-2 border rounded-lg bg-slate-50"
+                >
+                  <option value="flash">Flash (Rápido/Muita Cota)</option>
+                  <option value="pro">Pro (Raciocínio/Boa Cota)</option>
+                </select>
               </div>
            </div>
 
@@ -168,7 +181,7 @@ export function SettingsView({ decks, bgGenStatus, onStartBgGen, onStopBgGen }: 
                     onClick={() => {
                        const deck = decks.find(d => d.id === bgDeckId);
                        if (deck) {
-                         onStartBgGen({ deckId: bgDeckId, subject: deck.name, topicPrompt: bgTopicPrompt, total: bgTotal, batchSize: bgBatchSize, intervalMin: bgIntervalMin });
+                         onStartBgGen({ deckId: bgDeckId, subject: deck.name, topicPrompt: bgTopicPrompt, total: bgTotal, batchSize: bgBatchSize, intervalMin: bgIntervalMin, modelPreference: bgModelPreference });
                        }
                     }}
                     disabled={!bgDeckId}
