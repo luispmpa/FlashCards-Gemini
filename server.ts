@@ -4,11 +4,17 @@ import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
 import { initializeApp, applicationDefault } from 'firebase-admin/app';
 import { getAuth } from 'firebase-admin/auth';
+import firebaseConfig from './firebase-applet-config.json';
 
-// Initialize firebase admin for token verification
-// This uses application default credentials on Cloud Run
+// Initialize firebase admin for token verification.
+// IMPORTANT: passamos projectId explicitamente porque o servidor roda em um projeto
+// (AI Studio) diferente do projeto do Firebase que emite os tokens do usuário.
+// Sem isso, verifyIdToken rejeita o token por incompatibilidade de audiência ("aud").
 try {
-  initializeApp({ credential: applicationDefault() });
+  initializeApp({
+    credential: applicationDefault(),
+    projectId: firebaseConfig.projectId,
+  });
 } catch (e: any) {
   if (e.code !== 'app/duplicate-app') {
     console.error("Firebase admin init error:", e);
