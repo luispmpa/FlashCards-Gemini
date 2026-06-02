@@ -301,6 +301,34 @@ export const saveReviewLogInDb = async (userId: string, log: ReviewLog) => {
     }
 };
 
+/**
+ * Apaga TODOS os flashcards e logs de revisão do usuário (mantém as matérias/tópicos).
+ * Usado pela "Zona de Perigo" das Configurações. Deleta em lotes para respeitar o limite
+ * de 500 operações por batch do Firestore. Retorna a contagem do que foi apagado.
+ */
+export const clearAllCardsAndLogs = async (userId: string): Promise<{ cards: number; logs: number }> => {
+    try {
+        const [cardsSnap, logsSnap] = await Promise.all([
+            getDocs(collection(db, 'users', userId, 'cards')),
+            getDocs(collection(db, 'users', userId, 'reviewLogs')),
+        ]);
+        const refs = [
+            ...cardsSnap.docs.map(d => d.ref),
+            ...logsSnap.docs.map(d => d.ref),
+        ];
+        const CHUNK = 450;
+        for (let i = 0; i < refs.length; i += CHUNK) {
+            const batch = writeBatch(db);
+            refs.slice(i, i + CHUNK).forEach(ref => batch.delete(ref));
+            await batch.commit();
+        }
+        return { cards: cardsSnap.size, logs: logsSnap.size };
+    } catch (error) {
+        handleFirestoreError(error, OperationType.DELETE, `users/${userId} (clear cards+logs)`);
+        return { cards: 0, logs: 0 }; // inalcançável: handleFirestoreError lança exceção
+    }
+};
+
 export const subscribeToReviewLogs = (userId: string, callback: (logs: ReviewLog[]) => void) => {
     const q = query(collection(db, 'users', userId, 'reviewLogs'), orderBy('reviewedAt', 'desc'));
     return onSnapshot(q, (snapshot) => {
