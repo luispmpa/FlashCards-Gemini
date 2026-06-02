@@ -56,6 +56,15 @@ function levenshteinDistance(a: string, b: string): number {
   return matrix[b.length][a.length];
 }
 
+// Procura, entre os candidatos, um tópico semelhante a `topicName` (mesmo helper de
+// similaridade usado no resto do app). Útil no import para reaproveitar um subtópico
+// existente em vez de criar um duplicado/redundante.
+export const findSimilarDeck = <T extends { name: string }>(
+  topicName: string,
+  candidates: T[],
+  subjectName?: string
+): T | undefined => candidates.find(d => isSimilarTopic(d.name, topicName, subjectName));
+
 export const isSimilarTopic = (nameA: string, nameB: string, subjectName?: string): boolean => {
   const normA = normalizeTopic(nameA);
   const normB = normalizeTopic(nameB);

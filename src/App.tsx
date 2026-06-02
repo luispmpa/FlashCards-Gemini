@@ -12,7 +12,7 @@ import { Search, Loader2, Menu } from 'lucide-react';
 import { auth, loginWithGoogle, logout } from './firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
 import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb, clearAllCardsAndLogs } from './db';
-import { isSimilarTopic } from './lib/topicUtils';
+import { findSimilarDeck } from './lib/topicUtils';
 import { ReviewHistory } from './components/ReviewHistory';
 import { UpdatesView } from './components/UpdatesView';
 import { ReportProblemModal } from './components/ReportProblemModal';
@@ -168,8 +168,8 @@ export default function App() {
       deckId: string,
       aiCards: any[],
       opts: { skipDuplicates?: boolean } = {}
-  ): Promise<{ added: number; skipped: number; unmatchedTopics: string[] }> => {
-      if (!user) return { added: 0, skipped: 0, unmatchedTopics: [] };
+  ): Promise<{ added: number; skipped: number; createdTopics: string[] }> => {
+      if (!user) return { added: 0, skipped: 0, createdTopics: [] };
 
       const targetDeck = decks.find(d => d.id === deckId);
       const isRoot = targetDeck && !targetDeck.parentId;
@@ -179,7 +179,10 @@ export default function App() {
       relevantDeckIds.forEach(id => (cards[id] || []).forEach(c => existingFronts.add(normalizeFront(c.front))));
 
       const newCards: Flashcard[] = [];
-      const unmatchedTopics = new Set<string>();
+      // Subtópicos já existentes sob a matéria + os que formos criando neste import,
+      // para casar por similaridade e evitar tópicos duplicados/redundantes.
+      const existingSubs = decks.filter(d => d.parentId === deckId);
+      const createdDecks: Deck[] = [];
       let skipped = 0;
 
       for (const c of aiCards) {
@@ -192,11 +195,16 @@ export default function App() {
           let finalDeckId = deckId;
           if (isRoot && c.topicName) {
               const topicStr = String(c.topicName).trim() || 'Assuntos Gerais';
-              const existingSub = decks.find(d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name));
-              if (existingSub) {
-                  finalDeckId = existingSub.id;
+              // 1) tópico já existente  2) tópico criado neste mesmo import
+              const match = findSimilarDeck(topicStr, existingSubs, targetDeck?.name)
+                  || findSimilarDeck(topicStr, createdDecks, targetDeck?.name);
+              if (match) {
+                  finalDeckId = match.id;
               } else {
-                  unmatchedTopics.add(topicStr);
+                  // Cria o subtópico automaticamente sob a matéria importada.
+                  const newDeck: Deck = { id: uuidv4(), name: topicStr, parentId: deckId, createdAt: new Date() };
+                  createdDecks.push(newDeck);
+                  finalDeckId = newDeck.id;
               }
           }
 
@@ -213,15 +221,17 @@ export default function App() {
           existingFronts.add(key); // evita duplicar dentro do próprio lote
       }
 
+      // Persiste primeiro os tópicos criados, depois os cards.
+      if (createdDecks.length > 0) await Promise.all(createdDecks.map(d => saveDeckToDb(user.uid, d)));
       if (newCards.length > 0) await saveCardsBatchToDb(user.uid, newCards);
-      return { added: newCards.length, skipped, unmatchedTopics: Array.from(unmatchedTopics) };
+      return { added: newCards.length, skipped, createdTopics: createdDecks.map(d => d.name) };
   };
 
   const handleImportCards = async (deckId: string, aiCards: any[]) => {
       try {
-          const { added, skipped, unmatchedTopics } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
-          const topicMessage = unmatchedTopics.length > 0
-              ? `\n\nSugestão de tópico não encontrada: ${unmatchedTopics.join(', ')}. Os flashcards foram importados na matéria escolhida sem adicionar essa sugestão ao texto.`
+          const { added, skipped, createdTopics } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
+          const topicMessage = createdTopics.length > 0
+              ? `\n\n${createdTopics.length} novo(s) tópico(s) criado(s) automaticamente: ${createdTopics.join(', ')}.`
               : '';
           setAlertInfo({
               isOpen: true,
