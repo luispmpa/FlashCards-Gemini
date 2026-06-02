@@ -168,8 +168,8 @@ export default function App() {
       deckId: string,
       aiCards: any[],
       opts: { skipDuplicates?: boolean } = {}
-  ): Promise<{ added: number; skipped: number }> => {
-      if (!user) return { added: 0, skipped: 0 };
+  ): Promise<{ added: number; skipped: number; unmatchedTopics: string[] }> => {
+      if (!user) return { added: 0, skipped: 0, unmatchedTopics: [] };
 
       const targetDeck = decks.find(d => d.id === deckId);
       const isRoot = targetDeck && !targetDeck.parentId;
@@ -179,6 +179,7 @@ export default function App() {
       relevantDeckIds.forEach(id => (cards[id] || []).forEach(c => existingFronts.add(normalizeFront(c.front))));
 
       const newCards: Flashcard[] = [];
+      const unmatchedTopics = new Set<string>();
       let skipped = 0;
 
       for (const c of aiCards) {
@@ -189,18 +190,20 @@ export default function App() {
           if (opts.skipDuplicates && existingFronts.has(key)) { skipped++; continue; }
 
           let finalDeckId = deckId;
-          let frontPrefix = "";
           if (isRoot && c.topicName) {
               const topicStr = String(c.topicName).trim() || 'Assuntos Gerais';
               const existingSub = decks.find(d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name));
-              if (existingSub) finalDeckId = existingSub.id;
-              else { finalDeckId = deckId; frontPrefix = `**[Assunto Sugerido pela IA: ${topicStr}]**\n\n`; }
+              if (existingSub) {
+                  finalDeckId = existingSub.id;
+              } else {
+                  unmatchedTopics.add(topicStr);
+              }
           }
 
           newCards.push({
               id: uuidv4(),
               deckId: finalDeckId,
-              front: frontPrefix + c.front,
+              front: c.front,
               options: Array.isArray(c.options) ? c.options : undefined,
               back: c.back,
               correctOption: typeof c.correctOption === 'string' ? c.correctOption : undefined,
@@ -211,16 +214,19 @@ export default function App() {
       }
 
       if (newCards.length > 0) await saveCardsBatchToDb(user.uid, newCards);
-      return { added: newCards.length, skipped };
+      return { added: newCards.length, skipped, unmatchedTopics: Array.from(unmatchedTopics) };
   };
 
   const handleImportCards = async (deckId: string, aiCards: any[]) => {
       try {
-          const { added, skipped } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
+          const { added, skipped, unmatchedTopics } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
+          const topicMessage = unmatchedTopics.length > 0
+              ? `\n\nSugestão de tópico não encontrada: ${unmatchedTopics.join(', ')}. Os flashcards foram importados na matéria escolhida sem adicionar essa sugestão ao texto.`
+              : '';
           setAlertInfo({
               isOpen: true,
               title: "Importação concluída",
-              message: `${added} flashcards importados.${skipped > 0 ? ` ${skipped} pulados (duplicados ou inválidos).` : ''}`,
+              message: `${added} flashcards importados.${skipped > 0 ? ` ${skipped} pulados (duplicados ou inválidos).` : ''}${topicMessage}`,
           });
       } catch (e: any) {
           setAlertInfo({ isOpen: true, title: "Erro na Importação", message: "Falha ao importar.\n\n" + (e?.message || '') });
