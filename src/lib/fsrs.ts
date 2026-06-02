@@ -116,3 +116,11 @@ export function createInitialFSRSData(): FSRSData {
 export function shouldRequeue(card: Flashcard): boolean {
   return card.fsrsData.scheduled_days < 1;
 }
+
+// Decide se, após uma avaliação, o card deve voltar à fila da sessão atual.
+// Regra: só reapresentamos quando o usuário ERRA ("Again") e o FSRS reagenda o
+// card para hoje (passo sub-diário). "Hard"/"Good"/"Easy" avançam — assim cada
+// avaliação correta reduz o contador "Cards restantes".
+export function shouldRequeueAfterRating(rating: Rating, card: Flashcard): boolean {
+  return rating === 'Again' && shouldRequeue(card);
+}

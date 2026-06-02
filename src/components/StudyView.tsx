@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Flashcard, Deck, Rating } from '../types';
-import { applyFSRSRating, shouldRequeue, getSchedulingOptions } from '../lib/fsrs';
+import { applyFSRSRating, shouldRequeueAfterRating, getSchedulingOptions } from '../lib/fsrs';
 import { startOfToday, addDays } from 'date-fns';
 import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
@@ -118,8 +118,9 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
 
     // Move to next
     const nextQueue = queue.slice(1);
-    // FSRS-nativo: volta à sessão só se foi um passo sub-diário (< 1 dia).
-    if (shouldRequeue(updatedCard)) {
+    // Só reapresenta na MESMA sessão quando o usuário erra ("Errei"). Difícil/Bom/Fácil
+    // avançam, então cada acerto reduz o contador "Cards restantes".
+    if (shouldRequeueAfterRating(rating, updatedCard)) {
         nextQueue.push(updatedCard);
     }
 

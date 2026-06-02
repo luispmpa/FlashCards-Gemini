@@ -1,5 +1,5 @@
 import { expect, test, describe } from 'vitest';
-import { applyFSRSRating, createInitialFSRSData, shouldRequeue, formatInterval } from './fsrs';
+import { applyFSRSRating, createInitialFSRSData, shouldRequeue, shouldRequeueAfterRating, formatInterval } from './fsrs';
 import { Flashcard } from '../types';
 
 describe('FSRS Implementation', () => {
@@ -55,6 +55,20 @@ describe('FSRS Implementation', () => {
     expect(shouldRequeue(card)).toBe(false);
     card.fsrsData.scheduled_days = 10;
     expect(shouldRequeue(card)).toBe(false);
+  });
+
+  test('shouldRequeueAfterRating: só "Again" reapresenta na sessão; Hard/Good/Easy avançam', () => {
+    const card = createMockCard();
+    // passo sub-diário (ex.: Errei/Bom = poucos minutos)
+    card.fsrsData.scheduled_days = 0;
+    expect(shouldRequeueAfterRating('Again', card)).toBe(true);
+    expect(shouldRequeueAfterRating('Hard', card)).toBe(false);
+    expect(shouldRequeueAfterRating('Good', card)).toBe(false);
+    expect(shouldRequeueAfterRating('Easy', card)).toBe(false);
+
+    // intervalo de dias: nunca reapresenta na sessão, nem mesmo "Again"
+    card.fsrsData.scheduled_days = 3;
+    expect(shouldRequeueAfterRating('Again', card)).toBe(false);
   });
 
   test('formatInterval formata durações', () => {
