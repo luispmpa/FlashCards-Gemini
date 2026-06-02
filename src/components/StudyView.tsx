@@ -5,11 +5,26 @@ import { startOfToday, addDays } from 'date-fns';
 import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import rehypeSanitize, { defaultSchema } from 'rehype-sanitize';
 import { getCorrectIndex } from '../lib/cardUtils';
 import { getUserSettings } from '../lib/settings';
 import { fetchDueCards, fetchNewCards } from '../db';
 import { auth } from '../firebase';
 import { countDueAndNew } from '../lib/studyCounts';
+
+// Sanitize schema for rendered answer Markdown/HTML.
+// Extends the safe default to allow inline styling (colors) and highlights,
+// so cards can use <span style="color:...">, <mark>, <u>, <sub>/<sup>.
+const answerSanitizeSchema = {
+  ...defaultSchema,
+  tagNames: [...(defaultSchema.tagNames || []), 'span', 'mark', 'u', 'sub', 'sup'],
+  attributes: {
+    ...defaultSchema.attributes,
+    '*': [...(defaultSchema.attributes?.['*'] || []), 'style', 'className', 'class'],
+  },
+};
 
 interface StudyViewProps {
   decks: Deck[];
@@ -367,7 +382,12 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
                     Explicação
                 </h4>
                 <div className="text-sm text-slate-600 leading-relaxed max-w-none prose prose-slate prose-sm prose-headings:font-bold prose-a:text-indigo-600">
-                    <ReactMarkdown>{activeCard.back}</ReactMarkdown>
+                    <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        rehypePlugins={[rehypeRaw, [rehypeSanitize, answerSanitizeSchema]]}
+                    >
+                        {activeCard.back}
+                    </ReactMarkdown>
                 </div>
             </div>
         ) : null}
