@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Deck, Flashcard } from '../types';
-import { Folder, FolderPlus, Plus, Sparkles, X, ChevronDown, ChevronRight, AlertCircle, Trash2 } from 'lucide-react';
+import { Folder, FolderPlus, Plus, Upload, X, ChevronDown, ChevronRight, AlertCircle, Trash2 } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 
 interface DeckManagerProps {
@@ -8,24 +8,22 @@ interface DeckManagerProps {
   cards: Record<string, Flashcard[]>;
   onAddDeck: (deck: Deck) => void;
   onDeleteDeck: (deckId: string) => void;
-  onGenerateAI: (deckId: string, subject: string, topicPrompt: string, count: number, modelPreference: 'pro' | 'flash') => void;
+  onImportCards: (deckId: string, cards: any[]) => void;
   onNavigate: (view: string, filter?: any) => void;
 }
 
-export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateAI, onNavigate }: DeckManagerProps) {
+export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCards, onNavigate }: DeckManagerProps) {
   const rootDecks = decks.filter(d => !d.parentId);
-  const [generations, setGenerations] = useState<Record<string, boolean>>({});
-  
+
   // Accordion state
   const [expandedDecks, setExpandedDecks] = useState<Set<string>>(new Set());
-  
-  // Modals state
-  const [modalOpen, setModalOpen] = useState(false);
-  const [targetDeckId, setTargetDeckId] = useState<string | null>(null);
-  const [targetSubject, setTargetSubject] = useState("");
-  const [topicPrompt, setTopicPrompt] = useState("");
-  const [count, setCount] = useState<number>(10);
-  const [modelPreference, setModelPreference] = useState<'pro'|'flash'>('flash');
+
+  // Import modal state
+  const [importModalOpen, setImportModalOpen] = useState(false);
+  const [importTargetDeckId, setImportTargetDeckId] = useState<string | null>(null);
+  const [importTargetName, setImportTargetName] = useState("");
+  const [importText, setImportText] = useState("");
+  const [importError, setImportError] = useState("");
 
   const [createDeckModalOpen, setCreateDeckModalOpen] = useState(false);
   const [createDeckParentId, setCreateDeckParentId] = useState<string | undefined>();
@@ -74,22 +72,25 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
       setCreateDeckModalOpen(true);
   };
 
-  const openGenerationModal = (deckId: string, deckName: string, parentName?: string) => {
-      const subject = parentName ? `${parentName} - ${deckName}` : deckName;
-      setTargetDeckId(deckId);
-      setTargetSubject(subject);
-      setTopicPrompt("");
-      setCount(10);
-      setModelPreference("flash");
-      setModalOpen(true);
+  const openImportModal = (deckId: string, deckName: string, parentName?: string) => {
+      setImportTargetDeckId(deckId);
+      setImportTargetName(parentName ? `${parentName} - ${deckName}` : deckName);
+      setImportText("");
+      setImportError("");
+      setImportModalOpen(true);
   }
 
-  const handleConfirmGeneration = async () => {
-      if (!targetDeckId) return;
-      setModalOpen(false);
-      setGenerations(prev => ({...prev, [targetDeckId]: true}));
-      await onGenerateAI(targetDeckId, targetSubject, topicPrompt || "decida os tópicos mais importantes", count, modelPreference);
-      setGenerations(prev => ({...prev, [targetDeckId]: false}));
+  const handleImportSubmit = () => {
+      if (!importTargetDeckId) return;
+      const cleaned = importText.trim().replace(/^```json\s*/i, '').replace(/```$/, '').trim();
+      if (!cleaned) { setImportError('Cole o JSON ou envie um arquivo.'); return; }
+      let parsed: any;
+      try { parsed = JSON.parse(cleaned); }
+      catch { setImportError('JSON inválido. Verifique o conteúdo colado.'); return; }
+      if (!Array.isArray(parsed)) { setImportError('O conteúdo deve ser um array JSON de flashcards.'); return; }
+      if (parsed.length === 0) { setImportError('Nenhum flashcard encontrado no JSON.'); return; }
+      setImportModalOpen(false);
+      onImportCards(importTargetDeckId, parsed);
   }
 
   // Helper to recursively get all descendant deck IDs
@@ -143,13 +144,12 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
                       </button>
                   </div>
                   <div className="flex space-x-1 sm:space-x-2 shrink-0 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity items-center">
-                      <button 
-                        onClick={(e) => { e.stopPropagation(); openGenerationModal(deck.id, deck.name, parentName); }}
-                        className="text-xs flex items-center bg-indigo-50 text-indigo-600 px-2 sm:px-2.5 py-1 rounded-md font-medium hover:bg-indigo-100 transition disabled:opacity-50"
-                        disabled={generations[deck.id]}
-                        title="Gerar IA"
+                      <button
+                        onClick={(e) => { e.stopPropagation(); openImportModal(deck.id, deck.name, parentName); }}
+                        className="text-xs flex items-center bg-indigo-50 text-indigo-600 px-2 sm:px-2.5 py-1 rounded-md font-medium hover:bg-indigo-100 transition"
+                        title="Importar flashcards (JSON)"
                       >
-                         {generations[deck.id] ? "Gerando..." : <><Sparkles size={14} className="sm:mr-1"/> <span className="hidden sm:inline">Gerar IA</span></>}
+                         <Upload size={14} className="sm:mr-1"/> <span className="hidden sm:inline">Importar</span>
                       </button>
                       <button onClick={(e) => { e.stopPropagation(); handleCreateSub(deck.id); }} className="p-1 hover:bg-slate-200 bg-slate-100 sm:bg-transparent rounded text-slate-500" title="Subtópico">
                           <Plus size={16}/>
@@ -179,7 +179,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end border-b border-slate-200 pb-4 gap-4">
            <div>
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900">Matérias e Assuntos</h2>
-              <p className="text-slate-500 mt-1 text-sm md:text-base">Organize sua hierarquia de estudos e gere flashcards com IA.</p>
+              <p className="text-slate-500 mt-1 text-sm md:text-base">Organize sua hierarquia de estudos e importe flashcards (JSON).</p>
            </div>
            <div className="flex flex-col sm:flex-row gap-2 shrink-0 w-full sm:w-auto">
               {/* removed */}
@@ -200,92 +200,60 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onGenerateA
            ))}
        </div>
 
-       {modalOpen && (
+       {importModalOpen && (
            <div className="fixed inset-0 bg-slate-900/50 flex items-center justify-center p-4 z-[60]">
-               <div className="bg-white rounded-2xl max-w-md w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
-                   <div className="px-6 py-4 border-b border-slate-100 flex justify-between items-center bg-slate-50">
+               <div className="bg-white rounded-2xl max-w-2xl w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 flex flex-col max-h-[90vh]">
+                   <div className="px-6 py-4 border-b border-slate-100 flex justify-between items-center bg-slate-50 shrink-0">
                        <h3 className="font-bold text-slate-800 flex items-center">
-                           <Sparkles size={18} className="mr-2 text-indigo-500" />
-                           Gerar Inteligência Artificial
+                           <Upload size={18} className="mr-2 text-indigo-500" />
+                           Importar Flashcards — {importTargetName}
                        </h3>
-                       <button onClick={() => setModalOpen(false)} className="text-slate-400 hover:text-slate-600">
+                       <button onClick={() => setImportModalOpen(false)} className="text-slate-400 hover:text-slate-600">
                            <X size={20} />
                        </button>
                    </div>
-                   
-                   <div className="p-6 space-y-5">
-                       <div>
-                           <label className="block text-sm font-medium text-slate-700 mb-1">
-                               Matéria / Foco Atual
-                           </label>
-                           <input 
-                               type="text" 
-                               readOnly 
-                               value={targetSubject}
-                               className="w-full px-3 py-2 bg-slate-100 border border-slate-200 rounded-lg text-slate-600 text-sm"
-                           />
-                       </div>
 
-                       <div>
-                           <label className="block text-sm font-medium text-slate-700 mb-1">
-                               Quantidade de Flashcards
-                           </label>
-                           <input 
-                               type="number" 
-                               min={1} 
-                               max={30}
-                               value={count}
-                               onChange={e => setCount(Math.min(30, Math.max(1, parseInt(e.target.value) || 1)))}
-                               className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm"
-                           />
-                           <p className="text-xs text-slate-500 mt-1">
-                               Recomendamos gerar de 10 a 20 por vez para respostas mais rápidas e evitar timeout.
-                           </p>
-                       </div>
+                   <div className="p-6 space-y-4 overflow-y-auto">
+                       <p className="text-sm text-slate-500">
+                           Cole o JSON dos flashcards ou envie um arquivo <code>.json</code>. Itens duplicados (mesmo enunciado) são ignorados.
+                       </p>
 
-                       <div>
-                           <label className="block text-sm font-medium text-slate-700 mb-1">
-                               O que exatamente você quer que a IA crie?
-                           </label>
-                           <textarea 
-                               placeholder="Ex: Crie 5 questões sobre Atos Vinculados e 5 sobre Princípios."
-                               value={topicPrompt}
-                               onChange={e => setTopicPrompt(e.target.value)}
-                               rows={3}
-                               className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm resize-none"
-                           />
-                           <p className="text-xs text-slate-500 mt-1">
-                               Deixe em branco para a IA decidir os temas mais importantes com base na Matéria Atual.
-                           </p>
-                       </div>
+                       <input
+                           type="file"
+                           accept="application/json,.json"
+                           onChange={async (e) => {
+                               const file = e.target.files?.[0];
+                               if (!file) return;
+                               const text = await file.text();
+                               setImportText(text);
+                               setImportError("");
+                               e.target.value = '';
+                           }}
+                           className="block w-full text-sm text-slate-600 file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100"
+                       />
 
-                       <div>
-                           <label className="block text-sm font-medium text-slate-700 mb-1">
-                               Modelo de IA
-                           </label>
-                           <select 
-                               value={modelPreference}
-                               onChange={e => setModelPreference(e.target.value as 'pro'|'flash')}
-                               className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none text-sm bg-white"
-                           >
-                               <option value="flash">Flash (Rápido, Alta Cota Recomendada)</option>
-                               <option value="pro">Pro (Maior Raciocínio, Risco de Falha por Cota)</option>
-                           </select>
-                       </div>
+                       <textarea
+                           value={importText}
+                           onChange={e => { setImportText(e.target.value); setImportError(""); }}
+                           placeholder={'[ { "topicName": "...", "front": "...", "options": ["A) ...","B) ..."], "back": "Gabarito: B\\n...", "correctOption": "B" } ]'}
+                           className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none min-h-[220px] font-mono text-xs"
+                       />
+
+                       {importError && <p className="text-sm text-rose-600">{importError}</p>}
                    </div>
 
-                   <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-end space-x-3">
-                       <button 
-                           onClick={() => setModalOpen(false)}
+                   <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-end space-x-3 shrink-0">
+                       <button
+                           onClick={() => setImportModalOpen(false)}
                            className="px-4 py-2 text-sm font-medium text-slate-600 hover:text-slate-800 transition"
                        >
                            Cancelar
                        </button>
-                       <button 
-                           onClick={handleConfirmGeneration}
+                       <button
+                           onClick={handleImportSubmit}
                            className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700 shadow-sm transition flex items-center"
                        >
-                           Gerar {count} Cards
+                           Importar
                        </button>
                    </div>
                </div>

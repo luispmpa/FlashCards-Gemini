@@ -1,18 +1,15 @@
 import { Activity, BookOpen, Layers, Settings, Database, Brain, X, History, Bug } from "lucide-react";
 import { cn } from "../lib/utils";
 
-import { BgGenStatus } from "../hooks/useBackgroundGeneration";
-
 interface SidebarProps {
   currentView: string;
   onChangeView: (view: string) => void;
   isMobileOpen: boolean;
   onCloseMobile: () => void;
   onOpenReport: () => void;
-  bgGenStatus?: BgGenStatus;
 }
 
-export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile, onOpenReport, bgGenStatus }: SidebarProps) {
+export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile, onOpenReport }: SidebarProps) {
   const navItems = [
     { id: "dashboard", label: "Dashboard", icon: Activity },
     { id: "study", label: "Estudar", icon: Brain },
@@ -81,15 +78,9 @@ export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile
             <Bug size={16} />
             <span>Relatar Problema</span>
           </button>
-          <div className="bg-slate-800 rounded-lg p-4 space-y-3">
-              <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500">AI Integrada</h3>
-              <p className="text-xs text-slate-400">Gemini 3.5 Flash gerando flashcards didáticos com estilo das bancas.</p>
-              {bgGenStatus?.running && (
-                <div className="mt-2 text-xs text-amber-300 font-medium flex items-center gap-2">
-                  <span className="animate-spin text-base leading-none">⏳</span>
-                  Gerando {bgGenStatus.generated}/{bgGenStatus.total}
-                </div>
-              )}
+          <div className="bg-slate-800 rounded-lg p-4 space-y-1">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500">AprovaCard</h3>
+              <p className="text-xs text-slate-400">Repetição espaçada com FSRS. Importe flashcards em JSON pela aba Matérias.</p>
           </div>
         </div>
       </aside>

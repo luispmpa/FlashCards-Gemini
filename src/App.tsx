@@ -11,12 +11,10 @@ import { SettingsView } from './components/SettingsView';
 import { Search, Loader2, Menu } from 'lucide-react';
 import { auth, loginWithGoogle, logout } from './firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
-import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb } from './db';
+import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb, clearAllCardsAndLogs } from './db';
 import { isSimilarTopic } from './lib/topicUtils';
 import { ReviewHistory } from './components/ReviewHistory';
 import { ReportProblemModal } from './components/ReportProblemModal';
-
-import { useBackgroundGeneration } from './hooks/useBackgroundGeneration';
 
 interface NavigationState {
   view: string;
@@ -159,90 +157,88 @@ export default function App() {
       await Promise.all(cardsToDelete.map(c => deleteCardFromDb(user.uid, c.id)));
   }
 
-  const generateCardsCore = async (deckId: string, subject: string, topicPrompt: string, count: number, modelPreference: 'pro' | 'flash' = 'flash'): Promise<number> => {
-         // Collect existing fronts for the deck (this is a bit shallow if it's a root deck, 
-         // since it only checks cards ON the root deck. Let's find all cards in root or its subs)
-         const relevantDeckIds = [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)];
-         const existingFronts: string[] = [];
-         relevantDeckIds.forEach(id => {
-             if (cards[id]) existingFronts.push(...cards[id].map(c => c.front));
-         });
+  // Normaliza o enunciado para comparar duplicatas (ignora o prefixo de "assunto sugerido").
+  const normalizeFront = (s: string) =>
+      s.replace(/^\*\*\[Assunto Sugerido pela IA:.*?\]\*\*\s*/s, '').trim().toLowerCase();
 
-         const existingTopics = decks.filter(d => d.parentId === deckId).map(d => d.name);
+  // Constrói os Flashcards a partir de um array (vindo de importação), encaixa em tópicos,
+  // pula duplicatas (opcional) e salva em lote. Retorna o resumo.
+  const buildAndSaveCards = async (
+      deckId: string,
+      aiCards: any[],
+      opts: { skipDuplicates?: boolean } = {}
+  ): Promise<{ added: number; skipped: number }> => {
+      if (!user) return { added: 0, skipped: 0 };
 
-         const token = await auth.currentUser?.getIdToken();
-         const res = await fetch("/api/generate-cards", {
-            method: "POST",
-            headers: { 
-              "Content-Type": "application/json",
-              "Authorization": `Bearer ${token}`
-            },
-            body: JSON.stringify({ subject, topicPrompt, examBoard: "CEBRASPE/FGV", count, existingFronts, existingTopics, modelPreference })
-         });
-         
-         if (!res.ok) {
-             const err = await res.json();
-             throw new Error(err.error || "Failed to generate");
-         }
+      const targetDeck = decks.find(d => d.id === deckId);
+      const isRoot = targetDeck && !targetDeck.parentId;
 
-         const aiCards: any[] = await res.json();
-         
-         if (!user) return 0;
+      const relevantDeckIds = [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)];
+      const existingFronts = new Set<string>();
+      relevantDeckIds.forEach(id => (cards[id] || []).forEach(c => existingFronts.add(normalizeFront(c.front))));
 
-         const targetDeck = decks.find(d => d.id === deckId);
-         const isRoot = targetDeck && !targetDeck.parentId;
+      const newCards: Flashcard[] = [];
+      let skipped = 0;
 
-         const newCards: Flashcard[] = [];
+      for (const c of aiCards) {
+          if (!c || typeof c.front !== 'string' || !c.front.trim() || typeof c.back !== 'string' || !c.back.trim()) {
+              skipped++; continue; // item inválido
+          }
+          const key = normalizeFront(c.front);
+          if (opts.skipDuplicates && existingFronts.has(key)) { skipped++; continue; }
 
-         for (const c of aiCards) {
-             let finalDeckId = deckId;
-             let frontPrefix = "";
-             if (isRoot && c.topicName) {
-                 const topicStr = c.topicName.trim() || 'Assuntos Gerais';
-                 // have to lookup decks dynamically as we might have created one in the same loop
-                 let existingSub = decks.find(
-                     d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name)
-                 );
-                 
-                 if (existingSub) {
-                     finalDeckId = existingSub.id;
-                 } else {
-                     finalDeckId = deckId; // Keep in root
-                     frontPrefix = `**[Assunto Sugerido pela IA: ${topicStr}]**\n\n`;
-                 }
-             }
+          let finalDeckId = deckId;
+          let frontPrefix = "";
+          if (isRoot && c.topicName) {
+              const topicStr = String(c.topicName).trim() || 'Assuntos Gerais';
+              const existingSub = decks.find(d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name));
+              if (existingSub) finalDeckId = existingSub.id;
+              else { finalDeckId = deckId; frontPrefix = `**[Assunto Sugerido pela IA: ${topicStr}]**\n\n`; }
+          }
 
-             const newFlashcard: Flashcard = {
-                 id: uuidv4(),
-                 deckId: finalDeckId,
-                 front: frontPrefix + c.front,
-                 options: c.options,
-                 back: c.back,
-                 correctOption: c.correctOption,
-                 fsrsData: createInitialFSRSData(),
-                 createdAt: new Date()
-             };
-             
-             newCards.push(newFlashcard);
-         }
+          newCards.push({
+              id: uuidv4(),
+              deckId: finalDeckId,
+              front: frontPrefix + c.front,
+              options: Array.isArray(c.options) ? c.options : undefined,
+              back: c.back,
+              correctOption: typeof c.correctOption === 'string' ? c.correctOption : undefined,
+              fsrsData: createInitialFSRSData(),
+              createdAt: new Date(),
+          });
+          existingFronts.add(key); // evita duplicar dentro do próprio lote
+      }
 
-         if (newCards.length > 0) {
-            await saveCardsBatchToDb(user.uid, newCards);
-         }
-         
-         return newCards.length;
+      if (newCards.length > 0) await saveCardsBatchToDb(user.uid, newCards);
+      return { added: newCards.length, skipped };
   };
 
-  const handleGenerateCards = async (deckId: string, subject: string, topicPrompt: string, count: number, modelPreference: 'pro' | 'flash' = 'flash') => {
+  const handleImportCards = async (deckId: string, aiCards: any[]) => {
       try {
-         const n = await generateCardsCore(deckId, subject, topicPrompt, count, modelPreference);
-         setAlertInfo({isOpen: true, title: "Sucesso", message: `${n} flashcards gerados com sucesso!`});
+          const { added, skipped } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
+          setAlertInfo({
+              isOpen: true,
+              title: "Importação concluída",
+              message: `${added} flashcards importados.${skipped > 0 ? ` ${skipped} pulados (duplicados ou inválidos).` : ''}`,
+          });
       } catch (e: any) {
-         setAlertInfo({isOpen: true, title: "Erro na Geração", message: "Erro ao gerar flashcards.\n\n" + e.message});
+          setAlertInfo({ isOpen: true, title: "Erro na Importação", message: "Falha ao importar.\n\n" + (e?.message || '') });
       }
   };
 
-  const bgGen = useBackgroundGeneration(generateCardsCore);
+  const handleClearAllData = async () => {
+      if (!user) return;
+      try {
+          const { cards: nCards, logs: nLogs } = await clearAllCardsAndLogs(user.uid);
+          setAlertInfo({
+              isOpen: true,
+              title: "Base limpa",
+              message: `${nCards} flashcards e ${nLogs} registros de histórico foram apagados. As matérias e tópicos foram mantidos.`,
+          });
+      } catch (e: any) {
+          setAlertInfo({ isOpen: true, title: "Erro ao limpar", message: "Falha ao limpar a base.\n\n" + (e?.message || '') });
+      }
+  };
 
   if (authLoading) {
       return (
@@ -297,7 +293,6 @@ export default function App() {
         isMobileOpen={isMobileMenuOpen}
         onCloseMobile={() => setIsMobileMenuOpen(false)}
         onOpenReport={() => setReportModalOpen(true)}
-        bgGenStatus={bgGen.status}
       />
       
       <main className="flex-1 flex flex-col overflow-hidden relative">
@@ -356,14 +351,12 @@ export default function App() {
              {navState.view === 'dashboard' && <Dashboard cards={cards} decks={decks} logs={reviewLogs} onNavigate={handleNavigate} />}
              {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} onFinishStudy={() => handleNavigate('browser', navState.filter)} />}
              {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} initialFilter={navState.filter} /> }
-             {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onGenerateAI={handleGenerateCards} onNavigate={handleNavigate} />}
+             {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onImportCards={handleImportCards} onNavigate={handleNavigate} />}
              {navState.view === 'history' && <ReviewHistory logs={reviewLogs} />}
              {navState.view === 'settings' && (
                  <SettingsView
-                   decks={decks}
-                   bgGenStatus={bgGen.status}
-                   onStartBgGen={bgGen.start}
-                   onStopBgGen={bgGen.stop}
+                   cardCount={Object.values(cards).reduce((acc, arr) => acc + arr.length, 0)}
+                   onClearAllData={handleClearAllData}
                  />
              )}
          </div>
