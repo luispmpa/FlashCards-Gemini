@@ -11,6 +11,18 @@ import { fetchDueCards, fetchNewCards, getCardsForStudySession } from '../db';
 import { auth } from '../firebase';
 import { countDueAndNew } from '../lib/studyCounts';
 
+// Sanitize schema for rendered answer Markdown/HTML.
+// Extends the safe default to allow inline styling (colors) and highlights,
+// so cards can use <span style="color:...">, <mark>, <u>, <sub>/<sup>.
+const answerSanitizeSchema = {
+  ...defaultSchema,
+  tagNames: [...(defaultSchema.tagNames || []), 'span', 'mark', 'u', 'sub', 'sup'],
+  attributes: {
+    ...defaultSchema.attributes,
+    '*': [...(defaultSchema.attributes?.['*'] || []), 'style', 'className', 'class'],
+  },
+};
+
 interface StudyViewProps {
   decks: Deck[];
   allCards: Record<string, Flashcard[]>;
