@@ -5,12 +5,17 @@ import firebaseConfig from '../firebase-applet-config.json';
 
 const app = initializeApp(firebaseConfig);
 
-// Initialize Firestore with IndexedDB multi-tab offline cache support
-export const db = initializeFirestore(app, {
+// Initialize Firestore with IndexedDB multi-tab offline cache support.
+// Passa o databaseId apenas quando for um banco nomeado; banco padrão usa "(default)".
+const firestoreSettings = {
   localCache: persistentLocalCache({
     tabManager: persistentMultipleTabManager()
   })
-}, firebaseConfig.firestoreDatabaseId);
+};
+const dbId = firebaseConfig.firestoreDatabaseId;
+export const db = (dbId && dbId !== '(default)')
+  ? initializeFirestore(app, firestoreSettings, dbId)
+  : initializeFirestore(app, firestoreSettings);
 
 export const auth = getAuth(app);
 
