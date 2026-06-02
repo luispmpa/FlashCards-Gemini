@@ -14,6 +14,7 @@ import { onAuthStateChanged, User } from 'firebase/auth';
 import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb, clearAllCardsAndLogs } from './db';
 import { isSimilarTopic } from './lib/topicUtils';
 import { ReviewHistory } from './components/ReviewHistory';
+import { UpdatesView } from './components/UpdatesView';
 import { ReportProblemModal } from './components/ReportProblemModal';
 
 interface NavigationState {
@@ -353,6 +354,7 @@ export default function App() {
              {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} initialFilter={navState.filter} /> }
              {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onImportCards={handleImportCards} onNavigate={handleNavigate} />}
              {navState.view === 'history' && <ReviewHistory logs={reviewLogs} />}
+             {navState.view === 'updates' && <UpdatesView />}
              {navState.view === 'settings' && (
                  <SettingsView
                    cardCount={Object.values(cards).reduce((acc, arr) => acc + arr.length, 0)}

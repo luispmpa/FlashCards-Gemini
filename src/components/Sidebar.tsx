@@ -1,4 +1,4 @@
-import { Activity, BookOpen, Layers, Settings, Database, Brain, X, History, Bug } from "lucide-react";
+import { Activity, BookOpen, Layers, Settings, Database, Brain, X, History, Bug, Sparkles } from "lucide-react";
 import { cn } from "../lib/utils";
 
 interface SidebarProps {
@@ -16,6 +16,7 @@ export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile
     { id: "browser", label: "Flashcards", icon: Database },
     { id: "decks", label: "Matérias (Hierarquia)", icon: Layers },
     { id: "history", label: "Histórico de Estudos", icon: History },
+    { id: "updates", label: "Atualizações", icon: Sparkles },
     { id: "settings", label: "Configurações", icon: Settings },
   ];
 
