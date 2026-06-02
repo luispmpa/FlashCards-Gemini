@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { cn } from '../lib/utils';
 
 interface MarkdownContentProps {
@@ -72,13 +73,35 @@ export function MarkdownContent({ children, className }: MarkdownContentProps) {
   return (
     <div className={cn('max-w-none prose prose-slate prose-sm prose-headings:font-bold prose-a:text-indigo-600 prose-mark:bg-yellow-200 prose-mark:px-1 prose-mark:rounded', className)}>
       <ReactMarkdown
-        remarkPlugins={[remarkInlineFormatting]}
+        remarkPlugins={[remarkGfm, remarkInlineFormatting]}
         components={{
           p: ({ children }) => <p className="mb-3 last:mb-0 whitespace-pre-wrap">{children}</p>,
+          h1: ({ children }) => <h1 className="mb-2 mt-4 text-lg font-bold text-slate-900 first:mt-0">{children}</h1>,
+          h2: ({ children }) => <h2 className="mb-2 mt-4 text-base font-bold text-slate-900 first:mt-0">{children}</h2>,
+          h3: ({ children }) => <h3 className="mb-1 mt-3 text-sm font-bold text-slate-800 first:mt-0">{children}</h3>,
+          ul: ({ children }) => <ul className="my-2 list-disc space-y-1 pl-5">{children}</ul>,
+          ol: ({ children }) => <ol className="my-2 list-decimal space-y-1 pl-5">{children}</ol>,
           li: ({ children }) => <li className="my-1">{children}</li>,
           strong: ({ children }) => <strong className="font-bold text-slate-900">{children}</strong>,
           em: ({ children }) => <em className="italic text-slate-700">{children}</em>,
+          del: ({ children }) => <del className="text-slate-400">{children}</del>,
           code: ({ children }) => <code className="rounded bg-slate-100 px-1 py-0.5 text-slate-800">{children}</code>,
+          hr: () => <hr className="my-4 border-slate-200" />,
+          a: ({ href, children }) => (
+            <a href={href} target="_blank" rel="noopener noreferrer" className="text-indigo-600 underline">{children}</a>
+          ),
+          blockquote: ({ children }) => (
+            <blockquote className="my-3 rounded-r border-l-4 border-indigo-300 bg-indigo-50/60 px-4 py-2 text-slate-700">{children}</blockquote>
+          ),
+          table: ({ children }) => (
+            <div className="my-4 overflow-x-auto rounded-lg border border-slate-200">
+              <table className="w-full border-collapse text-left text-sm">{children}</table>
+            </div>
+          ),
+          thead: ({ children }) => <thead className="bg-slate-100 text-slate-900">{children}</thead>,
+          tr: ({ children }) => <tr className="even:bg-slate-50/60">{children}</tr>,
+          th: ({ children }) => <th className="border-b border-slate-200 px-3 py-2 font-semibold">{children}</th>,
+          td: ({ children }) => <td className="border-b border-slate-100 px-3 py-2 align-top">{children}</td>,
         }}
       >
         {children}
