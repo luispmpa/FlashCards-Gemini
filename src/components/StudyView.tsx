@@ -4,10 +4,10 @@ import { applyFSRSRating, shouldRequeue, getSchedulingOptions } from '../lib/fsr
 import { startOfToday, addDays } from 'date-fns';
 import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
-import ReactMarkdown from 'react-markdown';
+import { MarkdownContent } from './MarkdownContent';
 import { getCorrectIndex } from '../lib/cardUtils';
 import { getUserSettings } from '../lib/settings';
-import { fetchDueCards, fetchNewCards } from '../db';
+import { fetchDueCards, fetchNewCards, getCardsForStudySession } from '../db';
 import { auth } from '../firebase';
 import { countDueAndNew } from '../lib/studyCounts';
 
@@ -47,31 +47,45 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
      }
   }, [targetCardId]);
 
+  const getDescendantDeckIds = (parentId: string): string[] => {
+    const children = decks.filter(d => d.parentId === parentId);
+    return children.flatMap(child => [child.id, ...getDescendantDeckIds(child.id)]);
+  };
+
   const startStudy = async (deckId: string) => {
     const userId = auth.currentUser?.uid;
     if (!userId) return;
 
     setLoadingDeckId(deckId);
     try {
-        // If no deck picked, gather all. In real app, we filter by selected
-        const deckIds = deckId ? [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)] : decks.map(d => d.id);
-        
-        // Load user settings limits
+        const deckIds = deckId ? [deckId, ...getDescendantDeckIds(deckId)] : decks.map(d => d.id);
         const settings = getUserSettings();
-        
-        // Limits applied via direct Firestore queries
         const targetDate = addDays(startOfToday(), 1);
-        
-        const [dueCards, newCards] = await Promise.all([
-             fetchDueCards(userId, deckIds, targetDate, settings.reviewsPerDay),
-             fetchNewCards(userId, deckIds, settings.newPerDay)
-        ]);
-        
-        const cardsToStudy = [...dueCards, ...newCards];
-        
-        // Shuffle
+        const subscribedCards = getCardsForStudySession(
+          allCards,
+          deckIds,
+          settings.newPerDay,
+          settings.reviewsPerDay,
+          targetDate
+        );
+        let cardsToStudy: Flashcard[] = [];
+
+        try {
+            const [dueCards, newCards] = await Promise.all([
+                 fetchDueCards(userId, deckIds, targetDate, settings.reviewsPerDay),
+                 fetchNewCards(userId, deckIds, settings.newPerDay)
+            ]);
+            cardsToStudy = [...dueCards, ...newCards];
+
+            if (cardsToStudy.length === 0 && subscribedCards.length > 0) {
+              cardsToStudy = subscribedCards;
+            }
+        } catch (queryError) {
+            console.warn("Direct Firestore study query failed; using subscribed cards fallback.", queryError);
+            cardsToStudy = subscribedCards;
+        }
+
         const shuffled = [...cardsToStudy].sort(() => Math.random() - 0.5);
-        
         setQueue(shuffled);
         setActiveCard(shuffled[0] || null);
         setShowAnswer(false);
@@ -161,8 +175,8 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
 
     const rows = rootDecks.map(root => {
       const children = decks.filter(d => d.parentId === root.id);
-      const ownCards = allCards[root.id] || [];
-      const aggregateCards = [ownCards, ...children.map(c => allCards[c.id] || [])].flat();
+      const aggregateDeckIds = [root.id, ...getDescendantDeckIds(root.id)];
+      const aggregateCards = aggregateDeckIds.flatMap(id => allCards[id] || []);
       return {
         deck: root,
         counts: countDueAndNew(aggregateCards, now),
@@ -310,9 +324,9 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
           <div className="text-xs font-semibold tracking-wider text-indigo-500 uppercase mb-4">
              {decks.find(d => d.id === activeCard.deckId)?.name || 'Matéria'}
           </div>
-          <div className="text-xl font-medium text-slate-800 leading-relaxed whitespace-pre-wrap flex-1">
+          <MarkdownContent className="text-xl font-medium text-slate-800 leading-relaxed flex-1 prose-p:text-xl prose-p:font-medium">
              {activeCard.front}
-          </div>
+          </MarkdownContent>
           
           {activeCard.options && !showAnswer && (
              <div className="mt-8 space-y-3">
@@ -327,7 +341,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
                                  : "border-slate-200 text-slate-700 hover:bg-slate-50"
                          )}
                      >
-                         {opt}
+                         <MarkdownContent className="prose-p:m-0 prose-p:text-inherit prose-p:font-inherit">{opt}</MarkdownContent>
                      </button>
                  ))}
                  <p className="text-xs text-slate-400 text-center mt-2 italic">Apenas reflita sobre a opção correta antes de revelar a resposta.</p>
@@ -351,7 +365,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
                      
                      return (
                          <div key={i} className={className}>
-                             {opt}
+                             <MarkdownContent className="prose-p:m-0 prose-p:text-inherit prose-p:font-inherit">{opt}</MarkdownContent>
                          </div>
                      );
                  })}
@@ -366,9 +380,9 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
                     <CheckCircle className="mr-2 text-emerald-500" size={18}/> 
                     Explicação
                 </h4>
-                <div className="text-sm text-slate-600 leading-relaxed max-w-none prose prose-slate prose-sm prose-headings:font-bold prose-a:text-indigo-600">
-                    <ReactMarkdown>{activeCard.back}</ReactMarkdown>
-                </div>
+                <MarkdownContent className="text-sm text-slate-600 leading-relaxed">
+                    {activeCard.back}
+                </MarkdownContent>
             </div>
         ) : null}
       </div>
