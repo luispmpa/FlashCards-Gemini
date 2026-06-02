@@ -1,0 +1,18 @@
+[
+  {
+    "id": "d3f1c0a2-8b4e-4c5a-9f10-000000000001",
+    "date": "2026-06-02T12:00:00.000Z",
+    "category": "ux",
+    "title": "Nova tela \"Atualizações\"",
+    "description": "Adicionada a tela de Atualizações no menu lateral. Ela lista, de forma individual, cada melhoria aplicada automaticamente pela rotina de melhoria contínua, agrupada por data, com categoria, descrição, arquivos alterados e a opção de reverter cada item individualmente pelo GitHub.",
+    "files": [
+      "src/components/UpdatesView.tsx",
+      "src/data/updates.json",
+      "src/types.ts",
+      "src/components/Sidebar.tsx",
+      "src/App.tsx"
+    ],
+    "commit": "4561781",
+    "status": "applied"
+  }
+]
