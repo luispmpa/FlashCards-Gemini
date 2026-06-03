@@ -14,5 +14,17 @@
     ],
     "commit": "4561781",
     "status": "applied"
+  },
+  {
+    "id": "b1057607-9866-4f47-a688-2ed2520c27c3",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Idioma e metadados corretos no HTML",
+    "description": "Corrigido o atributo de idioma do documento de \"en\" para \"pt-BR\", ajustado o título da página para \"AprovaCard — Flashcards com FSRS\" (antes era o placeholder \"My Google AI Studio App\") e adicionada uma meta description. Isso melhora a leitura por leitores de tela, a pronúncia correta do conteúdo e a apresentação do app em buscadores e ao compartilhar o link.",
+    "files": [
+      "index.html"
+    ],
+    "commit": "PENDING-1",
+    "status": "applied"
   }
 ]
