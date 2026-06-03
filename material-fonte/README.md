@@ -1,11 +1,32 @@
 # material-fonte
 
-Coloque aqui os **PDFs de conteúdo** (teoria + questões + gabarito) que servem de
-fonte para a rotina **"Gerador de flashcards (PDF → import)"**.
+PDFs de conteúdo (teoria + questões + gabarito) que servem de fonte para a rotina
+**"Gerador de flashcards (PDF → import)"**.
 
-- A rotina lê estes PDFs, gera flashcards no formato de importação do AprovaCard
-  e grava os resultados em `../flashcards-gerados/`.
-- O material pode ser extenso (150–250 páginas). A cobertura é feita ao longo de
-  várias execuções; o avanço é registrado em `../flashcards-gerados/_progresso.json`.
+## Organização por matéria (uma pasta por matéria)
 
-> Dica: use nomes claros, ex. `portugues.pdf`, `direito-administrativo.pdf`.
+Os PDFs ficam **dentro de subpastas**, uma por matéria, para que materiais de
+matérias diferentes não se misturem:
+
+```
+material-fonte/
+  ├── materia-01/   ← renomeie para a matéria (ex.: afo)
+  │     ├── <pdf 1>.pdf   (1 assunto/tópico)
+  │     ├── <pdf 2>.pdf
+  │     └── ... (~15 PDFs)
+  ├── materia-02/   ← renomeie (ex.: direito-constitucional)
+  └── ...
+```
+
+- **Renomeie** cada pasta `materia-XX` para o nome real da matéria. O nome da
+  pasta é usado como a **matéria** (deck raiz) na organização dos flashcards.
+- Os **nomes dos arquivos PDF podem ser aleatórios** — a rotina identifica o
+  assunto pelo **conteúdo** de cada PDF, não pelo nome.
+- Cada PDF costuma ser de **um assunto/tópico específico**; a rotina marca os
+  flashcards daquele PDF com esse tópico (campo `topicName`), de modo que, ao
+  importar na matéria-raiz, o app cria automaticamente um sub-deck por assunto.
+
+## Saída
+
+A rotina grava os flashcards em `../flashcards-gerados/` (ver README de lá) e
+registra o avanço em `../flashcards-gerados/_progresso.json`.
