@@ -162,14 +162,14 @@ export default function App() {
   const normalizeFront = (s: string) =>
       s.replace(/^\*\*\[Assunto Sugerido pela IA:.*?\]\*\*\s*/s, '').trim().toLowerCase();
 
-  // Constrói os Flashcards a partir de um array (vindo de importação), encaixa em tópicos,
-  // pula duplicatas (opcional) e salva em lote. Retorna o resumo.
+  // Constrói os Flashcards a partir de um array (vindo de importação), encaixa em tópicos
+  // (criando o sub-deck automaticamente quando não existe), pula duplicatas e salva em lote.
   const buildAndSaveCards = async (
       deckId: string,
       aiCards: any[],
       opts: { skipDuplicates?: boolean } = {}
-  ): Promise<{ added: number; skipped: number; unmatchedTopics: string[] }> => {
-      if (!user) return { added: 0, skipped: 0, unmatchedTopics: [] };
+  ): Promise<{ added: number; skipped: number; topicsCreated: number }> => {
+      if (!user) return { added: 0, skipped: 0, topicsCreated: 0 };
 
       const targetDeck = decks.find(d => d.id === deckId);
       const isRoot = targetDeck && !targetDeck.parentId;
@@ -178,8 +178,8 @@ export default function App() {
       const existingFronts = new Set<string>();
       relevantDeckIds.forEach(id => (cards[id] || []).forEach(c => existingFronts.add(normalizeFront(c.front))));
 
+      const newDecks: Deck[] = []; // tópicos (sub-decks) criados neste import
       const newCards: Flashcard[] = [];
-      const unmatchedTopics = new Set<string>();
       let skipped = 0;
 
       for (const c of aiCards) {
@@ -191,12 +191,18 @@ export default function App() {
 
           let finalDeckId = deckId;
           if (isRoot && c.topicName) {
-              const topicStr = String(c.topicName).trim() || 'Assuntos Gerais';
-              const existingSub = decks.find(d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name));
+              const topicStr = (String(c.topicName).trim() || 'Assuntos Gerais').slice(0, 100);
+              // Procura um tópico semelhante: já existente OU criado neste mesmo lote.
+              const existingSub =
+                  decks.find(d => d.parentId === deckId && isSimilarTopic(d.name, topicStr, targetDeck?.name)) ??
+                  newDecks.find(d => isSimilarTopic(d.name, topicStr, targetDeck?.name));
               if (existingSub) {
                   finalDeckId = existingSub.id;
               } else {
-                  unmatchedTopics.add(topicStr);
+                  // Cria o tópico (sub-deck) automaticamente, um nível abaixo da matéria.
+                  const novoTopico: Deck = { id: uuidv4(), parentId: deckId, name: topicStr, createdAt: new Date() };
+                  newDecks.push(novoTopico);
+                  finalDeckId = novoTopico.id;
               }
           }
 
@@ -213,21 +219,18 @@ export default function App() {
           existingFronts.add(key); // evita duplicar dentro do próprio lote
       }
 
+      for (const d of newDecks) await saveDeckToDb(user.uid, d);
       if (newCards.length > 0) await saveCardsBatchToDb(user.uid, newCards);
-      return { added: newCards.length, skipped, unmatchedTopics: Array.from(unmatchedTopics) };
+      return { added: newCards.length, skipped, topicsCreated: newDecks.length };
   };
 
   const handleImportCards = async (deckId: string, aiCards: any[]) => {
       try {
-          const { added, skipped, unmatchedTopics } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
-          const topicMessage = unmatchedTopics.length > 0
-              ? `\n\nSugestão de tópico não encontrada: ${unmatchedTopics.join(', ')}. Os flashcards foram importados na matéria escolhida sem adicionar essa sugestão ao texto.`
-              : '';
-          setAlertInfo({
-              isOpen: true,
-              title: "Importação concluída",
-              message: `${added} flashcards importados.${skipped > 0 ? ` ${skipped} pulados (duplicados ou inválidos).` : ''}${topicMessage}`,
-          });
+          const { added, skipped, topicsCreated } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
+          const parts = [`${added} flashcards importados.`];
+          if (topicsCreated > 0) parts.push(`${topicsCreated} tópico(s) criado(s).`);
+          if (skipped > 0) parts.push(`${skipped} pulados (duplicados ou inválidos).`);
+          setAlertInfo({ isOpen: true, title: "Importação concluída", message: parts.join(' ') });
       } catch (e: any) {
           setAlertInfo({ isOpen: true, title: "Erro na Importação", message: "Falha ao importar.\n\n" + (e?.message || '') });
       }
