@@ -26,5 +26,17 @@
     ],
     "commit": "PENDING-1",
     "status": "applied"
+  },
+  {
+    "id": "213f2fed-0b52-4280-82da-57913a3d2106",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "bug",
+    "title": "Tratar falha ao copiar relatório de problema",
+    "description": "No modal \"Relatar Problema\", a cópia para a área de transferência não era aguardada nem tratada. Em contextos sem permissão (ou fora de HTTPS), a cópia falhava silenciosamente, mas o app ainda exibia \"Copiado com Sucesso!\". Agora a operação é aguardada e, em caso de erro, é exibida uma mensagem orientando o usuário a copiar o texto manualmente.",
+    "files": [
+      "src/components/ReportProblemModal.tsx"
+    ],
+    "commit": "PENDING-2",
+    "status": "applied"
   }
 ]

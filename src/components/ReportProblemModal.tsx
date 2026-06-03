@@ -9,12 +9,21 @@ interface ReportProblemModalProps {
 export function ReportProblemModal({ isOpen, onClose }: ReportProblemModalProps) {
   const [description, setDescription] = useState("");
   const [step, setStep] = useState<'input' | 'copied'>('input');
-  
+  const [copyError, setCopyError] = useState(false);
+
   if (!isOpen) return null;
 
-  const handleCopy = () => {
+  const handleCopy = async () => {
     const textToCopy = `Report de Problema/Bug:\n${description}\n\nPor favor, analise as descrições acima e corrija o problema reportado.`;
-    navigator.clipboard.writeText(textToCopy);
+    try {
+      await navigator.clipboard.writeText(textToCopy);
+    } catch {
+      // Em contextos sem permissão de área de transferência (ou HTTP),
+      // avisamos o usuário para copiar manualmente em vez de fingir sucesso.
+      setCopyError(true);
+      return;
+    }
+    setCopyError(false);
     setStep('copied');
     setTimeout(() => {
         onClose();
@@ -54,6 +63,12 @@ export function ReportProblemModal({ isOpen, onClose }: ReportProblemModalProps)
                   placeholder="Ex: Tentei excluir a matéria X, mas o card Y continuou aparecendo com um erro de leitura..."
                 />
               </div>
+
+              {copyError && (
+                <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg p-3">
+                  Não foi possível copiar automaticamente. Selecione o texto da descrição acima e copie manualmente (Ctrl+C).
+                </p>
+              )}
 
               <div className="pt-2 flex justify-end">
                 <button 
