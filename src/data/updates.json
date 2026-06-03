@@ -62,5 +62,17 @@
     ],
     "commit": "PENDING-4",
     "status": "applied"
+  },
+  {
+    "id": "7128eeca-7c97-43db-8480-9157f6559ffc",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "tests",
+    "title": "Testes para utilitários de tópicos",
+    "description": "Adicionados testes unitários para o módulo topicUtils (normalizeTopic, stemPortugueseWord e isSimilarTopic), que antes não tinha cobertura. Essas funções decidem o agrupamento automático de flashcards em tópicos durante a importação; os testes protegem contra regressões nessa lógica sensível.",
+    "files": [
+      "src/lib/topicUtils.test.ts"
+    ],
+    "commit": "PENDING-5",
+    "status": "applied"
   }
 ]
