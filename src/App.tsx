@@ -306,11 +306,12 @@ export default function App() {
          {/* Global Top Bar */}
          <header className="bg-white border-b border-slate-200 h-16 flex items-center px-4 md:px-8 justify-between shrink-0 top-0 sticky z-20">
             <div className="flex items-center flex-1 mr-4">
-              <button 
+              <button
                 onClick={() => setIsMobileMenuOpen(true)}
+                aria-label="Abrir menu"
                 className="mr-3 lg:hidden p-2 -ml-2 text-slate-500 hover:text-slate-800 focus:outline-none rounded-lg"
               >
-                <Menu size={20} />
+                <Menu size={20} aria-hidden="true" />
               </button>
               <div className="relative w-full max-w-lg">
                   <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />

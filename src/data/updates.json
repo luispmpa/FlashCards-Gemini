@@ -50,5 +50,17 @@
     ],
     "commit": "PENDING-3",
     "status": "applied"
+  },
+  {
+    "id": "c3061332-c068-48e7-8cdd-27ebc4a0f3e8",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Rótulo no botão de abrir menu (mobile)",
+    "description": "O botão de abrir o menu no cabeçalho (visível apenas no mobile) continha somente um ícone, sem texto acessível. Foi adicionado aria-label=\"Abrir menu\" e o ícone foi marcado como decorativo (aria-hidden), permitindo que leitores de tela anunciem corretamente a ação.",
+    "files": [
+      "src/App.tsx"
+    ],
+    "commit": "PENDING-4",
+    "status": "applied"
   }
 ]
