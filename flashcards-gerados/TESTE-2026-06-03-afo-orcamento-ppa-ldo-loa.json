@@ -1,0 +1,141 @@
+[
+  {
+    "topicName": "PPA",
+    "front": "No Plano Plurianual (PPA), qual a diferença entre diretrizes, objetivos e metas?",
+    "back": "**Diretrizes**: declarações que orientam os programas do PPA, com base nas demandas da população — normas gerais, amplas e estratégicas que mostram o caminho a seguir nos próximos 4 anos. **Objetivos**: o que será perseguido com maior ênfase pelo Governo no período do Plano; declaração do resultado a ser alcançado, expressando o que deve ser feito para transformar determinada realidade. **Metas**: declaração do resultado a ser alcançado, de natureza quantitativa ou qualitativa, que contribui para o alcance do objetivo."
+  },
+  {
+    "topicName": "PPA",
+    "front": "As diretrizes, objetivos e metas do PPA federal incluem os dos demais entes (Estados e Municípios)?",
+    "back": "Não. As diretrizes, objetivos e metas do PPA federal são da administração pública federal. O PPA federal não inclui os dos demais entes federativos, pois cada ente possui seu próprio PPA."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Todo investimento precisa, obrigatoriamente, constar no PPA?",
+    "back": "Não necessariamente. Conforme o art. 167, §1º da CF/88, nenhum investimento cuja execução **ultrapasse um exercício financeiro** poderá ser iniciado sem prévia inclusão no PPA (ou sem lei que autorize a inclusão), sob pena de crime de responsabilidade. Ou seja: se a obra for concluída dentro de um exercício, não há obrigatoriedade de incluí-la no PPA; se ultrapassar o exercício, a inclusão é obrigatória."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Na linguagem orçamentária, o que são despesas de capital e despesas correntes? Dê um exemplo.",
+    "back": "**Despesas de capital**: contribuem diretamente para a formação ou aquisição de um bem de capital (ex.: construção de uma rodovia). Pela Lei 4.320/64 (art. 12), englobam investimentos, inversões financeiras e transferências de capital. **Despesas correntes**: não contribuem diretamente para a formação/aquisição de bem de capital (ex.: pessoal, encargos, custeio, manutenção da rodovia após construída). As despesas correntes decorrentes de uma despesa de capital, durante a vigência do PPA, também devem constar no Plano."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Diferencie legislatura, sessão legislativa e período legislativo (CF/88).",
+    "back": "**Legislatura**: período de 4 anos. **Sessão legislativa**: 1 ano de trabalho do Legislativo (cada legislatura tem 4); ocorre de 02/02 a 22/12. **Período legislativo**: cada sessão legislativa tem dois — o 1º de 02/02 a 17/07 e o 2º de 1º/08 a 22/12."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Qual a vigência do PPA e em que momento do mandato ela começa e termina?",
+    "back": "A vigência do PPA é de **4 anos**. Tem início no **segundo** exercício financeiro do mandato do chefe do Executivo e termina no **primeiro** exercício financeiro do mandato subsequente. Esse desenho garante a continuidade do planejamento na transição entre governos."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Na esfera federal, até quando o PPA deve ser encaminhado ao Legislativo e devolvido para sanção?",
+    "back": "Os prazos federais estão no ADCT (válidos enquanto não editada a lei complementar do art. 165, §9º). O projeto de PPA deve ser **encaminhado** do Executivo ao Legislativo até quatro meses antes do encerramento do primeiro exercício, ou seja, **até 31 de agosto**. A **devolução** ao Executivo deve ocorrer até o encerramento do segundo período da sessão legislativa, em **22 de dezembro**."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Complete: na linguagem orçamentária (Lei 4.320/64), investimentos são dotações para o planejamento e a execução de ______, inclusive aquisição de imóveis necessários, programas especiais de trabalho, instalações, equipamentos e material permanente.",
+    "back": "obras. Pela definição clássica da Lei 4.320/64, investimentos são as dotações para o planejamento e a execução de obras (inclusive aquisição de imóveis necessários a elas), programas especiais de trabalho, aquisição de instalações, equipamentos e material permanente, e constituição/aumento de capital de empresas não comerciais ou financeiras. Em definição mais atual (MTO 2025 / MCASP 11ª ed.), também incluem despesas com softwares."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Como se dá a regionalização do PPA no plano federal? Há regra constitucional detalhando os critérios?",
+    "back": "Na prática, os últimos PPAs da União distribuem a programação entre as 5 regiões do país (Norte, Nordeste, Centro-Oeste, Sudeste e Sul). Contudo, **não há regra constitucional específica** que detalhe os critérios de regionalização. O objetivo é promover, de forma integrada, investimentos definidos a partir das realidades regionais e locais, buscando desenvolvimento mais equilibrado."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Qual o papel do PPA na integração entre planejamento e orçamento?",
+    "back": "O PPA implementa o elo entre o planejamento de longo prazo e os orçamentos anuais. O planejamento de longo prazo materializa-se nos sucessivos PPAs (médio prazo), e o orçamento anual (curto prazo) operacionaliza os programas de médio prazo. Assim, o planejamento funciona como instrumento de coordenação e de busca de sinergias entre os entes e entre os setores público e privado."
+  },
+  {
+    "topicName": "LDO",
+    "front": "Por que se afirma que a vigência da LDO é de cerca de 18 meses, e não de 12?",
+    "back": "A LDO começa a produzir efeitos ainda no exercício de sua elaboração (a partir do fim do 1º período da sessão legislativa, em julho — pois o 1º período não pode ser interrompido sem a aprovação da LDO) e orienta a LOA do ano seguinte, que vige de 1º/01 a 31/12. Por isso seu alcance vai de julho de um ano até dezembro do ano seguinte — cerca de **18 meses**."
+  },
+  {
+    "topicName": "LOA",
+    "front": "Em regra, a LOA pode conter dispositivo estranho à previsão da receita e à fixação da despesa? Há exceções?",
+    "back": "Não como regra. Pelo art. 165, §8º da CF/88, a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa. **Exceções**: a autorização para abertura de créditos suplementares e para a contratação de operações de crédito (ainda que por antecipação de receita), nos termos da lei. É o chamado princípio da exclusividade."
+  },
+  {
+    "topicName": "LOA",
+    "front": "Qual o limite atual das emendas individuais ao projeto de LOA e como ele se reparte (CF, art. 166, após EC 126/2022)?",
+    "back": "As emendas individuais são aprovadas no limite de **2% da Receita Corrente Líquida (RCL)** do exercício anterior ao do encaminhamento do projeto, sendo **metade** desse percentual destinada a ações e serviços públicos de saúde. Da repartição (§9º-A): 1,55% cabe às emendas de Deputados e 0,45% às de Senadores."
+  },
+  {
+    "topicName": "LOA",
+    "front": "Quais recursos podem custear emendas ao projeto de LOA e qual a vedação relevante (art. 166, §3º, CF)?",
+    "back": "As emendas só podem ser aprovadas se forem compatíveis com o PPA e a LDO e se indicarem os recursos necessários, **admitidos apenas os provenientes de anulação de despesa** — excluídas as que incidam sobre: (a) dotações para pessoal e seus encargos; (b) serviço da dívida; e (c) transferências tributárias constitucionais para Estados, Municípios e DF."
+  },
+  {
+    "topicName": "Orçamento Público - Disposições Gerais",
+    "front": "O que é o demonstrativo regionalizado previsto no art. 165, §6º da CF/88 e qual lei ele acompanha?",
+    "back": "É o demonstrativo regionalizado do efeito, sobre as receitas e despesas, decorrente de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia. Ele **acompanha o projeto de Lei Orçamentária Anual (LOA)**."
+  },
+  {
+    "topicName": "Orçamento Público - Disposições Gerais",
+    "front": "(FCC - ACE/TCE-GO/2022) Segundo a CF/88, o Projeto de Lei Orçamentária Anual de um ente público:",
+    "options": [
+      "será acompanhado de demonstrativo regionalizado do efeito, sobre receitas e despesas, decorrente de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia.",
+      "estabelecerá as diretrizes de política fiscal e a política de aplicação das agências financeiras oficiais de fomento.",
+      "estimará os riscos fiscais decorrentes de demandas judiciais e informará as opções para enfrentá-los.",
+      "identificará os tributos com renúncia de receita prevista para o ano e os dois exercícios seguintes, detalhando beneficiários e compensações.",
+      "estabelecerá normas de gestão financeira da Administração direta e indireta e de controle de custos e avaliação de resultados."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** O art. 165, §6º da CF/88 determina que o projeto de LOA seja acompanhado do demonstrativo regionalizado dos benefícios de natureza financeira, tributária e creditícia. **B** e **D** são atribuições da LDO; **C** refere-se ao Anexo de Riscos Fiscais (LDO/LRF, art. 4º); **E** é matéria reservada à lei complementar (art. 165, §9º)."
+  },
+  {
+    "topicName": "Orçamento Público - Disposições Gerais",
+    "front": "(FCC - DETRAN-AP/2022) Quanto às leis que integram o ciclo orçamentário, é de cerca de:",
+    "options": [
+      "um ano e meio (18 meses) a vigência da Lei de Diretrizes Orçamentárias (LDO).",
+      "cinco anos a vigência do Plano Plurianual (PPA).",
+      "seis meses a vigência da Lei de Diretrizes Orçamentárias.",
+      "dois anos a vigência dos Créditos Adicionais.",
+      "dez anos a vigência do Plano Plurianual (PPA)."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** A LDO tem vigência aproximada de 18 meses: inicia no fim do 1º período da sessão legislativa (julho de um ano) e alcança a LOA do ano seguinte (que vige de 1º/01 a 31/12). **B** e **E**: o PPA vige por 4 anos. **C**: a LOA é anual. **D**: créditos adicionais, em regra, restringem-se ao exercício financeiro."
+  },
+  {
+    "topicName": "Orçamento Público - Disposições Gerais",
+    "front": "(FCC - TRT17/2022) De acordo com a Constituição Federal de 1988:",
+    "options": [
+      "o PPA deve dispor sobre normas relativas à avaliação dos resultados dos programas financiados pela LOA.",
+      "o Orçamento da Seguridade Social deve integrar a LDO, fixando despesas de saúde, previdência e assistência social.",
+      "as emendas individuais ao projeto de LOA podem ser aprovadas no limite de 1,2% da receita orçamentária prevista no projeto.",
+      "as emendas aprovadas à LOA podem indicar como recursos os provenientes de anulação de despesas do serviço da dívida.",
+      "a Lei Orçamentária Anual pode conter dispositivo autorizando a abertura de créditos suplementares."
+    ],
+    "correctOption": "E",
+    "back": "**Gabarito: E.** O art. 165, §8º da CF/88 permite que a LOA contenha autorização para abertura de créditos suplementares (exceção ao princípio da exclusividade). **A**: avaliação de resultados é atribuição da LDO (art. 4º da LRF). **B**: o Orçamento da Seguridade integra a LOA, não a LDO. **C**: o limite é 2% da RCL do exercício anterior (EC 126/2022), não 1,2%. **D**: é vedado usar recursos de anulação do serviço da dívida (art. 166, §3º, II)."
+  },
+  {
+    "topicName": "PPA",
+    "front": "O que são programas de duração continuada e como a doutrina interpreta sua inclusão no PPA?",
+    "back": "Excluídos os programas com prazo de conclusão (investimentos), qualquer outra ação poderia, em tese, ser considerada de duração continuada. Na prática, adota-se interpretação **restritiva**: consideram-se apenas ações finalísticas, para que o PPA não perca sua finalidade de instrumento de planejamento. Assim, não se obriga a inclusão de todos os programas de duração continuada, como os ligados a atividades-meio da Administração."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Complete: nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no ______, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.",
+    "back": "plano plurianual (PPA). É a regra do art. 167, §1º da CF/88, que vincula investimentos plurianuais à prévia inclusão no PPA (ou em lei autorizativa)."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Em que normativo estão os prazos do ciclo orçamentário na esfera federal e por quê?",
+    "back": "Estão no **ADCT (Ato das Disposições Constitucionais Transitórias)** e vigoram **enquanto não for editada a lei complementar** prevista no art. 165, §9º da CF/88, que deverá dispor sobre exercício financeiro, vigência, prazos, elaboração e organização do PPA, da LDO e da LOA."
+  },
+  {
+    "topicName": "LOA",
+    "front": "Da repartição do limite das emendas individuais à LOA, quanto cabe a Deputados e quanto a Senadores (CF, art. 166, §9º-A)?",
+    "back": "Do limite de 2% da RCL, **1,55%** cabe às emendas de Deputados e **0,45%** às de Senadores (Incluído pela EC 126/2022)."
+  },
+  {
+    "topicName": "Orçamento Público - Disposições Gerais",
+    "front": "A avaliação dos resultados dos programas financiados com recursos orçamentários é atribuição de qual lei?",
+    "back": "Da **LDO**, conforme o art. 4º da Lei de Responsabilidade Fiscal (LRF). É um erro clássico de prova atribuir essa competência ao PPA ou à LOA."
+  }
+]
