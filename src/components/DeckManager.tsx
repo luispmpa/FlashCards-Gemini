@@ -124,9 +124,9 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
 
       return (
           <div key={deck.id} className="relative">
-              <div 
+              <div
                   onClick={() => toggleExpand(deck.id)}
-                  className={`${bgColor} ${paddingLeft} py-3 flex justify-between items-center group cursor-pointer transition-colors`}
+                  className={`${bgColor} ${paddingLeft} py-3 flex justify-between items-center group cursor-pointer transition-colors relative`}
               >
                   <div className="flex items-center text-slate-800 font-medium overflow-hidden">
                       {children.length > 0 ? (
@@ -143,7 +143,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
                         {cardCount} cards
                       </button>
                   </div>
-                  <div className="flex space-x-1 sm:space-x-2 shrink-0 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity items-center">
+                  <div className="flex items-center space-x-1 sm:space-x-2 shrink-0 opacity-100 transition-opacity lg:absolute lg:right-3 lg:top-1/2 lg:-translate-y-1/2 lg:opacity-0 lg:group-hover:opacity-100 lg:bg-slate-50 lg:pl-3 lg:rounded-md">
                       <button
                         onClick={(e) => { e.stopPropagation(); openImportModal(deck.id, deck.name, parentName); }}
                         className="text-xs flex items-center bg-indigo-50 text-indigo-600 px-2 sm:px-2.5 py-1 rounded-md font-medium hover:bg-indigo-100 transition"
@@ -165,9 +165,11 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
                       {children.map(child => renderDeckNode(child, level + 1, deck.name))}
                   </div>
               )}
-              {isExpanded && children.length === 0 && (
-                  <div className={`${level === 0 ? 'pl-8' : (level === 1 ? 'pl-12' : 'pl-16')} py-2 text-xs text-slate-400 italic`}>
-                      Nenhum subtópico.
+              {children.length === 0 && (level === 0 || isExpanded) && (
+                  <div className={`${level === 0 ? 'px-4 border-t border-slate-100' : (level === 1 ? 'pl-12 pr-4' : 'pl-16 pr-4')} py-3 text-xs text-slate-400 italic`}>
+                      {level === 0
+                          ? 'Nenhum assunto ainda. Use "Importar" (JSON) ou adicione um subtópico (+).'
+                          : 'Nenhum subtópico.'}
                   </div>
               )}
           </div>
@@ -175,7 +177,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
   };
 
   return (
-    <div className="p-4 md:p-8 max-w-5xl mx-auto space-y-8 animate-in fade-in duration-300">
+    <div className="p-4 md:p-8 max-w-7xl mx-auto space-y-8 animate-in fade-in duration-300">
        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end border-b border-slate-200 pb-4 gap-4">
            <div>
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900">Matérias e Assuntos</h2>
@@ -192,7 +194,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
            </div>
        </div>
 
-       <div className="grid gap-6 md:grid-cols-2">
+       <div className="grid gap-6 md:grid-cols-2 items-start">
            {rootDecks.map(root => (
                <div key={root.id} className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
                    {renderDeckNode(root, 0)}
