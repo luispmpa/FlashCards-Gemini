@@ -24,7 +24,7 @@
     "files": [
       "index.html"
     ],
-    "commit": "PENDING-1",
+    "commit": "c171941",
     "status": "applied"
   },
   {
@@ -36,7 +36,7 @@
     "files": [
       "src/components/ReportProblemModal.tsx"
     ],
-    "commit": "PENDING-2",
+    "commit": "1d56a1c",
     "status": "applied"
   },
   {
@@ -48,7 +48,7 @@
     "files": [
       "src/components/Sidebar.tsx"
     ],
-    "commit": "PENDING-3",
+    "commit": "4fabf08",
     "status": "applied"
   },
   {
@@ -60,7 +60,7 @@
     "files": [
       "src/App.tsx"
     ],
-    "commit": "PENDING-4",
+    "commit": "ea31fc5",
     "status": "applied"
   },
   {
@@ -72,7 +72,7 @@
     "files": [
       "src/lib/topicUtils.test.ts"
     ],
-    "commit": "PENDING-5",
+    "commit": "e528506",
     "status": "applied"
   }
 ]
