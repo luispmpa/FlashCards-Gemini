@@ -28,6 +28,7 @@ export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile
           isMobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         )}
         onClick={onCloseMobile}
+        aria-hidden="true"
       />
       <aside 
         className={cn(
@@ -45,12 +46,12 @@ export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile
               <p className="text-xs text-indigo-400 font-medium">FSRS</p>
             </div>
           </div>
-          <button onClick={onCloseMobile} className="lg:hidden p-2 text-slate-400 hover:text-white">
+          <button onClick={onCloseMobile} aria-label="Fechar menu" className="lg:hidden p-2 text-slate-400 hover:text-white">
             <X size={20} />
           </button>
         </div>
 
-        <nav className="flex-1 px-3 space-y-1 overflow-y-auto">
+        <nav aria-label="Navegação principal" className="flex-1 px-3 space-y-1 overflow-y-auto">
           {navItems.map((item) => (
             <button
               key={item.id}
@@ -58,14 +59,15 @@ export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile
                 onChangeView(item.id);
                 onCloseMobile();
               }}
+              aria-current={currentView === item.id ? "page" : undefined}
               className={cn(
                 "w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg transition-colors text-sm font-medium",
-                currentView === item.id 
-                  ? "bg-indigo-500/10 text-indigo-400" 
+                currentView === item.id
+                  ? "bg-indigo-500/10 text-indigo-400"
                   : "hover:bg-slate-800 hover:text-white"
               )}
             >
-              <item.icon size={18} />
+              <item.icon size={18} aria-hidden="true" />
               <span>{item.label}</span>
             </button>
           ))}

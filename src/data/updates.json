@@ -14,5 +14,65 @@
     ],
     "commit": "4561781",
     "status": "applied"
+  },
+  {
+    "id": "b1057607-9866-4f47-a688-2ed2520c27c3",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Idioma e metadados corretos no HTML",
+    "description": "Corrigido o atributo de idioma do documento de \"en\" para \"pt-BR\", ajustado o título da página para \"AprovaCard — Flashcards com FSRS\" (antes era o placeholder \"My Google AI Studio App\") e adicionada uma meta description. Isso melhora a leitura por leitores de tela, a pronúncia correta do conteúdo e a apresentação do app em buscadores e ao compartilhar o link.",
+    "files": [
+      "index.html"
+    ],
+    "commit": "c171941",
+    "status": "applied"
+  },
+  {
+    "id": "213f2fed-0b52-4280-82da-57913a3d2106",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "bug",
+    "title": "Tratar falha ao copiar relatório de problema",
+    "description": "No modal \"Relatar Problema\", a cópia para a área de transferência não era aguardada nem tratada. Em contextos sem permissão (ou fora de HTTPS), a cópia falhava silenciosamente, mas o app ainda exibia \"Copiado com Sucesso!\". Agora a operação é aguardada e, em caso de erro, é exibida uma mensagem orientando o usuário a copiar o texto manualmente.",
+    "files": [
+      "src/components/ReportProblemModal.tsx"
+    ],
+    "commit": "1d56a1c",
+    "status": "applied"
+  },
+  {
+    "id": "69ce8463-3cb1-4145-9b89-fa7eb43aba69",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Acessibilidade na navegação lateral",
+    "description": "Adicionados atributos de acessibilidade ao menu lateral: rótulo na navegação (aria-label), indicação do item ativo (aria-current=\"page\") para leitores de tela, rótulo no botão de fechar o menu mobile e marcação dos ícones como decorativos (aria-hidden). Isso melhora a experiência de quem usa tecnologias assistivas.",
+    "files": [
+      "src/components/Sidebar.tsx"
+    ],
+    "commit": "4fabf08",
+    "status": "applied"
+  },
+  {
+    "id": "c3061332-c068-48e7-8cdd-27ebc4a0f3e8",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Rótulo no botão de abrir menu (mobile)",
+    "description": "O botão de abrir o menu no cabeçalho (visível apenas no mobile) continha somente um ícone, sem texto acessível. Foi adicionado aria-label=\"Abrir menu\" e o ícone foi marcado como decorativo (aria-hidden), permitindo que leitores de tela anunciem corretamente a ação.",
+    "files": [
+      "src/App.tsx"
+    ],
+    "commit": "ea31fc5",
+    "status": "applied"
+  },
+  {
+    "id": "7128eeca-7c97-43db-8480-9157f6559ffc",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "tests",
+    "title": "Testes para utilitários de tópicos",
+    "description": "Adicionados testes unitários para o módulo topicUtils (normalizeTopic, stemPortugueseWord e isSimilarTopic), que antes não tinha cobertura. Essas funções decidem o agrupamento automático de flashcards em tópicos durante a importação; os testes protegem contra regressões nessa lógica sensível.",
+    "files": [
+      "src/lib/topicUtils.test.ts"
+    ],
+    "commit": "e528506",
+    "status": "applied"
   }
 ]
