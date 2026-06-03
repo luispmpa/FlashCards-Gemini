@@ -38,5 +38,17 @@
     ],
     "commit": "PENDING-2",
     "status": "applied"
+  },
+  {
+    "id": "69ce8463-3cb1-4145-9b89-fa7eb43aba69",
+    "date": "2026-06-03T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Acessibilidade na navegação lateral",
+    "description": "Adicionados atributos de acessibilidade ao menu lateral: rótulo na navegação (aria-label), indicação do item ativo (aria-current=\"page\") para leitores de tela, rótulo no botão de fechar o menu mobile e marcação dos ícones como decorativos (aria-hidden). Isso melhora a experiência de quem usa tecnologias assistivas.",
+    "files": [
+      "src/components/Sidebar.tsx"
+    ],
+    "commit": "PENDING-3",
+    "status": "applied"
   }
 ]
