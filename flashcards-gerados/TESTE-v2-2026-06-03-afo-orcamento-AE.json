@@ -1,0 +1,132 @@
+[
+  {
+    "topicName": "PPA",
+    "front": "Segundo o art. 165, §1º da CF/88, a lei que institui o **Plano Plurianual (PPA)** estabelecerá, de forma regionalizada, as diretrizes, objetivos e metas da administração pública federal para:",
+    "options": [
+      "exclusivamente as despesas relativas aos programas de duração continuada.",
+      "as despesas de capital e outras delas decorrentes e as relativas aos programas de duração continuada.",
+      "apenas as despesas de capital, excluídas as decorrentes.",
+      "todas as despesas correntes, independentemente de vínculo com despesas de capital.",
+      "as despesas de capital de todos os entes federativos (União, Estados e Municípios)."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B** — literalidade do art. 165, §1º da CF/88.\n\nO PPA fixa, de forma regionalizada, **diretrizes, objetivos e metas** para:\n\n- ✅ ==despesas de capital==;\n- ✅ ==outras delas decorrentes== (despesas correntes geradas pela despesa de capital);\n- ✅ ==programas de duração continuada==.\n\n**Por que as demais erram:**\n- **A/C**: {red:não se restringe} a um único tipo de despesa.\n- **E**: o PPA federal trata apenas da {red:administração pública federal} — cada ente tem seu próprio PPA.\n\n> 💡 **Mnemônico — \"CA-DE-CO\"**: o PPA cuida de **CA**pital + **DE**correntes + duração **CO**ntinuada."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Acerca da obrigatoriedade de inclusão de investimentos no PPA (art. 167, §1º, CF/88), assinale a alternativa correta:",
+    "options": [
+      "Nenhum investimento poderá ser iniciado sem prévia inclusão no PPA, qualquer que seja sua duração.",
+      "Apenas o investimento cuja execução ultrapasse um exercício financeiro exige prévia inclusão no PPA (ou lei que autorize), sob pena de crime de responsabilidade.",
+      "Investimentos concluídos dentro do mesmo exercício também têm inclusão obrigatória no PPA.",
+      "A regra aplica-se somente às despesas correntes de duração continuada.",
+      "A ausência de inclusão é mera irregularidade administrativa, sem qualquer sanção."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** O divisor de águas é a ==duração do investimento==:\n\n| Execução do investimento | Inclusão no PPA? |\n|---|---|\n| Concluído **dentro** de um exercício | Facultativa |\n| **Ultrapassa** um exercício financeiro | {red:Obrigatória} (ou lei que autorize) |\n\nIniciar investimento plurianual sem essa previsão configura {red:crime de responsabilidade}.\n\n**Pegadinha clássica (A):** omitir a expressão \"cuja execução ultrapasse um exercício financeiro\" torna a assertiva **errada** — foi exatamente assim que a banca cobrou no PDF."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Considerando um mandato presidencial de **01/01/2023 a 31/12/2026**, qual é o período de vigência do PPA correspondente?",
+    "options": [
+      "2023 a 2026 (coincide com o mandato).",
+      "2024 a 2027.",
+      "2023 a 2027.",
+      "2022 a 2025.",
+      "2024 a 2026."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B — 2024 a 2027.**\n\nO PPA tem vigência de **4 anos**, mas {blue:defasada} em relação ao mandato:\n\n- Começa no **2º** exercício do mandato → **2024**;\n- Termina no **1º** exercício do mandato **seguinte** → **2027**.\n\n```\nMandato:  2023 ──── 2024 ──── 2025 ──── 2026 |2027\nPPA:             2024 ──── 2025 ──── 2026 ──── 2027\n```\n\n> 💡 Esse desenho garante a ==continuidade do planejamento== na transição entre governos: o novo gestor executa, no 1º ano, o PPA herdado, e só no 2º ano começa o seu."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Na esfera federal (prazos do ADCT), em relação ao projeto de lei do PPA, assinale a correta:",
+    "options": [
+      "É encaminhado ao Legislativo até 15 de abril e devolvido até 17 de julho.",
+      "É encaminhado até 31 de agosto (4 meses antes do encerramento do 1º exercício) e devolvido para sanção até 22 de dezembro.",
+      "É encaminhado até 31 de agosto e devolvido até 30 de abril do ano seguinte.",
+      "Não há prazo constitucional, pois depende exclusivamente de lei ordinária.",
+      "É encaminhado até 30 de setembro e devolvido até 15 de dezembro."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** Os prazos federais estão no **ADCT** (válidos enquanto não editada a lei complementar do art. 165, §9º).\n\n| Lei | Encaminhamento ao Legislativo | Devolução ao Executivo |\n|---|---|---|\n| **PPA** | até ==31/08== | até ==22/12== |\n| **LDO** | até 15/04 | até 17/07 (fim do 1º período) |\n| **LOA** | até 31/08 | até 22/12 |\n\n**A** mistura os prazos da LDO. {green:Dica:} PPA e LOA compartilham os mesmos prazos (31/08 e 22/12); a LDO é a \"adiantada\" (abril/julho)."
+  },
+  {
+    "topicName": "LDO",
+    "front": "(FCC – DETRAN-AP/2022) Quanto às leis que integram o ciclo orçamentário, é de cerca de:",
+    "options": [
+      "um ano e meio (18 meses) a vigência da Lei de Diretrizes Orçamentárias – LDO.",
+      "cinco anos a vigência do Plano Plurianual – PPA.",
+      "seis meses a vigência da Lei de Diretrizes Orçamentárias.",
+      "dois anos a vigência dos Créditos Adicionais.",
+      "dez anos a vigência do Plano Plurianual – PPA."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** Apesar de \"anual\" no nome, a LDO **influencia ~18 meses**:\n\n- Surge no fim do **1º período** da sessão legislativa (≈ julho) — o período não se encerra sem aprovar a LDO;\n- Orienta a **LOA do ano seguinte** (que vige de 01/01 a 31/12).\n- Resultado: julho de um ano → dezembro do ano seguinte ≈ ==18 meses==.\n\n**Erros:** **B/E** PPA vige 4 anos; **C** a LOA é anual; **D** créditos adicionais, em regra, restringem-se ao exercício financeiro."
+  },
+  {
+    "topicName": "Orçamento Público - Disposições Gerais",
+    "front": "Sobre as competências de cada lei orçamentária, assinale a alternativa correta:",
+    "options": [
+      "Avaliar os resultados dos programas financiados com recursos orçamentários é atribuição do PPA.",
+      "Dispor sobre o Anexo de Riscos Fiscais é atribuição da LOA.",
+      "Estabelecer as diretrizes de política fiscal e a política das agências oficiais de fomento é atribuição da LDO.",
+      "Fixar as diretrizes, objetivos e metas de médio prazo é atribuição da LOA.",
+      "Autorizar a abertura de créditos suplementares é atribuição exclusiva do PPA."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** Visão de conjunto das três leis:\n\n| Lei | Função central | Horizonte |\n|---|---|---|\n| **PPA** | Diretrizes, objetivos e metas | Médio prazo (4 anos) |\n| **LDO** | Elo PPA↔LOA; metas fiscais; Anexo de Riscos Fiscais; política fiscal | ~18 meses |\n| **LOA** | Previsão da receita e fixação da despesa | Anual |\n\n**Erros:** **A** avaliação de resultados é da {blue:LDO} (art. 4º, LRF); **B** o Anexo de Riscos Fiscais é da {blue:LDO}; **D** diretrizes/objetivos/metas são do {blue:PPA}; **E** a autorização de créditos suplementares está na {blue:LOA} (art. 165, §8º)."
+  },
+  {
+    "topicName": "LOA",
+    "front": "Sobre as emendas individuais ao projeto de Lei Orçamentária Anual após a EC 126/2022 (art. 166, CF/88), assinale a correta:",
+    "options": [
+      "Limite de 1,2% da receita orçamentária prevista no projeto, metade para saúde.",
+      "Limite de 2% da Receita Corrente Líquida do exercício anterior, sendo metade destinada a ações e serviços públicos de saúde.",
+      "Limite de 2% da receita do exercício corrente, sem destinação obrigatória.",
+      "Limite de 5% da Receita Corrente Líquida, integralmente livre.",
+      "Não há limite percentual, apenas compatibilidade com o PPA."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** Regra atual (EC 126/2022):\n\n- Limite: ==2% da Receita Corrente Líquida (RCL)== do exercício **anterior** ao do encaminhamento;\n- {green:Metade} obrigatoriamente para **saúde**.\n\n**Repartição interna** (§9º-A):\n\n| Parlamentar | Percentual |\n|---|---|\n| Deputados | 1,55% |\n| Senadores | 0,45% |\n\n**Erro comum (A):** o valor antigo \"1,2%\" e a base \"receita prevista no projeto\" — hoje é {red:2% da RCL do exercício anterior}."
+  },
+  {
+    "topicName": "LOA",
+    "front": "Acerca do princípio da exclusividade orçamentária (art. 165, §8º, CF/88), assinale a correta:",
+    "options": [
+      "A LOA pode conter qualquer matéria, desde que aprovada pelo Legislativo.",
+      "A LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa, ressalvadas as autorizações para créditos suplementares e para operações de crédito, inclusive por ARO.",
+      "A LOA não admite nenhuma exceção: é vedada toda autorização não relacionada a receita e despesa.",
+      "Apenas a LDO se submete ao princípio da exclusividade.",
+      "O princípio da exclusividade impede a LOA de fixar despesas de capital."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** O **princípio da exclusividade** veda \"caudas orçamentárias\" (dispositivos estranhos à receita/despesa), **mas a própria CF ressalva**:\n\n- ✅ autorização para abertura de ==créditos suplementares==;\n- ✅ autorização para ==operações de crédito==, ainda que por antecipação de receita (ARO).\n\n**Erros:** **A** existe limitação material; **C** ignora as ressalvas expressas; **D** o princípio é da LOA; **E** a LOA naturalmente fixa despesas de capital.\n\n> 💡 \"Exclusividade **não** é exclusividade absoluta\": as duas autorizações acima são exceções constitucionais."
+  },
+  {
+    "topicName": "Orçamento Público - Disposições Gerais",
+    "front": "(FCC – ACE/TCE-GO/2022) Segundo a CF/88, o projeto de Lei Orçamentária Anual de um ente público:",
+    "options": [
+      "será acompanhado de demonstrativo regionalizado do efeito, sobre receitas e despesas, decorrente de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia.",
+      "estabelecerá as diretrizes de política fiscal e a política de aplicação das agências financeiras oficiais de fomento.",
+      "estimará os riscos fiscais decorrentes de demandas judiciais e as opções para enfrentá-los.",
+      "identificará os tributos com renúncia de receita prevista para o ano e os dois exercícios seguintes.",
+      "estabelecerá normas de gestão financeira e de controle de custos e avaliação de resultados."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A** — art. 165, §6º da CF/88: o projeto de LOA é acompanhado do ==demonstrativo regionalizado== dos benefícios de natureza financeira, tributária e creditícia.\n\n**Por que as demais são da LDO (e não da LOA):**\n- **B**: diretrizes de política fiscal → {blue:LDO};\n- **C**: riscos fiscais → Anexo de Riscos Fiscais ({blue:LDO}/LRF, art. 4º);\n- **D**: renúncia de receita → {blue:LDO};\n- **E**: matéria reservada à {blue:lei complementar} (art. 165, §9º)."
+  },
+  {
+    "topicName": "PPA",
+    "front": "Sobre a diferença entre legislatura, sessão legislativa e período legislativo (CF/88), assinale a correta:",
+    "options": [
+      "Legislatura é o período de 1 ano; sessão legislativa, de 4 anos.",
+      "Legislatura é o período de 4 anos; cada legislatura tem 4 sessões legislativas anuais, e cada sessão tem 2 períodos legislativos.",
+      "Sessão legislativa corresponde a 4 anos de trabalho do Legislativo.",
+      "Período legislativo é o intervalo de 4 anos entre eleições.",
+      "Cada sessão legislativa possui um único período legislativo, de 02/02 a 22/12."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** Hierarquia dos prazos legislativos:\n\n| Termo | Duração | Detalhe |\n|---|---|---|\n| **Legislatura** | 4 anos | contém 4 sessões |\n| **Sessão legislativa** | 1 ano | de 02/02 a 22/12 |\n| **Período legislativo** | 2 por sessão | 1º: 02/02–17/07 • 2º: 01/08–22/12 |\n\n> 💡 **Do maior ao menor:** ==Legislatura (4 anos) ⊃ Sessão (1 ano) ⊃ Período (semestre)==."
+  }
+]
