@@ -1,0 +1,80 @@
+[
+  {
+    "topicName": "LOA",
+    "front": "*FCC • TCE-GO • 2022 • Auditor de Controle Externo • Tema: Orçamento (LOA)*\n\n**Segundo a CF/88, o projeto de Lei Orçamentária Anual de um ente público:**",
+    "options": [
+      "será acompanhado de demonstrativo regionalizado do efeito, sobre receitas e despesas, decorrente de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia.",
+      "estabelecerá as diretrizes de política fiscal e a política de aplicação das agências financeiras oficiais de fomento.",
+      "estimará os riscos fiscais decorrentes de demandas judiciais e as opções para enfrentá-los.",
+      "identificará os tributos com renúncia de receita prevista para o ano e os dois exercícios seguintes.",
+      "estabelecerá normas de gestão financeira e de controle de custos e avaliação de resultados."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** O demonstrativo regionalizado dos benefícios financeiros, tributários e creditícios acompanha o projeto de **LOA**.\n\n**📖 Fundamentação legal**\n> **Art. 165, §6º, CF/88** — \"O projeto de lei orçamentária será acompanhado de demonstrativo regionalizado do efeito, sobre as receitas e despesas, decorrente de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia.\"\n\n**Alternativas incorretas (todas são atribuições de outra norma):**\n- **B)** política fiscal e agências de fomento → {blue:LDO}.\n- **C)** riscos fiscais → Anexo de Riscos Fiscais da {blue:LDO} (art. 4º, LRF).\n- **D)** renúncia de receita → {blue:LDO}.\n- **E)** normas de gestão e avaliação de custos → matéria de {blue:lei complementar} (art. 165, §9º)."
+  },
+  {
+    "topicName": "PPA",
+    "front": "*FGV • SEFAZ-AM • 2022 (adaptada de C/E → A–E) • Tema: PPA / Investimentos*\n\n**Acerca da obrigatoriedade de inclusão de investimentos no Plano Plurianual, assinale a alternativa correta:**",
+    "options": [
+      "Nenhum investimento poderá ser iniciado sem prévia inclusão no PPA, qualquer que seja sua duração.",
+      "O investimento cuja execução ultrapasse um exercício financeiro não pode ser iniciado sem prévia inclusão no PPA (ou lei que autorize), sob pena de crime de responsabilidade.",
+      "A inclusão no PPA só é exigida para investimentos concluídos dentro do mesmo exercício.",
+      "A regra alcança apenas despesas correntes de duração continuada.",
+      "O descumprimento gera apenas advertência administrativa, sem tipificação penal."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** O critério é a ==duração do investimento==: só é obrigatória a prévia inclusão no PPA quando a execução ultrapassa um exercício.\n\n**📖 Fundamentação legal**\n> **Art. 167, §1º, CF/88** — \"Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no plano plurianual, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.\"\n\n**Alternativas incorretas:**\n- **A)** omite \"cuja execução ultrapasse um exercício\" — generaliza indevidamente (foi assim que a banca tornou o item errado).\n- **C)** inverte a lógica: o concluído no mesmo exercício é justamente o {red:facultativo}.\n- **D)** a regra é de {red:investimentos}, não de despesas correntes.\n- **E)** a sanção é {red:crime de responsabilidade}."
+  },
+  {
+    "topicName": "PPA",
+    "front": "*CESPE/CEBRASPE • TRF 6ª Região • 2025 (adaptada de C/E → A–E) • Tema: PPA*\n\n**Conforme a CF/88, o Plano Plurianual estabelece, de forma regionalizada, diretrizes, objetivos e metas da administração pública federal para:**",
+    "options": [
+      "exclusivamente as despesas relativas aos programas de duração continuada.",
+      "as despesas de capital e outras delas decorrentes e as relativas aos programas de duração continuada.",
+      "apenas as despesas de capital.",
+      "todas as despesas correntes, sem qualquer vínculo com despesas de capital.",
+      "as despesas de capital de União, Estados e Municípios conjuntamente."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B** (literalidade do dispositivo).\n\n**📖 Fundamentação legal**\n> **Art. 165, §1º, CF/88** — \"A lei que instituir o plano plurianual estabelecerá, de forma regionalizada, as diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.\"\n\n**Alternativas incorretas:**\n- **A/C)** o PPA {red:não se restringe} a um único tipo de despesa.\n- **D)** as despesas correntes alcançadas são as \"{red:decorrentes}\" de despesas de capital, não todas.\n- **E)** o PPA federal trata apenas da {red:administração federal} — cada ente tem o seu.\n\n> 💡 **Mnemônico \"CA-DE-CO\"**: **CA**pital + **DE**correntes + duração **CO**ntinuada."
+  },
+  {
+    "topicName": "LDO",
+    "front": "*FCC • DETRAN-AP • 2022 • Analista • Tema: Ciclo orçamentário (vigências)*\n\n**Quanto às leis que integram o ciclo orçamentário, é de cerca de:**",
+    "options": [
+      "um ano e meio (18 meses) a vigência da Lei de Diretrizes Orçamentárias – LDO.",
+      "cinco anos a vigência do Plano Plurianual – PPA.",
+      "seis meses a vigência da Lei de Diretrizes Orçamentárias.",
+      "dois anos a vigência dos Créditos Adicionais.",
+      "dez anos a vigência do Plano Plurianual – PPA."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** A LDO **influencia ~18 meses**: nasce no fim do 1º período da sessão legislativa (≈ julho) e orienta a LOA do ano seguinte (01/01 a 31/12) → julho de um ano até dezembro do ano seguinte.\n\n**📖 Fundamentação legal**\n> Prazos federais no **art. 35, §2º do ADCT** (vigentes enquanto não editada a LC do art. 165, §9º, CF/88). O 1º período da sessão legislativa não se encerra sem a aprovação da LDO (art. 57, §2º, CF/88).\n\n**Alternativas incorretas:**\n- **B/E)** o PPA vige {red:4 anos}.\n- **C)** a LOA é {red:anual} (a LDO influencia ~18 meses).\n- **D)** créditos adicionais, em regra, restringem-se ao {red:exercício financeiro}."
+  },
+  {
+    "topicName": "LOA",
+    "front": "*FCC • TRT 17ª Região • 2022 • Analista Judiciário • Tema: LOA / princípio da exclusividade*\n\n**De acordo com a CF/88, assinale a alternativa correta:**",
+    "options": [
+      "O PPA deve dispor sobre a avaliação dos resultados dos programas financiados pela LOA.",
+      "O Orçamento da Seguridade Social integra a LDO.",
+      "As emendas individuais à LOA têm limite de 1,2% da receita orçamentária prevista no projeto.",
+      "As emendas à LOA podem indicar recursos provenientes de anulação de despesas do serviço da dívida.",
+      "A Lei Orçamentária Anual pode conter dispositivo autorizando a abertura de créditos suplementares."
+    ],
+    "correctOption": "E",
+    "back": "**Gabarito: E.** Pelo princípio da exclusividade, a LOA não traz matéria estranha a receita/despesa — **salvo** as autorizações que a própria CF ressalva.\n\n**📖 Fundamentação legal**\n> **Art. 165, §8º, CF/88** — \"A lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e contratação de operações de crédito, ainda que por antecipação de receita, nos termos da lei.\"\n\n**Alternativas incorretas:**\n- **A)** avaliação de resultados → {blue:LDO} (art. 4º, LRF).\n- **B)** a Seguridade integra a {blue:LOA}, não a LDO.\n- **C)** o limite é {red:2% da RCL} do exercício anterior (EC 126/2022).\n- **D)** é {red:vedado} usar anulação do serviço da dívida (art. 166, §3º, II)."
+  },
+  {
+    "topicName": "LOA",
+    "front": "*Tema: LOA / Emendas individuais (CF/88, art. 166 — EC 126/2022)*\n\n**Sobre as emendas individuais ao projeto de Lei Orçamentária Anual, assinale a alternativa correta:**",
+    "options": [
+      "Limite de 1,2% da receita orçamentária prevista no projeto, metade para saúde.",
+      "Limite de 2% da Receita Corrente Líquida do exercício anterior, metade destinada a saúde.",
+      "Limite de 2% da receita do exercício corrente, sem destinação obrigatória.",
+      "Limite de 5% da RCL, integralmente de livre alocação.",
+      "Não há limite percentual, exigindo-se apenas compatibilidade com o PPA."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** Limite de ==2% da RCL== do exercício **anterior**, com {green:metade obrigatória para saúde}.\n\n**📖 Fundamentação legal**\n> **Art. 166, §9º, CF/88** (EC 126/2022) — \"As emendas individuais ao projeto de lei orçamentária serão aprovadas no limite de 2% (dois por cento) da receita corrente líquida do exercício anterior ao do encaminhamento do projeto, observado que a metade desse percentual será destinada a ações e serviços públicos de saúde.\"\n\n**Repartição (art. 166, §9º-A):**\n\n| Parlamentar | Percentual |\n|---|---|\n| Deputados | 1,55% |\n| Senadores | 0,45% |\n\n**Alternativas incorretas:**\n- **A)** \"1,2%\" e base \"receita prevista no projeto\" são a {red:redação antiga}.\n- **C/D)** percentual/base/destinação incorretos.\n- **E)** há, sim, {red:limite percentual} expresso."
+  }
+]
