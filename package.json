@@ -12,7 +12,8 @@
     "lint:eslint": "eslint .",
     "lint": "tsc --noEmit && eslint .",
     "test": "vitest run",
-    "validate:cards": "node scripts/validate-flashcards.mjs"
+    "validate:cards": "node scripts/validate-flashcards.mjs",
+    "status:cards": "node scripts/status-cards.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
