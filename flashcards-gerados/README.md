@@ -2,11 +2,36 @@
 
 Saída da rotina **"Gerador de flashcards (PDF → import)"**.
 
-- Cada execução cria um arquivo `AAAA-MM-DD-<tema>.json` — um **array JSON** no
+- A saída é organizada **por matéria**, espelhando `material-fonte/`:
+  `flashcards-gerados/<materia>/<assunto>.json` — cada um um **array JSON** no
   formato de importação do AprovaCard.
 - O arquivo `_progresso.json` é a **memória entre execuções**: registra o que já
-  foi coberto (por PDF, assuntos e páginas) e o total acumulado, para a rotina
-  continuar de onde parou e **não repetir** cards.
+  foi coberto e mantém o **registro canônico de tópicos** por matéria, para a
+  rotina continuar de onde parou, **não repetir** cards e **reaproveitar**
+  tópicos/subtópicos já existentes (em vez de criar quase-duplicatas).
+
+## Estrutura do `_progresso.json`
+
+```json
+{
+  "atualizadoEm": "2026-06-03T03:00:00.000Z",
+  "materias": [
+    {
+      "materia": "afo",
+      "topicosCanonicos": ["Orçamento Público", "PPA", "LDO", "LOA"],
+      "pdfsProcessados": [
+        { "arquivo": "material-fonte/afo/xyz.pdf", "assunto": "Orçamento Público",
+          "paginasCobertas": "1-73", "cards": 180 }
+      ],
+      "totalCards": 180
+    }
+  ]
+}
+```
+
+- **`topicosCanonicos`**: lista de tópicos/subtópicos já usados na matéria. Antes
+  de criar um `topicName` novo, a rotina consulta essa lista e **reutiliza** um
+  equivalente se já existir (evita proliferação de tópicos).
 
 ## Como importar no sistema
 
