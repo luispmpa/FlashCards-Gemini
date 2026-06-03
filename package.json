@@ -11,7 +11,8 @@
     "clean": "rm -rf dist",
     "lint:eslint": "eslint .",
     "lint": "tsc --noEmit && eslint .",
-    "test": "vitest run"
+    "test": "vitest run",
+    "validate:cards": "node scripts/validate-flashcards.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
