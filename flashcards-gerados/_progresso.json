@@ -1,6 +1,32 @@
 {
-  "atualizadoEm": null,
-  "totalCardsGerados": 0,
+  "atualizadoEm": "2026-06-04T00:00:00.000Z",
+  "totalCardsGerados": 157,
   "possiveisDuplicatasEvitadas": 0,
-  "materias": []
+  "materias": [
+    {
+      "materia": "afo",
+      "pdfsDetectados": 15,
+      "pdfsProcessados": 1,
+      "totalCardsGerados": 157,
+      "topicosCanonicos": [
+        "Orçamento Público",
+        "PPA",
+        "LDO",
+        "LOA"
+      ],
+      "pdfs": [
+        {
+          "arquivo": "material-fonte/AFO - Administração Financeira Orçamentária/curso-373684-aula-00-9caf-completo.pdf",
+          "assunto": "Orçamento Público no Brasil: PPA, LDO e LOA na CF/88",
+          "paginas": "1-73",
+          "cardsGerados": 157,
+          "concluido": true
+        }
+      ],
+      "alertas": [
+        "Aula 00 totalmente coberta (teoria + 27 questões FCC A-E comentadas + questões C/E do corpo adaptadas para A-E). Faltam as aulas 01 a 14 (14 PDFs).",
+        "Saída desta matéria gravada em subpasta (flashcards-gerados/afo/). O comando padrão 'npm run validate:cards' valida apenas o nível raiz; validar este arquivo passando o caminho explicitamente."
+      ]
+    }
+  ]
 }
