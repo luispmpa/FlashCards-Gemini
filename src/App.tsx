@@ -102,28 +102,36 @@ export default function App() {
     }
   };
 
-  const handleDeleteDeck = async (deckId: string) => {
-      if (!user) return;
-      
-      const getChildrenIds = (parentId: string): string[] => {
-          let ids: string[] = [];
-          const children = decks.filter(d => d.parentId === parentId);
-          for (const c of children) {
-              ids.push(c.id);
-              ids = ids.concat(getChildrenIds(c.id));
-          }
-          return ids;
-      };
+  const getDeckDescendantIds = (parentId: string): string[] => {
+      let ids: string[] = [];
+      const children = decks.filter(d => d.parentId === parentId);
+      for (const c of children) {
+          ids.push(c.id);
+          ids = ids.concat(getDeckDescendantIds(c.id));
+      }
+      return ids;
+  };
 
-      const deckIdsToDelete = [deckId, ...getChildrenIds(deckId)];
-      const cardIdsToDelete: string[] = [];
-      deckIdsToDelete.forEach(dId => {
-          if (cards[dId]) {
-              cardIdsToDelete.push(...cards[dId].map(c => c.id));
-          }
+  // Exclui em lote as matérias/tópicos informados, junto com seus subtópicos e flashcards.
+  const handleDeleteDecks = async (deckIds: string[]) => {
+      if (!user || deckIds.length === 0) return;
+
+      const allDeckIds = new Set<string>();
+      deckIds.forEach(id => {
+          allDeckIds.add(id);
+          getDeckDescendantIds(id).forEach(c => allDeckIds.add(c));
       });
 
-      await deleteDeckCascade(user.uid, deckIdsToDelete, cardIdsToDelete);
+      const cardIdsToDelete: string[] = [];
+      allDeckIds.forEach(dId => {
+          if (cards[dId]) cardIdsToDelete.push(...cards[dId].map(c => c.id));
+      });
+
+      await deleteDeckCascade(user.uid, Array.from(allDeckIds), cardIdsToDelete);
+  };
+
+  const handleDeleteDeck = async (deckId: string) => {
+      await handleDeleteDecks([deckId]);
   };
 
   const handleSaveCard = async (updatedCard: Flashcard) => {
@@ -362,7 +370,7 @@ export default function App() {
              {navState.view === 'dashboard' && <Dashboard cards={cards} decks={decks} logs={reviewLogs} onNavigate={handleNavigate} />}
              {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} onFinishStudy={() => handleNavigate('browser', navState.filter)} />}
              {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} initialFilter={navState.filter} /> }
-             {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onImportCards={handleImportCards} onNavigate={handleNavigate} />}
+             {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onDeleteDecks={handleDeleteDecks} onImportCards={handleImportCards} onNavigate={handleNavigate} />}
              {navState.view === 'history' && <ReviewHistory logs={reviewLogs} />}
              {navState.view === 'updates' && <UpdatesView />}
              {navState.view === 'settings' && (

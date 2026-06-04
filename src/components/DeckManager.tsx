@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Deck, Flashcard } from '../types';
-import { Folder, FolderPlus, Plus, Upload, X, ChevronDown, ChevronRight, AlertCircle, Trash2 } from 'lucide-react';
+import { Folder, FolderPlus, Plus, Upload, X, ChevronDown, ChevronRight, AlertCircle, Trash2, CheckSquare } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 
 interface DeckManagerProps {
@@ -8,11 +8,12 @@ interface DeckManagerProps {
   cards: Record<string, Flashcard[]>;
   onAddDeck: (deck: Deck) => void;
   onDeleteDeck: (deckId: string) => void;
+  onDeleteDecks: (deckIds: string[]) => void;
   onImportCards: (deckId: string, cards: any[]) => void;
   onNavigate: (view: string, filter?: any) => void;
 }
 
-export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCards, onNavigate }: DeckManagerProps) {
+export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDecks, onImportCards, onNavigate }: DeckManagerProps) {
   const rootDecks = decks.filter(d => !d.parentId);
 
   // Accordion state
@@ -32,12 +33,28 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
   const [deleteDeckInfo, setDeleteDeckInfo] = useState<{isOpen: boolean, deckId: string, deckName: string}>({isOpen: false, deckId: '', deckName: ''});
   const [alertInfo, setAlertInfo] = useState<{isOpen: boolean, message: string}>({isOpen: false, message: ""});
 
+  // Selection (bulk delete) state
+  const [selectionMode, setSelectionMode] = useState(false);
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  const [bulkDeleteOpen, setBulkDeleteOpen] = useState(false);
+
   const toggleExpand = (id: string) => {
       const next = new Set(expandedDecks);
       if (next.has(id)) next.delete(id);
       else next.add(id);
       setExpandedDecks(next);
   };
+
+  const toggleSelect = (id: string) => {
+      setSelectedIds(prev => {
+          const next = new Set(prev);
+          if (next.has(id)) next.delete(id); else next.add(id);
+          return next;
+      });
+  };
+  const selectAllDecks = () => setSelectedIds(new Set(decks.map(d => d.id)));
+  const clearSelection = () => setSelectedIds(new Set());
+  const exitSelectionMode = () => { setSelectionMode(false); setSelectedIds(new Set()); };
 
   const handleCreateSub = (parentId: string) => {
       setCreateDeckParentId(parentId);
@@ -125,24 +142,45 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
       return (
           <div key={deck.id} className="relative">
               <div
-                  onClick={() => toggleExpand(deck.id)}
-                  className={`${bgColor} ${paddingLeft} py-3 flex justify-between items-center group cursor-pointer transition-colors relative`}
+                  onClick={() => selectionMode ? toggleSelect(deck.id) : toggleExpand(deck.id)}
+                  className={`${selectionMode && selectedIds.has(deck.id) ? 'bg-rose-50 ring-2 ring-inset ring-rose-300' : bgColor} ${paddingLeft} py-3 flex justify-between items-center group cursor-pointer transition-colors relative`}
               >
                   <div className="flex items-center text-slate-800 font-medium overflow-hidden">
+                      {selectionMode && (
+                          <input
+                            type="checkbox"
+                            checked={selectedIds.has(deck.id)}
+                            onChange={() => toggleSelect(deck.id)}
+                            onClick={(e) => e.stopPropagation()}
+                            className="mr-3 h-4 w-4 accent-rose-600 shrink-0 cursor-pointer"
+                            aria-label={`Selecionar ${deck.name}`}
+                          />
+                      )}
                       {children.length > 0 ? (
-                          isExpanded ? <ChevronDown size={18} className="mr-2 text-slate-400 shrink-0" /> : <ChevronRight size={18} className="mr-2 text-slate-400 shrink-0" />
+                          selectionMode ? (
+                              <button onClick={(e) => { e.stopPropagation(); toggleExpand(deck.id); }} className="mr-2 text-slate-400 hover:text-slate-600 shrink-0" aria-label="Expandir">
+                                  {isExpanded ? <ChevronDown size={18} /> : <ChevronRight size={18} />}
+                              </button>
+                          ) : (
+                              isExpanded ? <ChevronDown size={18} className="mr-2 text-slate-400 shrink-0" /> : <ChevronRight size={18} className="mr-2 text-slate-400 shrink-0" />
+                          )
                       ) : (
                           <div className="w-[18px] mr-2 shrink-0" /> // spacer
                       )}
                       {level === 0 && <Folder size={18} className="mr-2 text-indigo-500 fill-indigo-100 shrink-0"/>}
                       <span className="truncate" title={deck.name}>{deck.name}</span>
-                      <button 
-                        onClick={(e) => { e.stopPropagation(); onNavigate('browser', { deckId: deck.id }); }}
-                        className="ml-2 px-2 py-0.5 bg-slate-200 text-slate-600 hover:text-indigo-700 hover:bg-indigo-100 rounded-md text-xs font-normal transition-colors shrink-0"
-                      >
-                        {cardCount} cards
-                      </button>
+                      {selectionMode ? (
+                          <span className="ml-2 px-2 py-0.5 bg-slate-200 text-slate-600 rounded-md text-xs font-normal shrink-0">{cardCount} cards</span>
+                      ) : (
+                          <button
+                            onClick={(e) => { e.stopPropagation(); onNavigate('browser', { deckId: deck.id }); }}
+                            className="ml-2 px-2 py-0.5 bg-slate-200 text-slate-600 hover:text-indigo-700 hover:bg-indigo-100 rounded-md text-xs font-normal transition-colors shrink-0"
+                          >
+                            {cardCount} cards
+                          </button>
+                      )}
                   </div>
+                  {!selectionMode && (
                   <div className="flex items-center space-x-1 sm:space-x-2 shrink-0 opacity-100 transition-opacity lg:absolute lg:right-3 lg:top-1/2 lg:-translate-y-1/2 lg:opacity-0 lg:group-hover:opacity-100 lg:bg-slate-50 lg:pl-3 lg:rounded-md">
                       <button
                         onClick={(e) => { e.stopPropagation(); openImportModal(deck.id, deck.name, parentName); }}
@@ -158,6 +196,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
                           <Trash2 size={16}/>
                       </button>
                   </div>
+                  )}
               </div>
               
               {isExpanded && children.length > 0 && (
@@ -184,13 +223,45 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
               <p className="text-slate-500 mt-1 text-sm md:text-base">Organize sua hierarquia de estudos e importe flashcards (JSON).</p>
            </div>
            <div className="flex flex-col sm:flex-row gap-2 shrink-0 w-full sm:w-auto">
-              {/* removed */}
-              <button 
-                onClick={handleCreateRoot}
-                className="px-4 py-2 justify-center bg-slate-900 text-white rounded-lg text-sm font-medium hover:bg-slate-800 transition flex items-center shadow-sm"
-              >
-                 <FolderPlus size={16} className="mr-2"/> Adicionar Matéria
-              </button>
+              {!selectionMode ? (
+                <>
+                  <button
+                    onClick={() => setSelectionMode(true)}
+                    disabled={decks.length === 0}
+                    className="px-4 py-2 justify-center bg-white border border-slate-300 text-slate-700 rounded-lg text-sm font-medium hover:bg-slate-50 transition flex items-center shadow-sm disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                     <CheckSquare size={16} className="mr-2"/> Selecionar
+                  </button>
+                  <button
+                    onClick={handleCreateRoot}
+                    className="px-4 py-2 justify-center bg-slate-900 text-white rounded-lg text-sm font-medium hover:bg-slate-800 transition flex items-center shadow-sm"
+                  >
+                     <FolderPlus size={16} className="mr-2"/> Adicionar Matéria
+                  </button>
+                </>
+              ) : (
+                <>
+                  <button
+                    onClick={selectedIds.size === decks.length ? clearSelection : selectAllDecks}
+                    className="px-4 py-2 justify-center bg-white border border-slate-300 text-slate-700 rounded-lg text-sm font-medium hover:bg-slate-50 transition flex items-center shadow-sm"
+                  >
+                     {selectedIds.size === decks.length ? 'Limpar seleção' : 'Selecionar tudo'}
+                  </button>
+                  <button
+                    onClick={() => setBulkDeleteOpen(true)}
+                    disabled={selectedIds.size === 0}
+                    className="px-4 py-2 justify-center bg-rose-600 text-white rounded-lg text-sm font-medium hover:bg-rose-700 transition flex items-center shadow-sm disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                     <Trash2 size={16} className="mr-2"/> Excluir ({selectedIds.size})
+                  </button>
+                  <button
+                    onClick={exitSelectionMode}
+                    className="px-4 py-2 justify-center text-slate-600 hover:text-slate-800 rounded-lg text-sm font-medium transition flex items-center"
+                  >
+                     Cancelar
+                  </button>
+                </>
+              )}
            </div>
        </div>
 
@@ -319,7 +390,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
                            Tem certeza que deseja excluir <strong>"{deleteDeckInfo.deckName}"</strong>? 
                        </p>
                        <p className="text-sm text-slate-600 mb-2">
-                           Os flashcards e subtópicos não serão excluídos, mas ficarão sem categoria ("Sem Matéria"). Esta ação não pode ser desfeita. Confirmar?
+                           Isso também exclui <strong>todos os subtópicos e flashcards</strong> contidos. Esta ação não pode ser desfeita. Confirmar?
                        </p>
                    </div>
                    <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-end space-x-3">
@@ -342,6 +413,46 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onImportCar
                </div>
            </div>
        )}
+
+       {bulkDeleteOpen && (() => {
+           const affected = new Set<string>();
+           selectedIds.forEach(id => { affected.add(id); getChildrenIds(id).forEach(c => affected.add(c)); });
+           let cardTotal = 0;
+           affected.forEach(id => { cardTotal += (cards[id]?.length || 0); });
+           return (
+           <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[80] backdrop-blur-sm">
+               <div className="bg-white rounded-2xl max-w-md w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+                   <div className="p-6">
+                       <h3 className="text-lg font-bold text-rose-700 mb-2 flex items-center gap-2"><Trash2 size={20}/> Excluir selecionados?</h3>
+                       <p className="text-sm text-slate-600 mb-2 leading-relaxed">
+                           Você selecionou <strong>{selectedIds.size}</strong> item(ns). Isso vai excluir
+                           {' '}<strong>{affected.size}</strong> matéria(s)/tópico(s) (incluindo subtópicos)
+                           {' '}e <strong>{cardTotal}</strong> flashcard(s).
+                       </p>
+                       <p className="text-sm text-slate-600">Esta ação <strong>não pode ser desfeita</strong>.</p>
+                   </div>
+                   <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-end space-x-3">
+                       <button
+                           onClick={() => setBulkDeleteOpen(false)}
+                           className="px-4 py-2 text-sm font-medium text-slate-600 hover:text-slate-800 transition rounded-lg"
+                       >
+                           Cancelar
+                       </button>
+                       <button
+                           onClick={() => {
+                               onDeleteDecks(Array.from(selectedIds));
+                               setBulkDeleteOpen(false);
+                               exitSelectionMode();
+                           }}
+                           className="px-4 py-2 bg-rose-600 text-white rounded-lg text-sm font-medium hover:bg-rose-700 shadow-sm transition"
+                       >
+                           Excluir {selectedIds.size} item(ns)
+                       </button>
+                   </div>
+               </div>
+           </div>
+           );
+       })()}
 
        {alertInfo.isOpen && (
            <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[80] backdrop-blur-sm">

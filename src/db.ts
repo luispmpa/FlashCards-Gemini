@@ -102,19 +102,17 @@ export const saveCardsBatchToDb = async (userId: string, cards: Flashcard[]) => 
 
 export const deleteDeckCascade = async (userId: string, targetDeckIds: string[], targetCardIds: string[]) => {
     try {
-        const batch = writeBatch(db);
-        
-        targetDeckIds.forEach(deckId => {
-            const ref = doc(db, 'users', userId, 'decks', deckId);
-            batch.delete(ref);
-        });
-        
-        targetCardIds.forEach(cardId => {
-            const ref = doc(db, 'users', userId, 'cards', cardId);
-            batch.delete(ref);
-        });
-        
-        await batch.commit();
+        const refs = [
+            ...targetDeckIds.map(id => doc(db, 'users', userId, 'decks', id)),
+            ...targetCardIds.map(id => doc(db, 'users', userId, 'cards', id)),
+        ];
+        // Deleta em lotes de 450 para respeitar o limite de 500 operações por batch do Firestore.
+        const CHUNK = 450;
+        for (let i = 0; i < refs.length; i += CHUNK) {
+            const batch = writeBatch(db);
+            refs.slice(i, i + CHUNK).forEach(ref => batch.delete(ref));
+            await batch.commit();
+        }
     } catch (error) {
         handleFirestoreError(error, OperationType.DELETE, `users/${userId}/decks (cascade)`);
     }
