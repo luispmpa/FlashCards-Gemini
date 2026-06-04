@@ -15,9 +15,23 @@ const highlightStyles: Record<string, string> = {
   blue: 'text-indigo-700 bg-indigo-50 px-1 rounded',
 };
 
-const INLINE_TOKEN = /(==[^=]+==|\{(?:mark|yellow|red|green|blue):[^{}]+\})/gi;
+const INLINE_TOKEN = /(\^\^[^^]+\^\^|==[^=]+==|\{(?:mark|yellow|red|green|blue):[^{}]+\})/gi;
+
+// Estilo de "legenda" discreta — usado para metadados da questão (banca, ano,
+// órgão, "Elaborada pelo professor") sem competir com o enunciado.
+const CAPTION_CLASS = 'text-[11px] font-semibold uppercase tracking-wider text-slate-400';
 
 function createFormattedNode(part: string, index: number) {
+  if (part.startsWith('^^') && part.endsWith('^^')) {
+    return {
+      type: 'formattedText',
+      data: { hName: 'span', hProperties: { className: CAPTION_CLASS } },
+      children: [{ type: 'text', value: part.slice(2, -2) }],
+      position: undefined,
+      key: index,
+    };
+  }
+
   if (part.startsWith('==') && part.endsWith('==')) {
     return {
       type: 'formattedText',
