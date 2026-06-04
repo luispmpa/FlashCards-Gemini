@@ -71,6 +71,35 @@ export interface AppUpdate {
   status: UpdateStatus;
 }
 
+// ----- Painel de geração de flashcards (rotina "PDF → import") -----
+// Lido de flashcards-gerados/_progresso.json (mantido pela rotina). Alimenta o
+// mini-dashboard em Configurações. A GERAÇÃO vive no repositório (GitHub) e não
+// é afetada por apagar cards no app; o "no sistema" é calculado ao vivo do banco.
+export interface PdfProgress {
+  arquivo: string;
+  assunto: string;
+  paginas?: string;
+  cardsGerados: number;
+  concluido: boolean;
+}
+
+export interface MateriaProgress {
+  materia: string;
+  pdfsDetectados: number;
+  pdfsProcessados: number;
+  totalCardsGerados: number;
+  topicosCanonicos: string[];
+  pdfs: PdfProgress[];
+  alertas?: string[];
+}
+
+export interface GenerationProgress {
+  atualizadoEm: string | null;
+  totalCardsGerados: number;
+  possiveisDuplicatasEvitadas: number;
+  materias: MateriaProgress[];
+}
+
 export interface ReviewLog {
   id: string;
   cardId: string;

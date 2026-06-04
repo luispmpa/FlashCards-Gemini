@@ -368,6 +368,8 @@ export default function App() {
              {navState.view === 'settings' && (
                  <SettingsView
                    cardCount={Object.values(cards).reduce((acc, arr) => acc + arr.length, 0)}
+                   decks={decks}
+                   cards={cards}
                    onClearAllData={handleClearAllData}
                  />
              )}

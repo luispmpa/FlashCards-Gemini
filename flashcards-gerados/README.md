@@ -12,26 +12,49 @@ Saída da rotina **"Gerador de flashcards (PDF → import)"**.
 
 ## Estrutura do `_progresso.json`
 
+Este arquivo também **alimenta o mini-dashboard** em Configurações (ele é incluído
+no build do app). A rotina deve mantê-lo com estes campos:
+
 ```json
 {
   "atualizadoEm": "2026-06-03T03:00:00.000Z",
+  "totalCardsGerados": 180,
+  "possiveisDuplicatasEvitadas": 0,
   "materias": [
     {
       "materia": "afo",
+      "pdfsDetectados": 15,
+      "pdfsProcessados": 1,
+      "totalCardsGerados": 180,
       "topicosCanonicos": ["Orçamento Público", "PPA", "LDO", "LOA"],
-      "pdfsProcessados": [
-        { "arquivo": "material-fonte/afo/xyz.pdf", "assunto": "Orçamento Público",
-          "paginasCobertas": "1-73", "cards": 180 }
+      "pdfs": [
+        {
+          "arquivo": "material-fonte/afo/xyz.pdf",
+          "assunto": "Orçamento Público",
+          "paginas": "1-73",
+          "cardsGerados": 180,
+          "concluido": true
+        }
       ],
-      "totalCards": 180
+      "alertas": []
     }
   ]
 }
 ```
 
-- **`topicosCanonicos`**: lista de tópicos/subtópicos já usados na matéria. Antes
-  de criar um `topicName` novo, a rotina consulta essa lista e **reutiliza** um
-  equivalente se já existir (evita proliferação de tópicos).
+- **`topicosCanonicos`**: tópicos/subtópicos já usados na matéria. Antes de criar
+  um `topicName` novo, a rotina consulta essa lista e **reutiliza** um equivalente
+  se já existir (evita proliferação de tópicos).
+- **`pdfsDetectados` / `pdfsProcessados`**: total de PDFs na pasta da matéria vs.
+  quantos já foram processados — é o que mede "o que falta gerar" no dashboard.
+- **`pdfs[].concluido`**: marque `false` enquanto um PDF não foi 100% coberto
+  (aparece como "em andamento" no painel).
+- **`possiveisDuplicatasEvitadas`**: contador de cards/itens pulados por já existirem.
+- **`alertas`**: mensagens livres por matéria (ex.: "questão sem gabarito clara").
+
+> Observação: a GERAÇÃO registrada aqui vive no GitHub e **não** é afetada por
+> apagar cards no app. O "no sistema" do dashboard é calculado ao vivo do banco
+> (Firestore), então **reflete** o botão Apagar.
 
 ## Como importar no sistema
 
