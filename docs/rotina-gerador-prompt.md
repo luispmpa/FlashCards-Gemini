@@ -70,6 +70,18 @@ A explicação deve ser RICA e bem formatada (este é o ponto mais importante):
   mnemônicos, esquemas de linha do tempo, realces) — NÃO entregue explicações
   rasas/simples.
 
+PISO DE QUALIDADE — VALE PARA TODO CARD, inclusive os de teoria e os
+"Elaborada pelo professor" (NÃO pode haver card "pelado"):
+- TODO `back` deve ter, no mínimo: (1) "**Gabarito: X**"; (2) explicação do porquê
+  da correta com o conceito por trás; (3) NEGRITO nos termos-chave; (4) explicação
+  de cada alternativa errada; e (5) fundamentação — LEGAL (artigo/§ em citação >)
+  quando houver base normativa, ou CONCEITUAL/doutrinária quando não houver.
+- SEMPRE que o conteúdo permitir comparação, enumeração, classificação, prazos ou
+  processo, inclua uma TABELA, ESQUEMA ou MNEMÔNICO (não deixe "passar batido").
+  Cards de conceito simples também merecem pelo menos um realce + a base legal.
+- Os cards de teoria/"professor" devem ter o MESMO nível de riqueza das questões de
+  banca — não os trate como inferiores.
+
 TÓPICOS / SUBTÓPICOS (campo topicName)
 - Marque cada card com o assunto no `topicName`. Pode haver subtópicos com BOM
   SENSO, sem fragmentar demais.
