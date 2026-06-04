@@ -18,5 +18,11 @@ export async function uploadImageFromPaste(file: File): Promise<string> {
     }
 
     const data = await response.json();
-    return data.data.url;
+    // A API do ImgBB retorna { success, data: { url } }. Validamos antes de
+    // acessar a URL para evitar erro genérico e dar uma mensagem mais clara.
+    const url = data?.data?.url;
+    if (!data?.success || typeof url !== 'string') {
+        throw new Error(data?.error?.message || "Resposta inválida do serviço de imagens.");
+    }
+    return url;
 }

@@ -214,9 +214,10 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                <table className="w-full text-sm text-left">
                    <thead className="bg-slate-50 text-slate-600 sticky top-0 border-b border-slate-200 shadow-sm z-10 font-semibold">
                        <tr>
-                           <th className="px-4 py-4 w-12 text-center">
-                               <input 
-                                  type="checkbox" 
+                           <th scope="col" className="px-4 py-4 w-12 text-center">
+                               <input
+                                  type="checkbox"
+                                  aria-label="Selecionar todos os cards exibidos"
                                   className="w-4 h-4 rounded text-indigo-600 focus:ring-indigo-500 cursor-pointer"
                                   checked={filteredCards.length > 0 && selectedIds.size === filteredCards.length}
                                   onChange={(e) => {
@@ -225,22 +226,22 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                                   }}
                                />
                            </th>
-                           <th className="px-6 py-4 cursor-pointer hover:bg-slate-100 group select-none transition-colors" onClick={() => handleSort('front')}>
-                               <div className="flex items-center">Frente (Questão) <SortIcon columnKey="front" /></div>
+                           <th scope="col" className="px-6 py-4">
+                               <button type="button" onClick={() => handleSort('front')} aria-label="Ordenar por Frente (Questão)" className="flex items-center w-full hover:text-indigo-600 transition-colors">Frente (Questão) <SortIcon columnKey="front" /></button>
                            </th>
-                           <th className="px-6 py-4 w-48 cursor-pointer hover:bg-slate-100 group select-none transition-colors" onClick={() => handleSort('deck')}>
-                               <div className="flex items-center">Matéria <SortIcon columnKey="deck" /></div>
+                           <th scope="col" className="px-6 py-4 w-48">
+                               <button type="button" onClick={() => handleSort('deck')} aria-label="Ordenar por Matéria" className="flex items-center w-full hover:text-indigo-600 transition-colors">Matéria <SortIcon columnKey="deck" /></button>
                            </th>
-                           <th className="px-6 py-4 w-32 cursor-pointer hover:bg-slate-100 group select-none transition-colors" onClick={() => handleSort('state')}>
-                               <div className="flex items-center">Status <SortIcon columnKey="state" /></div>
+                           <th scope="col" className="px-6 py-4 w-32">
+                               <button type="button" onClick={() => handleSort('state')} aria-label="Ordenar por Status" className="flex items-center w-full hover:text-indigo-600 transition-colors">Status <SortIcon columnKey="state" /></button>
                            </th>
-                           <th className="px-6 py-4 w-36 cursor-pointer hover:bg-slate-100 group select-none transition-colors" onClick={() => handleSort('due')}>
-                               <div className="flex items-center">Próx. Revisão <SortIcon columnKey="due" /></div>
+                           <th scope="col" className="px-6 py-4 w-36">
+                               <button type="button" onClick={() => handleSort('due')} aria-label="Ordenar por Próxima Revisão" className="flex items-center w-full hover:text-indigo-600 transition-colors">Próx. Revisão <SortIcon columnKey="due" /></button>
                            </th>
-                           <th className="px-6 py-4 w-36 cursor-pointer hover:bg-slate-100 group select-none transition-colors" onClick={() => handleSort('createdAt')}>
-                               <div className="flex items-center">Inclusão <SortIcon columnKey="createdAt" /></div>
+                           <th scope="col" className="px-6 py-4 w-36">
+                               <button type="button" onClick={() => handleSort('createdAt')} aria-label="Ordenar por Inclusão" className="flex items-center w-full hover:text-indigo-600 transition-colors">Inclusão <SortIcon columnKey="createdAt" /></button>
                            </th>
-                           <th className="px-6 py-4 w-24 text-right">Ações</th>
+                           <th scope="col" className="px-6 py-4 w-24 text-right">Ações</th>
                        </tr>
                    </thead>
                    <tbody className="divide-y divide-slate-100">
@@ -254,8 +255,9 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                            return (
                                <tr key={card.id} className={`hover:bg-slate-50/80 transition-colors ${isSelected ? 'bg-indigo-50/30' : ''}`}>
                                    <td className="px-4 py-4 text-center">
-                                      <input 
-                                          type="checkbox" 
+                                      <input
+                                          type="checkbox"
+                                          aria-label={`Selecionar card: ${card.front.slice(0, 60)}`}
                                           className="w-4 h-4 rounded text-indigo-600 focus:ring-indigo-500 cursor-pointer"
                                           checked={isSelected}
                                           onChange={(e) => {
@@ -296,23 +298,23 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                                       {card.createdAt ? format(new Date(card.createdAt), "dd/MM/yyyy HH:mm") : "-"}
                                    </td>
                                    <td className="px-6 py-4 text-right whitespace-nowrap">
-                                      <button 
+                                      <button
                                           onClick={() => onStudyCard(card.id)}
-                                          className="text-slate-400 hover:text-indigo-600 transition-colors p-1 mr-1" title="Estudar"
+                                          className="text-slate-400 hover:text-indigo-600 transition-colors p-1 mr-1" title="Estudar" aria-label="Estudar este card"
                                       >
                                           <Play size={16} />
                                       </button>
-                                      <button 
+                                      <button
                                           onClick={() => setEditingCard({...card})}
-                                          className="text-slate-400 hover:text-indigo-600 transition-colors p-1 mr-1" title="Editar"
+                                          className="text-slate-400 hover:text-indigo-600 transition-colors p-1 mr-1" title="Editar" aria-label="Editar este card"
                                       >
                                           <Edit2 size={16} />
                                       </button>
-                                      <button 
+                                      <button
                                           onClick={() => {
                                               setConfirmDeleteModal({isOpen: true, cardsToDelete: [{ id: card.id, deckId: card.deckId }], message: "Deseja realmente excluir este flashcard?"});
-                                          }} 
-                                          className="text-slate-400 hover:text-rose-600 transition-colors p-1" title="Excluir"
+                                          }}
+                                          className="text-slate-400 hover:text-rose-600 transition-colors p-1" title="Excluir" aria-label="Excluir este card"
                                       >
                                           <Trash2 size={16} />
                                       </button>

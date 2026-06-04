@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell } from 'recharts';
 import { Flashcard, Deck, ReviewLog } from '../types';
 import { isBefore, startOfToday, format, addDays, addMonths, isSameMonth } from "date-fns";
-import { CheckCircle2, TrendingUp, Brain, Calendar, ChevronRight, Flame } from 'lucide-react';
+import { CheckCircle2, TrendingUp, Brain, Calendar, ChevronRight, Flame, type LucideIcon } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { getUserSettings } from '../lib/settings';
 import { calculateStreak } from '../lib/streak';
@@ -261,11 +261,22 @@ export function Dashboard({ cards, decks, logs, onNavigate }: DashboardProps) {
   );
 }
 
-function StatCard({ title, value, icon: Icon, trend, color, bg, onClick }: any) {
+interface StatCardProps {
+  title: string;
+  value: string | number;
+  icon: LucideIcon;
+  trend: string;
+  color: string;
+  bg: string;
+  onClick: () => void;
+}
+
+function StatCard({ title, value, icon: Icon, trend, color, bg, onClick }: StatCardProps) {
   return (
-    <div 
+    <button
+        type="button"
         onClick={onClick}
-        className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between cursor-pointer hover:border-indigo-300 hover:shadow-md transition-all group active:scale-[0.98]"
+        className="w-full text-left bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between cursor-pointer hover:border-indigo-300 hover:shadow-md transition-all group active:scale-[0.98]"
     >
       <div className="flex justify-between items-start">
         <div className="space-y-2">
@@ -277,6 +288,6 @@ function StatCard({ title, value, icon: Icon, trend, color, bg, onClick }: any) 
         </div>
       </div>
       <p className="text-sm font-medium text-slate-400 mt-4 group-hover:text-slate-500 transition-colors">{trend}</p>
-    </div>
+    </button>
   );
 }
