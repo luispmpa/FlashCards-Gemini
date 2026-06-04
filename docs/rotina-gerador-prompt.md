@@ -30,6 +30,18 @@ FORMATO DAS QUESTÕES (sempre A–E)
 - Em AMBOS os casos, ANCORE a alternativa correta no GABARITO do PDF (nunca chute).
 - Distratores plausíveis e FUNDAMENTADOS no conteúdo (confusões reais), não aleatórios.
 
+COBERTURA DE QUESTÕES (EXAUSTIVA — obrigatório)
+- Converta em flashcard TODAS as questões presentes no PDF, SEM PULAR NENHUMA:
+  tanto a seção "Questões Comentadas" quanto a "Lista de Questões", além de
+  quaisquer questões no corpo da teoria.
+- Cada questão do PDF = 1 flashcard (A–E), com o gabarito ancorado e a explicação
+  completa. Reproduza fielmente o enunciado e as alternativas (ou adapte C/E→A–E).
+- Só não duplique questões idênticas que aparecem repetidas (ex.: a mesma questão
+  na seção comentada e na lista) — nesse caso, gere UMA, com a explicação completa.
+- Antes de concluir um PDF (pdfs[].concluido=true), confira que NENHUMA questão
+  dele ficou de fora. Em alertas[], registre a contagem (ex.: "32 questões do PDF,
+  32 convertidas").
+
 CABEÇALHO DO CARD (metadados discretos)
 - Inicie o `front` com UMA linha de metadados em LEGENDA discreta, usando a sintaxe
   ^^...^^ (renderizada pequena/cinza, sem competir com o enunciado), seguida de
@@ -66,8 +78,11 @@ TÓPICOS / SUBTÓPICOS (campo topicName)
   nomenclatura (ex.: sempre "PPA", nunca alternar com "Plano Plurianual").
 
 QUANTIDADE
-- Gere ENTRE 150 e 200 flashcards por execução, priorizando QUALIDADE. Se o que
-  resta não comporta tantos cards úteis, gere menos — não encha linguiça.
+- PRIORIDADE MÁXIMA: cobrir TODAS as questões do(s) PDF(s) processado(s) (ver
+  "COBERTURA DE QUESTÕES"). Nunca limite o total abaixo do número de questões do PDF.
+- Some a isso cards de TEORIA fundamentados (sem redundância) para fixar os
+  conceitos. Use ~150–200 por execução como referência de volume, mas a régua é
+  QUALIDADE + cobertura total das questões — não encha linguiça com cards rasos.
 
 SAÍDA (formato de importação)
 - Grave um arquivo por matéria/assunto: `flashcards-gerados/<materia>/<assunto>.json`.
