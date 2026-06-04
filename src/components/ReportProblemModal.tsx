@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { X, Copy, AlertCircle, CheckCircle2 } from 'lucide-react';
 
 interface ReportProblemModalProps {
@@ -10,6 +10,16 @@ export function ReportProblemModal({ isOpen, onClose }: ReportProblemModalProps)
   const [description, setDescription] = useState("");
   const [step, setStep] = useState<'input' | 'copied'>('input');
   const [copyError, setCopyError] = useState(false);
+
+  // Permite fechar o modal com a tecla Escape (padrão de acessibilidade para diálogos).
+  useEffect(() => {
+    if (!isOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -35,14 +45,23 @@ export function ReportProblemModal({ isOpen, onClose }: ReportProblemModalProps)
   };
 
   return (
-    <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[9999] backdrop-blur-sm">
-      <div className="bg-white rounded-2xl max-w-lg w-full shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+    <div
+      className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[9999] backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="report-problem-title"
+        className="bg-white rounded-2xl max-w-lg w-full shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+        onClick={e => e.stopPropagation()}
+      >
         <div className="flex items-center justify-between p-6 border-b border-slate-100">
           <div className="flex items-center space-x-2">
             <AlertCircle className="text-amber-500" size={24} />
-            <h2 className="text-xl font-bold text-slate-800">Relatar Problema</h2>
+            <h2 id="report-problem-title" className="text-xl font-bold text-slate-800">Relatar Problema</h2>
           </div>
-          <button onClick={onClose} className="text-slate-400 hover:text-slate-600 transition p-1">
+          <button onClick={onClose} aria-label="Fechar" className="text-slate-400 hover:text-slate-600 transition p-1">
             <X size={20} />
           </button>
         </div>
@@ -55,8 +74,9 @@ export function ReportProblemModal({ isOpen, onClose }: ReportProblemModalProps)
               </p>
               
               <div>
-                <label className="block text-sm font-semibold text-slate-700 mb-2">Descrição do Erro</label>
-                <textarea 
+                <label htmlFor="report-problem-description" className="block text-sm font-semibold text-slate-700 mb-2">Descrição do Erro</label>
+                <textarea
+                  id="report-problem-description"
                   value={description}
                   onChange={e => setDescription(e.target.value)}
                   className="w-full h-32 p-3 rounded-xl border border-slate-200 text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all resize-none"
