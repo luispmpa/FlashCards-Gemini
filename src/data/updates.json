@@ -74,5 +74,65 @@
     ],
     "commit": "e528506",
     "status": "applied"
+  },
+  {
+    "id": "bbe8ae03-1e6b-46a1-8130-580f9d36036b",
+    "date": "2026-06-04T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Modal de relatar problema acessível",
+    "description": "O modal \"Relatar Problema\" passou a ter semântica de diálogo (role=\"dialog\", aria-modal e aria-labelledby ligado ao título), pode ser fechado com a tecla Escape ou clicando no fundo, teve o rótulo do campo associado ao textarea (htmlFor/id) e ganhou aria-label no botão de fechar. Isso melhora a navegação por teclado e leitores de tela.",
+    "files": [
+      "src/components/ReportProblemModal.tsx"
+    ],
+    "commit": "1f42e57",
+    "status": "applied"
+  },
+  {
+    "id": "93fe2851-4720-4ce9-85b0-1c14fafc788e",
+    "date": "2026-06-04T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Tabela de flashcards acessível por teclado e leitores de tela",
+    "description": "Na tela de Flashcards, os cabeçalhos de ordenação eram <th> com onClick, inacessíveis por teclado; agora são botões nativos com aria-label e scope=\"col\". Os checkboxes de \"selecionar todos\" e de cada linha, além dos botões de ação (estudar, editar e excluir) que só tinham ícone, receberam aria-label descritivo.",
+    "files": [
+      "src/components/CardBrowser.tsx"
+    ],
+    "commit": "5dc6582",
+    "status": "applied"
+  },
+  {
+    "id": "762e6d39-290a-43a2-b274-b85473ce87fc",
+    "date": "2026-06-04T00:00:00.000Z",
+    "category": "refactor",
+    "title": "Tipagem e acessibilidade dos botões de avaliação",
+    "description": "Os botões de avaliação do estudo (Errei/Difícil/Bom/Fácil) usavam o tipo `any` nas props. Foi criada uma interface explícita (RatingButtonProps), adicionado aria-label descrevendo a ação e o próximo intervalo, e removida a prop `rating` que não era utilizada pelo componente.",
+    "files": [
+      "src/components/StudyView.tsx"
+    ],
+    "commit": "915bc7a",
+    "status": "applied"
+  },
+  {
+    "id": "e333784e-f5d7-4a7e-9d96-654a09da38f7",
+    "date": "2026-06-04T00:00:00.000Z",
+    "category": "refactor",
+    "title": "StatCard tipado e acessível por teclado",
+    "description": "Os cartões de estatística do Dashboard usavam o tipo `any` e eram <div> clicáveis (sem foco nem ativação por teclado). Foi adicionada a interface StatCardProps e os cartões passaram a ser <button>, garantindo navegação e ativação por teclado (Enter/Espaço) com semântica correta.",
+    "files": [
+      "src/components/Dashboard.tsx"
+    ],
+    "commit": "ad271cd",
+    "status": "applied"
+  },
+  {
+    "id": "bc59afea-28c7-4747-8091-419183560574",
+    "date": "2026-06-04T00:00:00.000Z",
+    "category": "bug",
+    "title": "Validação da resposta do upload de imagem",
+    "description": "No upload de imagem (ImgBB), o código acessava data.data.url sem verificar se a resposta indicava sucesso, podendo gerar um erro genérico de runtime quando o serviço retornava falha. Agora a resposta é validada e, em caso de erro, é exibida a mensagem retornada pelo serviço.",
+    "files": [
+      "src/lib/imageUpload.ts"
+    ],
+    "commit": "f9d0fcd",
+    "status": "applied"
   }
 ]
