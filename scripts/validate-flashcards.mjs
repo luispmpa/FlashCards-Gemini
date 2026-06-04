@@ -9,7 +9,7 @@
 // Sai com código 1 se houver QUALQUER erro (card que seria descartado ou
 // inválido na importação). Duplicatas e avisos não derrubam o build.
 
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, basename } from 'node:path';
 
 const GENERATED_DIR = 'flashcards-gerados';
@@ -22,6 +22,18 @@ const normalizeFront = (s) =>
     .trim()
     .toLowerCase();
 
+// Varre a pasta recursivamente: a saída fica em subpastas por matéria
+// (flashcards-gerados/<materia>/<assunto>.json).
+function walkJson(dir) {
+  const out = [];
+  for (const entry of readdirSync(dir)) {
+    const full = join(dir, entry);
+    if (statSync(full).isDirectory()) out.push(...walkJson(full));
+    else if (entry.endsWith('.json') && entry !== PROGRESS_FILE) out.push(full);
+  }
+  return out;
+}
+
 function collectFiles() {
   const args = process.argv.slice(2);
   if (args.length > 0) return args;
@@ -29,9 +41,7 @@ function collectFiles() {
     console.error(`Pasta "${GENERATED_DIR}" não encontrada.`);
     process.exit(1);
   }
-  return readdirSync(GENERATED_DIR)
-    .filter((f) => f.endsWith('.json') && f !== PROGRESS_FILE)
-    .map((f) => join(GENERATED_DIR, f));
+  return walkJson(GENERATED_DIR).sort();
 }
 
 let totalCards = 0;
