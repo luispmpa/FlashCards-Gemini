@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import { getUserSettings, saveUserSettings } from '../lib/settings';
 import { AlertTriangle, Loader2 } from 'lucide-react';
+import { GenerationDashboard } from './GenerationDashboard';
+import { Deck, Flashcard } from '../types';
 
 interface SettingsViewProps {
   cardCount: number;
+  decks: Deck[];
+  cards: Record<string, Flashcard[]>;
   onClearAllData: () => Promise<void>;
 }
 
-export function SettingsView({ cardCount, onClearAllData }: SettingsViewProps) {
+export function SettingsView({ cardCount, decks, cards, onClearAllData }: SettingsViewProps) {
   const [settings, setSettings] = useState(getUserSettings());
   const [saveSuccess, setSaveSuccess] = useState(false);
 
@@ -40,6 +44,8 @@ export function SettingsView({ cardCount, onClearAllData }: SettingsViewProps) {
   return (
     <div className="p-8 max-w-4xl mx-auto space-y-6">
       <h2 className="text-3xl font-bold tracking-tight text-slate-900 mb-6">Configurações</h2>
+
+      <GenerationDashboard decks={decks} cards={cards} />
 
       <div className="bg-white p-6 rounded-xl border border-slate-200">
         <h3 className="text-lg font-bold text-slate-900 mb-4">Metas Diárias</h3>
