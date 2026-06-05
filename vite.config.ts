@@ -13,6 +13,20 @@ export default defineConfig(() => {
         '@': path.resolve(__dirname, '.'),
       },
     },
+    build: {
+      rollupOptions: {
+        output: {
+          // Separa as dependências pesadas em chunks próprios para reduzir o
+          // tamanho do bundle principal e melhorar o cache entre deploys
+          // (atualizar o código do app não invalida o chunk do firebase, etc.).
+          manualChunks: {
+            firebase: ['firebase/app', 'firebase/auth', 'firebase/firestore'],
+            charts: ['recharts'],
+            markdown: ['react-markdown', 'remark-gfm'],
+          },
+        },
+      },
+    },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
