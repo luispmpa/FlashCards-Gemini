@@ -1,18 +1,19 @@
 {
-  "atualizadoEm": "2026-06-04T00:00:00.000Z",
-  "totalCardsGerados": 41,
-  "possiveisDuplicatasEvitadas": 0,
+  "atualizadoEm": "2026-06-05T00:00:00.000Z",
+  "totalCardsGerados": 121,
+  "possiveisDuplicatasEvitadas": 3,
   "materias": [
     {
       "materia": "afo",
       "pdfsDetectados": 15,
-      "pdfsProcessados": 1,
-      "totalCardsGerados": 41,
+      "pdfsProcessados": 2,
+      "totalCardsGerados": 121,
       "topicosCanonicos": [
         "Orçamento Público",
         "PPA",
         "LDO",
-        "LOA"
+        "LOA",
+        "Princípios Orçamentários"
       ],
       "pdfs": [
         {
@@ -21,10 +22,18 @@
           "paginas": "1-73",
           "cardsGerados": 41,
           "concluido": true
+        },
+        {
+          "arquivo": "material-fonte/AFO - Administração Financeira Orçamentária/curso-373684-aula-01-2998-completo.pdf",
+          "assunto": "Princípios Orçamentários",
+          "paginas": "1-119",
+          "cardsGerados": 80,
+          "concluido": true
         }
       ],
       "alertas": [
-        "Aula 00 regenerada no novo padrão (explicações ricas + metadados discretos). Faltam as aulas 01 a 14 (14 PDFs)."
+        "Aula 00 regenerada no novo padrão (explicações ricas + metadados discretos). Faltam as aulas 01 a 14 (14 PDFs).",
+        "Aula 01 (Princípios Orçamentários) concluída: 66 questões do PDF (16 Questões Comentadas FCC + 50 Questões Comentadas Multibancas), todas convertidas para A–E (itens C/E adaptados). As seções 'Lista de Questões' (FCC e Multibancas) são repetições idênticas das comentadas e não geraram novos cards. 3 questões duplicadas evitadas (Multibancas 35, 36 e 37 = FCC 1, 2 e 3). Acrescidos 17 cards de teoria cobrindo todos os princípios (universalidade, unidade/totalidade, anualidade, orçamento bruto, especificação, exclusividade, não afetação, proibição do estorno, quantificação, legalidade, publicidade, equilíbrio/regra de ouro, transparência, programação, uniformidade, clareza, orçamento impositivo, realismo/exatidão, regionalização, economicidade). Total: 80 cards. Faltam as aulas 02 a 14 (13 PDFs)."
       ]
     }
   ]
