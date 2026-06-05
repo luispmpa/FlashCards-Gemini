@@ -1,0 +1,1042 @@
+[
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nNo Direito Financeiro, como a doutrina (Marcus Abraham) classifica os princípios orçamentários quanto à sua abrangência?",
+    "back": "**Gabarito: B.** Os princípios que regem o orçamento dividem-se em **gerais/genéricos** (válidos para toda a atividade administrativa) e **específicos/setoriais** (próprios da matéria orçamentária).\n\n| Classe | Exemplos | Base |\n|---|---|---|\n| **Gerais/genéricos** | Legalidade, impessoalidade, moralidade, publicidade, eficiência | **art. 37, CF** |\n| **Específicos/setoriais** | Unidade, universalidade, anualidade, exclusividade, orçamento bruto, não afetação... | CF, Lei 4.320/64, LRF |\n\nAlguns princípios (como **legalidade** e **publicidade**) são, ao mesmo tempo, gerais e também aplicáveis em matéria orçamentária.\n\n> 📖 **Art. 37, caput, CF/88** — \"A administração pública... obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência.\"\n\n**Por que as demais erram:** **A** inverte os conceitos; **C** não existe divisão por \"poderes\"; **D** os princípios não são apenas constitucionais (há legais e doutrinários); **E** \"orçamentários\" não é uma terceira categoria autônoma da classificação.",
+    "options": [
+      "Em princípios federais e municipais, conforme o ente competente.",
+      "Em princípios gerais/genéricos (art. 37) e específicos/setoriais (próprios do orçamento).",
+      "Em princípios do Executivo e princípios do Legislativo.",
+      "Apenas em princípios expressos na Constituição Federal.",
+      "Em princípios constitucionais, legais e orçamentários, como categorias estanques."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nSegundo o princípio da **universalidade**, o que deve constar da Lei Orçamentária Anual (LOA)?",
+    "back": "**Gabarito: C.** Pela **universalidade**, o orçamento deve conter ==todas as receitas e todas as despesas== de todos os Poderes, órgãos, entidades, fundos e fundações instituídos e mantidos pelo Poder Público (administração direta e indireta). Nenhuma instituição governamental pode ficar de fora.\n\n**Palavras-chave:** {blue:TODAS AS RECEITAS E DESPESAS}.\n\n> 📖 **Art. 2º, Lei 4.320/64** (unidade, universalidade e anualidade) + **art. 165, §5º, CF/88**.\n\nSegundo **Giacomoni**, a universalidade permite ao Legislativo: (a) conhecer *a priori* todas as receitas e despesas; (b) impedir operações sem autorização parlamentar; (c) conhecer o volume global das despesas para autorizar os tributos necessários.\n\n**Exceção:** ingressos e dispêndios **extraorçamentários** (operações de crédito por antecipação da receita - ARO, emissão de papel-moeda e outras entradas compensatórias) — art. 3º, parágrafo único, da Lei 4.320/64.\n\n**Por que as demais erram:** **A** descreve a *unidade*; **B**/**E** descrevem *orçamento bruto* (\"pelos totais, sem deduções\") e *exclusividade*; **D** descreve a *anualidade*.",
+    "options": [
+      "Apenas um orçamento por ente, para evitar peças paralelas.",
+      "As receitas e despesas pelos seus totais, vedadas deduções.",
+      "Todas as receitas e todas as despesas de todos os Poderes, órgãos, fundos e entidades.",
+      "Somente as despesas, para facilitar a fiscalização.",
+      "Nenhuma matéria estranha à previsão da receita e fixação da despesa."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nQual a diferença entre o princípio da **unidade** e o princípio da **totalidade**?",
+    "back": "**Gabarito: B.** A **unidade** exige um único orçamento por ente federado em cada exercício, eliminando orçamentos paralelos. Diante da CF/88 (que criou OF, OSS e OI), a doutrina **remodelou** a unidade na **totalidade**: vários orçamentos podem coexistir, desde que **consolidados**, permitindo visão segregada e geral.\n\n| | Unidade (clássica) | Totalidade (moderna) |\n|---|---|---|\n| Ideia | Um só documento | Coexistência + **consolidação** |\n| Documentos | Único | Múltiplos compatibilizados |\n| Origem | Lei 4.320/64 | Doutrina, a partir da CF/88 |\n\n> 📖 **Art. 2º, Lei 4.320/64.** A LOA estrutura-se em **orçamento fiscal, da seguridade social e de investimento das estatais** (art. 165, §5º, CF) — tripartição instrumental que **não** viola a unidade.\n\n⚠️ Cuidado: a evolução foi da **unidade → totalidade**, e não o contrário.\n\n**Por que as demais erram:** **A** inverte a evolução; **C** a tripartição não fere a unidade; **D** unidade não significa um único documento físico hoje; **E** confunde com universalidade.",
+    "options": [
+      "A totalidade evoluiu para a unidade após a criação das autarquias.",
+      "A unidade exige orçamento uno por ente; a totalidade admite múltiplos orçamentos, desde que consolidados.",
+      "A tripartição (fiscal, seguridade, investimento) viola o princípio da unidade.",
+      "Unidade significa, hoje, obrigatoriamente um único documento físico.",
+      "Ambos determinam que o orçamento contenha todas as receitas e despesas."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO que estabelece o princípio da **anualidade** (ou periodicidade) e quais suas exceções?",
+    "back": "**Gabarito: D.** Pela **anualidade/periodicidade**, o orçamento é elaborado e autorizado para um período de **um ano**, que no Brasil **coincide com o ano civil** (1º/jan a 31/dez).\n\n> 📖 **Art. 34, Lei 4.320/64** — \"O exercício financeiro coincidirá com o ano civil.\" + **art. 2º** (anualidade) e **art. 165, III, CF**.\n\n**Atenção a confusões clássicas:**\n- Anualidade **orçamentária** ≠ anualidade **tributária** (esta não foi recepcionada; foi substituída pela **anterioridade**, que é princípio *tributário*, não orçamentário).\n- O **PPA** (4 anos) não excepciona a anualidade — é plano estratégico, operacionalizado pela LOA.\n\n**Exceções (créditos adicionais):** créditos **especiais e extraordinários** abertos nos **últimos 4 meses** do exercício podem ser reabertos e incorporados ao exercício seguinte (art. 167, §2º, CF). Os **suplementares NÃO** entram nessa exceção.\n\nO **art. 165, §14, CF** permite à LOA prever despesas para exercícios seguintes (investimentos plurianuais) — é mera *previsão*, não fere a anualidade.\n\n**Por que as demais erram:** **A** confunde com anualidade tributária/anterioridade; **B** o PPA não excepciona; **C** créditos suplementares não são exceção; **E** a anualidade não impede execução plurianual de investimentos.",
+    "options": [
+      "O orçamento vige por período indeterminado até ser revogado.",
+      "O PPA, por durar 4 anos, é exceção ao princípio da anualidade.",
+      "Os créditos suplementares reabertos são exceção à anualidade.",
+      "O orçamento é anual (coincide com o ano civil); são exceções os créditos especiais e extraordinários reabertos.",
+      "A anualidade impede qualquer previsão de despesa que ultrapasse o exercício."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio do **orçamento bruto** determina o quê, e como se distingue da universalidade?",
+    "back": "**Gabarito: A.** Pelo **orçamento bruto**, todas as receitas e despesas constam da LOA pelos seus **totais (valores brutos)**, ==vedadas quaisquer deduções==.\n\n> 📖 **Art. 6º, Lei 4.320/64** — \"Todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções. §1º As cotas de receitas que uma entidade deva transferir a outra incluir-se-ão como **despesa** no orçamento da que transfere e como **receita** no da que recebe.\"\n\n**Universalidade × Orçamento bruto** (ambos surgiram juntos, mesma finalidade de controle):\n\n| Princípio | Foco |\n|---|---|\n| **Universalidade** | TODAS as receitas e despesas (abrangência) |\n| **Orçamento bruto** | TODAS pelos **seus totais**, sem deduções (forma de registro) |\n\nA expressão **\"pelos seus totais\"** é a marca do orçamento bruto.\n\n**Por que as demais erram:** **B** é anualidade; **C** é unidade; **D** registrar pelo *líquido* é exatamente o que o princípio **veda**; **E** é discriminação/especificação.",
+    "options": [
+      "A inclusão de receitas e despesas pelos seus totais, sem deduções ou compensações.",
+      "A reedição da lei orçamentária a cada exercício fiscal.",
+      "A consolidação de todas as despesas em uma única lei orçamentária.",
+      "O registro de receitas e despesas pelos seus valores líquidos.",
+      "A discriminação da origem e aplicação de cada recurso."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio da **especificação** (ou discriminação/especialização) e suas exceções.",
+    "back": "**Gabarito: C.** A **especificação/discriminação** exige que receitas e despesas sejam **detalhadas** na LOA (origem e aplicação), vedando **dotações globais/genéricas** (a \"ação guarda-chuva\"). Não tem status constitucional, mas vige pela Lei 4.320/64.\n\n> 📖 **Art. 5º, Lei 4.320/64** — \"A Lei de Orçamento não consignará dotações globais destinadas a atender indiferentemente a despesas de pessoal, material, serviços de terceiros... ressalvado o art. 20 e seu parágrafo único.\"\n\n**Duas exceções (dotação global, sem detalhamento):**\n1. **Programas especiais de trabalho** (art. 20, p.ú., Lei 4.320/64) — ex.: proteção à testemunha;\n2. **Reserva de contingência** (art. 5º, III, LRF) — para passivos contingentes e despesas imprevistas.\n\n⚠️ **Dotação global** (limitada, mas sem detalhe) admite exceções; **dotação ilimitada** (sem valor) é **proibida sem exceção** (princípio da quantificação).\n\n**Por que as demais erram:** **A** orçamento bruto trata de *deduções*, não de detalhamento; **B** universalidade trata de *abrangência*; **D** descreve exclusividade; **E** a reserva de contingência É exceção, não regra geral vedada.",
+    "options": [
+      "Veda deduções nas receitas e despesas registradas na LOA.",
+      "Exige que o orçamento contenha todas as receitas e despesas do ente.",
+      "Exige o detalhamento de receitas e despesas, admitindo como exceções os programas especiais de trabalho e a reserva de contingência.",
+      "Veda a inclusão de matéria estranha à receita e à despesa na LOA.",
+      "Proíbe a reserva de contingência por configurar dotação global."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nQual a distinção entre **dotação global** e **dotação ilimitada** no orçamento?",
+    "back": "**Gabarito: D.** A distinção é cobrada com frequência:\n\n| | Dotação **global** | Dotação **ilimitada** |\n|---|---|---|\n| Valor | **Definido/limitado**, mas sem detalhamento | **Sem valor** definido |\n| Ex. | R$ 20 mi p/ proteção à testemunha, sem detalhar | \"gastar o necessário\" |\n| Permitida? | **Sim, em exceções** (programas especiais; reserva de contingência) | **Nunca** |\n\n> 📖 A vedação à dotação ilimitada decorre do **princípio da quantificação** — **art. 167, VII, CF/88** (\"São vedados: a concessão ou utilização de créditos ilimitados\").\n\nLogo, a dotação global é apenas a **ausência de detalhamento** (admitida excepcionalmente), enquanto a dotação ilimitada é a **ausência de teto de valor** (sempre proibida).\n\n**Por que as demais erram:** **A** inverte os conceitos; **B** a ilimitada não tem exceções; **C** a global pode ser excepcionalmente admitida; **E** ambas não são sinônimos.",
+    "options": [
+      "A dotação global não tem valor definido; a ilimitada tem valor, mas sem detalhe.",
+      "Ambas são sempre proibidas, sem qualquer exceção.",
+      "A dotação global é sempre proibida; a ilimitada é admitida na reserva de contingência.",
+      "A global tem valor definido, mas sem detalhamento (admitida em exceções); a ilimitada não tem valor e é sempre proibida.",
+      "São expressões sinônimas para a mesma vedação constitucional."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio da **exclusividade**: conteúdo, finalidade e exceções.",
+    "back": "**Gabarito: B.** Também chamado de princípio da **PUREZA**, a **exclusividade** determina que a LOA ==não conterá dispositivo estranho== à previsão da receita e à fixação da despesa. Visa coibir as antigas \"**caudas orçamentárias**\" ou \"orçamentos rabilongos\" (contrabando legislativo que se aproveitava da celeridade do processo orçamentário).\n\n> 📖 **Art. 165, §8º, CF/88** — \"A lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa, **não se incluindo na proibição** a autorização para abertura de **créditos suplementares** e contratação de **operações de crédito**, ainda que por antecipação de receita, nos termos da lei.\"\n\n**Exceções (podem constar na LOA):**\n1. Autorização para abertura de **créditos suplementares**;\n2. Autorização para **operações de crédito**, inclusive **ARO**.\n\n⚠️ A LOA pode autorizar abertura de crédito **suplementar**, mas **não** os **especiais/extraordinários**.\n\n**Por que as demais erram:** **A** legalidade trata da exigência de lei; **C** universalidade trata de abrangência; **D** unidade trata de orçamento uno; **E** especificação trata de detalhamento.",
+    "options": [
+      "Legalidade — a despesa só se realiza se prevista em lei.",
+      "Exclusividade — a LOA não conterá dispositivo estranho à receita e à despesa, salvo créditos suplementares e operações de crédito.",
+      "Universalidade — o orçamento deve conter todas as receitas e despesas.",
+      "Unidade — cada ente possui um único orçamento por exercício.",
+      "Especificação — receitas e despesas devem ser detalhadas."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio da **não afetação (não vinculação) de receitas**: alcance e principais exceções.",
+    "back": "**Gabarito: E.** A **não afetação/não vinculação** veda vincular **receita de impostos** a órgão, fundo ou despesa, para preservar a flexibilidade do gestor (evitar engessamento). ⚠️ Aplica-se **apenas a IMPOSTOS** (não às demais espécies tributárias — taxas, contribuições etc. podem ser vinculadas).\n\n> 📖 **Art. 167, IV, CF/88** — \"São vedados: a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas a repartição dos arts. 158 e 159, a destinação para ações de **saúde**, para **manutenção e desenvolvimento do ensino**, para a **administração tributária**... e a prestação de **garantias às operações de crédito por antecipação de receita**...\"\n\n**Mnemônico das exceções — \"RE-SA-EN-AT-GA\":**\n- **RE**partição constitucional de receitas (arts. 158/159)\n- **SA**úde\n- **EN**sino (MDE)\n- **A**dministração **T**ributária\n- **GA**rantia/contragarantia à União e ARO\n\n> 📖 **Art. 8º, p.ú., LRF** — recurso vinculado é usado só no objeto da vinculação, **ainda que em exercício diverso**. Desvinculação só por **calamidade** reconhecida (art. 65, §1º, III, LRF).\n\n**Por que as demais erram:** **A** unidade; **B** exclusividade; **C** orçamento bruto; **D** princípio inexistente como descrito.",
+    "options": [
+      "Unidade das receitas — todas em uma única conta.",
+      "Exclusividade — veda matéria estranha à LOA.",
+      "Orçamento bruto — receitas pelos totais.",
+      "Afetação plena — toda receita deve ter destinação prévia.",
+      "Não afetação — veda vincular receita de impostos a órgão, fundo ou despesa, salvo exceções constitucionais."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio da **proibição do estorno**: o que veda e qual sua exceção?",
+    "back": "**Gabarito: B.** A **proibição do estorno** impede que o administrador **transponha, remaneje ou transfira** recursos de uma categoria de programação (ou de um órgão) para outra **sem prévia autorização legislativa**. Protege a LOA aprovada pelo Legislativo.\n\n> 📖 **Art. 167, VI, CF/88** — \"São vedados: a transposição, o remanejamento ou a transferência de recursos de uma categoria de programação para outra ou de um órgão para outro, **sem prévia autorização legislativa**.\"\n\n**Exceção (EC 85/2015) — art. 167, §5º, CF:** no âmbito de **ciência, tecnologia e inovação (CT&I)**, transposição/remanejamento/transferência podem ocorrer por **ato do Executivo, sem autorização legislativa prévia**.\n\n**Conceitos (doutrina):**\n| Termo | Movimento |\n|---|---|\n| **Transposição** | Entre programas de trabalho, **no mesmo órgão** |\n| **Remanejamento** | De **um órgão para outro** |\n| **Transferência** | Mesmo órgão e programa, entre categorias econômicas |\n\n**Por que as demais erram:** **A** quantificação; **C** legalidade; **D** equilíbrio; **E** exclusividade.",
+    "options": [
+      "Quantificação — veda créditos ilimitados.",
+      "Proibição do estorno — veda transpor, remanejar ou transferir recursos sem autorização legislativa (salvo CT&I).",
+      "Legalidade — o orçamento depende de lei.",
+      "Equilíbrio — despesa não supera a receita prevista.",
+      "Exclusividade — veda matéria estranha à LOA."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio da **quantificação dos créditos orçamentários**.",
+    "back": "**Gabarito: A.** A **quantificação** veda a concessão ou utilização de **créditos ilimitados** — todo crédito na LOA deve ter **dotação limitada** (valor determinado).\n\n> 📖 **Art. 167, VII, CF/88** — \"São vedados: a concessão ou utilização de créditos ilimitados.\"\n> 📖 **Art. 59, Lei 4.320/64** — \"O empenho da despesa não poderá exceder o limite dos créditos concedidos.\"\n\n**Conceitos-chave:**\n- **Crédito orçamentário** = a *autorização* de gasto contida na LOA;\n- **Dotação** = o *montante de recursos* que lastreia o crédito.\n\nNão há exceção: dotação ilimitada é **sempre proibida** (diferente da dotação global, que pode ser excepcionalmente admitida).\n\n**Por que as demais erram:** **B** publicidade; **C** especificação (detalhamento, não limite de valor); **D** anualidade; **E** equilíbrio.",
+    "options": [
+      "Quantificação — veda créditos ilimitados; toda dotação deve ter valor determinado.",
+      "Publicidade — o orçamento deve ser publicado.",
+      "Especificação — receitas e despesas detalhadas.",
+      "Anualidade — vigência de um exercício.",
+      "Equilíbrio — receita igual à despesa."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio do **equilíbrio orçamentário** e a **\"regra de ouro\"**.",
+    "back": "**Gabarito: C.** O **equilíbrio** assegura que as despesas autorizadas **não superem** a previsão de receitas na LOA. Formalmente o orçamento está sempre equilibrado (receita = despesa), pois o déficit aparece nas **operações de crédito** (que também constam do orçamento).\n\n> 📖 **Art. 4º, I, \"a\", LRF** — a LDO disporá sobre o **equilíbrio entre receitas e despesas**.\n\n**Regra de Ouro — art. 167, III, CF/88:** são vedadas \"operações de crédito que **excedam o montante das despesas de capital**, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados por **maioria absoluta**\". Objetivo: impedir endividamento para custear despesas correntes.\n\n⚠️ **STF (ADI 5683/RJ):** a vedação atinge a **realização** (execução) da operação, não a **mera autorização** legislativa; e a análise é **global** (montantes), não rubrica a rubrica.\n\n**Por que as demais erram:** **A** orçamento bruto; **B** não afetação; **D** anualidade; **E** legalidade.",
+    "options": [
+      "Orçamento bruto — registro pelos totais.",
+      "Não afetação — veda vincular impostos.",
+      "Equilíbrio — a despesa fixada não supera a receita prevista; relaciona-se à regra de ouro (art. 167, III, CF).",
+      "Anualidade — vigência de um ano.",
+      "Legalidade — orçamento depende de lei."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nSobre a **\"regra de ouro\"** (art. 167, III, CF/88), o que entra no cálculo do lado das **receitas** e do lado das **despesas**?",
+    "back": "**Gabarito: B.** A regra de ouro veda **operações de crédito que excedam o montante das despesas de capital**. O detalhe cobrado em prova:\n\n| Lado | O que entra |\n|---|---|\n| **Receitas** | **Apenas operações de crédito** (não todas as receitas de capital) |\n| **Despesas** | **Todas as despesas de capital** |\n\n> 📖 **Art. 167, III, CF/88** — vedada \"a realização de operações de créditos que excedam o montante das despesas de capital, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por **maioria absoluta**\".\n\nFinalidade: impedir que o ente se endivide para pagar **despesas correntes** (pessoal, juros, custeio). Conforme o **STF (ADI 5683/RJ)**, o descumprimento se verifica na **execução**, não na autorização, e a análise é pelos **montantes globais**.\n\n**Por que as demais erram:** **A** e **D** incluem indevidamente todas as receitas de capital; **C** inverte os lados; **E** a ressalva exige maioria absoluta, não simples.",
+    "options": [
+      "Todas as receitas de capital × despesas correntes.",
+      "Apenas operações de crédito (receitas) × todas as despesas de capital.",
+      "Todas as despesas de capital (receitas) × operações de crédito (despesas).",
+      "Todas as receitas de capital × todas as despesas de capital.",
+      "Operações de crédito × despesas de capital, ressalvada autorização por maioria simples."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nDiferencie os princípios da **legalidade**, **publicidade**, **transparência** e **clareza** no orçamento.",
+    "back": "**Gabarito: D.** São quatro princípios facilmente confundidos:\n\n| Princípio | Núcleo | Base |\n|---|---|---|\n| **Legalidade** | Orçamento é objeto de **lei** (PPA, LDO, LOA seguem o processo legislativo) | art. 5º, II; 37; 165-166, CF |\n| **Publicidade** | **Publicação** no órgão oficial — condição de eficácia | art. 37, CF |\n| **Transparência** | Vai **além** da publicidade: ampla divulgação (inclusive eletrônica), audiências públicas, dados em tempo real | **art. 48, LRF** |\n| **Clareza** | Linguagem **clara e compreensível** (inteligibilidade) | doutrina |\n\n> 📖 **Art. 48, LRF** — instrumentos de transparência: planos, orçamentos, LDO, prestações de contas, **RREO**, **RGF** e versões simplificadas, com ampla divulgação.\n\n⚠️ A **publicação em diário oficial** garante a **publicidade** (não a clareza).\n\n**Por que as demais erram:** **A**/**B**/**C**/**E** trocam os conceitos entre si (ex.: atribuir à clareza o ato de publicar, ou à publicidade a participação popular).",
+    "options": [
+      "Legalidade = publicar no diário oficial; clareza = depender de lei.",
+      "Publicidade = audiências públicas e dados em tempo real; transparência = mera publicação.",
+      "Clareza = orçamento ser objeto de lei; legalidade = linguagem compreensível.",
+      "Legalidade = ser objeto de lei; publicidade = publicação oficial; transparência = ampla divulgação (LRF); clareza = linguagem compreensível.",
+      "Transparência e publicidade são sinônimos perfeitos, sem distinção."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nO princípio do **orçamento impositivo**: o orçamento brasileiro é totalmente impositivo?",
+    "back": "**Gabarito: C.** O **orçamento impositivo** (EC 86/2015, 100/2019, 102/2019, 126/2022) cria o **dever de execução** das programações orçamentárias. Mas esse dever **não é absoluto**.\n\n> 📖 **Art. 165, §10, CF/88** — \"A administração tem o **dever de executar** as programações orçamentárias... com o propósito de garantir a efetiva entrega de bens e serviços à sociedade.\"\n> 📖 **Art. 165, §11, CF/88** — o dever (I) subordina-se a **metas fiscais/limites** e não impede cancelamento p/ créditos adicionais; (II) não se aplica a **impedimentos técnicos**; (III) aplica-se **exclusivamente às despesas primárias discricionárias**.\n\nResultado: a doutrina entende que o orçamento brasileiro é **híbrido / impositivo flexível** — possui **parcela autorizativa** e **parcela impositiva**, e não é integralmente impositivo.\n\n⚠️ Emendas individuais (2% da RCL — EC 126/2022) e de bancada (1% da RCL) são de execução obrigatória.\n\n**Por que as demais erram:** **A** ignora as relativizações do §11; **B** o dever atinge as discricionárias, não as obrigatórias; **D** é o oposto (ainda há parcela autorizativa); **E** o impositivo decorre de EC, não da redação originária.",
+    "options": [
+      "Sim, o orçamento é integralmente impositivo desde a CF/88.",
+      "O caráter impositivo aplica-se às despesas obrigatórias, não às discricionárias.",
+      "É um orçamento híbrido (impositivo flexível): há dever de executar as despesas primárias discricionárias, com relativizações do art. 165, §11.",
+      "O modelo é puramente autorizativo, sem qualquer dever de execução.",
+      "O caráter impositivo já constava da redação originária da CF/88."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nOs princípios da **uniformidade**, **realismo/exatidão**, **programação**, **regionalização** e **economicidade**.",
+    "back": "**Gabarito: E.** Princípios doutrinários/legais complementares:\n\n| Princípio | Núcleo |\n|---|---|\n| **Uniformidade/consistência** | Padronização ao longo dos exercícios, permitindo **comparações** entre mandatos |\n| **Realismo/exatidão (sinceridade)** | Estimativas tão **exatas** quanto possível (art. 12, LRF, p/ receitas) |\n| **Programação** | Orçamento estruturado em **programas, ações e metas** (orçamento-programa) |\n| **Regionalização** | Identificar o **local** das ações, reduzindo desigualdades regionais (art. 165, §7º, CF; art. 3º, III) |\n| **Economicidade/eficiência** | Uso **racional** dos recursos, menor custo e maior benefício |\n\n> 📖 **Art. 12, LRF** — as previsões de receita observarão normas técnicas, efeitos de alterações legais, variação de preços e crescimento econômico (realismo).\n\n⚠️ A **uniformidade** é respeitada **ainda que** entes federativos classifiquem a mesma despesa de formas diferentes (ela exige consistência *intertemporal* dentro de cada ente).\n\n**Por que as demais erram:** **A**–**D** trocam as definições (ex.: atribuir à programação a ideia de comparação temporal, própria da uniformidade).",
+    "options": [
+      "Programação = comparabilidade entre exercícios; uniformidade = estrutura em programas.",
+      "Realismo = uso racional dos recursos; economicidade = estimativas exatas.",
+      "Regionalização = padronização dos dados; uniformidade = redução de desigualdades regionais.",
+      "Economicidade = estrutura em programas e metas; programação = menor custo e maior benefício.",
+      "Uniformidade = comparabilidade temporal; realismo = estimativas exatas; programação = programas/ações/metas; regionalização = local das ações; economicidade = uso racional."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Princípios Orçamentários^^\n\nPara ser considerada um princípio orçamentário, a regra precisa estar **expressamente prevista na Constituição Federal**?",
+    "back": "**Gabarito: B.** **Não.** Os princípios orçamentários têm **três fontes**: a **Constituição**, a **legislação infraconstitucional** (Lei 4.320/64, LRF) e a **doutrina**. Exigir previsão constitucional expressa restringe indevidamente o conceito.\n\n| Fonte | Exemplos |\n|---|---|\n| **Constituição** | Exclusividade (165, §8º), não afetação (167, IV), quantificação (167, VII), proibição do estorno (167, VI) |\n| **Lei (4.320/64, LRF)** | Unidade, universalidade, anualidade, orçamento bruto, especificação |\n| **Doutrina** | Clareza, uniformidade, realismo/exatidão |\n\n> 📖 Princípios como **unidade, universalidade e anualidade** estão na **Lei 4.320/64, art. 2º** (e não expressamente, com esse nome, na CF) — prova de que a previsão constitucional não é requisito.\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** condicionam, total ou parcialmente, a existência do princípio à previsão constitucional expressa — o que é incorreto.",
+    "options": [
+      "Sim, só é princípio o que estiver expresso na CF/88.",
+      "Não — há princípios na CF, na lei (4.320/64, LRF) e na doutrina.",
+      "Sim, salvo os princípios previstos na Lei 4.320/64.",
+      "Não, mas apenas os princípios doutrinários dispensam previsão legal.",
+      "Sim, exceto os princípios criados pela LRF."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • SEFAZ-PE (AFTE) • 2022^^\n\nSão princípios orçamentários específicos ou setoriais:",
+    "back": "**Gabarito: A.** Para **Marcus Abraham**, além dos princípios **gerais/genéricos** (art. 37, CF: legalidade, impessoalidade, moralidade, publicidade, eficiência), o administrador segue os princípios **específicos/setoriais**, que conferem efetividade e legitimidade ao orçamento. A alternativa **A** reúne apenas princípios admitidos (legalidade orçamentária, exclusividade, universalidade e **sinceridade/exatidão**).\n\n> 📖 **Art. 37, caput, CF/88** (princípios gerais) + Lei 4.320/64 e LRF (princípios setoriais).\n\n**Por que as demais erram:** **B** e **C** trazem \"**vinculação** de receitas\" — o princípio correto é a **NÃO** vinculação; **D** e **E** incluem **federalismo** e **sustentabilidade**, que não são tratados como princípios orçamentários setoriais clássicos na lista cobrada.",
+    "options": [
+      "legalidade orçamentária, exclusividade, universalidade e sinceridade orçamentária.",
+      "vinculação de receitas, sinceridade orçamentária, exclusividade e transparência.",
+      "legalidade orçamentária, exclusividade, vinculação de receitas e transparência.",
+      "federalismo, unidade, universalidade e sustentabilidade orçamentária.",
+      "sinceridade orçamentária, federalismo, legalidade orçamentária e anualidade."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • TRT 14ª Região (AJ Administrativa) • 2022^^\n\nNos termos previstos na Lei nº 4.320/1964, a Lei de Orçamento poderá conter autorização ao Executivo para realizar em qualquer mês do exercício financeiro operações de crédito por antecipação da receita, destinadas:",
+    "back": "**Gabarito: B.** A **ARO** (antecipação de receita orçamentária) destina-se a **atender insuficiências de caixa** — descompasso temporário entre ingressos e gastos.\n\n> 📖 **Art. 7º, II, Lei 4.320/64** — \"A Lei de Orçamento poderá conter autorização ao Executivo para: II - Realizar em qualquer mês do exercício financeiro, operações de crédito por antecipação da receita, **para atender a insuficiências de caixa**.\"\n\nTrata-se de exceção ao princípio da **exclusividade** (a LOA pode autorizar operações de crédito, inclusive ARO). A ARO deve ser lida em conjunto com o **art. 38 da LRF** (mais restritivo).\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** (convênios, parcerias, criação de autarquias, concursos) **não** são a finalidade legal da ARO, que é exclusivamente cobrir **insuficiência de caixa**.",
+    "options": [
+      "à celebração de convênios com outros entes públicos.",
+      "a atender a insuficiência de caixa.",
+      "à celebração de parcerias com entidades da iniciativa privada sem fins lucrativos.",
+      "à criação de autarquias ou fundações públicas.",
+      "a custear a realização de concursos públicos para provimentos de cargos efetivos."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • TCE-GO (ACE Contabilidade) • 2022^^\n\nNo que concerne ao regramento de execução orçamentária, constitui exceção à regra geral que predica que os créditos vinculam-se ao exercício orçamentário em que foram autorizados:",
+    "back": "**Gabarito: A.** Pela **anualidade**, os créditos valem no exercício em que autorizados. **Exceção:** créditos **especiais e extraordinários** abertos nos **últimos 4 meses** do exercício, que, reabertos nos limites de seus saldos, são incorporados ao exercício **subsequente**.\n\n> 📖 **Art. 167, §2º, CF/88** — \"os créditos especiais e extraordinários terão vigência no exercício financeiro em que forem autorizados, salvo se o ato de autorização for promulgado nos **últimos quatro meses**, casos em que, reabertos nos limites de seus saldos, serão incorporados ao orçamento do exercício financeiro subsequente.\"\n\n⚠️ Os créditos **suplementares** **não** entram nessa exceção.\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** descrevem situações (despesas continuadas, operações de crédito, alienação de ativos, ações do PPA) que **não** são a exceção legal à anualidade prevista no art. 167, §2º.",
+    "options": [
+      "os créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício, reabertos nos limites de seus saldos e incorporados ao exercício subsequente.",
+      "as despesas de caráter continuado, que podem ser cobertas com créditos autorizados no exercício findo, independentemente da inscrição em restos a pagar.",
+      "aqueles gerados por operações de crédito, que subsistem até a liquidação integral do serviço da dívida.",
+      "os provenientes de alienação de ativos, cuja fonte corresponde a receita de capital que tem como contrapartida uma baixa patrimonial.",
+      "aqueles destinados a despesas decorrentes de ações e metas que integram o Plano Plurianual."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • DPE-AM (Assistente Téc. Administrativo) • 2022^^\n\nDentre os princípios orçamentários, o princípio da unidade ou da totalidade determina que:",
+    "back": "**Gabarito: D.** A **unidade/totalidade** exige um **único orçamento por ente federado** (União, Estados, DF e Municípios), consolidando todas as receitas e despesas, para evitar orçamentos paralelos dentro da mesma pessoa política.\n\n> 📖 **Art. 2º, Lei 4.320/64** — a LOA observa os princípios de **unidade**, universalidade e anualidade.\n\nO que configura o princípio é a esfera de **Governo/Unidade da Federação** (um único orçamento anual), e não órgão/unidade orçamentária.\n\n**Por que as demais erram:** **A** descreve a **exclusividade**; **B** descreve a **anualidade**; **C** mistura com **orçamento bruto** (valores brutos); **E** trata de padronização (uniformidade), não de unidade.",
+    "options": [
+      "a lei orçamentária anual não poderá conter previsões estranhas à previsão de receita e despesa, devendo centrar-se unicamente nestes aspectos.",
+      "o orçamento deve ser elaborado com vigência de um ano, limitado a apenas um exercício financeiro.",
+      "as despesas e orçamentos devem ser previstos no orçamento em um modelo único, o de valores brutos.",
+      "cada ente federado deve possuir apenas um orçamento que consolide todas as receitas e despesas da Administração Pública daquele ente.",
+      "as previsões de despesas devem atender a um único modelo, que facilite a fiscalização do Poder Legislativo e outros órgãos de controle."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • TRT 17ª Região (AJ Contabilidade) • 2022^^\n\nO princípio de unidade de caixa ou unidade de tesouraria, aplicável à administração financeira e orçamentária dos entes públicos:",
+    "back": "**Gabarito: D.** A **unidade de caixa/tesouraria** centraliza todas as receitas e disponibilidades em uma única conta gerida pelo Tesouro, **vedando a criação de caixas especiais**, e determinando o depósito das disponibilidades de Estados e Municípios em **instituição financeira oficial**.\n\n> 📖 **Art. 56, Lei 4.320/64** — \"O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de **unidade de tesouraria**, vedada qualquer fragmentação para criação de caixas especiais.\"\n\nObjetivo: eficiência, controle e transparência na gestão do caixa.\n\n**Por que as demais erram:** **A** o princípio alcança **todos** os ingressos, não só os tributários; **B** restringe indevidamente ao Banco Central; **C** cria vedações (papel-moeda) inexistentes; **E** inventa exceção (impostos da União) que não existe na regra.",
+    "options": [
+      "aplica-se apenas à arrecadação tributária e não a outros ingressos financeiros, que podem transitar por caixas especiais ou exclusivos.",
+      "determina que todas as disponibilidades de caixa sejam depositadas em conta específica junto ao Banco Central, no caso da União, e administrada por banco público nos Estados e Municípios.",
+      "veda a realização de despesas fora do sistema financeiro nacional, impedindo transações em papel-moeda e a instituição de fundos especiais de despesa, salvo os previstos na CF.",
+      "veda a instituição de caixas especiais, determinando a centralização da arrecadação e o depósito das disponibilidades de Estados e Municípios em instituição financeira oficial.",
+      "determina que todas as receitas transitem por conta de centralização, excepcionando apenas as oriundas da participação no produto dos impostos da União."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • SEFAZ-PE (AFTE) • 2022^^\n\nAo verificar se a Lei Orçamentária Anual contém dispositivo estranho à previsão da receita e à fixação da despesa, o avaliador está considerando o princípio orçamentário denominado:",
+    "back": "**Gabarito: A.** O princípio que veda **dispositivo estranho** à previsão de receita e fixação de despesa é a **exclusividade** (também chamado de princípio da **pureza**).\n\n> 📖 **Art. 165, §8º, CF/88** — \"A lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e a contratação de operações de crédito, ainda que por antecipação de receita, nos termos da lei.\"\n\n**Por que as demais erram:** **B** unidade (orçamento uno); **C** discriminação (detalhamento); **D** orçamento bruto (valores totais); **E** publicidade (divulgação oficial).",
+    "options": [
+      "exclusividade.",
+      "unidade.",
+      "discriminação.",
+      "orçamento bruto.",
+      "publicidade."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • TRT 22ª Região (AJ Administrativa) • 2022^^\n\nO Governo Federal incluiu no projeto da LOA autorização para a contratação de operação de crédito. Inicialmente julgou-se impossível, pois a LOA não pode conter dispositivo estranho à receita e despesa; depois corrigiu-se, pois tal autorização é EXCEÇÃO constitucional ao princípio orçamentário:",
+    "back": "**Gabarito: D.** A autorização para **contratação de operações de crédito** (inclusive ARO) é **exceção** expressa ao princípio da **exclusividade**.\n\n> 📖 **Art. 165, §8º, CF/88** — a vedação a dispositivo estranho **não inclui** a autorização para créditos suplementares e a **contratação de operações de crédito**, ainda que por antecipação de receita.\n\nAssim, prever operação de crédito na LOA é legítimo e não viola a exclusividade.\n\n**Por que as demais erram:** **A** unidade; **B** não afetação; **C** universalidade; **E** equilíbrio — nenhum deles tem essa exceção específica das operações de crédito.",
+    "options": [
+      "da unidade.",
+      "da não afetação.",
+      "da universalidade.",
+      "da exclusividade.",
+      "do equilíbrio."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • TRT 4ª Região (TJ Administrativa) • 2022^^\n\nA respeito dos princípios aplicáveis ao Orçamento Público, assinale a alternativa correta:",
+    "back": "**Gabarito: C.** Pela **especificação**, vedam-se dotações genéricas/globais, mas isso **não afasta** a previsão da **reserva de contingência** (dotação global excepcional, fixada como percentual da RCL).\n\n> 📖 **Art. 5º, III, LRF** — a reserva de contingência, definida com base na RCL, destina-se a passivos contingentes e despesas imprevistas. **Art. 20, p.ú., Lei 4.320/64** — programas especiais de trabalho (outra exceção).\n\n**Por que as demais erram:**\n- **A)** a anualidade é da **LOA**; o PPA não é exceção a ela;\n- **B)** o princípio é a **unidade** (não \"unicidade\"); a LDO não é anexo da LOA;\n- **D)** o equilíbrio formal não obriga abertura de créditos extraordinários em déficit;\n- **E)** despesas empenhadas e liquidadas **podem** ser pagas no exercício seguinte como **restos a pagar** — a anualidade não impede isso.",
+    "options": [
+      "o PPA constitui exceção à anualidade, pois contempla créditos com vigência para dois exercícios, prorrogável por igual período.",
+      "a LDO é expressão do princípio da unicidade, editada conjuntamente com a LOA, integrando-a como anexo obrigatório.",
+      "em observância ao princípio da especificação, são vedadas dotações genéricas ou globais, o que não afasta a previsão na LOA de reserva de contingência (percentual sobre a RCL).",
+      "o princípio do equilíbrio veda o encerramento da execução anual com déficit, obrigando a abertura de créditos extraordinários.",
+      "o princípio da anualidade impede que despesas empenhadas e liquidadas em um exercício sejam pagas no subsequente como restos a pagar."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • TRT 5ª Região (AJ Contabilidade) • 2022^^\n\nO princípio do orçamento bruto determina a inclusão de receitas e despesas:",
+    "back": "**Gabarito: A.** O **orçamento bruto** obriga registrar receitas e despesas pelos **valores totais/brutos**, ==sem deduções ou compensações==.\n\n> 📖 **Art. 6º, Lei 4.320/64** — \"Todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções.\"\n\nImpede a inclusão de importâncias líquidas, garantindo a visão completa exigida pela universalidade.\n\n**Por que as demais erram:** **B** descreve a **anualidade** (reedição anual); **C** descreve a **unidade**; **D** registrar pelo **líquido** é justamente o que o princípio **veda**; **E** não corresponde ao princípio.",
+    "options": [
+      "sem deduções ou compensações.",
+      "a cada exercício fiscal novamente na Lei Orçamentária.",
+      "todos em uma única Lei Orçamentária Anual.",
+      "por seus valores líquidos.",
+      "conforme originalmente rascunhadas por cada unidade orçamentária."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • DETRAN-AP (Analista) • 2022^^\n\nO princípio da universalidade consiste no postulado de que a administração pública deve:",
+    "back": "**Gabarito: D.** Pela **universalidade**, o orçamento deve ==incluir todas as receitas e despesas do Estado== na lei orçamentária, sem omissões.\n\n> 📖 **Art. 2º, Lei 4.320/64** + **art. 165, §5º, CF/88**.\n\n**Por que as demais erram:** **A** descreve a **unidade**; **B** descreve a **anualidade**; **C** descreve uma falsa ideia de \"orçamento sem vínculos\" (não é princípio); **E** descreve a **exclusividade**.",
+    "options": [
+      "ter apenas uma lei orçamentária.",
+      "reeditar a lei orçamentária a cada exercício.",
+      "reiniciar cada lei orçamentária sem referências, vinculações ou compromissos com a peça anterior.",
+      "incluir todas as receitas e despesas do Estado na lei orçamentária.",
+      "deixar de incluir matéria estranha à previsão da receita e à fixação da despesa na lei orçamentária."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • TRT 23ª Região (AJ Eng. Mecânica) • 2022^^\n\nDentre as características listadas — 1. Objetividade; 2. Clareza; 3. Sigilo; 4. Equilíbrio; 5. Abrangência; 6. Exclusividade; 7. Legalidade; 8. Não Afetação; 9. Vinculação; 10. Transparência; 11. Profundidade de Análise; 12. Responsabilidade — devem ser consideradas como princípios orçamentários:",
+    "back": "**Gabarito: B.** Os itens corretos são **1, 2, 4, 6, 7, 8, 10 e 12** (objetividade, clareza, equilíbrio, exclusividade, legalidade, não afetação, transparência e responsabilidade).\n\n**Não** se enquadram como princípios orçamentários:\n- **3. Sigilo** (contraria publicidade/transparência);\n- **5. Abrangência** (não é princípio autônomo com esse nome);\n- **9. Vinculação** (o princípio é a **NÃO**-vinculação);\n- **11. Profundidade de análise** (não existe).\n\n> 📖 Base normativa e doutrinária dos demais: CF/88, Lei 4.320/64 e LRF.\n\n**Por que as demais erram:** **A**, **C** e **E** incluem **sigilo** e/ou **profundidade de análise**; **D** inclui **abrangência** e **vinculação**, todos itens incorretos.",
+    "options": [
+      "1, 2, 3, 4, 6, 7, 8 e 11.",
+      "1, 2, 4, 6, 7, 8, 10 e 12.",
+      "1, 3, 4, 6, 7, 8 e 11.",
+      "1, 4, 5, 6, 9, 11 e 12.",
+      "1, 2, 3, 4, 8 e 11."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • SEF-SC (ARE IV) • 2021^^\n\nPara simplificar a LOA, uma equipe apresentou as receitas tributárias pelos valores líquidos, deduzindo os valores da prestação de serviço de cobrança bancária. De acordo com a Lei 4.320/1964, esse modo de apresentar a receita:",
+    "back": "**Gabarito: D.** Apresentar receitas pelo **líquido** viola o **orçamento bruto**: todas as receitas e despesas devem constar pelos **totais**, vedadas quaisquer deduções.\n\n> 📖 **Art. 6º, Lei 4.320/64** — \"Todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, **vedadas quaisquer deduções**.\"\n\nLogo, está **errado** — sem exceções pandêmicas ou facultativas.\n\n**Por que as demais erram:** **A** não há \"verificação posterior\" que valide o líquido; **B** e **E** inventam exceções por Covid-19 inexistentes na lei; **C** afirma falsamente ser \"facultado consignar líquido das despesas\".",
+    "options": [
+      "não está errado, desde que, após verificações, fique constatado que o valor líquido apurável esteja correto.",
+      "está correto, por ser exceção legal prevista para vigorar até 31/12/2022, prorrogável, em razão da pandemia de Covid-19.",
+      "está errado, pois as receitas devem constar pelos totais, sendo facultado consignar o valor líquido das despesas, indicadas as deduções.",
+      "está errado, pois todas as receitas e despesas devem constar pelos seus valores totais, vedadas quaisquer deduções.",
+      "está correto, por ser exceção legal da pandemia, facultando-se consignar despesas pelo valor líquido em caso de desconto por pagamento antecipado."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • ALAP (Analista Legislativo - Contador) • 2020^^\n\nA Lei Orçamentária Anual de um ente público estadual:",
+    "back": "**Gabarito: E.** A LOA deve computar a receita de **alienação de bens** pelo **valor total e bruto** a receber — aplicação direta do **orçamento bruto**.\n\n> 📖 **Art. 6º, Lei 4.320/64** — receitas e despesas pelos totais, vedadas deduções.\n\n**Por que as demais erram:**\n- **A)** instituir/regular fundos na LOA viola a **exclusividade**;\n- **B)** três leis orçamentárias separadas violam a **unidade**;\n- **C)** vincular IPVA a ações de urbanismo viola a **não afetação** (não é exceção constitucional);\n- **D)** deixar de computar operações de crédito viola a **universalidade**.",
+    "options": [
+      "pode conter dispositivo que regula a instituição e o funcionamento de fundos.",
+      "é específica para cada um dos poderes, ou seja, um ente estadual tem três leis orçamentárias diferentes.",
+      "pode conter dispositivo que garanta a aplicação de, no mínimo, 10% da arrecadação do IPVA em ações de urbanismo.",
+      "pode deixar de computar os recursos oriundos das operações de crédito de longo prazo no total das receitas.",
+      "deve computar a receita de alienação de bens pelo valor total e bruto a ser recebido, e não pelo resultado a ser obtido."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • ALAP (Assistente Legislativo - Contabilidade) • 2020^^\n\nSão princípios orçamentários aplicáveis ao Plano Plurianual, à Lei de Diretrizes Orçamentárias e à Lei Orçamentária:",
+    "back": "**Gabarito: E.** É preciso indicar princípios **comuns aos três** instrumentos (PPA, LDO e LOA). Apenas **legalidade e transparência** valem para todo o ordenamento orçamentário, abarcando os três.\n\n> 📖 **Legalidade**: arts. 165 e 166, CF (PPA, LDO, LOA e créditos são objeto de lei). **Transparência**: art. 48, LRF (ampla divulgação dos planos, orçamentos e LDO).\n\n**Por que as demais erram:** **A**, **C** e **D** trazem **confrontação receita×despesa (equilíbrio)**, que é específica da **LOA**; **B** e demais citam **representação fidedigna** e **exatidão/sinceridade** — a primeira sequer é princípio orçamentário, e a exatidão relaciona-se à **LOA**, não aos três.",
+    "options": [
+      "Confrontação da receita com a despesa e Representação fidedigna.",
+      "Legalidade e Representação fidedigna.",
+      "Confrontação da receita com a despesa e Transparência.",
+      "Confrontação da receita com a despesa e Exatidão.",
+      "Legalidade e Transparência."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • ALAP (Analista de Controle Interno) • 2020^^\n\nTodas as receitas e despesas orçamentárias do Poder Legislativo Estadual devem ser, respectivamente, previstas e fixadas na Lei Orçamentária Anual do:",
+    "back": "**Gabarito: B.** As receitas e despesas do **Legislativo estadual** integram a LOA do **ente estadual** do qual ele faz parte — aplicação da **universalidade** (a LOA contém receitas e despesas de **todos** os Poderes do ente).\n\n> 📖 **Art. 2º, Lei 4.320/64** + **art. 165, §5º, CF/88** — a LOA de cada ente contém as receitas e despesas de todos os seus Poderes, órgãos e entidades.\n\n**Por que as demais erram:** **A**, **D** e **E** afirmam haver LOA \"do Poder Legislativo\" — não existe; há LOA **do ente**, o que decorre da **unidade**. **C** atribui o fundamento à \"eficiência\", quando o correto é **universalidade**.",
+    "options": [
+      "Poder Legislativo, em atendimento ao princípio orçamentário da exclusividade.",
+      "ente estadual do qual é parte, em atendimento ao princípio orçamentário da universalidade.",
+      "ente estadual do qual é parte, em atendimento ao princípio orçamentário da eficiência.",
+      "Poder Legislativo, em atendimento ao princípio orçamentário da transparência.",
+      "Poder Legislativo, em atendimento ao princípio da não vinculação da receita de impostos."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FCC • ALAP (Assistente Legislativo - Contabilidade) • 2020^^\n\nO princípio orçamentário da Unidade ou Totalidade determina:",
+    "back": "**Gabarito: E.** A **unidade/totalidade** determina a existência de **orçamento único para cada um dos entes federados**, evitando múltiplos orçamentos paralelos dentro da mesma pessoa política.\n\n> 📖 **Art. 2º, Lei 4.320/64** — unidade, universalidade e anualidade.\n\n⚠️ **Pegadinha:** o orçamento é único **para cada ente** (E), e **não** \"um único para todos os entes federados\" (B) — isso violaria a autonomia federativa.\n\n**Por que as demais erram:** **A** mistura com orçamento bruto (mas erra ao dizer \"líquido\"); **B** \"único para todos os entes\" é incorreto; **C** descreve **exclusividade**; **D** inventa \"dispositivo penal\" permitido, o que viola a exclusividade.",
+    "options": [
+      "que todas as receitas e despesas devem ser apresentadas pelo valor total e líquido, vedadas quaisquer deduções.",
+      "a existência de orçamento único para todos os entes federados, evitando múltiplos orçamentos paralelos.",
+      "que não conterá dispositivo estranho à previsão da receita e à fixação da despesa.",
+      "que poderá haver dispositivo penal além da previsão da receita e da fixação da despesa.",
+      "a existência de orçamento único para cada um dos entes federados, evitando múltiplos orçamentos paralelos dentro da mesma pessoa política."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Pref. de Itapevi (Auditor) • 2025^^\n\nNo que se refere ao orçamento público, a CF impõe a proibição à concessão ou à utilização de créditos ilimitados, de modo a impedir o descontrole dos gastos públicos. Essa vedação reflete o princípio orçamentário da:",
+    "back": "**Gabarito: A.** A vedação a **créditos ilimitados** consagra o princípio da **quantificação** dos créditos orçamentários — toda despesa deve estar previamente quantificada e autorizada, vedando dotações em valores indeterminados.\n\n> 📖 **Art. 167, VII, CF/88** — \"São vedados: a concessão ou utilização de **créditos ilimitados**.\"\n\n**Por que as demais erram:** **B** unidade de tesouraria trata da centralização de caixa; **C** não afetação veda vincular impostos; **D** especialização trata de detalhamento; **E** totalidade trata de orçamento uno por ente.",
+    "options": [
+      "quantificação.",
+      "unidade de tesouraria.",
+      "não afetação.",
+      "especialização.",
+      "totalidade."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FGV • TCE-PI (ACE Comum) • 2025^^\n\nA CRFB/88 (art. 167, IV) veda a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas certas hipóteses (saúde, ensino, administração tributária etc.). O princípio que esse texto consagra é o:",
+    "back": "**Gabarito: E.** O art. 167, IV, da CF consagra a **não-afetação das receitas** (não-vinculação de impostos), cuja finalidade é dar **flexibilidade** à alocação dos recursos.\n\n> 📖 **Art. 167, IV, CF/88** — vedada a vinculação de receita de **impostos** a órgão, fundo ou despesa, ressalvadas a repartição dos arts. 158/159, saúde, ensino, administração tributária e garantia a ARO.\n\n**Por que as demais erram:** **A** equilíbrio (receita×despesa); **B** exclusividade (matéria estranha); **C** uniformidade (padronização); **D** orçamento bruto (valores totais).",
+    "options": [
+      "do Equilíbrio.",
+      "da Exclusividade.",
+      "da Uniformidade.",
+      "do Orçamento Bruto.",
+      "da Não-Afetação das Receitas."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FGV • CAGE-RS / SEFAZ-RS (Auditor) • 2025^^\n\nRelacione os princípios às definições: **I. Totalidade**; **II. Periodicidade**; **III. Exclusividade**; **IV. Universalidade**.\n( ) LOA deve conter todas as receitas e despesas de todos os Poderes (art. 165, §5º).\n( ) Orçamento único por ente, evitando peças paralelas (art. 2º).\n( ) Delimita o exercício financeiro, coincidente com o ano civil (art. 34).\n( ) LOA não conterá dispositivo estranho à receita e à despesa (art. 165, §8º). Assinale a ordem correta:",
+    "back": "**Gabarito: C.** A correspondência correta é **IV – I – II – III**:\n\n| Definição | Princípio |\n|---|---|\n| Todas as receitas/despesas de todos os Poderes | **IV. Universalidade** |\n| Orçamento único por ente | **I. Totalidade** |\n| Delimita o exercício (ano civil) | **II. Periodicidade** |\n| Não conterá dispositivo estranho | **III. Exclusividade** |\n\n> 📖 Universalidade (art. 165, §5º); Totalidade/unidade (art. 2º, Lei 4.320/64); Periodicidade (art. 34, Lei 4.320/64); Exclusividade (art. 165, §8º, CF).\n\n**Por que as demais erram:** trazem ordens que trocam universalidade↔totalidade ou periodicidade↔exclusividade, conflitando com as definições legais.",
+    "options": [
+      "III – I – II – IV.",
+      "IV – II – I – III.",
+      "IV – I – II – III.",
+      "IV – I – III – II.",
+      "III – IV – I – II."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • IBAMA (Analista Administrativo) • 2025 • adaptada C/E→A–E^^\n\nAcerca do sistema de planejamento e orçamento federal e da vinculação de tributos, assinale a alternativa correta:",
+    "back": "**Gabarito: A.** A regra constitucional é a **não-vinculação de receita de impostos** — a vinculação **total** da arrecadação tributária é **vedada**, salvo exceções constitucionais expressas (saúde, ensino, administração tributária, repartição, garantia a ARO).\n\n> 📖 **Art. 167, IV, CF/88** + **art. 8º, p.ú., LRF** (recursos vinculados usados só no objeto da vinculação, ainda que em exercício diverso).\n\nA assertiva original (que afirmava ser permitida a \"vinculação total\") estava **ERRADA**.\n\n**Por que as demais erram:** **B** a regra alcança apenas **impostos**, não todos os tributos; **C** a LRF não autoriza vinculação automática; **D** não há vinculação irrestrita; **E** a vinculação não é a regra, e sim a exceção.",
+    "options": [
+      "A vinculação total da arrecadação de impostos a órgãos e programas é vedada, salvo exceções constitucionais expressas.",
+      "É permitida a vinculação total da arrecadação de todos os tributos a órgãos específicos.",
+      "A LRF autoriza a vinculação automática de tributos fora das hipóteses constitucionais.",
+      "O sistema federal admite vinculação irrestrita de todos os impostos a programas específicos.",
+      "A vinculação total dos impostos é a regra, sendo a não-afetação a exceção."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • ICMBio (Analista Administrativo) • 2025 • adaptada C/E→A–E^^\n\nA determinação constitucional de que a LOA contenha o orçamento fiscal, o de investimento das estatais e o da seguridade social produz qual efeito sobre o princípio da unidade?",
+    "back": "**Gabarito: B.** A tripartição **não revoga** a unidade. Pelo contrário, a doutrina trata isso como a **remodelagem** da \"unidade\" em \"**totalidade**\": múltiplos orçamentos coexistem, mas **consolidados em uma única LOA**, preservando o princípio.\n\n> 📖 **Art. 165, §5º, CF/88** (os três orçamentos) + **art. 2º, Lei 4.320/64** (unidade). A assertiva original (\"revogou tacitamente a unidade\") era **ERRADA**.\n\n**Por que as demais erram:** **A** afirma a revogação (falso); **C** os três orçamentos integram **uma** lei; **D** a unidade não foi substituída pela universalidade; **E** a tripartição é instrumental, não fere a unidade.",
+    "options": [
+      "Revogou tacitamente o princípio da unidade orçamentária.",
+      "Não o revogou; os três orçamentos integram uma única LOA, preservando a unidade (remodelada como totalidade).",
+      "Exige três leis orçamentárias autônomas, uma para cada orçamento.",
+      "Substituiu o princípio da unidade pelo da universalidade.",
+      "Fere o princípio da unidade, por criar orçamentos paralelos."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • ICMBio (Analista Administrativo) • 2025 • adaptada C/E→A–E^^\n\nEm relação ao princípio da anualidade, é correto afirmar que a LOA:",
+    "back": "**Gabarito: C.** A anualidade limita a vigência ao exercício, mas a CF **permite** que a LOA preveja despesas para exercícios seguintes (investimentos plurianuais).\n\n> 📖 **Art. 165, §14, CF/88** — \"A lei orçamentária anual **poderá conter previsões de despesas para exercícios seguintes**, com a especificação dos investimentos plurianuais e daqueles em andamento.\"\n\nA assertiva original (\"não pode conter previsões além do exercício\") estava **ERRADA**.\n\n**Por que as demais erram:** **A** e **D** negam a possibilidade do §14; **B** confunde com o PPA (que é plano, não a LOA); **E** o princípio não deixa de existir por isso.",
+    "options": [
+      "não pode, em hipótese alguma, prever despesas além do exercício a que se refere.",
+      "deve conter obrigatoriamente todas as despesas dos quatro anos do PPA.",
+      "pode conter previsões de despesas para exercícios seguintes, com a especificação dos investimentos plurianuais.",
+      "está proibida de registrar investimentos cuja execução ultrapasse um exercício.",
+      "perde a natureza anual sempre que prevê investimentos plurianuais."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • ICMBio (Analista Administrativo) • 2025 • adaptada C/E→A–E^^\n\nSobre o recolhimento das receitas públicas e o princípio da unidade de tesouraria (unidade de caixa), assinale a correta:",
+    "back": "**Gabarito: D.** Pelo princípio da **unidade de tesouraria/caixa**, o recolhimento de **todas as receitas** observa a centralização em conta única do Tesouro, **vedada qualquer fragmentação** para criação de caixas especiais.\n\n> 📖 **Art. 56, Lei 4.320/64** — \"O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, **vedada qualquer fragmentação para criação de caixas especiais**.\"\n\nA assertiva original era **CERTA**.\n\n**Por que as demais erram:** **A** e **B** admitem caixas especiais/fragmentação (vedados); **C** restringe a centralização só a tributos; **E** atribui a regra ao Banco Central como obrigatório.",
+    "options": [
+      "Cada órgão pode manter caixa próprio para os recursos que arrecada.",
+      "É permitida a fragmentação do caixa quando houver fundo especial autorizado.",
+      "A centralização aplica-se apenas às receitas tributárias.",
+      "O recolhimento observa a unidade de tesouraria, vedada qualquer fragmentação para criar caixas especiais.",
+      "Todas as receitas devem ser depositadas obrigatoriamente no Banco Central."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nSobre o princípio da não vinculação da receita de impostos e a garantia de operações de crédito, assinale a correta:",
+    "back": "**Gabarito: C.** A CF permite que receita de impostos seja dada como **garantia às operações de crédito por antecipação de receita (ARO)**, mas **veda** essa garantia para as demais operações de crédito (inclusive com instituições privadas).\n\n> 📖 **Art. 167, IV, CF/88** — entre as ressalvas à não-vinculação está \"a prestação de **garantias às operações de crédito por antecipação de receita**\".\n\nA assertiva original era **CERTA**.\n\n**Por que as demais erram:** **A** e **B** liberam a garantia para operações de crédito comuns (vedado); **D** veda também a ARO (incorreto, pois ARO é exceção); **E** afirma vedação absoluta, ignorando a exceção da ARO.",
+    "options": [
+      "A receita de impostos pode garantir qualquer operação de crédito com instituições privadas.",
+      "A vinculação como garantia é livre para todas as operações de crédito.",
+      "A receita de impostos pode garantir operações de crédito por antecipação de receita (ARO), mas não as demais.",
+      "É vedada a garantia até mesmo para as operações de crédito por antecipação de receita.",
+      "A vinculação de impostos como garantia é absolutamente vedada, sem exceções."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nO dispositivo constitucional que reflete o princípio da exclusividade contém ressalva que autoriza a LOA a conter autorização prévia para:",
+    "back": "**Gabarito: C.** A **exclusividade** admite, como ressalva, que a LOA autorize **abertura de créditos suplementares** e a **contratação de operações de crédito, inclusive por ARO**.\n\n> 📖 **Art. 165, §8º, CF/88** — \"...não se incluindo na proibição a autorização para abertura de **créditos suplementares** e contratação de **operações de crédito**, ainda que por antecipação de receita, nos termos da lei.\"\n\nA assertiva original era **CERTA**.\n\n**Por que as demais erram:** **A** créditos especiais/extraordinários **não** são ressalva da exclusividade; **B** criação de cargos viola a exclusividade; **D** matéria penal é vedada; **E** instituição de fundos na LOA é vedada.",
+    "options": [
+      "abertura de créditos especiais e extraordinários.",
+      "criação de cargos públicos e fixação de remuneração.",
+      "abertura de créditos suplementares e contratação de operações de crédito, inclusive por antecipação de receita.",
+      "inclusão de normas de direito penal vinculadas ao orçamento.",
+      "instituição e regulamentação de fundos especiais."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nEm função do princípio da anualidade, é correto afirmar que a LOA:",
+    "back": "**Gabarito: B.** A anualidade não impede que a LOA preveja despesas que se projetem para exercícios seguintes (investimentos plurianuais).\n\n> 📖 **Art. 165, §14, CF/88** — a LOA poderá conter previsões de despesas para exercícios seguintes (investimentos plurianuais e em andamento).\n\nA assertiva original (\"não pode prever despesas que extrapolem o exercício\") era **ERRADA**.\n\n**Por que as demais erram:** **A**, **C** e **E** negam a possibilidade do §14; **D** confunde anualidade com vedação a restos a pagar (que são permitidos).",
+    "options": [
+      "não pode, sob nenhuma hipótese, prever despesas além do exercício.",
+      "pode conter previsões de despesas para exercícios seguintes (investimentos plurianuais).",
+      "deve cancelar qualquer investimento cuja execução ultrapasse o exercício.",
+      "proíbe a inscrição de despesas em restos a pagar.",
+      "perde a anualidade ao registrar despesas plurianuais."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • ANM (Analista Administrativo) • 2025 • adaptada C/E→A–E^^\n\nSobre a previsão constitucional do princípio da anualidade, assinale a correta:",
+    "back": "**Gabarito: B.** A anualidade está **implícita** no art. 165, §5º, e explícita no art. 2º da Lei 4.320/64. Cabe à **lei complementar** (não à lei ordinária) dispor sobre o **exercício financeiro**.\n\n> 📖 **Art. 165, §9º, I, CF/88** — \"Cabe à **lei complementar**: I - dispor sobre o exercício financeiro, a vigência, os prazos, a elaboração e a organização do PPA, da LDO e da LOA.\"\n\nA assertiva original errava ao atribuir essa competência à **lei ordinária** (logo, **ERRADA**).\n\n**Por que as demais erram:** **A** atribui à lei ordinária (incorreto); **C** nega a possibilidade de previsão plurianual do §14; **D** a anterioridade é princípio **tributário**; **E** o PPA não revoga a anualidade.",
+    "options": [
+      "Compete à lei ordinária dispor sobre o exercício financeiro e a vigência das leis orçamentárias.",
+      "Compete à lei complementar dispor sobre o exercício financeiro; a LOA pode prever despesas para exercícios seguintes.",
+      "A LOA jamais pode prever despesas para exercícios seguintes.",
+      "A anualidade orçamentária equivale ao princípio tributário da anterioridade.",
+      "A existência do PPA revoga o princípio da anualidade."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • ANM (Analista Administrativo) • 2025 • adaptada C/E→A–E^^\n\nAssinale a alternativa que reúne apenas princípios reconhecidos como fundamentos do sistema orçamentário brasileiro:",
+    "back": "**Gabarito: A.** **Universalidade, unidade, anualidade e transparência** são todos princípios reconhecidos (doutrinária e legalmente) do sistema orçamentário.\n\n> 📖 Universalidade/unidade/anualidade: **art. 2º, Lei 4.320/64**; transparência: **art. 48, LRF**.\n\nA assertiva original era **CERTA**.\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** incluem itens que **não** são princípios orçamentários (sigilo, vinculação de impostos como princípio, abrangência, profundidade de análise).",
+    "options": [
+      "Universalidade, unidade, anualidade e transparência.",
+      "Universalidade, sigilo, anualidade e transparência.",
+      "Vinculação de impostos, unidade, anualidade e clareza.",
+      "Abrangência, unidade, sigilo e legalidade.",
+      "Profundidade de análise, unidade, anualidade e publicidade."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • ANM (Especialista em Recursos Minerais) • 2025 • adaptada C/E→A–E^^\n\nSobre o princípio da anualidade orçamentária e o duodécimo, assinale a correta:",
+    "back": "**Gabarito: D.** A anualidade limita a vigência da LOA ao exercício financeiro. O **duodécimo** **não** autoriza execução sem limites temporais — é mecanismo **provisório** (1/12 por mês) para manter a máquina pública até a sanção da LOA, previsto anualmente pela **LDO**.\n\n> 📖 **Art. 165, §5º, CF/88** (LOA anual) + regra de execução provisória via LDO.\n\nA assertiva original (que dizia poder \"ultrapassar o exercício sem restrições com o duodécimo\") era **ERRADA**.\n\n**Por que as demais erram:** **A**, **B** e **C** afirmam que o duodécimo flexibiliza a anualidade ou elimina limites temporais; **E** confunde duodécimo com restos a pagar.",
+    "options": [
+      "O duodécimo permite execução orçamentária sem qualquer restrição temporal.",
+      "Com o duodécimo, receitas e despesas podem ultrapassar livremente o exercício.",
+      "O duodécimo flexibiliza a anualidade, eliminando a vigência anual da LOA.",
+      "O duodécimo é mecanismo provisório (1/12) que mantém serviços até a sanção da LOA, sem flexibilizar a anualidade.",
+      "O duodécimo equivale à inscrição de despesas em restos a pagar."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nA necessidade de classificar as despesas de acordo com os fins/objetivos e os respectivos meios decorre de qual princípio?",
+    "back": "**Gabarito: A.** Decorre do princípio da **programação**: o orçamento estrutura-se em **programas, ações e metas**, classificando a despesa por finalidade (função, programa) e meio (natureza da despesa), em compatibilidade com o PPA.\n\n> 📖 Orçamento-programa, conforme **Lei 4.320/64** e CF/88 (planejamento via PPA, LDO e LOA estruturados em programas/ações/metas).\n\nA assertiva original era **CERTA**.\n\n**Por que as demais erram:** **B** anualidade trata da vigência; **C** publicidade da divulgação; **D** não-afetação veda vincular impostos; **E** exclusividade veda matéria estranha.",
+    "options": [
+      "Princípio da programação.",
+      "Princípio da anualidade.",
+      "Princípio da publicidade.",
+      "Princípio da não-afetação.",
+      "Princípio da exclusividade."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nO projeto de lei orçamentária não foi votado até o encerramento do exercício anterior. Sobre isso, assinale a correta:",
+    "back": "**Gabarito: B.** O atraso na votação **não** caracteriza, por si só, violação à publicidade ou à transparência, pois o ordenamento prevê a **execução provisória** (duodécimos), regulada anualmente pela **LDO**, garantindo continuidade dos serviços.\n\n> 📖 Execução provisória prevista pela LDO; transparência e publicidade continuam observadas nos registros e relatórios fiscais (art. 48, LRF).\n\nA assertiva original (\"implica descumprimento da publicidade e transparência\") era **ERRADA**.\n\n**Por que as demais erram:** **A**, **C** e **E** atribuem violação de princípios ao mero atraso; **D** afirma que o atraso paralisa a Administração (a execução provisória evita isso).",
+    "options": [
+      "O atraso na votação configura, automaticamente, violação à publicidade e à transparência.",
+      "O atraso não viola, por si só, a publicidade/transparência, pois há execução provisória (duodécimos) prevista na LDO.",
+      "O atraso ofende o princípio da legalidade e invalida a LOA seguinte.",
+      "O atraso paralisa a Administração, por ausência de previsão de execução provisória.",
+      "O atraso viola o princípio da clareza orçamentária."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nSobre o princípio da unidade orçamentária, assinale a correta:",
+    "back": "**Gabarito: B.** Pela **unidade** (também chamada totalidade), o orçamento deve ser **uno** — todas as receitas e despesas reunidas em um único instrumento legal por ente, permitindo visão global. A CF admite **unidade formal** com pluralidade material (OF, OSS, OI), todos numa única LOA.\n\n> 📖 **Art. 2º, Lei 4.320/64** + **art. 165, §5º, CF/88**.\n\nA assertiva original era **CERTA**.\n\n**Por que as demais erram:** **A** a tripartição não fere a unidade; **C** confunde com universalidade (abrangência); **D** unidade não exige documento físico único hoje; **E** não há orçamento nacional único para todos os entes.",
+    "options": [
+      "A existência de três orçamentos (fiscal, seguridade, investimento) viola a unidade.",
+      "O orçamento deve ser uno, com todas as receitas e despesas em um único instrumento legal por ente.",
+      "A unidade significa conter todas as receitas e despesas, sem omissões (abrangência).",
+      "A unidade exige, atualmente, um único documento físico indivisível.",
+      "A unidade impõe um orçamento nacional único para todos os entes federados."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nEm razão do princípio da exclusividade, sobre a autorização para abertura de créditos suplementares na LOA, assinale a correta:",
+    "back": "**Gabarito: B.** A autorização para **abertura de créditos suplementares** é **ressalva expressa** ao princípio da exclusividade — pode constar na LOA sem violá-lo.\n\n> 📖 **Art. 165, §8º, CF/88** — a vedação a dispositivo estranho **não inclui** a autorização para créditos suplementares e operações de crédito.\n\nA assertiva original (que dizia ser \"vedada\" tal autorização) era **ERRADA**.\n\n**Por que as demais erram:** **A** e **D** afirmam ser vedada (incorreto); **C** estende a ressalva a créditos especiais/extraordinários (que não são ressalva); **E** confunde com matéria penal.",
+    "options": [
+      "É vedada, pois caracteriza dispositivo estranho à LOA.",
+      "É permitida, por ser ressalva expressa ao princípio da exclusividade.",
+      "É permitida também para créditos especiais e extraordinários, como ressalva da exclusividade.",
+      "É vedada em qualquer hipótese pela exclusividade.",
+      "Só seria permitida se acompanhada de norma penal correlata."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região (Analista Judiciário) • 2025 • adaptada C/E→A–E^^\n\nA exigência de que todas as receitas e despesas constem da LOA pelos seus totais, vedadas deduções, corresponde a qual princípio?",
+    "back": "**Gabarito: D.** A inclusão **pelos totais, vedadas quaisquer deduções**, é o princípio do **orçamento bruto** — e **não** o da universalidade (que trata da abrangência, do \"todas\").\n\n> 📖 **Art. 6º, Lei 4.320/64** — receitas e despesas pelos totais, vedadas deduções.\n\nA assertiva original (que atribuía isso à universalidade) era **ERRADA**.\n\n**Por que as demais erram:** **A** universalidade = abrangência; **B** unidade = orçamento uno; **C** especificação = detalhamento; **E** exclusividade = matéria estranha.",
+    "options": [
+      "Universalidade.",
+      "Unidade.",
+      "Especificação.",
+      "Orçamento bruto.",
+      "Exclusividade."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • PC-DF (Agente Administrativo) • 2025 • adaptada C/E→A–E^^\n\nSobre o princípio da universalidade, assinale a correta:",
+    "back": "**Gabarito: B.** A **universalidade** exige o registro **integral de receitas E despesas** na LOA — e não apenas das despesas.\n\n> 📖 **Art. 2º, Lei 4.320/64** + **art. 165, §5º, CF/88** — a LOA contém **todas** as receitas e **todas** as despesas dos Poderes, órgãos e entidades.\n\nA assertiva original (\"apenas as despesas\") era **ERRADA**.\n\n**Por que as demais erram:** **A** e **C** restringem o princípio só a despesas/receitas; **D** confunde com orçamento bruto; **E** confunde com exclusividade.",
+    "options": [
+      "Exige o registro apenas das despesas, para visão completa da execução.",
+      "Exige o registro integral de todas as receitas e de todas as despesas na LOA.",
+      "Limita-se a registrar apenas as receitas previstas no exercício.",
+      "Determina o registro pelos totais, sem deduções.",
+      "Veda a inclusão de matéria estranha à receita e à despesa."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^IBFC • IMBEL (Analista de Orçamento) • 2024^^\n\n\"______ não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e contratação de operações de crédito, ainda que por antecipação de receita, nos termos da lei.\" Assinale o que preenche a lacuna:",
+    "back": "**Gabarito: B.** O dispositivo é o **art. 165, §8º, da CF**, que se refere à **Lei Orçamentária Anual (LOA)** e consagra a **exclusividade** (princípio da pureza).\n\n> 📖 **Art. 165, §8º, CF/88** — \"A **lei orçamentária anual** não conterá dispositivo estranho à previsão da receita e à fixação da despesa...\"\n\n**Por que as demais erram:** **A** LDO trata de diretrizes/metas; **C** PPA é plano de médio prazo; **D** e **E** (Anexos de Riscos e de Metas Fiscais) são peças da LDO, não a lei que fixa receita e despesa.",
+    "options": [
+      "A Lei de Diretrizes Orçamentárias",
+      "A Lei Orçamentária Anual",
+      "O Plano Plurianual",
+      "O Anexo de Riscos Fiscais",
+      "O Anexo de Metas Fiscais"
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FGV • Pref. de São José dos Campos (Analista GM) • 2024^^\n\nAnalise: **I.** A unidade prescreve que o orçamento preveja todas as receitas e despesas, salvo a ARO. **II.** A exclusividade estabelece que o orçamento tenha autorização delimitada por período (ano civil). **III.** A não afetação determina que as receitas não podem ser comprometidas para gastos determinados, evitando rigidez. Está correto o que se afirma em:",
+    "back": "**Gabarito: C.** Apenas o item **III** está correto: a **não afetação** veda vincular receita de impostos a despesas específicas (evita engessamento), salvo exceções constitucionais.\n\n> 📖 **Art. 167, IV, CF/88.**\n\n**Por que I e II erram:**\n- **I)** descreve a **unidade** misturando a ARO como falsa \"exceção\" (a ARO é extraorçamentária; não é exceção à unidade);\n- **II)** descreve a **anualidade/periodicidade** (período/ano civil), e não a exclusividade.\n\nPor isso, **A**, **B**, **D** e **E** estão incorretas.",
+    "options": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • INPI (APGIPI - Contabilidade) • 2024 • adaptada C/E→A–E^^\n\nA afirmação \"a LOA de cada ente federado deverá conter todas as receitas e despesas de todos os poderes, órgãos, entidades, fundos e fundações\" refere-se a qual princípio?",
+    "back": "**Gabarito: A.** Conter **todas as receitas e despesas de todos os Poderes/órgãos/entidades** é a definição da **universalidade** — e **não** da unidade (que trata de orçamento uno por ente).\n\n> 📖 **Art. 2º, Lei 4.320/64** + **art. 165, §5º, CF/88.**\n\nA assertiva original (que atribuía isso à \"unidade ou totalidade\") era **ERRADA**, por confundir os dois princípios.\n\n**Por que as demais erram:** **B** unidade = um orçamento por ente; **C** orçamento bruto = pelos totais; **D** exclusividade = matéria estranha; **E** especificação = detalhamento.",
+    "options": [
+      "Universalidade.",
+      "Unidade ou totalidade.",
+      "Orçamento bruto.",
+      "Exclusividade.",
+      "Especificação."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^Instituto AOCP • MP-PR (Auditor) • 2024^^\n\nEm auditoria, constatou-se: (1) abertura de crédito suplementar sem autorização legislativa e sem indicação de recursos; (2) a LOA criou cargos em comissão; (3) a LOA vinculou receitas de impostos à Secretaria de Comunicação; (4) receitas do FPM registradas pelos valores líquidos (após dedução do FUNDEB); (5) o RREO deixou de ser publicado. Os princípios violados, respectivamente, são:",
+    "back": "**Gabarito: A.** Associando cada caso:\n\n| Caso | Princípio violado | Base |\n|---|---|---|\n| (1) crédito suplementar sem autorização/recursos | **Legalidade** | art. 43, Lei 4.320/64 |\n| (2) criação de cargos na LOA | **Exclusividade** | art. 165, §8º, CF |\n| (3) vinculação de impostos a órgão | **Não vinculação da receita de impostos** | art. 167, IV, CF |\n| (4) FPM pelo líquido | **Orçamento bruto** | art. 6º, Lei 4.320/64 |\n| (5) RREO não publicado | **Transparência** | art. 48, LRF |\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** trocam ao menos um princípio (ex.: chamam (1) de universalidade/equilíbrio, ou (4) de anualidade), quebrando a correspondência correta.",
+    "options": [
+      "legalidade; exclusividade; não vinculação da receita de impostos; orçamento bruto; transparência.",
+      "universalidade; unidade; exclusividade; não vinculação da receita de impostos; transparência.",
+      "legalidade; unidade; não vinculação da receita de impostos; orçamento bruto; transparência.",
+      "equilíbrio orçamentário; programação; exclusividade; não vinculação da receita de impostos; anualidade.",
+      "universalidade; exclusividade; unidade; equilíbrio orçamentário; programação."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^AOCP • TRF 2ª Região (Técnico Judiciário) • 2024^^\n\nConforme o art. 165, §8º, da CF, \"a lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa\". Esse dispositivo consagra o princípio da:",
+    "back": "**Gabarito: B.** O art. 165, §8º, da CF consagra a **exclusividade**, que limita a LOA à matéria orçamentária (evita o \"contrabando legislativo\").\n\n> 📖 **Art. 165, §8º, CF/88.**\n\n**Por que as demais erram:** **A** legalidade trata de arrecadação/despesa conforme a lei; **C** especialização exige detalhamento; **D** unidade trata de orçamento uno; **E** programação relaciona-se ao orçamento-programa.",
+    "options": [
+      "legalidade.",
+      "exclusividade.",
+      "especialização.",
+      "unidade.",
+      "programação."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CESGRANRIO • IPEA • 2024^^\n\nA identificação de projetos plurianuais de grande vulto no PPA e as restrições às programações genéricas (sem beneficiário definido), exigindo discriminar o local das ações, relaciona-se ao princípio do(a):",
+    "back": "**Gabarito: D.** Especificar o **local** das ações (investimentos) e restringir programações genéricas decorre do princípio da **regionalização**, ligado ao objetivo de reduzir desigualdades regionais.\n\n> 📖 **Art. 165, §7º, CF/88** (orçamentos compatibilizados com o PPA reduzem desigualdades inter-regionais) + **art. 3º, III, CF** (redução das desigualdades sociais e regionais). Fonte clássica: glossário da Câmara dos Deputados.\n\n**Por que as demais erram:** **A** orçamento bruto = valores totais; **B** realismo = estimativas exatas; **C** exclusividade = matéria estranha; **E** universalidade = abrangência total.",
+    "options": [
+      "Orçamento bruto",
+      "Realismo orçamentário",
+      "Exclusividade",
+      "Regionalização",
+      "Universalidade"
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • ISS Mossoró (AFTM) • 2024 • adaptada C/E→A–E^^\n\nSobre o princípio da unidade e a estrutura orçamentária brasileira, assinale a correta:",
+    "back": "**Gabarito: B.** A unidade determina que **cada ente** tenha um único orçamento — **não** que todos os entes sejam reunidos em um documento nacional único elaborado pela União. Cada ente (União, Estados, DF, Municípios) elabora e aprova **seu próprio** orçamento, em respeito à **autonomia federativa**.\n\n> 📖 **Art. 2º, Lei 4.320/64** + autonomia federativa (CF/88).\n\nA assertiva original (que consolidava todos os entes em documento da União) era **ERRADA**.\n\n**Por que as demais erram:** **A**, **C** e **E** afirmam consolidação nacional única; **D** confunde com universalidade.",
+    "options": [
+      "A unidade consolida os orçamentos de todos os entes em um único documento nacional editado pela União.",
+      "A unidade impõe um único orçamento a cada ente; cada um elabora e aprova o seu, em respeito à autonomia federativa.",
+      "Os orçamentos de Estados e Municípios integram, por unidade, a LOA da União.",
+      "A unidade exige que a LOA contenha todas as receitas e despesas de todos os entes.",
+      "A unidade obriga a fusão dos orçamentos federal, estaduais e municipais."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • CNMP (Apoio Jurídico) • 2023 • adaptada C/E→A–E^^\n\nNo orçamento da União, a estimativa total do imposto de renda deve ser registrada como receita e a parte destinada aos municípios deve ser registrada como:",
+    "back": "**Gabarito: A.** Pelo **orçamento bruto**, as cotas que um ente deve transferir a outro entram como **despesa** no orçamento de quem transfere e como **receita** no de quem recebe. Logo, a parcela do IR destinada aos municípios é **despesa** no orçamento da União.\n\n> 📖 **Art. 6º, §1º, Lei 4.320/64** — \"As cotas de receitas que uma entidade pública deva transferir a outra incluir-se-ão, como **despesa**, no orçamento da entidade obrigada à transferência e, como receita, no orçamento da que as deva receber.\"\n\nA assertiva original era **CERTA**.\n\n**Por que as demais erram:** **B** registrar pelo líquido viola o orçamento bruto; **C**, **D** e **E** negam o registro como despesa exigido pelo art. 6º, §1º.",
+    "options": [
+      "despesa, no orçamento da União (e como receita no do município).",
+      "dedução da receita, registrando-se o IR pelo líquido.",
+      "receita negativa no orçamento da União.",
+      "transferência extraorçamentária, fora do orçamento.",
+      "despesa apenas no orçamento do município beneficiado."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CEBRASPE • SEPLAN-RR (Planejamento e Orçamento) • 2023 • adaptada C/E→A–E^^\n\nA afirmação \"a LOA deverá conter todas as receitas e despesas de poderes, órgãos, entidades, fundos e fundações instituídos e mantidos pelo Poder Público\" corresponde a qual princípio?",
+    "back": "**Gabarito: B.** Conter **todas** as receitas e despesas de todos os entes públicos é a definição da **universalidade** — e não do orçamento bruto (que se refere ao registro **pelos totais, sem deduções**).\n\n> 📖 Universalidade: **art. 2º, Lei 4.320/64** + art. 165, §5º, CF. Orçamento bruto: **art. 6º, Lei 4.320/64**.\n\nA assertiva original (que chamava isso de \"orçamento bruto\") era **ERRADA**.\n\n**Por que as demais erram:** **A** orçamento bruto = pelos totais; **C** unidade = orçamento uno; **D** exclusividade = matéria estranha; **E** especificação = detalhamento.",
+    "options": [
+      "Orçamento bruto.",
+      "Universalidade.",
+      "Unidade.",
+      "Exclusividade.",
+      "Especificação."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FGV • TCE-ES • 2023^^\n\nA definição de que o projeto de LOA do exercício seguinte deve ser submetido ao Legislativo até quatro meses antes do encerramento do exercício corrente atende ao princípio da:",
+    "back": "**Gabarito: B.** A submissão do PLOA ao Legislativo (com prazo para análise e aprovação) atende ao princípio da **legalidade** orçamentária — a despesa só se realiza se prevista em lei aprovada pelo Parlamento.\n\n> 📖 **Arts. 165 e 166, CF/88** — o PLOA é apreciado pelas duas Casas do Congresso; prazos no **art. 35, §2º, ADCT**.\n\n**Por que as demais erram:** **A** anualidade = vigência anual; **C** transparência = ampla divulgação; **D** unidade = orçamento uno; **E** universalidade = abrangência.",
+    "options": [
+      "anualidade.",
+      "legalidade.",
+      "transparência.",
+      "unidade.",
+      "universalidade."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FGV • AGENERSA • 2023^^\n\nAssinale o princípio orçamentário que determina a existência de orçamento único para cada um dos entes federados, evitando orçamentos paralelos dentro da mesma pessoa política:",
+    "back": "**Gabarito: A.** É a **unidade** — orçamento único por ente federado (União, Estados, DF, Municípios), evitando peças paralelas.\n\n> 📖 **Art. 2º, Lei 4.320/64.**\n\n**Por que as demais erram:** **B** exclusividade = matéria estranha; **C** universalidade = abrangência; **D** orçamento bruto = pelos totais; **E** \"orçamento único\" não é nome de princípio autônomo (é apenas a descrição da unidade).",
+    "options": [
+      "Unidade.",
+      "Exclusividade.",
+      "Universalidade.",
+      "Orçamento bruto.",
+      "Orçamento único."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^FGV • CGM-RJ • 2023^^\n\nUm aluno sustentou que, havendo balanço do setor público nacional reunindo todos os entes, deveria existir um orçamento geral englobando todos os entes federativos. Esse raciocínio é refutado pelo princípio do(a):",
+    "back": "**Gabarito: E.** É a **unidade**: cada ente tem seu próprio orçamento (autonomia federativa). A existência de um **balanço** consolidado nacional (demonstração contábil) não impõe um \"orçamento geral\" da Federação.\n\n> 📖 **Art. 2º, Lei 4.320/64** + autonomia federativa.\n\n**Por que as demais erram:** **A** anualidade = vigência; **B** exclusividade = matéria estranha; **C** não vinculação = impostos; **D** orçamento bruto = pelos totais.",
+    "options": [
+      "anualidade.",
+      "exclusividade.",
+      "não vinculação.",
+      "orçamento bruto.",
+      "unidade."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • TCM-SP • 2023^^\n\nEm conformidade com a Lei 4.320/1964, assinale a alternativa que descreve fielmente o princípio orçamentário:",
+    "back": "**Gabarito: D.** A descrição fiel é a da alternativa **D**: a **unidade/totalidade** impõe a cada ente federado a apresentação de **orçamento individualizado** (único por ente).\n\n> 📖 **Art. 2º, Lei 4.320/64.**\n\n**Por que as demais erram:**\n- **A)** \"sem duplicidades\" descreve **unicidade** (contábil), não orçamento bruto;\n- **B)** a não afetação veda vincular **impostos** (não \"atividade econômica\");\n- **C)** exclusividade não trata de \"autorizações financeiras\";\n- **E)** descrição de universalidade está distorcida.",
+    "options": [
+      "Orçamento bruto: determina que os valores devem ser apresentados sem duplicidades.",
+      "Não afetação das receitas: veda a vinculação de arrecadação à determinada atividade econômica.",
+      "Exclusividade: estabelece que os valores do orçamento representam autorizações financeiras.",
+      "Unidade: impõe a cada ente federado a apresentação de orçamento individualizado.",
+      "Universalidade: condiciona os fundos, as movimentações de valores e a tributação ao exercício."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Pref. de Guarulhos • 2023^^\n\nSegundo o art. 34 da Lei 4.320/1964, o exercício financeiro coincidirá com o ano civil. Trata-se do princípio orçamentário intitulado:",
+    "back": "**Gabarito: A.** A coincidência entre exercício financeiro e ano civil é o princípio da **anualidade** (ou periodicidade).\n\n> 📖 **Art. 34, Lei 4.320/64** — \"O exercício financeiro coincidirá com o ano civil.\" + art. 2º (anualidade).\n\n**Por que as demais erram:** **B** universalidade = abrangência; **C** \"temporalidade\" não é o nome do princípio; **D** totalidade = orçamento uno; **E** exclusividade = matéria estranha.",
+    "options": [
+      "anualidade.",
+      "universalidade.",
+      "temporalidade.",
+      "totalidade.",
+      "exclusividade."
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • CAMPREV • 2023^^\n\nSegundo o princípio orçamentário da Universalidade, o orçamento:",
+    "back": "**Gabarito: C.** Pela **universalidade**, o orçamento deverá conter ==todas as receitas e todas as despesas==.\n\n> 📖 **Art. 2º, Lei 4.320/64** + art. 165, §5º, CF.\n\n**Por que as demais erram:** **A** descreve o **orçamento bruto** (valores brutos, sem deduções); **B** descreve a **especificação/discriminação**; **D** descreve a **anualidade**; **E** descreve a **unidade**.",
+    "options": [
+      "deve ter todas as parcelas da receita e da despesa em seus valores brutos, sem qualquer dedução.",
+      "deve ter as receitas e despesas aparecendo de forma discriminada.",
+      "deverá conter todas as receitas e todas as despesas.",
+      "deve ser elaborado e autorizado para um determinado período, geralmente um ano.",
+      "deve ser único, havendo apenas um orçamento para cada ente federativo."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CESGRANRIO • UNIRIO (Técnico em Contabilidade) • 2019^^\n\nSob a ótica do MCASP, o Princípio Orçamentário que veda quaisquer deduções das receitas e das despesas na LOA é o Princípio do(a):",
+    "back": "**Gabarito: A.** Vedar **deduções** e exigir o registro **pelos totais** é o princípio do **orçamento bruto**.\n\n> 📖 **Art. 6º, Lei 4.320/64** — \"Todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções.\"\n\nTanto a universalidade quanto o orçamento bruto contêm \"todas as receitas e despesas\"; a diferença é que **apenas o orçamento bruto** traz a expressão **\"pelos seus totais\"**.\n\n**Por que as demais erram:** **B** exclusividade = matéria estranha; **C** publicidade = divulgação oficial; **D** transparência = ampla divulgação (LRF); **E** unidade/totalidade = orçamento uno.",
+    "options": [
+      "Orçamento bruto",
+      "Exclusividade",
+      "Publicidade",
+      "Transparência",
+      "Unidade ou totalidade"
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^CESGRANRIO • UNIRIO (Administrador) • 2019^^\n\nA não inclusão do montante efetivamente estimado da arrecadação de receitas no orçamento afeta a programação das despesas e contraria o princípio orçamentário da(o):",
+    "back": "**Gabarito: A.** Deixar de incluir o **montante estimado** das receitas viola a **universalidade**, que exige que o orçamento contenha **todas** as receitas e despesas.\n\n> 📖 **Art. 2º, Lei 4.320/64** + art. 165, §5º, CF. Giacomoni: a universalidade permite ao Legislativo conhecer *a priori* todas as receitas e despesas.\n\n**Por que as demais erram:** **B** exclusividade = matéria estranha; **C** discriminação = detalhamento; **D** unidade = orçamento uno; **E** orçamento bruto = pelos totais, sem deduções (aqui o problema é a **omissão** da receita, não a dedução).",
+    "options": [
+      "Universalidade",
+      "Exclusividade",
+      "Discriminação",
+      "Unidade",
+      "Orçamento bruto"
+    ],
+    "correctOption": "A",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • UNIFAI (Controlador Interno) • 2019^^\n\nDurante a tramitação da LOA, deputado propõe e aprova emenda inserindo artigo que veda a comercialização de alimentos processados nas escolas estaduais. A introdução desse artigo na LOA afronta o princípio orçamentário:",
+    "back": "**Gabarito: B.** Inserir na LOA matéria **estranha** à previsão de receita e fixação de despesa (norma sobre alimentos em escolas) afronta a **exclusividade**.\n\n> 📖 **Art. 165, §8º, CF/88** — a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa.\n\n**Por que as demais erram:** **A** orçamento bruto = pelos totais; **C** totalidade = orçamento uno; **D** universalidade = abrangência; **E** unidade = um orçamento por ente.",
+    "options": [
+      "do orçamento bruto.",
+      "da exclusividade.",
+      "da totalidade.",
+      "da universalidade.",
+      "da unidade."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Pref. de São José do Rio Preto (Procurador) • 2019^^\n\nO princípio constitucional do orçamento que estabelece que a receita não pode ter vinculações que reduzam a liberdade do gestor e engessem o planejamento, aplicando-se somente às receitas de impostos, denomina-se princípio:",
+    "back": "**Gabarito: B.** É a **não afetação das receitas** (não-vinculação), que veda comprometer receita de **impostos** com gastos determinados, salvo exceções constitucionais, para preservar a flexibilidade do planejamento.\n\n> 📖 **Art. 167, IV, CF/88.**\n\n**Por que as demais erram:** **A** orçamento bruto = pelos totais; **C** equilíbrio = receita×despesa; **D** \"objetividade\" não é o princípio descrito; **E** exatidão = estimativas realistas.",
+    "options": [
+      "do orçamento bruto.",
+      "da não afetação das receitas.",
+      "do equilíbrio.",
+      "da objetividade.",
+      "da exatidão."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • UNIFAI (Encarregado de Licitações) • 2019^^\n\n\"Estipulado pelo art. 2º da Lei 4.320/1964, delimita o exercício financeiro orçamentário: período de tempo ao qual a previsão das receitas e a fixação das despesas registradas na LOA irão se referir.\" O texto remete ao princípio da:",
+    "back": "**Gabarito: C.** Delimitar o **exercício financeiro** (período de um ano) é a **anualidade ou periodicidade**.\n\n> 📖 **Art. 2º e art. 34, Lei 4.320/64** — exercício financeiro coincide com o ano civil.\n\n**Por que as demais erram:** **A** unidade/totalidade = orçamento uno; **B** universalidade = abrangência; **D** exclusividade = matéria estranha; **E** legalidade = exigência de lei.",
+    "options": [
+      "unidade ou totalidade.",
+      "universalidade.",
+      "anualidade ou periodicidade.",
+      "exclusividade.",
+      "legalidade."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Pref. de Campinas (Auditor de Controle Interno) • 2019^^\n\nConsidere que uma proposta de lei orçamentária defina em seu texto as normas para privatização de empresas do governo. Assinale a alternativa correta:",
+    "back": "**Gabarito: E.** Definir **normas de privatização** na LOA insere matéria estranha à receita e à despesa, em desacordo com o princípio da **exclusividade**.\n\n> 📖 **Art. 165, §8º, CF/88.**\n\n**Por que as demais erram:** **A** afirma falsamente não ferir princípio; **B** e **D** trazem juízos econômicos/PPA irrelevantes; **C** confunde com anualidade (a vedação não é por causa do prazo de definição, mas pelo conteúdo estranho).",
+    "options": [
+      "Não fere nenhum princípio, pois diz respeito a processos para obtenção de receitas.",
+      "Seria antieconômica a longo prazo, por desfazer-se do patrimônio público.",
+      "Fere o princípio da anualidade, pois a arrecadação deveria ser definida no ano anterior.",
+      "Deveria estar de acordo com o Plano Plurianual do próximo executivo.",
+      "Estaria em desacordo com o princípio da exclusividade."
+    ],
+    "correctOption": "E",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • UNICAMP (Profissional de Assuntos Administrativos) • 2019^^\n\nAssinale o princípio que **NÃO** está corretamente definido:",
+    "back": "**Gabarito: C.** A definição **incorreta** é a da **anualidade/periodicidade**: ela estabelece que o orçamento é elaborado e autorizado para o período de **um ano** — e não que \"a cada ano serão revistas as metas e programas **com base na lei orçamentária do ano anterior**\".\n\n> 📖 **Art. 2º e 34, Lei 4.320/64.**\n\n**Por que as demais estão corretas:** **A** orçamento bruto (valor bruto, sem deduções); **B** exclusividade (sem matéria estranha, salvo créditos suplementares e operações de crédito); **D** não afetação (evitar que receitas atendam exclusivamente a certas despesas); **E** unidade/totalidade (um único documento legal por ente).",
+    "options": [
+      "Orçamento bruto: valores no total, sem deduções (valor bruto).",
+      "Exclusividade: a LOA não conterá matéria estranha à receita e à despesa, salvo créditos suplementares e operações de crédito.",
+      "Anualidade: a cada ano as metas e programas são revistos com base na lei orçamentária do ano anterior.",
+      "Não vinculação: evita que determinadas receitas atendam exclusivamente a determinadas despesas.",
+      "Unidade ou totalidade: haverá um único orçamento, integrando um único documento legal."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Câmara de Campo Limpo Paulista (Controlador Interno) • 2018^^\n\nEm consonância com a Lei 4.320/64, a lei que conterá a discriminação da receita e despesa de forma a evidenciar a política econômico-financeira e o programa de trabalho do governo, obedecidos os princípios de unidade, universalidade e anualidade, é a:",
+    "back": "**Gabarito: D.** É a **Lei do Orçamento** (LOA), conforme o caput do art. 2º da Lei 4.320/64.\n\n> 📖 **Art. 2º, Lei 4.320/64** — \"A **Lei do Orçamento** conterá a discriminação da receita e despesa de forma a evidenciar a política econômica financeira e o programa de trabalho do Governo, obedecidos os princípios de unidade, universalidade e anualidade.\"\n\n**Por que as demais erram:** **A** LDO trata de diretrizes/metas; **B** e **C** (\"Lei de Execução\"/\"Orçamentária Plurianual\") não existem como tal; **E** LRF é norma de gestão fiscal, não a lei do orçamento.",
+    "options": [
+      "LDO – Lei de Diretrizes Orçamentárias.",
+      "Lei de Execução Orçamentária.",
+      "Lei Orçamentária Plurianual.",
+      "Lei do Orçamento.",
+      "Lei de Responsabilidade Fiscal."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Câmara de São José dos Campos (Analista - Contador) • 2018^^\n\nSão princípios utilizados para a elaboração do Orçamento Público:",
+    "back": "**Gabarito: B.** O art. 2º da Lei 4.320/64 enumera expressamente **unidade, universalidade e anualidade**.\n\n> 📖 **Art. 2º, Lei 4.320/64.**\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** incluem termos que **não** constam do rol do art. 2º (relevância, representação fidedigna, competência, prudência) — alguns são princípios **contábeis**, não orçamentários do dispositivo.",
+    "options": [
+      "unidade, relevância e representação fidedigna.",
+      "unidade, universalidade e anualidade.",
+      "legalidade, exclusividade e relevância.",
+      "legalidade, competência e orçamento bruto.",
+      "legalidade, exclusividade e prudência."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • PAULIPREV / Pref. de Paulínia (Contador) • 2018^^\n\nO princípio que determina a preparação de um único orçamento para cada ente da federação, evitando múltiplos orçamentos paralelos dentro da mesma pessoa política, é o da:",
+    "back": "**Gabarito: C.** É a **unidade ou totalidade** — um único orçamento por ente, evitando peças paralelas.\n\n> 📖 **Art. 2º, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** universalidade = abrangência (todas as receitas/despesas); **B** legalidade = exigência de lei; **D** \"localidade\" e **E** \"tempestividade\" não são os princípios descritos.",
+    "options": [
+      "universalidade.",
+      "legalidade.",
+      "unidade ou totalidade.",
+      "localidade.",
+      "tempestividade."
+    ],
+    "correctOption": "C",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Câmara de Itaquaquecetuba (Procurador) • 2018^^\n\nO orçamento anual deve compreender obrigatoriamente as despesas e receitas relativas a todos os Poderes, órgãos e fundos, tanto da Administração direta quanto da indireta. O princípio que norteia esse dever é o da:",
+    "back": "**Gabarito: D.** Conter as receitas e despesas de **todos** os Poderes, órgãos e fundos (direta e indireta) é a **universalidade**.\n\n> 📖 **Art. 2º, Lei 4.320/64** + art. 165, §5º, CF.\n\n**Por que as demais erram:** **A** discriminação = detalhamento; **B** \"anuidade\" remete à anualidade (vigência, não abrangência); **C** unidade = orçamento uno; **E** exatidão = estimativas realistas.",
+    "options": [
+      "discriminação.",
+      "anuidade.",
+      "unidade.",
+      "universalidade.",
+      "exatidão."
+    ],
+    "correctOption": "D",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Pref. de São Bernardo do Campo (Procurador) • 2018^^\n\nA LOA deve assegurar que o valor da despesa fixada não seja superior ao valor da receita prevista, em obediência ao princípio orçamentário:",
+    "back": "**Gabarito: B.** Assegurar que a **despesa fixada não supere a receita prevista** é o princípio do **equilíbrio** orçamentário.\n\n> 📖 **Art. 4º, I, \"a\", LRF** — a LDO disporá sobre o equilíbrio entre receitas e despesas. Relaciona-se à **regra de ouro** (art. 167, III, CF).\n\n**Por que as demais erram:** **A** \"não estorno\" = proibição do estorno (transposição sem autorização); **C** universalidade = abrangência; **D** clareza = linguagem compreensível; **E** unidade = orçamento uno.",
+    "options": [
+      "do não estorno.",
+      "do equilíbrio.",
+      "da universalidade.",
+      "da clareza.",
+      "da unidade."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  },
+  {
+    "front": "^^VUNESP • Pref. de Sertãozinho (Analista de Orçamento) • 2018^^\n\nA obrigatoriedade legal do registro de todas as receitas e despesas na LOA pelo valor total, vedadas quaisquer deduções, é característica do princípio:",
+    "back": "**Gabarito: B.** Registrar **pelo valor total, vedadas deduções**, é o **orçamento bruto**.\n\n> 📖 **Art. 6º, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** anualidade = vigência anual; **C** unidade = orçamento uno; **D** exclusividade = matéria estranha; **E** legalidade = exigência de lei.",
+    "options": [
+      "da Anualidade.",
+      "do Orçamento Bruto.",
+      "da Unidade.",
+      "da Exclusividade.",
+      "da Legalidade."
+    ],
+    "correctOption": "B",
+    "topicName": "Princípios Orçamentários"
+  }
+]
