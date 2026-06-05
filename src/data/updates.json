@@ -134,5 +134,53 @@
     ],
     "commit": "f9d0fcd",
     "status": "applied"
+  },
+  {
+    "id": "1f3a9c84-2b1e-4e9d-9c7a-5a0d2e6b1c01",
+    "date": "2026-06-05T00:00:00.000Z",
+    "category": "bug",
+    "title": "Corrigir colSpan da linha vazia no CardBrowser",
+    "description": "A tabela de flashcards tem 7 colunas (seleção, frente, matéria, status, próxima revisão, inclusão e ações), mas a célula do estado \"Nenhum card encontrado\" usava colSpan=6. Isso deixava a mensagem desalinhada e uma coluna sem cobertura. Ajustado para colSpan=7, alinhando corretamente o estado vazio.",
+    "files": [
+      "src/components/CardBrowser.tsx"
+    ],
+    "commit": "026783a",
+    "status": "applied"
+  },
+  {
+    "id": "2c4b8d15-7e3f-4a2c-8b6d-9f1a3c7e2d02",
+    "date": "2026-06-05T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Semântica de diálogo no modal de alerta global",
+    "description": "O modal de alerta/aviso global (usado em mensagens como \"Importação concluída\" e \"Base limpa\") não expunha semântica de diálogo para leitores de tela. Foram adicionados role=\"alertdialog\", aria-modal=\"true\" e aria-labelledby apontando para o título, seguindo o mesmo padrão já usado no modal \"Relatar Problema\". Assim o conteúdo passa a ser anunciado como diálogo modal e o título é lido ao abrir.",
+    "files": [
+      "src/App.tsx"
+    ],
+    "commit": "f70e3ea",
+    "status": "applied"
+  },
+  {
+    "id": "3d5c9e26-8f4a-4b3d-9c7e-0a2b4d8f3e03",
+    "date": "2026-06-05T00:00:00.000Z",
+    "category": "tests",
+    "title": "Testes para getUserSettings/saveUserSettings",
+    "description": "Adicionados testes unitários para as configurações do usuário (newPerDay/reviewsPerDay), cobrindo valores padrão, mescla de valores parciais com os padrões, uso integral de valores salvos, fallback seguro quando o JSON do localStorage está corrompido e a persistência via saveUserSettings. Aumenta a cobertura de uma parte da lógica que ainda não tinha testes.",
+    "files": [
+      "src/lib/settings.test.ts"
+    ],
+    "commit": "bf42511",
+    "status": "applied"
+  },
+  {
+    "id": "4e6da037-9a5b-4c4e-8d7f-1b3c5e9a4f04",
+    "date": "2026-06-05T00:00:00.000Z",
+    "category": "perf",
+    "title": "Code-splitting de dependências pesadas no build",
+    "description": "O bundle de produção era um único arquivo de ~1,48 MB. Foi configurado manualChunks no Vite para isolar firebase, recharts e react-markdown/remark-gfm em chunks próprios. O chunk principal do app caiu de ~1,48 MB para ~393 kB, acelerando o primeiro carregamento (download em paralelo) e melhorando o cache: atualizar o código do app não invalida mais os chunks das bibliotecas.",
+    "files": [
+      "vite.config.ts"
+    ],
+    "commit": "8cb73d8",
+    "status": "applied"
   }
 ]
