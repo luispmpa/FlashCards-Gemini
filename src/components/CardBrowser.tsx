@@ -323,7 +323,7 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                            )
                        }) : (
                            <tr>
-                               <td colSpan={6} className="px-6 py-12 text-center text-slate-500">Nenhum card encontrado.</td>
+                               <td colSpan={7} className="px-6 py-12 text-center text-slate-500">Nenhum card encontrado.</td>
                            </tr>
                        )}
                    </tbody>
