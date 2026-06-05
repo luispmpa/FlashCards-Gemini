@@ -351,9 +351,14 @@ export default function App() {
 
          {alertInfo.isOpen && (
              <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[999] backdrop-blur-sm">
-                 <div className="bg-white rounded-2xl max-w-sm w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+                 <div
+                     role="alertdialog"
+                     aria-modal="true"
+                     aria-labelledby="app-alert-title"
+                     className="bg-white rounded-2xl max-w-sm w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+                 >
                      <div className="p-6 text-center whitespace-pre-wrap">
-                         <h3 className="text-lg font-bold text-slate-900 mb-2">{alertInfo.title || "Atenção"}</h3>
+                         <h3 id="app-alert-title" className="text-lg font-bold text-slate-900 mb-2">{alertInfo.title || "Atenção"}</h3>
                          <p className="text-sm text-slate-600 mb-6">{alertInfo.message}</p>
                          <button 
                              onClick={() => setAlertInfo({isOpen: false, message: ""})}
