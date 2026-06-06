@@ -1,0 +1,1731 @@
+[
+  {
+    "front": "^^FCC • TRT 18ª Região • 2023 • Analista Judiciário (Contabilidade)^^\n\nConsidere que a Administração tenha se defrontado com situação de calamidade pública e necessite arcar com despesas em ações emergenciais que não contam com dotação orçamentária específica. Para cobertura de tais despesas, é cabível:",
+    "back": "**Gabarito: D.** A situação reúne **urgência + imprevisibilidade + calamidade pública**: é o cenário típico do **crédito extraordinário** (art. 41, III, da Lei 4.320/64 c/c art. 167, §3º, da CF). Por sua natureza emergencial, ele **independe de prévia autorização legislativa** e a **indicação da fonte de recursos é facultativa** — exatamente o oposto dos suplementares e especiais.\n\n> 📖 **Art. 167, §3º, CF/88** — \"A abertura de crédito extraordinário somente será admitida para atender a despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública, observado o disposto no art. 62.\"\n\n**Por que as demais erram:** **A** o suplementar não serve a despesa sem dotação (é reforço) e o extraordinário não exige autorização prévia nem fonte; **B** \"fundo de compensação com recomposição em 90 dias\" não existe na lei; **C** não existe \"crédito especial por decreto ratificado por lei\" — o especial é autorizado por lei e aberto por decreto; **E** não se realiza despesa sem dotação, e a hipótese é de crédito extraordinário, não de Anexo de Riscos Fiscais.",
+    "options": [
+      "abertura de crédito suplementar ou extraordinário, ambos com prévia autorização legislativa, sendo que somente o segundo demanda a indicação de fonte de custeio.",
+      "utilização do fundo de compensação para remanejamentos previsto na LOA, desde que providenciada a sua recomposição em até 90 dias.",
+      "abertura de crédito especial adicional, por Decreto do Chefe do Executivo, ratificado por lei específica que deve ser editada no mesmo exercício financeiro.",
+      "abertura de crédito extraordinário, que prescinde de autorização legislativa e de indicação de fonte de receita.",
+      "realização da despesa sem prévia dotação orçamentária, desde que o evento esteja previsto no Anexo de Riscos Fiscais que acompanha a LDO."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TRT 18ª Região • 2023 • Analista Judiciário (Sem Especialidade)^^\n\nDe acordo com a Lei nº 4.320/1964, a abertura de crédito adicional:",
+    "back": "**Gabarito: E.** O **crédito extraordinário** é aberto por **decreto** do Poder Executivo (ou medida provisória, na União), dando-se **imediato conhecimento ao Poder Legislativo** — não depende de autorização prévia nem de indicação de fonte.\n\n> 📖 **Art. 44, Lei 4.320/64** — \"Os créditos extraordinários serão abertos por decreto do Poder Executivo, que deles dará imediato conhecimento ao Poder Legislativo.\"\n\n**Atenção à pegadinha das fontes:** a fonte \"superávit financeiro\" é apurada no **Balanço Patrimonial** do **exercício anterior** (art. 43, §1º, I e §2º), e não em \"balanço financeiro\".\n\n**Por que as demais erram:** **A** e **B** trocam Balanço Patrimonial por \"balanço financeiro\" (e \"mês de dezembro\"); **C** dotação insuficiente resolve-se com crédito **suplementar**, não especial; **D** o extraordinário **não** depende de recursos disponíveis.",
+    "options": [
+      "especial em 11/01/2023 pode utilizar como recurso, desde que não comprometido, o superávit financeiro apurado em balanço financeiro do ano de 2022.",
+      "suplementar em 11/01/2023 pode utilizar como recurso o superávit financeiro apurado em balanço financeiro do mês de dezembro de 2022.",
+      "especial deve ser efetuada quando a dotação orçamentária para aquisição de material de consumo fixada na LOA resultar insuficiente.",
+      "extraordinário depende da existência de recursos disponíveis para ocorrer a despesa, como aqueles provenientes do resultado financeiro positivo.",
+      "extraordinário deve ser feita por decreto do Poder Executivo, que dele dará imediato conhecimento ao Poder Legislativo."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • PGE-AM • 2022 • Técnico em Gestão Pública (Administração)^^\n\nPodem funcionar como fonte para créditos adicionais suplementares, EXCETO:",
+    "back": "**Gabarito: B.** As fontes legais para abertura de créditos adicionais são **taxativas** no art. 43, §1º, da Lei 4.320/64 (superávit financeiro, excesso de arrecadação, anulação de dotações e operações de crédito), acrescidas da reserva de contingência (DL 200/67 e LRF) e dos recursos de veto/emenda/rejeição (art. 166, §8º, CF). **\"Erros ou omissões na Lei Orçamentária\" NÃO consta** em nenhum desses dispositivos como fonte.\n\n> 📖 **Art. 43, §1º, Lei 4.320/64** — \"Consideram-se recursos para o fim deste artigo, desde que não comprometidos: I - superávit financeiro... II - excesso de arrecadação; III - anulação parcial ou total de dotações...; IV - produto de operações de crédito autorizadas.\"\n\n**Por que as demais são fontes válidas:** **A** superávit financeiro (inciso I); **C** a tendência integra o cálculo do excesso de arrecadação (§3º); **D** anulação de dotação não empenhada (inciso III); **E** operações de crédito autorizadas (inciso IV).",
+    "options": [
+      "o superávit financeiro do exercício anterior.",
+      "os erros ou omissões na Lei Orçamentária.",
+      "a tendência.",
+      "a anulação total ou parcial de outra dotação orçamentária ainda não empenhada.",
+      "as operações de crédito, desde que respeitadas as vedações constitucionais e legais."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TRT 23ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nAumento expressivo do montante demandado para pagamento de obrigações de pequeno valor (não sujeitas a precatórios), em decorrência de evento indicado no Anexo de Riscos Fiscais que acompanhou a LDO, com dotação insuficiente. Constitui alternativa possível:",
+    "back": "**Gabarito: A.** A **reserva de contingência** é dotação destinada ao atendimento de **passivos contingentes e outros riscos e eventos fiscais imprevistos**; seu montante e forma de utilização — com base na **receita corrente líquida** — são definidos na **LDO** (art. 5º, III, da LRF). Ela pode servir de fonte para créditos adicionais.\n\n> 📖 **Art. 5º, III, LRF (LC 101/2000)** — a LOA conterá reserva de contingência, definida com base na RCL, destinada ao atendimento de passivos contingentes e outros riscos e eventos fiscais imprevistos.\n\n**Por que as demais erram:** **B** crédito extraordinário não exige indicação de fonte; **C** não há \"crédito especial por decreto dispensando autorização\"; **D** remanejamento com cancelamento de obrigatórias não é o instrumento; **E** não existe \"crédito especial suplementar\" com limite de 1/12.",
+    "options": [
+      "a utilização da reserva de contingência, que corresponde a percentual da receita corrente líquida, cujo montante e forma de utilização são estabelecidos na LDO.",
+      "a abertura de créditos extraordinários, que depende de autorização legal específica porém prescinde da indicação da fonte de receita.",
+      "a edição de decreto para abertura de crédito especial, prescindindo de autorização legal caso haja excesso de arrecadação.",
+      "o remanejamento de outras programações, com cancelamento de despesas de custeio ou de capital, salvo as obrigatórias e serviço da dívida.",
+      "o cancelamento de empenhos e a geração de crédito especial suplementar, observado o limite máximo de 1/12 das dotações da LOA."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TRT 5ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nConsiderando o art. 43 da Lei 4.320/64 e o art. 167, V, da CF, sobre as fontes de créditos adicionais, é correto afirmar:",
+    "back": "**Gabarito: E.** Além das **quatro fontes** do art. 43, §1º, da Lei 4.320/64 (superávit financeiro, excesso de arrecadação, anulação de dotações e operações de crédito), há **duas fontes adicionais**: os recursos de **veto, emenda ou rejeição** do PLOA (art. 166, §8º, CF) e a **reserva de contingência** (DL 200/67, art. 91, e art. 5º, III, da LRF).\n\n> 📖 **Art. 166, §8º, CF/88** — recursos que, em decorrência de veto, emenda ou rejeição do PLOA, ficarem sem despesas correspondentes poderão ser utilizados mediante créditos especiais ou suplementares, com prévia e específica autorização legislativa.\n\n**Por que as demais erram:** **A** e **D** afirmam ser rol exaustivo sem as fontes da CF/LRF; **B** a reserva de contingência **está** regulada em lei (DL 200/67 e LRF); **C** \"vetos/rejeições\" estão na CF, não são mera praxe não regulada.",
+    "options": [
+      "A relação do §1º do art. 43 é exaustiva, não havendo que se falar em outras fontes.",
+      "A relação do §1º pretende ser exaustiva, mas, a despeito de não estar regulada em lei, tornou-se praxe o uso da reserva de contingência.",
+      "A relação do §1º pretende ser exaustiva, mas, a despeito de não estar regulada em lei, tornou-se praxe a utilização de vetos ou rejeições.",
+      "A relação do §1º é exaustiva, mas atualmente só é empregada na abertura de créditos extraordinários.",
+      "À relação do §1º somam-se os vetos e rejeições, regulados pela CF, e a reserva de contingência, regulada pela LRF."
+    ],
+    "correctOption": "E",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TRT 4ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nEm 2020, um ente público constatou a necessidade de abrir créditos para a compra urgente de materiais em decorrência de uma pandemia imprevista. Para a abertura, de acordo com a Lei 4.320/1964, o ente deve ter:",
+    "back": "**Gabarito: D.** Pandemia imprevista = despesa **urgente e imprevisível** → **crédito extraordinário**, que é **aberto por decreto** do Poder Executivo (ou MP na União), com **imediato conhecimento ao Poder Legislativo**, **sem** autorização prévia e **sem** necessidade de indicar fonte.\n\n> 📖 **Art. 44, Lei 4.320/64** — os créditos extraordinários serão abertos por decreto do Executivo, que deles dará imediato conhecimento ao Legislativo.\n\n**Por que as demais erram:** **A** e **B** falam em indicar recursos (facultativo no extraordinário) e citam balanço errado; **C** não há autorização legislativa prévia; **E** não existe \"crédito extraorçamentário\" — o correto é crédito extraordinário.",
+    "options": [
+      "indicado os recursos; sendo o superávit apurado em Balanço Patrimonial de 2019 uma possível fonte.",
+      "indicado os recursos; sendo o superávit apurado em Balanço Financeiro de 2019 uma possível fonte.",
+      "obtido a prévia autorização legislativa e efetuado a abertura por decreto do poder executivo.",
+      "efetuado a abertura por decreto do poder executivo e dado imediato conhecimento ao poder legislativo.",
+      "utilizado o crédito do tipo extraorçamentário."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • DETRAN-AP • 2022 • Analista (Gestão em Trânsito)^^\n\nA doutrina tem condenado o que considera banalização ou utilização exagerada de créditos adicionais, pois:",
+    "back": "**Gabarito: D.** Quando a LOA autoriza **grande percentual** para créditos **suplementares**, o Legislativo, na prática, **renuncia à aprovação da proposta orçamentária**, que acaba assumindo sua forma essencial apenas no momento da própria execução — fragilizando o controle legislativo e o planejamento. A crítica doutrinária recai sobre os **suplementares** (que têm autorização genérica na LOA), não sobre especiais/extraordinários.\n\n**Conceito-chave:** {blue:o crédito suplementar é exceção ao princípio da exclusividade} — a LOA pode conter autorização para sua abertura (art. 165, §8º, CF). Excesso dessa autorização esvazia o papel deliberativo do Parlamento.\n\n**Por que as demais erram:** **A**/**C** falam em \"especiais\" (que exigem lei específica, não autorização genérica na LOA); **E** \"extraordinários\" não são autorizados na LOA; **B** fala em \"pequeno percentual\", o que não banalizaria.",
+    "options": [
+      "ao constar pequeno percentual para créditos especiais na LOA, o Legislativo renuncia à elaboração da proposta orçamentária.",
+      "ao constar pequeno percentual para créditos suplementares na LOA, o Legislativo renuncia à elaboração da proposta orçamentária.",
+      "ao constar grande percentual para créditos especiais na LOA, o Legislativo renuncia à aprovação da proposta orçamentária.",
+      "ao constar grande percentual para créditos suplementares na LOA, o Legislativo renuncia à aprovação da proposta orçamentária.",
+      "ao constar grande percentual para créditos extraordinários na LOA, o Legislativo renuncia à aprovação da proposta orçamentária."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FCC • TRT 23ª Região • 2022 • Analista Judiciário (Sem Especialidade)^^\n\nDe acordo com a Lei nº 4.320/1964, o crédito adicional do tipo:",
+    "back": "**Gabarito: C.** O **crédito especial** é **autorizado por lei** e **aberto por decreto** executivo, e sua abertura **depende da existência de recursos disponíveis** para ocorrer a despesa (art. 42 e 43).\n\n> 📖 **Art. 42, Lei 4.320/64** — \"Os créditos suplementares e especiais serão autorizados por lei e abertos por decreto executivo.\"\n\n**Por que as demais erram:** **A** o suplementar tem vigência limitada ao próprio exercício (não \"até fevereiro de 2020\"); **B** especial é para despesa **sem** dotação, não para dotação insuficiente; **D** e **E** o extraordinário **independe** de recursos disponíveis e de exposição justificativa, e não é aberto por lei do Legislativo.",
+    "options": [
+      "suplementar, aberto em fevereiro de 2018, teve a vigência encerrada em fevereiro de 2020.",
+      "especial é destinado a despesas cuja dotação resultou insuficiente durante a execução.",
+      "especial é autorizado por lei e aberto por decreto, dependendo a sua abertura da existência de recursos disponíveis.",
+      "extraordinário depende da existência de recursos disponíveis e deve ser precedido de exposição justificativa.",
+      "extraordinário depende de resultado patrimonial positivo e deve ser aberto por lei editada pelo legislativo."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FCC • TRT 9ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nConstou do orçamento autorização para aquisição de 900 computadores. Após concurso público, foram necessárias mais 100 unidades. Nos termos da Lei 4.320/1964, a aquisição das novas unidades:",
+    "back": "**Gabarito: D.** Já havia **dotação prevista na LOA** para a aquisição; o que ocorreu foi a **insuficiência** dessa dotação → **reforço** = **crédito suplementar**, que é **autorizado por lei** e aberto por decreto (art. 42).\n\n> 📖 **Art. 41, I, Lei 4.320/64** — créditos suplementares são os destinados a **reforço de dotação orçamentária**.\n\n**Por que as demais erram:** **A** pode ser feita no exercício corrente; **B** é suplementar (há dotação), não especial; **C** o decreto é do **Poder Executivo**, não \"Poder Judiciário\"; **E** não é extraordinário (não há urgência/imprevisibilidade).",
+    "options": [
+      "deverá ser feita no exercício seguinte, por ter sido prevista de forma insuficiente.",
+      "poderá ser feita no exercício corrente como crédito adicional especial.",
+      "poderá ser feita no exercício corrente, devendo a despesa ser aberta por Decreto do Poder Judiciário.",
+      "poderá ser feita no exercício corrente, devendo a despesa ser autorizada por lei.",
+      "poderá ser feita no exercício corrente como crédito adicional extraordinário."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FCC • TRT 5ª Região • 2022 • Analista Judiciário (Sem Especialidade)^^\n\nDe acordo com a Lei nº 4.320/1964, para a abertura de um crédito:",
+    "back": "**Gabarito: B.** O **superávit financeiro** — fonte para créditos suplementares e especiais — é apurado no **Balanço Patrimonial** do **exercício anterior** (art. 43, §1º, I, e §2º). Para um crédito **especial** aberto em 13/07/2022, o superávit aplicável é o de **31/12/2021**.\n\n> 📖 **Art. 43, §2º, Lei 4.320/64** — \"Entende-se por superávit financeiro a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se, ainda, os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas.\"\n\n**Por que as demais erram:** **A** superávit é do **Balanço Patrimonial**, não \"resultado financeiro positivo em balanço financeiro\"; **C** dar imediato conhecimento por decreto é regra do **extraordinário**; **D** e **E** o extraordinário independe de fonte e de autorização prévia do Legislativo.",
+    "options": [
+      "suplementar, um gestor pode ter utilizado o resultado financeiro positivo apurado em balanço financeiro de 2021.",
+      "especial, um gestor pode ter utilizado, desde que não comprometido, o superávit financeiro apurado em balanço patrimonial de 31/12/2021.",
+      "especial, um gestor deve utilizar decreto e dar imediato conhecimento ao Poder Legislativo.",
+      "extraordinário, um gestor deve indicar os recursos e apresentar justificativa para a abertura.",
+      "extraordinário, um gestor deve obter prévia autorização do Poder Legislativo e abrir por decreto."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TRT 4ª Região • 2022 • Analista Judiciário (Sem Especialidade)^^\n\nEm março de 2022, a dotação para Obras e Instalações mostrou-se insuficiente, e o ente abriu crédito adicional sem caráter de urgência. De acordo com a Lei 4.320/1964, o ente pode ter utilizado, desde que não comprometido, recurso proveniente:",
+    "back": "**Gabarito: B.** Dotação insuficiente sem urgência = crédito **suplementar**; uma de suas fontes é o **superávit financeiro**, apurado em **Balanço Patrimonial** do **exercício anterior** (2021).\n\n> 📖 **Art. 43, §1º, I, Lei 4.320/64** — superávit financeiro apurado em **balanço patrimonial** do exercício anterior.\n\n**Por que as demais erram:** **A** não existe \"economia orçamentária em Balanço Orçamentário\" como fonte; **C** resultado patrimonial da DVP não é fonte; **D** superávit é do **Balanço Patrimonial**, não \"resultado financeiro positivo em Balanço Financeiro\"; **E** saldo de receita prevista x atualizada não é fonte.",
+    "options": [
+      "da economia orçamentária apurada em Balanço Orçamentário do exercício de 2021.",
+      "de superávit financeiro apurado em Balanço Patrimonial do exercício de 2021.",
+      "do resultado patrimonial apurado na Demonstração das Variações Patrimoniais do exercício de 2022.",
+      "do resultado financeiro positivo apurado em Balanço Financeiro do exercício de 2021.",
+      "do saldo positivo entre a receita prevista e a atualizada do primeiro bimestre de 2022."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TRT 17ª Região • 2022 • Analista Judiciário (Sem Especialidade)^^\n\nSobre créditos adicionais: I. Os especiais são autorizados por lei e abertos por decreto executivo. II. A abertura dos extraordinários depende da existência de recursos disponíveis. III. Para crédito suplementar em 2022, pode-se usar o superávit financeiro apurado em Balanço Financeiro de 2021. IV. Os suplementares abertos em junho/2022 são válidos até junho/2023. Está correto APENAS o que se afirma em:",
+    "back": "**Gabarito: A (apenas I).**\n\n**Análise item a item:**\n- **I — CERTO:** art. 42 (especiais autorizados por lei, abertos por decreto).\n- **II — ERRADO:** o extraordinário **independe** de recursos disponíveis (art. 44).\n- **III — ERRADO:** o superávit financeiro é apurado em **Balanço Patrimonial**, não \"Balanço Financeiro\" (art. 43, §2º).\n- **IV — ERRADO:** o suplementar **obedece à anualidade** — sua vigência se encerra em **31/12** do exercício, não \"até junho/2023\".\n\n> 📖 **Art. 42 e 44, Lei 4.320/64.**\n\nSomente o item I está correto.",
+    "options": [
+      "I.",
+      "I e II.",
+      "I e III.",
+      "II e IV.",
+      "II, III e IV."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TCE-GO • 2022 • Analista de Controle Externo^^\n\nEm 01/08/2022, constatou-se que a LOA não fixava dotação para despesa corrente com Serviços de TI − Pessoa Jurídica, e a LOA ainda não fora alterada. O gestor decidiu abrir crédito especial; uma das fontes possíveis, desde que não comprometidos (Lei 4.320/1964), foi:",
+    "back": "**Gabarito: D.** Despesa **sem dotação** = crédito **especial**. O **superávit financeiro** é uma de suas fontes, e corresponde à **diferença positiva entre o ativo financeiro e o passivo financeiro** apurada no **Balanço Patrimonial** do exercício anterior (31/12/2021).\n\n> 📖 **Art. 43, §2º, Lei 4.320/64** — superávit financeiro = diferença positiva entre ativo financeiro e passivo financeiro (+ saldos de créditos adicionais transferidos e operações de crédito a eles vinculadas).\n\n**Por que as demais erram:** **A** alienação de bens e operações já previstas não é a fonte descrita; **B** excesso de arrecadação se apura mês a mês acumulado, não \"saldo positivo de julho\" isolado; **C** superávit é do **Balanço Patrimonial**, não \"Balanço Financeiro\"; **E** ativo/passivo **permanente** não compõem o superávit financeiro (que usa ativo/passivo **financeiro**).",
+    "options": [
+      "a receita de alienação de bens e operações de crédito contratadas, já previstas na LOA.",
+      "o saldo positivo do excesso de arrecadação de julho de 2022, de caução e Outras Receitas Correntes.",
+      "a diferença positiva entre ingressos e dispêndios do Balanço Financeiro de 2021.",
+      "a diferença positiva entre o ativo financeiro e o passivo financeiro apurado em Balanço Patrimonial de 31/12/2021.",
+      "a diferença positiva entre o ativo permanente e o passivo permanente apurado em 31/07/2022."
+    ],
+    "correctOption": "D",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • SEFAZ-PE • 2022 • Auditor Fiscal do Tesouro Estadual^^\n\nUma calamidade pública constitui exemplo de ocorrência que pode levar à necessidade de um crédito adicional caracterizado como crédito:",
+    "back": "**Gabarito: E.** Calamidade pública → despesa **urgente e imprevisível** → **crédito extraordinário**, **aberto pelo Poder Executivo** (decreto ou MP), com imediato conhecimento ao Legislativo.\n\n> 📖 **Art. 41, III, Lei 4.320/64 c/c art. 167, §3º, CF/88.**\n\n**Por que as demais erram:** **A** não existe \"crédito extraorçamentário\" aberto pelo Legislativo; **B** o especial não tem vigência restrita ao exercício seguinte; **C** suplementar é reforço de dotação, não atende a calamidade imprevista sem dotação; **D** \"crédito bancário\" não é espécie de crédito adicional.",
+    "options": [
+      "extraorçamentário, aberto pelo Poder Legislativo.",
+      "especial, com vigência adstrita ao exercício financeiro seguinte.",
+      "suplementar, aberto pelo Poder Executivo.",
+      "bancário, com vigência adstrita ao exercício em que for aberto.",
+      "extraordinário, aberto pelo Poder Executivo."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • TRT 17ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nFortes chuvas causaram inundações e desabamentos, exigindo despesas com atividades imprevistas não cobertas pela LOA. Cogitou-se a abertura de créditos especiais ou extraordinários. Quanto ao regramento aplicável:",
+    "back": "**Gabarito: E.** **Ambas** as alternativas são juridicamente possíveis: como a despesa é **nova** (sem dotação), cabe **crédito especial**; e como é **imprevisível**, cabe também **crédito extraordinário**. A diferença é que os **extraordinários prescindem de autorização legislativa e de indicação de fonte**, medidas exigidas para os demais créditos adicionais.\n\n> 📖 **Art. 167, §3º, CF/88** e **art. 41, II e III, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** \"crédito suplementar dispensa autorização legal\" é falso; **B** não cabe \"crédito especial suplementar\" suportado só por anulação; **C** não restringe a só extraordinário, e a fonte não é obrigatória nele; **D** mesmo em calamidade não se realiza despesa sem dotação/crédito.",
+    "options": [
+      "nenhuma alternativa é adequada, sendo caso de reserva de contingência e, extrapolada, crédito suplementar que prescinde de autorização.",
+      "cabe a abertura de créditos especiais suplementares, por decreto, suportados exclusivamente com anulação de dotações.",
+      "apenas a abertura de créditos extraordinários é viável, podendo ser aberto sem autorização, mas desde que assegurada fonte de excesso/superávit.",
+      "as medidas são desnecessárias caso haja decretação de calamidade, tornando possível a despesa sem dotação na LOA.",
+      "ambas são juridicamente possíveis, sendo que os extraordinários prescindem de autorização legislativa e de indicação de fonte de receita."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • DETRAN-AP • 2022 • Analista (Contabilidade e Controle)^^\n\nO Poder Executivo Estadual editou decreto abrindo crédito adicional sem que nenhum novo projeto orçamentário tenha sido apreciado pelo Legislativo após a LOA. Nessa hipótese:",
+    "back": "**Gabarito: B.** O ato é **válido** se for **crédito suplementar** que: (a) se destine a **reforço de dotação existente**, (b) **indique a fonte** de recursos e (c) esteja **autorizado na própria LOA** (autorização genérica do art. 165, §8º, CF). É a hipótese do crédito suplementar autorizado na LOA, aberto por decreto sem nova lei.\n\n> 📖 **Art. 165, §8º, CF/88** — a LOA pode conter autorização para abertura de créditos suplementares, dentro de limites. **Art. 167, V, CF** — vedada abertura sem prévia autorização legislativa e sem indicação dos recursos.\n\n**Por que as demais erram:** **A** o ato não é necessariamente nulo; **C** despesa sem dotação exige **crédito especial** com lei específica, não cabe na autorização genérica da LOA; **D** sem previsão na LOA, o suplementar exige lei; **E** a indicação da fonte é **obrigatória** (art. 167, V).",
+    "options": [
+      "o ato é nulo.",
+      "o ato é válido, desde que se destine a reforço de dotação existente, indique a fonte e esteja autorizado na LOA.",
+      "o ato é válido, desde que indique a fonte e esteja autorizado na LOA, mesmo para despesas sem dotação específica.",
+      "o ato é válido, desde que se destine a reforço de dotação e indique a fonte, mesmo sem disposição na LOA.",
+      "o ato é válido, desde que reforce dotação existente e esteja autorizado na LOA, ainda que não indique a fonte."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FCC • SEF-SC • 2021 • Auditor da Receita Estadual^^\n\nDecreto estendeu o estado de calamidade pública para combate a epidemia até 31/12/2021. As autorizações de despesa de caráter urgente e imprevisto, não computadas ou insuficientemente dotadas na LOA, representam créditos:",
+    "back": "**Gabarito: E.** Despesas **urgentes e imprevistas** decorrentes de calamidade pública são atendidas por **créditos adicionais extraordinários** (art. 41, III, da Lei 4.320/64 c/c art. 167, §3º, da CF).\n\n> 📖 **Art. 167, §3º, CF/88** — abertura de crédito extraordinário para despesas imprevisíveis e urgentes (guerra, comoção interna, calamidade pública).\n\n**Por que as demais erram:** os termos \"não recuperáveis/extranumerários\", \"por antecipação/suplementares\", \"excepcionais/impositivos\" e \"compensáveis/especiais\" **não** correspondem à classificação legal dos créditos adicionais para a hipótese de calamidade.",
+    "options": [
+      "não recuperáveis, que se classificam como extranumerários.",
+      "por antecipação, que se classificam como suplementares.",
+      "excepcionais, que se classificam como impositivos.",
+      "compensáveis, que se classificam como especiais.",
+      "adicionais, que se classificam como extraordinários."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • ALAP • 2020 • Assistente de Contabilidade^^\n\nOs créditos suplementares:",
+    "back": "**Gabarito: A.** Os créditos suplementares são **destinados ao reforço de dotação orçamentária** e são **autorizados por lei** (que pode ser a própria LOA — autorização genérica — ou lei específica) e **abertos por decreto** do Executivo.\n\n> 📖 **Art. 41, I, e art. 42, Lei 4.320/64** — suplementares: reforço de dotação, autorizados por lei e abertos por decreto executivo.\n\n**Por que as demais erram:** **B**/**E** descrevem o **extraordinário** (despesas urgentes, por MP); **C** não dependem de lei complementar; **D** o decreto opera a abertura, mas o crédito suplementar reforça dotação existente, não cria \"dotação específica\" nova (isso é o especial).",
+    "options": [
+      "são destinados ao reforço de dotação orçamentária e são abertos por Lei Ordinária ou Decreto Executivo.",
+      "dependem de recursos disponíveis e serão precedidos de justificativa em medida provisória.",
+      "dependem de recursos disponíveis e serão justificados em lei complementar.",
+      "são abertos por Decreto, que dará imediato conhecimento ao Legislativo sobre a necessidade de criar dotação específica.",
+      "são destinados a despesas urgentes, não dependem de recursos prévios e são abertos por medida provisória."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^VUNESP • TCE-SP • 2025 • Auditor^^\n\nAs autorizações de despesas não computadas ou insuficientemente dotadas na LOA são denominadas créditos adicionais, que:",
+    "back": "**Gabarito: D.** Entre as fontes de recursos dos créditos adicionais inclui-se a **reserva de contingência**, destinada ao atendimento de **passivos contingentes** e outros riscos fiscais (art. 5º, III, da LRF; DL 200/67, art. 91).\n\n> 📖 **Art. 40, Lei 4.320/64** — \"São créditos adicionais as autorizações de despesas não computadas ou insuficientemente dotadas na Lei de Orçamento.\"\n\n**Por que as demais erram:** **A** apenas suplementares e especiais exigem lei + decreto; os **extraordinários** dispensam lei prévia (MP/decreto); **B** especiais e extraordinários podem ter saldo transferido ao exercício seguinte (art. 167, §2º, CF); **C** a anulação de dotações é fonte para **todos**, inclusive suplementares (art. 43, §1º, III); **E** a exigência de recursos disponíveis e justificativa **não** se aplica aos extraordinários.",
+    "options": [
+      "devem ser previamente autorizados por lei e abertos por decreto executivo.",
+      "têm vigência somente durante o exercício financeiro em que foram abertos.",
+      "podem ser abertos com recursos de anulação de dotações apenas no caso de especiais e extraordinários, e não de suplementares.",
+      "podem ter como fontes de recursos a reserva de contingência destinada ao atendimento de passivos contingentes.",
+      "dependem da existência de recursos disponíveis para ocorrer a despesa e precedem de justificativa."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • SEFAZ-RS (CAGE) • 2025 • Auditor^^\n\nSobre os créditos adicionais, avalie: I. Suplementares reforçam dotações existentes e requerem justificativa e autorização legislativa. II. Especiais destinam-se a despesas não previstas, também demandando autorização legislativa. III. Extraordinários são *autorizados* pelo Poder Executivo e dispensam prévia autorização legislativa, para despesas urgentes e imprevistas. Está correto o que se afirma em:",
+    "back": "**Gabarito: B (I e II).** Os itens I e II descrevem corretamente suplementares e especiais. O **item III está errado** por um detalhe técnico: os créditos extraordinários são **ABERTOS** diretamente pelo Executivo (por decreto ou MP), e não \"autorizados\" por ele — o termo \"autorizados\" remete à atuação do Legislativo, o que torna a assertiva incorreta no gabarito definitivo.\n\n> 📖 **Art. 44, Lei 4.320/64** — extraordinários são **abertos** por decreto do Executivo, com imediato conhecimento ao Legislativo.\n\n**Por que as demais erram:** qualquer alternativa que considere o item III correto (C, E) ignora a distinção \"autorizar x abrir\"; A e D excluem itens corretos.",
+    "options": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • ICMBio • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nAssinale a alternativa correta sobre a abertura de crédito extraordinário:",
+    "back": "**Gabarito: B.** O rol de hipóteses do crédito extraordinário é **exemplificativo**, e não taxativo. A CF usa a expressão \"**como** as decorrentes de guerra, comoção interna ou calamidade pública\", admitindo outras situações imprevisíveis e urgentes.\n\n> 📖 **Art. 167, §3º, CF/88** — \"...somente será admitida para atender a despesas imprevisíveis e urgentes, **como** as decorrentes de guerra, comoção interna ou calamidade pública, observado o disposto no art. 62.\"\n\n**Por que as demais erram:** **A** afirma rol taxativo e omite a comoção interna (a assertiva original da banca foi dada como ERRADA exatamente por isso); **C** o extraordinário independe de prévia autorização legislativa; **D** a indicação de fonte é facultativa nele; **E** não exige superávit financeiro.",
+    "options": [
+      "Somente será admitida, taxativamente, para despesas decorrentes de guerra e de calamidade pública.",
+      "Será admitida para despesas imprevisíveis e urgentes, em rol exemplificativo (guerra, comoção interna ou calamidade pública).",
+      "Depende de prévia autorização legislativa, à semelhança dos créditos suplementares.",
+      "Depende obrigatoriamente da indicação prévia da fonte de recursos.",
+      "Exige superávit financeiro do exercício anterior como condição de abertura."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CEBRASPE • ICMBio • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nSobre o superávit financeiro como fonte para créditos especiais e suplementares, é correto afirmar:",
+    "back": "**Gabarito: C.** O **superávit financeiro** é a **diferença positiva entre o ativo financeiro e o passivo financeiro**, conjugando-se os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas (art. 43, §2º). **NÃO** se subtrai dele os créditos extraordinários abertos no exercício — essa dedução incide sobre o **excesso de arrecadação** (§4º).\n\n> 📖 **Art. 43, §2º e §4º, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** e **E** confundem a dedução dos créditos extraordinários (que é do excesso de arrecadação); **B** o superávit usa ativo/passivo **financeiro**, não \"permanente\"; **D** o superávit é apurado no **Balanço Patrimonial**, não no \"balanço financeiro\".",
+    "options": [
+      "Consiste na diferença positiva entre ativo e passivo financeiro, subtraídos os créditos extraordinários abertos no exercício.",
+      "É a diferença positiva entre ativo e passivo permanente do exercício anterior.",
+      "É a diferença positiva entre ativo financeiro e passivo financeiro do exercício anterior, sem subtração de créditos extraordinários.",
+      "É apurado no balanço financeiro do exercício anterior.",
+      "É calculado deduzindo-se os créditos extraordinários abertos no exercício do resultado do balanço patrimonial."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região • 2025 • Técnico Judiciário • adaptada C/E→A–E^^\n\nSobre as fontes de recursos para abertura de créditos suplementares (Lei 4.320/1964), assinale a correta:",
+    "back": "**Gabarito: D.** Os recursos resultantes de **anulação parcial ou total de dotações orçamentárias** podem ser usados para abrir créditos suplementares, **desde que não estejam comprometidos** (não empenhados).\n\n> 📖 **Art. 43, §1º, III, Lei 4.320/64** — anulação parcial ou total de dotações orçamentárias ou de créditos adicionais, autorizados em Lei.\n\n**Por que as demais erram:** **A** a anulação é fonte legalmente prevista; **B** a anulação não se restringe a especiais/extraordinários; **C** dotação **comprometida/empenhada** não pode ser anulada; **E** o suplementar **depende** de recursos disponíveis.",
+    "options": [
+      "A anulação de dotações não é fonte admitida para créditos suplementares.",
+      "A anulação de dotações só pode custear créditos especiais e extraordinários.",
+      "Pode-se anular dotação já empenhada para custear o crédito suplementar.",
+      "Recursos de anulação de dotações não comprometidas podem custear créditos suplementares.",
+      "O crédito suplementar independe de recursos disponíveis para ser aberto."
+    ],
+    "correctOption": "D",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nQuanto à abertura do crédito especial, é correto afirmar:",
+    "back": "**Gabarito: A.** A abertura do crédito especial **depende da existência de recursos disponíveis** para ocorrer a despesa e deve ser precedida de exposição justificativa — exigência idêntica à dos suplementares.\n\n> 📖 **Art. 43, caput, Lei 4.320/64** — \"A abertura dos créditos suplementares e especiais depende da existência de recursos disponíveis para ocorrer a despesa e será precedida de exposição justificativa.\"\n\n**Por que as demais erram:** **B** o especial **não** independe de recursos (a assertiva original era ERRADA); **C** é autorizado por **lei**, não por simples decreto sem lei; **D** não é aberto por MP (isso é do extraordinário na União); **E** não dispensa justificativa.",
+    "options": [
+      "Depende da existência de recursos disponíveis e de exposição justificativa.",
+      "Independe da existência de recursos disponíveis para ocorrer a despesa.",
+      "É aberto por decreto, independentemente de autorização legislativa.",
+      "É aberto por medida provisória em qualquer ente federativo.",
+      "Dispensa exposição justificativa, bastando o decreto de abertura."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nPara o cálculo do excesso de arrecadação disponível como fonte para créditos suplementares ou especiais, é correto afirmar que:",
+    "back": "**Gabarito: C.** Para apurar os recursos utilizáveis provenientes de **excesso de arrecadação**, **deduz-se a importância dos créditos extraordinários abertos no exercício** (art. 43, §4º). Fórmula: **Excesso = (Receita Arrecadada − Prevista) − Créditos Extraordinários Abertos**.\n\n> 📖 **Art. 43, §3º e §4º, Lei 4.320/64** — o excesso é o saldo positivo das diferenças acumuladas mês a mês entre arrecadação prevista e realizada, considerada a tendência do exercício, deduzidos os créditos extraordinários abertos.\n\n**Por que as demais erram:** **A** a dedução existe (a assertiva da banca era CERTA); **B**/**D** não se deduz superávit financeiro nem restos a pagar; **E** a tendência do exercício também é considerada.",
+    "options": [
+      "Não se subtrai nada do montante arrecadado a maior.",
+      "Deduz-se o superávit financeiro do exercício anterior.",
+      "Subtrai-se o valor dos créditos extraordinários abertos no exercício.",
+      "Subtraem-se os restos a pagar do exercício.",
+      "Despreza-se a tendência do exercício, somando-se apenas os saldos mensais."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região • 2025 • Técnico Judiciário • adaptada C/E→A–E^^\n\nO crédito especial é utilizado para atender despesa insuficientemente dotada na LOA. Assinale a correta:",
+    "back": "**Gabarito: E.** A assertiva está **errada**: despesa **insuficientemente dotada** (já há dotação, mas faltou valor) reclama **crédito suplementar** (reforço). O **especial** é para despesa **sem dotação específica**.\n\n> 📖 **Art. 41, I e II, Lei 4.320/64** — I: suplementares (reforço de dotação); II: especiais (despesas sem dotação específica).\n\n**Esquema:** ==Dotação insuficiente → SUPLEMENTAR== · ==Sem dotação → ESPECIAL== · ==Urgente/imprevisível → EXTRAORDINÁRIO==.\n\n**Por que as demais erram:** **A** a frase está incorreta; **B** especial não é reforço; **C** suplementar não é para despesa sem dotação; **D** despesa insuficientemente dotada não é extraordinário.",
+    "options": [
+      "A afirmação está correta: o especial cobre dotação insuficiente.",
+      "O especial destina-se a reforço de dotação já existente.",
+      "O suplementar destina-se a despesas para as quais não haja dotação específica.",
+      "Despesa insuficientemente dotada é atendida por crédito extraordinário.",
+      "A afirmação está incorreta: dotação insuficiente é atendida por crédito suplementar, e o especial é para despesa sem dotação específica."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nSobre a vigência e reabertura dos créditos especiais, assinale a correta:",
+    "back": "**Gabarito: B.** Os créditos especiais (e extraordinários) **não** têm vigência além do exercício em que autorizados, **salvo** se o ato de autorização for promulgado nos **últimos quatro meses** do exercício — caso em que, **reabertos nos limites de seus saldos**, são incorporados ao orçamento do exercício seguinte.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\nPor isso o crédito especial é {blue:exceção ao princípio da anualidade}.\n\n**Por que as demais erram:** **A** não há reabertura para os suplementares; **C** a regra é \"últimos quatro meses\", não \"primeiros\"; **D** a reabertura é **facultativa** e limitada ao saldo; **E** a vigência não é automaticamente bienal.",
+    "options": [
+      "O crédito especial pode ser sempre reaberto, independentemente da data de autorização.",
+      "Se autorizado nos últimos quatro meses, seu saldo é reaberto e incorporado ao orçamento do exercício seguinte.",
+      "A reabertura ocorre se autorizado nos primeiros quatro meses do exercício.",
+      "A reabertura é obrigatória e abrange o valor integral do crédito.",
+      "O crédito especial tem vigência automática de dois exercícios."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nSobre a abertura de créditos suplementares e especiais e suas fontes, assinale a correta:",
+    "back": "**Gabarito: A.** A abertura de créditos suplementares e especiais **depende de recursos disponíveis**, entre os quais o **superávit financeiro** apurado no Balanço Patrimonial do exercício anterior e a **anulação parcial ou total de dotações** (art. 43, §1º, I e III).\n\n> 📖 **Art. 43, §1º, Lei 4.320/64** — fontes: I) superávit financeiro; II) excesso de arrecadação; III) anulação de dotações; IV) operações de crédito.\n\n**Por que as demais erram:** **B** superávit é do **Balanço Patrimonial**, não financeiro; **C** essas fontes valem também para os suplementares; **D** a anulação não exige urgência; **E** o extraordinário é que dispensa recursos, não os suplementares/especiais.",
+    "options": [
+      "Depende de recursos disponíveis, podendo-se usar superávit financeiro do balanço patrimonial e anulação de dotações.",
+      "O superávit financeiro é apurado no balanço financeiro do exercício anterior.",
+      "O superávit financeiro só pode custear créditos especiais, nunca suplementares.",
+      "A anulação de dotações exige situação de urgência para ser usada como fonte.",
+      "Tais créditos dispensam recursos disponíveis para a sua abertura."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Especialista em Recursos Minerais • adaptada C/E→A–E^^\n\nSobre a classificação dos créditos adicionais e os requisitos de abertura, assinale a correta:",
+    "back": "**Gabarito: C.** Os créditos adicionais classificam-se em **suplementares, especiais e extraordinários**; nos **dois primeiros** exige-se **autorização legislativa** e **indicação da fonte** de recursos para a nova despesa.\n\n> 📖 **Art. 41, Lei 4.320/64** e **art. 167, V, CF/88** — vedada abertura de crédito suplementar ou especial sem prévia autorização legislativa e sem indicação dos recursos correspondentes.\n\n**Por que as demais erram:** **A** os extraordinários **não** exigem autorização prévia nem fonte; **B** suplementar é reforço, não despesa sem dotação; **D** o extraordinário não exige fonte; **E** a classificação tem três espécies, não duas.",
+    "options": [
+      "Todos os três tipos exigem autorização legislativa e indicação de fonte.",
+      "Os suplementares destinam-se a despesas sem dotação específica.",
+      "Classificam-se em suplementares, especiais e extraordinários, exigindo-se autorização legislativa e fonte nos dois primeiros.",
+      "Os créditos extraordinários exigem indicação da fonte de recursos.",
+      "Os créditos adicionais possuem apenas duas espécies."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nSobre a ordem de utilização das fontes de recursos para créditos adicionais, assinale a correta:",
+    "back": "**Gabarito: E.** A Lei 4.320/64 **não estabelece hierarquia ou preferência** entre as fontes. Todas (superávit, excesso de arrecadação, anulação, operações de crédito) são igualmente admissíveis, conforme disponibilidade concreta.\n\n> 📖 **Art. 43, §1º, Lei 4.320/64** — apenas lista as fontes, sem ordem de prioridade.\n\n**Por que as demais erram:** **A**–**D** afirmam preferência/ordem (anulação só na falta de superávit, prioridade do superávit etc.), o que **não** tem respaldo legal; a assertiva original (\"anulação deve ser preferencialmente usada quando não houver superávit\") foi dada como ERRADA.",
+    "options": [
+      "A anulação de dotações deve ser preferencialmente usada quando não houver superávit financeiro.",
+      "O superávit financeiro tem prioridade legal sobre as demais fontes.",
+      "As operações de crédito só podem ser usadas em último caso.",
+      "O excesso de arrecadação é a fonte de uso obrigatório inicial.",
+      "A lei não estabelece ordem de preferência entre as fontes; todas são igualmente admissíveis."
+    ],
+    "correctOption": "E",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nSobre a correção de falhas de previsibilidade no orçamento, assinale a correta:",
+    "back": "**Gabarito: D.** Nem toda falha de previsão dá ensejo a crédito extraordinário. Falhas de planejamento corrigem-se por **crédito suplementar** (dotação insuficiente) ou **crédito especial** (dotação inexistente) — **não exclusivamente** por crédito extraordinário.\n\n> 📖 **Art. 41, I e II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** afirma exclusividade do extraordinário (a assertiva da banca era ERRADA); **B**/**C** restringem indevidamente os instrumentos; **E** restos a pagar não corrige falha de previsão.",
+    "options": [
+      "Devem ser corrigidas exclusivamente com crédito extraordinário.",
+      "Só podem ser corrigidas com crédito especial.",
+      "Só podem ser corrigidas com crédito suplementar.",
+      "Podem ser corrigidas por crédito suplementar (dotação insuficiente) ou especial (dotação inexistente), conforme o caso.",
+      "Devem ser tratadas como restos a pagar no exercício seguinte."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nA abertura de crédito relativo a obra pública sem previsão na LOA e sem necessidade de execução urgente deve ser realizada por meio de:",
+    "back": "**Gabarito: C.** Despesa **sem dotação na LOA** e **sem urgência** = **crédito especial**, autorizado por lei e aberto por decreto (art. 41, II, e art. 42). Projetos novos (obra não prevista) enquadram-se nessa hipótese.\n\n> 📖 **Art. 41, II, Lei 4.320/64** — especiais: despesas para as quais não haja dotação orçamentária específica.\n\n**Por que as demais erram:** **A** suplementar é reforço de dotação existente; **B** extraordinário exige urgência/imprevisibilidade; **D** não cabe restos a pagar para despesa sem dotação; **E** não se faz despesa sem crédito.",
+    "options": [
+      "crédito suplementar.",
+      "crédito extraordinário, por medida provisória.",
+      "lei que crie crédito especial.",
+      "inscrição em restos a pagar.",
+      "realização direta da despesa, sem crédito."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nSobre as fontes autorizadas para abertura de crédito suplementar ou especial, assinale a correta:",
+    "back": "**Gabarito: B.** É possível usar o **superávit financeiro** apurado em Balanço Patrimonial do exercício anterior e os recursos provenientes de **excesso de arrecadação**, **desde que não comprometidos** (art. 43, §1º, I e II).\n\n> 📖 **Art. 43, §1º, I e II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** superávit é do **Balanço Patrimonial**, não financeiro; **C** recursos **comprometidos** não podem ser usados; **D** a anulação de dotações também é fonte (inciso III); **E** o extraordinário não é a hipótese e dispensa fonte.",
+    "options": [
+      "Usa-se o superávit financeiro do balanço financeiro e o excesso de arrecadação.",
+      "Usa-se o superávit financeiro do balanço patrimonial do exercício anterior e o excesso de arrecadação, desde que não comprometidos.",
+      "Podem-se usar recursos ainda que já comprometidos com outras finalidades.",
+      "A anulação de dotações não é fonte admitida para esses créditos.",
+      "A fonte só é exigida para créditos extraordinários."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • PC-DF • 2025 • Agente Administrativo • adaptada C/E→A–E^^\n\nSobre créditos orçamentários ordinários e créditos adicionais, assinale a correta:",
+    "back": "**Gabarito: C.** Os **créditos ordinários (iniciais)** são os previstos originalmente na LOA para as despesas regulares; os **créditos adicionais** são autorizações de despesas **não computadas ou insuficientemente dotadas** na LOA (instrumentos retificadores).\n\n> 📖 **Art. 40, Lei 4.320/64** — \"São créditos adicionais as autorizações de despesas não computadas ou insuficientemente dotadas na Lei de Orçamento.\" O crédito **inicial/ordinário** é o aprovado na LOA (MCASP).\n\n**Por que as demais erram:** **A** inverte os conceitos; **B** o ordinário não é \"para despesas imprevisíveis\"; **D** os adicionais não integram o orçamento original; **E** \"crédito ordinário\" não é espécie de crédito adicional.",
+    "options": [
+      "Créditos ordinários são autorizações de despesas não previstas; adicionais são as despesas regulares da LOA.",
+      "Créditos ordinários destinam-se a despesas imprevisíveis e urgentes.",
+      "Créditos ordinários são os previstos na LOA para despesas regulares; adicionais são despesas não computadas ou insuficientemente dotadas na LOA.",
+      "Créditos adicionais integram o orçamento originalmente aprovado.",
+      "Crédito ordinário é a quarta espécie de crédito adicional."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • Pref. de São José dos Campos • 2024 • Analista (Adm. de Empresas)^^\n\nO Prefeito alocou na LOA despesa específica para um evento cultural. Iniciados os preparativos, a dotação prevista mostrou-se insuficiente. O crédito adicional a ser aberto é o:",
+    "back": "**Gabarito: A.** O evento **já tinha dotação** na LOA, mas o valor ficou **insuficiente** → **crédito suplementar** (reforço), dependendo de **indicação de recursos e justificativa**.\n\n> 📖 **Art. 41, I, e art. 43, Lei 4.320/64.**\n\n**Por que as demais erram:** **B** especial é para despesa sem dotação prévia (não é o caso) e a reabertura é dele/do extraordinário; **C** extraordinário exige urgência/imprevisibilidade; **D** pode haver autorização genérica na LOA (art. 165, §8º, CF), dispensando lei específica externa; **E** suplementar não é aberto por MP.",
+    "options": [
+      "Suplementar, dependendo da indicação de recursos e justificativa.",
+      "Especial, que pode ser reaberto no exercício seguinte se autorizado no último quadrimestre.",
+      "Extraordinário, independente de autorização prévia do Legislativo.",
+      "Suplementar, necessitando de aprovação em lei específica alheia ao orçamento.",
+      "Especial, podendo ser realizado por meio de Medida Provisória."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • TJ-SC • 2024 • Juiz de Direito Substituto^^\n\nDois meses antes do término do exercício, o Presidente da República, informado de que as dotações de uma política social seriam insuficientes, editou Medida Provisória abrindo crédito adicional para cobrir a despesa. Partido político analisou sua compatibilidade com a CF. Concluiu-se, corretamente, que:",
+    "back": "**Gabarito: B.** A narrativa descreve **dotação insuficiente** = crédito **suplementar**. A CF só admite a abertura por **medida provisória** para créditos **extraordinários** (art. 167, §3º, c/c art. 62). Como suplementares exigem **lei** com prévia autorização legislativa (art. 167, V, e arts. 41/43 da Lei 4.320/64), a MP é **inconstitucional** e, por possuir caráter normativo, **pode ser objeto de ADI**.\n\n> 📖 **Art. 167, V e §3º, CF/88.** Apenas o crédito extraordinário pode ser veiculado por MP.\n\n**Por que as demais erram:** **A** créditos extraordinários **podem** ser abertos por MP (não \"somente por lei\"); **C** a MP de crédito tem normatividade e **pode** ser objeto de ADI (jurisprudência do STF); **D** nem toda modalidade pode ser aberta por MP; **E** a modalidade narrada (suplementar) **não** pode ser aberta por MP.",
+    "options": [
+      "créditos adicionais, qualquer que seja a modalidade, só podem ser abertos por lei; logo, a MP é inconstitucional e cabe ADI.",
+      "a modalidade indicada não pode ser aberta por medida provisória; logo, o ato pode ser objeto de ação direta de inconstitucionalidade.",
+      "apesar de não poder ser aberta por MP, por ser ato de efeitos concretos, não pode ser objeto de ADI.",
+      "créditos adicionais, qualquer que seja a modalidade, podem ser abertos por MP; logo, o ato é constitucional.",
+      "a modalidade indicada pode ser aberta por MP; logo, o controle concentrado não culminaria em inconstitucionalidade."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • Câmara Municipal de SP • 2024 • Técnico Legislativo (Contabilidade)^^\n\nDe acordo com a Lei nº 4.320/1964, em um município, os seguintes créditos adicionais serão abertos por decreto do Poder Executivo, que deles dará imediato conhecimento ao Poder Legislativo:",
+    "back": "**Gabarito: B (extraordinários, apenas).** Os créditos **extraordinários** são os únicos abertos **diretamente por decreto** do Executivo (no município), com **imediato conhecimento** ao Legislativo, dada sua natureza urgente.\n\n> 📖 **Art. 44, Lei 4.320/64** — \"Os créditos extraordinários serão abertos por decreto do Poder Executivo, que deles dará imediato conhecimento ao Poder Legislativo.\"\n\n**Atenção:** suplementares e especiais também são abertos por decreto, mas **após autorização legislativa** (art. 42); a expressão \"dará imediato conhecimento\" é exclusiva dos extraordinários.\n\n**Por que as demais erram:** todas incluem suplementares e/ou especiais junto, que exigem autorização legislativa prévia, não se enquadrando na regra do \"imediato conhecimento\".",
+    "options": [
+      "suplementares, apenas.",
+      "extraordinários, apenas.",
+      "suplementares e especiais.",
+      "especiais e extraordinários.",
+      "extraordinários e suplementares."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FGV • CGE-PB • 2024 • Auditor (Auditoria Contábil e Finanças Públicas)^^\n\nDecreto que abre Crédito Adicional Suplementar (autorizado por lei municipal). À luz da Lei 4.320/1964, no decreto estão faltando:",
+    "back": "**Gabarito: B.** O ato que abre crédito adicional deve indicar a **importância, a espécie e a classificação da despesa** (art. 46), e a abertura depende de **indicação de fontes de recursos disponíveis** (art. 43). No decreto faltam a **classificação da despesa** e a **indicação das fontes**.\n\n> 📖 **Art. 46, Lei 4.320/64** — \"O ato que abrir crédito adicional indicará a importância, a espécie do mesmo e a classificação da despesa, até onde for possível.\" + **Art. 43, caput**.\n\n**Por que as demais erram:** **A** data de vigência não é requisito faltante essencial aqui; **C** previsão na LDO não é exigida para suplementar; **D** demonstração de emergência é do extraordinário; **E** os requisitos da LRF (impacto/margem) não são o foco da Lei 4.320/64 cobrado.",
+    "options": [
+      "classificação da despesa e data de vigência do crédito.",
+      "indicação de fontes de recursos disponíveis e classificação da despesa.",
+      "indicação de previsão na LDO e de fontes de recursos.",
+      "demonstração de situação emergencial e data de vigência.",
+      "avaliação de impacto no resultado primário e estimativa de margem de expansão da despesa."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • Câmara dos Deputados • 2024 • Consultor Legislativo (Área IV)^^\n\nSe, durante a execução, os créditos forem insuficientes para realizar um programa de trabalho:",
+    "back": "**Gabarito: C.** A LOA pode ser **alterada no decorrer de sua execução** por meio dos **créditos adicionais** (art. 41), instrumentos retificadores que ajustam a programação às necessidades surgidas.\n\n> 📖 **Art. 41, Lei 4.320/64** — classifica os créditos adicionais (suplementares, especiais, extraordinários).\n\n**Por que as demais erram:** **A** não se cancela o programa por insuficiência (há mecanismos de correção); **B** a LOA **pode** ser alterada via créditos adicionais; **D**/**E** restos a pagar e despesas de exercícios anteriores não são a solução para insuficiência de crédito durante a execução.",
+    "options": [
+      "o programa deve ser cancelado por ausência de dotação.",
+      "a LOA não poderá ser alterada, mas pode-se buscar financiamento externo.",
+      "a LOA poderá ser alterada no decorrer da execução por meio dos créditos adicionais.",
+      "a despesa deve ser registrada como Restos a Pagar.",
+      "a despesa deve ser registrada como Despesas de Exercícios Anteriores."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • TJ-AP • 2024 • Analista Judiciário (Contador)^^\n\nAo final do exercício, ao levantar os saldos de créditos adicionais abertos, poderão ter seus saldos reabertos no exercício seguinte os créditos:",
+    "back": "**Gabarito: C (III e V — Especial e Extraordinário).** Apenas créditos **especiais e extraordinários** podem ser reabertos no exercício seguinte, desde que autorizados nos **últimos quatro meses** do exercício (art. 167, §2º, CF). Os **suplementares jamais** se reabrem.\n\n> 📖 **Art. 167, §2º, CF/88** — \"Os créditos especiais e extraordinários terão vigência no exercício financeiro em que forem autorizados, salvo se o ato de autorização for promulgado nos últimos quatro meses daquele exercício, caso em que, reabertos nos limites de seus saldos, serão incorporados ao orçamento do exercício financeiro subsequente.\"\n\n**Por que as demais erram:** qualquer combinação que inclua crédito **suplementar** (I, II, IV) está incorreta, pois ele não admite reabertura.",
+    "options": [
+      "I e IV.",
+      "II e III.",
+      "III e V.",
+      "I, III e V.",
+      "II, III e IV."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • Câmara de Fortaleza • 2024 • Administração Pública^^\n\nQuanto aos créditos adicionais, assinale a opção INCORRETA:",
+    "back": "**Gabarito: E (é a incorreta).** O erro está em generalizar a reabertura para \"os créditos adicionais\": **somente os especiais e extraordinários** (não os suplementares) promulgados nos últimos 4 meses podem ser reabertos (art. 167, §2º, CF).\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais estão corretas:** **A** suplementares = reforço de dotação (art. 41, I); **B** especiais = despesas sem dotação específica (art. 41, II); **C** definição de créditos adicionais (art. 40); **D** extraordinários = despesas urgentes e imprevistas (art. 41, III).",
+    "options": [
+      "Os suplementares são destinados a reforço de dotação orçamentária existente.",
+      "Os especiais são destinados a despesas para as quais não haja dotação específica.",
+      "Os créditos adicionais são autorizações de despesas não computadas ou insuficientemente dotadas na LOA.",
+      "Os extraordinários são para despesas urgentes e imprevistas (guerra, comoção interna, calamidade).",
+      "Os créditos adicionais, promulgados nos últimos 4 meses, poderão ser reabertos e viger até o término do exercício subsequente."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • ALESC • 2024 • Administrador^^\n\nO orçamento foi alterado por: uniforme escolar não previsto (R$20.000); reforço de dotação (R$50.000); calamidade por desastre natural (R$80.000); calamidade por pandemia (R$100.000). O total dos créditos adicionais extraordinários é:",
+    "back": "**Gabarito: D (R$180.000).** São **extraordinários** as despesas **urgentes e imprevisíveis** decorrentes de calamidade: desastre natural (R$80.000) + pandemia (R$100.000) = **R$180.000**.\n\n| Despesa | Tipo de crédito | Valor |\n|---|---|---|\n| Uniforme escolar (não previsto) | **Especial** (sem dotação) | R$20.000 |\n| Reforço de dotação | **Suplementar** | R$50.000 |\n| Calamidade (desastre) | **Extraordinário** | R$80.000 |\n| Calamidade (pandemia) | **Extraordinário** | R$100.000 |\n\n> 📖 **Art. 41, III, Lei 4.320/64.**\n\n**Por que as demais erram:** somam parcial (A, B), incluem o especial/suplementar (C, E) — apenas as duas calamidades são extraordinárias.",
+    "options": [
+      "R$80.000.",
+      "R$100.000.",
+      "R$120.000.",
+      "R$180.000.",
+      "R$200.000."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FGV • ALEP • 2024 • Contador^^\n\nOrçamento alterado por créditos: Especiais R$200.000; Suplementares R$400.000; Extraordinários R$500.000. O montante incorporado ao orçamento por adição à dotação que deve ser reforçada é:",
+    "back": "**Gabarito: B (R$400.000).** Apenas o **crédito suplementar** se **incorpora ao orçamento adicionando-se à dotação que reforça** (alteração quantitativa). Especiais e extraordinários **conservam sua especificidade** (demonstrados separadamente). Logo, o valor é o dos suplementares: **R$400.000**.\n\n> 📖 **Art. 41, I, Lei 4.320/64** e MTO — suplementares: reforço de subtítulo já constante da LOA.\n\n**Por que as demais erram:** **A** é o valor dos especiais; **C** dos extraordinários; **D**/**E** somas que não correspondem ao reforço de dotação existente.",
+    "options": [
+      "R$200.000.",
+      "R$400.000.",
+      "R$500.000.",
+      "R$600.000.",
+      "R$900.000."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • TJ-MS • 2024 • Analista Técnico-Contábil (Contabilidade)^^\n\nProjeção conservadora de receitas; a partir do 2º trimestre a arrecadação superou as projeções (até agosto, +14%, R$2 bi acima do projetado). Para abrir créditos reforçando dotações e autorizando despesas deixadas de fora, o governo deve:",
+    "back": "**Gabarito: C.** O **excesso de arrecadação** é fonte para créditos suplementares e especiais, mas seu cálculo deve **considerar a tendência do exercício** (art. 43, §3º) e deduzir os créditos extraordinários abertos (§4º), evitando superestimar o recurso disponível e comprometer o equilíbrio fiscal.\n\n> 📖 **Art. 43, §3º, Lei 4.320/64** — excesso de arrecadação considera, ainda, a **tendência do exercício**.\n\n**Por que as demais erram:** **A** o excesso não precisa ir integralmente a créditos especiais; **B** não se restringe a recompor empenhos limitados; **D** a dedução de créditos transferidos é do **superávit financeiro**, não do excesso; **E** passivos contingentes ligam-se à reserva de contingência, não ao excesso.",
+    "options": [
+      "alocar o valor integral do excesso para créditos especiais.",
+      "aplicar os recursos só na recomposição de dotações com empenhos limitados.",
+      "considerar a tendência da arrecadação para o restante do exercício e verificar a abertura de créditos.",
+      "destinar os recursos, excluindo o valor de créditos adicionais transferidos.",
+      "reservar os recursos para suprir passivos contingentes do anexo de riscos fiscais."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • TJ-SC • 2024 • Analista (Administrativo)^^\n\nDurante o exercício, a abertura de créditos adicionais suplementares depende de condicionantes, dentre os quais:",
+    "back": "**Gabarito: B.** A abertura de crédito suplementar vincula-se ao **enquadramento nos limites definidos na lei orçamentária** (autorização prévia, em regra contida na própria LOA, art. 165, §8º, CF), em respeito à legalidade orçamentária.\n\n> 📖 **Art. 165, §8º, CF/88** e **art. 42, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** situação emergencial é do extraordinário; **C** superávit é fonte possível, mas **não** requisito obrigatório (há outras fontes); **D** inexistência de dotação caracteriza crédito **especial**; **E** o suplementar não se vincula a investimentos de capital.",
+    "options": [
+      "caracterização de situação emergencial.",
+      "enquadramento nos limites definidos na lei orçamentária.",
+      "existência de superávit financeiro no exercício anterior.",
+      "inexistência de dotação específica para a despesa.",
+      "vinculação com realização de investimentos de capital."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • SES-MT • 2024 • Administrador Hospitalar^^\n\nEm epidemia de dengue, o governo precisa reforçar a dotação já prevista de um programa de saúde, diante do aumento das despesas. É correto afirmar que cabe abrir crédito:",
+    "back": "**Gabarito: A.** Como a **dotação já existe** e apenas precisa de **reforço**, o crédito é **suplementar**, incorporando-se à LOA — ainda que o contexto seja uma epidemia. Não há aqui o elemento de **despesa nova** (especial) nem de **imprevisibilidade sem dotação** (extraordinário).\n\n> 📖 **Art. 41, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **B** o especial é para despesa sem dotação; **C** o extraordinário independe de recursos disponíveis e é para o que não tem dotação/é imprevisível; **D** \"ordinários\" não são créditos adicionais e não se reabrem.",
+    "options": [
+      "suplementar, incorporando-se à lei orçamentária anual do estado.",
+      "especial, com vigência restrita ao exercício em que haja sua autorização.",
+      "extraordinário, dependendo da existência de recursos disponíveis.",
+      "ordinários, que podem ser reabertos no exercício posterior.",
+      "suplementar, dispensando qualquer indicação de fonte de recursos."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • SES-MT • 2024 • Advogado^^\n\nSobre os créditos adicionais (Lei 4.320/64), assinale a afirmativa correta:",
+    "back": "**Gabarito: C.** Os **créditos especiais** são os destinados a despesas para as quais **não haja dotação orçamentária específica** (art. 41, II).\n\n> 📖 **Art. 41, II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** despesas imprevisíveis/urgentes (calamidade) são atendidas por **extraordinário**, não suplementar; **B** extraordinário é para despesas urgentes/imprevisíveis, não reforço de dotação; **D** a abertura de suplementares e especiais **depende** de recursos disponíveis (art. 43).",
+    "options": [
+      "Admite-se crédito suplementar para despesas imprevisíveis e urgentes, como calamidade pública.",
+      "Os créditos extraordinários são destinados ao reforço de dotação orçamentária.",
+      "Os créditos especiais são destinados a despesas para as quais não haja dotação específica.",
+      "A abertura dos suplementares e especiais independe da existência de recursos disponíveis.",
+      "Os créditos especiais são abertos por medida provisória, independentemente de lei."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FGV • CVM • 2024 • Analista (Gestão)^^\n\nApurados os saldos de créditos adicionais a empenhar, poderão ser reabertos no exercício seguinte somente os créditos:",
+    "back": "**Gabarito: E (especiais e extraordinários).** A CF permite a reabertura no exercício seguinte apenas de **créditos especiais e extraordinários** autorizados nos **últimos quatro meses** do exercício. Os **suplementares não se reabrem**.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** todas as opções que incluem **suplementares** (A, B) estão erradas; C e D são parciais (apenas um dos dois tipos).",
+    "options": [
+      "suplementares e especiais.",
+      "suplementares e extraordinários.",
+      "extraordinários.",
+      "especiais.",
+      "especiais e extraordinários."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • CVM • 2024 • Contabilidade Pública^^\n\nDecretos de créditos adicionais: o Decreto nº 79 (13/out) abriu Crédito Extraordinário de R$160.000,00, 60% empenhado. O montante passível de reabertura no exercício seguinte corresponde a:",
+    "back": "**Gabarito: B (R$64.000,00).** O crédito **extraordinário** foi autorizado nos **últimos quatro meses** (13/out) → é reabrível pelo **saldo não empenhado**: 40% de R$160.000 = **R$64.000,00**.\n\n> 📖 **Art. 167, §2º, CF/88** — reabertura \"nos limites de seus saldos\".\n\n**Cálculo:** R$160.000 × (100% − 60% empenhado) = R$160.000 × 40% = **R$64.000**.\n\n**Por que as demais erram:** demais valores consideram créditos não reabríveis (suplementares) ou o valor total/empenhado, em vez do saldo não empenhado.",
+    "options": [
+      "R$ 53.500,00.",
+      "R$ 64.000,00.",
+      "R$ 75.500,00.",
+      "R$ 106.000,00.",
+      "R$ 125.000,00."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • CVM • 2024 • Contabilidade Pública^^\n\nExercício 2022: Ativo financeiro R$23.000; Passivo financeiro R$7.000; Restos a pagar R$1.300. Em 2023: créditos adicionais reabertos R$2.600; créditos extraordinários abertos R$1.800; operações de crédito para investimentos R$4.300. Para abrir créditos adicionais, a entidade poderá contar com:",
+    "back": "**Gabarito: B (R$13.400,00).** Calcula-se o **superávit financeiro**: SF = AF − PF − Créditos adicionais transferidos/reabertos (+ operações de crédito a eles vinculadas).\n\n**Cálculo:** SF = 23.000 − 7.000 − 2.600 = **13.400**.\n\n> 📖 **Art. 43, §2º, Lei 4.320/64.**\n\n**Observações:** créditos extraordinários abertos (R$1.800) deduzem o **excesso de arrecadação** (não calculável aqui) e não o superávit; as operações de crédito para **investimentos** já estão **comprometidas** (destinação específica) e não servem de fonte.\n\n**Por que as demais erram:** somam indevidamente as operações de crédito comprometidas ou deixam de subtrair os créditos reabertos.",
+    "options": [
+      "R$ 12.100,00.",
+      "R$ 13.400,00.",
+      "R$ 15.900,00.",
+      "R$ 19.900,00.",
+      "R$ 20.300,00."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • EPE • 2024 • Analista de Gestão Corporativa (Administração)^^\n\nDotação para serviços de limpeza e zeladoria estimada a menor; solicitada abertura de crédito adicional para reforçar a dotação. Nesse caso, esse crédito:",
+    "back": "**Gabarito: A.** Reforço de dotação = **crédito suplementar**, que **deve ser autorizado em lei** — ainda que essa lei seja a **própria LOA** (autorização genérica, art. 165, §8º, CF).\n\n> 📖 **Art. 42, Lei 4.320/64** e **art. 165, §8º, CF/88.**\n\n**Por que as demais erram:** **B** a reabertura é dos especiais/extraordinários, não dos suplementares; **C** o suplementar não é aberto por MP nem dispensa fontes; **D** as fontes não se limitam à economia de despesa (que, aliás, **não** é fonte); **E** despesas imprevisíveis/urgentes são do extraordinário.",
+    "options": [
+      "deve ser autorizado em lei, ainda que seja a própria LOA.",
+      "caso autorizado nos últimos 4 meses, pode ser reaberto no exercício seguinte.",
+      "pode ser aberto por medida provisória, independentemente de indicar fontes.",
+      "pode utilizar apenas a economia de despesas como fonte.",
+      "deve ser destinado a despesas imprevisíveis e urgentes."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • Pref. de Nova Iguaçu • 2024 • Contador^^\n\nEm maio/2024, o Governo Federal publicou medida provisória abrindo crédito adicional para despesas urgentes e imprevistas a municípios do RS afetados por fortes chuvas. Esse crédito é classificado como:",
+    "back": "**Gabarito: C (extraordinário).** Despesas **urgentes e imprevistas** por **calamidade pública**, abertas por **medida provisória** (União) → **crédito extraordinário** (art. 41, III, da Lei 4.320/64 c/c art. 167, §3º, da CF).\n\n> 📖 **Art. 167, §3º, CF/88.**\n\n**Por que as demais erram:** **A** especial é para despesa sem dotação, sem o requisito de urgência/imprevisibilidade; **B** suplementar é reforço; **D**/**E** \"transferência\" e \"remanejamento\" não são créditos adicionais (são outras alterações orçamentárias).",
+    "options": [
+      "especial.",
+      "suplementar.",
+      "extraordinário.",
+      "de transferência.",
+      "de remanejamento."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FGV • Pref. de Nova Iguaçu • 2024 • Contador^^\n\nO superávit financeiro apurado em balanço patrimonial do exercício anterior e os provenientes de excesso de arrecadação são fontes de recursos utilizadas somente para os créditos:",
+    "back": "**Gabarito: D (especiais e suplementares).** As fontes do art. 43 (superávit financeiro, excesso de arrecadação etc.) servem aos créditos que **dependem de recursos disponíveis**: os **suplementares e especiais**. Os extraordinários dispensam fonte.\n\n> 📖 **Art. 43, caput e §1º, Lei 4.320/64** — \"A abertura dos créditos **suplementares e especiais** depende da existência de recursos disponíveis...\"\n\n**Por que as demais erram:** \"ordinários\" não são créditos adicionais; \"extraordinários\" não exigem fonte. Logo, qualquer alternativa com ordinários (A, B) ou extraordinários (B, C, E) está incorreta.",
+    "options": [
+      "ordinários e especiais.",
+      "ordinários e extraordinários.",
+      "especiais e extraordinários.",
+      "especiais e suplementares.",
+      "suplementares e extraordinários."
+    ],
+    "correctOption": "D",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • TRF 1ª Região • 2024 • Analista Judiciário (Sem Especialidade)^^\n\nNo início de dezembro do último exercício, um ente verificou a necessidade de ação governamental não prevista no orçamento vigente. As normas orientam que o ente deve:",
+    "back": "**Gabarito: C.** Ação **não prevista** no orçamento = despesa **sem dotação específica** → **crédito adicional especial** (autorizado por lei, indicada a fonte), conforme arts. 40, 41, II, e 43.\n\n> 📖 **Art. 41, II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** não há dotação/empenho para inscrição em restos a pagar; **B** não cabe \"despesas de exercícios anteriores\" (não houve obrigação contraída antes); **D** não há urgência/imprevisibilidade caracterizada para o extraordinário; **E** suplementar é reforço de dotação existente, que aqui inexiste.",
+    "options": [
+      "autorizar a ação se houver disponibilidade para inscrição em restos a pagar.",
+      "executar a ação como despesas de exercícios anteriores no exercício seguinte.",
+      "proceder à abertura de um crédito adicional especial.",
+      "solicitar autorização de crédito extraordinário, dada a necessidade emergencial.",
+      "suplementar dotações orçamentárias na área relacionada à ação."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^IBFC • IMBEL • 2024 • Analista Contábil^^\n\nSobre créditos adicionais: I. São autorizações de despesas não computadas/insuficientemente dotadas. II. Podem ser suplementares, especiais e extraordinários. III. Suplementares = reforço de dotação. IV. Extraordinários = despesas sem dotação específica. Estão corretas:",
+    "back": "**Gabarito: D (I, II e III).** O item **IV está errado**: \"despesas para as quais não haja dotação específica\" é a definição de crédito **ESPECIAL** (art. 41, II), não do extraordinário (que é para despesas **urgentes e imprevisíveis**, art. 41, III).\n\n> 📖 **Art. 40 e 41, Lei 4.320/64.**\n\n**Por que as demais erram:** A, B, C excluem itens corretos (I, II e III); E inclui o item IV, que está incorreto.",
+    "options": [
+      "I, apenas.",
+      "II, apenas.",
+      "I e II, apenas.",
+      "I, II e III, apenas.",
+      "I, II, III e IV."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^IBFC • IMBEL • 2024 • Analista de Orçamento^^\n\nA abertura de créditos suplementares e especiais depende de recursos disponíveis. NÃO é fonte de recursos para atender aos créditos adicionais:",
+    "back": "**Gabarito: A (alienação de ativos).** As fontes legais (art. 43, §1º) são: **superávit financeiro, excesso de arrecadação, anulação de dotações e operações de crédito** — somadas à reserva de contingência e aos recursos de veto/emenda/rejeição. A **alienação de ativos**, isoladamente, **não** consta como fonte para créditos adicionais.\n\n> 📖 **Art. 43, §1º, Lei 4.320/64.**\n\n**Por que as demais são fontes válidas:** **B** superávit financeiro (inciso I); **C** excesso de arrecadação (inciso II); **D** anulação de dotações (inciso III); **E** operações de crédito autorizadas (inciso IV).",
+    "options": [
+      "alienação de ativos.",
+      "superávit financeiro apurado em balanço patrimonial do exercício anterior.",
+      "excesso de arrecadação.",
+      "anulação parcial ou total de dotações orçamentárias ou de créditos adicionais.",
+      "produto de operações de crédito autorizadas."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^IBFC • IMBEL • 2024 • Analista de Orçamento^^\n\nOs créditos suplementares são aqueles:",
+    "back": "**Gabarito: C (destinados a reforço de dotação orçamentária).**\n\n> 📖 **Art. 41, I, Lei 4.320/64** — \"suplementares, os destinados a reforço de dotação orçamentária\".\n\nA LOA pode conter autorização para sua abertura até certo valor/percentual, sem submissão ao Legislativo; têm **vigência no exercício** em que abertos.\n\n**Por que as demais erram:** **A** descreve o **especial**; **B** descreve o **extraordinário**; **D** os suplementares **dependem** de recursos disponíveis; **E** sua abertura **deve** ser precedida de exposição justificativa.",
+    "options": [
+      "destinados a despesas para as quais não haja dotação específica.",
+      "destinados a despesas urgentes e imprevistas (guerra, comoção, calamidade).",
+      "destinados a reforço de dotação orçamentária.",
+      "que não dependem da existência de recursos disponíveis.",
+      "que não serão precedidos de exposição justificativa."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^CEBRASPE • MPO • 2024 • Geral • adaptada C/E→A–E^^\n\nSe a lei que abrir um crédito especial for promulgada nos últimos quatro meses do exercício financeiro, ele:",
+    "back": "**Gabarito: B.** Será **incorporado ao orçamento do exercício seguinte** mediante **reabertura nos limites de seus saldos** (art. 167, §2º, CF). A reabertura **não é automática**: depende de ato do Poder Executivo, respeitado o saldo não utilizado.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **A** não se extingue obrigatoriamente em 31/12 nessa hipótese; **C** a reabertura não é automática; **D** não se reabre pelo valor integral, mas pelo saldo; **E** créditos suplementares é que não se reabrem — mas a questão trata de especial.",
+    "options": [
+      "extingue-se obrigatoriamente em 31 de dezembro, sem reabertura.",
+      "será incorporado ao orçamento do exercício seguinte pela reabertura nos limites de seus saldos.",
+      "é automaticamente reaberto, sem necessidade de ato do Executivo.",
+      "é reaberto pelo seu valor integral, e não apenas pelo saldo.",
+      "não pode ser reaberto, por se tratar de crédito suplementar."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CEBRASPE • TSE • 2024 • Analista Judiciário (Contabilidade) • adaptada C/E→A–E^^\n\nSobre os créditos orçamentários adicionais, assinale a correta:",
+    "back": "**Gabarito: A.** Os créditos adicionais são **autorizações de despesas não previstas ou insuficientemente dotadas** no orçamento original, permitindo **ajustes** para novas demandas ou necessidades imprevistas durante a execução (instrumentos retificadores).\n\n> 📖 **Art. 40, Lei 4.320/64.**\n\n**Por que as demais erram:** **B** não são apenas para despesas urgentes (isso é o extraordinário); **C** não exigem sempre medida provisória; **D** não se restringem ao exercício seguinte; **E** podem **criar** dotações novas (especiais), não apenas ampliar.",
+    "options": [
+      "São autorizações de despesas não previstas ou insuficientemente dotadas, permitindo ajustes durante a execução.",
+      "Destinam-se exclusivamente a despesas urgentes e imprevistas.",
+      "Exigem sempre a edição de medida provisória.",
+      "Têm vigência restrita ao exercício seguinte ao da autorização.",
+      "Apenas ampliam dotações, jamais criando novas."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • Codevasf • 2024 • Analista (Administração) • adaptada C/E→A–E^^\n\nAs despesas decorrentes da criação de novos órgãos públicos inexistentes quando da aprovação da LOA serão atendidas por:",
+    "back": "**Gabarito: D (créditos especiais).** A criação de **novo órgão** sem dotação na LOA gera despesa **nova sem dotação específica** → **crédito especial** (art. 41, II). A assertiva original (que falava em suplementares) está errada.\n\n> 📖 **Art. 41, II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** suplementar é reforço de dotação existente, que não há; **B** extraordinário exige urgência/imprevisibilidade; **C** ordinário é o inicial da LOA; **E** não cabe restos a pagar para despesa sem dotação.",
+    "options": [
+      "créditos suplementares.",
+      "créditos extraordinários.",
+      "créditos ordinários.",
+      "créditos especiais.",
+      "inscrição em restos a pagar."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^Instituto AOCP • MP-PR • 2024 • Auditor • adaptada C/E→A–E^^\n\nPrefeito abriu crédito \"suplementar\" por decreto (dentro do limite da LOA), mas destinado a despesa SEM dotação específica, com fonte em anulação parcial de dotações, e em novembro autorizou sua prorrogação para o exercício seguinte. Os auditores devem indicar que:",
+    "back": "**Gabarito: D.** Os **créditos suplementares podem ter como fonte a anulação total ou parcial de dotações** (art. 43, §1º, III) — esta afirmação é correta. Contudo, o caso narrado mistura erros: usar \"suplementar\" para despesa sem dotação (era caso de **especial**) e prorrogar suplementar (que **não** se reabre).\n\n> 📖 **Art. 43, §1º, III, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** a LOA **pode** autorizar suplementar (art. 165, §8º, CF); **B** o decreto **é** o instrumento de abertura após autorização (art. 42); **C** suplementar é reforço, não despesa sem dotação; **E** o suplementar **não** pode viger no exercício subsequente (só especiais/extraordinários).",
+    "options": [
+      "a LOA não é instrumento adequado para autorizar crédito suplementar.",
+      "decreto não é instrumento adequado para abertura de crédito suplementar.",
+      "os créditos suplementares destinam-se a despesas sem dotação específica.",
+      "os créditos suplementares podem ter como fonte a anulação total ou parcial de dotações.",
+      "os créditos suplementares poderão viger até o término do exercício subsequente se autorizados nos últimos quatro meses."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^AOCP • TRF 2ª Região • 2024 • Técnico Judiciário (Administrativa) • adaptada C/E→A–E^^\n\nCriada uma autarquia municipal de água e esgoto sem dotação orçamentária específica na LOA, foi autorizada a abertura de crédito adicional para custear suas despesas. Trata-se de crédito:",
+    "back": "**Gabarito: D (especial).** Despesa **nova sem dotação específica** (custeio de autarquia recém-criada) → **crédito especial** (art. 41, II).\n\n> 📖 **Art. 41, II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** \"contingente\" e **B** \"exclusivo\" não são espécies de crédito adicional; **C** extraordinário exige urgência/imprevisibilidade; **E** suplementar é reforço de dotação já existente.",
+    "options": [
+      "contingente.",
+      "exclusivo.",
+      "extraordinário.",
+      "especial.",
+      "suplementar."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CEBRASPE • SEPLAG-CE • 2024 • Analista de Gestão Pública (Contabilidade) • adaptada C/E→A–E^^\n\nOs recursos que, em decorrência de veto, emenda ou rejeição do PLOA, ficarem sem despesas correspondentes:",
+    "back": "**Gabarito: A.** Poderão ser utilizados, conforme o caso, mediante **créditos especiais ou suplementares**, com **prévia e específica autorização legislativa** (literalidade do art. 166, §8º, CF).\n\n> 📖 **Art. 166, §8º, CF/88** — \"Os recursos que, em decorrência de veto, emenda ou rejeição do projeto de lei orçamentária anual, ficarem sem despesas correspondentes poderão ser utilizados, conforme o caso, mediante créditos especiais ou suplementares, com prévia e específica autorização legislativa.\"\n\n**Por que as demais erram:** **B** exige-se autorização legislativa (não é dispensada); **C** não cabe crédito extraordinário; **D** não é automático; **E** essa é fonte válida, não vedada.",
+    "options": [
+      "poderão custear créditos especiais ou suplementares, com prévia e específica autorização legislativa.",
+      "poderão ser usados independentemente de autorização legislativa.",
+      "só podem custear créditos extraordinários.",
+      "são automaticamente incorporados ao orçamento, sem ato específico.",
+      "não podem servir de fonte para créditos adicionais."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • SEPLAG-CE • 2024 • Analista de Gestão Pública (Contabilidade) • adaptada C/E→A–E^^\n\nQuanto ao superávit financeiro como recurso para crédito especial ou suplementar, é correto afirmar:",
+    "back": "**Gabarito: B.** O superávit que serve de fonte é o apurado no **BALANÇO PATRIMONIAL** do exercício anterior (art. 43, §1º, I) — **não** no \"balanço financeiro\". A assertiva original (que falava em balanço financeiro) está **errada**.\n\n> 📖 **Art. 43, §1º, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** o balanço de apuração é o **patrimonial**; **C**/**D** superávit usa ativo/passivo **financeiro**, apurado no Balanço Patrimonial, do exercício **anterior**; **E** é fonte válida, não vedada.",
+    "options": [
+      "O superávit do balanço financeiro do exercício anterior é fonte para esses créditos.",
+      "O superávit financeiro é apurado no balanço patrimonial do exercício anterior.",
+      "O superávit é apurado pela diferença entre ativo e passivo permanente.",
+      "Considera-se o superávit do exercício corrente.",
+      "O superávit financeiro não pode ser usado como fonte de créditos adicionais."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • ISS Mossoró • 2024 • Auditor Fiscal do Tesouro Municipal • adaptada C/E→A–E^^\n\nSobre a alteração do atributo \"modalidade de aplicação\" de um crédito orçamentário, é correto afirmar:",
+    "back": "**Gabarito: C.** A alteração da **modalidade de aplicação** (forma de execução: direta ou indireta) **não caracteriza crédito adicional**, pois o **valor da dotação permanece o mesmo** — é uma das \"**outras alterações orçamentárias**\" (MTO), feita diretamente no SIAFI/SIOP.\n\n> 📖 **MTO** — outras alterações orçamentárias: transposição/remanejamento/transferência; alteração de GND autorizada na LDO; alteração de atributos da programação.\n\n**Por que as demais erram:** **A**/**B** não é crédito adicional nem exige lei de crédito; **D** não altera o montante autorizado; **E** créditos adicionais alteram valor (quanti) ou criam dotação (quali), o que não ocorre aqui.",
+    "options": [
+      "Caracteriza crédito adicional especial.",
+      "Exige lei de crédito adicional para ser efetivada.",
+      "Não caracteriza crédito adicional, pois o valor da dotação permanece o mesmo (é outra alteração orçamentária).",
+      "Altera o montante total da dotação autorizada.",
+      "Caracteriza crédito adicional suplementar."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CESGRANRIO • IPEA • 2024 • Técnico^^\n\nEm princípio, o orçamento aprovado só pode ser alterado com autorização do Legislativo, mas há situações em que a abertura de créditos adicionais fica apenas na dependência de decreto do Executivo. É o caso de créditos:",
+    "back": "**Gabarito: E.** Créditos **suplementares nos limites autorizados na LOA** já contam com **autorização legislativa prévia** (art. 165, §8º, CF c/c art. 7º, I, e 42 da Lei 4.320/64); por isso bastam o **decreto** para serem abertos.\n\n> 📖 **Art. 165, §8º, CF/88** e **art. 7º, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** a anulação como fonte não dispensa autorização específica; **B** \"destaque/provisão\" não são créditos adicionais; **C** especiais não se abrem por situação de urgência (isso é extraordinário); **D** o especial exige lei específica (não basta excesso de arrecadação).",
+    "options": [
+      "adicionais cobertos por anulação de dotações.",
+      "adicionais decorrentes de destaque ou provisão.",
+      "especiais autorizados em situações de urgência.",
+      "especiais cobertos por excesso de arrecadação.",
+      "suplementares nos limites autorizados na LOA."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^CEBRASPE • MPE-CE • 2025 • adaptada C/E→A–E^^\n\nSobre créditos ordinários e adicionais, assinale a correta:",
+    "back": "**Gabarito: D.** Os **créditos ordinários (iniciais)** são os aprovados na LOA para as despesas regulares. Os créditos adicionais **especiais e extraordinários** é que se destinam a despesas **não previstas**; já os **suplementares** reforçam dotações existentes. A assertiva original inverteu os conceitos.\n\n> 📖 **Art. 40 e 41, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** ordinário não é para despesa não prevista; **B** o especial não é \"reforço\" (é o suplementar); **C** o ordinário não atende a imprevisíveis; **E** o suplementar não cria despesa nova.",
+    "options": [
+      "Créditos ordinários destinam-se a despesas não previstas; especiais reforçam dotações existentes.",
+      "Créditos ordinários reforçam dotações existentes; adicionais criam despesas.",
+      "Créditos ordinários atendem necessidades imprevisíveis; especiais são despesas regulares.",
+      "Créditos ordinários são os aprovados na LOA; especiais/extraordinários atendem despesas não previstas, e suplementares reforçam dotações existentes.",
+      "Créditos suplementares criam despesas novas sem dotação prévia."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • TJ-MA • 2019 • Técnico Judiciário • adaptada C/E→A–E^^\n\nQuanto à classificação dos créditos adicionais, é correto afirmar que eles se dividem em:",
+    "back": "**Gabarito: A.** Os créditos adicionais classificam-se em **suplementares, especiais e extraordinários** (art. 41).\n\n> 📖 **Art. 41, Lei 4.320/64** — I) suplementares; II) especiais; III) extraordinários.\n\n**Mnemônico:** {blue:S-E-E} — **S**uplementar (reforço), **E**special (sem dotação), **E**xtraordinário (urgente/imprevisível).\n\n**Por que as demais erram:** incluem espécies inexistentes (ordinários, contingentes, extraorçamentários) na classificação dos créditos adicionais.",
+    "options": [
+      "suplementares, especiais e extraordinários.",
+      "suplementares, especiais e ordinários.",
+      "ordinários, especiais e extraordinários.",
+      "suplementares, contingentes e extraordinários.",
+      "especiais, extraordinários e extraorçamentários."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • AFAP • 2019 • Analista de Fomento • adaptada C/E→A–E^^\n\nAs emendas à Lei Orçamentária, dotadas de efeitos financeiros após sua aprovação, constituem créditos classificados em suplementares, extraordinários e especiais — sendo estes últimos destinados a despesas de guerra. Assinale a correta:",
+    "back": "**Gabarito: B.** A assertiva está **errada**: créditos para despesas de **guerra** (urgentes e imprevisíveis) são **extraordinários**, e não especiais. Os especiais são para despesas **sem dotação específica**.\n\n> 📖 **Art. 41, II e III, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** a frase está incorreta; **C** especial não é para guerra; **D** suplementar é reforço de dotação, não para guerra; **E** a classificação tem três espécies, todas corretamente nomeadas, mas o erro está na destinação atribuída ao especial.",
+    "options": [
+      "A afirmação está correta: especiais atendem despesas de guerra.",
+      "A afirmação está incorreta: despesas de guerra são atendidas por créditos extraordinários.",
+      "Especiais e suplementares atendem despesas de guerra.",
+      "Despesas de guerra são atendidas por créditos suplementares.",
+      "A classificação correta exclui os créditos extraordinários."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CESPE • MPU • 2018 • Técnico • adaptada C/E→A–E^^\n\nCaso o Poder Executivo abra um crédito suplementar, os recursos correspondentes:",
+    "back": "**Gabarito: C.** Os créditos suplementares **integram** os créditos orçamentários, somando-se aos créditos ordinários (iniciais) — **não** são excluídos do cômputo total. A assertiva original (\"serão excluídos do cômputo\") está errada.\n\n> 📖 **Art. 41, I, Lei 4.320/64** — suplementares: reforço de dotação, incorporando-se ao orçamento.\n\n**Por que as demais erram:** **A**/**B**/**E** afirmam exclusão ou conservação separada (isso é dos especiais/extraordinários); **D** o suplementar **incorpora-se** ao orçamento.",
+    "options": [
+      "serão excluídos do cômputo total dos créditos orçamentários.",
+      "serão demonstrados separadamente, conservando especificidade.",
+      "integram os créditos orçamentários, somando-se aos ordinários (iniciais).",
+      "reduzem o total dos créditos orçamentários do exercício.",
+      "não se incorporam ao orçamento vigente."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FCC • TRT 11ª Região • 2017 • Analista Judiciário • adaptada C/E→A–E^^\n\nDespesas não fixadas na LOA, ou com dotação insuficiente, durante a execução, são corrigidas por mecanismos de alteração do orçamento. Sobre esses mecanismos, assinale a correta:",
+    "back": "**Gabarito: D.** A LOA pode ser alterada na execução por **créditos adicionais** (uma de cujas espécies é o crédito **suplementar**). Não existe a expressão \"créditos iniciais suplementares\" — \"iniciais\" referem-se aos **ordinários**, e os \"suplementares\" são uma espécie de crédito **adicional**.\n\n> 📖 **Art. 40 e 41, Lei 4.320/64.**\n\n**Por que as demais erram:** **A**/**B**/**C** confundem \"créditos iniciais\" (ordinários) com créditos adicionais; **E** restos a pagar não corrige insuficiência de dotação na execução.",
+    "options": [
+      "São exemplos de mecanismos os créditos iniciais suplementares.",
+      "São exemplos os créditos ordinários extraordinários.",
+      "A LOA não pode ser alterada na execução.",
+      "A LOA pode ser alterada na execução por créditos adicionais, dentre os quais o suplementar.",
+      "A correção se dá apenas por inscrição em restos a pagar."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CESPE • TCE-PR • 2016 • Auditor (Conselheiro Substituto) • adaptada C/E→A–E^^\n\nNo âmbito federal, sobre a formalização das alterações orçamentárias, é correto afirmar que:",
+    "back": "**Gabarito: B.** Aprovado o pedido de crédito adicional, são preparados pela **SOF (Secretaria de Orçamento Federal)** os atos legais necessários à formalização da alteração no orçamento (p. ex., o projeto de lei do crédito suplementar dependente de autorização).\n\n> 📖 Processo orçamentário federal (MTO/SOF).\n\n**Por que as demais erram:** **A** não é a STN nem o TCU que elaboram os atos de alteração; **C**/**D**/**E** atribuem a tarefa a órgãos ou Poderes que não a executam (a SOF é o órgão central do sistema de orçamento federal).",
+    "options": [
+      "Os atos legais de alteração são elaborados pela STN.",
+      "Os atos legais de alteração orçamentária são elaborados pela SOF.",
+      "Os atos são elaborados exclusivamente pelo TCU.",
+      "As alterações dispensam qualquer ato formal.",
+      "As alterações são elaboradas diretamente pelo Congresso Nacional."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • CAESB-DF • 2025 • adaptada C/E→A–E^^\n\nAcerca das características do crédito adicional suplementar, assinale a opção correta:",
+    "back": "**Gabarito: D.** Os créditos suplementares são **autorizados por lei e abertos por decreto executivo** (art. 42).\n\n> 📖 **Art. 42, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** o suplementar **não** se reabre no exercício seguinte (só especiais/extraordinários); **B** essa é a definição do **especial** (despesa sem dotação); **C** a abertura **depende** de recursos disponíveis (art. 43); **E** a exposição de justificativa é **obrigatória**, não facultativa.",
+    "options": [
+      "O saldo do crédito suplementar poderá ser reaberto no exercício seguinte.",
+      "São destinados a despesas para as quais não haja dotação específica.",
+      "Independem da existência de recursos disponíveis.",
+      "Serão autorizados por lei e abertos por decreto executivo.",
+      "A exposição de justificativa para a abertura é facultativa."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^CESPE • SEE-PE • 2022 • adaptada C/E→A–E^^\n\nSobre os créditos suplementares autorizados na LOA e sua abertura por outros Poderes, assinale a correta:",
+    "back": "**Gabarito: A.** Segundo o MTO, os créditos suplementares **autorizados na LOA** podem ser abertos por **atos próprios dos Poderes Legislativo e Judiciário, do MPU e da DPU**, desde que indicados **recursos compensatórios** dos órgãos favorecidos, sendo **vedado o cancelamento de despesas financeiras para suplementar despesas primárias**.\n\n> 📖 **MTO** (créditos suplementares autorizados na LOA).\n\n**Por que as demais erram:** **B**/**C**/**E** negam a possibilidade ou a vedação; **D** o cancelamento de financeiras para primárias é justamente o que é **vedado**.",
+    "options": [
+      "Podem ser abertos por atos próprios desses Poderes/órgãos, com recursos compensatórios, sendo vedado cancelar financeiras para suplementar primárias.",
+      "Só podem ser abertos por decreto do Poder Executivo central.",
+      "Não podem ser abertos por atos próprios de outros Poderes em hipótese alguma.",
+      "É permitido cancelar despesas financeiras para suplementar despesas primárias.",
+      "Dispensam a indicação de recursos compensatórios dos órgãos favorecidos."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^CESPE • TCE-PB • 2022 • adaptada C/E→A–E^^\n\nSobre as modalidades de crédito suplementar, assinale a correta:",
+    "back": "**Gabarito: E.** Os créditos suplementares podem ser de **duas modalidades**: (1) **autorizados na própria LOA** (dentro de limites/percentuais, art. 165, §8º, CF) e (2) **dependentes de autorização legislativa** específica (quando excedem o limite da LOA).\n\n> 📖 **MTO** e **art. 165, §8º, CF/88.**\n\n**Por que as demais erram:** **A**–**D** restringem o suplementar a uma única forma de autorização, ignorando a dualidade prevista no MTO.",
+    "options": [
+      "Só podem ser autorizados na própria LOA.",
+      "Só podem depender de autorização legislativa específica.",
+      "Nunca podem constar de autorização na LOA.",
+      "Sempre exigem nova lei, mesmo dentro dos limites da LOA.",
+      "Podem ser tanto autorizados na LOA quanto dependentes de autorização legislativa."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • SEFAZ-AM • 2022 • adaptada C/E→A–E^^\n\nDentre os créditos adicionais, aqueles incorporados ao orçamento adicionando-se à dotação orçamentária que é reforçada são:",
+    "back": "**Gabarito: B (os suplementares, apenas).** Apenas o crédito **suplementar** se **incorpora** ao orçamento, somando-se à dotação que reforça (alteração quantitativa). Especiais e extraordinários **conservam especificidade**.\n\n> 📖 **Art. 41, I, Lei 4.320/64.**\n\n**Por que as demais erram:** especiais e extraordinários não se \"adicionam\" a dotação existente — são demonstrados separadamente. Logo, qualquer alternativa que os inclua está errada.",
+    "options": [
+      "os especiais, apenas.",
+      "os suplementares, apenas.",
+      "os extraordinários, apenas.",
+      "os suplementares e especiais.",
+      "os especiais e extraordinários."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FCC • TJ-MA • 2019 • Analista Judiciário • adaptada C/E→A–E^^\n\nAditamento de contrato de vigilância ampliou quantitativos (nos limites legais), mas as dotações da LOA não seriam suficientes. Diante disso, cabe a abertura de crédito adicional:",
+    "back": "**Gabarito: A.** Dotação **insuficiente** = crédito **suplementar** (reforço), que depende de **prévia autorização legislativa**.\n\n> 📖 **Art. 41, I, e art. 167, V, CF/88.**\n\n**Por que as demais erram:** **B** especial é para despesa **sem** dotação; **C** extraordinário exige urgência/imprevisibilidade; **D** não é caso de restos a pagar; **E** ordinário é o crédito inicial da LOA, não se \"abre\" na execução.",
+    "options": [
+      "suplementar, mediante prévia autorização legislativa.",
+      "especial, por se tratar de despesa nova.",
+      "extraordinário, por urgência.",
+      "inscrição em restos a pagar.",
+      "ordinário, na própria LOA."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^CESPE • STM • 2018 • adaptada C/E→A–E^^\n\nOs créditos suplementares previamente autorizados na LOA são abertos por:",
+    "back": "**Gabarito: C (decreto do Poder Executivo).** A LOA pode conter autorização para abertura de créditos suplementares até certa importância/percentual, sem submissão ao Legislativo; nesse caso, a abertura se dá por **decreto** do Executivo.\n\n> 📖 **Art. 42, Lei 4.320/64** e **art. 165, §8º, CF/88.**\n\n**Por que as demais erram:** **A** não é por lei nova (já autorizado na LOA); **B** medida provisória é do extraordinário; **D**/**E** não é por portaria do Legislativo nem por resolução isolada.",
+    "options": [
+      "nova lei específica para cada crédito.",
+      "medida provisória do chefe do Executivo.",
+      "decreto do Poder Executivo.",
+      "portaria do Poder Legislativo.",
+      "resolução do Tribunal de Contas."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FCC • ALE-SE • 2018 • adaptada C/E→A–E^^\n\nDotação remanescente insuficiente para empenho de despesa com reformas. Para executar a despesa, é necessária a abertura de crédito adicional denominado:",
+    "back": "**Gabarito: B.** Reforço de dotação insuficiente = crédito **suplementar**. A assertiva original chamava-o de \"crédito adicional complementar\", expressão **inexistente** na legislação (a denominação correta é **suplementar**).\n\n> 📖 **Art. 41, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** \"complementar\" não é espécie legal; **C** especial é para despesa sem dotação; **D** extraordinário exige urgência; **E** \"ordinário\" é o crédito inicial.",
+    "options": [
+      "crédito adicional complementar.",
+      "crédito adicional suplementar.",
+      "crédito adicional especial.",
+      "crédito adicional extraordinário.",
+      "crédito ordinário."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^CESPE • STM • 2018 • Técnico Judiciário • adaptada C/E→A–E^^\n\nQuanto à vigência dos créditos suplementares, é correto afirmar que eles:",
+    "back": "**Gabarito: A.** Os créditos suplementares têm **vigência exclusivamente dentro do exercício financeiro** em que são abertos (obedecem à anualidade); **não** se reabrem.\n\n> 📖 **Art. 41, I, Lei 4.320/64** e princípio da anualidade.\n\n**Por que as demais erram:** **B**/**C** confundem com a regra de reabertura dos especiais/extraordinários (últimos quatro meses); **D**/**E** o suplementar não viger por dois exercícios nem indefinidamente.",
+    "options": [
+      "têm vigência exclusivamente dentro do exercício financeiro em que são abertos.",
+      "podem ser reabertos no exercício seguinte se autorizados nos últimos quatro meses.",
+      "têm vigência prorrogável por novo ato do Executivo.",
+      "vigoram por dois exercícios consecutivos.",
+      "têm vigência indeterminada até o uso integral do saldo."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FCC • TRT 6ª Região • 2018 • Analista Judiciário • adaptada C/E→A–E^^\n\nConcessão de benefícios pecuniários a carreira de servidores, no meio do exercício, com insuficiência das dotações correspondentes. A solução orçamentária é a abertura de crédito adicional:",
+    "back": "**Gabarito: A.** Insuficiência de dotação consignada na LOA → crédito **suplementar**, que **necessita de autorização legislativa**.\n\n> 📖 **Art. 41, I, e art. 167, V, CF/88.**\n\n**Por que as demais erram:** **B** especial é para despesa sem dotação; **C** extraordinário exige urgência/imprevisibilidade; **D** não é caso de despesas de exercícios anteriores; **E** \"ordinário\" não se abre na execução.",
+    "options": [
+      "suplementar, necessitando de autorização legislativa.",
+      "especial, por ser despesa nova.",
+      "extraordinário, por urgência.",
+      "despesas de exercícios anteriores.",
+      "ordinário, na LOA."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^FGV • ALERJ • 2017 • Especialista Legislativo • adaptada C/E→A–E^^\n\nDotação para manutenção de equipamentos de informática dimensionada a menor; solicitada a abertura de crédito adicional. Sobre esse crédito, assinale a correta:",
+    "back": "**Gabarito: E.** Trata-se de crédito **suplementar** (reforço de dotação), que **se incorpora ao orçamento**, adicionando-se à dotação reforçada. A assertiva original (\"conserva especificidade e não é incorporado\") está **errada** — isso descreve os especiais/extraordinários.\n\n> 📖 **Art. 41, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **A**/**B** afirmam que conserva especificidade (é o especial/extraordinário); **C** não é despesa nova; **D** não exige urgência.",
+    "options": [
+      "Conserva especificidade e não é incorporado ao orçamento.",
+      "É demonstrado separadamente das demais despesas.",
+      "É crédito especial, por ser despesa nova.",
+      "Exige caráter de urgência para sua abertura.",
+      "É crédito suplementar e incorpora-se ao orçamento, adicionando-se à dotação reforçada."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^CEBRASPE • STM • 2025 • adaptada C/E→A–E^^\n\nCaso o governo pretenda aumentar os recursos de um projeto cuja previsão já consta do orçamento anual, deverá recorrer a:",
+    "back": "**Gabarito: B.** Se o projeto **já possui dotação** na LOA, aumentar seus recursos é **reforço** → crédito **suplementar** (art. 41, I), e não especial. A assertiva original (que indicava crédito especial) está errada.\n\n> 📖 **Art. 41, I e II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** especial é para despesa **sem** dotação; **C** extraordinário exige urgência/imprevisibilidade; **D** ordinário é o crédito inicial; **E** restos a pagar não é o instrumento.",
+    "options": [
+      "crédito especial.",
+      "crédito suplementar.",
+      "crédito extraordinário.",
+      "crédito ordinário.",
+      "inscrição em restos a pagar."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FGV • Senado Federal • 2022 • adaptada C/E→A–E^^\n\nNão havendo previsão na LOA para auxílio-moradia de servidores recém-nomeados, foi enviado projeto de lei (em outubro) autorizando os gastos. Tal autorização será para abertura de crédito adicional:",
+    "back": "**Gabarito: A.** Despesa **sem dotação** = crédito **especial**; como autorizado nos **últimos quatro meses** do exercício, **permite-se a reabertura** no exercício seguinte (art. 167, §2º, CF).\n\n> 📖 **Art. 41, II, Lei 4.320/64** e **art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **B** suplementar é reforço de dotação existente; **C** não é extraordinário (sem urgência); **D** o especial **pode** ser reaberto se promulgado nos últimos 4 meses; **E** não é aberto por MP.",
+    "options": [
+      "especial, permitida sua reabertura no exercício seguinte.",
+      "suplementar, com vigência apenas no exercício.",
+      "extraordinário, por medida provisória.",
+      "especial, sem possibilidade de reabertura.",
+      "especial, aberto por medida provisória."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FGV • MP-SC • 2022 • adaptada C/E→A–E^^\n\nSobre a prorrogação da vigência de um crédito especial, assinale a correta:",
+    "back": "**Gabarito: D.** A condição para a reabertura do crédito especial é ter sido o ato de autorização **promulgado nos últimos quatro meses** do exercício (art. 167, §2º, CF). **Não** há na CF menção à **LDO** como condição. A assertiva original (que exigia previsão na LDO + saldo) está errada.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **A**/**B** atribuem à LDO papel que ela não tem; **C** não basta saldo a empenhar; **E** o suplementar não se reabre.",
+    "options": [
+      "Basta a previsão na LDO e saldo a empenhar.",
+      "A LDO é condição suficiente para prorrogar o crédito especial.",
+      "Basta haver saldo a empenhar, em qualquer data de autorização.",
+      "A condição é o ato de autorização ter sido promulgado nos últimos quatro meses do exercício.",
+      "O crédito especial não admite qualquer prorrogação."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CESPE • TCE-PB • 2022 • adaptada C/E→A–E^^\n\nSobre a incorporação dos créditos especiais ao orçamento do exercício seguinte, assinale a correta:",
+    "back": "**Gabarito: C.** Os créditos especiais **podem ser incorporados ao orçamento do exercício subsequente** caso autorizada a sua **reabertura** (ato promulgado nos últimos quatro meses, reaberto nos limites dos saldos).\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **A**/**B** negam a possibilidade; **D** a reabertura é facultativa, não automática; **E** o suplementar é que não se reabre — mas a questão trata do especial.",
+    "options": [
+      "Nunca podem ser incorporados ao exercício seguinte.",
+      "Só se incorporam mediante nova lei orçamentária.",
+      "Podem ser incorporados ao orçamento subsequente caso autorizada sua reabertura.",
+      "São automaticamente incorporados, sem qualquer ato.",
+      "Incorporam-se como crédito suplementar no exercício seguinte."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FCC • TJ-MA • 2019 • adaptada C/E→A–E^^\n\nA respeito dos créditos especiais, assinale a correta:",
+    "back": "**Gabarito: E.** Os créditos especiais referem-se a despesas para as quais **não haja dotação orçamentária específica** — e **não** a despesas com dotação \"insuficiente\" (que seriam supridas por crédito suplementar). A assertiva original está errada.\n\n> 📖 **Art. 41, II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A**–**D** confundem especial (sem dotação) com suplementar (dotação insuficiente) ou com extraordinário.",
+    "options": [
+      "Referem-se a despesas com dotação orçamentária insuficiente.",
+      "São destinados a reforço de dotação existente.",
+      "São para despesas urgentes e imprevisíveis.",
+      "São o crédito inicial aprovado na LOA.",
+      "São destinados a despesas para as quais não haja dotação orçamentária específica."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CESPE • ABIN • 2018 • adaptada C/E→A–E^^\n\nSobre a vigência dos créditos especiais para exercício diverso do de sua autorização, assinale a correta:",
+    "back": "**Gabarito: B.** Não é vedada de forma absoluta: os créditos especiais **não** têm vigência além do exercício, **salvo** se autorizados nos **últimos quatro meses**, hipótese em que são reabertos nos limites dos saldos (art. 167, §2º, CF). A assertiva original (\"é vedada a prorrogação\") está errada.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **A** afirma vedação absoluta; **C**/**D**/**E** descrevem prazos/condições incorretos.",
+    "options": [
+      "É absolutamente vedada a vigência em exercício diverso.",
+      "É possível reabri-los no exercício seguinte se autorizados nos últimos quatro meses.",
+      "A prorrogação ocorre se autorizados nos primeiros quatro meses.",
+      "Os especiais vigoram automaticamente por dois exercícios.",
+      "A prorrogação independe da data de autorização."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CESPE • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nSobre a distinção entre crédito suplementar e crédito especial, assinale a correta:",
+    "back": "**Gabarito: A.** O **crédito suplementar** incorpora-se ao orçamento vigente, adicionando-se à dotação que reforça; os **créditos especiais** são destinados a despesas para as quais **não haja dotação específica** (e conservam sua especificidade).\n\n> 📖 **Art. 41, I e II, Lei 4.320/64.**\n\n**Por que as demais erram:** **B**–**E** invertem características (especial reforçando dotação, suplementar para despesa nova etc.).",
+    "options": [
+      "O suplementar incorpora-se à dotação reforçada; o especial atende despesa sem dotação específica.",
+      "O suplementar atende despesa sem dotação; o especial reforça dotação existente.",
+      "Ambos atendem apenas despesas urgentes.",
+      "O especial incorpora-se à dotação reforçada.",
+      "Ambos são abertos por medida provisória."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FGV • Câmara Municipal de Salvador • 2018 • adaptada C/E→A–E^^\n\nSurgiu a necessidade de executar despesa não prevista no orçamento de entidade municipal. Para executá-la, é necessário abrir crédito adicional:",
+    "back": "**Gabarito: D.** Despesa **não prevista** = crédito **especial**, que exige **indicação de fonte de recursos** (art. 41, II, e art. 43).\n\n> 📖 **Art. 41, II, Lei 4.320/64** e **art. 167, V, CF/88.**\n\n**Por que as demais erram:** **A** suplementar é reforço de dotação existente; **B** extraordinário exige urgência/imprevisibilidade; **C** ordinário é o crédito inicial; **E** o especial **não** dispensa indicação de fonte.",
+    "options": [
+      "suplementar, com indicação de fonte.",
+      "extraordinário, por urgência.",
+      "ordinário, na LOA.",
+      "especial, com indicação de fonte de recursos.",
+      "especial, dispensando indicação de fonte."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FGV • SEFIN-RO • 2018 • adaptada C/E→A–E^^\n\nUm novo projeto que visa atender objetivo não previsto no orçamento (despesa sem dotação específica) é atendido por crédito classificado como:",
+    "back": "**Gabarito: D (especial).** Despesas para as quais **não haja dotação específica** — como um novo projeto não previsto — são atendidas por crédito **especial** (art. 41, II). A assertiva original (que classificava como suplementar) está errada.\n\n> 📖 **Art. 41, II, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** suplementar é reforço; **B** extraordinário exige urgência; **C** ordinário é o inicial; **E** \"extraorçamentário\" não é espécie de crédito adicional.",
+    "options": [
+      "suplementar.",
+      "extraordinário.",
+      "ordinário.",
+      "especial.",
+      "extraorçamentário."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FGV • Câmara Municipal de Salvador • 2018 • adaptada C/E→A–E^^\n\nSobre a possibilidade de prorrogação de um crédito adicional especial, assinale a correta:",
+    "back": "**Gabarito: E.** O crédito especial **não** é necessariamente improrrogável: pode ser **reaberto** no exercício seguinte se o ato de autorização for promulgado nos **últimos quatro meses** do exercício (art. 167, §2º, CF). A assertiva original (\"é improrrogável\") está errada.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **A** afirma improrrogabilidade absoluta; **B**/**C**/**D** trazem prazos/condições incorretos.",
+    "options": [
+      "O especial é sempre improrrogável para o exercício seguinte.",
+      "Pode ser prorrogado se autorizado nos primeiros quatro meses.",
+      "A prorrogação independe da data de autorização.",
+      "O especial vigora automaticamente por dois exercícios.",
+      "Pode ser reaberto no exercício seguinte se autorizado nos últimos quatro meses."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^FCC • TRE-SP • 2017 • adaptada C/E→A–E^^\n\nEm outubro/2016, não havendo dotação específica, foi aberto crédito adicional de R$120.000 para aquisição de dois veículos, com recursos de anulação parcial de dotação. Esse crédito classifica-se como:",
+    "back": "**Gabarito: D (especial).** Despesa **sem dotação específica** = crédito **especial** (art. 41, II), podendo ser custeado por **anulação de dotação** (art. 43, §1º, III).\n\n> 📖 **Art. 41, II, e art. 43, §1º, III, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** suplementar é reforço de dotação existente; **B** extraordinário exige urgência; **C** ordinário é o inicial; **E** \"extraorçamentário\" não é crédito adicional.",
+    "options": [
+      "suplementar.",
+      "extraordinário.",
+      "ordinário.",
+      "especial.",
+      "extraorçamentário."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^CEBRASPE • STJ • 2024 • adaptada C/E→A–E^^\n\nQuanto ao uso de créditos extraordinários para reforço de despesas com pessoal da ativa (reajustes de remuneração), em situação previsível, assinale a correta:",
+    "back": "**Gabarito: C.** Despesa de pessoal por reajuste é **previsível** → não cabe crédito extraordinário (que exige urgência **e imprevisibilidade**). O instrumento correto é o **crédito suplementar** (art. 41, I). A assertiva original está errada.\n\n> 📖 **Art. 167, §3º, CF/88** e **art. 41, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **A**/**B** admitem extraordinário para despesa previsível; **D**/**E** confundem com especial ou negam a necessidade de crédito.",
+    "options": [
+      "Cabe crédito extraordinário, pois envolve despesa de pessoal.",
+      "Cabe extraordinário, ainda que previsível a despesa.",
+      "Não cabe extraordinário (despesa previsível); usa-se crédito suplementar.",
+      "Usa-se crédito especial, por ser despesa nova.",
+      "Não há necessidade de crédito adicional."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CEBRASPE • Pref. de Cachoeiro de Itapemirim • 2024 • adaptada C/E→A–E^^\n\nOs créditos adicionais classificam-se como extraordinários quando destinados a:",
+    "back": "**Gabarito: A.** Os créditos **extraordinários** destinam-se a **dispêndios urgentes e imprevistos**, em caso de **guerra, comoção intestina (interna) ou calamidade pública** (art. 167, §3º, CF; art. 41, III).\n\n> 📖 **Art. 167, §3º, CF/88.**\n\n**Por que as demais erram:** **B** reforço de dotação é suplementar; **C** despesa sem dotação específica é especial; **D**/**E** descrevem hipóteses que não caracterizam o extraordinário.",
+    "options": [
+      "dispêndios urgentes e imprevistos, em caso de guerra, comoção interna ou calamidade pública.",
+      "reforço de dotação orçamentária existente.",
+      "despesas sem dotação orçamentária específica, mas previsíveis.",
+      "qualquer despesa não prevista, ainda que sem urgência.",
+      "despesas regulares da administração."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CEBRASPE • MPO • 2024 • adaptada C/E→A–E^^\n\nConforme a CF/88, a abertura de crédito extraordinário, que se dá por medida provisória, será admitida para atender a despesas:",
+    "back": "**Gabarito: D.** A abertura é admitida para despesas **imprevisíveis e urgentes**, em rol **exemplificativo** (\"como as decorrentes de guerra, comoção interna ou calamidade pública\"). A assertiva original errou ao dizer \"**somente** guerra, comoção interna ou calamidade\" (taxatividade indevida).\n\n> 📖 **Art. 167, §3º, c/c art. 62, CF/88.**\n\n**Por que as demais erram:** **A**/**B**/**C** tratam o rol como taxativo ou excluem hipóteses; o correto é o rol exemplificativo de despesas imprevisíveis e urgentes.",
+    "options": [
+      "somente guerra e calamidade pública, taxativamente.",
+      "somente guerra, comoção interna ou calamidade, taxativamente.",
+      "qualquer despesa, ainda que previsível.",
+      "imprevisíveis e urgentes, em rol exemplificativo (guerra, comoção interna, calamidade).",
+      "apenas despesas correntes de custeio."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CESPE • SEE-PE • 2022 • adaptada C/E→A–E^^\n\nDeclarada calamidade por doença reconhecida como emergência global, para alocar recursos adicionais ao orçamento usa-se o mecanismo retificador denominado:",
+    "back": "**Gabarito: C (crédito extraordinário).** Calamidade pública por emergência sanitária → despesas **urgentes e imprevisíveis** → **crédito extraordinário** (art. 41, III). A assertiva original (que falava em \"crédito ordinário\") está errada.\n\n> 📖 **Art. 41, III, Lei 4.320/64 c/c art. 167, §3º, CF/88.**\n\n**Por que as demais erram:** **A** ordinário é o crédito inicial (não retifica); **B** suplementar reforça dotação; **D** especial é despesa sem dotação sem urgência; **E** \"extraorçamentário\" não é crédito adicional.",
+    "options": [
+      "crédito ordinário.",
+      "crédito suplementar.",
+      "crédito extraordinário.",
+      "crédito especial.",
+      "crédito extraorçamentário."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FGV • TJ-TO • 2022 • adaptada C/E→A–E^^\n\nSobre a conformidade da abertura de créditos extraordinários, assinale a correta:",
+    "back": "**Gabarito: B.** Os créditos **extraordinários dispensam autorização prévia** do Legislativo (apenas suplementares e especiais a exigem). A MP que os abre será **posteriormente** apreciada pelo Congresso. A assertiva original (que listava \"autorização prévia\" como fator de análise) está errada.\n\n> 📖 **Art. 167, §3º, c/c art. 62, CF/88.**\n\n**Por que as demais erram:** **A**/**C**/**E** exigem autorização prévia para o extraordinário; **D** confunde com a exigência de fonte (também facultativa nele).",
+    "options": [
+      "Os extraordinários exigem autorização prévia do Legislativo.",
+      "Os extraordinários dispensam autorização prévia; a MP é apreciada posteriormente pelo Congresso.",
+      "A autorização prévia é exigida, mas a fonte é facultativa.",
+      "Exigem indicação prévia da fonte de recursos.",
+      "Exigem lei autorizativa prévia editada pelo Legislativo."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FGV • MP-SC • 2022 • adaptada C/E→A–E^^\n\nAberto crédito extraordinário para situação emergencial, verificou-se depois que a dotação foi insuficiente, persistindo a emergência. O reforço deve dar-se por:",
+    "back": "**Gabarito: D.** Dada a natureza emergencial, a insuficiência de um crédito extraordinário é sanada por **novo crédito extraordinário** (da mesma natureza) — **não** por suplementar ou especial. A assertiva original (que indicava suplementar) está errada.\n\n> 📖 **Art. 41, III, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** suplementar reforça dotação ordinária, não crédito extraordinário; **B** especial é despesa nova sem urgência; **C** restos a pagar não cabe; **E** reserva de contingência não é o reforço de um extraordinário em curso.",
+    "options": [
+      "abertura de novo crédito suplementar.",
+      "abertura de crédito especial.",
+      "inscrição em restos a pagar.",
+      "abertura de novo crédito extraordinário.",
+      "utilização da reserva de contingência."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • Pref. de Recife • 2019 • Analista (Planejamento e Orçamento) • adaptada C/E→A–E^^\n\nMunicípio em calamidade pública por fortes chuvas precisa realizar obras emergenciais de contenção, sem dotação específica na LOA. Cabe a abertura de crédito adicional:",
+    "back": "**Gabarito: E.** Calamidade pública (urgente e imprevisível) → **crédito extraordinário**, cuja abertura **independe de autorização legislativa**.\n\n> 📖 **Art. 41, III, Lei 4.320/64 c/c art. 167, §3º, CF/88.**\n\n**Por que as demais erram:** **A** suplementar reforça dotação existente; **B** especial exige autorização legislativa e não tem o caráter de urgência; **C** ordinário é o inicial; **D** \"extraorçamentário\" não é crédito adicional.",
+    "options": [
+      "suplementar, com autorização legislativa.",
+      "especial, com autorização legislativa.",
+      "ordinário, na LOA.",
+      "extraorçamentário, pelo Legislativo.",
+      "extraordinário, independentemente de autorização legislativa."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CESPE • STM • 2018 • Técnico Judiciário • adaptada C/E→A–E^^\n\nQuanto à indicação de recursos na abertura de créditos extraordinários, assinale a correta:",
+    "back": "**Gabarito: A.** A indicação da fonte de recursos para os créditos extraordinários é **facultativa** — sua abertura **não depende** da existência de fontes disponíveis, dada a urgência. A assertiva original (que exigia indicação dos recursos) está errada.\n\n> 📖 **Art. 167, §3º, CF/88** e **art. 44, Lei 4.320/64.**\n\n**Por que as demais erram:** **B**–**E** exigem indicação obrigatória de recursos ou autorização prévia, requisitos próprios dos suplementares/especiais.",
+    "options": [
+      "A indicação da fonte é facultativa; a abertura independe de recursos disponíveis.",
+      "A indicação da fonte é obrigatória.",
+      "Depende de autorização legislativa prévia e de fonte.",
+      "Depende de superávit financeiro do exercício anterior.",
+      "Depende de excesso de arrecadação comprovado."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CESPE • TCE-PB • 2018 • Auditor de Contas Públicas • adaptada C/E→A–E^^\n\nSobre a edição de medida provisória para abertura de crédito extraordinário, assinale a correta:",
+    "back": "**Gabarito: B.** A CF admite MP para abrir crédito extraordinário (despesas imprevisíveis e urgentes), devendo o Presidente **submetê-la de imediato** ao Congresso — **a autorização não é prévia**. A assertiva original (que exigia autorização prévia) está errada.\n\n> 📖 **Art. 62 e art. 167, §3º, CF/88.**\n\n**Por que as demais erram:** **A**/**C**/**E** exigem autorização prévia; **D** nega a possibilidade de MP, que é justamente o instrumento na União.",
+    "options": [
+      "A MP só é válida com autorização legislativa prévia.",
+      "A MP é admitida; a apreciação pelo Congresso é posterior (imediata submissão), não prévia.",
+      "A MP exige aprovação prévia do TCU.",
+      "Não se admite MP para crédito extraordinário.",
+      "A MP exige indicação prévia da fonte e autorização legislativa."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CESPE • TCE-PE • 2017 • Analista de Controle Externo • adaptada C/E→A–E^^\n\nSobre a anualidade dos créditos orçamentários (ordinários e adicionais), assinale a correta:",
+    "back": "**Gabarito: D.** A anualidade comporta **exceção**: créditos **especiais e extraordinários** autorizados nos **últimos quatro meses** podem ser reabertos e viger no exercício seguinte (art. 167, §2º, CF). A assertiva original (\"sem qualquer exceção\") está errada.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **A** afirma ausência total de exceção; **B**/**C** restringem a exceção indevidamente; **E** estende a exceção também aos suplementares (que não se reabrem).",
+    "options": [
+      "A anualidade não admite qualquer exceção.",
+      "A exceção alcança apenas os créditos extraordinários.",
+      "A exceção alcança apenas os créditos especiais.",
+      "Especiais e extraordinários (últimos quatro meses) são exceção à anualidade.",
+      "Todos os créditos adicionais, inclusive suplementares, são exceção."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • TRE-SP • 2017 • adaptada C/E→A–E^^\n\nOs créditos adicionais que terão vigência no exercício em que autorizados, salvo se promulgados nos últimos quatro meses (caso em que, reabertos nos limites dos saldos, são incorporados ao orçamento seguinte), são denominados:",
+    "back": "**Gabarito: D (especiais e extraordinários).** A regra de reabertura do art. 167, §2º, da CF aplica-se **somente** aos créditos **especiais e extraordinários** — **não** aos suplementares. A assertiva original (\"especiais, suplementares e extraorçamentários\") está errada.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** incluem suplementares, ordinários ou \"extraorçamentários\", que não se submetem à regra de reabertura.",
+    "options": [
+      "especiais, suplementares e extraorçamentários.",
+      "suplementares e especiais.",
+      "ordinários e suplementares.",
+      "especiais e extraordinários.",
+      "suplementares e extraordinários."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^CONSULPLAN • Pref. de Sabará • 2017 • Auditor • adaptada C/E→A–E^^\n\nSobre o reforço de créditos especiais e extraordinários, assinale a correta:",
+    "back": "**Gabarito: C.** Diferente do suplementar (que se incorpora à dotação), os créditos **especiais e extraordinários conservam sua especificidade**; seu reforço deve dar-se **pela regra prevista no respectivo crédito** ou, na omissão, pela **abertura de novos créditos especiais e extraordinários**.\n\n> 📖 Disciplina dos arts. 41 e ss. da Lei 4.320/64 e do MTO.\n\n**Por que as demais erram:** **A**/**B** mandam reforçar por crédito suplementar (incorreto); **D**/**E** negam a especificidade ou misturam as espécies.",
+    "options": [
+      "O reforço deve dar-se por crédito suplementar.",
+      "O reforço incorpora-se à dotação inicial, como no suplementar.",
+      "Deve dar-se pela regra do respectivo crédito ou, na omissão, por novos créditos especiais/extraordinários.",
+      "Especiais e extraordinários não admitem reforço.",
+      "O reforço do especial só pode ser feito por crédito extraordinário."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FCC • TCM-GO • 2015 • Auditor (Conselheiro Substituto) • adaptada C/E→A–E^^\n\nSobre a reabertura de créditos especiais e extraordinários, assinale a correta:",
+    "back": "**Gabarito: E.** **Não** é verdade que \"em hipótese alguma\" se reabrem: especiais e extraordinários **podem** ser reabertos no exercício seguinte, nos limites de seus saldos, se autorizados nos **últimos quatro meses** (art. 167, §2º, CF). A assertiva original está errada.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\n**Por que as demais erram:** **A** afirma vedação absoluta; **B**/**C**/**D** trazem condições incorretas (primeiros meses, valor integral, automática).",
+    "options": [
+      "Em hipótese alguma podem ser reabertos.",
+      "Só se reabrem se autorizados nos primeiros quatro meses.",
+      "Reabrem-se pelo valor integral do crédito.",
+      "A reabertura é automática, sem ato do Executivo.",
+      "Podem ser reabertos nos limites dos saldos se autorizados nos últimos quatro meses."
+    ],
+    "correctOption": "E",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^FGV • MPU • 2025 • Técnico (Administração)^^\n\nBalanço Patrimonial 2023: Ativo financeiro R$200.000; Passivo financeiro R$100.000. Em 2024: créditos adicionais transferidos R$43.000, com operações de crédito vinculadas R$13.000; créditos extraordinários abertos R$10.000; excesso de arrecadação R$7.000. O superávit financeiro utilizável em 2024 é:",
+    "back": "**Gabarito: E (R$70.000).** Fórmula do **superávit financeiro**: SF = **AF − PF − Créditos adicionais transferidos + Operações de crédito vinculadas**.\n\n**Cálculo:** SF = 200.000 − 100.000 − 43.000 + 13.000 = **R$70.000**.\n\n> 📖 **Art. 43, §2º, Lei 4.320/64.**\n\n**Atenção:** créditos extraordinários abertos (R$10.000) deduzem o **excesso de arrecadação**, não o superávit; o excesso (R$7.000) é fonte distinta, não compõe o superávit.\n\n**Por que as demais erram:** ignoram a soma das operações de crédito vinculadas (+13.000) ou subtraem indevidamente os créditos extraordinários do superávit.",
+    "options": [
+      "R$ 44.000.",
+      "R$ 57.000.",
+      "R$ 60.000.",
+      "R$ 67.000.",
+      "R$ 70.000."
+    ],
+    "correctOption": "E",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • TCE-PI • 2021 • adaptada C/E→A–E^^\n\nSobre a apuração do superávit financeiro líquido como fonte de créditos adicionais, é correto afirmar:",
+    "back": "**Gabarito: A.** Na apuração do superávit financeiro **deduzem-se os créditos adicionais transferidos** (reabertos), conforme o art. 43, §2º — que conjuga ao resultado os saldos dos créditos transferidos e as operações de crédito a eles vinculadas.\n\n> 📖 **Art. 43, §2º, Lei 4.320/64.**\n\n**Fórmula:** SF = AF − PF − Créditos transferidos + Operações de crédito vinculadas.\n\n**Por que as demais erram:** **B** não se somam (deduzem-se) os transferidos; **C** o superávit é do **Balanço Patrimonial**; **D**/**E** confundem com a dedução de créditos extraordinários (própria do excesso de arrecadação).",
+    "options": [
+      "Deduzem-se os créditos adicionais transferidos na apuração do superávit financeiro.",
+      "Somam-se os créditos adicionais transferidos ao superávit.",
+      "O superávit é apurado no balanço financeiro.",
+      "Deduzem-se os créditos extraordinários abertos do superávit.",
+      "Não há qualquer ajuste na apuração do superávit financeiro."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • Pref. de Recife • 2019 • Analista de Gestão Contábil • adaptada C/E→A–E^^\n\nEm abril/2018, dotação para material odontológico insuficiente. Para abrir o crédito adicional, o município poderia usar como fonte, desde que não comprometido:",
+    "back": "**Gabarito: B.** O superávit financeiro fonte é o apurado no **Balanço Patrimonial do exercício ANTERIOR** — no caso, **31/12/2017** — e não o de \"31/03/2018\". A assertiva original (que citava 31/03/2018) está errada.\n\n> 📖 **Art. 43, §1º, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** balanço de 31/03/2018 não é \"exercício anterior\"; **C** balanço financeiro não apura superávit financeiro; **D** resultado patrimonial da DVP não é fonte; **E** economia de despesa não é fonte.",
+    "options": [
+      "superávit financeiro apurado em balanço patrimonial de 31/03/2018.",
+      "superávit financeiro apurado em balanço patrimonial de 31/12/2017.",
+      "superávit apurado em balanço financeiro de 31/12/2017.",
+      "resultado patrimonial apurado na DVP de 2018.",
+      "economia de despesa apurada no Balanço Orçamentário de 2017."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • SEFAZ-BA • 2019 • Auditor Fiscal • adaptada C/E→A–E^^\n\nEm novembro/2018, dotação para serviços de jardinagem insuficiente. Sobre a fonte de cobertura e o conceito de superávit financeiro, assinale a correta:",
+    "back": "**Gabarito: A.** Poderia usar o **superávit financeiro** apurado no **Balanço Patrimonial de 31/12/2017** (exercício anterior). O superávit financeiro = **diferença positiva entre ativo financeiro e passivo financeiro**, conjugando-se os **saldos de créditos adicionais transferidos** e as **operações de crédito a eles vinculadas**.\n\n> 📖 **Art. 43, §1º, I, e §2º, Lei 4.320/64.**\n\n**Por que as demais erram:** **B**/**C** citam balanço financeiro ou exercício corrente; **D** usa ativo/passivo permanente; **E** confunde com excesso de arrecadação.",
+    "options": [
+      "Superávit do Balanço Patrimonial de 31/12/2017, definido como diferença positiva entre ativo e passivo financeiro (+ créditos transferidos e operações vinculadas).",
+      "Superávit do balanço financeiro de 31/12/2017.",
+      "Superávit do Balanço Patrimonial de 31/12/2018 (exercício corrente).",
+      "Diferença positiva entre ativo e passivo permanente.",
+      "Excesso de arrecadação acumulado até novembro de 2018."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CESPE • CGM-JP • 2018 • Técnico de Controle Interno • adaptada C/E→A–E^^\n\nSobre as fontes de recursos para créditos suplementares, assinale a correta:",
+    "back": "**Gabarito: D.** Os créditos suplementares podem ser abertos com recursos oriundos de **operações de crédito autorizadas**, em forma que juridicamente possibilite ao Poder Executivo realizá-las (art. 43, §1º, IV).\n\n> 📖 **Art. 43, §1º, IV, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** a economia de despesa **não** é fonte; **B** restos a pagar não é fonte (salvo gerar superávit no exercício seguinte); **C** despesas contingenciadas não são fonte; **E** os suplementares **dependem** de recursos disponíveis.",
+    "options": [
+      "A economia de despesa é fonte para créditos suplementares.",
+      "Restos a pagar cancelados são fonte imediata.",
+      "Despesas contingenciadas são fonte de recursos.",
+      "Operações de crédito autorizadas são fonte para créditos suplementares.",
+      "Os suplementares independem de recursos disponíveis."
+    ],
+    "correctOption": "D",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CESPE • CGM-JP • 2018 • Auditor de Controle Interno • adaptada C/E→A–E^^\n\nSobre o tipo de balanço em que se apura o superávit financeiro (fonte de créditos especiais e suplementares), assinale a correta:",
+    "back": "**Gabarito: C.** O superávit financeiro é apurado no **BALANÇO PATRIMONIAL** do exercício anterior — não no \"balanço financeiro\". A assertiva original (que citava balanço financeiro) está errada.\n\n> 📖 **Art. 43, §1º, I, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** balanço financeiro não apura o superávit financeiro; **B**/**D**/**E** citam balanço orçamentário, DVP ou exercício corrente, todos incorretos.",
+    "options": [
+      "É apurado no balanço financeiro do exercício anterior.",
+      "É apurado no balanço orçamentário.",
+      "É apurado no balanço patrimonial do exercício anterior.",
+      "É apurado na Demonstração das Variações Patrimoniais.",
+      "É apurado no balanço patrimonial do exercício corrente."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • Câmara Municipal de Salvador • 2018 • adaptada C/E→A–E^^\n\nDados (em milhares): créditos extraordinários abertos 4.500; dotações anuladas 6.100; receitas arrecadadas além do previsto 9.410; créditos adicionais reabertos 11.300; passivo financeiro 63.625; ativo financeiro 92.560. Os recursos disponíveis para créditos adicionais totalizam:",
+    "back": "**Gabarito: D (R$28.645 mil).** Somam-se as fontes:\n\n| Fonte | Cálculo | Valor |\n|---|---|---|\n| Superávit financeiro | 92.560 − 63.625 − 11.300 | 17.635 |\n| Excesso de arrecadação | 9.410 − 4.500 (CEA) | 4.910 |\n| Anulação de dotações | — | 6.100 |\n| **Total** | | **28.645** |\n\n> 📖 **Art. 43, §1º a §4º, Lei 4.320/64.** Lembre: do **excesso de arrecadação** deduzem-se os **créditos extraordinários abertos** (§4º); do **superávit** deduzem-se os **créditos reabertos/transferidos** (§2º).\n\n**Por que as demais erram:** resultam de não deduzir os créditos extraordinários do excesso ou os reabertos do superávit.",
+    "options": [
+      "R$ 17.635 mil.",
+      "R$ 22.545 mil.",
+      "R$ 24.145 mil.",
+      "R$ 28.645 mil.",
+      "R$ 34.745 mil."
+    ],
+    "correctOption": "D",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • MPE-CE • 2025 • adaptada C/E→A–E^^\n\nOs recursos que, em decorrência de veto, ficarem sem despesas correspondentes na LOA, para serem usados em créditos especiais ou suplementares:",
+    "back": "**Gabarito: A.** Exigem **prévia e específica autorização legislativa** (art. 166, §8º, CF). A assertiva original dizia que \"prescinde\" (dispensa) de autorização, o que a torna errada — a autorização é **obrigatória**.\n\n> 📖 **Art. 166, §8º, CF/88.**\n\n**Por que as demais erram:** **B**/**C** dispensam ou tornam automática a autorização; **D** restringem ao extraordinário; **E** negam a possibilidade de uso (que é válida).",
+    "options": [
+      "exigem prévia e específica autorização legislativa.",
+      "prescindem de autorização legislativa, neste caso específico.",
+      "são automaticamente utilizados, sem ato legislativo.",
+      "só podem custear créditos extraordinários.",
+      "não podem ser utilizados como fonte de créditos adicionais."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CEBRASPE • TJ-ES • 2023 • adaptada C/E→A–E^^\n\nSobre a reserva de contingência destinada a passivos contingentes como fonte de créditos adicionais, assinale a correta:",
+    "back": "**Gabarito: B.** A reserva de contingência **PODE** ser utilizada para abertura de créditos adicionais, justamente porque **não há execução direta** da reserva (MCASP 11ª ed.). A assertiva original (que negava o uso por \"probabilidade de execução direta\") está errada.\n\n> 📖 **MCASP** e **art. 5º, III, LRF.**\n\n**Por que as demais erram:** **A** nega o uso; **C**/**D** afirmam execução direta da reserva (que não existe); **E** restringe a uma só espécie de crédito.",
+    "options": [
+      "Não pode ser usada, pois há execução direta da reserva.",
+      "Pode ser usada para abrir créditos adicionais, pois não há execução direta da reserva.",
+      "Só pode ser usada após execução direta da reserva.",
+      "A reserva é executada diretamente, sem créditos adicionais.",
+      "Só pode custear créditos extraordinários."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CESPE • MPC-SC • 2022 • adaptada C/E→A–E^^\n\nA reserva de contingência destinada ao atendimento de passivos contingentes:",
+    "back": "**Gabarito: A.** **Pode** ser utilizada para abertura de créditos adicionais — é fonte prevista no **DL 200/67, art. 91** e na **LRF (art. 5º, III)**.\n\n> 📖 **DL 200/67, art. 91** e **art. 5º, III, LRF.**\n\n**Por que as demais erram:** **B**/**C** negam o uso; **D** restringe ao extraordinário; **E** afirma execução direta (que não existe — por isso ela serve de fonte para créditos adicionais).",
+    "options": [
+      "pode ser utilizada para abertura de créditos adicionais.",
+      "não pode ser utilizada como fonte de créditos adicionais.",
+      "só pode ser usada para o pagamento de precatórios.",
+      "só custeia créditos extraordinários.",
+      "é executada diretamente, sem necessidade de crédito adicional."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • SEFAZ-ES • 2021 • adaptada C/E→A–E^^\n\nSobre a reserva de contingência como fonte de recursos para créditos adicionais, assinale a correta:",
+    "back": "**Gabarito: C.** A reserva de contingência é fonte de crédito adicional que **não altera o valor global do orçamento anual**, pois apenas se converte (por anulação parcial) na despesa efetivamente realizada; destina-se a passivos contingentes e riscos fiscais imprevistos (art. 5º, III, LRF).\n\n> 📖 **Art. 5º, III, LRF.**\n\n**Por que as demais erram:** **A**/**B** negam a condição de fonte; **D** afirma aumento do orçamento global (não ocorre); **E** afirma execução direta (inexistente).",
+    "options": [
+      "Não é fonte de recursos para créditos adicionais.",
+      "É fonte que sempre aumenta o orçamento global.",
+      "É fonte de crédito adicional que não altera o valor global do orçamento anual.",
+      "Eleva automaticamente o total de receitas e despesas da LOA.",
+      "É executada diretamente, sem crédito adicional."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • SEAD-AP • 2018 • Analista de Finanças e Controle • adaptada C/E→A–E^^\n\nSegundo a CF/88, os recursos que ficarem sem despesas correspondentes em decorrência de veto, emenda ou rejeição do PLOA poderão ser utilizados mediante:",
+    "back": "**Gabarito: A.** Mediante **créditos especiais ou suplementares**, com **prévia e específica autorização legislativa** (art. 166, §8º, CF). A assertiva original (\"créditos extraordinários, sem autorização\") está errada.\n\n> 📖 **Art. 166, §8º, CF/88.**\n\n**Por que as demais erram:** **B**/**C** citam créditos extraordinários ou dispensa de autorização; **D**/**E** negam a possibilidade ou tornam-na automática.",
+    "options": [
+      "créditos especiais ou suplementares, com prévia e específica autorização legislativa.",
+      "créditos extraordinários, sem prévia autorização legislativa.",
+      "qualquer crédito adicional, independentemente de autorização.",
+      "reserva de contingência, automaticamente.",
+      "não podem ser utilizados como fonte."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FCC • SEGEP-MA • 2018 • Analista Previdenciário • adaptada C/E→A–E^^\n\nItens: I. saldo positivo das diferenças acumuladas mês a mês entre arrecadação prevista e realizada; II. a tendência do exercício; III. diferença positiva entre ativo e passivo financeiro; IV. saldos de créditos adicionais transferidos e operações de crédito vinculadas. Para o cálculo do EXCESSO DE ARRECADAÇÃO, consideram-se:",
+    "back": "**Gabarito: B (apenas I e II).** O **excesso de arrecadação** considera o saldo positivo acumulado mês a mês (I) e a **tendência do exercício** (II), conforme o art. 43, §3º. Os itens III e IV pertencem ao cálculo do **superávit financeiro** (§2º). A assertiva original (\"todos os itens\") está errada.\n\n> 📖 **Art. 43, §2º e §3º, Lei 4.320/64.**\n\n**Por que as demais erram:** incluem itens do superávit financeiro (III e IV) no cálculo do excesso de arrecadação.",
+    "options": [
+      "I, II, III e IV.",
+      "I e II, apenas.",
+      "III e IV, apenas.",
+      "I e III, apenas.",
+      "II e IV, apenas."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • IBGE • 2016 • adaptada C/E→A–E^^\n\nQuanto ao efeito das fontes sobre o valor global da LOA, assinale a correta:",
+    "back": "**Gabarito: C.** O **excesso de arrecadação** é fonte que, quando utilizada, **causa aumento** do valor global do orçamento (assim como o superávit financeiro e as operações de crédito). A assertiva original (que dizia que o excesso NÃO causa aumento) está errada.\n\n> 📖 Doutrina/MTO sobre efeito das fontes no orçamento global.\n\n**Quadro:** {green:AUMENTAM o global} → excesso de arrecadação, superávit financeiro, operações de crédito. {red:NÃO alteram o global} → anulação de dotação, reserva de contingência, recursos de veto/emenda/rejeição.\n\n**Por que as demais erram:** **A**/**B**/**D** classificam erroneamente as fontes que aumentam/não aumentam; **E** afirma que nenhuma fonte altera o global.",
+    "options": [
+      "A anulação de dotações causa aumento do valor global da LOA.",
+      "A reserva de contingência aumenta o valor global da LOA.",
+      "O excesso de arrecadação causa aumento do valor global da LOA.",
+      "O superávit financeiro não altera o valor global da LOA.",
+      "Nenhuma fonte altera o valor global da LOA."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • IBGE • 2016 • adaptada C/E→A–E^^\n\nDados: créditos reabertos 37.410; créditos extraordinários abertos 46.190; dotações anuláveis 63.820; excesso de arrecadação 89.750; operação de crédito 42.000; superávit financeiro do exercício anterior 143.675. O montante disponível para créditos adicionais é:",
+    "back": "**Gabarito: B (R$255.645).** Soma das fontes, com os ajustes legais:\n\n| Fonte | Cálculo | Valor |\n|---|---|---|\n| Superávit financeiro | 143.675 − 37.410 (reabertos) | 106.265 |\n| Excesso de arrecadação | 89.750 − 46.190 (CEA) | 43.560 |\n| Dotações anuláveis | — | 63.820 |\n| Operação de crédito | — | 42.000 |\n| **Total** | | **255.645** |\n\n> 📖 **Art. 43, §1º a §4º, Lei 4.320/64.**\n\n**Por que as demais erram:** deixam de deduzir os créditos reabertos do superávit ou os extraordinários do excesso.",
+    "options": [
+      "R$ 209.455.",
+      "R$ 255.645.",
+      "R$ 301.835.",
+      "R$ 339.245.",
+      "R$ 375.655."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^CESPE • ENAP • 2015 • Técnico de Nível Superior • adaptada C/E→A–E^^\n\nExcesso de arrecadação acumulado de R$600.000 (sem perspectiva de continuidade); despesas empenhadas R$450.000 abaixo das autorizadas; R$380.000 pagos. Sobre a abertura de crédito especial para novo projeto de investimento, é correto afirmar:",
+    "back": "**Gabarito: A.** O órgão pode pleitear crédito **especial de até R$600.000**, lastreado no **excesso de arrecadação** (única fonte válida no caso). A **economia de despesa** (R$450.000) e os **valores pagos** (R$380.000) **não** são fontes de recursos para créditos adicionais.\n\n> 📖 **Art. 43, §1º, II, Lei 4.320/64.**\n\n**Cálculo:** Fonte = excesso de arrecadação R$600.000; economia de despesa = R$0 (não é fonte); pagos = irrelevante.\n\n**Por que as demais erram:** somam a economia de despesa (não é fonte) ou os valores pagos, distorcendo o total disponível.",
+    "options": [
+      "Pode pleitear crédito especial de até R$600.000, lastreado no excesso de arrecadação.",
+      "Pode pleitear até R$1.050.000 (excesso + economia de despesa).",
+      "Pode pleitear até R$450.000 (economia de despesa).",
+      "Pode pleitear até R$980.000 (excesso + pagos).",
+      "Não pode pleitear crédito, por inexistir fonte de recursos."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^FGV • ALERJ • 2017 • Especialista Legislativo • adaptada C/E→A–E^^\n\nDados: ativo financeiro 70.225.100; passivo financeiro 28.544.765; créditos especiais reabertos 13.465.080; créditos extraordinários abertos 6.572.190; excesso de arrecadação 9.125.400; reserva de contingência 5.000.000; dotações anuláveis 3.761.270. O superávit financeiro utilizável para créditos adicionais é:",
+    "back": "**Gabarito: C (R$28.215.255).** Fórmula: SF = **AF − PF − Créditos reabertos/transferidos (+ operações de crédito vinculadas)**.\n\n**Cálculo:** SF = 70.225.100 − 28.544.765 − 13.465.080 + 0 = **R$28.215.255**.\n\n> 📖 **Art. 43, §2º, Lei 4.320/64.**\n\n**Atenção:** os créditos extraordinários abertos, o excesso de arrecadação, a reserva de contingência e as dotações anuláveis são **outras fontes/ajustes** e **não** entram no cálculo do superávit financeiro.\n\n**Por que as demais erram:** deixam de deduzir os créditos reabertos ou incluem indevidamente outras fontes no cálculo do superávit.",
+    "options": [
+      "R$ 41.680.335.",
+      "R$ 35.107.445.",
+      "R$ 28.215.255.",
+      "R$ 24.453.985.",
+      "R$ 21.643.065."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Créditos Ordinários^^\n\nO que diferencia o \"crédito orçamentário\" da \"dotação orçamentária\"?",
+    "back": "**Gabarito: B.** Segundo o MCASP, o **crédito orçamentário** é o **conjunto de categorias classificatórias e contas** que especificam as ações e operações autorizadas pela LOA; a **dotação** é o **montante de recursos financeiros** consignado a esse crédito (o limite financeiro autorizado).\n\n> 💡 **Crédito orçamentário = a \"autorização\" (o quê)** · **Dotação = o \"valor\" (quanto)**. O crédito é portador de uma dotação, que constitui o limite de recurso autorizado.\n\nO **crédito inicial ou ordinário** é o aprovado na própria LOA (orçamentos fiscal, da seguridade social e de investimento das estatais).\n\n**Por que as demais erram:** **A** inverte os conceitos; **C** dotação não é \"texto da lei\"; **D** crédito orçamentário não é sinônimo de empenho; **E** ambos não se confundem com receita.",
+    "options": [
+      "Crédito orçamentário é o valor financeiro; dotação é o conjunto de classificações.",
+      "Crédito orçamentário é o conjunto de classificações/contas autorizadas; dotação é o montante financeiro consignado a ele.",
+      "Crédito orçamentário é o texto integral da lei; dotação é o seu preâmbulo.",
+      "Crédito orçamentário é sinônimo de empenho da despesa.",
+      "Ambos significam a receita prevista na LOA."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Créditos Adicionais (síntese)^^\n\nComo a Lei 4.320/64 classifica os créditos adicionais e quais os requisitos de cada espécie?",
+    "back": "**Gabarito: A.** Quadro-síntese das três espécies (art. 41):\n\n| Espécie | Finalidade | Autorização | Abertura | Fonte exigida? | Reabre? |\n|---|---|---|---|---|---|\n| **Suplementar** | reforço de dotação | lei (pode ser a própria LOA) | decreto | **Sim** | **Não** |\n| **Especial** | despesa **sem** dotação específica | lei específica | decreto | **Sim** | Sim (últimos 4 meses) |\n| **Extraordinário** | despesas **urgentes e imprevisíveis** | dispensa (MP/decreto) | MP (União) ou decreto | **Não** (facultativa) | Sim (últimos 4 meses) |\n\n> 📖 **Art. 40 a 46, Lei 4.320/64** e **art. 167, §2º e §3º, CF/88.**\n\n**Mnemônico:** {blue:S=Suplementa (reforça); E=Especial (cria); E=Extraordinário (emergência)}.\n\n**Por que as demais erram:** trocam finalidades (suplementar criando despesa nova, especial reforçando) ou afirmam que o extraordinário exige fonte/autorização prévia.",
+    "options": [
+      "Suplementar (reforço), especial (despesa sem dotação) e extraordinário (urgente/imprevisível), com os requisitos do quadro.",
+      "Suplementar (despesa nova), especial (reforço) e extraordinário (despesa regular).",
+      "Ordinário, suplementar e contingente.",
+      "Todos exigem medida provisória e autorização legislativa prévia.",
+      "Todos podem ser reabertos no exercício seguinte, inclusive o suplementar."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Adicionais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Créditos Suplementares^^\n\nPor que se diz que o crédito suplementar é exceção ao princípio da exclusividade e é o único que não se reabre?",
+    "back": "**Gabarito: C.** O princípio da **exclusividade** veda dispositivo estranho à previsão da receita e fixação da despesa, **ressalvando** expressamente a **autorização para abertura de créditos suplementares** (e a contratação de operações de crédito) — por isso a LOA pode conter essa autorização (art. 165, §8º, CF). Além disso, o suplementar **obedece fielmente à anualidade**: encerra-se em 31/12 e **não se reabre** (ao contrário de especiais e extraordinários).\n\n> 📖 **Art. 165, §8º, CF/88** (exclusividade) e **art. 167, §2º, CF/88** (reabertura só de especiais e extraordinários).\n\n**Por que as demais erram:** **A**/**B** afirmam que o suplementar se reabre (falso); **D** nega a exceção à exclusividade; **E** confunde com o extraordinário.",
+    "options": [
+      "É exceção à anualidade e pode ser reaberto livremente.",
+      "Não é exceção a nenhum princípio e pode ser reaberto.",
+      "É exceção à exclusividade (a LOA pode autorizá-lo) e é o único que não se reabre.",
+      "Não pode ser autorizado na LOA e é exceção à anualidade.",
+      "Dispensa autorização legislativa, como o extraordinário."
+    ],
+    "correctOption": "C",
+    "topicName": "Créditos Suplementares"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Créditos Especiais e Extraordinários^^\n\nPor que os créditos especiais e extraordinários são exceções ao princípio da anualidade?",
+    "back": "**Gabarito: D.** Em regra, créditos especiais e extraordinários têm vigência no exercício em que autorizados; **porém**, se o ato de autorização for promulgado nos **últimos quatro meses** do exercício, eles podem ser **reabertos nos limites de seus saldos** e incorporados ao orçamento do **exercício seguinte** — daí serem **exceções à anualidade**. A reabertura é **facultativa** e exige novo ato da Administração.\n\n> 📖 **Art. 167, §2º, CF/88.**\n\nAmbos **conservam sua especificidade** (demonstrados separadamente), diferentemente do suplementar.\n\n**Por que as demais erram:** **A** o suplementar **não** é exceção; **B**/**C** trazem prazo errado (primeiros meses) ou reabertura automática; **E** nega a possibilidade de reabertura.",
+    "options": [
+      "Porque o suplementar também é exceção e os três se reabrem.",
+      "Porque podem ser reabertos se autorizados nos primeiros quatro meses.",
+      "Porque a reabertura é automática e independe de ato.",
+      "Porque, se autorizados nos últimos quatro meses, podem ser reabertos nos limites dos saldos no exercício seguinte.",
+      "Porque não admitem reabertura em hipótese alguma."
+    ],
+    "correctOption": "D",
+    "topicName": "Créditos Especiais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Créditos Extraordinários (MP e STF)^^\n\nQuais as características de abertura do crédito extraordinário e o entendimento do STF sobre seus requisitos?",
+    "back": "**Gabarito: B.** O crédito extraordinário é **aberto por medida provisória** (União e entes que a possuam) ou por **decreto** (demais entes), com **imediato conhecimento ao Legislativo**; a **indicação de fonte é facultativa**. Segundo o **STF**, os requisitos de **imprevisibilidade e urgência** recebem densificação normativa da CF (controle mais estrito que relevância/urgência da MP), e a MP de crédito **não pode veicular outro tipo de crédito** que não o extraordinário; a lei de conversão **não convalida** vícios da MP.\n\n> 📖 **Art. 167, §3º, c/c art. 62, CF/88** (jurisprudência do STF — ADI 4.048).\n\n**Por que as demais erram:** **A** exige fonte obrigatória; **C** afirma autorização legislativa prévia; **D** admite veicular qualquer crédito por MP; **E** diz que a conversão sana vícios.",
+    "options": [
+      "Exige indicação obrigatória de fonte e autorização prévia.",
+      "É aberto por MP/decreto, fonte facultativa; pelo STF, imprevisibilidade/urgência são exigências constitucionais e a MP só veicula crédito extraordinário.",
+      "Depende de prévia autorização legislativa para sua abertura.",
+      "Pode veicular, por MP, qualquer espécie de crédito adicional.",
+      "A lei de conversão convalida eventuais vícios da MP."
+    ],
+    "correctOption": "B",
+    "topicName": "Créditos Extraordinários"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Fontes para créditos adicionais^^\n\nQuais são as fontes de recursos para a abertura de créditos adicionais e suas bases normativas?",
+    "back": "**Gabarito: A.** São **seis** fontes:\n\n| Fonte | Base |\n|---|---|\n| Superávit financeiro (BP do exercício anterior) | **Lei 4.320/64, art. 43, §1º, I** |\n| Excesso de arrecadação | **art. 43, §1º, II** |\n| Anulação parcial/total de dotações | **art. 43, §1º, III** |\n| Operações de crédito autorizadas | **art. 43, §1º, IV** |\n| Recursos de veto, emenda ou rejeição do PLOA | **CF, art. 166, §8º** |\n| Reserva de contingência (e RPPS) | **DL 200/67, art. 91; LRF, art. 5º, III** |\n\n> 📖 As **quatro primeiras** estão na Lei 4.320/64; as **duas últimas**, na CF e no DL 200/67 + LRF.\n\n**Por que as demais erram:** omitem fontes ou incluem itens que **não** são fonte (erros/omissões na LOA, economia de despesa, ARO, restos a pagar, despesas contingenciadas).",
+    "options": [
+      "Superávit financeiro, excesso de arrecadação, anulação de dotações, operações de crédito, recursos de veto/emenda/rejeição e reserva de contingência.",
+      "Apenas o superávit financeiro e o excesso de arrecadação.",
+      "Erros e omissões na LOA, economia de despesa e ARO.",
+      "Restos a pagar, despesas contingenciadas e economia de despesa.",
+      "Apenas as fontes previstas na Constituição Federal."
+    ],
+    "correctOption": "A",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Superávit financeiro e excesso de arrecadação^^\n\nComo se calculam o superávit financeiro e o excesso de arrecadação para fins de créditos adicionais?",
+    "back": "**Gabarito: C.** As fórmulas:\n\n- **Superávit Financeiro** = (Ativo Financeiro − Passivo Financeiro) **− créditos adicionais transferidos/reabertos + operações de crédito a eles vinculadas** — apurado no **Balanço Patrimonial** do exercício anterior (art. 43, §2º).\n- **Excesso de Arrecadação** = (Receita Arrecadada − Receita Prevista) **− créditos extraordinários abertos no exercício**, considerada a **tendência do exercício** (art. 43, §3º e §4º).\n\n> 📖 **Art. 43, §2º a §4º, Lei 4.320/64.**\n\n{red:Atenção:} a dedução dos **créditos extraordinários abertos** incide sobre o **excesso de arrecadação** (não sobre o superávit).\n\n**Por que as demais erram:** **A**/**B** trocam o balanço ou a dedução; **D** soma (em vez de deduzir) os créditos transferidos; **E** ignora a tendência do exercício no excesso.",
+    "options": [
+      "Superávit = AF − PF − créditos extraordinários; excesso = receita arrecadada − créditos transferidos.",
+      "Ambos são apurados no balanço financeiro, sem qualquer dedução.",
+      "Superávit = (AF − PF) − créditos transferidos + operações vinculadas (BP anterior); excesso = (arrecadada − prevista) − créditos extraordinários abertos, com tendência.",
+      "Superávit = AF − PF + créditos transferidos; excesso sem considerar a tendência.",
+      "Superávit e excesso são sinônimos e usam a mesma fórmula."
+    ],
+    "correctOption": "C",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: O que NÃO é fonte de créditos adicionais^^\n\nQuais itens NÃO constituem fonte de recursos para abertura de créditos adicionais?",
+    "back": "**Gabarito: E.** **Não são fontes:** (a) **operações de crédito por antecipação de receita — ARO** (são extraorçamentárias, para insuficiência de caixa); (b) o **cancelamento de restos a pagar** isoladamente (só vira fonte no exercício seguinte se gerar superávit); (c) as **despesas contingenciadas** (limitação de empenho); (d) a **economia de despesa** (despesa executada menor que a fixada); e (e) os **erros ou omissões na LOA**.\n\n> 📖 Observações do MTO/MCASP e art. 43 da Lei 4.320/64 (que não os lista).\n\n{yellow:Cuidado:} reserva de contingência **é** fonte; **despesa contingenciada** (≠ reserva) **não** é.\n\n**Por que as demais erram:** **A**–**D** listam itens que **são** fontes legais (superávit, excesso, anulação, operações de crédito autorizadas), ao contrário do enunciado.",
+    "options": [
+      "Superávit financeiro e excesso de arrecadação.",
+      "Anulação de dotações e operações de crédito autorizadas.",
+      "Reserva de contingência e recursos de veto/emenda/rejeição.",
+      "Superávit financeiro e anulação de dotações.",
+      "ARO, cancelamento de restos a pagar, despesas contingenciadas, economia de despesa e erros/omissões na LOA."
+    ],
+    "correctOption": "E",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Efeito dos créditos adicionais no valor global da LOA^^\n\nA abertura de créditos adicionais sempre aumenta o valor global do orçamento aprovado?",
+    "back": "**Gabarito: B.** **Não necessariamente.** O valor global **aumenta** quando a fonte é **excesso de arrecadação, superávit financeiro ou operações de crédito** (entram novos recursos). **Não se altera** quando a fonte é **anulação de dotação, reserva de contingência ou recursos de veto/emenda/rejeição** (apenas há remanejamento interno).\n\n| Fonte | Efeito no global |\n|---|---|\n| Excesso de arrecadação / superávit / operações de crédito | {green:Aumenta} |\n| Anulação / reserva de contingência / veto-emenda-rejeição | {red:Não altera} |\n\n> 📖 Doutrina e MTO.\n\n**Por que as demais erram:** **A**/**C** afirmam que sempre/nunca altera; **D**/**E** invertem quais fontes aumentam ou não o global.",
+    "options": [
+      "Sim, qualquer crédito adicional aumenta o valor global.",
+      "Não: aumenta com excesso/superávit/operações de crédito; não altera com anulação/reserva/veto-emenda-rejeição.",
+      "Não: nenhum crédito adicional altera o valor global.",
+      "A anulação de dotações sempre aumenta o valor global.",
+      "O excesso de arrecadação nunca altera o valor global."
+    ],
+    "correctOption": "B",
+    "topicName": "Fontes para Créditos Adicionais"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Processo legislativo dos créditos adicionais^^\n\nComo se dá a tramitação legislativa dos projetos de créditos adicionais e qual a regra de \"uma espécie por lei\"?",
+    "back": "**Gabarito: A.** Os projetos de lei de **créditos adicionais** são apreciados pelas **duas Casas do Congresso**, na forma do regimento comum, **tal como** os projetos de PPA, LDO e LOA (art. 166, caput, CF). Além disso, as **LDOs da União** determinam que cada projeto/lei de crédito adicional deve restringir-se a uma **única espécie** de crédito (ex.: uma lei não pode tratar, ao mesmo tempo, de suplementares e especiais).\n\n> 📖 **Art. 166, caput, CF/88** e LDOs anuais.\n\n**Por que as demais erram:** **B** os créditos adicionais seguem o rito das matérias orçamentárias; **C** uma só lei **não** pode reunir espécies diferentes; **D** não tramitam só na Câmara; **E** extraordinários por MP **não** dependem de projeto de lei prévio.",
+    "options": [
+      "São apreciados pelas duas Casas (como PPA/LDO/LOA), e cada lei deve tratar de uma única espécie de crédito.",
+      "Seguem rito distinto das demais matérias orçamentárias.",
+      "Uma só lei pode reunir suplementares e especiais simultaneamente.",
+      "Tramitam exclusivamente na Câmara dos Deputados.",
+      "Os extraordinários por MP dependem de projeto de lei prévio."
+    ],
+    "correctOption": "A",
+    "topicName": "Créditos Adicionais"
+  }
+]
