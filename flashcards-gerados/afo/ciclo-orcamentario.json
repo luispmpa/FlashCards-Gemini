@@ -1,0 +1,1042 @@
+[
+  {
+    "front": "^^Elaborada pelo professor^^\n\nAcerca do conceito de **ciclo orçamentário**, assinale a alternativa correta.",
+    "back": "**Gabarito: C.** O **ciclo (ou processo) orçamentário** é o encadeamento das atividades típicas do orçamento público. É um processo {blue:contínuo, dinâmico e flexível} composto, em sua visão tradicional, de **quatro fases**:\n\n| Ordem | Fase |\n|---|---|\n| 1ª | **Elaboração/planejamento** da proposta (Executivo) |\n| 2ª | **Discussão/estudo/aprovação** (Legislativo) |\n| 3ª | **Execução** orçamentária e financeira |\n| 4ª | **Controle e avaliação** |\n\n> 📖 **Mnemônico — EDExC:** **E**laboração → **D**iscussão/aprovação → **Ex**ecução → **C**ontrole/avaliação.\n\n**Por que as demais erram:** **A** o ciclo {red:não se confunde} com exercício financeiro; **B** são quatro fases, não três; **D** a elaboração cabe ao **Executivo**, não ao Legislativo; **E** a execução não é a primeira fase.",
+    "options": [
+      "É sinônimo de exercício financeiro, ambos com início em 1º de janeiro.",
+      "Compõe-se de apenas três fases: elaboração, execução e controle.",
+      "É o encadeamento contínuo das atividades típicas do orçamento, em quatro fases: elaboração, discussão/aprovação, execução e controle/avaliação.",
+      "Tem como primeira fase a elaboração da proposta pelo Poder Legislativo.",
+      "Inicia-se pela execução orçamentária, seguida da elaboração da proposta."
+    ],
+    "correctOption": "C",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre a relação entre **ciclo orçamentário** e **exercício financeiro**, assinale a alternativa correta.",
+    "back": "**Gabarito: D.** O **ciclo orçamentário NÃO se confunde com o exercício financeiro**. O exercício financeiro {green:coincide com o ano civil} (1º/jan a 31/dez); já o ciclo é mais amplo e perpassa, **no mínimo, três exercícios** (elaboração num ano, execução em outro, controle/avaliação em exercício posterior).\n\n> 📖 **Art. 34, Lei 4.320/64** — \"O exercício financeiro coincidirá com o ano civil.\"\n\nA prestação de contas reforça isso: cabe ao Executivo prestar contas ao CN **no exercício seguinte** (art. 84, XXIV, CF). Atenção: são \"no mínimo\" três exercícios — já houve casos em que a avaliação/controle se estendeu por mais anos.\n\n**Por que as demais erram:** **A** e **B** confundem os conceitos; **C** o exercício é que coincide com o ano civil, não o ciclo; **E** são no mínimo (não exatamente) três exercícios.",
+    "options": [
+      "O ciclo orçamentário e o exercício financeiro são conceitos idênticos.",
+      "O ciclo orçamentário coincide com o ano civil e o exercício financeiro abrange três anos.",
+      "O ciclo orçamentário coincide com o ano civil, de 1º de janeiro a 31 de dezembro.",
+      "O ciclo orçamentário não se confunde com o exercício financeiro e abrange, no mínimo, três exercícios financeiros.",
+      "O ciclo orçamentário envolve exatamente três exercícios financeiros, nunca mais que isso."
+    ],
+    "correctOption": "D",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre o **ciclo orçamentário ampliado**, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** O **ciclo orçamentário ampliado** (concepção doutrinária de **Sanches**) considera o ciclo desde o planejamento de médio prazo (**PPA**) até a finalização do planejamento operacional (**LOA**), englobando a elaboração e aprovação do PPA e da LDO, além da execução, controle e avaliação da LOA — totalizando **oito etapas**.\n\n> 📌 {red:Pegadinha clássica:} o ciclo ampliado é criação **doutrinária** (Sanches), e **não** foi \"introduzido pela CF/88\". O que a CF/88 inovou foi o próprio **PPA** e a **LDO**.\n\n| Ciclo básico (tradicional) | Ciclo ampliado |\n|---|---|\n| 4 fases, foco na **LOA** | 8 etapas, abrange **PPA + LDO + LOA** |\n\n**Por que as demais erram:** **A** e **C** atribuem o conceito à CF/88; **D** o ciclo ampliado abrange o PPA, não o ignora; **E** o ciclo básico tem 4 fases, não 8.",
+    "options": [
+      "O ciclo ampliado foi expressamente criado pela Constituição Federal de 1988.",
+      "É concepção doutrinária (Sanches) que abrange desde o PPA até o controle e avaliação da LOA, totalizando oito etapas.",
+      "Foi introduzido pela CF/88 e restringe-se às fases da LOA.",
+      "Abrange apenas a LOA, desconsiderando PPA e LDO.",
+      "É a denominação do ciclo básico, composto de oito fases relativas à LOA."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa fase de **elaboração da proposta orçamentária**, a quem compete consolidar o projeto de lei orçamentária anual e encaminhá-lo ao Legislativo?",
+    "back": "**Gabarito: A.** A **elaboração e consolidação** do PLOA é competência do **Poder Executivo**. Os demais Poderes e órgãos autônomos (Judiciário, Legislativo, MP, Defensoria, TCs) elaboram suas propostas **dentro dos limites da LDO** e as encaminham ao Executivo, que apenas as **consolida** e envia ao Legislativo até **31 de agosto**.\n\n> 📖 **Art. 165, CF/88** — cabe ao Poder Executivo a iniciativa das leis orçamentárias (PPA, LDO e LOA).\n\nO Executivo {red:não pode alterar livremente} as propostas dos demais Poderes; só pode **ajustá-las quando estiverem em desacordo com os limites da LDO** (em respeito à separação dos Poderes e à autonomia financeira).\n\n**Por que as demais erram:** **B** e **D** a consolidação não é do Legislativo nem do Judiciário; **C** o envio não é diretamente ao Legislativo por cada Poder; **E** o Executivo não tem livre alteração das propostas alheias.",
+    "options": [
+      "Ao Poder Executivo, que consolida as propostas dos demais Poderes (ajustando-as apenas quando em desacordo com a LDO) e as envia ao Legislativo.",
+      "Ao Poder Legislativo, que consolida e depois remete ao Executivo.",
+      "A cada Poder, que encaminha sua proposta diretamente ao Legislativo.",
+      "Ao Poder Judiciário, na pessoa do presidente do STF.",
+      "Ao Poder Executivo, que pode alterar livremente as propostas dos demais Poderes."
+    ],
+    "correctOption": "A",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNo processo legislativo orçamentário, a quem compete examinar e emitir parecer sobre os projetos das leis orçamentárias e dos créditos adicionais?",
+    "back": "**Gabarito: B.** Compete a uma **Comissão Mista permanente de Senadores e Deputados** (a **CMO** — Comissão Mista de Orçamento) examinar e emitir parecer sobre os projetos orçamentários.\n\n> 📖 **Art. 166, §1º, CF/88** — \"Caberá a uma Comissão mista permanente de Senadores e Deputados: I - examinar e emitir parecer sobre os projetos referidos neste artigo (...).\"\n\n> 📖 **Art. 166, §2º** — \"As emendas serão apresentadas na Comissão mista, que sobre elas emitirá parecer, e apreciadas, na forma regimental, pelo **Plenário** das duas Casas (...).\"\n\n{red:Pegadinha:} a Comissão Mista **apenas emite parecer**; a **apreciação/votação** final é do **Plenário** das duas Casas. Não são comissões separadas de cada Casa.\n\n**Por que as demais erram:** **A** e **C** não são comissões separadas/específicas de cada Casa; **D** a CMO emite parecer, mas quem aprecia é o Plenário; **E** não cabe ao TCU emitir esse parecer no processo legislativo.",
+    "options": [
+      "A comissões permanentes específicas e separadas da Câmara e do Senado.",
+      "A uma Comissão Mista permanente de Senadores e Deputados (CMO), cabendo a apreciação final ao Plenário das duas Casas.",
+      "À Comissão de Finanças e Tributação da Câmara e à de Assuntos Econômicos do Senado.",
+      "À Comissão Mista, que examina, emite parecer e aprecia definitivamente as emendas.",
+      "Ao Tribunal de Contas da União, que emite parecer vinculante."
+    ],
+    "correctOption": "B",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSegundo a CF/88, o Presidente da República pode propor modificações ao projeto de lei orçamentária. Assinale a alternativa correta.",
+    "back": "**Gabarito: C.** O PR pode enviar mensagem ao CN propondo modificação nos projetos do art. 166 (PPA, LDO, LOA e créditos adicionais) **enquanto não iniciada a votação, na Comissão Mista, da parte cuja alteração é proposta**.\n\n> 📖 **Art. 166, §5º, CF/88** — \"O Presidente da República poderá enviar mensagem ao Congresso Nacional para propor modificação nos projetos a que se refere este artigo enquanto não iniciada a votação, na **Comissão mista**, da parte cuja alteração é proposta.\"\n\n{red:Pegadinhas frequentes:} (1) o marco é a votação **na Comissão Mista**, ==não no Plenário==; (2) basta não ter iniciado a votação **da parte** a ser alterada (não do projeto todo).\n\n**Por que as demais erram:** **A** o marco não é o Plenário; **B** pode haver modificação mesmo após início da votação de **outras** partes; **D** \"é defeso/proibido\" está errado — é permitido; **E** não se restringe à LDO.",
+    "options": [
+      "É proibido ao PR propor qualquer modificação após o envio do projeto.",
+      "O PR só pode propor modificação enquanto não iniciada a votação no Plenário.",
+      "O PR pode propor modificação enquanto não iniciada a votação, na Comissão Mista, da parte cuja alteração é proposta.",
+      "É defeso ao PR propor modificação após iniciada a votação de qualquer parte do projeto.",
+      "A modificação só é admitida em relação ao projeto de LDO."
+    ],
+    "correctOption": "C",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSegundo o art. 166, §3º, da CF/88, as emendas ao projeto de lei do orçamento anual só podem ser aprovadas caso (assinale a correta):",
+    "back": "**Gabarito: E.** As emendas à LOA só são aprovadas se atenderem cumulativamente aos requisitos do art. 166, §3º.\n\n> 📖 **Art. 166, §3º, CF/88** — \"As emendas ao projeto de lei do orçamento anual ou aos projetos que o modifiquem somente podem ser aprovadas caso:\n> **I** - sejam compatíveis com o **plano plurianual e com a lei de diretrizes orçamentárias**;\n> **II** - **indiquem os recursos necessários**, admitidos apenas os provenientes de **anulação de despesa**, excluídas as que incidam sobre: a) **dotações para pessoal e seus encargos**; b) **serviço da dívida**; c) **transferências tributárias constitucionais** para Estados, Municípios e DF; ou\n> **III** - sejam relacionadas com a correção de erros ou omissões; ou com os dispositivos do texto do projeto (emendas de redação).\"\n\n> 📌 **Mnemônico das fontes vedadas (PSD): P**essoal e encargos · **S**erviço da dívida · transferências constitucionais **(D)**.\n\n**Por que as demais erram:** **A** e **B** exigem compatibilidade com PPA **e** LDO (não só um); **C** e **D** invertem — as despesas de pessoal, serviço da dívida e transferências constitucionais são **excluídas** das fontes admitidas.",
+    "options": [
+      "Sejam compatíveis apenas com o plano plurianual.",
+      "Sejam compatíveis apenas com a lei de diretrizes orçamentárias.",
+      "Indiquem recursos de anulação de despesa, incluídas as de pessoal e serviço da dívida.",
+      "Anulem dotações de pessoal, serviço da dívida e transferências constitucionais.",
+      "Sejam compatíveis com o PPA e a LDO e indiquem recursos de anulação de despesa, excluídas as de pessoal, serviço da dívida e transferências tributárias constitucionais."
+    ],
+    "correctOption": "E",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSegundo o art. 33 da **Lei nº 4.320/1964**, NÃO se admitirão emendas ao projeto de Lei de Orçamento que visem a (assinale a correta):",
+    "back": "**Gabarito: A.** O art. 33 lista vedações específicas a emendas à Lei de Orçamento.\n\n> 📖 **Art. 33, Lei 4.320/64** — \"Não se admitirão emendas ao projeto de Lei de Orçamento que visem a:\n> **a)** alterar a dotação solicitada para despesa de custeio, **salvo quando provada a inexatidão da proposta**;\n> **b)** conceder dotação para o **início de obra cujo projeto não esteja aprovado** pelos órgãos competentes;\n> **c)** conceder dotação para instalação ou funcionamento de **serviço que não esteja anteriormente criado**;\n> **d)** conceder dotação superior aos quantitativos previamente fixados em resolução do Legislativo para auxílios e subvenções.\"\n\n**Aplicação prática:** emenda para iniciar obra sem projeto aprovado → **vedada**; para serviço ainda não criado → **vedada**; para alterar custeio sem prova de inexatidão → **vedada**.\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** (\"essencialidade\", \"redução de desigualdade\", \"oferta de empregos\") não constam do rol taxativo do art. 33.",
+    "options": [
+      "Conceder dotação para instalação ou funcionamento de serviço que não esteja anteriormente criado.",
+      "Conceder dotação a serviço não considerado essencial.",
+      "Conceder dotação a serviço que não apresente receita correspondente.",
+      "Conceder dotação que não implique aumento na oferta de empregos.",
+      "Conceder dotação sem objetivo de redução da desigualdade social."
+    ],
+    "correctOption": "A",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre as **emendas individuais impositivas** ao orçamento (art. 166 da CF/88), assinale a alternativa correta.",
+    "back": "**Gabarito: D.** As emendas individuais são **impositivas** (execução obrigatória), introduzidas pela **EC 86/2015** e ampliadas pelas EC 100/2019 e 126/2022.\n\n| Item | Regra |\n|---|---|\n| Limite individuais | **2% da RCL** do exercício anterior ao do encaminhamento do projeto |\n| Vinculação à saúde | **Metade (50%)** das individuais → ações e serviços públicos de **saúde** |\n| Bancada estadual | até **1% da RCL** realizada no exercício anterior |\n| Execução obrigatória | salvo **impedimento de ordem técnica** |\n\n> 📖 **Art. 166, §9º e §11, CF/88.**\n\nA execução obrigatória **não é absoluta**: pode ser obstada por impedimento técnico e reduzida proporcionalmente às demais despesas discricionárias se houver risco à meta fiscal (§18). A obrigatoriedade refere-se ao **empenho** — admite-se inscrição em **restos a pagar**.\n\n**Por que as demais erram:** **A** o limite é 2% da RCL, não da receita total; **B** metade vai para saúde, não educação; **C** a execução obrigatória comporta exceção (impedimento técnico); **E** admite-se restos a pagar.",
+    "options": [
+      "O limite das emendas individuais é de 2% da receita orçamentária total.",
+      "Metade das emendas individuais é obrigatoriamente destinada à educação.",
+      "A execução das emendas impositivas é absoluta, sem qualquer exceção.",
+      "As emendas individuais são impositivas, limitadas a 2% da RCL do exercício anterior, com metade destinada à saúde, salvo impedimento de ordem técnica.",
+      "As emendas impositivas devem ser integralmente pagas no exercício, vedada a inscrição em restos a pagar."
+    ],
+    "correctOption": "D",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre as **transferências especiais** e **com finalidade definida** (art. 166-A da CF/88, EC 105/2019), assinale a alternativa correta.",
+    "back": "**Gabarito: C.** O art. 166-A permite que emendas individuais impositivas aloquem recursos a Estados, DF e Municípios por **transferência especial** ou **com finalidade definida**.\n\n| | Transferência ESPECIAL | Com FINALIDADE DEFINIDA |\n|---|---|---|\n| Repasse | direto, **sem convênio** | vinculado à programação da emenda |\n| Titularidade | do ente **no ato** da transferência | — |\n| Aplicação | áreas de competência do **ente local**; **≥70% em despesas de capital** | áreas de competência **da União** |\n\n> 📖 **Art. 166-A, §1º** — os recursos {red:não integram} a receita do ente para repartição nem para cálculo do limite de pessoal; é **vedado, em qualquer caso**, aplicá-los em (I) pessoal/encargos de ativos, inativos e pensionistas e (II) **encargos do serviço da dívida**.\n\n**Por que as demais erram:** **A** a transferência especial dispensa convênio; **B** os recursos não integram a receita para limite de pessoal; **D** é vedado aplicar em serviço da dívida; **E** ≥70% das especiais vão para despesas de **capital**, não para a dívida.",
+    "options": [
+      "A transferência especial exige prévia celebração de convênio com o ente beneficiado.",
+      "Os recursos integram a receita do ente para fins de cálculo do limite de despesa com pessoal.",
+      "Na transferência especial os recursos são repassados sem convênio e ao menos 70% aplicados em despesas de capital, vedado o pagamento de encargos do serviço da dívida.",
+      "Os recursos podem ser livremente aplicados no pagamento de encargos do serviço da dívida.",
+      "Pelo menos 70% das transferências especiais devem ser aplicadas no serviço da dívida."
+    ],
+    "correctOption": "C",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nA fase de **execução orçamentária** envolve os estágios da **receita** e da **despesa**. Assinale a alternativa correta.",
+    "back": "**Gabarito: B.** Na execução, é preciso não confundir os estágios da **receita** com os da **despesa** — confusão muito explorada em prova.\n\n| RECEITA | DESPESA |\n|---|---|\n| Previsão | Empenho |\n| Lançamento | Liquidação |\n| Arrecadação | Pagamento |\n| Recolhimento | — |\n\n> 📌 **Mnemônico:** receita = **PLAR** (Previsão, Lançamento, Arrecadação, Recolhimento); despesa = **ELP** (Empenho, Liquidação, Pagamento).\n\nA execução compreende a utilização dos créditos consignados na LOA para realizar as ações das unidades orçamentárias, com vigência limitada ao **exercício financeiro** (1º/jan a 31/dez).\n\n**Por que as demais erram:** **A** empenho, liquidação e pagamento são estágios da **despesa**, não da receita; **C** previsão/lançamento/arrecadação são da **receita**, não da despesa; **D** a execução não se inicia antes da vigência da LOA; **E** os estágios da receita não incluem o empenho.",
+    "options": [
+      "Empenho, liquidação e pagamento são os três estágios da receita.",
+      "Os estágios da despesa são empenho, liquidação e pagamento; os da receita incluem previsão, lançamento e arrecadação.",
+      "Previsão, lançamento e arrecadação são estágios da despesa.",
+      "A execução orçamentária inicia-se antes da vigência da LOA.",
+      "Os estágios da receita são empenho, liquidação e pagamento."
+    ],
+    "correctOption": "B",
+    "topicName": "Execução Orçamentária"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSegundo o art. 75 da **Lei nº 4.320/1964**, o controle da execução orçamentária compreenderá (assinale a correta):",
+    "back": "**Gabarito: A.** O art. 75 define o **conteúdo** do controle da execução orçamentária.\n\n> 📖 **Art. 75, Lei 4.320/64** — \"O contrôle da execução orçamentária compreenderá:\n> **I** - a **legalidade dos atos** de que resultem a arrecadação da receita ou a realização da despesa, o nascimento ou a extinção de direitos e obrigações;\n> **II** - a **fidelidade funcional** dos agentes da administração, responsáveis por bens e valores públicos;\n> **III** - o **cumprimento do programa de trabalho** expresso em termos monetários e de realização de obras e prestação de serviços.\"\n\n> 📌 **Mnemônico (LFC): L**egalidade · **F**idelidade funcional · **C**umprimento do programa de trabalho.\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** mencionam apenas parte ou descrevem objetivos do controle pelo Legislativo (art. 81) — o art. 75 reúne **os três** incisos acima.",
+    "options": [
+      "A legalidade dos atos, a fidelidade funcional dos agentes e o cumprimento do programa de trabalho.",
+      "Apenas a legalidade dos atos de arrecadação e realização da despesa.",
+      "Apenas a probidade da administração e a guarda dos dinheiros públicos.",
+      "Apenas o cumprimento do programa de trabalho em termos físicos.",
+      "Exclusivamente a fidelidade funcional dos agentes públicos."
+    ],
+    "correctOption": "A",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSegundo o art. 77 da **Lei nº 4.320/1964**, a verificação da legalidade dos atos de execução orçamentária será (assinale a correta):",
+    "back": "**Gabarito: C.** A verificação da legalidade dos atos de execução orçamentária ocorre em **três momentos**.\n\n> 📖 **Art. 77, Lei 4.320/64** — \"A verificação da legalidade dos atos de execução orçamentária será **prévia, concomitante e subseqüente**.\"\n\n> 📌 {blue:Atenção à distinção doutrinária:} o **controle interno** abrange os três momentos (prévio, concomitante e subsequente). O **controle externo** (Legislativo + TC) é tido como **concomitante e subsequente**, pois o controle **prévio** é tipicamente atribuição do controle interno.\n\n**Por que as demais erram:** **A**, **B**, **D** e **E** excluem indevidamente um ou mais momentos — pela literalidade do art. 77, a verificação é prévia, concomitante **e** subsequente.",
+    "options": [
+      "Prévia ou concomitante, mas nunca subsequente.",
+      "Prévia ou subsequente, mas nunca concomitante.",
+      "Prévia, concomitante e subsequente.",
+      "Concomitante ou subsequente, mas nunca prévia.",
+      "Apenas subsequente."
+    ],
+    "correctOption": "C",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre o **controle externo** da execução orçamentária e o papel dos **Tribunais de Contas**, assinale a alternativa correta.",
+    "back": "**Gabarito: D.** O **controle externo** é exercido pelo **Poder Legislativo, com o auxílio do Tribunal de Contas** (art. 70 e 71 da CF). As contas do Executivo são submetidas ao Legislativo **com parecer prévio do Tribunal de Contas**.\n\n> 📖 **Art. 71, I, CF/88** — compete ao TCU \"apreciar as contas prestadas anualmente pelo Presidente da República, mediante **parecer prévio** que deverá ser elaborado em sessenta dias (...).\"\n\n{blue:Importante:} o parecer do TC é **prévio e opinativo** (subsídio técnico); quem **julga** as contas do Chefe do Executivo é o **Legislativo** (art. 49, IX). O Executivo presta contas **anualmente** (não ao Judiciário).\n\n**Por que as demais erram:** **A** o controle externo **abrange** a verificação do emprego do dinheiro público; **B** abrange também a probidade; **C** as contas vão ao Legislativo (não ao Judiciário) e anualmente; **E** onde não há TC, a fiscalização cabe ao TCE/TCM, não à Secretaria de Fazenda.",
+    "options": [
+      "O controle externo não envolve a verificação do emprego do dinheiro público.",
+      "O controle externo não abrange a verificação da probidade da administração.",
+      "O Executivo presta contas bimestralmente ao Poder Judiciário.",
+      "As contas do Executivo são submetidas ao Legislativo, com parecer prévio do Tribunal de Contas.",
+      "Onde não houver Tribunal de Contas, a Secretaria de Fazenda designa peritos para emitir parecer."
+    ],
+    "correctOption": "D",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre o **sistema de controle interno** previsto no art. 74 da CF/88, assinale a alternativa correta.",
+    "back": "**Gabarito: E.** Os três Poderes manterão, de forma **integrada**, sistema de controle interno.\n\n> 📖 **Art. 74, CF/88** — \"Os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno com a finalidade de:\n> **I** - avaliar o cumprimento das **metas do PPA**, a execução dos programas de governo e dos orçamentos da União;\n> **II** - comprovar a legalidade e avaliar os resultados (eficácia e eficiência) da gestão (...);\n> **III** - exercer o controle das operações de crédito, avais e garantias (...);\n> **IV** - **apoiar o controle externo** no exercício de sua missão institucional.\"\n\n> 📖 **§1º** — responsáveis pelo controle interno que tomem conhecimento de irregularidade darão ciência ao TCU, sob pena de **responsabilidade solidária**.\n> 📖 **§2º** — **qualquer cidadão**, partido, associação ou sindicato é parte legítima para denunciar irregularidades ao TCU.\n\n**Por que as demais erram:** **A** o sistema é integrado entre os três Poderes; **B** a responsabilidade é **solidária**, não subsidiária; **C** a legitimidade para denunciar inclui **qualquer cidadão**; **D** as metas avaliadas são as do **PPA**, não da LOA.",
+    "options": [
+      "Cada Poder mantém sistema de controle interno isolado e independente dos demais.",
+      "A omissão do responsável pelo controle interno gera responsabilidade subsidiária.",
+      "Apenas partidos políticos e sindicatos podem denunciar irregularidades ao TCU.",
+      "O controle interno avalia o cumprimento das metas estabelecidas na LOA.",
+      "Os três Poderes mantêm, de forma integrada, controle interno destinado, entre outros, a apoiar o controle externo, sendo qualquer cidadão parte legítima para denunciar ao TCU."
+    ],
+    "correctOption": "E",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre os relatórios de acompanhamento fiscal previstos na CF/88 e na LRF, assinale a alternativa correta quanto à **periodicidade**.",
+    "back": "**Gabarito: B.** Não confundir os dois principais instrumentos de transparência fiscal:\n\n| Relatório | Periodicidade | Base |\n|---|---|---|\n| **RREO** – Relatório Resumido da Execução Orçamentária | **bimestral** (até 30 dias após cada bimestre) | art. 165, §3º, CF / art. 52 LRF |\n| **RGF** – Relatório de Gestão Fiscal | **quadrimestral** | art. 54-55 LRF |\n\n> 📖 **Art. 165, §3º, CF/88** — \"O Poder Executivo publicará, até trinta dias após o encerramento de cada **bimestre**, relatório resumido da execução orçamentária.\"\n\n> 📌 **Mnemônico:** RRE**O** = **O**rçamentária = bi**mestre**; **G**estão **F**iscal = quadri**mestre**.\n\n**Por que as demais erram:** **A** o RREO é bimestral, não mensal; **C** e **E** invertem as periodicidades; **D** o RGF é quadrimestral, não bimestral.",
+    "options": [
+      "O RREO é publicado mensalmente e o RGF, anualmente.",
+      "O RREO é publicado a cada bimestre e o RGF, a cada quadrimestre.",
+      "O RREO é quadrimestral e o RGF, bimestral.",
+      "Ambos, RREO e RGF, são publicados a cada bimestre.",
+      "O RREO é anual e o RGF, semestral."
+    ],
+    "correctOption": "B",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^FCC • COPERGÁS • 2023 • Analista (Contador)^^\n\nNos termos da Constituição Federal de 1988, o Presidente da República poderá enviar mensagem ao Congresso Nacional para propor modificação no projeto da Lei Orçamentária Anual, desde que",
+    "back": "**Gabarito: A.** O PR pode propor modificação nos projetos do art. 166 (PPA, LDO, LOA e créditos adicionais) **enquanto não iniciada a votação, na Comissão Mista, da parte cuja alteração é proposta** — e {red:não no Plenário}.\n\n> 📖 **Art. 166, §5º, CF/88** — \"O Presidente da República poderá enviar mensagem ao Congresso Nacional para propor modificação nos projetos a que se refere este artigo enquanto não iniciada a votação, na **Comissão mista**, da parte cuja alteração é proposta.\"\n\n**Por que as demais erram:** **B** não há restrição quanto a crédito adicional (aliás, ele está no rol do art. 166); **C** não se exige que não trate de anulação de despesa; **D** e **E** não há limitação a serviço da dívida ou despesas com pessoal.",
+    "options": [
+      "não iniciada a votação, na Comissão mista permanente de Senadores e Deputados, da parte cuja alteração é proposta.",
+      "não se refira à matéria relacionada a crédito adicional.",
+      "não se refira à anulação de despesa.",
+      "a alteração se limite ao serviço da dívida.",
+      "a alteração se limite a despesas com pessoal e seus encargos."
+    ],
+    "correctOption": "A",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FCC • PGE-AM • 2022 • Procurador^^\n\nNo Direito Financeiro, a legalidade adquire especificidades. A respeito do tema, é correto afirmar que",
+    "back": "**Gabarito: D.** A **LOA é lei formalmente ordinária**, com **tramitação legislativa diferenciada**, sendo ainda lei **especial, temporária e de efeitos concretos** (doutrina).\n\n> 📖 **Art. 165, CF/88** — PPA, LDO e LOA são leis **ordinárias** (de iniciativa do Executivo).\n\n**Por que as demais erram:** **A** {red:é cabível MP} para abertura de **crédito extraordinário** (art. 167, §3º); **B** o crédito suplementar é **aberto por decreto** e autorizado por lei (art. 42, Lei 4.320/64); **C** a LOA é ordinária, não materialmente complementar (lei complementar dispõe sobre normas gerais de direito financeiro — art. 24/163); **E** o PPA é lei **ordinária**, não complementar.",
+    "options": [
+      "é vedada medida provisória em tema de direito orçamentário.",
+      "é vedada abertura de crédito suplementar mediante decreto.",
+      "a Lei Orçamentária Anual é lei materialmente complementar.",
+      "a Lei Orçamentária Anual é lei formalmente ordinária e tem tramitação legislativa diferenciada.",
+      "o Plano Plurianual é lei formalmente complementar."
+    ],
+    "correctOption": "D",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FCC • TRT 17ª Região • 2022 • Analista Judiciário (Administrativa)^^\n\nA Lei Orçamentária Anual de um ente público municipal referente ao exercício de 2022, de acordo com a Lei nº 4.320/1964,",
+    "back": "**Gabarito: C.** A LOA pode **autorizar o Executivo a realizar, em qualquer mês do exercício, operações de crédito por antecipação da receita (ARO)** para atender insuficiências de caixa.\n\n> 📖 **Art. 7º, II, Lei 4.320/64** — \"A Lei de Orçamento poderá conter autorização ao Executivo para: II - Realizar em qualquer mês do exercício financeiro, operações de crédito por antecipação da receita, para atender a insuficiências de caixa.\"\n\n**Por que as demais erram:** **A** registrar caução como despesa fere a **exclusividade** (caução é extraorçamentária); **B** as receitas seguem o **regime de caixa** (arrecadação), não competência; **D** a autorização do art. 7º, I é para **créditos suplementares** \"até determinada importância\" (genérica, sem percentual), não para extraordinários; **E** ARO é **extraorçamentária** — não é Receita de Capital.",
+    "options": [
+      "cumpre os princípios da universalidade e exclusividade se fixar despesa para devolução de depósito caução.",
+      "cumpre o princípio da competência se prever a receita com impostos segundo o fato gerador.",
+      "pode conter autorização ao Executivo para realizar, em qualquer mês do exercício, operações de crédito por antecipação da receita para atender insuficiências de caixa.",
+      "pode autorizar o Executivo a abrir créditos extraordinários até 1,2% do superávit financeiro do ano anterior.",
+      "deve apresentar a receita com operações de crédito por antecipação da receita como Receita de Capital."
+    ],
+    "correctOption": "C",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FCC • TRT 5ª Região • 2022 • Analista Judiciário (Administrativa)^^\n\nA Lei Orçamentária Anual de um ente público estadual referente ao exercício de 2022, de acordo com a Lei nº 4.320/1964, deve",
+    "back": "**Gabarito: E.** A LOA classifica a receita prevista com **aluguéis como Receita Corrente** e as dotações para **juros da dívida pública como Despesa Corrente**.\n\n> 📖 **Arts. 11 e 12, Lei 4.320/64** — receitas patrimoniais (aluguéis) são **correntes**; despesas com juros e encargos da dívida são **correntes** (a amortização é que é de capital).\n\n**Por que as demais erram:** **A** alterar alíquotas/compensar renúncia não é objeto da LOA; **B** as metas de resultado nominal e primário plurianuais estão na **LDO** (Anexo de Metas Fiscais); **C** o **Anexo de Riscos Fiscais** integra a **LDO** (art. 4º, §3º, LRF); **D** a **reserva de contingência** baseia-se na **RCL**, não na receita total arrecadada.",
+    "options": [
+      "dispor sobre alterações nas alíquotas tributárias e medidas de compensação a renúncias de receitas.",
+      "estabelecer as metas de resultado nominal e primário para 2022, 2023 e 2024.",
+      "compreender o Anexo de Riscos Fiscais.",
+      "conter reserva de contingência definida com base na receita orçamentária total arrecadada no ano anterior.",
+      "apresentar a receita prevista com aluguéis como Receita Corrente e as dotações para juros da dívida como Despesa Corrente."
+    ],
+    "correctOption": "E",
+    "topicName": "Execução Orçamentária"
+  },
+  {
+    "front": "^^FCC • PGE-AM • 2022 • Técnico de Gestão Pública (Controle Interno)^^\n\nNo âmbito do controle interno, a verificação de legalidade dos atos de execução orçamentária será",
+    "back": "**Gabarito: C.** A verificação de legalidade dos atos de execução orçamentária ocorre nos **três momentos**.\n\n> 📖 **Art. 77, Lei 4.320/64** — \"A verificação da legalidade dos atos de execução orçamentária será **prévia, concomitante e subseqüente**.\"\n\n> 📌 {blue:Doutrina:} o **controle interno** abrange os três momentos; já o **controle externo** é tido como concomitante e subsequente (o prévio é típico do interno).\n\n**Por que as demais erram:** **A**, **B**, **D** e **E** excluem indevidamente um dos momentos previstos no art. 77.",
+    "options": [
+      "prévia ou concomitante, mas nunca subsequente.",
+      "prévia ou subsequente, mas nunca concomitante.",
+      "prévia, concomitante ou subsequente.",
+      "concomitante ou subsequente, mas nunca prévia.",
+      "apenas subsequente, nunca concomitante ou prévia."
+    ],
+    "correctOption": "C",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^FCC • TRT 23ª Região • 2022 • Analista Judiciário (Administrativa)^^\n\nQuanto ao controle interno, de acordo com a CF/88, está correto APENAS o que se afirma em (I) os Poderes manterão sistema integrado para apoiar o controle externo; (II) a omissão gera responsabilidade subsidiária; (III) só partidos e sindicatos podem denunciar ao TCU; (IV) o Judiciário manterá controle independente com finalidade exclusiva de comprovar a eficácia da gestão patrimonial.",
+    "back": "**Gabarito: E.** Apenas o item **I** está correto.\n\n> 📖 **Art. 74, CF/88** — os três Poderes mantêm, **de forma integrada**, controle interno, entre cujas finalidades está **apoiar o controle externo** (inciso IV). ✅ (item I)\n\n> 📖 **§1º** — a ciência ao TCU sob pena de **responsabilidade solidária** (não subsidiária). ❌ (item II)\n\n> 📖 **§2º** — **qualquer cidadão**, partido, associação ou sindicato é parte legítima para denunciar ao TCU. ❌ (item III, que restringe indevidamente)\n\nO **item IV** erra: o controle interno é **integrado** (não \"independente\"), não é exclusivo do Judiciário e avalia eficácia **e eficiência**, não só patrimonial.\n\n**Por que as demais erram:** todas incluem itens (II, III ou IV) que contrariam o art. 74.",
+    "options": [
+      "II, III e IV.",
+      "I e II.",
+      "I, III e IV.",
+      "II e III.",
+      "I."
+    ],
+    "correctOption": "E",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^FCC • TRT 22ª Região • 2022 • Analista Judiciário (Administrativa)^^\n\nAs emendas ao projeto de LOA somente podem ser aprovadas caso indiquem recursos provenentes de anulação de despesa, EXCLUÍDAS as que incidam sobre",
+    "back": "**Gabarito: E.** As emendas à LOA só podem indicar como fonte a **anulação de despesa**, sendo **excluídas** (não podem ser anuladas): **dotações para pessoal e seus encargos**, **serviço da dívida** e **transferências tributárias constitucionais** para Estados, Municípios e DF.\n\n> 📖 **Art. 166, §3º, II, CF/88.**\n\n> 📌 **Mnemônico (PSD): P**essoal e encargos · **S**erviço da dívida · transferências constitucionais **(D)**.\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** (auxílios/subvenções, inexigibilidade, despesas inadiáveis, despesas continuadas) não constam do rol de fontes vedadas do art. 166, §3º, II.",
+    "options": [
+      "auxílios, subvenções e contribuições.",
+      "inexigibilidade de licitação por fornecedor exclusivo.",
+      "despesas que não possam subordinar-se ao processo normal de aplicação.",
+      "despesas de caráter continuado.",
+      "dotações para pessoal e seus encargos."
+    ],
+    "correctOption": "E",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FCC • TRT 5ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nA Lei Orçamentária Anual de um ente público municipal referente ao exercício de 2022, de acordo com a Lei nº 4.320/1964,",
+    "back": "**Gabarito: A.** A LOA pode **autorizar o Executivo a realizar operações de crédito por antecipação da receita (ARO) em qualquer mês do exercício** para atender insuficiências de caixa.\n\n> 📖 **Art. 7º, II, Lei 4.320/64** — \"A Lei de Orçamento poderá conter autorização ao Executivo para: (...) II - Realizar em qualquer mês do exercício financeiro, operações de crédito por antecipação da receita, para atender a insuficiências de caixa.\"\n\n**Por que as demais erram:** **B** ARO é **extraorçamentária**, não Receita de Capital; **C** as metas fiscais plurianuais são da **LDO** (Anexo de Metas Fiscais); **D** o limite das emendas individuais é **2% da RCL** do exercício anterior (não 1,2% da receita realizada); **E** a **reserva de contingência** baseia-se na **RCL**, conforme a LDO.",
+    "options": [
+      "pode conter autorização ao Executivo para realizar operações de crédito por antecipação da receita em qualquer mês do exercício, para atender insuficiências de caixa.",
+      "pode indicar a receita com operações de crédito por antecipação da receita como Receita de Capital.",
+      "deve incluir demonstrativo de metas fiscais e dívida pública para 2022, 2023 e 2024.",
+      "deve incluir emendas parlamentares aprovadas no limite de 1,2% da receita orçamentária realizada no ano anterior.",
+      "deve estabelecer a forma de utilização da reserva de contingência definida com base na receita orçamentária realizada no ano anterior."
+    ],
+    "correctOption": "A",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FCC • TRT 4ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nA Lei Orçamentária Anual referente ao exercício de 2022 de um ente público deve",
+    "back": "**Gabarito: C.** Pelo princípio da **universalidade**, a LOA deve **conter todas as receitas e despesas orçamentárias**, inclusive das **fundações instituídas e mantidas** pelo ente.\n\n> 📖 **Art. 165, §5º, CF/88** — a LOA compreende os orçamentos fiscal, da seguridade social e de investimento, abrangendo a administração direta e indireta (inclusive fundações).\n\n**Por que as demais erram:** **A** as cotas de receitas a transferir devem constar pelo valor **bruto** (art. 6º, Lei 4.320/64), não líquido; **B** a **caução** recebida em garantia é receita **extraorçamentária**; **D** as regras de avaliação de resultados dos programas finalísticos cabem à **LDO** (art. 4º, LRF); **E** os montantes de alienação de exercícios passados não são objeto da LOA (que **fixa/estima** para o exercício futuro).",
+    "options": [
+      "apresentar as cotas de receitas a transferir a entidade pública pelo seu valor líquido.",
+      "compreender a previsão de receita com caução a ser recebida como garantia de um contratado.",
+      "conter todas as receitas e despesas orçamentárias de fundações instituídas e mantidas pelo ente.",
+      "dispor sobre as regras de avaliação dos resultados dos programas finalísticos do Orçamento Fiscal.",
+      "indicar os montantes obtidos com alienação de bens móveis e imóveis em 2020 e 2021."
+    ],
+    "correctOption": "C",
+    "topicName": "Execução Orçamentária"
+  },
+  {
+    "front": "^^FCC • PGE-AM • 2022 • Procurador^^\n\nEmenda individual parlamentar de caráter impositivo destinou recursos da União a ações de assistência social no Estado do Amazonas. Após a aprovação do Orçamento, a transferência financeira ao Estado",
+    "back": "**Gabarito: E.** Trata-se de **transferência especial** (art. 166-A, EC 105/2019): os recursos são **repassados diretamente ao ente, sem convênio**, com aplicação de **ao menos 70% em despesas de capital**, vedado o pagamento de encargos do serviço da dívida.\n\n> 📖 **Art. 166-A, §2º, I e §5º, CF/88** — repasse direto, independentemente de convênio; \"pelo menos 70% das transferências especiais (...) deverão ser aplicadas em despesas de capital.\"\n> 📖 **§1º** — vedada, em qualquer caso, a aplicação em pessoal/encargos e em **encargos do serviço da dívida**.\n\n**Por que as demais erram:** **A** não depende de decreto de execução em 60 dias; **B** não é restrita a \"fundo a fundo\"; **C** transferência especial **independe de convênio** (não é voluntária no sentido do art. 25 da LRF); **D** não é vedada — é exatamente permitida pelo art. 166-A.",
+    "options": [
+      "fica sujeita à inclusão da despesa em decreto de execução em até 60 dias e da receita no orçamento do Estado.",
+      "somente pode ser feita de fundo federal a fundo estadual, vedada aplicação em despesas de pessoal.",
+      "depende de prévia celebração de convênio, por se tratar de transferência voluntária.",
+      "é expressamente vedada, pois as emendas impositivas demandam execução direta pelo próprio ente federado.",
+      "pode ser feita diretamente, independentemente de convênio, mediante transferência especial, com ao menos 70% em despesas de capital, vedada aplicação no serviço da dívida."
+    ],
+    "correctOption": "E",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^FCC • TCE-GO • 2022 • Analista de Controle Externo (Contabilidade)^^\n\nUma dotação que tenha sido incluída na Lei Orçamentária Anual por emenda parlamentar individual impositiva",
+    "back": "**Gabarito: B.** A dotação de emenda individual impositiva pode ensejar **repasse direto a Município**, para programação finalística de sua competência, **independentemente de convênio**, mediante **transferência especial** (art. 166-A).\n\n> 📖 **Art. 166-A, §2º, I, CF/88** — os recursos \"serão repassados diretamente ao ente federado beneficiado, independentemente de celebração de convênio ou de instrumento congênere.\"\n\n**Por que as demais erram:** **A** as emendas impositivas **podem** sofrer limitação proporcional (contingenciamento) se houver risco à meta fiscal (art. 166, §18); **C** os recursos {red:não integram} a RCL para limite de pessoal (art. 166-A, §1º); **D** **admite-se restos a pagar** (a obrigatoriedade é de empenho); **E** a execução em saúde **é computada** para o mínimo constitucional (art. 166, §10).",
+    "options": [
+      "não pode ser alcançada por contingenciamento, somente podendo ser cancelada por decreto do Chefe do Executivo.",
+      "poderá ensejar repasses diretamente a município para programação finalística de sua competência, independentemente de convênio, mediante transferência especial.",
+      "integra a despesa corrente líquida para todos os efeitos, exceto o limite de gastos com pessoal.",
+      "não poderá gerar restos a pagar, devendo a despesa ser integralmente paga no exercício.",
+      "não será considerada para verificação do mínimo de despesas com saúde e educação, ainda que aplicada nessas áreas."
+    ],
+    "correctOption": "B",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^FCC • TRT 22ª Região • 2022 • Analista Judiciário (Contabilidade)^^\n\nA CF/88 determina que a Administração tem o dever de executar as programações orçamentárias para garantir a efetiva entrega de bens e serviços. Esse regramento, nos termos da LDO, aplica-se",
+    "back": "**Gabarito: E.** O dever de execução das programações orçamentárias (art. 165, §10) aplica-se **exclusivamente às despesas primárias discricionárias**.\n\n> 📖 **Art. 165, §10 e §11, CF/88** — \"A administração tem o dever de executar as programações orçamentárias (...). O disposto no §10 (...): I - subordina-se ao cumprimento de metas fiscais ou limites de despesas (...); II - não se aplica nos casos de impedimentos de ordem técnica devidamente justificados; III - **aplica-se exclusivamente às despesas primárias discricionárias**.\"\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** (excedente do resultado nominal, gestão financeira/patrimonial, itens da RCL, programas obrigatórios) não correspondem à hipótese do inciso III do §11.",
+    "options": [
+      "ao excedente do resultado nominal.",
+      "às despesas de gestão financeira e patrimonial da Administração direta e indireta.",
+      "aos itens orçamentários que compõem a receita corrente líquida.",
+      "aos programas de caráter obrigatório.",
+      "às despesas primárias discricionárias."
+    ],
+    "correctOption": "E",
+    "topicName": "Execução Orçamentária"
+  },
+  {
+    "front": "^^FCC • PGE-GO • 2021 • Procurador^^\n\nPrograma de fomento ofertando linhas de crédito a juros abaixo do mercado, custeado por transferência do Tesouro a instituições financeiras para equalização de juros. Referida ação estatal",
+    "back": "**Gabarito: C.** A ação configura **benefício de natureza financeira**, que **pressupõe autorização legal** e deve ser computado no **demonstrativo regionalizado** que acompanha a LOA — o mesmo que contempla os benefícios tributários.\n\n> 📖 **Art. 165, §6º, CF/88** — \"O projeto de lei orçamentária será acompanhado de demonstrativo regionalizado do efeito, sobre as receitas e despesas, decorrente de **isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia**.\"\n\nA **equalização de juros** é benefício **financeiro/creditício** (não renúncia tributária).\n\n**Por que as demais erram:** **A** não é renúncia tributária; **B** configura, sim, benefício financeiro; **D** não é subvenção econômica vedada; **E** não é subvenção social e **exige** autorização legal.",
+    "options": [
+      "caracteriza renúncia de receita financeiro-tributária, exigindo compensação por aumento de impostos.",
+      "não configura benefício financeiro, podendo caracterizar despesa equiparada a operação de crédito.",
+      "configura benefício de natureza financeira que pressupõe autorização legal e deve constar do demonstrativo regionalizado que acompanha a LOA.",
+      "não caracteriza benefício fiscal, mas subvenção econômica vedada por envolver instituições financeiras privadas.",
+      "caracteriza subvenção social que prescinde de autorização legal específica."
+    ],
+    "correctOption": "C",
+    "topicName": "Execução Orçamentária"
+  },
+  {
+    "front": "^^FCC • SEF-SC • 2021 • Auditor da Receita Estadual^^\n\nUm Deputado apresentou três emendas à LOA: (1ª) dotação para início de obra de ponte cujo projeto ainda será aprovado; (2ª) dotação para instalar serviço de internet ainda não criado; (3ª) alterar dotação de custeio sem prova de inexatidão da proposta. De acordo com a Lei nº 4.320/1964,",
+    "back": "**Gabarito: A.** **Nenhuma** das três emendas pode ser admitida — todas esbarram nas vedações do art. 33.\n\n> 📖 **Art. 33, Lei 4.320/64** — \"Não se admitirão emendas ao projeto de Lei de Orçamento que visem a: **a)** alterar a dotação solicitada para despesa de custeio, **salvo quando provada a inexatidão da proposta**; **b)** conceder dotação para o **início de obra cujo projeto não esteja aprovado** pelos órgãos competentes; **c)** conceder dotação para instalação ou funcionamento de **serviço que não esteja anteriormente criado** (...).\"\n\n- 1ª (obra sem projeto aprovado) → **vedada** (alínea b);\n- 2ª (serviço não criado) → **vedada** (alínea c);\n- 3ª (custeio sem prova de inexatidão) → **vedada** (alínea a).\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** admitem uma ou mais emendas, mas as três violam o art. 33.",
+    "options": [
+      "nenhuma poderá ser admitida.",
+      "somente duas poderão ser admitidas, por se tratar de serviço com benefícios interestaduais.",
+      "somente uma poderá ser admitida, a protocolizada em primeiro lugar.",
+      "todas poderão ser admitidas.",
+      "somente uma poderá ser admitida, a de menor custo no orçamento."
+    ],
+    "correctOption": "A",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^CEBRASPE • ICMBio • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nNo processo legislativo orçamentário federal, a competência para examinar e emitir parecer sobre os projetos de lei das matérias orçamentárias e de créditos adicionais é",
+    "back": "**Gabarito: B.** Compete a uma **Comissão Mista permanente de Senadores e Deputados** (CMO), e não às comissões temáticas separadas de cada Casa.\n\n> 📖 **Art. 166, §1º, I, CF/88** — \"Caberá a uma **Comissão mista permanente de Senadores e Deputados**: I - examinar e emitir parecer sobre os projetos referidos neste artigo (...).\"\n\nA questão original afirmava ser competência da Comissão de Finanças e Tributação (Câmara) e de Assuntos Econômicos (Senado), o que está {red:errado}.\n\n**Por que as demais erram:** **A** não são comissões separadas de cada Casa; **C** o TCU não atua no processo legislativo orçamentário emitindo esse parecer; **D** o Plenário **aprecia** as emendas, mas o parecer é da Comissão Mista; **E** a competência é da Comissão Mista permanente.",
+    "options": [
+      "da Comissão de Finanças e Tributação da Câmara e da Comissão de Assuntos Econômicos do Senado, separadamente.",
+      "de uma Comissão Mista permanente de Senadores e Deputados.",
+      "do Tribunal de Contas da União.",
+      "exclusivamente do Plenário de cada Casa do Congresso.",
+      "do Presidente da República, mediante mensagem ao Congresso."
+    ],
+    "correctOption": "B",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^CEBRASPE • TRT 10ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nQuanto ao prazo de envio do projeto de lei orçamentária anual (PLOA) ao Congresso Nacional, inclusive no primeiro ano de mandato presidencial, é correto afirmar que",
+    "back": "**Gabarito: C.** O PLOA deve ser encaminhado ao Congresso **até 31 de agosto** de cada ano, **inclusive no primeiro ano de mandato** — não há a regra de \"esperar dois meses e meio após o envio do PPA\".\n\n> 📖 **Art. 35, §2º, II, ADCT** — \"o projeto de lei orçamentária da União será encaminhado até quatro meses antes do encerramento do exercício financeiro e devolvido para sanção até o encerramento da sessão legislativa.\" (ou seja, até **31/08**).\n\nComo ensina Giacomoni, a LOA é enviada até 31/08 mesmo que o PPA ainda não esteja aprovado, pois sua execução pode começar antes da vigência do novo PPA.\n\n**Por que as demais erram:** **A** não existe o prazo de \"2,5 meses após o PPA\"; **B** o prazo não muda no 1º ano de mandato; **D** não é 30/04; **E** o envio independe da prévia aprovação do PPA.",
+    "options": [
+      "deve ser enviado dois meses e meio após o envio do projeto de PPA.",
+      "deve ser enviado até 30 de junho no primeiro ano de mandato.",
+      "deve ser enviado até 31 de agosto, inclusive no primeiro ano de mandato.",
+      "deve ser enviado até 30 de abril, para compatibilização com o PPA.",
+      "somente pode ser enviado após a aprovação definitiva do PPA."
+    ],
+    "correctOption": "C",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nA respeito da possibilidade de o Presidente da República propor modificação no projeto de LOA já em tramitação na Comissão Mista de Orçamento, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** O PR **pode** propor modificação **enquanto não iniciada a votação, na Comissão Mista, da parte cuja alteração é proposta** — ou seja, a vedação só alcança a parte cuja votação já começou.\n\n> 📖 **Art. 166, §5º, CF/88** — \"O Presidente da República poderá enviar mensagem ao Congresso Nacional para propor modificação nos projetos a que se refere este artigo enquanto não iniciada a votação, na Comissão mista, da parte cuja alteração é proposta.\"\n\nA questão original dizia ser \"defeso\" (proibido) ao PR propor modificação após iniciada a votação \"ainda que não discutida a parte\" — {red:errado}, pois a proibição é específica da parte cuja votação já se iniciou.\n\n**Por que as demais erram:** **B** não é proibição absoluta; **C** o marco é a Comissão Mista, não o Plenário; **D** não se restringe a erros materiais; **E** não depende de autorização da CMO.",
+    "options": [
+      "pode propor modificação enquanto não iniciada a votação, na Comissão Mista, da parte cuja alteração é proposta.",
+      "é proibido propor qualquer modificação após o envio do projeto.",
+      "só pode propor modificação enquanto não iniciada a votação no Plenário.",
+      "só pode propor modificação para correção de erros materiais.",
+      "só pode propor modificação mediante autorização prévia da Comissão Mista."
+    ],
+    "correctOption": "A",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nDurante a fase de elaboração do projeto de lei orçamentária, em relação às propostas dos demais Poderes, o Poder Executivo",
+    "back": "**Gabarito: C.** O Executivo, responsável por **consolidar** a LOA, **pode ajustar** as propostas dos demais Poderes (inclusive do Judiciário) **quando estiverem em desacordo com os limites da LDO**. Estando dentro dos limites, deve respeitá-las (separação dos Poderes e autonomia financeira).\n\n> 📖 **Art. 99, §1º, CF/88** — os tribunais elaboram suas propostas \"dentro dos limites estipulados conjuntamente com os demais Poderes na lei de diretrizes orçamentárias.\"\n\n**Por que as demais erram:** **A** não pode alterar livremente propostas conformes à LDO; **B** não está impedido de qualquer ajuste — pode ajustar o que exceder a LDO; **D** o ajuste não depende de autorização do tribunal; **E** o Executivo não substitui integralmente as propostas alheias.",
+    "options": [
+      "pode alterar livremente as propostas dos demais Poderes.",
+      "está impedido de realizar qualquer ajuste nas propostas dos demais Poderes.",
+      "pode ajustar as propostas que estiverem em desacordo com os limites estabelecidos na LDO.",
+      "só pode ajustar as propostas mediante autorização do respectivo tribunal.",
+      "substitui integralmente as propostas dos demais Poderes por proposta própria."
+    ],
+    "correctOption": "C",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nÀ luz da redação da CF/88 após a EC nº 135/2024, no tocante à concessão de subsídios, subvenções e benefícios de natureza financeira (inclusive relativos a indenizações e restituições por perdas econômicas), o Poder Executivo federal",
+    "back": "**Gabarito: D.** Após a **EC 135/2024**, o Poder Executivo **PODERÁ reduzir ou limitar** essas despesas, na elaboração e na execução das leis orçamentárias, para cumprir metas fiscais/limites de despesas, observado o ato jurídico perfeito.\n\n> 📖 **Art. 165, §17, CF/88** (incluído pela EC 135/2024) — \"Para o cumprimento do disposto no inciso I do §11 deste artigo, o Poder Executivo **poderá reduzir ou limitar**, na elaboração e na execução das leis orçamentárias, as despesas com a concessão de subsídios, subvenções e benefícios de natureza financeira, inclusive os relativos a indenizações e restituições por perdas econômicas, observado o ato jurídico perfeito.\"\n\nA assertiva original dizia ser \"vedado\" reduzir/limitar — {red:errado}.\n\n**Por que as demais erram:** **A** não é vedado; **B** abrange elaboração **e** execução; **C** observa-se o ato jurídico perfeito (não é \"sem qualquer ressalva\"); **E** não depende de autorização legislativa específica caso a caso.",
+    "options": [
+      "está proibido de reduzir ou limitar essas despesas para cumprir metas fiscais.",
+      "só pode limitá-las na fase de execução, nunca na elaboração.",
+      "pode reduzi-las sem qualquer ressalva, inclusive desconsiderando o ato jurídico perfeito.",
+      "poderá reduzi-las ou limitá-las, na elaboração e na execução, observado o ato jurídico perfeito.",
+      "só pode reduzi-las mediante autorização legislativa específica para cada caso."
+    ],
+    "correctOption": "D",
+    "topicName": "Execução Orçamentária"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nDurante a discussão e votação da lei orçamentária, o Poder Legislativo pretende, por emenda, criar novas despesas não previstas no plano plurianual, indicando a fonte de financiamento. Tal emenda",
+    "back": "**Gabarito: B.** A emenda **não pode** ser aprovada se for **incompatível com o PPA** — a indicação de fonte **não dispensa** a compatibilidade com PPA e LDO.\n\n> 📖 **Art. 166, §3º, I, CF/88** — as emendas à LOA só podem ser aprovadas caso \"sejam compatíveis com o **plano plurianual e com a lei de diretrizes orçamentárias**\" (além de indicar recursos de anulação de despesa).\n\nA assertiva original dizia que bastaria indicar a fonte — {red:errado}, pois a compatibilidade com o PPA é obrigatória.\n\n**Por que as demais erram:** **A** a indicação de fonte não basta; **C** a vedação não é absoluta a qualquer emenda, apenas às incompatíveis; **D** não depende de MP; **E** não se restringe a emendas de redação.",
+    "options": [
+      "pode ser aprovada, pois basta indicar a fonte de financiamento.",
+      "não pode ser aprovada por ser incompatível com o plano plurianual, ainda que indique a fonte.",
+      "é absolutamente vedada, pois nenhuma emenda pode criar novas despesas.",
+      "só pode ser aprovada mediante medida provisória.",
+      "só é admitida se for emenda de redação."
+    ],
+    "correctOption": "B",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^CEBRASPE • Pref. Aracaju • 2025 • Procurador Municipal • adaptada C/E→A–E^^\n\nSegundo a jurisprudência do STF (ADI 7060), norma de Constituição estadual que veda a inscrição em restos a pagar das despesas decorrentes de emendas parlamentares impositivas é",
+    "back": "**Gabarito: E.** No julgamento da **ADI 7060**, o STF declarou **inconstitucional** norma da Constituição de Sergipe que impedia a inscrição em restos a pagar de emendas parlamentares impositivas — viola a **separação dos Poderes** e a **simetria constitucional**.\n\n> 📖 **Art. 166, §17, CF/88** — os restos a pagar das programações dos §§11 e 12 **podem ser considerados** para a execução financeira até os limites de 1% (individuais) e 0,5% (bancada) da RCL.\n\nA execução orçamentária **não precisa se completar no mesmo exercício**; os restos a pagar são mecanismo legítimo de continuidade.\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** sustentam a legitimidade/constitucionalidade da vedação, contrariando a ADI 7060.",
+    "options": [
+      "legítima, por garantir a execução das emendas no exercício.",
+      "constitucional, pois respeita a autonomia do ente estadual.",
+      "válida, por reforçar o caráter impositivo das emendas.",
+      "compatível com a CF, que proíbe restos a pagar de emendas impositivas.",
+      "inconstitucional, por violar a separação dos Poderes e a simetria constitucional."
+    ],
+    "correctOption": "E",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nSobre o exame e o parecer dos projetos de lei relativos às leis orçamentárias no Congresso Nacional, assinale a alternativa correta.",
+    "back": "**Gabarito: D.** Cabe a uma **Comissão Mista permanente de Senadores e Deputados** (CMO) examinar e emitir parecer — e **não** a comissões permanentes específicas de cada Casa atuando separadamente.\n\n> 📖 **Art. 166, §1º, I, CF/88** — \"Caberá a uma Comissão mista permanente de Senadores e Deputados: I - examinar e emitir parecer sobre os projetos referidos neste artigo (...).\"\n\n**Por que as demais erram:** **A** e **B** atribuem a competência a comissões separadas/específicas de cada Casa; **C** o TCU não emite esse parecer no processo legislativo; **E** o PR propõe modificações (art. 166, §5º), mas não examina/emite parecer.",
+    "options": [
+      "A comissões permanentes específicas da Câmara e do Senado, separadamente.",
+      "À Comissão de Orçamento da Câmara, com revisão pelo Senado.",
+      "Ao Tribunal de Contas da União, mediante parecer prévio.",
+      "A uma Comissão Mista permanente de Senadores e Deputados.",
+      "Ao Presidente da República, mediante mensagem ao Congresso."
+    ],
+    "correctOption": "D",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nO Presidente da República poderá enviar mensagem ao Congresso Nacional propondo modificação no projeto de LOA",
+    "back": "**Gabarito: A.** A modificação é admitida **enquanto não iniciada a votação, na Comissão Mista de Orçamento, da parte cuja alteração é proposta** (assertiva original correta — gabarito Certo).\n\n> 📖 **Art. 166, §5º, CF/88** — \"O Presidente da República poderá enviar mensagem ao Congresso Nacional para propor modificação nos projetos a que se refere este artigo enquanto não iniciada a votação, na **Comissão mista**, da parte cuja alteração é proposta.\"\n\n**Por que as demais erram:** **B** o marco é a Comissão Mista, não o Plenário; **C** não é \"a qualquer tempo\"; **D** o marco temporal não é a sanção; **E** não depende de aprovação prévia da CMO.",
+    "options": [
+      "enquanto não iniciada a votação, na Comissão Mista de Orçamento, da parte cuja alteração é proposta.",
+      "enquanto não iniciada a votação, no Plenário, da parte cuja alteração é proposta.",
+      "a qualquer tempo, antes da sanção da lei.",
+      "somente após a sanção e antes da publicação.",
+      "somente mediante aprovação prévia da Comissão Mista de Orçamento."
+    ],
+    "correctOption": "A",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Técnico Judiciário • adaptada C/E→A–E^^\n\nSobre o encaminhamento da proposta orçamentária de um Tribunal Regional Federal (como o TRF da 6ª Região), assinale a alternativa correta.",
+    "back": "**Gabarito: B.** O TRF elabora sua proposta **dentro dos limites da LDO** e a encaminha ao **órgão de cúpula do Judiciário Federal** (Conselho da Justiça Federal — CJF); a consolidação geral e o envio ao Congresso cabem ao **Poder Executivo** (PR). Não há envio direto do tribunal ao Executivo, nem ajuste livre por este.\n\n> 📖 **Art. 99, §1º, CF/88** — os tribunais elaboram suas propostas dentro dos limites da LDO.\n\nA assertiva original (envio direto ao Executivo, que poderia ajustar) está {red:errada} quanto à forma de tramitação.\n\n**Por que as demais erram:** **A** não há envio direto ao Executivo pelo presidente do tribunal; **C** o Executivo não ajusta livremente; **D** o envio ao Congresso é feito pelo PR, não pelo presidente do tribunal; **E** o prazo geral de envio do PLOA é 31/08.",
+    "options": [
+      "É feito diretamente ao Poder Executivo Federal, que pode ajustá-la livremente.",
+      "A proposta é elaborada nos limites da LDO e encaminhada ao órgão de cúpula do Judiciário, cabendo a consolidação e o envio ao Congresso ao Poder Executivo.",
+      "É feito ao Poder Executivo, que pode ajustar a proposta ainda que conforme à LDO.",
+      "É feito diretamente ao Congresso Nacional pelo presidente do tribunal.",
+      "Deve ocorrer até 30 de abril de cada ano."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^CEBRASPE • PC-DF • 2025 • Agente Administrativo • adaptada C/E→A–E^^\n\nQuanto à obrigatoriedade de execução orçamentária das emendas parlamentares na atual redação da CF/88, é correto afirmar que",
+    "back": "**Gabarito: C.** A CF/88 **impõe a obrigatoriedade** de execução das emendas individuais **e** das emendas de **bancada estadual**, **salvo impedimentos de ordem técnica** (assertiva original correta).\n\n> 📖 **Art. 166, §11, CF/88** — \"É obrigatória a execução orçamentária e financeira das programações oriundas de emendas individuais (...).\"\n> 📖 **§12** — a garantia de execução aplica-se também às emendas de **iniciativa de bancada** de parlamentares de Estado/DF (até 1% da RCL).\n> 📖 **§12 (EC 86/2015)** — não há execução obrigatória nos casos de **impedimentos de ordem técnica**.\n\n**Por que as demais erram:** **A** a execução não é absoluta (há exceção técnica); **B** abrange também as emendas de bancada estadual; **D** não depende de autorização anual; **E** a obrigatoriedade existe, com a ressalva técnica.",
+    "options": [
+      "a execução é absoluta, sem qualquer exceção.",
+      "a obrigatoriedade alcança apenas as emendas individuais.",
+      "a execução das emendas individuais e de bancada estadual é obrigatória, salvo impedimentos de ordem técnica.",
+      "a execução depende de autorização anual específica do Congresso.",
+      "não há obrigatoriedade de execução das emendas parlamentares."
+    ],
+    "correctOption": "C",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nSobre a fase de avaliação do ciclo orçamentário, assinale a alternativa correta.",
+    "back": "**Gabarito: D.** A avaliação **não se limita** ao cumprimento das metas fiscais: compreende também a mensuração de **eficiência, eficácia e efetividade** das políticas públicas, podendo **rever estratégias** e **influenciar a elaboração** dos orçamentos seguintes (ciclo retroalimentado).\n\n> 📖 **Art. 165, §16, CF/88** — as leis orçamentárias \"devem observar, no que couber, os resultados do monitoramento e da avaliação das políticas públicas.\"\n\n| Conceito | Significado |\n|---|---|\n| **Eficiência** | uso racional dos recursos (custo-benefício) |\n| **Eficácia** | cumprimento dos objetivos programados |\n| **Efetividade** | impacto das ações na sociedade |\n\n**Por que as demais erram:** **A** vai além da mera análise contábil; **B** não se restringe às metas fiscais; **C** a avaliação **influencia** os exercícios seguintes (retroalimentação); **E** não se confunde com simples conferência formal da execução.",
+    "options": [
+      "resume-se à análise contábil dos balanços.",
+      "limita-se à verificação do cumprimento das metas fiscais.",
+      "não influencia a elaboração dos orçamentos de exercícios subsequentes.",
+      "abrange a mensuração de eficiência, eficácia e efetividade, podendo rever o planejamento e influenciar os exercícios seguintes.",
+      "consiste apenas na conferência formal da execução orçamentária."
+    ],
+    "correctOption": "D",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nSobre a composição e a integração dos instrumentos do planejamento orçamentário brasileiro, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** O ciclo orçamentário brasileiro tem por base o **PPA, a LDO e a LOA**, que devem estar **interligados** para garantir coerência na alocação de recursos e no cumprimento das metas fiscais.\n\n> 📖 **Art. 165, CF/88** — institui o PPA, a LDO e a LOA como instrumentos do planejamento orçamentário.\n\nA **LDO é o elo** entre o PPA (médio prazo) e a LOA (anual); a integração ocorre, na prática, por meio dos **programas** (elo entre planejamento e execução).\n\n**Por que as demais erram:** **B** a LDO não substitui o PPA; **C** os instrumentos são interligados, não independentes; **D** a LOA não é o único instrumento; **E** o PPA não é dispensável.",
+    "options": [
+      "O PPA, a LDO e a LOA devem estar interligados para garantir coerência na alocação de recursos e no cumprimento das metas fiscais.",
+      "A LDO substitui integralmente o PPA no planejamento de longo prazo.",
+      "PPA, LDO e LOA são instrumentos independentes, sem necessidade de integração.",
+      "Apenas a LOA é instrumento do planejamento orçamentário.",
+      "O PPA é dispensável quando há LDO e LOA."
+    ],
+    "correctOption": "A",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nA fase de elaboração do ciclo orçamentário compreende",
+    "back": "**Gabarito: A.** Na **elaboração** (1ª fase, a cargo do Executivo) realizam-se os estudos para definição de **metas e prioridades** e as discussões sobre as **propostas parciais**, que são consolidadas no **PLOA** a ser encaminhado ao Legislativo (assertiva original correta).\n\n> 📖 **Art. 165, CF/88** — iniciativa do Executivo para as leis orçamentárias.\n\nA elaboração inicia com a definição de **metas físicas e financeiras**, que orientam a seleção das ações, e culmina na consolidação das propostas dos órgãos e Poderes.\n\n**Por que as demais erram:** **B** a apreciação/votação é fase posterior (Legislativo); **C** a execução é a 3ª fase; **D** o controle/avaliação é a 4ª fase; **E** a sanção/publicação ocorre após a aprovação legislativa.",
+    "options": [
+      "os estudos de definição de metas e prioridades e as discussões sobre as propostas parciais, consolidadas no PLOA pelo Executivo.",
+      "a discussão e a votação do projeto no Poder Legislativo.",
+      "a arrecadação das receitas e a realização das despesas previstas na LOA.",
+      "a fiscalização contábil e a avaliação dos resultados da execução.",
+      "a sanção e a publicação da lei orçamentária pelo Chefe do Executivo."
+    ],
+    "correctOption": "A",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^CEBRASPE • TRF 6ª Região • 2025 • Técnico Judiciário • adaptada C/E→A–E^^\n\nA respeito da relação entre a fase de execução e a fase de controle do ciclo orçamentário, assinale a alternativa correta.",
+    "back": "**Gabarito: E.** É **errado** dizer que o controle só começa após o fim da vigência da LOA. O **controle e a avaliação não dependem do encerramento** da execução: podem ser **prévios** (art. 77, Lei 4.320/64), **concomitantes** (durante a execução) e **subsequentes** (após o exercício).\n\n> 📖 **Art. 70-71, CF/88** — fiscalização contábil, financeira, orçamentária, operacional e patrimonial, interna e externa, inclusive **durante e após** a execução.\n> 📖 **Art. 77, Lei 4.320/64** — verificação prévia, concomitante e subsequente.\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** sustentam que o controle só se inicia após a vigência da LOA ou negam o controle concomitante/prévio, contrariando a legislação.",
+    "options": [
+      "O controle só se inicia após o encerramento da vigência da LOA.",
+      "Não existe controle concomitante à execução orçamentária.",
+      "A execução e o controle nunca ocorrem simultaneamente.",
+      "O controle prévio é vedado no ciclo orçamentário.",
+      "O controle não depende do encerramento da execução, podendo ser prévio, concomitante e subsequente."
+    ],
+    "correctOption": "E",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^CEBRASPE • PC-DF • 2025 • Agente Administrativo • adaptada C/E→A–E^^\n\nSobre o acompanhamento da execução orçamentária da União, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** O acompanhamento envolve o **registro físico-financeiro** das ações previstas na LOA, permitindo o **controle integrado** entre os recursos empregados e os resultados obtidos (assertiva original correta).\n\n> 📖 **Art. 75, III, Lei 4.320/64** — o controle compreende o cumprimento do programa de trabalho \"expresso em termos monetários e em termos de realização de obras e prestação de serviços.\"\n\nO **Plano Orçamentário (PO)** (MTO 2025) é ferramenta gerencial que detalha a ação em nível mais fino, viabilizando a integração SIOP-SIAFI, sem substituir as demais categorias de programação.\n\n**Por que as demais erram:** **A** o acompanhamento não se limita ao registro financeiro (inclui o físico); **C** o PO não consta da LOA (é gerencial); **D** o acompanhamento permite, sim, comparar autorizado x executado x metas físicas; **E** não se restringe à mera conferência de empenhos.",
+    "options": [
+      "O acompanhamento limita-se ao registro financeiro das despesas.",
+      "O acompanhamento envolve o registro físico-financeiro das ações da LOA, permitindo o controle integrado entre recursos empregados e resultados obtidos.",
+      "O Plano Orçamentário (PO) é categoria constante da LOA.",
+      "Não é possível comparar valores autorizados e executados com as metas físicas.",
+      "Restringe-se à conferência da emissão de empenhos."
+    ],
+    "correctOption": "B",
+    "topicName": "Execução Orçamentária"
+  },
+  {
+    "front": "^^FGV • CGM Cuiabá • 2025 • Auditor^^\n\nO sistema orçamentário difundido na América Latina pelo ILPES/CEPAL concebe a estratégia de desenvolvimento a partir de \"grandes alternativas\". Segundo Giacomoni, três elementos principais compõem essa estratégia de desenvolvimento:",
+    "back": "**Gabarito: B.** Segundo **Giacomoni**, a estratégia de desenvolvimento (planos nacionais de longo prazo) apoia-se em três elementos:\n\n- **a)** {blue:formulação de uma imagem prospectiva} — visão de futuro desejado;\n- **b)** {blue:projetos estratégicos} — iniciativas prioritárias que materializam a imagem prospectiva;\n- **c)** {blue:enunciado de políticas básicas} — diretrizes fundamentais que orientam as políticas públicas.\n\nÉ questão **doutrinária**, baseada em James Giacomoni.\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** listam elementos genéricos (planejamento/execução/avaliação, objetivos econômicos, políticas públicas/impostos, metas financeiras) que **não** correspondem à tríade de Giacomoni para a estratégia de desenvolvimento.",
+    "options": [
+      "Planejamento, execução e avaliação.",
+      "Formulação de uma imagem prospectiva, projetos estratégicos e enunciado de políticas básicas.",
+      "Definição de objetivos econômicos, distribuição de recursos e controle de despesas.",
+      "Políticas públicas, arrecadação de impostos e investimentos sociais.",
+      "Metas financeiras, planejamento orçamentário e execução de políticas."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • TRT 24ª Região • 2025 • Técnico Judiciário (Administrativa)^^\n\nSobre as emendas parlamentares individuais, analise: I. Têm valor limitado pela Receita Corrente Líquida, aferida no exercício anterior ao do encaminhamento do projeto de LOA. II. Metade do valor aprovado será destinada a ações e serviços públicos de saúde. III. Não existe valor mínimo ou área específica que vincule qualquer valor das emendas individuais ao orçamento. Está correto o que se afirma em",
+    "back": "**Gabarito: D.** Corretos os itens **I e II**.\n\n> 📖 **Art. 166, §9º, CF/88** (EC 126/2022) — \"As emendas individuais ao projeto de lei orçamentária serão aprovadas no limite de **2% da receita corrente líquida** do exercício anterior ao do encaminhamento do projeto, observado que a **metade** desse percentual será destinada a **ações e serviços públicos de saúde**.\"\n\n- **I (Certo):** limite = 2% da RCL do exercício anterior. ✅\n- **II (Certo):** metade (50%) → saúde. ✅\n- **III (Errado):** existe, sim, vinculação obrigatória de ≥50% à saúde. ❌\n\n**Por que as demais erram:** **A**, **B**, **C** e **E** ou excluem item correto (I/II) ou incluem o item III (que é falso).",
+    "options": [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas."
+    ],
+    "correctOption": "D",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^FGV • CM São Paulo • 2024 • Contador^^\n\nDe acordo com a CF/88, as emendas ao projeto de lei do orçamento anual ou aos projetos que o modifiquem somente podem ser aprovadas caso sejam compatíveis com",
+    "back": "**Gabarito: D.** As emendas à LOA devem ser compatíveis com o **plano plurianual E a lei de diretrizes orçamentárias** (cumulativamente).\n\n> 📖 **Art. 166, §3º, I, CF/88** — \"sejam compatíveis com o **plano plurianual e com a lei de diretrizes orçamentárias**.\"\n\n**Por que as demais erram:** **A** e **C** mencionam só o PPA ou só a LDO; **B** e **E** incluem a LRF, que não consta da exigência de compatibilidade do art. 166, §3º, I (a exigência é PPA **e** LDO).",
+    "options": [
+      "o plano plurianual, somente.",
+      "a lei de responsabilidade fiscal, somente.",
+      "a lei de diretrizes orçamentárias, somente.",
+      "o plano plurianual e a lei de diretrizes orçamentárias.",
+      "a lei de diretrizes orçamentárias e a lei de responsabilidade fiscal."
+    ],
+    "correctOption": "D",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FGV • CM São Paulo • 2024 • Contador^^\n\nAs emendas ao projeto de LOA ou aos projetos que o alterem podem ser aprovadas caso",
+    "back": "**Gabarito: E.** As emendas devem **indicar os recursos necessários**, admitidos apenas os de **anulação de despesa**, **excluídas** as que incidam sobre **pessoal e encargos**, **serviço da dívida** e **transferências tributárias constitucionais**.\n\n> 📖 **Art. 166, §3º, II, CF/88.**\n\n> 📌 **Mnemônico (PSD): P**essoal · **S**erviço da dívida · transferências constitucionais **(D)**.\n\n**Por que as demais erram:** **A** a regra geral veda **aumento** da despesa global do projeto de iniciativa do PR; **B** justamente **não** se pode anular pessoal, dívida e transferências; **C** a compatibilidade é com PPA **e** LDO (não \"ou\"); **D** inverte — essas fontes são **excluídas** (não \"incluídas\").",
+    "options": [
+      "sugiram aumento de despesa global ou de cada órgão, fundo, projeto ou programa.",
+      "anulem dotações de pessoal, serviço da dívida e transferências tributárias intergovernamentais.",
+      "sejam compatíveis com o plano plurianual ou com a lei de diretrizes orçamentárias.",
+      "indiquem recursos de anulação de despesa, incluídas as de pessoal, serviço da dívida e transferências constitucionais.",
+      "indiquem recursos de anulação de despesa, excluídas as de pessoal, serviço da dívida e transferências tributárias constitucionais."
+    ],
+    "correctOption": "E",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FGV • Seplag Niterói • 2024 • Gestão Governamental^^\n\nAnalise (V/F): ( ) O ciclo orçamentário é processo contínuo, dinâmico e flexível de planejar, elaborar, aprovar, executar, controlar e avaliar as despesas do setor público. ( ) O ciclo não se confunde com exercício financeiro; este coincide com o ano civil, o ciclo abrange período maior. ( ) São etapas: Elaboração e Apresentação; Autorização legislativa; Programação e Controle; Avaliação e Execução. A sequência correta é",
+    "back": "**Gabarito: B (V–V–F).**\n\n- **I (V):** o ciclo é de fato contínuo, dinâmico e flexível, abrangendo planejamento, execução, controle e avaliação. ✅\n- **II (V):** o exercício financeiro coincide com o ano civil (art. 34, Lei 4.320/64); o ciclo é mais amplo. ✅\n- **III (F):** a \"programação\" {red:não é etapa autônoma} — é atividade inserida na execução. As fases corretas são elaboração, apreciação legislativa, execução, controle e avaliação. ❌\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** atribuem valor incorreto a algum item (a III é falsa; I e II são verdadeiras).",
+    "options": [
+      "V – F – V.",
+      "V – V – F.",
+      "F – V – F.",
+      "V – V – V.",
+      "F – V – V."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • Seplag Niterói • 2024 • Gestão Governamental^^\n\nMecanismo pelo qual os parlamentares influenciam diretamente a alocação de recursos públicos em função de compromissos políticos assumidos. O texto refere-se às",
+    "back": "**Gabarito: D.** O termo genérico e mais abrangente é **Emendas Parlamentares ao Orçamento**, que engloba todas as emendas (individuais, de bancada, de comissão, de relator) apresentadas ao projeto de lei orçamentária.\n\n> 📖 **Art. 166, CF/88** — disciplina as emendas ao projeto de lei orçamentária.\n\nO enunciado descreve o conceito **mais abrangente**, alinhado a \"emendas parlamentares ao orçamento\".\n\n**Por que as demais erram:** **A**, **B** e **C** são **espécies** (relator, individuais, bancada), mais restritas que o conceito genérico pedido; **E** \"Propostas Orçamentárias Anuais (POAs)\" não é a denominação dessas emendas.",
+    "options": [
+      "Emendas do Relator.",
+      "Emendas Parlamentares Individuais.",
+      "Emendas Parlamentares de Bancada.",
+      "Emendas Parlamentares ao Orçamento.",
+      "Propostas Orçamentárias Anuais (POAs)."
+    ],
+    "correctOption": "D",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^FGV • Seplag Niterói • 2024 • Gestão Governamental^^\n\nSobre as Emendas Parlamentares e sua relação com os instrumentos de elaboração e planejamento do orçamento, assinale a afirmativa INCORRETA.",
+    "back": "**Gabarito: C.** **(Alternativa incorreta — é a resposta.)** É {red:vedado} usar como fonte de emenda a **anulação de despesas de pessoal e seus encargos**.\n\n> 📖 **Art. 166, §3º, II, CF/88** — as emendas indicam recursos de anulação de despesa, **excluídas** as que incidam sobre **a) pessoal e encargos; b) serviço da dívida; c) transferências tributárias constitucionais**.\n\n**Por que as demais estão corretas (e por isso não são a resposta):** **A** e **B** a emenda deve ser compatível com o **PPA** e com a **LDO** (§3º, I); **D** e **E** as fontes de anulação **excluem** o serviço da dívida e as transferências tributárias constitucionais — exatamente o texto constitucional.",
+    "options": [
+      "A emenda que propõe acréscimo de dotações só pode ser aprovada se compatível com o Plano Plurianual (PPA).",
+      "A emenda que propõe acréscimo de dotações só pode ser aprovada se compatível com a Lei de Diretrizes Orçamentárias (LDO).",
+      "A emenda deverá indicar os recursos necessários, admitidos os provenientes de anulação de despesas de pessoal e seus encargos.",
+      "A emenda deverá indicar recursos de anulação de despesas, excluídas as que incidam em serviço da dívida.",
+      "A emenda deverá indicar recursos de anulação de despesas, excluídas as que incidam em transferências tributárias constitucionais para estados, municípios e o DF."
+    ],
+    "correctOption": "C",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FGV • CM São Paulo • 2024 • Técnico Legislativo (Contabilidade)^^\n\nEm relação à elaboração da Lei de Orçamento, de acordo com a Lei nº 4.320/1964, não serão admitidas emendas que visem a conceder dotação para instalação ou funcionamento de serviço que",
+    "back": "**Gabarito: A.** É vedada emenda que conceda dotação para instalação/funcionamento de **serviço que não esteja anteriormente criado**.\n\n> 📖 **Art. 33, Lei 4.320/64** — \"Não se admitirão emendas ao projeto de Lei de Orçamento que visem a: (...) **c)** conceder dotação para instalação ou funcionamento de serviço que **não esteja anteriormente criado** (...).\"\n\n**Por que as demais erram:** **B** (\"não essencial\"), **C** (\"sem receita correspondente\"), **D** (\"sem aumento de empregos\") e **E** (\"sem redução de desigualdade\") {red:não constam} do rol taxativo do art. 33.",
+    "options": [
+      "não esteja anteriormente criado.",
+      "não seja considerado essencial.",
+      "não apresente receita correspondente.",
+      "não implique aumento na oferta de empregos.",
+      "não tenha como objetivo a redução da desigualdade social."
+    ],
+    "correctOption": "A",
+    "topicName": "Processo Legislativo Orçamentário"
+  },
+  {
+    "front": "^^FGV • CM São Paulo • 2024 • Contador^^\n\nSobre o ciclo orçamentário, avalie (V/F): ( ) A elaboração da proposta compreende a consolidação do PLOA pelo Poder Legislativo, com envio ao Executivo. ( ) A execução orçamentária compreende os três estágios da receita: empenho, liquidação e pagamento. ( ) A avaliação compreende a análise do alcance das metas estabelecidas na LOA. A sequência correta é",
+    "back": "**Gabarito: E (F–F–F).** As três afirmativas estão erradas.\n\n- **I (F):** a consolidação do PLOA é do **Poder Executivo**, com envio ao **Legislativo** (não o inverso).\n- **II (F):** empenho, liquidação e pagamento são estágios da **despesa**; os da **receita** são previsão, lançamento, arrecadação e recolhimento.\n- **III (F):** as **metas** são estabelecidas no **PPA** (a LOA as cumpre, não as estabelece).\n\n> 📖 **Art. 165, CF/88** (iniciativa do Executivo); **Art. 74, I, CF/88** (avaliação das metas do **PPA**).\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** atribuem \"Verdadeiro\" a pelo menos uma das três afirmativas, todas falsas.",
+    "options": [
+      "V – V – V.",
+      "V – F – F.",
+      "F – F – V.",
+      "F – V – F.",
+      "F – F – F."
+    ],
+    "correctOption": "E",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • CM São Paulo • 2024 • Contador^^\n\nSobre o controle da execução orçamentária (Título VIII da Lei nº 4.320/64): I. Compreende o exame da legalidade, da fidelidade funcional dos agentes e o cumprimento dos programas de trabalho. II. O controle interno terá por objetivo verificar a probidade da administração e o cumprimento da lei orçamentária. III. A verificação da legalidade pelo controle externo será prévia, concomitante e subsequente. Está correto apenas",
+    "back": "**Gabarito: A.** Apenas o item **I** está correto.\n\n- **I (Certo):** > 📖 **Art. 75, Lei 4.320/64** — o controle compreende a legalidade dos atos, a fidelidade funcional dos agentes e o cumprimento do programa de trabalho. ✅\n- **II (Errado):** o art. 81 atribui esse objetivo (probidade, guarda e legal emprego dos dinheiros) ao controle **pelo Poder Legislativo** (controle externo), não ao \"controle interno\". ❌\n- **III (Errado):** para a banca, o **controle externo** é concomitante e subsequente; o **prévio** é típico do controle interno (embora o art. 77 fale em prévia, concomitante e subsequente de forma geral). ❌\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** incluem os itens II ou III, que estão errados na ótica da banca.",
+    "options": [
+      "I.",
+      "I e III.",
+      "II e III.",
+      "II.",
+      "I e II."
+    ],
+    "correctOption": "A",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^FGV • CM São Paulo • 2024 • Consultor Legislativo (Economia)^^\n\nO ciclo orçamentário é a sequência de fases que compõe o processo orçamentário. De forma geral, em ordem cronológica, o ciclo é composto das fases:",
+    "back": "**Gabarito: B.** A sequência clássica do ciclo orçamentário é: **elaboração da proposta → apreciação legislativa → execução → controle e avaliação**.\n\n> 📖 **Arts. 165 a 169, CF/88; Lei 4.320/64; LC 101/2000 (LRF).**\n\n> 📌 **Mnemônico — EAEC:** **E**laboração · **A**preciação legislativa · **E**xecução · **C**ontrole/avaliação.\n\n**Por que as demais erram:** **A** insere \"monitoramento\" como fase autônoma e desordena; **C** e **E** omitem a elaboração da proposta como primeira fase; **D** inclui \"controle legislativo\" como etapa intermediária fora de ordem.",
+    "options": [
+      "elaboração da proposta, apreciação legislativa, execução, avaliação, monitoramento e controle.",
+      "elaboração da proposta, apreciação legislativa, execução, controle e avaliação.",
+      "apreciação legislativa, execução, controle, monitoramento e avaliação.",
+      "elaboração da proposta, apreciação legislativa, controle legislativo, execução, monitoramento e avaliação.",
+      "apreciação legislativa, execução, controle e avaliação."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • ALEP • 2024 • Administrador^^\n\nSobre o orçamento público: I. A elaboração de propostas envolve a consolidação pelo Executivo do projeto da LDO, abrangendo as propostas dos demais Poderes, com envio ao Legislativo. II. A análise da legalidade dos atos que geram arrecadação ou despesa integra o controle da execução orçamentária. III. A verificação da fidelidade funcional dos agentes integra o controle da execução. Está correto o que se afirma em",
+    "back": "**Gabarito: D.** Corretos os itens **II e III**.\n\n- **I (Errado):** o que o Executivo consolida é o projeto da **LOA** (não da **LDO**, que é instrumento autônomo). ❌\n- **II (Certo):** > 📖 **Art. 75, I, Lei 4.320/64** — controle abrange a legalidade dos atos de arrecadação/despesa. ✅\n- **III (Certo):** > 📖 **Art. 75, II, Lei 4.320/64** — controle abrange a fidelidade funcional dos agentes. ✅\n\n**Por que as demais erram:** **A**, **B**, **C** e **E** incluem o item I (falso) ou excluem o II/III (corretos).",
+    "options": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "D",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^FGV • TCE-GO • 2024 • Analista de Controle Externo (Ciências Contábeis)^^\n\nSobre o ciclo orçamentário: I. A elaboração da proposta envolve a consolidação pelo Executivo do PLOA, abrangendo as propostas dos demais Poderes, com envio ao Legislativo. II. A avaliação consiste na verificação do cumprimento das metas previstas na LOA. III. A execução compreende três estágios da receita: empenho, liquidação e pagamento. Está correto o que se afirma em",
+    "back": "**Gabarito: A.** Apenas o item **I** está correto.\n\n- **I (Certo):** > 📖 **Art. 165, CF/88** — a elaboração/consolidação do PLOA é do Executivo, com envio ao Legislativo. ✅\n- **II (Errado):** as **metas** são previstas no **PPA** (a LOA as cumpre). ❌\n- **III (Errado):** empenho, liquidação e pagamento são estágios da **despesa**, não da receita. ❌\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** incluem os itens II e/ou III, ambos falsos.",
+    "options": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "A",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • TCE-PA • 2024 • Auditor de Controle Externo^^\n\nEm relação ao controle externo da execução orçamentária, assinale a afirmativa correta.",
+    "back": "**Gabarito: D.** As contas do Executivo são submetidas ao **Poder Legislativo, com parecer prévio do Tribunal de Contas** (ou órgão equivalente).\n\n> 📖 **Art. 71, I, CF/88** — o TC aprecia as contas do Chefe do Executivo mediante **parecer prévio**; o **julgamento** é do Legislativo (art. 49, IX).\n\n**Por que as demais erram:** **A** o controle externo **abrange** a verificação do emprego do dinheiro público (art. 70-71); **B** abrange também a **probidade** da administração; **C** o Executivo presta contas **anualmente** ao **Legislativo** (a periodicidade bimestral é do RREO); **E** onde não há TC, a fiscalização cabe ao TCE/TCM, não à Secretaria de Fazenda.",
+    "options": [
+      "O controle externo, pelo Legislativo, não envolve a verificação do emprego do dinheiro público.",
+      "O controle externo, pelo Legislativo, não envolve a verificação da probidade da administração.",
+      "O Executivo deve prestar contas bimestralmente ao Judiciário e ao Legislativo.",
+      "As contas do Executivo devem ser submetidas ao Legislativo, com parecer prévio do Tribunal de Contas ou órgão equivalente.",
+      "Não havendo Tribunal de Contas no Município, a Secretaria de Fazenda designa peritos para emitir parecer."
+    ],
+    "correctOption": "D",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^FGV • TCE-PA • 2024 • Auditor de Controle Externo (Direito)^^\n\nSobre os ciclos orçamentários, avalie (V/F): ( ) O ciclo ampliado aborda, além das etapas da LOA, as etapas do PPA e da LDO. ( ) Ao final de cada ano, as contas do governo federal são analisadas pelo TCU e depois submetidas ao Congresso Nacional. ( ) O ciclo orçamentário básico é composto apenas de elaboração da proposta e apreciação legislativa. A sequência correta é",
+    "back": "**Gabarito: D (V–V–F).**\n\n- **I (V):** o ciclo **ampliado** abrange as etapas do PPA e da LDO, além da LOA. ✅\n- **II (V):** > 📖 **Art. 71, I, CF/88** — o TCU emite **parecer prévio** sobre as contas do Presidente; depois vão ao **Congresso**, que as julga (art. 49, IX). ✅\n- **III (F):** o ciclo **básico** abrange elaboração, apreciação legislativa, **execução, controle e avaliação** — não apenas as duas primeiras. ❌\n\n**Por que as demais erram:** **A**, **B**, **C** e **E** atribuem valor incorreto a algum item (I e II são verdadeiros; III é falso).",
+    "options": [
+      "F – V – F.",
+      "F – V – V.",
+      "V – F – F.",
+      "V – V – F.",
+      "V – F – V."
+    ],
+    "correctOption": "D",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • TCE-PA • 2024 • Auditor de Controle Externo • adaptada^^\n\nSobre o ciclo orçamentário: I. A elaboração da proposta envolve a consolidação pelo Poder Legislativo do PLOA, com envio ao Executivo. II. A avaliação consiste em verificar o cumprimento das metas previstas no PPA, além de analisar a execução dos programas e orçamentos da União. III. A execução compreende três estágios da receita: empenho, liquidação e pagamento. Está correto o que se afirma em",
+    "back": "**Gabarito: B.** Apenas o item **II** está correto.\n\n- **I (Falso):** a consolidação do PLOA é do **Executivo**, com envio ao **Legislativo** (a assertiva inverte). ❌\n- **II (Verdadeiro):** > 📖 **Art. 74, I, CF/88** — avaliar o cumprimento das **metas do PPA**, a execução dos programas de governo e dos orçamentos da União. ✅\n- **III (Errado):** empenho, liquidação e pagamento são estágios da **despesa**; os da receita são previsão, lançamento e arrecadação. ❌\n\n> 📌 Esta questão foi originalmente **anulada** pela FGV (gabarito preliminar \"I e II\"); na versão adaptada, somente o item II se sustenta (alternativa B).\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** incluem os itens I e/ou III, ambos falsos.",
+    "options": [
+      "I, apenas.",
+      "II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • EPE • 2024 • Analista de Gestão Corporativa (Administração)^^\n\nSobre o orçamento público: I. A elaboração de propostas envolve a consolidação pelo Executivo do PLOA, abrangendo as propostas dos demais Poderes, com envio ao Legislativo. II. O PLOA, de iniciativa do Presidente da República, estima receitas e fixa despesas, com estrutura e detalhamento definidos pela LDO. III. A LOA suprime os orçamentos fiscal, da seguridade social e de investimento das estatais. Está correto o que se afirma em",
+    "back": "**Gabarito: B.** Corretos os itens **I e II**.\n\n- **I (Certo):** > 📖 **Art. 165, CF/88** — consolidação do PLOA pelo Executivo, com envio ao Legislativo. ✅\n- **II (Certo):** o PLOA é de iniciativa do PR, estima receitas e fixa despesas, conforme as diretrizes da **LDO** (art. 4º, LRF). ✅\n- **III (Errado):** a LOA {red:não suprime} esses orçamentos — ela os **integra**. ❌\n\n> 📖 **Art. 165, §5º, CF/88** — a LOA compreende os orçamentos **fiscal, da seguridade social e de investimento** das estatais.\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** excluem item correto (I/II) ou incluem o item III (falso).",
+    "options": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^FGV • Pref. Nova Iguaçu • 2024 • Analista^^\n\nA elaboração da proposta é a primeira fase do ciclo orçamentário, dividida em etapas. A etapa constituída de obrigações constitucionais, pagamento de pessoal e encargos denomina-se",
+    "back": "**Gabarito: C.** A etapa que reúne obrigações constitucionais, pessoal e encargos é a **projeção das despesas obrigatórias**.\n\n> 📖 Manuais técnicos (**MTO** e **MCASP**) — as despesas obrigatórias incluem **pessoal e encargos sociais, serviço da dívida** e despesas constitucionais (mínimos de saúde e educação).\n\n**Por que as demais erram:** **A** a fixação da meta fiscal está ligada à **LDO** (art. 4º, LRF), e trata de resultado primário/nominal; **B** a projeção das receitas estima a arrecadação, não as despesas; **D** as despesas discricionárias são distintas das obrigatórias; **E** a programação físico-financeira ocorre **após** a aprovação da LOA.",
+    "options": [
+      "fixação da meta fiscal.",
+      "projeção das receitas.",
+      "projeção das despesas obrigatórias.",
+      "apuração das despesas discricionárias.",
+      "programação físico-financeira."
+    ],
+    "correctOption": "C",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^FGV • EPE • 2024 • Analista de Pesquisa Energética (Economia)^^\n\nSobre o orçamento público: I. A elaboração de propostas envolve a consolidação pelo Executivo do projeto da LDO, abrangendo as propostas dos demais Poderes, com envio ao Legislativo. II. A verificação da fidelidade funcional dos agentes integra o controle da execução orçamentária. III. O cumprimento do programa de trabalho, em termos monetários e de obras/serviços, integra o controle da execução. Está correto o que se afirma em",
+    "back": "**Gabarito: D.** Corretos os itens **II e III**.\n\n- **I (Falso):** o Executivo consolida o projeto da **LOA** (não da **LDO**, instrumento autônomo). ❌\n- **II (Verdadeiro):** > 📖 **Art. 75, II, Lei 4.320/64** — fidelidade funcional dos agentes. ✅\n- **III (Verdadeiro):** > 📖 **Art. 75, III, Lei 4.320/64** — cumprimento do programa de trabalho em termos monetários e de obras/serviços. ✅\n\n**Por que as demais erram:** **A**, **B**, **C** e **E** incluem o item I (falso) ou excluem II/III (corretos).",
+    "options": [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "D",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^FGV • MACAEPREV • 2024 • Analista de Previdência (Economia)^^\n\nAssinale a opção que apresenta a sequência correta do ciclo orçamentário no Brasil.",
+    "back": "**Gabarito: C.** A sequência correta é **Elaboração → Apreciação legislativa → Execução → Controle e avaliação**.\n\n| Fase | Responsável |\n|---|---|\n| Elaboração (PLOA) | Executivo |\n| Apreciação legislativa | Legislativo |\n| Execução | Administração pública |\n| Controle e avaliação | Controle interno e externo |\n\n> 📌 **Mnemônico — EAEC.**\n\n**Por que as demais erram:** **A** coloca \"aprovação\" por último; **B** omite a apreciação legislativa antes da execução; **D** inverte execução e elaboração; **E** inverte os papéis (elaboração não é \"legislativa\" nem a apreciação é \"do executivo\").",
+    "options": [
+      "Planejamento, execução, controle e avaliação, aprovação.",
+      "Elaboração, execução, controle e avaliação, aprovação.",
+      "Elaboração, apreciação legislativa, execução, controle e avaliação.",
+      "Execução, elaboração, apreciação legislativa, controle e avaliação.",
+      "Elaboração legislativa, apreciação do executivo, execução, controle e avaliação."
+    ],
+    "correctOption": "C",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^FGV • CGM Niterói • 2024 • Ciências Contábeis^^\n\nAnalise (V/F): ( ) O ciclo orçamentário é processo contínuo, dinâmico e flexível de planejar, elaborar, aprovar, executar, controlar e avaliar as despesas do setor público. ( ) O ciclo não se confunde com exercício financeiro; este coincide com o ano civil, o ciclo abrange período maior. ( ) São etapas: Elaboração e Apresentação; Autorização legislativa; Programação e Controle; Avaliação e Execução. A sequência correta é",
+    "back": "**Gabarito: B (V–V–F).**\n\n- **I (V):** o ciclo é contínuo, dinâmico e flexível. ✅\n- **II (V):** o exercício financeiro coincide com o ano civil (art. 34, Lei 4.320/64); o ciclo é mais amplo, com etapas anteriores (PPA/LDO) e posteriores (controle/avaliação). ✅\n- **III (F):** as etapas estão fora de ordem e misturam conceitos — \"Programação e Controle\" não é etapa formal e a avaliação vem **após** a execução. As fases corretas são elaboração, apreciação legislativa, execução, controle e avaliação. ❌\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** atribuem valor incorreto a algum item.",
+    "options": [
+      "V – F – V.",
+      "V – V – F.",
+      "F – V – F.",
+      "V – V – V.",
+      "F – V – V."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^VUNESP • MPE-RO • 2024 • Promotor/Analista^^\n\nQuanto às emendas individuais impositivas que alocam recursos a Estados, DF e Municípios por transferência especial ou com finalidade definida (art. 166-A, CF/88), é correto afirmar que",
+    "back": "**Gabarito: A.** Na **transferência com finalidade definida**, os recursos são (I) **vinculados à programação** da emenda e (II) **aplicados nas áreas de competência constitucional da União**.\n\n> 📖 **Art. 166-A, §4º, CF/88** — \"Na transferência com finalidade definida (...) os recursos serão: I - vinculados à programação estabelecida na emenda parlamentar; e II - aplicados nas áreas de competência constitucional da União.\"\n\n**Por que as demais erram:** **B** ≥**70%** das **especiais** vão para despesas de **capital** (não custeio/dívida); **C** os recursos {red:não integram} a receita para limite de pessoal (§1º); **D** é **vedado** aplicar em encargos do serviço da dívida; **E** repasse direto e titularidade no ato é característica da **transferência especial**, não da com finalidade definida.",
+    "options": [
+      "na transferência com finalidade definida, os recursos são vinculados à programação da emenda e aplicados em áreas de competência da União.",
+      "pelo menos 75% das transferências especiais devem ser aplicadas em custeio e no serviço da dívida.",
+      "os recursos são considerados na receita do ente para o cálculo do limite de despesa com pessoal.",
+      "o ente pode aplicar os recursos no pagamento de encargos do serviço da dívida.",
+      "os recursos da transferência com finalidade definida pertencem ao ente no ato da efetiva transferência financeira."
+    ],
+    "correctOption": "A",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^VUNESP • Pref. Mogi das Cruzes • 2024 • Analista^^\n\nSobre as emendas individuais impositivas e as transferências especial e com finalidade definida (art. 166-A, CF/88), assinale a alternativa correta.",
+    "back": "**Gabarito: B.** O ente beneficiado da **transferência especial** pode **firmar contratos de cooperação técnica** para subsidiar o acompanhamento da execução orçamentária dos recursos.\n\n> 📖 **Art. 166-A, §3º, CF/88** — \"O ente federado beneficiado da transferência especial (...) poderá firmar contratos de cooperação técnica para fins de subsidiar o acompanhamento da execução orçamentária na aplicação dos recursos.\"\n\n**Por que as demais erram:** **A** os recursos {red:não integram} a receita do ente para repartição/limite de pessoal (§1º); **C** na finalidade definida, os recursos são aplicados nas áreas de competência **da União** (não é vedado — é a regra); **D** ≥70% das especiais vão para **despesas de capital**, não para a dívida; **E** não há regra de 50% para pensionistas/dívida.",
+    "options": [
+      "Os recursos transferidos integram a receita do ente para repartição e cálculo do limite de despesa com pessoal.",
+      "O ente beneficiado pela transferência especial pode firmar contratos de cooperação técnica para subsidiar o acompanhamento da execução.",
+      "Na transferência com finalidade definida, é vedada a aplicação dos recursos nas áreas de competência da União.",
+      "Pelo menos 70% das transferências especiais devem ser aplicadas no pagamento dos encargos do serviço da dívida.",
+      "Pelo menos 50% das transferências devem ser aplicadas no pagamento de pensionistas e o restante no serviço da dívida."
+    ],
+    "correctOption": "B",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^VUNESP • PGE-SP • 2024 • Procurador^^\n\nQuanto à programação decorrente de dotação introduzida na LOA estadual por emenda parlamentar individual impositiva (aprovada no limite de 2% da RCL do exercício anterior), é correto afirmar que",
+    "back": "**Gabarito: D.** A programação **poderá ser destinada a ações executadas por Municípios, inclusive na forma de transferência especial**, que, observadas as regras constitucionais, **independe de convênio**.\n\n> 📖 **Art. 166-A, §2º, I, CF/88** — repasse direto ao ente beneficiado, **independentemente de celebração de convênio ou instrumento congênere**.\n\n**Por que as demais erram:** **A** as emendas impositivas **podem** ser objeto de limitação proporcional às demais discricionárias (art. 166, §18); **B** a transferência **independe da adimplência** do ente (art. 166, §16); **C** a execução em saúde **é computada** para o mínimo constitucional (art. 166, §10); **E** a obrigatoriedade é de **empenho** — admite-se inscrição em **restos a pagar**.",
+    "options": [
+      "não poderá ser afetada por contingenciamento nem cancelada por inviabilidade técnica.",
+      "demanda, na transferência a Município, a comprovação de adimplência do ente perante o Estado e a União.",
+      "não poderá ser considerada para o cumprimento dos mínimos de saúde e educação, ainda que aplicada nessas áreas.",
+      "poderá ser destinada a ações executadas por Municípios, inclusive por transferência especial, que independe de convênio.",
+      "deverá ser integralmente empenhada, liquidada e paga no exercício, vedada a inscrição em restos a pagar."
+    ],
+    "correctOption": "D",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^VUNESP • Pref. Vista Alegre do Alto • 2024 • Analista de Controle Interno^^\n\nA etapa do ciclo orçamentário que compreende a legalidade dos atos de arrecadação/despesa, o nascimento/extinção de direitos e obrigações, a fidelidade funcional dos agentes e o cumprimento do programa de trabalho corresponde",
+    "back": "**Gabarito: C.** O enunciado reproduz **literalmente** o art. 75 da Lei 4.320/64, que define o **controle da execução orçamentária**.\n\n> 📖 **Art. 75, Lei 4.320/64** — o controle compreende a **legalidade** dos atos, a **fidelidade funcional** dos agentes e o **cumprimento do programa de trabalho**.\n\n> 📌 Embora a avaliação costume aparecer acoplada ao controle (Giacomoni), o texto legal citado é o **caput do art. 75** (\"controle da execução orçamentária\"), não \"avaliação\".\n\n**Por que as demais erram:** **A** \"avaliação\" não é o termo do art. 75; **B** o texto descreve o controle, não a execução; **D** e **E** referem-se a outras fases (elaboração e discussão/aprovação).",
+    "options": [
+      "à avaliação orçamentária.",
+      "à execução orçamentária.",
+      "ao controle da execução orçamentária.",
+      "à elaboração e ao planejamento da proposta orçamentária.",
+      "à discussão e à aprovação da proposta orçamentária."
+    ],
+    "correctOption": "C",
+    "topicName": "Controle e Avaliação"
+  },
+  {
+    "front": "^^VUNESP • SAAE Aparecida • 2024 • Analista^^\n\nConsiderando as fases do ciclo orçamentário, após a elaboração da proposta e sua apreciação legislativa, seguem-se as fases sequenciais de",
+    "back": "**Gabarito: E.** Após a elaboração e a apreciação legislativa, o ciclo segue por **execução → controle → avaliação**.\n\n> 📌 **Mnemônico — EAEC:** **E**laboração · **A**preciação · **E**xecução · **C**ontrole/avaliação.\n\nA execução compreende a arrecadação da receita e a realização da despesa; o controle decorre do dever de fiscalização; a avaliação fecha o ciclo, retornando ao planejamento.\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** colocam controle e/ou avaliação **antes** da execução, o que está fora da ordem lógica do ciclo.",
+    "options": [
+      "controle, execução e avaliação.",
+      "controle, avaliação e execução.",
+      "avaliação, execução e controle.",
+      "avaliação, controle e execução.",
+      "execução, controle e avaliação."
+    ],
+    "correctOption": "E",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^IBFC • TRF 5ª Região • 2024 • Analista Judiciário (Administrativa) • adaptada • questão anulada^^\n\nSobre a elaboração do Orçamento Público, avalie (V/F): ( ) Planejamento do Processo Orçamentário — é o indutor da implementação do planejamento de médio prazo da ação governamental. ( ) Fundamentos Macroeconômicos — devem possibilitar o controle das receitas e despesas agregadas, visando estabilidade, crescimento, inflação controlada e geração de empregos. ( ) Viabilidade na Gestão dos Recursos — deve especificar projetos e atividades com clareza, buscando a melhor relação custo-benefício. A sequência correta é",
+    "back": "**Gabarito: B (V–V–V) — questão ANULADA pela banca.** As três afirmativas estão corretas conforme a doutrina financeira.\n\n- **I (V):** o orçamento é o indutor do planejamento de **médio prazo** (vinculado ao **PPA**). ✅\n- **II (V):** o orçamento moderno é instrumento de **política fiscal/macroeconômica** (estabilidade, crescimento, inflação, emprego); a LRF exige equilíbrio entre receitas e despesas. ✅\n- **III (V):** a **clareza/transparência** e a **relação custo-benefício** (eficiência) são princípios do orçamento. ✅\n\n> 📌 A banca trouxe gabarito preliminar \"A (V-F-V)\", considerando o item II falso, mas {red:não havia fundamentação} para isso — optando pela **anulação**. A leitura tecnicamente correta é **V-V-V**.\n\n**Por que as demais erram:** **A**, **C** e **D** consideram algum item como falso, sem amparo doutrinário.",
+    "options": [
+      "V – F – V.",
+      "V – V – V.",
+      "F – V – F.",
+      "F – F – F.",
+      "V – V – F."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^FGV • TJ-AP • 2024 • Analista Judiciário (Contador)^^\n\nTendo em vista o regramento de aprovação de emendas parlamentares individuais ao PLOA da União, o limite de aprovação dessas emendas tem por base:",
+    "back": "**Gabarito: E.** O limite das emendas individuais (2%) incide sobre a **Receita Corrente Líquida do exercício anterior ao do encaminhamento do projeto**.\n\n> 📖 **Art. 166, §9º, CF/88** — \"As emendas individuais ao projeto de lei orçamentária serão aprovadas no limite de **2% da receita corrente líquida do exercício anterior ao do encaminhamento do projeto** (...).\"\n\n> 📌 {yellow:Atenção:} a base é a RCL **realizada no exercício anterior ao do encaminhamento**, não a estimada nem a do exercício de referência.\n\n**Por que as demais erram:** **A** não é a RCL **estimada** do exercício de referência; **B** não é média de três exercícios; **C** não é a estimada do exercício anterior ao de referência; **D** não é a realizada no **exercício do encaminhamento**.",
+    "options": [
+      "na RCL estimada para o exercício de referência;",
+      "na média da RCL realizada nos últimos três exercícios;",
+      "na RCL estimada para o exercício anterior ao de referência;",
+      "na RCL realizada no exercício do encaminhamento do projeto;",
+      "na RCL do exercício anterior ao do encaminhamento do projeto."
+    ],
+    "correctOption": "E",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^CEBRASPE • CNJ • 2024 • Técnico Judiciário (Administrativa) • adaptada C/E→A–E^^\n\nSobre a competência para enviar ao Congresso Nacional o projeto de lei orçamentária anual com os orçamentos dos órgãos do Poder Judiciário, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** Quem envia o PLOA ao Congresso é o **Poder Executivo (Presidente da República)**. Os órgãos do Judiciário **elaboram** suas propostas e as **encaminham ao Executivo**, que as consolida no projeto único da União.\n\n> 📖 **Art. 99, CF/88** (autonomia financeira dos tribunais) c/c **Art. 165 e 84, XXIII, CF/88** — a iniciativa e o envio do PLOA são do PR.\n\nA assertiva original (chefe do Judiciário enviando diretamente ao CN) está {red:errada}.\n\n**Por que as demais erram:** **B** não é o presidente do STF quem envia ao CN; **C** os tribunais não enviam diretamente ao Congresso; **D** o Executivo não pode alterar livremente as propostas conformes à LDO; **E** os orçamentos não são enviados separadamente por cada Poder.",
+    "options": [
+      "O Presidente da República envia ao Congresso o PLOA, no qual o Judiciário tem suas propostas consolidadas após encaminhá-las ao Executivo.",
+      "O presidente do STF envia diretamente ao Congresso o orçamento de todo o Poder Judiciário.",
+      "Cada tribunal envia sua proposta diretamente ao Congresso Nacional.",
+      "O Executivo recebe as propostas do Judiciário e pode alterá-las livremente antes do envio.",
+      "Cada Poder envia separadamente ao Congresso o respectivo orçamento."
+    ],
+    "correctOption": "A",
+    "topicName": "Ciclo Orçamentário - Elaboração"
+  },
+  {
+    "front": "^^Quadrix • Novacap • 2024 • Administrador • adaptada C/E→A–E^^\n\nSobre o início do ciclo orçamentário no Distrito Federal e o papel do PPA e da LDO, assinale a alternativa correta.",
+    "back": "**Gabarito: D.** O ciclo orçamentário **inicia-se com o PPA** (não com a LDO). O **PPA** estabelece **metas e prioridades para quatro anos**; a **LDO** é elaborada e aprovada **anualmente** para orientar a LOA, e **se alinha** ao PPA (não o contrário).\n\n> 📖 **Art. 165, §1º, CF/88** — o PPA estabelece diretrizes, objetivos e metas para as despesas de capital e programas de duração continuada.\n\nA assertiva original (ciclo inicia com a LDO, que fixaria metas de 4 anos revisadas pelo PPA) está {red:errada} — inverte os papéis.\n\n**Por que as demais erram:** **A** o ciclo não inicia pela LDO; **B** a LDO é anual, não quadrienal; **C** quem fixa metas para 4 anos é o PPA; **E** o PPA não é revisado anualmente pela LDO (a LDO é que se alinha ao PPA).",
+    "options": [
+      "O ciclo inicia-se com a LDO, que fixa metas para quatro anos.",
+      "A LDO estabelece metas e prioridades para um período de quatro anos.",
+      "A LDO fixa metas quadrienais e o PPA as revisa anualmente.",
+      "O ciclo inicia-se com o PPA, que fixa metas para quatro anos; a LDO é anual e se alinha ao PPA.",
+      "O PPA é revisado anualmente pela LDO."
+    ],
+    "correctOption": "D",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^Instituto AOCP • MPPR • 2024 • Auditor^^\n\nSobre o ciclo orçamentário, sob a ótica da Constituição Federal, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** A transferência de recursos por emendas individuais (obrigatórias) a Estados, DF e Municípios **independe da adimplência** do ente destinatário.\n\n> 📖 **Art. 166, §16, CF/88** — \"Quando a transferência obrigatória da União (...) for destinada a Estados, ao Distrito Federal e a Municípios, **independerá da adimplência do ente federativo destinatário** e não integrará a base de cálculo da RCL para os limites de despesa de pessoal (...).\"\n\n**Por que as demais erram:** **A** as emendas são apreciadas pelo **Plenário** (a CMO só emite parecer); **C** o **RGF** é **quadrimestral** (o que é publicado em até 30 dias após cada bimestre é o **RREO**); **D** o marco da modificação pelo PR é a **Comissão Mista**, não o Plenário; **E** a sessão legislativa não se interrompe sem a aprovação da **LDO** (não da LOA — art. 57, §2º).",
+    "options": [
+      "As emendas ao projeto de LOA serão apreciadas (definitivamente) pela Comissão Mista de Deputados e Senadores.",
+      "A transferência de recurso por meio das emendas individuais não depende da adimplência do ente federativo destinatário.",
+      "O Poder Executivo publicará, até trinta dias após cada bimestre, relatório de gestão fiscal.",
+      "O PR poderá propor modificação na LOA enquanto não iniciada a votação, no Plenário, da parte cuja alteração é proposta.",
+      "A sessão legislativa não será interrompida sem a aprovação do projeto da lei orçamentária anual."
+    ],
+    "correctOption": "B",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^Instituto AOCP • MPPR • 2024 • Auditor^^\n\nEm relação ao conceito, importância e papel do orçamento público, assinale a alternativa INCORRETA.",
+    "back": "**Gabarito: B.** **(Alternativa incorreta — é a resposta.)** O orçamento brasileiro segue o **modelo MISTO**, não o \"legislativo\": o **Executivo elabora** a proposta e o **Legislativo discute, vota e fiscaliza**. Logo, é {red:errado} dizer que elaboração, votação e controle são todos do Legislativo.\n\n> 📖 **Art. 165 (iniciativa do Executivo) e arts. 48, 70-71, CF/88** (apreciação e fiscalização pelo Legislativo).\n\n**Por que as demais estão corretas (e por isso não são a resposta):** **A** o dever de executar as programações primárias discricionárias, salvo impedimento técnico (art. 165, §10-11); **C** o orçamento tornou-se ferramenta de gestão/planejamento (orçamento-programa); **D** sob o aspecto econômico, é instrumento de redistribuição de renda e regulação; **E** sob o aspecto político, liga-se à efetivação de direitos fundamentais.",
+    "options": [
+      "A administração tem o dever de executar as programações de despesas primárias discricionárias, salvo impedimentos técnicos justificados.",
+      "O tipo de orçamento utilizado no Brasil é o legislativo, pois elaboração, votação e controle competem ao Legislativo, cabendo ao Executivo a execução.",
+      "O orçamento deixou de ser mera previsão de receitas e fixação de despesas para se tornar ferramenta de gestão e planejamento.",
+      "Sob o aspecto econômico, o orçamento é instrumento de redistribuição de renda e regulação da economia.",
+      "Sob o aspecto político, há estreita ligação do orçamento com a efetivação de direitos fundamentais."
+    ],
+    "correctOption": "B",
+    "topicName": "Ciclo Orçamentário"
+  },
+  {
+    "front": "^^Instituto AOCP • MPPR • 2024 • Auditor^^\n\nEm relação às emendas parlamentares apresentadas ao projeto de LOA (orçamento impositivo), assinale a alternativa correta.",
+    "back": "**Gabarito: C.** É **vedada, em qualquer caso**, a aplicação dos recursos de emendas individuais impositivas no pagamento de (I) **despesas com pessoal e encargos** (ativos, inativos e pensionistas) e (II) **encargos do serviço da dívida**.\n\n> 📖 **Art. 166-A, §1º, I e II, CF/88** — vedação, em qualquer caso, à aplicação em pessoal/encargos e em encargos do serviço da dívida.\n\n**Por que as demais erram:** **A** na transferência **especial** o repasse é direto, **sem convênio** (não \"mediante convênio\"); **B** os recursos {red:não integram} a receita para repartição/limite de pessoal; **D** programas finalísticos das áreas de competência do ente local é regra da **especial** (na finalidade definida é competência **da União**); **E** os 70% em capital referem-se às transferências **especiais**, não às com finalidade definida.",
+    "options": [
+      "Nas transferências especiais, os recursos são repassados mediante celebração de convênio com o ente beneficiado.",
+      "Os recursos das emendas individuais integram a receita do ente para repartição e cálculo do limite de despesa com pessoal.",
+      "É vedada, em qualquer caso, a aplicação dos recursos das emendas individuais no pagamento de pessoal e encargos e de encargos do serviço da dívida.",
+      "Nas transferências com finalidade definida, os recursos são aplicados em programas finalísticos das áreas de competência do Executivo do ente beneficiado.",
+      "Pelo menos 70% das transferências com finalidade definida devem ser aplicadas em despesas de capital."
+    ],
+    "correctOption": "C",
+    "topicName": "Emendas Parlamentares"
+  },
+  {
+    "front": "^^CESGRANRIO • IPEA • 2024 • Técnico/Analista^^\n\nA análise de gráfico sobre autorização, empenho e pagamento de emendas parlamentares individuais ao orçamento federal, à luz das disposições constitucionais, permite afirmar que",
+    "back": "**Gabarito: A.** As **emendas impositivas** (introduzidas pela **EC 86/2015**, com efeitos a partir de 2016) **ampliaram o poder dos parlamentares** sob a ótica da execução dos recursos: o Executivo passou a ser **obrigado a executá-las**, elevando empenhos e pagamentos.\n\n> 📖 **Art. 166, §11, CF/88** — obrigatoriedade de execução das emendas individuais.\n\n**Por que as demais erram:** **B** o gráfico não permite isolar valores de saúde/educação (e não há regra de aplicação mínima em educação para essas emendas); **C** a execução **aumentou** significativamente após o caráter impositivo; **D** não é possível inferir do gráfico comparação com as demais despesas; **E** o gráfico mostra **aumento** de empenhos/pagamentos a partir de 2019, contrariando a afirmação.",
+    "options": [
+      "o instrumento das emendas impositivas ampliou o poder dos parlamentares sob a ótica da execução dos recursos orçamentários.",
+      "o crescimento da aplicação em saúde e educação foi garantido pelas emendas individuais.",
+      "a despeito do caráter impositivo, a execução das emendas não sofreu alterações significativas.",
+      "as despesas decorrentes de emendas ainda apresentam grau de execução inferior às demais despesas.",
+      "as emendas individuais foram negativamente impactadas pelo caráter impositivo das emendas de bancada a partir de 2019."
+    ],
+    "correctOption": "A",
+    "topicName": "Emendas Parlamentares"
+  }
+]
