@@ -1,19 +1,24 @@
 {
-  "atualizadoEm": "2026-06-05T00:00:00.000Z",
-  "totalCardsGerados": 121,
-  "possiveisDuplicatasEvitadas": 3,
+  "atualizadoEm": "2026-06-06T00:00:00.000Z",
+  "totalCardsGerados": 254,
+  "possiveisDuplicatasEvitadas": 9,
   "materias": [
     {
       "materia": "afo",
       "pdfsDetectados": 15,
-      "pdfsProcessados": 2,
-      "totalCardsGerados": 121,
+      "pdfsProcessados": 3,
+      "totalCardsGerados": 254,
       "topicosCanonicos": [
         "Orçamento Público",
         "PPA",
         "LDO",
         "LOA",
-        "Princípios Orçamentários"
+        "Princípios Orçamentários",
+        "Créditos Adicionais",
+        "Créditos Suplementares",
+        "Créditos Especiais",
+        "Créditos Extraordinários",
+        "Fontes para Créditos Adicionais"
       ],
       "pdfs": [
         {
@@ -29,11 +34,19 @@
           "paginas": "1-119",
           "cardsGerados": 80,
           "concluido": true
+        },
+        {
+          "arquivo": "material-fonte/AFO - Administração Financeira Orçamentária/curso-373684-aula-02-d4ae-completo.pdf",
+          "assunto": "Créditos Ordinários e Adicionais (suplementares, especiais, extraordinários e fontes)",
+          "paginas": "1-132",
+          "cardsGerados": 133,
+          "concluido": true
         }
       ],
       "alertas": [
         "Aula 00 regenerada no novo padrão (explicações ricas + metadados discretos). Faltam as aulas 01 a 14 (14 PDFs).",
-        "Aula 01 (Princípios Orçamentários) concluída: 66 questões do PDF (16 Questões Comentadas FCC + 50 Questões Comentadas Multibancas), todas convertidas para A–E (itens C/E adaptados). As seções 'Lista de Questões' (FCC e Multibancas) são repetições idênticas das comentadas e não geraram novos cards. 3 questões duplicadas evitadas (Multibancas 35, 36 e 37 = FCC 1, 2 e 3). Acrescidos 17 cards de teoria cobrindo todos os princípios (universalidade, unidade/totalidade, anualidade, orçamento bruto, especificação, exclusividade, não afetação, proibição do estorno, quantificação, legalidade, publicidade, equilíbrio/regra de ouro, transparência, programação, uniformidade, clareza, orçamento impositivo, realismo/exatidão, regionalização, economicidade). Total: 80 cards. Faltam as aulas 02 a 14 (13 PDFs)."
+        "Aula 01 (Princípios Orçamentários) concluída: 66 questões do PDF (16 Questões Comentadas FCC + 50 Questões Comentadas Multibancas), todas convertidas para A–E (itens C/E adaptados). As seções 'Lista de Questões' (FCC e Multibancas) são repetições idênticas das comentadas e não geraram novos cards. 3 questões duplicadas evitadas (Multibancas 35, 36 e 37 = FCC 1, 2 e 3). Acrescidos 17 cards de teoria cobrindo todos os princípios. Total: 80 cards.",
+        "Aula 02 (Créditos Ordinários e Adicionais) concluída: 133 cards. Cobertura EXAUSTIVA das questões do PDF: (a) 18 Questões Comentadas FCC; (b) 48 Questões Comentadas Multibancas (numeradas 1–50 no PDF, sendo 33 e 34 apenas marcadores internos do comentário da questão 32, não questões); (c) ~57 questões adicionais presentes NO CORPO DA TEORIA (intercaladas nas seções de Introdução, Suplementares, Especiais, Extraordinários e Fontes), todas convertidas para A–E (itens C/E adaptados). As seções 'Lista de Questões - FCC' (18) e 'Lista de Questões - Multibancas' (48) são repetições idênticas das comentadas e não geraram novos cards. Acrescidos 10 cards de teoria/síntese (Elaborada pelo professor): conceito de crédito orçamentário x dotação, quadro-síntese das 3 espécies, exceções a exclusividade/anualidade, MP e jurisprudência do STF, quadro das 6 fontes, fórmulas de superávit financeiro e excesso de arrecadação, itens que NÃO são fonte (ARO, restos a pagar, despesas contingenciadas, economia de despesa), efeito no valor global da LOA e processo legislativo. ~6 duplicatas evitadas entre questões do corpo da teoria e as seções comentadas (ex.: CEBRASPE PC-DF 2025 'créditos ordinários'; CEBRASPE TRT-10 'crédito especial insuficiente'; FGV Pref. SJC 2024; CEBRASPE ANM especiais; CEBRASPE ICMBio superávit; CEBRASPE TRF6 fontes), além de repasses near-duplicate de veto/emenda/rejeição consolidados em um único card. Validado com npm run validate:cards (0 erros, 0 avisos). Faltam as aulas 03 a 14 (12 PDFs)."
       ]
     }
   ]
