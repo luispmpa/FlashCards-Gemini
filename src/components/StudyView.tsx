@@ -16,11 +16,12 @@ interface StudyViewProps {
   allCards: Record<string, Flashcard[]>;
   onSaveCard: (card: Flashcard) => void;
   targetCardId?: string;
+  targetCardIds?: string[]; // Estudar uma seleção específica de cards
   onFinishStudy?: () => void; // Optional to know when specific card study is done
   onLogReview?: (card: Flashcard, rating: Rating, oldState: string, newState: string) => void;
 }
 
-export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishStudy, onLogReview }: StudyViewProps) {
+export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCardIds, onFinishStudy, onLogReview }: StudyViewProps) {
   const [activeCard, setActiveCard] = useState<Flashcard | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [queue, setQueue] = useState<Flashcard[]>([]);
@@ -46,6 +47,24 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
          }
      }
   }, [targetCardId]);
+
+  // Estudar uma seleção específica de cards (vinda da lista de Flashcards).
+  // Monta a fila a partir dos IDs selecionados e embaralha, como numa sessão normal.
+  const targetIdsKey = targetCardIds?.join(',');
+  useEffect(() => {
+     if (targetCardIds && targetCardIds.length > 0) {
+         const all = Object.values(allCards).flat();
+         const selected = targetCardIds
+             .map(id => all.find(c => c.id === id))
+             .filter((c): c is Flashcard => !!c);
+         const shuffled = [...selected].sort(() => Math.random() - 0.5);
+         setQueue(shuffled);
+         setActiveCard(shuffled[0] || null);
+         setShowAnswer(false);
+         setSelectedOptionIndex(null);
+     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [targetIdsKey]);
 
   const getDescendantDeckIds = (parentId: string): string[] => {
     const children = decks.filter(d => d.parentId === parentId);
@@ -153,14 +172,15 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, onFinishS
   }, [activeCard, showAnswer]);
 
   if (!activeCard) {
-    if (targetCardId) {
+    if (targetCardId || (targetCardIds && targetCardIds.length > 0)) {
+        const isSelection = !!(targetCardIds && targetCardIds.length > 0);
         return (
             <div className="flex flex-col items-center justify-center h-full p-8 space-y-6">
                 <div className="p-6 bg-emerald-100 rounded-full text-emerald-500">
                     <CheckCircle size={64} />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-800">Pronto!</h2>
-                <p className="text-slate-500 text-center max-w-sm">Revisão pontual do card completada. Volte à lista para continuar estudando.</p>
+                <p className="text-slate-500 text-center max-w-sm">{isSelection ? 'Estudo dos cards selecionados concluído. Volte à lista para continuar estudando.' : 'Revisão pontual do card completada. Volte à lista para continuar estudando.'}</p>
                 {onFinishStudy && (
                     <button 
                         onClick={onFinishStudy}

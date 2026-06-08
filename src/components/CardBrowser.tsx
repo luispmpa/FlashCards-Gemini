@@ -19,12 +19,13 @@ interface CardBrowserProps {
   onDeleteCards: (cardsToDelete: {id: string, deckId: string}[]) => void;
   onEditCard: (card: Flashcard) => void;
   onStudyCard: (cardId: string) => void;
+  onStudyCards: (cardIds: string[]) => void;
   initialFilter?: CardBrowserFilter;
 }
 
 type SortKey = 'front' | 'deck' | 'state' | 'due' | 'createdAt';
 
-export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCard, initialFilter }: CardBrowserProps) {
+export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCard, onStudyCards, initialFilter }: CardBrowserProps) {
   const [search, setSearch] = useState(initialFilter?.search || "");
   const [sortKey, setSortKey] = useState<SortKey>('due');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc');
@@ -207,7 +208,16 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                  {selectedIds.size > 0 && (
                      <div className="flex items-center space-x-2 border-l border-slate-300 pl-4">
                         <span className="text-sm font-semibold text-slate-700">{selectedIds.size} selecionado(s)</span>
-                        <button 
+                        <button
+                           onClick={() => {
+                               const ids = filteredCards.filter(c => selectedIds.has(c.id)).map(c => c.id);
+                               if (ids.length > 0) onStudyCards(ids);
+                           }}
+                           className="flex items-center text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded hover:bg-indigo-200 transition-colors"
+                        >
+                            <Play size={14} className="mr-1"/> Estudar Selecionados
+                        </button>
+                        <button
                            onClick={() => {
                                const toDelete = Array.from(selectedIds).map(id => {
                                    const card = allCards.find(c => c.id === id);

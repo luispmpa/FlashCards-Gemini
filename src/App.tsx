@@ -21,6 +21,7 @@ interface NavigationState {
   view: string;
   filter?: CardBrowserFilter;
   studyCardId?: string;
+  studyCardIds?: string[];
 }
 
 export default function App() {
@@ -77,8 +78,8 @@ export default function App() {
   };
 
 
-  const handleNavigate = (view: string, filter?: CardBrowserFilter, studyCardId?: string) => {
-      setNavState({ view, filter, studyCardId });
+  const handleNavigate = (view: string, filter?: CardBrowserFilter, studyCardId?: string, studyCardIds?: string[]) => {
+      setNavState({ view, filter, studyCardId, studyCardIds });
       if (view !== 'browser' || (filter && !filter.search)) {
           setGlobalSearch(""); // clear top search if not actively typing a search or leaving browser
       }
@@ -373,8 +374,8 @@ export default function App() {
 
          <div className="flex-1 overflow-y-auto">
              {navState.view === 'dashboard' && <Dashboard cards={cards} decks={decks} logs={reviewLogs} onNavigate={handleNavigate} />}
-             {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} onFinishStudy={() => handleNavigate('browser', navState.filter)} />}
-             {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} initialFilter={navState.filter} /> }
+             {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} targetCardIds={navState.studyCardIds} onFinishStudy={() => handleNavigate('browser', navState.filter)} />}
+             {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} onStudyCards={(ids) => handleNavigate('study', navState.filter, undefined, ids)} initialFilter={navState.filter} /> }
              {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onDeleteDecks={handleDeleteDecks} onImportCards={handleImportCards} onNavigate={handleNavigate} />}
              {navState.view === 'history' && <ReviewHistory logs={reviewLogs} />}
              {navState.view === 'updates' && <UpdatesView />}
