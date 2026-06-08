@@ -29,6 +29,7 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
   const [sortKey, setSortKey] = useState<SortKey>('due');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc');
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  const [lastSelectedIndex, setLastSelectedIndex] = useState<number | null>(null);
   const [editingCard, setEditingCard] = useState<Flashcard | null>(null);
   const [isUploading, setIsUploading] = useState(false);
   const [confirmDeleteModal, setConfirmDeleteModal] = useState<{isOpen: boolean, cardsToDelete: {id: string, deckId: string}[], message: string}>({isOpen: false, cardsToDelete: [], message: ""});
@@ -147,6 +148,32 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
      return result;
   }, [allCards, search, initialFilter, sortKey, sortDir, decks]);
 
+  const handleSelectCard = (index: number, checked: boolean, shiftKey: boolean) => {
+      const next = new Set(selectedIds);
+
+      // Shift+click: select/deselect the whole range between the last clicked
+      // card and the current one (inclusive), matching the displayed order.
+      if (shiftKey && lastSelectedIndex !== null) {
+          const start = Math.min(lastSelectedIndex, index);
+          const end = Math.max(lastSelectedIndex, index);
+          for (let i = start; i <= end; i++) {
+              const rangeCard = filteredCards[i];
+              if (!rangeCard) continue;
+              if (checked) next.add(rangeCard.id);
+              else next.delete(rangeCard.id);
+          }
+      } else {
+          const card = filteredCards[index];
+          if (card) {
+              if (checked) next.add(card.id);
+              else next.delete(card.id);
+          }
+      }
+
+      setSelectedIds(next);
+      setLastSelectedIndex(index);
+  };
+
   const handleSort = (key: SortKey) => {
       if (sortKey === key) {
           setSortDir(sortDir === 'asc' ? 'desc' : 'asc');
@@ -223,6 +250,7 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                                   onChange={(e) => {
                                       if (e.target.checked) setSelectedIds(new Set(filteredCards.map(c => c.id)));
                                       else setSelectedIds(new Set());
+                                      setLastSelectedIndex(null);
                                   }}
                                />
                            </th>
@@ -245,7 +273,7 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                        </tr>
                    </thead>
                    <tbody className="divide-y divide-slate-100">
-                       {filteredCards.length > 0 ? filteredCards.map(card => {
+                       {filteredCards.length > 0 ? filteredCards.map((card, index) => {
                            const deck = decks.find(d => d.id === card.deckId);
                            const parent = deck?.parentId ? decks.find(d => d.id === deck.parentId) : null;
                            const deckLabel = parent ? `${parent.name} / ${deck?.name}` : deck?.name;
@@ -261,10 +289,8 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                                           className="w-4 h-4 rounded text-indigo-600 focus:ring-indigo-500 cursor-pointer"
                                           checked={isSelected}
                                           onChange={(e) => {
-                                              const next = new Set(selectedIds);
-                                              if (e.target.checked) next.add(card.id);
-                                              else next.delete(card.id);
-                                              setSelectedIds(next);
+                                              const shiftKey = (e.nativeEvent as MouseEvent).shiftKey;
+                                              handleSelectCard(index, e.target.checked, shiftKey);
                                           }}
                                       />
                                    </td>
