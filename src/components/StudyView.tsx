@@ -21,6 +21,10 @@ interface StudyViewProps {
   onLogReview?: (card: Flashcard, rating: Rating, oldState: string, newState: string) => void;
 }
 
+type StudyMode = 'all' | 'review';
+// Chave de carregamento por botão (deck + modo), para o spinner aparecer só no botão clicado.
+const studyKey = (deckId: string, mode: StudyMode) => `${mode}:${deckId}`;
+
 export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCardIds, onFinishStudy, onLogReview }: StudyViewProps) {
   const [activeCard, setActiveCard] = useState<Flashcard | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -71,19 +75,22 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
     return children.flatMap(child => [child.id, ...getDescendantDeckIds(child.id)]);
   };
 
-  const startStudy = async (deckId: string) => {
+  // mode 'all' = revisões + novos (padrão); 'review' = apenas os cards "A revisar".
+  const startStudy = async (deckId: string, mode: StudyMode = 'all') => {
     const userId = auth.currentUser?.uid;
     if (!userId) return;
 
-    setLoadingDeckId(deckId);
+    setLoadingDeckId(studyKey(deckId, mode));
     try {
         const deckIds = deckId ? [deckId, ...getDescendantDeckIds(deckId)] : decks.map(d => d.id);
         const settings = getUserSettings();
+        // No modo "Revisar" não trazemos cards novos (limite 0).
+        const newPerDay = mode === 'review' ? 0 : settings.newPerDay;
         const targetDate = addDays(startOfToday(), 1);
         const subscribedCards = getCardsForStudySession(
           allCards,
           deckIds,
-          settings.newPerDay,
+          newPerDay,
           settings.reviewsPerDay,
           targetDate
         );
@@ -92,7 +99,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
         try {
             const [dueCards, newCards] = await Promise.all([
                  fetchDueCards(userId, deckIds, targetDate, settings.reviewsPerDay),
-                 fetchNewCards(userId, deckIds, settings.newPerDay)
+                 mode === 'review' ? Promise.resolve([] as Flashcard[]) : fetchNewCards(userId, deckIds, settings.newPerDay)
             ]);
             cardsToStudy = [...dueCards, ...newCards];
 
@@ -228,11 +235,18 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
             </p>
           </div>
           <button
-            onClick={() => startStudy("")}
+            onClick={() => startStudy("", 'all')}
             disabled={loadingDeckId !== null || (totalDue + totalNew === 0)}
             className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg flex items-center justify-center transition-colors shadow-sm disabled:opacity-50"
           >
-            {loadingDeckId === "" ? <Loader2 className="animate-spin" size={20} /> : "Estudar tudo"}
+            {loadingDeckId === studyKey("", 'all') ? <Loader2 className="animate-spin" size={20} /> : "Estudar tudo"}
+          </button>
+          <button
+            onClick={() => startStudy("", 'review')}
+            disabled={loadingDeckId !== null || totalDue === 0}
+            className="w-full bg-rose-50 hover:bg-rose-100 text-rose-700 font-medium py-2.5 rounded-lg flex items-center justify-center transition-colors disabled:opacity-50"
+          >
+            {loadingDeckId === studyKey("", 'review') ? <Loader2 className="animate-spin" size={18} /> : `Revisar (${totalDue})`}
           </button>
         </div>
 
@@ -276,13 +290,25 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
                     </div>
                   </div>
 
+                  {/* revisar matéria (apenas cards "A revisar") */}
+                  {counts.due > 0 && (
+                    <button
+                      onClick={() => startStudy(deck.id, 'review')}
+                      disabled={loadingDeckId !== null}
+                      className="px-3 py-2 text-sm font-medium bg-rose-50 text-rose-700 rounded-lg hover:bg-rose-100 transition-colors disabled:opacity-40 flex items-center"
+                      title="Estudar apenas os cards a revisar"
+                    >
+                      {loadingDeckId === studyKey(deck.id, 'review') ? <Loader2 className="animate-spin" size={16} /> : "Revisar"}
+                    </button>
+                  )}
+
                   {/* estudar matéria */}
                   <button
-                    onClick={() => startStudy(deck.id)}
+                    onClick={() => startStudy(deck.id, 'all')}
                     disabled={loadingDeckId !== null || (counts.due + counts.newCards === 0)}
                     className="px-4 py-2 text-sm font-medium bg-indigo-50 text-indigo-700 rounded-lg hover:bg-indigo-100 transition-colors disabled:opacity-40 flex items-center"
                   >
-                    {loadingDeckId === deck.id ? <Loader2 className="animate-spin" size={16} /> : "Estudar"}
+                    {loadingDeckId === studyKey(deck.id, 'all') ? <Loader2 className="animate-spin" size={16} /> : "Estudar"}
                   </button>
                 </div>
 
@@ -306,12 +332,22 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
                               )}
                             </div>
                           </div>
+                          {cc.due > 0 && (
+                            <button
+                              onClick={() => startStudy(child.id, 'review')}
+                              disabled={loadingDeckId !== null}
+                              className="px-3 py-1.5 text-xs font-medium bg-rose-50 border border-rose-100 text-rose-700 rounded-lg hover:bg-rose-100 transition-colors disabled:opacity-40 flex items-center"
+                              title="Estudar apenas os cards a revisar"
+                            >
+                              {loadingDeckId === studyKey(child.id, 'review') ? <Loader2 className="animate-spin" size={14} /> : "Revisar"}
+                            </button>
+                          )}
                           <button
-                            onClick={() => startStudy(child.id)}
+                            onClick={() => startStudy(child.id, 'all')}
                             disabled={loadingDeckId !== null || (cc.due + cc.newCards === 0)}
                             className="px-3 py-1.5 text-xs font-medium bg-white border border-slate-200 text-slate-700 rounded-lg hover:bg-slate-100 transition-colors disabled:opacity-40 flex items-center"
                           >
-                            {loadingDeckId === child.id ? <Loader2 className="animate-spin" size={14} /> : "Estudar"}
+                            {loadingDeckId === studyKey(child.id, 'all') ? <Loader2 className="animate-spin" size={14} /> : "Estudar"}
                           </button>
                         </div>
                       );
