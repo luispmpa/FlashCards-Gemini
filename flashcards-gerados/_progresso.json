@@ -1,13 +1,13 @@
 {
-  "atualizadoEm": "2026-06-07T00:00:00.000Z",
-  "totalCardsGerados": 334,
-  "possiveisDuplicatasEvitadas": 73,
+  "atualizadoEm": "2026-06-08T00:00:00.000Z",
+  "totalCardsGerados": 450,
+  "possiveisDuplicatasEvitadas": 149,
   "materias": [
     {
       "materia": "afo",
       "pdfsDetectados": 15,
-      "pdfsProcessados": 4,
-      "totalCardsGerados": 334,
+      "pdfsProcessados": 5,
+      "totalCardsGerados": 450,
       "topicosCanonicos": [
         "Orçamento Público",
         "PPA",
@@ -24,7 +24,16 @@
         "Processo Legislativo Orçamentário",
         "Emendas Parlamentares",
         "Execução Orçamentária",
-        "Controle e Avaliação"
+        "Controle e Avaliação",
+        "Espécies de Orçamento",
+        "Tipos de Orçamento",
+        "Conceito de Orçamento Público",
+        "Naturezas do Orçamento",
+        "Funções do Orçamento",
+        "Falhas de Mercado",
+        "Direito Financeiro",
+        "Natureza Jurídica do Orçamento",
+        "Atividade Financeira do Estado"
       ],
       "pdfs": [
         {
@@ -54,13 +63,21 @@
           "paginas": "1-201",
           "cardsGerados": 80,
           "concluido": true
+        },
+        {
+          "arquivo": "material-fonte/AFO - Administração Financeira Orçamentária/curso-373684-aula-04-10d8-completo.pdf",
+          "assunto": "Orçamento Público: Conceito, Técnicas Orçamentárias e Funções do Orçamento (espécies/técnicas, tipos, conceito, naturezas, funções clássicas e falhas de mercado, Direito Financeiro, natureza jurídica e atividade financeira do Estado)",
+          "paginas": "1-140",
+          "cardsGerados": 116,
+          "concluido": true
         }
       ],
       "alertas": [
         "Aula 00 regenerada no novo padrão (explicações ricas + metadados discretos). Faltam as aulas 01 a 14 (14 PDFs).",
         "Aula 01 (Princípios Orçamentários) concluída: 66 questões do PDF (16 Questões Comentadas FCC + 50 Questões Comentadas Multibancas), todas convertidas para A–E (itens C/E adaptados). As seções 'Lista de Questões' (FCC e Multibancas) são repetições idênticas das comentadas e não geraram novos cards. 3 questões duplicadas evitadas (Multibancas 35, 36 e 37 = FCC 1, 2 e 3). Acrescidos 17 cards de teoria cobrindo todos os princípios. Total: 80 cards.",
         "Aula 02 (Créditos Ordinários e Adicionais) concluída: 133 cards. Cobertura EXAUSTIVA das questões do PDF: (a) 18 Questões Comentadas FCC; (b) 48 Questões Comentadas Multibancas (numeradas 1–50 no PDF, sendo 33 e 34 apenas marcadores internos do comentário da questão 32, não questões); (c) ~57 questões adicionais presentes NO CORPO DA TEORIA (intercaladas nas seções de Introdução, Suplementares, Especiais, Extraordinários e Fontes), todas convertidas para A–E (itens C/E adaptados). As seções 'Lista de Questões - FCC' (18) e 'Lista de Questões - Multibancas' (48) são repetições idênticas das comentadas e não geraram novos cards. Acrescidos 10 cards de teoria/síntese (Elaborada pelo professor): conceito de crédito orçamentário x dotação, quadro-síntese das 3 espécies, exceções a exclusividade/anualidade, MP e jurisprudência do STF, quadro das 6 fontes, fórmulas de superávit financeiro e excesso de arrecadação, itens que NÃO são fonte (ARO, restos a pagar, despesas contingenciadas, economia de despesa), efeito no valor global da LOA e processo legislativo. ~6 duplicatas evitadas entre questões do corpo da teoria e as seções comentadas (ex.: CEBRASPE PC-DF 2025 'créditos ordinários'; CEBRASPE TRT-10 'crédito especial insuficiente'; FGV Pref. SJC 2024; CEBRASPE ANM especiais; CEBRASPE ICMBio superávit; CEBRASPE TRF6 fontes), além de repasses near-duplicate de veto/emenda/rejeição consolidados em um único card. Validado com npm run validate:cards (0 erros, 0 avisos). Faltam as aulas 03 a 14 (12 PDFs).",
-        "Aula 03 (Ciclo Orçamentário) concluída: 80 cards. Cobertura EXAUSTIVA das questões do PDF: 64 questões convertidas para A–E, sendo (a) 50 Questões Comentadas Multibancas (Q1–16 itens CEBRASPE C/E adaptados para A–E; Q17–50 multibancas FGV/VUNESP/IBFC/AOCP/CESGRANRIO/Quadrix já em A–E) e (b) 14 Questões Comentadas FCC. 64 questões do PDF, 64 convertidas. A questão 43 (IBFC/TRF5) foi ANULADA pela banca e a 32 (FGV/TCE-PA) também havia sido anulada (versão adaptada) — ambas foram mantidas com a explicação da anulação. As seções 'Lista de Questões - FCC' (pp. 174-180) e 'Lista de Questões - Multibancas' (pp. 181-201) são repetições idênticas das comentadas e NÃO geraram novos cards (64 itens repetidos pulados, somados às duplicatas anteriores). Acrescidos 16 cards de teoria (Elaborada pelo professor) com o mesmo nível de riqueza: conceito e fases do ciclo (EDExC), ciclo x exercício financeiro, ciclo ampliado (Sanches), elaboração/consolidação pelo Executivo, Comissão Mista (art. 166 §1º), modificação pelo PR (§5º), requisitos das emendas (§3º, mnemônico PSD), art. 33 da Lei 4.320/64, emendas individuais impositivas (2% RCL, metade saúde) e bancada (1%), transferências especial e com finalidade definida (art. 166-A), estágios de receita (PLAR) x despesa (ELP), controle (art. 75 LFC, art. 77, controle interno art. 74, controle externo/TC, RREO bimestral x RGF quadrimestral). Tópicos canônicos novos: Ciclo Orçamentário, Ciclo Orçamentário - Elaboração, Processo Legislativo Orçamentário, Emendas Parlamentares, Execução Orçamentária, Controle e Avaliação. Validado com npm run validate:cards (0 erros, 0 avisos). Faltam as aulas 04 a 14 (11 PDFs)."
+        "Aula 03 (Ciclo Orçamentário) concluída: 80 cards. Cobertura EXAUSTIVA das questões do PDF: 64 questões convertidas para A–E, sendo (a) 50 Questões Comentadas Multibancas (Q1–16 itens CEBRASPE C/E adaptados para A–E; Q17–50 multibancas FGV/VUNESP/IBFC/AOCP/CESGRANRIO/Quadrix já em A–E) e (b) 14 Questões Comentadas FCC. 64 questões do PDF, 64 convertidas. A questão 43 (IBFC/TRF5) foi ANULADA pela banca e a 32 (FGV/TCE-PA) também havia sido anulada (versão adaptada) — ambas foram mantidas com a explicação da anulação. As seções 'Lista de Questões - FCC' (pp. 174-180) e 'Lista de Questões - Multibancas' (pp. 181-201) são repetições idênticas das comentadas e NÃO geraram novos cards (64 itens repetidos pulados, somados às duplicatas anteriores). Acrescidos 16 cards de teoria (Elaborada pelo professor) com o mesmo nível de riqueza: conceito e fases do ciclo (EDExC), ciclo x exercício financeiro, ciclo ampliado (Sanches), elaboração/consolidação pelo Executivo, Comissão Mista (art. 166 §1º), modificação pelo PR (§5º), requisitos das emendas (§3º, mnemônico PSD), art. 33 da Lei 4.320/64, emendas individuais impositivas (2% RCL, metade saúde) e bancada (1%), transferências especial e com finalidade definida (art. 166-A), estágios de receita (PLAR) x despesa (ELP), controle (art. 75 LFC, art. 77, controle interno art. 74, controle externo/TC, RREO bimestral x RGF quadrimestral). Tópicos canônicos novos: Ciclo Orçamentário, Ciclo Orçamentário - Elaboração, Processo Legislativo Orçamentário, Emendas Parlamentares, Execução Orçamentária, Controle e Avaliação. Validado com npm run validate:cards (0 erros, 0 avisos). Faltam as aulas 04 a 14 (11 PDFs).",
+        "Aula 04 (Orçamento Público: Conceito, Técnicas Orçamentárias e Funções) concluída: 116 cards. Cobertura EXAUSTIVA das questões do PDF. Questões Comentadas: (a) seção FCC - 7 questões (Q1 a Q7); (b) seção Multibancas - 32 questões (Q1 a Q32); (c) seção Funções do Orçamento - 18 questões (Q1 a Q18) = 57 comentadas. Além delas, ~40 questões intercaladas no CORPO DA TEORIA (espécies/técnicas pp.14-22, conceito/naturezas pp.27-36, natureza jurídica/competência/atividade financeira pp.52-68), todas convertidas para A-E (itens CESPE/CEBRASPE C/E adaptados). As 3 seções 'Lista de Questões' (FCC pp.115-117, Multibancas pp.118-131, Funções pp.132-140) são repetições idênticas das comentadas e NÃO geraram novos cards (~64 itens repetidos pulados). Duplicatas evitadas entre questões do corpo da teoria e as seções comentadas (~12): FCC PGE-AM orçamento-programa (embedded = comentada FCC Q1); FCC SEFAZ-BA, FCC Pref.Manaus e FCC Câmara Fortaleza (embedded = multibancas Q28/Q26/Q27); VUNESP Suzano executivo e VUNESP Araras legislativo (embedded = multibancas Q20/Q23); FGV IBGE anel viário e FGV MRE competência (embedded = funções Q11/Q18); FGV ALERJ EC86 impositivo e FCC AL/PE função distributiva (embedded C/E = funções Q17/Q7); CESPE ABIN controle abstrato aparece 2x no PDF (1 card); FGV Pref.Salvador e FCC CLDF 'Direito Financeiro é ramo do Direito Público' (texto idêntico, 1 card). 2 questões anuladas mantidas com a explicação da anulação (FGV TCE-BA 2013 infraestrutura; menção à anulação no card). Cards de teoria (Elaborada pelo professor) com tabelas, mnemônicos e base legal: espécies (tradicional/desempenho/OBZ/programa/participativo/incremental, quadro Giacomoni tradicional×programa), tipos (legislativo/executivo/misto), conceito, naturezas/aspectos (político/econômico/jurídico/financeiro/técnico), Direito Financeiro (conceito/objeto ROCD, competência concorrente art.24, status da Lei 4.320/64), natureza jurídica (lei formal/material, ADI 5449/RR controle abstrato, impositivo×autorizativo EC 100/102/2019), funções clássicas de Musgrave (ADE) e falhas de mercado. Tópicos canônicos novos: Espécies de Orçamento, Tipos de Orçamento, Conceito de Orçamento Público, Naturezas do Orçamento, Funções do Orçamento, Falhas de Mercado, Direito Financeiro, Natureza Jurídica do Orçamento, Atividade Financeira do Estado. Validado com npm run validate:cards (0 erros, 0 avisos). Faltam as aulas 05 a 14 (10 PDFs)."
       ]
     }
   ]
