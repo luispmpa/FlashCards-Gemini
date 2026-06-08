@@ -1,0 +1,1510 @@
+[
+{
+"front": "^^Elaborada pelo professor^^\n\nO **orçamento tradicional (ou clássico)** caracteriza-se, segundo a doutrina, por:",
+"back": "**Gabarito: B.** O **orçamento clássico/tradicional** é uma peça **meramente contábil-financeira**, sem qualquer planejamento das ações do governo. Predomina o **aspecto jurídico** em detrimento do econômico. A despesa é classificada **por objeto** (=={red:line-item budget}==), com ênfase nos {blue:inputs} (insumos), sem vincular meios a resultados — por isso **não permite aferir a eficiência** do gasto. Baseia-se no exercício anterior (=={yellow:incrementalismo}==) e foca apenas nas necessidades financeiras das unidades organizacionais.\n\n> 📖 *José Afonso da Silva:* o orçamento tradicional era \"uma peça de **previsão das receitas e autorização das despesas** públicas, classificadas estas por objeto, sem se cogitar das necessidades reais da administração e da população\".\n\n**Por que as demais erram:** **A** vincular planejamento e funções executivas é do {green:orçamento-programa}; **C** medir realizações/produtos finais é do orçamento de desempenho/programa; **D** justificar todas as dotações do zero é do {blue:OBZ}; **E** o critério funcional-programático é do orçamento-programa.",
+"options": [
+"Vincula o planejamento às funções executivas, com alocação voltada a objetivos e metas.",
+"É peça meramente contábil-financeira, sem planejamento, com despesa classificada por objeto (ênfase nos meios).",
+"Utiliza medidas de desempenho para medir as realizações e os produtos finais da ação governamental.",
+"Exige a justificativa detalhada de todas as dotações a cada exercício, partindo do zero.",
+"Adota o critério funcional-programático como principal classificação da despesa."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nA respeito do **orçamento de desempenho (ou por realizações)**, assinale a alternativa correta.",
+"back": "**Gabarito: C.** O **orçamento de desempenho/por realizações** (ou funcional) enfatiza o **resultado dos gastos**, e não apenas o gasto em si. Apresenta **duas dimensões**: o {blue:objeto de gasto} (secundário) e um {green:programa de trabalho} com as ações desenvolvidas. Representou o **primeiro passo** na reforma das técnicas orçamentárias (José Afonso da Silva), classificando a despesa por **funções, atividades e tarefas**.\n\n> ⚠️ Sua **deficiência** marcante: ainda está {red:desvinculado de um planejamento central} das ações do governo — não há integração planejamento-orçamento (isso só surge no orçamento-programa).\n\n**Por que as demais erram:** **A** justificar tudo do zero é o OBZ; **B** ajustes marginais sobre o ano anterior é o {yellow:incremental}; **D** a integração planejamento-orçamento é do orçamento-programa; **E** mera previsão de receita e fixação de despesa é o tradicional.",
+"options": [
+"Exige que o gestor justifique integralmente, a cada ano, todas as dotações solicitadas.",
+"Elabora o orçamento por ajustes marginais sobre os valores do exercício anterior.",
+"Enfatiza o resultado dos gastos (desempenho organizacional), mas ainda é desvinculado de um planejamento central.",
+"Integra de forma plena planejamento e orçamento, com objetivos e metas a alcançar.",
+"Limita-se à previsão da receita e à fixação da despesa, como peça contábil."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nO **Orçamento Base Zero (OBZ)**, também chamado de orçamento por estratégia, caracteriza-se por:",
+"back": "**Gabarito: A.** O **OBZ** consiste em uma **análise crítica de TODOS os recursos** solicitados pelos órgãos, **sem compromisso com qualquer montante inicial** de dotação. A cada exercício, **toda despesa é tratada como nova** (=={red:não há direito adquirido}== sobre os gastos do ano anterior), exigindo justificativa detalhada de cada quantia.\n\n> 📌 Surgiu com **Peter A. Pyhrr** (1970, *Harvard Business Review*, Texas Instruments) e foi levado ao setor público pelo então governador **Jimmy Carter** (Geórgia/EUA).\n\n**Desvantagens (memorize):** elaboração {yellow:trabalhosa, lenta e cara}; rompe com o passado e despreza a experiência acumulada; incompatível com planejamento de médio/longo prazo.\n\n**Por que as demais erram:** **B** ajuste marginal/incrementalismo é o oposto do OBZ; **C** integrar planejamento e metas é o programa; **D** classificar por objeto é o tradicional; **E** participação popular é o orçamento participativo.",
+"options": [
+"Análise crítica de todas as despesas a cada ano, tratando toda despesa como nova, sem montante inicial garantido.",
+"Ajuste marginal das receitas e despesas a partir dos valores do exercício anterior.",
+"Integração entre planejamento e orçamento, com definição de objetivos e metas.",
+"Classificação da despesa por objeto de gasto, com ênfase no controle contábil.",
+"Participação direta da população na definição das prioridades de investimento."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre o **orçamento-programa**, modelo adotado no Brasil, assinale a alternativa correta.",
+"back": "**Gabarito: D.** O **orçamento-programa** é a única técnica que **integra planejamento e orçamento**, materializando o planejamento em dotações vinculadas a **programas** (com objetivos, metas e custos). É o **elo entre o planejamento e as funções executivas**; a alocação visa à {green:consecução de objetivos e metas}; o principal critério de classificação é o ==funcional-programático==. Surgiu do {blue:PPBS} (EUA, anos 1950) e, no Brasil, foi estimulado pela Lei 4.320/64 e explicitado no DL 200/67.\n\n| Tradicional | Orçamento-programa |\n|---|---|\n| Dissociado do planejamento | **Elo** com o planejamento |\n| Alocação visa **meios** | Alocação visa **objetivos/metas** |\n| Ênfase contábil | Ênfase administrativa/planejamento |\n| Critério: unidades e elementos | Critério: **funcional-programático** |\n| Controle: legalidade/honestidade | Controle: **eficiência, eficácia, efetividade** |\n\n**Por que as demais erram:** **A** ênfase nos meios é do tradicional; **B** classificar por objeto é do tradicional; **C** justificar do zero é o OBZ; **E** dispensar vínculo com PPA/LDO/LOA contraria a lógica integradora.",
+"options": [
+"Dá ênfase aos meios (o que se compra), e não a diretrizes, objetivos e metas.",
+"Adota como principal critério a classificação por objeto de gasto.",
+"Exige justificar do zero, a cada exercício, todos os recursos solicitados.",
+"Integra planejamento e orçamento, com alocação voltada a objetivos e metas e critério funcional-programático.",
+"Dispensa a integração com o PPA, a LDO e a LOA."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nO **orçamento participativo** é corretamente descrito como:",
+"back": "**Gabarito: B.** O **orçamento participativo (OP)** busca a **participação real da população** na elaboração e alocação dos recursos. {red:Não se opõe} ao orçamento-programa e {red:não substitui} o Poder Público como elaborador da proposta — há **participação**, não substituição. Sua aplicação se dá sobretudo no **âmbito municipal** (destaque: **Porto Alegre**).\n\n> 📖 **Estatuto da Cidade (Lei 10.257/2001), art. 44:** a gestão orçamentária participativa \"incluirá a realização de **debates, audiências e consultas públicas** sobre as propostas do PPA, da LDO e do orçamento anual, **como condição obrigatória** para sua aprovação pela Câmara Municipal\".\n\n> 📖 **LRF, art. 48, §1º, I:** incentivo à **participação popular** e a audiências públicas na elaboração e discussão das leis orçamentárias.\n\n**Por que as demais erram:** **A** o Executivo mantém a iniciativa (CF, art. 165); **C** não é técnica de regime autoritário; **D** gera {yellow:maior rigidez/perda de flexibilidade}, não menos; **E** é típico do nível municipal, não exclusivo da União.",
+"options": [
+"Substitui o Poder Executivo na elaboração da proposta orçamentária.",
+"Promove a participação direta da população na alocação de recursos, sem substituir o Executivo, sendo de aplicação sobretudo municipal.",
+"É a técnica típica de regimes autoritários, em que o poder se concentra no Executivo.",
+"Confere maior flexibilidade à programação dos investimentos do que o modelo tradicional.",
+"É instrumento de uso exclusivo da União, vedado a Estados e Municípios."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nA técnica do **orçamento incremental** consiste em:",
+"back": "**Gabarito: C.** O **orçamento incremental** elabora o orçamento por **ajustes marginais** nas rubricas de receita e despesa, tomando como base o **exercício anterior** (geralmente acrescido da inflação). É a lógica que **predomina no orçamento tradicional/clássico** e se opõe diretamente ao **OBZ**.\n\n> 💡 Na prática, mesmo no orçamento-programa, algumas despesas de funcionamento (água, luz, telefone) podem ser estimadas de forma **incremental**, pois variam pouco de um ano para outro.\n\n**Por que as demais erram:** **A** tratar toda despesa como nova é o {blue:OBZ}; **B** vincular a programas/metas é o orçamento-programa; **D** participação popular é o participativo; **E** classificar por funções/atividades é o orçamento de desempenho.",
+"options": [
+"Trata cada despesa como nova, exigindo justificativa integral a cada ano.",
+"Vincula as dotações a programas, objetivos e metas de governo.",
+"Faz ajustes marginais sobre os valores do exercício anterior, acrescidos da inflação.",
+"Decide a alocação de parte dos recursos com participação direta da população.",
+"Classifica a despesa por funções, atividades e tarefas governamentais."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CEBRASPE • PC-DF • 2025 • Analista de Apoio às Atividades Policiais Civis • adaptada C/E→A–E^^\n\nAcerca do **orçamento-programa**, assinale a alternativa correta.",
+"back": "**Gabarito: A.** {green:Correto}. O **orçamento-programa** é técnica de planejamento orçamentário que **vincula a alocação de recursos a programas e ações específicas**, priorizando o alcance de **objetivos e resultados mensuráveis**.\n\n> 📖 *José Mauricio Conti:* o orçamento-programa \"se materializa em **dotações orçamentárias precisas e específicas, na forma de programas**, que definem atividades e projetos com resultados e metas\". É a **espécie utilizada no Brasil**.\n\n**Por que as demais erram:** **B** considerar apenas o objeto de gasto é do tradicional; **C** a base zerada/sem montante inicial é do {blue:OBZ}; **D** os ajustes marginais sobre o ano anterior são do incremental; **E** a ausência de planejamento descreve o orçamento clássico.",
+"options": [
+"Vincula a alocação de recursos a programas e ações específicas, priorizando objetivos e resultados mensuráveis.",
+"Considera apenas o objeto de gasto, como peça contábil voltada às unidades organizacionais.",
+"Parte de uma base zerada, sem considerar verbas outorgadas em exercícios passados.",
+"Define as despesas por ajustes marginais sobre os gastos do exercício anterior.",
+"Caracteriza-se pela ausência de planejamento da ação governamental."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CEBRASPE • PC-DF • 2025 • Analista de Apoio às Atividades Policiais Civis • adaptada C/E→A–E^^\n\nSobre a técnica orçamentária **dominante no Brasil** e o **OBZ**, assinale a alternativa correta.",
+"back": "**Gabarito: E.** {green:Correto}. A técnica dominante no Brasil é o **orçamento-programa** — e **não** o OBZ. Além disso, o **OBZ não utiliza** os gastos do exercício anterior como referência: ele parte de uma {red:base zerada}, sem considerar verbas de exercícios passados.\n\n> 💡 Quem usa os gastos do ano anterior (ajustados pela inflação) é o **orçamento incremental**, técnica **oposta** ao OBZ.\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** afirmam, no todo ou em parte, que o OBZ é dominante no Brasil e/ou que ele se baseia no exercício anterior — ambos os pontos são {red:falsos}.",
+"options": [
+"O OBZ é a técnica dominante no Brasil e baseia-se nos gastos do ano anterior.",
+"O OBZ é dominante no Brasil, mas parte de uma base zerada.",
+"O orçamento-programa é dominante, e o OBZ baseia-se nos gastos do ano anterior ajustados pela inflação.",
+"O incremental é dominante no Brasil, e o OBZ baseia-se no exercício anterior.",
+"O orçamento-programa é dominante no Brasil; o OBZ parte de base zerada, sem considerar verbas de exercícios passados."
+],
+"correctOption": "E",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nNo **orçamento clássico ou tradicional**, a elaboração orçamentária:",
+"back": "**Gabarito: D.** {green:Correto}. No orçamento clássico, predomina o **incrementalismo**: os gastos do exercício anterior são **ajustados em algum percentual discricionário**, introduzindo pequenos ajustes nas receitas e despesas. Há **despreocupação** com as necessidades da população, considerando-se apenas as **necessidades financeiras das unidades organizacionais**, sem questionar objetivos e metas.\n\n> 💡 Tradicional ⇒ {yellow:incrementalismo} | OBZ ⇒ base zero (justifica tudo do nada).\n\n**Por que as demais erram:** **A** integrar planejamento e metas é do orçamento-programa; **B** justificar do zero é o OBZ; **C** medir desempenho/realizações é do orçamento por desempenho; **E** decidir com participação popular é o participativo.",
+"options": [
+"Integra planejamento e orçamento, definindo objetivos e metas a alcançar.",
+"Exige a justificativa integral de cada despesa, partindo do zero a cada ano.",
+"Mede o desempenho e as realizações por meio de indicadores de resultado.",
+"Tem viés incremental, introduzindo pequenos ajustes nas receitas e despesas.",
+"Decide a alocação de recursos com participação direta da comunidade."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CEBRASPE • TRF 6ª Região • 2025 • Analista Judiciário • adaptada C/E→A–E^^\n\nConforme seu **conceito moderno**, o orçamento público cumpre principalmente a função de:",
+"back": "**Gabarito: B.** {green:Correto}. Em seu **conceito moderno** (orçamento-programa), o orçamento é instrumento em que o **planejamento governamental se materializa em programas** com atividades, projetos, resultados e metas. O foco do modelo moderno é o **controle de eficiência, eficácia e efetividade**.\n\n> ⚠️ O **controle político** (de legalidade e honestidade) sobre o Executivo é característica marcante do orçamento {red:tradicional/clássico}, e não a função *principal* do conceito moderno. Por isso o item original (que dizia ser a função principal o controle político) foi considerado **Errado**.\n\n**Por que as demais erram:** **A** mero controle político é a visão tradicional; **C** peça meramente contábil é o clássico; **D** ajuste marginal é o incremental; **E** o orçamento não é instrumento de política monetária (essa é do Banco Central).",
+"options": [
+"Possibilitar essencialmente o controle político (legalidade e honestidade) sobre o Executivo.",
+"Materializar o planejamento em programas com metas, com controle de eficiência, eficácia e efetividade.",
+"Servir como peça meramente contábil de previsão de receita e fixação de despesa.",
+"Promover o ajuste marginal das dotações com base no exercício anterior.",
+"Atuar como instrumento de política monetária, controlando juros e oferta de moeda."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • TCE-RR • 2025 • Técnico Administrativo^^\n\nA aplicação da técnica de **Orçamento Base Zero** para a elaboração do orçamento público exige:",
+"back": "**Gabarito: E.** A **justificação detalhada de todas as dotações anualmente**, independentemente dos valores orçados em períodos anteriores, é a característica clássica do **OBZ** — não há {red:direito adquirido} sobre o orçamento anterior; cada despesa é tratada como nova.\n\n> 📌 O OBZ requer que o administrador justifique a cada ano todas as dotações, incluindo alternativas, análise de custo, finalidade, medidas de desempenho e as consequências da não aprovação.\n\n**Por que as demais erram:** **A** o OBZ {red:não afasta o caráter misto} nem exclui o Legislativo da fiscalização; **B** maior participação da população é do orçamento {blue:participativo}; **C** ajuste marginal com base no incrementalismo é o orçamento incremental (oposto do OBZ); **D** adequar periodicamente um teto de gastos não é OBZ — este faz análise crítica de todos os recursos, sem montante inicial.",
+"options": [
+"A exclusão do caráter misto do orçamento, eliminando a participação do Legislativo na fiscalização.",
+"Medidas que assegurem maior participação da população na elaboração e na aprovação do orçamento.",
+"O ajuste marginal dos itens de receita e despesa previstos, com base no incrementalismo.",
+"A adequação periódica do limite máximo de gastos, com base em inflação e crescimento econômico.",
+"A justificação detalhada de todas as dotações anualmente, independentemente dos valores orçados antes."
+],
+"correctOption": "E",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • PGE-AM • 2022 • Téc. de Gestão Pública / Contabilidade^^\n\nO **orçamento-programa**:",
+"back": "**Gabarito: D.** O orçamento-programa **utiliza medidas de desempenho com a finalidade de medir as realizações (produtos finais)** — adota a {green:utilização sistemática de indicadores e padrões de medição} do trabalho e dos resultados (Giacomoni).\n\n> 📖 *Características (Giacomoni):* elo entre planejamento e funções executivas; alocação visa **objetivos e metas**; decisões com base em análises técnicas; principal critério **funcional-programático**; controle de **eficiência, eficácia e efetividade**.\n\n**Por que as demais erram:** **A** foco em insumos e controle pelo Legislativo é do tradicional; **B** abrangência vertical e despesas a partir do zero é o {blue:OBZ}; **C** o orçamento é de iniciativa do **Executivo** (não elaborado pelo Legislativo); **E** o principal critério é o **programático**, não o institucional.",
+"options": [
+"Concentra o foco sobre insumos e recursos financeiros, permitindo o controle pelo Legislativo.",
+"Tem abrangência vertical e considera despesas alternativas a partir do zero.",
+"É elaborado pelo Poder Legislativo, que detém a iniciativa da lei orçamentária no Brasil.",
+"Utiliza medidas de desempenho com a finalidade de medir as realizações (produtos finais).",
+"É o elo entre planejamento e funções executivas e, por isso, seu principal critério é o institucional."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • PGE-AM • 2022 • Téc. de Gestão Pública / Administração^^\n\nSão **técnicas orçamentárias legítimas** estudadas na doutrina:",
+"back": "**Gabarito: D.** As técnicas amplamente aceitas pela doutrina (e pela FCC) são o **orçamento base zero**, o **orçamento por desempenho** e o **orçamento-programa** (além do tradicional/clássico e do incremental).\n\n> ⚠️ **Pegadinha:** \"orçamento por atribuições\", \"orçamento nulo\" e \"orçamento janela\" {red:não são legitimados} pela doutrina majoritária (são, no máximo, menções acadêmicas isoladas).\n\n**Por que as demais erram:** **A**, **B**, **C** e **E** incluem ao menos uma das expressões {red:não consagradas} (\"por atribuições\", \"nulo\" ou \"janela\").",
+"options": [
+"Orçamento base zero, orçamento por atribuições e orçamento-programa.",
+"Orçamento nulo, orçamento por atribuições e orçamento janela.",
+"Orçamento nulo, orçamento por desempenho e orçamento-programa.",
+"Orçamento base zero, orçamento por desempenho e orçamento-programa.",
+"Orçamento base zero, orçamento por atribuições e orçamento janela."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • TRT-23 • 2022 • Analista Judiciário / Contabilidade^^\n\nSobre o **orçamento-programa**, de acordo com o **Decreto-Lei nº 200/1967**, considere:\n\nI. Devem-se considerar tanto os recursos do orçamento quanto os extraorçamentários vinculados à execução dos programas.\nII. O orçamento-programa deve ser apresentado em anexo ao PPA, pois é usado para executar os programas por quatro anos.\nIII. As despesas do orçamento-programa devem ser discriminadas por objeto de gasto.\n\nEstá correto o que consta em:",
+"back": "**Gabarito: A.** Apenas o item **I** está correto.\n\n> 📖 **DL 200/67, art. 16, parágrafo único:** \"Na elaboração do orçamento-programa serão considerados, além dos recursos consignados no Orçamento da União, os **recursos extra-orçamentários** vinculados à execução do programa do Governo.\"\n\n**Por que as demais erram:** **II** {red:errado} — em 1967 sequer existia o PPA; o art. 16 fala em \"programa plurianual\", não no atual PPA constitucional; **III** {red:errado} — discriminar a despesa **por objeto de gasto** é característica do orçamento **tradicional**, não do orçamento-programa.",
+"options": [
+"I, apenas.",
+"II, apenas.",
+"I e III, apenas.",
+"II e III, apenas.",
+"I, II e III."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • PGE-AM • 2022 • Téc. de Gestão Pública / Administração^^\n\nA técnica conhecida como **orçamento-programa** consiste em enfatizar:",
+"back": "**Gabarito: C.** O orçamento-programa enfatiza a **política econômico-financeira e os programas de trabalho do governo** nas rubricas, integrando planejamento e orçamento.\n\n> 📖 **Lei 4.320/64, art. 2º:** \"A Lei do Orçamento conterá a discriminação da receita e despesa de forma a evidenciar a **política econômica financeira e o programa de trabalho do Governo**, obedecidos os princípios de **unidade, universalidade e anualidade**.\"\n\n**Por que as demais erram:** **A** \"concatenação programática dos atos orçamentários\" é vaga e não traduz a essência; **B** e **D** \"programas de computador\" é uma {red:armadilha} (programa ≠ software); **E** manter os patamares do exercício anterior é o orçamento {yellow:incremental/tradicional}.",
+"options": [
+"A concatenação programática dos atos orçamentários.",
+"Os programas de computador na execução orçamentária.",
+"A política econômico-financeira e os programas de trabalho de governo nas rubricas.",
+"Os programas de computador na elaboração orçamentária.",
+"A manutenção dos patamares orçamentários do exercício anterior."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • PGE-AM • 2022 • Téc. de Gestão Pública / Controle Interno^^\n\nO chamado **\"orçamento de desempenho\"** é caracterizado por:",
+"back": "**Gabarito: E.** O **orçamento de desempenho** se orienta **mais pelo resultado do gasto do que pela natureza do que é autorizado** — buscava saber **o que o Governo fazia** (as ações), e não apenas o que comprava (o elemento de despesa). A ênfase é no **desempenho organizacional**, avaliando resultados em termos de {green:eficácia} (ainda não de efetividade).\n\n> 💡 Apresenta duas dimensões: o **objeto de gasto** (secundário) e um **programa de trabalho** com as ações. Ainda **não havia** a estreita vinculação com o planejamento.\n\n**Por que as demais erram:** **A** justificar tudo a cada ciclo é o {blue:OBZ}; **B** ajustes marginais nas rubricas é o incremental; **C** quantitativo financeiro fixo por percentual linear não o define; **D** ser mais rápido de elaborar não é sua marca (rapidez é mais associada ao incremental).",
+"options": [
+"Todos os programas serem justificados a cada novo ciclo orçamentário.",
+"Ser elaborado a partir de ajustes marginais nas rubricas de receita e despesa.",
+"Partir de um quantitativo financeiro fixo, obtido por percentual linear.",
+"Ser elaborado mais rapidamente que nas demais técnicas.",
+"Orientar-se mais pelo resultado do gasto do que pela natureza do que é autorizado."
+],
+"correctOption": "E",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^IBFC • IMBEL • 2024 • Comprador Técnico^^\n\nAssinale o tipo de orçamento no qual as despesas devem ser **justificadas para um novo período**, em vez de começar com o orçamento anterior e ajustá-lo.",
+"back": "**Gabarito: D.** O **orçamento base zero (OBZ)** exige que **cada despesa seja justificada do início**, como se proposta pela primeira vez, sem partir do histórico orçamentário anterior.\n\n> 💡 \"Justificar tudo do zero, sem montante inicial\" ⇒ **OBZ**.\n\n**Por que as demais erram:** **A** o **tradicional** parte do histórico e ajusta (incrementalismo); **B** o **por desempenho** foca em resultados/metas, sem revisão completa de cada despesa; **C** o **por resultados** aloca com base em metas, sem justificar item a item do zero; **E** \"orçamento inovador\" {red:não é categoria reconhecida} na doutrina.",
+"options": [
+"Orçamento tradicional",
+"Orçamento por desempenho",
+"Orçamento por resultados",
+"Orçamento base zero",
+"Orçamento inovador"
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • EPE • 2024 • Gestão Corporativa / Finanças e Orçamento^^\n\nAssocie (1) **Orçamento Tradicional** e (2) **Orçamento-Programa** às afirmativas:\n\n( ) Inexistem sistemas de acompanhamento e medição do trabalho e dos resultados.\n( ) As decisões são tomadas tendo em vista as necessidades das unidades organizacionais.\n( ) As decisões são tomadas com base em avaliações e análises técnicas das alternativas.\n( ) Utilização sistemática de indicadores e padrões de medição do trabalho e dos resultados.",
+"back": "**Gabarito: A.** A sequência correta é **1 – 1 – 2 – 2**.\n\n| Afirmativa | Modelo |\n|---|---|\n| Inexistem sistemas de medição | **Tradicional (1)** |\n| Decisões pelas necessidades das unidades | **Tradicional (1)** |\n| Decisões por análises técnicas das alternativas | **Programa (2)** |\n| Uso sistemático de indicadores e padrões | **Programa (2)** |\n\n> 📖 Quadro de Giacomoni: o tradicional dá ênfase aos {red:aspectos contábeis} e às necessidades das unidades; o programa usa {green:indicadores e análises técnicas} voltados a resultados.\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** trocam a ordem 1–1–2–2.",
+"options": [
+"1 – 1 – 2 – 2.",
+"2 – 2 – 1 – 1.",
+"1 – 2 – 1 – 2.",
+"1 – 2 – 2 – 1.",
+"2 – 1 – 2 – 1."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^AOCP • MPPR • 2024 • Auditor^^\n\nSobre as **espécies de orçamento**, analise:\n\nI. O Orçamento-Desempenho analisa criticamente todo recurso solicitado, sem compromisso com montante inicial de dotação.\nII. O Orçamento-Programa relaciona os recursos a objetivos, metas e projetos de um plano de governo, sendo instrumento de planejamento.\nIII. No Orçamento Base Zero, o orçamento é simples peça de previsão de receita e fixação de despesa, zelando pelo equilíbrio.\n\nEstá(ão) correta(s):",
+"back": "**Gabarito: B.** Apenas o item **II** está correto: o **orçamento-programa** vincula recursos a metas, objetivos e projetos, funcionando como instrumento de planejamento (adotado no Brasil).\n\n**Por que as demais erram:** **I** {red:errado} — analisar criticamente todo recurso, sem montante inicial, é o **OBZ**, não o desempenho (este foca na relação recursos × resultados, com indicadores); **III** {red:errado} — peça de mera previsão/fixação voltada ao equilíbrio é o **tradicional**, não o OBZ.",
+"options": [
+"Apenas I.",
+"Apenas II.",
+"Apenas III.",
+"Apenas I e II.",
+"Apenas II e III."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Consulplan • Prefeitura de Belo Horizonte (Prodabel) • 2024 • Analista^^\n\nSobre conceitos e princípios da elaboração orçamentária, analise:\n\nI. O \"tipo\" de orçamento relaciona-se à participação dos poderes na LOA; no Brasil é misto porque o Judiciário participa ativamente da aprovação da LOA.\nII. O Princípio da Unidade prega um único documento orçamentário consolidado em cada ente, evitando fragmentação.\nIII. O orçamento tradicional visava ao controle político dos gastos do Executivo, sem preocupação com programas ou objetivos sociais.\n\nEstá correto o que se afirma em:",
+"back": "**Gabarito: D.** Corretos os itens **II e III**.\n\n- **II** {green:correto}: o **princípio da unidade** exige um único orçamento consolidado por ente, evitando dispersão.\n- **III** {green:correto}: o **orçamento tradicional** focava o controle dos gastos, sem ênfase em programas ou objetivos sociais.\n\n**Por que o item I erra:** o orçamento brasileiro é **misto** porque a **elaboração/execução** cabem ao Executivo e a **votação/controle** ao **Legislativo**. {red:Não é o Judiciário} que aprova a LOA — ele apenas elabora sua proposta, consolidada pelo Executivo e enviada ao Legislativo.\n\n**Por que A, B e C erram:** todas incluem o item I (falso) ou excluem II/III.",
+"options": [
+"II.",
+"III.",
+"I e III.",
+"II e III.",
+"I, II e III."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Consulplan • TJ-MA • 2024 • Analista Judiciário / Contador^^\n\nAs características abaixo referem-se, **respectivamente**, a quais modelos?\n\nI. Falta de planejamento; mero instrumento contábil que registra entradas e saídas.\nII. Programas de trabalho com ações; objeto de gasto secundário e resultado primário.\nIII. Critério funcional-programático; organiza as ações em programas com racionalidade e eficiência.\nIV. Também chamado de orçamento por estratégia; análise crítica de todos os recursos solicitados.",
+"back": "**Gabarito: D.** A sequência é **tradicional → por desempenho → programa → base-zero**.\n\n| Item | Modelo |\n|---|---|\n| I (contábil, sem planejamento) | **Tradicional/clássico** |\n| II (programa de trabalho; resultado primário) | **Por desempenho/realizações** |\n| III (funcional-programático; programas) | **Orçamento-programa** |\n| IV (por estratégia; análise crítica de tudo) | **Base zero (OBZ)** |\n\n**Por que as demais erram:** **A**, **B** e **C** embaralham a correspondência (ex.: começar por base-zero ou inverter desempenho/programa).",
+"options": [
+"Base-zero; tradicional; por desempenho; programa.",
+"Base-zero; por desempenho; programa; tradicional.",
+"Tradicional; programa; por desempenho; base-zero.",
+"Tradicional; por desempenho; programa; base-zero.",
+"Tradicional; base-zero; programa; por desempenho."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CEBRASPE • SEPLAN-RR • 2023 • Planejamento e Orçamento • adaptada C/E→A–E^^\n\nA respeito da técnica **orçamento base zero (OBZ)**, assinale a alternativa correta.",
+"back": "**Gabarito: C.** {green:Correto}. O OBZ exige uma **reavaliação periódica das despesas** associadas a cada ação ou programa: a cada ano, toda despesa é tratada como **nova iniciativa**, sendo necessário provar a necessidade do orçamento, competindo com outras prioridades.\n\n> 📌 *Giacomoni:* o OBZ volta-se à **avaliação e tomada de decisão** sobre as despesas; o administrador deve justificar, a cada ano, todas as dotações, incluindo alternativas, custos, finalidade e medidas de desempenho.\n\n**Por que as demais erram:** **A** e **B** confundem OBZ com incrementalismo/base no exercício anterior; **D** participação popular é o participativo; **E** o critério funcional-programático e a integração com o planejamento são do orçamento-programa.",
+"options": [
+"Elabora o orçamento por ajuste incremental sobre o exercício anterior.",
+"Usa os gastos do ano anterior ajustados pela inflação como ponto de partida.",
+"Exige a reavaliação periódica de todas as despesas associadas a cada ação ou programa.",
+"Decide a alocação de recursos com participação direta da população.",
+"Adota o critério funcional-programático e integra planejamento e orçamento."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • TCE-ES • 2023 • Auditor de Controle Externo^^\n\nUm **diferencial do orçamento-programa** em relação aos modelos mais tradicionais é:",
+"back": "**Gabarito: C.** O orçamento-programa pressupõe um **diagnóstico prévio para a definição da ação pública** — as decisões são tomadas com base em {green:avaliações e análises técnicas} das alternativas possíveis, integrando planejamento e orçamento.\n\n> 📖 *Giacomoni:* o orçamento-programa é o **elo entre planejamento e funções executivas**; a alocação visa a objetivos e metas; usa indicadores de medição de resultados.\n\n**Por que as demais erram:** **A** o orçamento-programa é de uso **obrigatório** por todos os entes, não facultativo; **B** alocar por valores históricos é do {yellow:tradicional/incremental}; **D** ênfase em controles contábeis é do tradicional; **E** há, na verdade, **dificuldade** em elaborar bons indicadores de desempenho.",
+"options": [
+"Adoção facultativa pelos entes públicos.",
+"Alocação dos recursos baseada em valores históricos.",
+"Diagnóstico prévio para definição da ação pública.",
+"Ênfase nos controles contábeis e financeiros.",
+"Simplicidade para definição de medidas de desempenho."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • AGENERSA • 2023 • Analista^^\n\nAssinale a opção que compreende **apenas** aspectos do **orçamento tradicional**:\n\nI. Enfatiza os aspectos contábeis.\nII. Prioriza a aquisição dos meios.\nIII. Detalha e justifica todas as despesas anualmente.",
+"back": "**Gabarito: C.** São do **orçamento tradicional** os itens **I e II**: ênfase nos {red:aspectos contábeis} e prioridade à **aquisição de meios** (o objeto do gasto), com classificação por unidade administrativa e elemento de despesa.\n\n**Por que o item III não é tradicional:** detalhar e justificar **todas** as despesas anualmente, do zero, é característica do **orçamento base zero (OBZ)**.\n\n**Por que as demais erram:** **A**, **B**, **D** e **E** ou omitem um item tradicional (I/II) ou incluem o item III (que é do OBZ).",
+"options": [
+"I, apenas.",
+"II, apenas.",
+"I e II, apenas.",
+"II e III, apenas.",
+"I, II e III."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CESGRANRIO • UNIRIO • 2019 • Administrador^^\n\nSegundo a doutrina, ao estabelecer a previsão das receitas e a fixação das despesas em determinado período, o orçamento público é um instrumento de:",
+"back": "**Gabarito: E.** Numa visão moderna, o orçamento é um **plano político de ação governamental** para o exercício seguinte — um instrumento de **planejamento**. O orçamento-programa integra, numa concepção gerencial, **planejamento e orçamento** com objetivos e metas a alcançar.\n\n> 💡 \"Não há Orçamento-Programa sem definição clara de **objetivos**\" — a ênfase é nas **realizações** (eficácia e efetividade).\n\n**Por que as demais erram:** **A** pesquisa, **B** elaboração, **C** desenvolvimento e **D** articulação não traduzem a função essencial moderna do orçamento, que é o **planejamento**.",
+"options": [
+"pesquisa",
+"elaboração",
+"desenvolvimento",
+"articulação",
+"planejamento"
+],
+"correctOption": "E",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^CESGRANRIO • PETROBRAS • 2018 • Profissional / Contabilidade^^\n\nNo contexto do **orçamento empresarial**, um orçamento deve ser considerado:",
+"back": "**Gabarito: A.** No planejamento orçamentário **empresarial**, costuma-se elaborar três cenários — **realista, pessimista e otimista**. O **cenário realista** considera a situação atual e o histórico de falhas, contratempos e problemas; por isso, é **realista quando há restrições** (limitações de recursos e obstáculos reais).\n\n> 💡 *Otimista* = ambiente favorável (metas batidas, menor custo). *Pessimista* = piores cenários de receita/custos. *Realista* = considera restrições e o histórico.\n\n**Por que as demais erram:** **B** atender a todas as solicitações com dividendos altos descreve um cenário {red:otimista}, não realista; **C** \"otimista irracional\" com metas fáceis é contraditório; **D** \"conservador\" que atende a todas as solicitações é incoerente; **E** \"conservador exagerado\" com metas extremas e estresse não corresponde à definição.",
+"options": [
+"realista, quando há restrições.",
+"realista, quando dividendos altos serão pagos e todas as solicitações de investimento serão atendidas.",
+"otimista irracional, quando gera metas muito fáceis e acomodação.",
+"conservador, quando atende a todas as solicitações iniciais dos gestores.",
+"conservador exagerado, quando gera metas extremamente difíceis e estresse acentuado."
+],
+"correctOption": "A",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^VUNESP • PAULIPREV • 2018 • Procurador^^\n\nA respeito dos tipos/espécies de orçamento público, é correto afirmar:",
+"back": "**Gabarito: B.** Adotado no Brasil, o **orçamento-programa** dá ênfase aos **objetivos finais** perseguidos pela ação do Estado, **vinculando o planejamento estatal à autorização das despesas**, com estabelecimento de objetivos e quantificação de metas.\n\n**Por que as demais erram:** **A** descreve o {yellow:incremental} (manutenção da estrutura com ajustes marginais), não o por desempenho — e o adotado no Brasil é o programa; **C** o OBZ não é técnica de codificação numérica iniciada com dígito zero (isso é uma {red:pegadinha} com o nome \"base zero\"); **D** o orçamento clássico não é o adotado no Brasil nem se baseia na ausência de correlação entre exercícios (isso é o OBZ); **E** o orçamento-programa não amplia recursos por bom desempenho histórico nem enfatiza o objeto do gasto.",
+"options": [
+"O orçamento por desempenho é o adotado no Brasil e mantém a estrutura anterior com ajustes marginais.",
+"Adotado no Brasil, o orçamento-programa enfatiza objetivos finais, vinculando o planejamento à autorização das despesas.",
+"O orçamento base zero é uma técnica de codificação dos subelementos de despesa iniciada com o dígito zero.",
+"O orçamento clássico, adotado no Brasil, baseia-se na ausência de correlação entre as despesas de anos seguidos.",
+"O orçamento-programa amplia recursos a ações com bom desempenho anterior, enfatizando o objeto do gasto."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^VUNESP • Concurso Unificado (APOFP) • 2017 • Agente Fiscal^^\n\nO orçamento que dá **ênfase aos aspectos contábeis e de gestão**, usa como critérios as **unidades administrativas e elementos de despesa** e considera as **necessidades financeiras das unidades organizacionais** corresponde ao orçamento:",
+"back": "**Gabarito: C.** Trata-se do **orçamento tradicional**: estrutura voltada aos {red:aspectos contábeis}, critérios classificatórios por **unidade administrativa** e **elemento de despesa**, e elaboração orientada pelas **necessidades financeiras das unidades**.\n\n> 💡 Critério **institucional + elemento de despesa** ⇒ tradicional. Critério **funcional-programático** ⇒ programa.\n\n**Por que as demais erram:** **A** \"por programas\", **D** \"por realizações\" e **E** \"por resultado\" são todos {green:modernos}, voltados a objetivos/metas; **B** \"por desempenho\" foca em resultados, não em aspectos contábeis.",
+"options": [
+"por programas.",
+"por desempenho.",
+"tradicional.",
+"por realizações.",
+"por resultado."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^VUNESP • Prefeitura de Guarulhos • 2016 • Inspetor Fiscal de Rendas^^\n\nUma classificação simples e útil divide a **história da evolução conceitual do orçamento público** em duas fases:",
+"back": "**Gabarito: B.** A divisão clássica em **duas fases** é: **orçamento tradicional (ou clássico)** e **orçamento moderno (ou programa)**.\n\n> 💡 O orçamento sofreu alterações sob os aspectos político, jurídico, contábil, econômico, financeiro e administrativo, evoluindo do clássico (mero controle contábil) ao moderno (planejamento e resultados).\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** misturam técnicas específicas (incremental, base zero) ou recortes temporais (anual/plurianual) que **não** representam a divisão em duas fases evolutivas.",
+"options": [
+"orçamento incremental e orçamento base zero.",
+"orçamento tradicional e orçamento moderno.",
+"orçamento incremental e orçamento plurianual.",
+"orçamento tradicional e orçamento base zero.",
+"orçamento anual e orçamento plurianual."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^VUNESP • Prefeitura de São Paulo • 2015 • Analista / Ciências Econômicas^^\n\nO modelo orçamentário que contempla a preocupação com o **gasto público**, com o **que foi adquirido** e com o **que foi realizado** denomina-se:",
+"back": "**Gabarito: B.** É o orçamento **programático (orçamento-programa)**, o modelo mais evoluído, que considera **todos os custos** e tem ênfase no **que foi realizado** (resultados), além do gasto e do que foi adquirido.\n\n> 💡 A progressão das preocupações reflete a evolução: gasto (tradicional) → o que se adquire (desempenho) → o que se **realiza** (programa).\n\n**Por que as demais erram:** **A** \"básico\", **C** \"flexível\" e **E** \"misto\" não são espécies definidas por essa tríade de preocupações; **D** o tradicional se preocupa apenas com o gasto/objeto, não com o que foi realizado.",
+"options": [
+"básico.",
+"programático.",
+"flexível.",
+"tradicional.",
+"misto."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^VUNESP • CRO-SP • 2015 • Assistente Contábil^^\n\n\"Importante instrumento de planejamento de qualquer entidade, pública ou privada, que representa o **fluxo previsto de ingressos e de aplicações de recursos** em um período.\" O texto refere-se a:",
+"back": "**Gabarito: E.** O texto traz um dos conceitos possíveis de **orçamento**: instrumento de planejamento que representa o **fluxo previsto de ingressos (receitas) e de aplicações (despesas)** em determinado período.\n\n> 💡 O orçamento é um instrumento de planejamento aplicável tanto ao setor público quanto ao privado.\n\n**Por que as demais erram:** **A** razões contábeis auxiliares, **B** balanço financeiro, **C** plano de contas e **D** sistema ERP são ferramentas/registros contábeis, não o conceito de orçamento como fluxo previsto de ingressos e aplicações.",
+"options": [
+"razões contábeis auxiliares.",
+"balanço financeiro.",
+"plano de contas aplicado ao setor público.",
+"sistema ERP.",
+"orçamento."
+],
+"correctOption": "E",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^FCC • Prefeitura de Manaus • 2019 • Assistente Técnico de TI^^\n\nO orçamento que aloca recursos visando à **aquisição de meios** (critérios: unidades administrativas e elementos de despesa) e o que aloca recursos visando à **consecução de objetivos e metas** (critério funcional-programático) correspondem, respectivamente, ao:",
+"back": "**Gabarito: A.** São, respectivamente, o **orçamento tradicional** (aquisição de meios; critérios institucional e elemento de despesa) e o **orçamento-programa** (objetivos e metas; critério funcional-programático).\n\n| Característica | Tradicional | Programa |\n|---|---|---|\n| Alocação visa | **meios** | **objetivos/metas** |\n| Critério | unidades + elementos | **funcional-programático** |\n\n**Por que as demais erram:** **B** \"tradicional e clássico\" são sinônimos (não há contraste); **C** \"impositivo e clássico\" troca conceitos; **D** \"programa e por resultado\" inverte a ordem; **E** \"por desempenho e clássico\" não corresponde às descrições.",
+"options": [
+"orçamento tradicional e ao orçamento-programa.",
+"orçamento tradicional e ao orçamento clássico.",
+"orçamento impositivo e ao orçamento clássico.",
+"orçamento-programa e ao orçamento por resultado.",
+"orçamento por desempenho e ao orçamento clássico."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • Câmara de Fortaleza • 2019 • Contador^^\n\nConsiderado instrumento básico do planejamento de ação do governo, o **orçamento-programa**:",
+"back": "**Gabarito: C.** O orçamento-programa **vincula o orçamento ao planejamento**, devendo **mostrar os objetivos e as metas** para os quais se solicitam as dotações.\n\n**Por que as demais erram:** **A** o programa {green:identifica} os custos e os dados que medem as realizações (a alternativa nega isso); **B** ele {red:precisa} estar integrado ao PPA, à LDO e à LOA; **D** suas origens no Brasil remontam aos anos 1960 (Lei 4.320/64 e DL 200/67), não à CF/1988; **E** considera as especificidades no nível das atividades, não apenas programas globais.",
+"options": [
+"apresenta os propósitos dos recursos, mas sem identificar os custos dos programas nem medir as realizações.",
+"não precisa estar integrado ao PPA, à LDO e à LOA.",
+"vincula o orçamento ao planejamento, mostrando objetivos e metas para os quais se solicitam as dotações.",
+"foi instituído no Brasil apenas a partir da Constituição de 1988.",
+"baseia-se em programas globais, sem considerar as especificidades no nível das atividades."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • SEFAZ-BA • 2019 • Auditor Fiscal^^\n\nO **orçamento-programa** de um determinado ente público estadual:",
+"back": "**Gabarito: A.** O orçamento-programa **aloca recursos visando à consecução de objetivos e metas** e utiliza como principal critério de classificação da despesa a **funcional-programática**.\n\n**Por que as demais erram:** **B** avaliar economicidade/legalidade é foco do {yellow:tradicional}; **C** despesas por função/subfunção/elemento com ênfase contábil mistura o tradicional; **D** o programa não impõe investir em ações não prioritárias do PPA — ao contrário, integra planejamento e orçamento; **E** incorporar a população é do orçamento {blue:participativo}, e neste a alocação visa a objetivos e metas (não à aquisição de meios).",
+"options": [
+"realiza a alocação de recursos visando à consecução de objetivos e metas, com critério funcional-programático.",
+"visa avaliar a economicidade das ações e a legalidade no cumprimento do orçamento.",
+"apresenta despesas por função, subfunção e elemento, com ênfase nos aspectos contábeis.",
+"impõe ao Executivo investir em programas não prioritários do PPA.",
+"incorpora a população ao processo decisório, com alocação voltada à aquisição de meios."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • Consultor Legislativo (CL-DF) • 2018 • Finanças Públicas^^\n\nNo **orçamento-programa**, qual exemplo associa corretamente o critério de classificação e um objetivo de programa?",
+"back": "**Gabarito: C.** No orçamento-programa, os principais critérios são o **funcional** e o **programático** (estrutura programática). O **objetivo** deve estar ligado à {green:efetividade} — à transformação da realidade —, e não aos meios. Assim, \"**redução do analfabetismo**\" (função educação) é um objetivo legítimo do orçamento-programa.\n\n> 💡 Objetivo = impacto/transformação (reduzir analfabetismo, reduzir vulnerabilidade). \"Comprar livros\" ou \"contratar médicos\" são {red:meios}, não objetivos finais.\n\n**Por que as demais erram:** **A** classificação \"por natureza\" + comprar vacinas (meio); **B** comprar livros (meio); **D** contratar médicos (meio); **E** classificação \"por elementos de despesa\" não é o critério do programa, embora o objetivo (reduzir vulnerabilidade) esteja correto — a classificação está errada.",
+"options": [
+"natureza; aumentar o número de vacinas adquiridas (saúde).",
+"estrutura programática; aumentar o número de livros adquiridos (educação).",
+"estrutura programática; reduzir o analfabetismo (educação).",
+"ações; aumentar o número de médicos contratados (saúde).",
+"elementos de despesa; reduzir a população em vulnerabilidade (assistência social)."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • TRE-PR • 2017 • Analista Judiciário / Contabilidade^^\n\nSobre o **orçamento-programa**, considere:\n\nI. É o elo entre o planejamento e as funções executivas da organização.\nII. A alocação de recursos visa à consecução de objetivos e metas.\nIII. A alocação de recursos visa à aquisição de meios.\nIV. A estrutura dá ênfase aos aspectos contábeis de gestão.\nV. O principal critério classificatório é por unidade administrativa.\nVI. O controle visa avaliar a legalidade no cumprimento do orçamento.\n\nEstá correto APENAS em:",
+"back": "**Gabarito: B.** Corretos apenas **I e II** — características do orçamento-programa: é o {green:elo entre planejamento e funções executivas} e sua alocação visa a **objetivos e metas**.\n\n**Por que III, IV, V e VI erram:** todos descrevem o **orçamento clássico/tradicional**: aquisição de **meios** (III), ênfase {red:contábil} (IV), critério por unidade administrativa (V) e controle de **legalidade** (VI). No programa, o controle visa eficiência, eficácia e efetividade, e o critério é funcional-programático.",
+"options": [
+"I.",
+"I e II.",
+"I, II, IV e VI.",
+"I, III e IV.",
+"III, V e VI."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • TRT-11 • 2017 • Analista Judiciário / Contabilidade^^\n\nSobre o **Orçamento-Programa**, é **INCORRETO** afirmar que:",
+"back": "**Gabarito: B.** A afirmativa **incorreta** é a que diz que a ênfase está nos **meios** (o que se compra). Isso descreve o **orçamento tradicional** — no orçamento-programa, a ênfase está nas {green:diretrizes, prioridades, objetivos e metas}.\n\n**Por que as demais estão corretas:** **A** o programa é o elo entre planejamento e funções executivas; **C** seu controle avalia **eficiência, eficácia e efetividade**; **D** a Lei 4.320/64 já trazia determinações típicas do orçamento-programa; **E** o critério funcional-programático está na **Portaria STN/MOG nº 42/1999**.",
+"options": [
+"o orçamento é o elo de interação entre o planejamento e as funções executivas.",
+"a ênfase está nos meios (o que se compra), e não nas diretrizes, prioridades, objetivos e metas.",
+"o controle visa avaliar a eficiência, a eficácia e a efetividade das ações governamentais.",
+"a Lei nº 4.320/1964 contém determinações típicas do Orçamento-Programa.",
+"o principal critério de classificação está contido na Portaria STN e MOG nº 42/1999."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FCC • TCM-RJ • 2015 • Auditor / Conselheiro Substituto^^\n\nO orçamento que contém **apenas a previsão da receita e a fixação da despesa**, é peça meramente contábil-financeira, sem planejamento, sem objetivo econômico-social claro e voltado às necessidades dos órgãos, denomina-se orçamento:",
+"back": "**Gabarito: C.** É o **orçamento clássico ou tradicional**: marcado pela {red:falta de planejamento}, mero instrumento contábil baseado no exercício anterior (incrementalismo), voltado às **necessidades dos órgãos públicos**, sem questionamento sobre objetivos e metas.\n\n**Por que as demais erram:** **A** o de desempenho/realizações enfatiza resultados; **B** \"estatal\" e **D** \"pragmático\" não são espécies doutrinárias; **E** o base zero/por estratégia exige análise crítica de todas as despesas (justamente o oposto da passividade do clássico).",
+"options": [
+"de desempenho ou por realizações.",
+"estatal.",
+"clássico ou tradicional.",
+"pragmático.",
+"de base zero ou por estratégia."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • SEFAZ-ES • 2021 • Auditor^^\n\nRelacione as técnicas: **1.** incremental · **2.** programa · **3.** base zero · **4.** participativo\n\n( ) Tem como ênfase a eficiência e considera toda despesa como nova.\n( ) Feito por ajustes marginais nos itens de receitas e despesas.\n( ) Integra planejamento e orçamento com objetivos e metas a alcançar.\n( ) Estimula o exercício da cidadania e o compromisso da população.",
+"back": "**Gabarito: D.** A ordem correta é **3 – 1 – 2 – 4**.\n\n| Descrição | Técnica |\n|---|---|\n| Ênfase na eficiência; toda despesa nova | **(3) base zero** |\n| Ajustes marginais nas rubricas | **(1) incremental** |\n| Integra planejamento e orçamento (objetivos/metas) | **(2) programa** |\n| Estimula a cidadania e o bem público | **(4) participativo** |\n\n**Por que as demais erram:** **A** (1-2-3-4), **B** (1-3-2-4), **C** (2-4-3-1) e **E** (3-1-4-2) trocam ao menos uma correspondência.",
+"options": [
+"1 – 2 – 3 – 4.",
+"1 – 3 – 2 – 4.",
+"2 – 4 – 3 – 1.",
+"3 – 1 – 2 – 4.",
+"3 – 1 – 4 – 2."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • TCE-PI • 2021 • adaptada C/E→A–E^^\n\nUma característica associada à lógica do **orçamento-programa** é:",
+"back": "**Gabarito: B.** {green:Correto}. No orçamento-programa, as **decisões orçamentárias são tomadas com base em avaliações e análises técnicas** das alternativas possíveis — racionalizando a alocação para maximizar resultados.\n\n> 📖 *Giacomoni:* \"as decisões orçamentárias são tomadas com base em **avaliações e análises técnicas** das alternativas possíveis\".\n\n**Por que as demais erram:** **A** decidir pelas necessidades das unidades é do {red:tradicional}; **C** ênfase contábil é do tradicional; **D** ajuste marginal é o incremental; **E** justificar tudo do zero é o OBZ.",
+"options": [
+"As decisões são tomadas tendo em vista as necessidades das unidades organizacionais.",
+"As decisões são tomadas com base em avaliações e análises técnicas das alternativas possíveis.",
+"A estrutura dá ênfase aos aspectos contábeis de gestão.",
+"A alocação é feita por ajustes marginais sobre o exercício anterior.",
+"Exige a justificativa integral de cada dotação, a cada ano, partindo do zero."
+],
+"correctOption": "B",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • SEFAZ-ES • 2021 • adaptada C/E→A–E^^\n\nA respeito do **orçamento tradicional ou clássico**, assinale a alternativa correta.",
+"back": "**Gabarito: A.** {green:Correto}. O orçamento tradicional **prevê a receita e autoriza as despesas**, com **ênfase no gasto (no objeto de gasto)** — {red:não} há preocupação com metas ou desempenho organizacional.\n\n> 💡 O item original da banca dizia que o tradicional tinha \"ênfase nas metas e no desempenho\" — por isso foi considerado **Errado**.\n\n**Por que as demais erram:** **B** ênfase em metas/desempenho é do {green:programa/desempenho}; **C** integrar planejamento e metas é do programa; **D** participação popular é o participativo; **E** justificar do zero é o OBZ.",
+"options": [
+"Prevê a receita e autoriza as despesas, com ênfase no gasto (objeto de gasto).",
+"Prevê a receita e autoriza as despesas, com ênfase nas metas e no desempenho organizacional.",
+"Integra o planejamento à execução, com objetivos e metas a alcançar.",
+"Decide a alocação de recursos com participação direta da população.",
+"Exige a justificativa detalhada de todas as despesas a cada exercício, do zero."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CESPE • MPE-PI • 2018 • adaptada C/E→A–E^^\n\nA peça orçamentária na qual constam **apenas** a previsão da receita e a fixação da despesa, sem planejamento da ação do governo e voltada às necessidades dos órgãos públicos, corresponde ao orçamento:",
+"back": "**Gabarito: A.** {green:Correto}. Essa descrição é do **orçamento clássico/tradicional** — peça meramente contábil-financeira, {red:sem planejamento}, voltada às necessidades dos órgãos públicos.\n\n> 💡 O item da banca atribuía essa definição ao \"orçamento-programa\", o que tornou a assertiva **Errada**: a definição é do clássico.\n\n**Por que as demais erram:** **B** o programa integra planejamento e orçamento; **C** o por desempenho enfatiza resultados; **D** o OBZ exige justificar tudo do zero; **E** o participativo envolve a população.",
+"options": [
+"clássico ou tradicional.",
+"orçamento-programa.",
+"por desempenho ou realizações.",
+"base zero ou por estratégia.",
+"participativo."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CESPE • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nO instrumento de gestão pública no qual a **população é convidada a definir anualmente as prioridades de investimento** do governo em seu município denomina-se orçamento:",
+"back": "**Gabarito: D.** {green:Correto}. O **orçamento participativo** busca a participação real da população no processo de elaboração e na alocação dos recursos, de forma eficiente e eficaz segundo as demandas sociais — com destaque para o **âmbito municipal**.\n\n> 📖 No município, a realização de **debates, audiências e consultas públicas** é condição obrigatória para a aprovação do orçamento (Estatuto da Cidade, art. 44).\n\n**Por que as demais erram:** **A** tradicional, **B** programa, **C** base zero e **E** incremental são técnicas de elaboração que {red:não} têm como núcleo a participação direta da população.",
+"options": [
+"tradicional.",
+"programa.",
+"base zero.",
+"participativo.",
+"incremental."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CESPE • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nO processo de elaboração de orçamento que **exige dos gestores, a cada novo exercício, a justificativa detalhada dos recursos solicitados** corresponde ao orçamento:",
+"back": "**Gabarito: D.** {green:Correto}. Essa é a definição do **orçamento base zero (OBZ)**: a cada exercício, o gestor deve **justificar detalhadamente** todos os recursos solicitados, sem direito adquirido sobre o orçamento anterior.\n\n> 💡 O item original atribuía essa definição ao \"orçamento-programa\", tornando-o **Errado**: a justificativa integral do zero é do **OBZ**.\n\n**Por que as demais erram:** **A** o programa integra planejamento e metas; **B** o tradicional parte do histórico (incrementalismo); **C** o por desempenho foca em resultados; **E** o participativo envolve a população.",
+"options": [
+"orçamento-programa.",
+"tradicional.",
+"por desempenho.",
+"base zero.",
+"participativo."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • Câmara Municipal de Salvador • 2018 • adaptada C/E→A–E^^\n\nO modelo orçamentário difundido a partir da lógica empresarial, cuja elaboração **não se vincula aos montantes de despesa ou ao nível de atividade do exercício anterior**, propiciando reavaliações constantes das alocações, denomina-se:",
+"back": "**Gabarito: C.** {green:Correto}. Trata-se do **orçamento base-zero (OBZ)**: sua principal característica é a {red:ausência de direito adquirido} em relação ao orçamento anterior. Todo exercício exige um reexame crítico dos gastos, com justificativa para todos os recursos — \"partindo do zero\".\n\n> 💡 Apesar de difícil operacionalização, o OBZ propicia **reavaliações constantes** das alocações de recursos.\n\n**Por que as demais erram:** **A** tradicional e **B** incremental baseiam-se no exercício anterior; **D** programa integra planejamento e metas; **E** participativo envolve a população.",
+"options": [
+"tradicional.",
+"incremental.",
+"base-zero.",
+"programa.",
+"participativo."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^FGV • CGE-SC • 2023 • Auditor^^\n\nAo implementar o **orçamento participativo (OP)**, uma equipe transmitiu uma orientação **incorreta**. Assinale-a.",
+"back": "**Gabarito: A.** A orientação **incorreta** é a que afirma que as alterações orçamentárias decididas no OP **podem** envolver recursos já comprometidos com **despesas legais e constitucionais**. {red:Não podem} — esses recursos são vinculados/obrigatórios e ficam fora da deliberação participativa.\n\n> 💡 O OP delibera, em regra, sobre **despesas de investimento/capital** (ex.: definição de obras prioritárias), não sobre despesas obrigatórias.\n\n**Por que as demais são corretas:** **B** a aprovação de PPA/LDO/LOA pela Câmara e a realização de audiências/consultas são obrigatórias (Estatuto da Cidade); **C** a estrutura do OP pode ser definida por lei ou regimento; **D** a execução do OP é condicionada (ex.: arrecadação efetiva da receita prevista); **E** os recursos deliberáveis são tipicamente investimentos/despesas de capital.",
+"options": [
+"Alterações orçamentárias podem envolver recursos comprometidos com despesas legais e constitucionais.",
+"A aprovação de PPA, LDO e LOA na Câmara é necessária, com audiências e consultas públicas.",
+"A estrutura e a dinâmica do OP podem ser objeto de lei ou de regimento interno.",
+"A execução do OP é quase sempre marcada por condicionantes, como a arrecadação da receita prevista.",
+"Os recursos deliberáveis poderiam ser despesas com investimentos e de capital, como obras prioritárias."
+],
+"correctOption": "A",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^CESPE • TJ-ES • 2023 • adaptada C/E→A–E^^\n\nSobre as técnicas orçamentárias, é correto afirmar que o **orçamento-programa**:",
+"back": "**Gabarito: C.** {green:Correto}. O orçamento-programa **promove a integração do orçamento com o planejamento das ações do governo** — essa é sua principal característica.\n\n> 📖 A vinculação entre planejamento e orçamento passa a ocorrer no orçamento-programa, buscando sempre uma {blue:finalidade pública}.\n\n**Por que as demais erram:** **A** mero controle contábil é do tradicional; **B** ajuste marginal é o incremental; **D** justificar do zero é o OBZ; **E** a participação direta da população é do participativo.",
+"options": [
+"limita-se ao controle contábil das receitas e despesas.",
+"elabora o orçamento por ajustes marginais sobre o exercício anterior.",
+"promove a integração do orçamento com o planejamento das ações do governo.",
+"exige a justificativa integral de todas as dotações, partindo do zero.",
+"baseia-se na deliberação direta da população sobre as prioridades."
+],
+"correctOption": "C",
+"topicName": "Espécies de Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nQuanto aos **tipos de orçamento** (regime político × sistema de governo), assinale a alternativa correta.",
+"back": "**Gabarito: D.** Os **tipos de orçamento** combinam o regime político com a distribuição de competências entre os Poderes. O Brasil já vivenciou os **três**:\n\n| Tipo | Elaboração | Votação/Controle | Execução | Exemplo |\n|---|---|---|---|---|\n| **Legislativo** | Legislativo | Legislativo | Executivo | CF 1891 |\n| **Executivo** | Executivo | Executivo | Executivo | CF 1937 |\n| **Misto** | **Executivo** | **Legislativo** | **Executivo** | **CF 1988** |\n\n> 💡 No **misto** (atual): elaboração e execução são do **Executivo**; votação/aprovação e controle são do **Legislativo**.\n\n**Por que as demais erram:** **A** o legislativo é típico de parlamentarismo (não absolutista); **B** o executivo é típico de regimes autoritários (não democráticos plenos); **C** o Brasil atual adota o misto, não o executivo; **E** \"tipo\" relaciona-se aos Poderes, não à administração direta/indireta.",
+"options": [
+"O orçamento legislativo é típico de regimes absolutistas, em que o Executivo concentra todas as funções.",
+"O orçamento executivo é o modelo dos regimes democráticos plenos.",
+"O Brasil atualmente adota o orçamento do tipo executivo.",
+"No orçamento misto (adotado no Brasil), elaboração/execução cabem ao Executivo e votação/controle ao Legislativo.",
+"Os tipos de orçamento dividem-se conforme envolvam a administração direta ou indireta."
+],
+"correctOption": "D",
+"topicName": "Tipos de Orçamento"
+},
+{
+"front": "^^FGV • Câmara Municipal de Salvador • 2018 • adaptada C/E→A–E^^\n\nNo ciclo de elaboração do orçamento público brasileiro, são funções do **Poder Legislativo**:",
+"back": "**Gabarito: B.** {green:Correto}. O orçamento brasileiro é do **tipo misto**: cabe ao **Legislativo** a **votação/aprovação e o controle/avaliação**.\n\n> 💡 O item original dizia que ao Legislativo cabiam \"a elaboração e a sanção\" — {red:Errado}: a **elaboração** é do Executivo e a **sanção** também é ato do **Executivo** (Presidente/chefe do Executivo).\n\n**Por que as demais erram:** **A** elaboração e execução são do **Executivo**; **C** a sanção é ato do Executivo, não do Legislativo; **D** a execução é do Executivo; **E** elaboração e sanção são do Executivo.",
+"options": [
+"a elaboração e a execução.",
+"a votação/aprovação e o controle/avaliação.",
+"a sanção e o controle.",
+"a elaboração e a execução do orçamento.",
+"a elaboração e a sanção."
+],
+"correctOption": "B",
+"topicName": "Tipos de Orçamento"
+},
+{
+"front": "^^VUNESP • Prefeitura de Suzano • 2017 • Contador^^\n\nHá um tipo de orçamento utilizado em países onde impera o **poder absoluto**, em que elaboração, aprovação, execução e controle se concentram quase exclusivamente no mesmo poder (função administrativa). Esse orçamento denomina-se:",
+"back": "**Gabarito: E.** O **orçamento executivo** é elaborado, aprovado, executado e controlado pelo **Poder Executivo** — modelo característico de **regimes autoritários** (poder absoluto). Exemplo histórico: Constituição de 1937.\n\n> 💡 Executivo concentra tudo ⇒ autoritarismo.\n\n**Por que as demais erram:** **A** o misto reparte entre Executivo (elaboração/execução) e Legislativo (votação/controle); **B** \"jurídico\" e **C** \"econômico\" são *aspectos/naturezas* do orçamento, não tipos; **D** o legislativo concentra no Parlamento (parlamentarismo), cabendo ao Executivo só a execução.",
+"options": [
+"misto.",
+"jurídico.",
+"econômico.",
+"legislativo.",
+"executivo."
+],
+"correctOption": "E",
+"topicName": "Tipos de Orçamento"
+},
+{
+"front": "^^VUNESP • Câmara de Araras • 2015 • Analista Financeiro e Orçamentário^^\n\nO tipo de orçamento utilizado em **países parlamentaristas**, no qual elaboração, votação e aprovação são de competência do **Poder Legislativo**, cabendo ao Executivo apenas a **execução**, denomina-se:",
+"back": "**Gabarito: C.** O **orçamento legislativo** concentra a elaboração, a votação e o controle no **Poder Legislativo**, cabendo ao Executivo apenas a **execução**. É típico de **países parlamentaristas** (ex.: CF/1891).\n\n> 💡 Parlamentarismo ⇒ orçamento legislativo.\n\n**Por que as demais erram:** **A** e **D** o misto (atual do Brasil) reparte funções entre os dois Poderes; **B** e **E** o executivo concentra tudo no Executivo (autoritarismo). Logo, os itens que indicam \"misto\" ou \"executivo\" como adotado no Brasil estão errados para esta descrição parlamentarista.",
+"options": [
+"misto.",
+"executivo.",
+"legislativo.",
+"misto, e este é o tipo utilizado atualmente no Brasil.",
+"executivo, e este é o tipo utilizado atualmente no Brasil."
+],
+"correctOption": "C",
+"topicName": "Tipos de Orçamento"
+},
+{
+"front": "^^CESPE • TCU • 2015 • adaptada C/E→A–E^^\n\nConsiderando a evolução da terminologia dos **tipos de orçamento**, é correto afirmar que o Brasil:",
+"back": "**Gabarito: A.** {green:Correto}. Ao longo de sua história, o Brasil **utilizou os três tipos** de orçamento:\n\n- **Legislativo** (CF/1891);\n- **Executivo** (CF/1937);\n- **Misto** (CF/1988 — atual).\n\n**Por que as demais erram:** **B** o Brasil não usou apenas o legislativo e o misto; **C** o Brasil atual adota o misto, não o executivo; **D** a elaboração não é do Legislativo (é do Executivo); **E** o tipo atual é o misto, não o legislativo.",
+"options": [
+"utilizou, ao longo de sua história, o orçamento legislativo, o executivo e o misto.",
+"utilizou apenas o orçamento legislativo e o misto.",
+"adota atualmente o orçamento do tipo executivo.",
+"adota o tipo misto porque a elaboração cabe ao Legislativo.",
+"adota atualmente o orçamento do tipo legislativo."
+],
+"correctOption": "A",
+"topicName": "Tipos de Orçamento"
+},
+{
+"front": "^^CESPE • Polícia Federal • 2014 • adaptada C/E→A–E^^\n\nSobre o **tipo de orçamento adotado no Brasil**, é correto afirmar que:",
+"back": "**Gabarito: B.** {green:Correto}. No Brasil, elabora-se o orçamento do tipo **misto**: a **elaboração e a execução** são do **Executivo**, enquanto a **votação e o controle** cabem ao **Legislativo**.\n\n> 💡 O item original afirmava ser do tipo \"legislativo\" porque cabe ao Legislativo votar/aprovar — {red:Errado}: votar não basta para caracterizar o tipo legislativo; a elaboração é do Executivo, logo é **misto**.\n\n**Por que as demais erram:** **A** não é legislativo; **C** no executivo o Executivo concentra tudo (não é o caso); **D** a elaboração não é do Legislativo; **E** a execução é do Executivo, e o controle, do Legislativo — mas o tipo é misto, não legislativo.",
+"options": [
+"é do tipo legislativo, pois cabe ao Legislativo votar e aprovar o orçamento.",
+"é do tipo misto: elaboração e execução pelo Executivo; votação e controle pelo Legislativo.",
+"é do tipo executivo, pois o Executivo concentra todas as fases.",
+"é do tipo misto porque a elaboração cabe ao Legislativo.",
+"é do tipo legislativo porque a execução cabe ao Legislativo."
+],
+"correctOption": "B",
+"topicName": "Tipos de Orçamento"
+},
+{
+"front": "^^CESPE • TJ-CE • 2014 • adaptada C/E→A–E^^\n\nO **orçamento misto** é corretamente definido como aquele em que:",
+"back": "**Gabarito: A.** {green:Correto}. No **orçamento misto**, a **elaboração e a execução** são de competência do **Executivo**, cabendo ao **Legislativo a votação e o controle**.\n\n> 💡 O item original definia o misto como \"aquele que envolve entidades da administração direta e indireta\" — {red:Errado}: o tipo \"misto\" diz respeito à repartição de funções entre **Poderes**, não entre administração direta/indireta.\n\n**Por que as demais erram:** **B** envolver administração direta e indireta não define o tipo; **C** concentrar tudo no Executivo é o tipo executivo; **D** concentrar tudo no Legislativo é o legislativo; **E** misturar receitas tributárias e não tributárias nada tem a ver com o tipo de orçamento.",
+"options": [
+"a elaboração e a execução cabem ao Executivo, e a votação e o controle, ao Legislativo.",
+"envolve entidades da administração pública direta e indireta.",
+"todas as fases se concentram no Poder Executivo.",
+"todas as fases se concentram no Poder Legislativo.",
+"combina receitas tributárias e não tributárias em um único documento."
+],
+"correctOption": "A",
+"topicName": "Tipos de Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre o **conceito de orçamento público**, assinale a alternativa correta.",
+"back": "**Gabarito: C.** Em síntese doutrinária, o orçamento público é o **ato pelo qual o Executivo prevê e o Legislativo autoriza**, por certo período, a execução das despesas e a arrecadação das receitas (=={blue:Aliomar Baleeiro}==). Modernamente, é também **instrumento de planejamento** que integra curto prazo (LOA) e médio/longo prazo (PPA/LDO), com forte **viés político** de alocação.\n\n> 📌 O ex-ministro **Ayres Britto** (ADI 4.048) chamou a LOA de \"a lei materialmente mais importante do ordenamento, logo abaixo da Constituição\".\n\n**Por que as demais erram:** **A** a previsão de receitas é do **Executivo** (não do Legislativo); **B** o orçamento {red:NÃO é instrumento de política monetária} (essa é do Banco Central — juros, oferta de moeda); é instrumento de **política fiscal**; **D** seu conceito {green:muda ao longo do tempo} conforme evoluem suas funções; **E** o orçamento tem natureza multidisciplinar, não apenas contábil.",
+"options": [
+"É o ato pelo qual o Legislativo prevê e o Executivo autoriza a execução das despesas.",
+"É um instrumento da política monetária do governo, por colocar frente a frente receitas e despesas.",
+"É o ato pelo qual o Executivo prevê e o Legislativo autoriza a execução das despesas e a arrecadação das receitas.",
+"É um conceito estático, cujas funções permanecem inalteradas desde sua criação.",
+"Possui natureza exclusivamente contábil, sem dimensão política, econômica ou jurídica."
+],
+"correctOption": "C",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^CEBRASPE • CNMP • 2023 • Apoio Técnico Administrativo / Administração • adaptada C/E→A–E^^\n\nNo modelo de orçamento **atualmente adotado no Brasil**, é correto afirmar que o orçamento público:",
+"back": "**Gabarito: D.** {green:Correto}. No **orçamento-programa**, a ênfase é nas **realizações** (no que se realiza), não no que se gasta. É um plano de trabalho que integra planejamento e orçamento, e a avaliação abrange **eficácia** (alcance de metas) e **efetividade** (impacto final).\n\n> 💡 O item original dizia que o orçamento é \"peça contábil que registra despesas e autoriza receitas\" — {red:Errado}: essa é a visão **tradicional**; hoje o orçamento é instrumento de **planejamento**, não mera peça contábil.\n\n**Por que as demais erram:** **A**, **B** e **C** reduzem o orçamento à função contábil/registro (visão clássica superada); **E** o orçamento autoriza **despesas** e estima receitas — não \"autoriza receitas\".",
+"options": [
+"é uma peça contábil que apenas registra despesas e autoriza receitas.",
+"limita-se ao registro contábil das entradas e saídas, após aprovado.",
+"é mero instrumento de controle das receitas a arrecadar.",
+"é instrumento de planejamento com ênfase nas realizações (eficácia e efetividade).",
+"autoriza as receitas que serão utilizadas para pagar os gastos consignados."
+],
+"correctOption": "D",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^CEBRASPE • TJ-ES • 2023 • Judiciária / Contador • adaptada C/E→A–E^^\n\nAcerca do orçamento público, é correto afirmar que ele:",
+"back": "**Gabarito: A.** {green:Correto}. O orçamento público, instrumento vital à gestão administrativa, **possibilita a transparência e o controle dos gastos governamentais, bem como a eficiência na alocação** dos recursos públicos.\n\n> 💡 Transparência, controle de gastos, eficiência na alocação, planejamento/gestão e busca do equilíbrio fiscal são pontos-chave do atual modelo (orçamento-programa).\n\n**Por que as demais erram:** **B** o orçamento não é mera peça contábil sem planejamento (visão clássica superada); **C** não é instrumento de política monetária; **D** não impede o controle dos gastos — ao contrário, o viabiliza; **E** não se limita ao registro de receitas e despesas prioritárias.",
+"options": [
+"possibilita a transparência, o controle dos gastos e a eficiência na alocação dos recursos públicos.",
+"é peça contábil sem qualquer função de planejamento.",
+"é instrumento de política monetária do governo.",
+"dificulta o controle dos gastos governamentais.",
+"limita-se ao registro das receitas e despesas prioritárias."
+],
+"correctOption": "A",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^NUCEPE • UESPI • 2023^^\n\nQual fundamento é **adequado** para a correta elaboração e execução do orçamento público?",
+"back": "**Gabarito: C.** O orçamento público **permite ajustes e adaptações ao longo do ano fiscal** — é instrumento de planejamento dinâmico, admitindo realocações por meio de créditos adicionais e remanejamentos, observados os limites legais.\n\n> 💡 A LOA **permite** a realocação de recursos entre programas/projetos (créditos adicionais), respeitada a legislação.\n\n**Por que as demais erram:** **A** e **B** {red:erram} ao negar a realocação de recursos entre programas/projetos (a LOA a permite); **D** as despesas e receitas devem ser **discriminadas** (princípio da especificação), não registradas \"de forma genérica\"; **E** o orçamento não se limita às receitas e despesas prioritárias.",
+"options": [
+"O orçamento não permite a realocação de recursos entre programas e projetos governamentais.",
+"O orçamento dispensa a auditoria do uso dos recursos públicos.",
+"O orçamento é um instrumento que permite ajustes e adaptações ao longo do ano fiscal.",
+"As despesas e receitas são registradas de forma genérica, para melhorar a arrecadação.",
+"O orçamento se limita ao registro das despesas e receitas prioritárias."
+],
+"correctOption": "C",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^CESPE • PGE-PE • 2018 • adaptada C/E→A–E^^\n\nO orçamento público, principal documento de políticas públicas, permite que os governantes:",
+"back": "**Gabarito: B.** {green:Correto}. Com base no orçamento, os governantes **selecionam prioridades e decidem como empregar os recursos extraídos da sociedade e como distribuí-los entre os diferentes grupos sociais**, conforme seu peso ou força política (Abrúcio e Loureiro).\n\n> 📖 Nas decisões orçamentárias estão presentes problemas centrais da ordem democrática, como **representação e accountability** — evidenciando o {blue:viés político} do orçamento.\n\n**Por que as demais erram:** **A** o orçamento não é peça neutra sem escolhas políticas; **C** não é instrumento de política monetária; **D** as receitas são **estimadas**, não criadas pela LOA; **E** não dispensa autorização legislativa.",
+"options": [
+"executem despesas sem qualquer escolha política, de forma neutra.",
+"selecionem prioridades e decidam como empregar e distribuir os recursos entre grupos sociais.",
+"controlem a oferta de moeda e a taxa de juros da economia.",
+"criem novas receitas tributárias por meio da própria lei orçamentária.",
+"realizem despesas independentemente de autorização legislativa."
+],
+"correctOption": "B",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^CESPE • TCE-PA • 2016 • adaptada C/E→A–E^^\n\nA respeito da evolução do conceito de orçamento público, assinale a alternativa correta.",
+"back": "**Gabarito: C.** {green:Correto}. O orçamento é um conceito **dinâmico**: concebido inicialmente como mecanismo de **controle parlamentar** sobre o Executivo, **sofreu mudanças** nos planos conceitual e técnico (jurídico, econômico, financeiro, de planejamento, gerencial) para acompanhar a evolução das funções do Estado (Giacomoni).\n\n> 💡 O item original afirmava que o orçamento é \"conceito estático, com funções inalteradas\" — {red:Errado}: ele é {green:dinâmico} e evolui no tempo.\n\n**Por que as demais erram:** **A** e **B** afirmam imutabilidade/estática do conceito; **D** o orçamento não nasceu como instrumento de planejamento (isso é uma evolução posterior); **E** suas funções mudaram, sim, ao longo do tempo.",
+"options": [
+"O conceito de orçamento é estático e suas funções permanecem inalteradas.",
+"O orçamento sempre teve a mesma função desde sua criação.",
+"O conceito de orçamento é dinâmico e evoluiu para acompanhar as funções do Estado.",
+"O orçamento nasceu como instrumento de planejamento da ação governamental.",
+"As funções do orçamento nunca se alteraram ao longo da história."
+],
+"correctOption": "C",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^CEBRASPE • TSE Unificado • 2024 • adaptada C/E→A–E^^\n\nNa estrutura constitucional brasileira, o orçamento público pode ser compreendido como:",
+"back": "**Gabarito: A.** {green:Correto}. O orçamento público é um **plano das realizações da administração pública**, o que destaca seu papel como **instrumento de gestão pública**. A CF/88 o insere no Sistema de Planejamento Governamental.\n\n> 💡 O orçamento é visto como **plano de ação governamental expresso em termos financeiros**, detalhando programas, ações, metas e objetivos — instrumento de planejamento, execução, acompanhamento e avaliação das políticas públicas.\n\n**Por que as demais erram:** **B** não é mera peça contábil; **C** não é instrumento de política monetária; **D** não se restringe a registrar despesas após o exercício; **E** não dispensa o planejamento das ações.",
+"options": [
+"um plano das realizações da administração pública, instrumento de gestão pública.",
+"uma peça meramente contábil, sem função de planejamento.",
+"um instrumento de política monetária do governo.",
+"um registro das despesas realizadas após o exercício financeiro.",
+"um documento que dispensa o planejamento das ações governamentais."
+],
+"correctOption": "A",
+"topicName": "Conceito de Orçamento Público"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre as **naturezas (aspectos ou dimensões) do orçamento público**, segundo Giacomoni, assinale a alternativa correta.",
+"back": "**Gabarito: B.** O orçamento é **multidisciplinar**, apresentando diferentes naturezas:\n\n| Natureza | Ideia central |\n|---|---|\n| **Político** | plano de ação do grupo que detém o poder; define prioridades (recursos escassos × necessidades ilimitadas) |\n| **Econômico** | intervenção do Estado na economia; aloca recursos; busca equilíbrio |\n| **Jurídico** | integra a lei orçamentária ao ordenamento |\n| **Financeiro** | fluxo monetário: entrada de receitas e saída de despesas |\n| **Técnico** | regras e classificações na elaboração/execução |\n\n> 💡 A natureza **financeira** ≠ **política**: financeira = fluxo de dinheiro; política = escolha de prioridades.\n\n**Por que as demais erram:** **A** a natureza política trata de prioridades, não do fluxo de caixa; **C** o aspecto financeiro é o do fluxo monetário (não o econômico); **D** o orçamento tem várias naturezas, não só a jurídica; **E** a dimensão econômica liga-se à intervenção na economia, não ao mero registro contábil.",
+"options": [
+"A natureza política refere-se ao fluxo de entradas e saídas de recursos.",
+"O orçamento é multidisciplinar, com naturezas política, econômica, jurídica, financeira e técnica.",
+"A natureza econômica caracteriza-se pelo fluxo monetário de receitas e despesas.",
+"O orçamento possui exclusivamente natureza jurídica.",
+"A dimensão econômica resume-se ao registro contábil das operações."
+],
+"correctOption": "B",
+"topicName": "Naturezas do Orçamento"
+},
+{
+"front": "^^FGV • Senado Federal • 2022 • Analista^^\n\nSobre a **evolução conceitual e as naturezas do orçamento público**, analise:\n\nI. As normas que disciplinam o orçamento em cada país resultam de embates sociais e econômicos.\nII. Nem sempre o orçamento público esteve orientado para a administração.\nIII. O orçamento visto como resultado da avaliação de demandas e escolha entre alternativas ressalta sua natureza política.\n\nEstá correto o que se afirma em:",
+"back": "**Gabarito: A.** Os **três itens** estão corretos.\n\n- **I** {green:correto}: segundo Giacomoni, as normas orçamentárias resultam de **embates sociais e políticos** e das tradições de cada país;\n- **II** {green:correto}: o orçamento nem sempre teve foco administrativo (o clássico focava o controle contábil);\n- **III** {green:correto}: ver o orçamento como avaliação de demandas e escolha entre alternativas realça sua **natureza política** (já as questões fiscais — receitas, despesas, déficits — realçam a natureza econômica).\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** excluem indevidamente um dos itens corretos (I, II ou III).",
+"options": [
+"I, II e III.",
+"I e II, apenas.",
+"I e III, apenas.",
+"II e III, apenas.",
+"I, apenas."
+],
+"correctOption": "A",
+"topicName": "Naturezas do Orçamento"
+},
+{
+"front": "^^CEBRASPE • MDIC • adaptada C/E→A–E^^\n\nA **dimensão financeira** do orçamento público diz respeito a:",
+"back": "**Gabarito: B.** {green:Correto}. A dimensão **financeira** representa o **fluxo monetário** na execução: a **entrada de receitas** (arrecadação) e a **saída de despesas** (gastos governamentais).\n\n> 💡 O item original atribuía esse fluxo de entradas/saídas à \"função política\" — {red:Errado}: a dimensão **política** trata da escolha de prioridades pelo grupo que detém o poder, não do fluxo de caixa.\n\n**Por que as demais erram:** **A** prioridades/poder é a dimensão política; **C** intervenção na economia é a econômica; **D** regras e classificações é a técnica; **E** integração da lei ao ordenamento é a jurídica.",
+"options": [
+"ao estabelecimento de prioridades pelo grupo partidário que detém o poder.",
+"ao fluxo de entrada de receitas e saída de recursos provocada pelos gastos.",
+"à intervenção do Estado na economia para gerar emprego e renda.",
+"à observância de técnicas e classificações claras e racionais.",
+"à integração da lei orçamentária ao conjunto de leis do país."
+],
+"correctOption": "B",
+"topicName": "Naturezas do Orçamento"
+},
+{
+"front": "^^FGV • EPE • 2024 • Administração^^\n\nSobre o orçamento público, assinale a afirmativa **INCORRETA**.",
+"back": "**Gabarito: C.** A afirmativa **incorreta** diz que o orçamento é \"instrumento da **política monetária**\". {red:Errado}: o orçamento é instrumento da **política fiscal** (atua sobre receitas e despesas públicas). A **política monetária** é do **Banco Central** (controle de liquidez, inflação, juros — via SELIC, open market, compulsório).\n\n> 💡 Orçamento ⇒ **política fiscal**. BACEN ⇒ política monetária.\n\n**Por que as demais estão corretas:** **A** sob o aspecto econômico, o orçamento é instrumento de atuação do Estado para estabilizar/ampliar a atividade econômica; **B** é o conceito tradicional (Executivo prevê, Legislativo autoriza); **D** o aspecto técnico envolve a classificação clara e racional; **E** o aspecto administrativo trata do programa de operações do governo e seus meios de financiamento.",
+"options": [
+"Sob o aspecto econômico, é instrumento de atuação do Estado na economia.",
+"É o ato pelo qual o Executivo prevê e o Legislativo autoriza as despesas e a arrecadação.",
+"É um instrumento da política monetária, por colocar frente a frente despesas e receitas.",
+"Sob o aspecto técnico, relaciona-se à classificação clara, metódica e racional da receita e da despesa.",
+"Sob o aspecto administrativo, é um plano de operações do governo e seus meios de financiamento."
+],
+"correctOption": "C",
+"topicName": "Naturezas do Orçamento"
+},
+{
+"front": "^^CEBRASPE • SEFAZ-SE • 2022 • adaptada C/E→A–E^^\n\nA Administração Financeira e Orçamentária (AFO) no setor público ocupa-se, entre outros objetivos, de:",
+"back": "**Gabarito: A.** {green:Correto}. A **AFO** ocupa-se do **ciclo orçamentário** (previsão da receita, fixação da despesa, execução, tesouraria, contabilidade e controle) e da **gestão fiscal** — {red:não} da política monetária.\n\n> 💡 O item original dizia que a AFO desenvolve normas das finanças públicas para a \"gestão **monetária** dos recursos\", assegurando relação entre receitas e **emissão de moeda** — {red:Errado}: emissão de moeda e controle da inflação por meios monetários são do **Banco Central**.\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** atribuem à AFO funções de **política monetária** (oferta de moeda, juros, liquidez), que competem ao Banco Central.",
+"options": [
+"gerir o ciclo orçamentário e a gestão fiscal (previsão de receita, fixação de despesa, execução e controle).",
+"assegurar a relação ótima entre receitas públicas e emissão de moeda, evitando inflação.",
+"controlar a taxa básica de juros e a oferta de moeda da economia.",
+"regular a liquidez do sistema financeiro por meio de reservas compulsórias.",
+"definir a política monetária do país por meio de operações de mercado aberto."
+],
+"correctOption": "A",
+"topicName": "Naturezas do Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre o **Direito Financeiro** — conceito e objeto —, assinale a alternativa correta.",
+"back": "**Gabarito: E.** O **Direito Financeiro** é o ramo do **Direito Público** que disciplina a **atividade financeira do Estado**, cujo objeto abrange **quatro fenômenos**: {green:receita pública} (obtenção), {green:crédito público} (endividamento), {green:orçamento público} (gestão) e {green:despesa pública} (dispêndio).\n\n> 💡 Mnemônico — **ROCD**: **R**eceita, **O**rçamento, **C**rédito, **D**espesa.\n\nÉ ramo **cientificamente autônomo**, não se confundindo com o Direito Tributário (que cuida só dos tributos) nem sendo subárea do Direito Administrativo ou Econômico.\n\n**Por que as demais erram:** **A** não trata só das despesas; **B** reger só a obtenção de tributos é o Direito **Tributário**; **C** não é ramo do Direito Administrativo; **D** não é ramo do Direito Econômico, e abrange receitas tributárias e não tributárias.",
+"options": [
+"Disciplina somente as despesas públicas.",
+"Rege apenas a obtenção de receitas que correspondam ao conceito de tributo.",
+"É ramo do Direito Administrativo, por tratar da organização dos serviços públicos.",
+"É ramo do Direito Econômico, cuidando apenas das receitas não tributárias.",
+"É ramo do Direito Público cujo objeto abrange receita, despesa, orçamento e crédito públicos."
+],
+"correctOption": "E",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nA respeito da **competência para legislar sobre Direito Financeiro e Orçamento**, assinale a alternativa correta.",
+"back": "**Gabarito: D.** A competência é **concorrente** entre União, Estados e DF.\n\n> 📖 **CF, art. 24:** \"Compete à União, aos Estados e ao Distrito Federal legislar **concorrentemente** sobre: I – direito tributário, **financeiro** [...]; II – **orçamento**[...].\"\n> 📖 **§ 1º a 4º:** a União edita **normas gerais**; inexistindo lei federal, os Estados exercem **competência legislativa plena**; sobrevindo lei federal, a estadual tem a **eficácia suspensa** no que for contrária (não é revogada).\n\n> 💡 Municípios legislam sobre **interesse local** e **suplementam** a legislação federal/estadual (não concorrem diretamente).\n\n**Por que as demais erram:** **A** não é competência privativa da União; **B** não é exclusiva dos Estados; **C** sobrevindo lei federal, a estadual fica **suspensa**, não revogada; **E** os Municípios não integram a competência concorrente do art. 24.",
+"options": [
+"É privativa da União legislar sobre Direito Financeiro.",
+"É exclusiva dos Estados e do DF, sem participação da União.",
+"Sobrevindo lei federal de normas gerais, a lei estadual contrária é revogada.",
+"É concorrente entre União, Estados e DF; sem lei federal, os Estados têm competência plena.",
+"Os Municípios integram a competência concorrente do art. 24 da CF."
+],
+"correctOption": "D",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^CESPE • TCE-PE • 2017 • Auditor de Controle Externo • adaptada C/E→A–E^^\n\nQuanto à competência para editar normas sobre a **elaboração dos orçamentos**, é correto afirmar que os Estados e o DF:",
+"back": "**Gabarito: C.** {green:Correto}. Estados e DF **podem** legislar sobre orçamento e Direito Financeiro, pois a competência é **concorrente** (CF, art. 24, I e II).\n\n> 💡 O item original afirmava que os Estados/DF estariam \"impedidos\" porque a competência seria privativa da União — {red:Errado}: a competência é **concorrente**, não privativa da União.\n\n**Por que as demais erram:** **A**, **B**, **D** e **E** afirmam, no todo ou em parte, que a competência seria **privativa/exclusiva da União**, impedindo Estados e DF — o que é falso.",
+"options": [
+"estão impedidos, pois a competência é privativa da União.",
+"estão impedidos, salvo autorização por lei complementar federal.",
+"podem legislar, pois a competência é concorrente (CF, art. 24).",
+"só podem legislar mediante delegação da União.",
+"estão impedidos, exceto sobre normas específicas de tributos."
+],
+"correctOption": "C",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^CESPE • TRT-8 • 2016 • Analista Judiciário • adaptada C/E→A–E^^\n\nDe acordo com a CF, a competência para legislar sobre **Direito Financeiro** é:",
+"back": "**Gabarito: B.** {green:Correto}. A competência para legislar sobre Direito Financeiro é **concorrente** entre União, Estados e DF (CF, art. 24, I).\n\n> 💡 O item original dizia que a competência seria **privativa** da União — {red:Errado}.\n\n**Por que as demais erram:** **A** não é privativa da União; **C** não é exclusiva dos Estados; **D** os Municípios não integram o art. 24 (apenas suplementam); **E** não é competência comum administrativa (art. 23), e sim legislativa concorrente (art. 24).",
+"options": [
+"privativa da União.",
+"concorrente entre União, Estados e Distrito Federal.",
+"exclusiva dos Estados e do DF.",
+"concorrente entre União, Estados, DF e Municípios.",
+"comum a todos os entes, nos moldes do art. 23 da CF."
+],
+"correctOption": "B",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^VUNESP • SEFAZ-SP • 2013 • Analista em Planejamento, Orçamento e Finanças^^\n\nHá possibilidade de **mais de um ente** legislar sobre orçamento?",
+"back": "**Gabarito: E.** {green:Sim} — trata-se de **competência concorrente**.\n\n> 📖 **CF, art. 24:** \"Compete à União, aos Estados e ao Distrito Federal legislar **concorrentemente** sobre: I – direito tributário, financeiro [...]; II – orçamento [...].\"\n\nO Direito Financeiro pertence ao Direito Público e é ramo **cientificamente autônomo**; a própria CF assegura essa competência concorrente.\n\n**Por que as demais erram:** **A** não há \"autonomia superior\" do Senado nesse tema; **B** legislar concorrentemente não fere a separação de Poderes (art. 2º); **C** não há exigência de concordância prévia de todos os entes homologada pelo Congresso; **D** não depende de medida provisória autorizadora.",
+"options": [
+"Sim, desde que não haja quebra da autonomia do Senado como órgão revisor.",
+"Não, pois isso feriria a independência e harmonia dos Poderes (art. 2º da CF).",
+"Sim, desde que haja prévia concordância de todos os entes, homologada pelo Congresso.",
+"Sim, quando houver medida provisória que autorize.",
+"Sim, trata-se de competência concorrente."
+],
+"correctOption": "E",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^CONSULPLAN • CODEG • 2013 • Advogado^^\n\nDe acordo com a CF/88, compete à União, aos Estados e ao DF legislar **concorrentemente** sobre:",
+"back": "**Gabarito: B.** **Orçamento** está expressamente no rol da competência **concorrente**.\n\n> 📖 **CF, art. 24:** \"I – direito tributário, financeiro, penitenciário, econômico e urbanístico; **II – orçamento**[...].\"\n\n**Por que as demais erram:** **A** trânsito é competência **privativa da União** (art. 22, XI); **C** seguridade social — a competência legislativa geral é da União; **D** propaganda comercial é **privativa da União** (art. 22, XXIX); **E** sistemas de consórcios e sorteios são **privativos da União** (art. 22, XX). Apenas **orçamento** (B) está no art. 24.",
+"options": [
+"trânsito.",
+"orçamento.",
+"seguridade social.",
+"propaganda comercial.",
+"sistemas de consórcios e sorteios."
+],
+"correctOption": "B",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^FCC • Assembleia Legislativa-PE • 2014 • Analista^^\n\nDe acordo com a CF, a competência da União para legislar sobre **Direito Financeiro e Orçamento**:",
+"back": "**Gabarito: D.** {green:Correto}. Sendo competência **concorrente**, se a União **não exercê-la** para editar normas gerais, os **Estados exercem competência legislativa plena** para atender às suas peculiaridades (CF, art. 24, §§ 1º a 3º).\n\n> 💡 Sem lei federal de normas gerais ⇒ Estado com competência plena. Vindo lei federal ⇒ eficácia da estadual **suspensa** no que for contrária.\n\n**Por que as demais erram:** **A** os Municípios não integram a concorrência do art. 24, e tratados internacionais não restringem essa competência; **B** não é \"suplementar\" condicionada ao não exercício por Estados/Municípios nesses termos; **C** a União edita **normas gerais**, não normas gerais \"no âmbito municipal\"; **E** a União limita-se a **normas gerais** (não \"específicas ou gerais\").",
+"options": [
+"é concorrente com Estados, DF e Municípios, observados tratados internacionais.",
+"é suplementar, desde que não exercida por Estados ou Municípios.",
+"limita-se a normas gerais sobre orçamento no âmbito municipal.",
+"se não exercida para editar normas gerais, permite aos Estados competência legislativa plena.",
+"é concorrente para estabelecer normas específicas ou gerais de Direito Financeiro."
+],
+"correctOption": "D",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^FGV • MRE • 2016 • Oficial de Chancelaria^^\n\nNa competência legislativa **concorrente**, considerando a sistemática constitucional, é correto afirmar que:",
+"back": "**Gabarito: D.** {green:Correto}. Os **Estados possuem competência plena enquanto a União não editar as normas gerais** (CF, art. 24, §§ 2º e 3º).\n\n> 📖 Sobrevindo lei federal de normas gerais, a **eficácia** da lei estadual fica **suspensa** no que lhe for contrária (não há revogação).\n\n**Por que as demais erram:** **A** a União edita **normas gerais** (não \"específicas dos Estados\"); **B** as normas gerais a observar são editadas pela União, não estão todas \"na CF\"; **C** a superveniência de lei estadual **não revoga** lei da União; **E** a lei estadual de normas gerais **não suspende** a eficácia da lei da União (é o inverso).",
+"options": [
+"a União possui competência plena enquanto não editadas as normas específicas dos Estados.",
+"União e Estados devem observar as normas gerais constantes da própria Constituição.",
+"a superveniência da legislação estadual revoga a norma da União incompatível.",
+"os Estados possuem competência plena enquanto a União não editar as normas gerais.",
+"a superveniência de lei estadual sobre normas gerais suspende a eficácia da lei da União."
+],
+"correctOption": "D",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^FCC • Assembleia Legislativa-PE • 2014 • Analista • adaptada C/E→A–E^^\n\nA respeito da competência da União para legislar sobre Direito Financeiro e Orçamento, é correto afirmar que ela:",
+"back": "**Gabarito: A.** {green:Correto}. A competência é **concorrente** com Estados e DF para estabelecer **normas gerais** de Direito Financeiro e orçamento.\n\n> 💡 O item original dizia que a concorrência seria para estabelecer \"normas **específicas** ou gerais\" — {red:Errado}: à União cabe apenas as **normas gerais** (CF, art. 24, § 1º).\n\n**Por que as demais erram:** **B** não é privativa da União; **C** não é exclusiva dos Estados; **D** os Municípios não integram a concorrência do art. 24; **E** a União não edita normas \"específicas\" no regime concorrente.",
+"options": [
+"é concorrente com Estados e DF, no que diz respeito a normas gerais.",
+"é privativa da União, conforme o art. 22 da CF.",
+"é exclusiva dos Estados e do DF.",
+"é concorrente também com os Municípios.",
+"permite à União estabelecer normas específicas de Direito Financeiro."
+],
+"correctOption": "A",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre o **status normativo da Lei nº 4.320/1964**, assinale a alternativa correta.",
+"back": "**Gabarito: B.** A **Lei 4.320/64** estatui **normas gerais de Direito Financeiro** para elaboração e controle dos orçamentos e balanços da União, Estados, Municípios e DF. Embora editada pelo rito de **lei ordinária**, a CF/1967 e a CF/1988 passaram a exigir **lei complementar** para normas gerais de Direito Financeiro.\n\n> 📖 Houve **novação** de sua natureza pelo **art. 165, § 9º, da CF/88**: posição *sui generis* — **lei ordinária no sentido formal** e **lei complementar no sentido material**.\n\n> 💡 Lei 4.320/64 = formalmente **ordinária**, materialmente **complementar**. Só pode ser alterada por **lei complementar**.\n\n**Por que as demais erram:** **A** não foi editada como lei complementar; **C** não trata de responsabilidade na gestão fiscal (isso é a LRF); **D** é norma **geral** (não específica); **E** aplica-se a todos os entes, não só à União.",
+"options": [
+"Foi editada formalmente como lei complementar.",
+"É formalmente lei ordinária e materialmente lei complementar (normas gerais de Direito Financeiro).",
+"Estatui normas de responsabilidade na gestão fiscal.",
+"Estatui normas específicas, aplicáveis apenas à União.",
+"Aplica-se exclusivamente à União, servindo de mera referência aos demais entes."
+],
+"correctOption": "B",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^CESPE • CGM-JP • 2018 • Técnico de Controle Interno • adaptada C/E→A–E^^\n\nQual norma estabelece **normas gerais de Direito Financeiro** para elaboração e controle dos orçamentos e balanços da União, Estados, Municípios e DF?",
+"back": "**Gabarito: B.** É a **Lei nº 4.320/1964**.\n\n> 💡 O item original atribuía esse papel à **LRF** — {red:Errado}. A **LRF (LC 101/2000)** estabelece normas de **finanças públicas voltadas à responsabilidade na gestão fiscal**; quem estatui normas gerais de Direito Financeiro para elaboração/controle dos orçamentos é a **Lei 4.320/64**.\n\n**Por que as demais erram:** **A** a LRF cuida da responsabilidade fiscal; **C** a CF traz princípios e o sistema orçamentário, mas as normas gerais infraconstitucionais são da Lei 4.320/64; **D** o Decreto 200/67 trata da organização administrativa; **E** o Decreto 93.872/86 trata da unificação de recursos de caixa.",
+"options": [
+"Lei de Responsabilidade Fiscal (LC 101/2000).",
+"Lei nº 4.320/1964.",
+"Constituição Federal de 1988.",
+"Decreto-Lei nº 200/1967.",
+"Decreto nº 93.872/1986."
+],
+"correctOption": "B",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^VUNESP • Câmara de Campo Limpo Paulista • 2018 • Procurador^^\n\nA respeito da **Lei Geral de Orçamentos (Lei 4.320/64)** e da **LRF (2000)** e sua eficácia normativa, é correto afirmar que:",
+"back": "**Gabarito: D.** A **Lei 4.320/64** foi editada como **lei ordinária**, mas **recepcionada pela CF/88 como lei complementar** em razão da matéria (normas gerais de Direito Financeiro — art. 165, § 9º). A **LRF**, por sua vez, **já foi editada como lei complementar** (LC 101/2000).\n\n> 💡 4.320/64 = ordinária recepcionada como complementar | LRF = complementar de origem.\n\n**Por que as demais erram:** **A** a 4.320/64 não foi editada como lei complementar; **B** a LRF não decorre de conversão de MP de 1999; **C** a 4.320/64 não é Decreto-Lei (foi lei ordinária) nem foi recepcionada como ordinária; **E** ambas as leis obrigam todos os entes (União, Estados, DF e Municípios), não só a União.",
+"options": [
+"Ambas foram editadas como leis complementares.",
+"Apenas a LGO foi editada como lei complementar; a LRF decorre de conversão de MP.",
+"A LGO foi editada como Decreto-Lei e recepcionada como lei ordinária, igual à LRF.",
+"A LGO foi editada como lei ordinária e recepcionada como complementar; a LRF já é complementar.",
+"As duas leis obrigam apenas a União, servindo de referência aos demais entes."
+],
+"correctOption": "D",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^VUNESP • Prefeitura de São José do Rio Preto • 2008 • Procurador^^\n\nAssinale a alternativa correta no que diz respeito à **Lei nº 4.320/64**.",
+"back": "**Gabarito: A.** A **Lei 4.320/64** **estatui normas gerais de Direito Financeiro** para elaboração e controle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal.\n\n> 📖 Ementa: \"Estatui normas gerais de direito financeiro para elaboração e controle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal.\"\n\n**Por que as demais erram:** **B** e **C** não estatui normas \"específicas\" nem se restringe à administração direta/indireta — são **normas gerais** para todos os entes; **D** e **E** a Lei 4.320/64 não classifica o tributo como receita patrimonial nem como originária (o tributo é receita **derivada**).",
+"options": [
+"Estatui normas gerais de direito financeiro.",
+"Estatui normas específicas, exclusivas das pessoas jurídicas da administração direta.",
+"Estatui normas específicas das pessoas jurídicas da administração direta e indireta.",
+"Determina o tributo como receita patrimonial.",
+"Determina o tributo como receita originária."
+],
+"correctOption": "A",
+"topicName": "Direito Financeiro"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre a **natureza jurídica do orçamento brasileiro**, assinale a alternativa correta.",
+"back": "**Gabarito: C.** Para a **doutrina majoritária**, a lei orçamentária é **lei apenas em sentido formal** (lei de efeitos concretos): tem **forma de lei**, mas não veicula direitos subjetivos nem é norma abstrata e genérica.\n\n> 📖 *Aliomar Baleeiro:* a previsão orçamentária \"não cria direito subjetivo\" — a instituição beneficiada não pode exigir judicialmente o repasse autorizado, ficando ao discricionarismo administrativo.\n\nCaracterísticas: lei **formal**, **temporária** (vigência limitada — art. 35, §2º, ADCT), **especial** (processo legislativo próprio) e **ordinária** (quórum de maioria simples).\n\n> ⚠️ **STF (ADI 5449/RR, 2016):** é **cabível ADI** contra lei orçamentária, LDO e lei de abertura de crédito extraordinário — admite-se **controle abstrato de constitucionalidade**, independentemente do caráter concreto do objeto.\n\n**Por que as demais erram:** **A** a doutrina majoritária a vê como lei só formal (não material); **B** é aprovada por **maioria simples** (lei ordinária); **D** o STF **admite** o controle abstrato; **E** é lei **temporária**, não permanente.",
+"options": [
+"É lei em sentido material, dotada de abstração e generalidade.",
+"É lei complementar, aprovada por maioria absoluta.",
+"É lei em sentido formal (efeitos concretos), temporária, especial e ordinária.",
+"Não pode, em nenhuma hipótese, ser objeto de controle abstrato de constitucionalidade.",
+"É lei de vigência permanente, sem limitação temporal."
+],
+"correctOption": "C",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^FCC • PGE-AM • 2022 • Téc. de Gestão Pública / Administração^^\n\nO **controle abstrato de constitucionalidade** de normas orçamentárias:",
+"back": "**Gabarito: E.** Segundo o STF, é **possível** o controle abstrato de constitucionalidade de leis orçamentárias, **mesmo que** o objeto tenha caráter **específico e concreto**.\n\n> 📖 **STF, ADI 5449 MC-Ref/RR (Rel. Teori Zavascki, 2016 — Info 817):** é cabível ADI contra **lei orçamentária, LDO e lei de abertura de crédito extraordinário**. O STF deve fiscalizar a constitucionalidade quando houver controvérsia constitucional suscitada em abstrato, {green:independentemente} do caráter geral/específico, concreto/abstrato do objeto.\n\n**Por que as demais erram:** **A** e **D** negam a possibilidade (com base na vigência limitada ou nos efeitos concretos) — superado pelo STF; **B** não se exige \"provar\" o caráter geral e abstrato; **C** exige-se que haja **tema/controvérsia constitucional**.",
+"options": [
+"não é possível, por se tratar de leis com vigência limitada.",
+"é possível, desde que se prove o caráter geral e abstrato de seu objeto.",
+"é possível, ainda que não exista tema ou controvérsia constitucional.",
+"não é possível, por se tratar de leis de efeitos concretos.",
+"é possível, mesmo que seu objeto seja dotado de caráter específico e concreto."
+],
+"correctOption": "E",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^CESPE • BACEN • 2009 • Procurador • adaptada C/E→A–E^^\n\nSegundo o posicionamento atual do STF, quanto ao **controle de constitucionalidade de normas orçamentárias**, é correto afirmar que:",
+"back": "**Gabarito: B.** {green:Correto}. O STF **alterou** seu entendimento e passou a admitir a **impugnação, em controle abstrato**, de leis orçamentárias.\n\n> 📖 **STF, ADI 5449 MC-Ref/RR (2016, Info 817):** cabível ADI contra **lei orçamentária, LDO e lei de abertura de crédito extraordinário**.\n\n> 💡 O item original dizia que \"não se revela viável\" o controle, por serem normas de efeitos concretos — {red:Errado}: hoje é **viável**.\n\n**Por que as demais erram:** **A**, **C**, **D** e **E** negam o cabimento do controle abstrato ou restringem-no indevidamente (a efeitos concretos/vigência limitada) — contrariando o atual entendimento do STF.",
+"options": [
+"não é viável o controle abstrato, por serem normas de efeitos concretos.",
+"é viável o controle abstrato de leis orçamentárias, LDO e lei de crédito extraordinário.",
+"o controle só é cabível após a execução do orçamento.",
+"o controle é vedado em razão da vigência limitada dessas leis.",
+"apenas a LOA, e nunca a LDO, pode ser objeto de controle abstrato."
+],
+"correctOption": "B",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^CESPE • ABIN • 2018 • Oficial de Inteligência • adaptada C/E→A–E^^\n\nA jurisprudência atual do STF sobre as **leis orçamentárias** e o controle de constitucionalidade afirma que elas:",
+"back": "**Gabarito: D.** {green:Correto}. As leis orçamentárias **podem** ser objeto de **controle abstrato** de constitucionalidade (ADI).\n\n> 📖 **STF, ADI 5449 MC-Ref/RR (2016):** o STF exerce sua função de fiscalização sempre que houver controvérsia constitucional suscitada em abstrato, {green:independentemente} do caráter concreto do objeto. Cabível ADI contra LOA, LDO e lei de crédito extraordinário.\n\n> 💡 O item original dizia que \"não podem ser objeto de controle abstrato, dada a natureza de ato administrativo concreto\" — {red:Errado}.\n\n**Por que as demais erram:** **A**, **B**, **C** e **E** negam o cabimento do controle abstrato ou o condicionam à natureza concreta/à execução — em desacordo com o STF.",
+"options": [
+"não podem ser objeto de controle abstrato, por serem ato administrativo concreto.",
+"só podem ser controladas após a vigência terminar.",
+"jamais admitem controle de constitucionalidade.",
+"podem ser objeto de controle abstrato de constitucionalidade (ADI).",
+"só admitem controle difuso, no caso concreto."
+],
+"correctOption": "D",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^VUNESP • Câmara de Araras • 2015 • Analista Financeiro e Orçamentário^^\n\nA lei orçamentária possui processo legislativo diferenciado (art. 166 da CF), é de iniciativa do Executivo e trata de matéria específica (fixação de despesas e previsão de receitas). Esse conjunto de características corresponde à natureza:",
+"back": "**Gabarito: B.** A lei orçamentária é **especial** porque possui **processo legislativo diferenciado** (art. 166 da CF), **iniciativa do Executivo** e trata de **matéria específica** (previsão de receitas e fixação de despesas).\n\n> 💡 Natureza **especial** = procedimento próprio + matéria própria + iniciativa reservada.\n\n**Por que as demais erram:** **A** \"formal\" refere-se à origem (órgão com competência legislativa), não ao procedimento diferenciado descrito; **C** \"temporária\" diz respeito à vigência limitada; **D** \"ordinária\" é o quórum de aprovação (maioria simples); **E** \"principiológica\" não é uma das naturezas da lei orçamentária.",
+"options": [
+"formal.",
+"especial.",
+"temporária.",
+"ordinária.",
+"principiológica."
+],
+"correctOption": "B",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre os orçamentos de natureza **impositiva** e **autorizativa**, assinale a alternativa correta.",
+"back": "**Gabarito: C.** O **orçamento autorizativo** (regra na quase totalidade da LOA brasileira) **não obriga** a execução das despesas — o Executivo tem {blue:discricionariedade} de conveniência e oportunidade. Já o **orçamento impositivo** obriga a execução do que foi consignado.\n\n| | Autorizativo | Impositivo |\n|---|---|---|\n| Execução | facultativa (discricionária) | **obrigatória** |\n| No Brasil | regra geral da LOA | emendas individuais e de bancada |\n\n> 📖 **EC 100/2019 — art. 165, §10, CF:** \"A administração tem o **dever de executar** as programações orçamentárias [...] para garantir a efetiva entrega de bens e serviços à sociedade\" → caráter **híbrido/impositivo flexível**.\n> 📖 **§ 11 (EC 102/2019):** o dever de execução **não impede** o cancelamento para créditos adicionais, **não se aplica** a impedimentos técnicos e incide só sobre **despesas primárias discricionárias**.\n\n**Por que as demais erram:** **A** a regra no Brasil é o autorizativo, não o impositivo; **B** no autorizativo não há obrigatoriedade de execução; **D** o caráter impositivo do §10 alcança despesas **discricionárias**, não as obrigatórias; **E** mesmo no impositivo, admite-se contingenciamento para cumprir metas fiscais.",
+"options": [
+"No Brasil, a regra é o orçamento impositivo em toda a LOA.",
+"No orçamento autorizativo, toda despesa fixada deve ser obrigatoriamente executada.",
+"O autorizativo confere discricionariedade ao Executivo; o impositivo obriga a execução, adotado para emendas individuais e de bancada.",
+"O dever de executar (art. 165, §10) alcança as despesas obrigatórias, e não as discricionárias.",
+"No orçamento impositivo, é vedado qualquer contingenciamento, ainda que para cumprir metas fiscais."
+],
+"correctOption": "C",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^FGV • ALERJ • 2017 • Procurador^^\n\nA EC nº 86/2015 — que tornou obrigatória a execução de emendas individuais ao projeto de lei orçamentária — veio a consagrar, ainda que parcialmente, o chamado orçamento:",
+"back": "**Gabarito: C.** A EC 86/2015 consagrou (parcialmente) o **orçamento impositivo**: a despesa consignada deve ser **necessariamente executada**. No Brasil, é adotado para a execução de **emendas parlamentares individuais e de bancada**.\n\n> 📖 **Atualização:** com a **EC 126/2022**, o percentual das emendas individuais passou a **2% da RCL** do exercício anterior ao do encaminhamento do projeto, sendo **metade** para ações e serviços públicos de **saúde** (antes, a EC 86/2015 previa 1,2% da RCL prevista no projeto).\n\n**Por que as demais erram:** **A** \"facultativo\" e **D** \"autorizativo\" são o oposto (não obrigam a execução); **B** \"discricionário\" remete à liberdade de execução, não à obrigatoriedade; **E** \"formal\" é a natureza jurídica da lei, não o regime de execução.",
+"options": [
+"facultativo;",
+"discricionário;",
+"impositivo;",
+"autorizativo;",
+"formal."
+],
+"correctOption": "C",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^FGV • Prefeitura do Recife • 2014 • Auditor do Tesouro • adaptada C/E→A–E^^\n\nSobre a **natureza do modelo orçamentário brasileiro** e a iniciativa das leis orçamentárias, é correto afirmar que o orçamento:",
+"back": "**Gabarito: A.** {green:Correto}. O orçamento brasileiro tem natureza **predominantemente autorizativa**, sendo fruto da **iniciativa do Poder Executivo**, que envia os projetos de lei para apreciação e votação do **Legislativo**.\n\n> 💡 O item original afirmava natureza **impositiva** como regra — {red:Errado}: a regra é **autorizativa** (a imposição é exceção: emendas individuais/bancada e o dever de execução do art. 165, §10, com flexibilizações).\n\n**Por que as demais erram:** **B**, **C** e **D** afirmam natureza impositiva como regra geral, o que é falso; **E** a iniciativa é do **Executivo**, não do Legislativo.",
+"options": [
+"tem natureza predominantemente autorizativa, com iniciativa do Poder Executivo.",
+"tem natureza impositiva em toda a LOA, com iniciativa do Executivo.",
+"tem natureza impositiva, vinculando integralmente a execução de todas as despesas.",
+"tem natureza impositiva, sendo de iniciativa do Poder Legislativo.",
+"tem natureza autorizativa, mas de iniciativa do Poder Legislativo."
+],
+"correctOption": "A",
+"topicName": "Natureza Jurídica do Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSobre a **atividade financeira do Estado (AFE)**, assinale a alternativa correta.",
+"back": "**Gabarito: D.** A **AFE** consiste em **obter, criar, gerir e despender** o dinheiro indispensável às necessidades públicas (Aliomar Baleeiro). Envolve quatro fenômenos:\n\n| Finalidade | Fenômeno |\n|---|---|\n| **Obter** receita | receita pública (originária e derivada) |\n| **Criar** crédito público | endividamento |\n| **Gerir** recursos | orçamento público |\n| **Despender** recursos | despesa pública |\n\n> 💡 Mnemônico — **OCGD**: **O**bter, **C**riar crédito, **G**erir, **D**espender.\n\n**Características:** presença de **pessoa jurídica de direito público**; **instrumentalidade** (a moeda é meio, não fim); **conteúdo monetário** (só dinheiro). A finalidade última é o **desenvolvimento econômico-social e o bem comum** — a arrecadação é apenas **uma** das finalidades.\n\n**Por que as demais erram:** **A** a arrecadação não é a finalidade *principal* (é meio para o bem comum); **B** a AFE não capta bens/serviços, apenas dinheiro (conteúdo monetário); **C** não é um fim em si mesma (é instrumental); **E** sempre há pessoa jurídica de direito público envolvida.",
+"options": [
+"Tem como finalidade principal a arrecadação de recursos.",
+"Abrange a captação de bens e serviços, além de dinheiro.",
+"Constitui um fim em si mesma, voltada ao aumento do patrimônio estatal.",
+"Consiste em obter, criar, gerir e despender dinheiro para atender às necessidades públicas.",
+"Pode ocorrer sem a presença de qualquer pessoa jurídica de direito público."
+],
+"correctOption": "D",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^CESPE • MPE-SC • 2022 • adaptada C/E→A–E^^\n\nA respeito das atividades financeiras do Estado, é correto afirmar que:",
+"back": "**Gabarito: A.** {green:Correto}. Uma das atividades financeiras do Estado é a **criação do crédito público**, que ocorre por meio de **incremento do endividamento** — é a possibilidade de o governo **contrair empréstimos**, gerando obrigação a ser devolvida com juros e encargos.\n\n> 💡 As quatro áreas da AFE: receita, **crédito (endividamento)**, orçamento (gestão) e despesa.\n\n**Por que as demais erram:** **B** o crédito público gera obrigação de devolução (não é receita definitiva sem contrapartida); **C** a AFE abrange muito mais que a arrecadação de tributos; **D** o crédito público não se confunde com a mera execução da despesa; **E** a criação de crédito não é vedada — é uma das atividades financeiras típicas.",
+"options": [
+"A criação do crédito público é uma atividade financeira do Estado, ocorrendo por incremento do endividamento.",
+"O crédito público é receita definitiva, sem obrigação de devolução.",
+"A atividade financeira do Estado restringe-se à arrecadação de tributos.",
+"O crédito público confunde-se com a execução da despesa pública.",
+"A criação de crédito público é vedada ao Estado."
+],
+"correctOption": "A",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^FCC • CLDF • 2018 • Consultor Legislativo / Finanças Públicas^^\n\nO Direito Financeiro e a Ciência das Finanças têm como objeto a **atividade financeira do Estado**, que, como regra, consiste:",
+"back": "**Gabarito: E.** A atividade financeira do Estado consiste em **obter, criar, gerir e despender** o dinheiro indispensável às necessidades cuja satisfação o Estado assumiu ou cometeu a outras pessoas de direito público.\n\n> 💡 É uma atividade **instrumental** (meio) voltada ao atendimento das **necessidades públicas**.\n\n**Por que as demais erram:** **A** não é requisição pura de coisas/serviços sem contraprestação; **B** não é colaboração gratuita dos administrados; **C** não é deslocamento \"apenas do setor público para o privado\" (há obtenção e dispêndio); **D** a atividade financeira **tem** essência política (decisão sobre necessidades públicas).",
+"options": [
+"na requisição pura e simples de coisas e serviços dos administrados, sem contraprestação.",
+"na colaboração gratuita e honorífica dos administrados nas funções governamentais.",
+"no deslocamento apenas do setor público para o privado de recursos e serviços.",
+"em não ter nenhuma essência política, por inexistir caráter político na atividade financeira.",
+"em obter, gerir e despender o dinheiro indispensável às necessidades que o Estado assumiu."
+],
+"correctOption": "E",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^FCC • CLDF • 2018 • Consultor Legislativo / Finanças Públicas^^\n\nA respeito da **finalidade da atividade financeira do Estado**, a doutrina ensina que:",
+"back": "**Gabarito: A.** O objetivo fundamental da atividade financeira do Estado é **proporcionar recursos para o custeio de sua manutenção e funcionamento**, atividade **intimamente vinculada ao próprio fim do Estado** — o **bem comum** da população.\n\n> 💡 A AFE é **instrumental**: obter/gerir/despender recursos é **meio** para atingir o bem comum, não um fim em si.\n\n**Por que as demais erram:** **B** a AFE não é um fim em si mesma, e o Estado não tem por objetivo único o superávit; **C** a conduta do Estado **difere** da do particular (interesse público × privado); **D** a exploração direta de atividade econômica pelo Estado é **excepcional** (a regra é a livre iniciativa); **E** nem todas as estatais gozam de privilégios fiscais nem têm por fim exercer atividade financeira.",
+"options": [
+"o objetivo fundamental é proporcionar recursos para a manutenção do Estado, vinculado ao bem comum.",
+"a atividade financeira é um fim em si mesma, visando ao superávit patrimonial.",
+"há conduta idêntica entre Estado e particular na obtenção e no dispêndio de recursos.",
+"a exploração direta de atividade econômica pelo Estado é a regra constitucional.",
+"todas as estatais têm por finalidade exercer atividades financeiras, com privilégios fiscais."
+],
+"correctOption": "A",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^CESPE • MPU • 2015 • Analista • adaptada C/E→A–E^^\n\nA atividade financeira do Estado, caracterizada pela presença constante de pessoa jurídica de direito público, tem como **principal finalidade**:",
+"back": "**Gabarito: C.** A principal finalidade da atividade financeira do Estado é a **promoção do desenvolvimento econômico e social e a consecução do bem comum** — a arrecadação é apenas **um meio** para isso.\n\n> 💡 O item original dizia que a finalidade principal seria \"a **arrecadação** de recursos\" — {red:Errado}: arrecadar é instrumental; o fim é o bem comum.\n\n**Por que as demais erram:** **A** a arrecadação é meio, não fim principal; **B** o superávit não é o objetivo central; **D** a emissão de moeda é da política monetária (Banco Central), não da AFE; **E** a AFE não se resume a despender recursos.",
+"options": [
+"a arrecadação de recursos por meio de tributos.",
+"a obtenção de superávit financeiro.",
+"a promoção do desenvolvimento econômico e social e a consecução do bem comum.",
+"o controle da emissão de moeda e da inflação.",
+"a mera realização de despesas públicas."
+],
+"correctOption": "C",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^FCC • TCE-AP • 2012 • Técnico de Controle Externo^^\n\nA **atividade financeira do Estado** compreende:",
+"back": "**Gabarito: C.** A atividade financeira do Estado compreende a **obtenção de receitas e a realização de despesas** (além da gestão dos recursos via orçamento e da criação de crédito público).\n\n> 💡 Receitas **originárias** (patrimônio do Estado) e **derivadas** (tributos, multas); despesas para atender às necessidades públicas.\n\n**Por que as demais erram:** **A** não se restringe a receitas originárias; **B** não abrange só receitas (há também despesas e gestão); **D** prestação de serviços e obras são *consequência* do gasto, não a definição da AFE; **E** não se limita à geração de despesas.",
+"options": [
+"apenas a obtenção de receitas originárias.",
+"apenas a obtenção de receitas, originárias e derivadas.",
+"a obtenção de receitas e a realização de despesas.",
+"a prestação de serviços públicos e a realização de obras públicas.",
+"apenas a geração das despesas."
+],
+"correctOption": "C",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^FCC • TCE-RR • 2008 • Procurador de Contas^^\n\n**NÃO** é característica da atividade financeira do Estado:",
+"back": "**Gabarito: E.** {red:Não} é característica afirmar que \"a **arrecadação de recursos é a principal finalidade**\" da atividade financeira. A arrecadação é apenas **uma** das finalidades; a finalidade última é a **consecução do bem comum** e o desenvolvimento econômico-social.\n\n**Por que as demais são características verdadeiras:** **A** presença constante de **pessoa jurídica de direito público**; **B** finalidade voltada à **consecução do bem comum**; **C** **instrumentalidade** (meio para os objetivos estatais); **D** **conteúdo monetário** (refere-se a dinheiro).",
+"options": [
+"a presença constante de uma pessoa jurídica de direito público.",
+"sua finalidade é a consecução do bem comum.",
+"a instrumentalidade, pois é apenas um meio para o Estado atingir seus objetivos.",
+"conteúdo e objeto de cunho econômico-financeiro, referindo-se a dinheiro.",
+"a arrecadação de recursos é a principal finalidade de tal atividade."
+],
+"correctOption": "E",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^FUNRIO • Prefeitura de Itaboraí • 2007 • Fiscal de Tributos^^\n\nA atividade financeira do Estado desenvolve-se em **três campos**, a saber:",
+"back": "**Gabarito: D.** A atividade financeira do Estado desenvolve-se nos campos de **receita, gestão e despesa**.\n\n| Campo | Conteúdo |\n|---|---|\n| **Receita** | obtenção de recursos (originários e derivados) e crédito público |\n| **Gestão** | planejamento, execução e controle via orçamento público |\n| **Despesa** | dispêndio de recursos para os fins do governo |\n\n**Por que as demais erram:** **A**, **B**, **C** e **E** trazem agrupamentos (direção/coordenação/controle; orçamento/execução/análise; planejamento/orçamento/balanço; tributação/arrecadação/fiscalização) que **não** correspondem aos três campos clássicos: **receita, gestão e despesa**.",
+"options": [
+"direção; coordenação e controle.",
+"orçamento; execução e análise.",
+"planejamento, orçamento e balanço.",
+"receita; gestão e despesa.",
+"tributação, arrecadação e fiscalização."
+],
+"correctOption": "D",
+"topicName": "Atividade Financeira do Estado"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nSegundo a classificação de **Richard Musgrave**, as **funções clássicas do orçamento** são corretamente descritas em:",
+"back": "**Gabarito: A.** As três **funções fiscais/do orçamento** (Musgrave, 1974) são:\n\n| Função | Objetivo | Exemplos |\n|---|---|---|\n| **Alocativa** | promover ajustamentos na **alocação de recursos**; ofertar bens públicos e meritórios; corrigir externalidades | iluminação pública, infraestrutura, saúde/educação |\n| **Distributiva** | promover ajustamentos na **distribuição de renda** | IR progressivo, transferências (Bolsa Família), subsídios |\n| **Estabilizadora** | manter a **estabilidade econômica** (emprego, preços) atuando na **demanda agregada** | reduzir impostos na recessão |\n\n> 💡 Mnemônico — **ADE**: **A**locativa (recursos), **D**istributiva (renda), **E**stabilizadora (economia). A estabilizadora {red:não tem por objetivo destinar recursos}.\n\n**Por que as demais erram:** **B**, **C**, **D** e **E** trocam as finalidades entre as funções ou incluem \"função monetária/social\" que não integra a classificação de Musgrave.",
+"options": [
+"Alocativa (alocação de recursos), distributiva (distribuição de renda) e estabilizadora (estabilidade econômica).",
+"Alocativa (renda), distributiva (preços) e estabilizadora (recursos).",
+"Monetária, fiscal e cambial.",
+"Alocativa, social e referencial.",
+"Distributiva (recursos), alocativa (renda) e estabilizadora (tributos)."
+],
+"correctOption": "A",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^Elaborada pelo professor^^\n\nA intervenção do Estado na economia justifica-se pelas **falhas de mercado**. Assinale a alternativa que associa corretamente a falha ao seu conceito.",
+"back": "**Gabarito: B.** As **falhas de mercado** justificam a intervenção estatal:\n\n| Falha | Conceito |\n|---|---|\n| **Bens públicos** | não rivais e não excludentes (ex.: iluminação) — o mercado não precifica |\n| **Monopólios naturais** | único prestador (ex.: água/gás canalizado) — risco de preço abusivo |\n| **Externalidades** | efeitos a terceiros, positivos (subsidiar) ou negativos (poluição → tributar/multar) |\n| **Assimetria de informação** | uma parte sabe mais que a outra (gera {blue:seleção adversa} e {blue:risco moral}) |\n| **Mercados incompletos** | bem não ofertado mesmo com custo < disposição a pagar |\n\n> ⚠️ **Seleção adversa** = escolha incorreta por falta de informação **antes** do negócio; **risco moral (moral hazard)** = conduta negligente **depois** de fechado o negócio.\n\n**Por que as demais erram:** **A** externalidade negativa pede {red:desincentivo} (tributação/multa), não subsídio; **C** monopólio natural tem **um** ofertante, não vários; **D** bem público é **não excludente** (não \"exclui quem não paga\"); **E** inverte os conceitos de seleção adversa e risco moral.",
+"options": [
+"A externalidade negativa deve ser estimulada com subsídios pelo Estado.",
+"Bens públicos são não rivais e não excludentes; monopólios naturais têm um único prestador; externalidades afetam terceiros.",
+"O monopólio natural caracteriza-se pela presença de muitos ofertantes concorrentes.",
+"O bem público puro permite excluir quem não paga pelo serviço.",
+"Seleção adversa ocorre após o negócio, e o risco moral, antes dele."
+],
+"correctOption": "B",
+"topicName": "Falhas de Mercado"
+},
+{
+"front": "^^CEBRASPE • Codevasf • 2024 • Analista / Administração • adaptada C/E→A–E^^\n\nA respeito da **função estabilizadora** do orçamento, assinale a alternativa correta.",
+"back": "**Gabarito: D.** {green:Correto}. A função **estabilizadora** usa a política fiscal para **manter a estabilidade econômica** — controlar a inflação, reduzir o desemprego e sustentar o crescimento —, atuando sobre a **demanda agregada**.\n\n> 💡 O item original dizia que a estabilizadora visaria \"ampliar a oferta de bens **semipúblicos**\" — {red:Errado}: ofertar bens semipúblicos/meritórios é da função **alocativa**. A estabilizadora {red:não tem por objetivo destinar recursos}.\n\n**Por que as demais erram:** **A** ampliar bens semipúblicos é função alocativa; **B** redistribuir renda é função distributiva; **C** corrigir externalidades é alocativa; **E** a estabilizadora não tem por foco a distribuição de renda.",
+"options": [
+"Visa ampliar a oferta de bens semipúblicos pelo Estado.",
+"Tem por objetivo principal redistribuir a renda entre os grupos sociais.",
+"Destina-se a corrigir externalidades por meio de subsídios e tributos.",
+"Usa a política fiscal para manter a estabilidade econômica, atuando na demanda agregada.",
+"Tem por finalidade reduzir as desigualdades de renda da população."
+],
+"correctOption": "D",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^Consulplan • Prefeitura de Belo Horizonte (Prodabel) • 2024 • Analista^^\n\nA função clássica do orçamento que tem por finalidade a **repartição da riqueza e a redução das desigualdades sociais** (via tributação progressiva e transferência de renda) é a função:",
+"back": "**Gabarito: D.** É a função **distributiva**, responsável pela **redistribuição de renda e riqueza** para reduzir desigualdades — por meio de **tributação progressiva** (quem ganha mais paga mais) e **programas de transferência de renda** (assistência social, subsídios).\n\n> 💡 Distributiva ⇒ {green:equidade}/renda. Alocativa ⇒ recursos/bens. Estabilizadora ⇒ economia.\n\n**Por que as demais erram:** **A** a **alocativa** corrige falhas de mercado provendo bens públicos/meritórios, não redistribui renda; **B** \"equitativa\" não é uma das três funções clássicas; **C** \"monetária\" não integra as funções do orçamento (é do Banco Central).",
+"options": [
+"Alocativa.",
+"Equitativa.",
+"Monetária.",
+"Distributiva.",
+"Estabilizadora."
+],
+"correctOption": "D",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^VUNESP • Prefeitura de Jaguariúna • 2023^^\n\nA função do governo que **contrabalança os princípios da equidade e da eficiência**, evitando criar incentivos perversos para recipientes ou financiadores de políticas sociais, é a função:",
+"back": "**Gabarito: D.** É a função **distributiva**: visa promover **ajustamentos na distribuição de renda**, corrigindo falhas de mercado e contrabalançando **equidade e eficiência**, por meio da tributação e de transferências financeiras.\n\n> 💡 \"Equidade × eficiência\" é a tensão típica da função **distributiva**.\n\n**Por que as demais erram:** **A** a alocativa trata da alocação de recursos (bens públicos/meritórios); **B** \"social\" e **C** \"equitativa\" não são funções clássicas de Musgrave; **E** a estabilizadora cuida da estabilidade econômica (emprego/preços).",
+"options": [
+"alocativa.",
+"social.",
+"equitativa.",
+"distributiva.",
+"estabilizadora."
+],
+"correctOption": "D",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^VUNESP • PC-RR • 2022^^\n\nA função relacionada às escolhas orçamentárias na busca do **pleno emprego**, da **estabilidade de preços**, do **equilíbrio da balança de pagamentos** e das **taxas de câmbio**, com vistas ao crescimento sustentável, é a função:",
+"back": "**Gabarito: D.** É a função **estabilizadora**: aplica políticas econômico-financeiras (monetária, cambial e fiscal) para **ajustar o nível geral de preços, melhorar o emprego, estabilizar a moeda e promover o crescimento** — associada à manutenção da **estabilidade econômica**.\n\n> 💡 Pleno emprego + estabilidade de preços + balanço de pagamentos ⇒ **estabilizadora**.\n\n**Por que as demais erram:** **A** alocativa = alocação de recursos/bens públicos; **B** distributiva = distribuição de renda; **C** \"redistributiva\" não é função clássica autônoma de Musgrave; **E** \"de planejamento\" não integra a classificação das funções do orçamento.",
+"options": [
+"alocativa.",
+"distributiva.",
+"redistributiva.",
+"estabilizadora.",
+"de planejamento."
+],
+"correctOption": "D",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FGV • TCU • 2022 • Auditor Federal de Controle Externo^^\n\nO STF considera a EBCT (Correios) imune a impostos mesmo nas atividades em regime de concorrência, pois oferta o serviço postal em localidades distantes a preço módico — serviço que o mercado não ofertaria adequadamente. À luz das funções de Governo, o fenômeno descrito expressa a função:",
+"back": "**Gabarito: C.** Trata-se da função **alocativa do Estado**: embora pudesse ser ofertado pela iniciativa privada, o serviço **não seria adequadamente prestado** (ou só a custo exorbitante) nas regiões de difícil acesso, por causa de uma **função social** envolvida. É um caso de **bem semipúblico/meritório**, em que o Estado intervém para garantir a oferta.\n\n> 💡 \"O mercado não oferta (ou oferta mal) por causa da função social\" ⇒ função **alocativa**.\n\n**Por que as demais erram:** **A** distribucionista (distributiva) trata de renda; **B** estabilizadora cuida da economia; **D** \"progressiva\" e **E** \"referencial\" não são funções da teoria de Musgrave.",
+"options": [
+"distribucionista do Estado;",
+"estabilizadora do Estado;",
+"alocativa do Estado;",
+"progressiva do Estado;",
+"referencial do Estado."
+],
+"correctOption": "C",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^CESPE • EBSERH • 2018 • Analista Administrativo • adaptada C/E→A–E^^\n\nA respeito da **função estabilizadora** do orçamento público, é correto afirmar que ela:",
+"back": "**Gabarito: D.** {green:Correto}. A função **estabilizadora** visa **manter a estabilidade econômica** (emprego e preços), **diferenciando-se** das demais por **não ter como objetivo a destinação de recursos**.\n\n> 💡 O item original dizia que a estabilizadora combateria \"desequilíbrios **regionais e sociais** por meio de gastos\" — {red:Errado}: combater desigualdades regionais/sociais aproxima-se da função **distributiva/alocativa**, não da estabilizadora.\n\n**Por que as demais erram:** **A** corrigir desequilíbrios regionais/sociais não é o foco da estabilizadora; **B** redistribuir renda é a distributiva; **C** prover bens públicos é a alocativa; **E** a estabilizadora tem, sim, papel definido (estabilidade econômica), atuando na demanda agregada.",
+"options": [
+"combate os desequilíbrios regionais e sociais por meio dos gastos públicos.",
+"redistribui renda entre os diferentes grupos sociais.",
+"provê bens públicos não ofertados pela iniciativa privada.",
+"visa manter a estabilidade econômica, sem ter por objetivo a destinação de recursos.",
+"não possui papel definido na atuação do Estado na economia."
+],
+"correctOption": "D",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^CESPE • TCE-PA • 2016 • Auditor de Controle Externo • adaptada C/E→A–E^^\n\nSobre as **funções econômicas exercidas pelo Estado** (cabe ao governo executá-las), é correto afirmar que elas se dividem em:",
+"back": "**Gabarito: A.** {green:Correto}. As funções econômicas (clássicas) exercidas pelo Estado dividem-se em **alocativa, distributiva e estabilizadora** (classificação de Musgrave).\n\n> 💡 Mnemônico — **ADE**.\n\n**Por que as demais erram:** **B** \"monetária/cambial/fiscal\" são políticas econômicas, não as funções clássicas do orçamento; **C** \"social\" não integra a tríade; **D** \"fiscalizadora\" não é função clássica; **E** \"de planejamento\" não compõe a classificação de Musgrave.",
+"options": [
+"alocativa, distributiva e estabilizadora.",
+"monetária, cambial e fiscal.",
+"alocativa, social e estabilizadora.",
+"alocativa, distributiva e fiscalizadora.",
+"de planejamento, alocativa e distributiva."
+],
+"correctOption": "A",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^CESPE • TCE-PR • 2016 • Auditor / Conselheiro Substituto • adaptada C/E→A–E^^\n\nA função do orçamento público que visa **melhorar a posição de algumas pessoas em detrimento de outras**, corrigindo falhas de mercado, é denominada:",
+"back": "**Gabarito: B.** {green:Correto}. É a função **distributiva**, que promove **ajustamentos na distribuição de renda**, contrabalançando **equidade e eficiência** — usando tributos e transferências.\n\n> 💡 \"Melhorar a posição de uns em relação a outros\" (renda) ⇒ **distributiva**.\n\n**Por que as demais erram:** **A** alocativa = alocação de recursos/bens; **C** estabilizadora = estabilidade econômica; **D** \"fiscal\" é uma política, não função clássica do orçamento; **E** \"social\" não é uma das três funções de Musgrave.",
+"options": [
+"alocativa.",
+"distributiva.",
+"estabilizadora.",
+"fiscal.",
+"social."
+],
+"correctOption": "B",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^VUNESP • Câmara Municipal de São Paulo • 2007 • Consultor Técnico Legislativo / Economia^^\n\nÉ parte da **função alocativa** do Estado:",
+"back": "**Gabarito: B.** **Fornecer iluminação pública** é exemplo clássico da função **alocativa**: o Estado oferta um **bem público** (não rival e não excludente) que a iniciativa privada não provê adequadamente.\n\n> 💡 Bens públicos/meritórios + infraestrutura ⇒ função **alocativa**.\n\n**Por que as demais erram:** **A** aplicar alíquotas maiores aos mais ricos (IR progressivo) é função **distributiva**; **C** investir para aumentar o emprego é função **estabilizadora**; **D** determinar a taxa básica de juros é **política monetária** (Banco Central); **E** fiscalizar a evasão de impostos é atividade de **administração tributária**, não a função alocativa.",
+"options": [
+"aplicar alíquotas maiores de imposto aos mais ricos.",
+"fornecer iluminação pública.",
+"fazer investimentos para aumentar o emprego.",
+"determinar a taxa básica de juros.",
+"fiscalizar a evasão de impostos."
+],
+"correctOption": "B",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FCC • Assembleia Legislativa-PE • 2014 • Consultor Legislativo^^\n\nEm relação às **funções do Estado na economia**, assinale a alternativa correta.",
+"back": "**Gabarito: B.** A adoção de **políticas de transferência de renda** em favor das populações mais carentes é instrumento da função **distributiva** — cujos instrumentos típicos são os **sistemas de tributos e as transferências**.\n\n> 💡 As funções são **relacionadas, mas não excludentes**: uma não exige abrir mão das outras.\n\n**Por que as demais erram:** **A** cumprir a distributiva {red:não} exige abrir mão das funções alocativa e estabilizadora — uma função não exclui a outra; **C** os instrumentos de **política monetária são adequados** à função estabilizadora; **D** a criação de empresas estatais **não** é o único meio de cumprir as funções alocativa/distributiva; **E** cumprir alocativa e distributiva não implica necessariamente déficit que sacrifique a estabilizadora.",
+"options": [
+"Para cumprir a função distributiva, o Estado deve abrir mão das funções alocativa e estabilizadora.",
+"A transferência de renda em favor de populações carentes é instrumento da função distributiva.",
+"Os instrumentos de política monetária não servem à função estabilizadora.",
+"A criação de empresas estatais é o único meio de cumprir as funções alocativa e distributiva.",
+"Cumprir as funções alocativa e distributiva implica necessariamente déficit e sacrifício da estabilizadora."
+],
+"correctOption": "B",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FCC • SEAD-PI • 2013 • Analista de Planejamento e Orçamento^^\n\nNo SUS, o fornecimento de serviços hospitalares e ambulatoriais de **alta complexidade** para toda a população pelo governo estadual relaciona-se com a função:",
+"back": "**Gabarito: E.** Relaciona-se à função **alocativa, com a provisão de bens semipúblicos** (meritórios). Os bens meritórios (saúde, educação) **excluem** quem não pode pagar e podem ser explorados pelo setor privado, mas o Estado os provê em razão de sua **relevância social**.\n\n> 💡 Saúde/educação ofertadas pelo Estado ⇒ função **alocativa** + bens **meritórios/semipúblicos**.\n\n**Por que as demais erram:** **A** saúde não é \"bem privado\"; **B** a provisão de saúde é alocativa, não \"distributiva com bens públicos\"; **C** saúde/educação são bens **semipúblicos** (meritórios), não bens públicos puros; **D** a função não é estabilizadora.",
+"options": [
+"alocativa, com a produção de bens privados.",
+"distributiva, com a provisão de bens públicos.",
+"alocativa, com a provisão de bens públicos.",
+"estabilizadora, com a produção de bens públicos.",
+"alocativa, com a provisão de bens semipúblicos."
+],
+"correctOption": "E",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FCC • TCE-SP • 2013 • Auditor^^\n\nSegundo a classificação de **Richard Musgrave** sobre as funções do setor público, é correto afirmar:",
+"back": "**Gabarito: B.** O Estado desempenha sua função **estabilizadora** ao **diminuir impostos quando a economia está em depressão**, visando aumentar o consumo (atuação sobre a **demanda agregada**).\n\n> 💡 Recessão ⇒ reduzir impostos/aumentar gasto ⇒ estimular a demanda agregada (função estabilizadora).\n\n**Por que as demais erram:** **A** produzir infraestrutura é função **alocativa**, não distributiva; **C** o Bolsa Família é função **distributiva** (não alocativa); **D** produzir bens públicos é função **alocativa** (não estabilizadora); **E** a distributiva beneficia as pessoas de **menor** renda (não as de maior renda).",
+"options": [
+"A produção de bens de infraestrutura faz parte da função distributiva, por beneficiar os carentes.",
+"O Estado desempenha a função estabilizadora ao diminuir impostos quando a economia está em depressão.",
+"O Bolsa Família é exemplo da função alocativa, por alocar recursos aos mais pobres.",
+"Produzir bens públicos é exemplo da função estabilizadora.",
+"O Estado cumpre a distributiva ao cobrar impostos progressivos e beneficiar quem tem maior renda."
+],
+"correctOption": "B",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FGV • IBGE • 2016 • Analista / Planejamento e Gestão^^\n\nQuando um ente estatal propõe no orçamento a **estruturação do anel viário** para escoamento da produção de uma região, trata-se de uma atividade do âmbito da função do orçamento:",
+"back": "**Gabarito: A.** É a função **alocativa**: o Estado promove ajustamentos na alocação de recursos, ofertando **infraestrutura econômica** que a iniciativa privada não provê adequadamente (altos valores e retornos demorados desestimulam o setor privado).\n\n> 💡 Infraestrutura/obras (anel viário, metrô, rodovias) ⇒ função **alocativa**.\n\n**Por que as demais erram:** **B** distributiva trata de renda; **C** estabilizadora trata da estabilidade econômica; **D** \"fiscal\" é política, não função clássica; **E** \"investimento\" não é uma das três funções de Musgrave.",
+"options": [
+"alocativa;",
+"distributiva;",
+"estabilizadora;",
+"fiscal;",
+"investimento."
+],
+"correctOption": "A",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FGV • TCE-RJ • 2015 • Auditor Substituto de Conselheiro^^\n\nO **FIES** (Fundo de Financiamento Estudantil), que oferece cobertura de mensalidades de cursos superiores privados a juros baixos, expressa qual função econômica do Estado?",
+"back": "**Gabarito: B.** É a função **alocativa, por se referir à provisão de um bem meritório**. A educação é **bem meritório/semipúblico**: pode ser explorada pelo setor privado, mas o Estado intervém (FIES) por sua **importância social**.\n\n> 💡 Educação/saúde ⇒ bem **meritório** ⇒ função **alocativa**.\n\n**Por que as demais erram:** **A** educação não é \"bem público puro\" (é meritório/semipúblico); **C**, **D** e **E** classificam como **distributiva** — incorreto: a provisão de um bem meritório é função **alocativa**, não distributiva.",
+"options": [
+"alocativa, por tratar de um bem público puro;",
+"alocativa, por se referir à provisão de um bem meritório;",
+"distributiva, por ser um bem semipúblico;",
+"distributiva, por promover ajustamentos na distribuição de renda;",
+"distributiva, por convergir com o Ótimo de Pareto."
+],
+"correctOption": "B",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FGV • TCE-BA • 2013 • Agente Público • (questão anulada)^^\n\nOs investimentos em infraestrutura exigem elevados recursos e longo retorno, o que desestimula a iniciativa privada, sendo compreensível que se tornem competência estatal. A função econômica do Estado tratada é a:",
+"back": "**Gabarito: B.** É a função **alocativa**: o Estado promove ajustamentos na alocação de recursos, provendo **infraestrutura econômica** e bens públicos/meritórios que o setor privado não oferta com eficiência (altos valores e retornos demorados).\n\n> ⚠️ **Observação:** esta questão foi **ANULADA** pela banca, mas seu conteúdo segue válido para estudo (infraestrutura ⇒ função alocativa).\n\n**Por que as demais erram:** **A** estabilizadora cuida da estabilidade econômica; **C** \"desenvolvimentista\" e **D** \"meritória\" não são funções clássicas de Musgrave; **E** distributiva trata de renda.",
+"options": [
+"Função estabilizadora.",
+"Função alocativa.",
+"Função desenvolvimentista.",
+"Função meritória.",
+"Função distributiva."
+],
+"correctOption": "B",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FGV • CONDER • 2013 • Técnico de Administração^^\n\nO Estado realiza políticas econômicas para **promover o emprego e o desenvolvimento social**, diante da incapacidade do mercado. Essa ação baseia-se na função:",
+"back": "**Gabarito: D.** É a função **estabilizadora**: visa manter a **estabilidade econômica**, com campo de atuação na **manutenção de elevado nível de emprego** e na **estabilidade dos preços**.\n\n> 💡 Promover emprego/desenvolvimento e combater desemprego ⇒ função **estabilizadora**.\n\n**Por que as demais erram:** **A** distributiva trata de renda; **B** alocativa trata de recursos/bens públicos; **C** \"social\" e **E** \"financeira\" não são funções clássicas de Musgrave.",
+"options": [
+"distributiva.",
+"alocativa.",
+"social.",
+"estabilizadora.",
+"financeira."
+],
+"correctOption": "D",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FGV • SUDENE • 2013 • Economista^^\n\nA intervenção do Estado diante das **externalidades** pode ocorrer por:\n\n( ) Concessão de subsídios para gerar externalidades positivas.\n( ) Imposição de penalidades para reduzir externalidades negativas.\n( ) Assumir investimento de longo prazo de maturação e pouco rentável.\n\nAssinale:",
+"back": "**Gabarito: E.** **Todas** as possibilidades estão corretas — todas expressam a função **alocativa**:\n\n- **Externalidade positiva** ⇒ {green:incentivo} (subsídios, desoneração);\n- **Externalidade negativa** ⇒ {red:desincentivo} (tributação, multas, proibição);\n- **Infraestrutura** de longo prazo e baixa rentabilidade ⇒ o Estado a assume, pois o setor privado se desestimula.\n\n> 💡 Externalidade + ≈ subsidiar | Externalidade − ≈ tributar/multar.\n\n**Por que as demais erram:** **A**, **B**, **C** e **D** excluem indevidamente ao menos uma das possibilidades (I, II ou III), todas verdadeiras.",
+"options": [
+"se apenas a possibilidade I estiver correta.",
+"se apenas a possibilidade II estiver correta.",
+"se apenas as possibilidades I e II estiverem corretas.",
+"se apenas as possibilidades II e III estiverem corretas.",
+"se todas as possibilidades estiverem corretas."
+],
+"correctOption": "E",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FGV • Assembleia Legislativa-MA • 2013 • Consultor Legislativo / Orçamento Público^^\n\nCom relação à finalidade da **função distributiva**, assinale a afirmativa correta.",
+"back": "**Gabarito: D.** A função **distributiva** visa **promover o ajustamento na distribuição de renda**, buscando a **melhoria progressiva da qualidade de vida das camadas mais pobres** da população (tributação progressiva e transferências).\n\n> 💡 Distributiva ⇒ renda/equidade em favor das camadas mais pobres.\n\n**Por que as demais erram:** **A** manter a estabilidade econômica/combater a inflação é função **estabilizadora**; **B** buscar o equilíbrio receita-despesa aproxima-se da estabilizadora; **C** promover ajustamentos na **alocação de recursos** (custeio/investimentos) é função **alocativa**; **E** ampliar a atuação do Estado nos três níveis de poder não se vincula diretamente a nenhuma função.",
+"options": [
+"Manter a estabilidade econômica, combatendo a inflação e aumentando a renda da população ativa.",
+"Buscar o equilíbrio entre receita e despesa, distribuindo políticas conforme a arrecadação.",
+"Promover ajustamentos na alocação de recursos para melhorar a oferta de bens e serviços.",
+"Promover o ajustamento na distribuição de renda, melhorando a vida das camadas mais pobres.",
+"Ampliar a atuação do Estado nos três níveis de poder para atender a todas as demandas."
+],
+"correctOption": "D",
+"topicName": "Funções do Orçamento"
+},
+{
+"front": "^^FCC • SEFAZ-PE • 2022 • Auditor Fiscal do Tesouro Estadual^^\n\nAo considerar **toda despesa como uma nova despesa**, expressa-se o sentido de um orçamento:",
+"back": "**Gabarito: D.** Tratar **toda despesa como nova** — independentemente de ser despesa continuada de períodos passados ou inédita — é a essência do **orçamento base zero (OBZ)**. A cada ano, parte-se do {red:\"zero\"}, sendo necessário **provar a necessidade** de cada dotação, em competição com outras prioridades.\n\n> 💡 Filosofia do OBZ: **romper com o passado**; elaboração trabalhosa, demorada e cara; despreza a experiência acumulada e é incompatível com planejamento de médio/longo prazo.\n\n**Por que as demais erram:** **A** o tradicional baseia-se no exercício anterior; **B** o incremental faz ajustes marginais sobre o ano anterior; **C** o programa integra planejamento e metas; **E** o de desempenho foca no resultado do gasto, mas não trata toda despesa como nova.",
+"options": [
+"tradicional.",
+"incremental.",
+"programa.",
+"base zero.",
+"de desempenho."
+],
+"correctOption": "D",
+"topicName": "Espécies de Orçamento"
+}
+]
