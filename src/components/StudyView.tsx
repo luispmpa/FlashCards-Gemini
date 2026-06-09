@@ -10,6 +10,7 @@ import { getUserSettings } from '../lib/settings';
 import { fetchDueCards, fetchNewCards, getCardsForStudySession } from '../db';
 import { auth } from '../firebase';
 import { countDueAndNew } from '../lib/studyCounts';
+import { shuffle } from '../lib/shuffle';
 
 interface StudyViewProps {
   decks: Deck[];
@@ -61,7 +62,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
          const selected = targetCardIds
              .map(id => all.find(c => c.id === id))
              .filter((c): c is Flashcard => !!c);
-         const shuffled = [...selected].sort(() => Math.random() - 0.5);
+         const shuffled = shuffle(selected);
          setQueue(shuffled);
          setActiveCard(shuffled[0] || null);
          setShowAnswer(false);
@@ -111,7 +112,7 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
             cardsToStudy = subscribedCards;
         }
 
-        const shuffled = [...cardsToStudy].sort(() => Math.random() - 0.5);
+        const shuffled = shuffle(cardsToStudy);
         setQueue(shuffled);
         setActiveCard(shuffled[0] || null);
         setShowAnswer(false);
