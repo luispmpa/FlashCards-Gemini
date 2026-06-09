@@ -75,7 +75,7 @@ export function ReviewHistory({ logs }: ReviewHistoryProps) {
 
       {logs.length === 0 ? (
         <div className="bg-white border border-slate-200 rounded-xl p-12 text-center max-w-xl mx-auto space-y-4">
-          <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-450 border border-slate-100">
+          <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-400 border border-slate-100">
             <Calendar size={28} className="text-slate-400" />
           </div>
           <h3 className="text-lg font-semibold text-slate-800">Nenhum estudo registrado</h3>
@@ -125,7 +125,7 @@ export function ReviewHistory({ logs }: ReviewHistoryProps) {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={5} className="px-6 py-12 text-center text-slate-550">
+                    <td colSpan={5} className="px-6 py-12 text-center text-slate-500">
                       Nenhum resultado filtrado encontrado para "{searchTerm}".
                     </td>
                   </tr>
