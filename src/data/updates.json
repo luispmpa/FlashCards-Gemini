@@ -1,5 +1,55 @@
 [
   {
+    "id": "be5714e3-23a3-4dd9-a700-8b8f1000d5f2",
+    "date": "2026-06-09T00:00:00.000Z",
+    "category": "refactor",
+    "title": "Embaralhamento imparcial nas sessões de estudo",
+    "description": "As sessões de estudo embaralhavam os cards com o padrão enviesado array.sort(() => Math.random() - 0.5), cujo resultado não é uniforme e depende do motor de ordenação do navegador. Criada a função utilitária shuffle (algoritmo Fisher-Yates), com testes, garantindo que toda ordem de cards seja igualmente provável.",
+    "files": [
+      "src/lib/shuffle.ts",
+      "src/lib/shuffle.test.ts",
+      "src/components/StudyView.tsx"
+    ],
+    "commit": "5c8e5d7",
+    "status": "applied"
+  },
+  {
+    "id": "a488c8d5-79ab-4c7b-a1a9-ba5ddf6bde0b",
+    "date": "2026-06-09T00:00:00.000Z",
+    "category": "ux",
+    "title": "Corrigir cores inválidas no Histórico de Estudos",
+    "description": "As classes text-slate-450 e text-slate-550 não existem na paleta padrão do Tailwind, então o texto do estado vazio e da mensagem de \"nenhum resultado\" não recebia a cor pretendida e caía na cor herdada. Ajustadas para text-slate-400 e text-slate-500, restaurando o contraste e o visual esperados.",
+    "files": [
+      "src/components/ReviewHistory.tsx"
+    ],
+    "commit": "1f9c2f7",
+    "status": "applied"
+  },
+  {
+    "id": "c7f32833-d500-4c30-814d-a8589ac614f9",
+    "date": "2026-06-09T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Rótulos associados aos campos de metas",
+    "description": "Os campos \"Novos cartões por dia\" e \"Revisões máximas por dia\" em Configurações não associavam o label ao input (sem htmlFor/id), prejudicando leitores de tela e impedindo focar o campo ao clicar no rótulo. Adicionados id/htmlFor e min=0 para evitar metas negativas.",
+    "files": [
+      "src/components/SettingsView.tsx"
+    ],
+    "commit": "9973b33",
+    "status": "applied"
+  },
+  {
+    "id": "431a02f2-9954-4efc-88a4-f7c946336c73",
+    "date": "2026-06-09T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Frente do card acessível por teclado",
+    "description": "Na lista de Flashcards, a frente (questão) do card era clicável apenas com o mouse (div com onClick, sem suporte a teclado). Adicionados role=button, tabIndex, ativação por Enter/Espaço, aria-label e anel de foco visível, permitindo estudar um card navegando apenas pelo teclado.",
+    "files": [
+      "src/components/CardBrowser.tsx"
+    ],
+    "commit": "d6fb301",
+    "status": "applied"
+  },
+  {
     "id": "d3f1c0a2-8b4e-4c5a-9f10-000000000001",
     "date": "2026-06-02T12:00:00.000Z",
     "category": "ux",
