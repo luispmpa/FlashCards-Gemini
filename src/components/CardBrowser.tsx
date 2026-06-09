@@ -305,10 +305,19 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                                       />
                                    </td>
                                    <td className="px-6 py-4">
-                                      <div 
-                                         className="line-clamp-2 text-slate-800 cursor-pointer hover:text-indigo-600 transition-colors"
+                                      <div
+                                         role="button"
+                                         tabIndex={0}
+                                         className="line-clamp-2 text-slate-800 cursor-pointer hover:text-indigo-600 transition-colors rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
                                          onClick={() => onStudyCard(card.id)}
+                                         onKeyDown={(e) => {
+                                             if (e.key === 'Enter' || e.key === ' ') {
+                                                 e.preventDefault();
+                                                 onStudyCard(card.id);
+                                             }
+                                         }}
                                          title="Clique para estudar"
+                                         aria-label={`Estudar card: ${card.front.slice(0, 60)}`}
                                       >
                                          {card.front}
                                       </div>
