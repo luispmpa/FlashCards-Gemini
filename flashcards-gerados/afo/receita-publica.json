@@ -1,0 +1,1522 @@
+[
+  {
+    "front": "^^CESPE • SEPLAN-RR • 2023 • adaptada C/E→A–E^^\n\nQuanto à receita pública, assinale a alternativa correta sobre o conceito de receita em **sentido amplo** (lato sensu).",
+    "back": "**Gabarito: A.** Segundo o **MTO**, receita pública em **sentido amplo (lato sensu)** — ou {blue:ingresso público} — é {green:tudo que entra nos cofres do Estado} (bens ou direitos), seja como **financiamento de seus gastos** (incorporando-se ao patrimônio público), seja simplesmente como **recursos de terceiros** (com devolução posterior por meio do passivo financeiro). Por isso, **qualquer entrada de recurso é receita pública em sentido amplo, ainda que exija restituição futura** (ex.: caução, ARO).\n\n| Sentido | Definição | Exemplos |\n|---|---|---|\n| **Amplo (lato)** | Todo ingresso, com ou sem devolução | tributos, operações de crédito, ARO, cauções |\n| **Estrito (stricto)** | Só o que se incorpora ao patrimônio, sem devolução | tributos, alienação de bens, receita de contribuições |\n\n**Por que as demais erram:** **B/C** confundem com o sentido **estrito**, que exige incorporação definitiva ao patrimônio; **D** a exigência de restituição {red:não descaracteriza} a receita em sentido amplo; **E** não há necessidade de previsão na LOA para configurar ingresso em sentido amplo.",
+    "options": [
+      "Em sentido amplo, qualquer entrada de recurso nos cofres públicos é receita pública, ainda que exija restituição futura.",
+      "Em sentido amplo, só é receita o ingresso que se incorpora definitivamente ao patrimônio, sem devolução.",
+      "Em sentido amplo, receita é apenas o ingresso de natureza tributária.",
+      "Em sentido amplo, o ingresso sujeito a restituição futura não é considerado receita pública.",
+      "Em sentido amplo, só há receita pública se houver prévia previsão na Lei Orçamentária Anual."
+    ],
+    "correctOption": "A",
+    "topicName": "Receita Pública - Conceitos"
+  },
+  {
+    "front": "^^CESPE • PGE-RJ • 2022 • adaptada C/E→A–E^^\n\nEm relação a receitas e despesas públicas, assinale a alternativa correta sobre a receita pública em sentido amplo.",
+    "back": "**Gabarito: A.** Está correta a afirmação de que, **em sentido amplo, todo ingresso de recursos nos cofres do Estado é receita pública**. Segundo o **MTO**, receita em sentido amplo é {green:tudo que entra nos cofres do Estado} (bens ou direitos), seja como financiamento de seus gastos (incorporando-se ao patrimônio público), seja como **recursos de terceiros** (com devolução posterior por meio do passivo financeiro).\n\n> 📖 É a diferença entre **ingresso/entrada** (lato) e **receita stricto sensu** (só o que se incorpora ao patrimônio sem devolução).\n\n**Por que as demais erram:** **B** o conceito amplo {red:não exige} incorporação definitiva; **C** independe de previsão orçamentária; **D** abrange também os ingressos extraorçamentários; **E** tributos não são o único exemplo — há operações de crédito, cauções etc.",
+    "options": [
+      "Em sentido amplo, todo ingresso de recursos nos cofres do Estado é receita pública.",
+      "Em sentido amplo, só é receita o ingresso que se incorpora definitivamente ao patrimônio público.",
+      "Em sentido amplo, só é receita o ingresso previamente previsto no orçamento.",
+      "Em sentido amplo, os ingressos extraorçamentários não são receita pública.",
+      "Em sentido amplo, apenas os tributos constituem receita pública."
+    ],
+    "correctOption": "A",
+    "topicName": "Receita Pública - Conceitos"
+  },
+  {
+    "front": "^^FCC • Consultor Legislativo • CLDF • 2018 • adaptada C/E→A–E^^\n\nDe acordo com o MCASP, qual item pode ser classificado como receita pública em **sentido amplo**?",
+    "back": "**Gabarito: C.** O **recebimento de depósito-caução** é um ingresso público em **sentido amplo (lato sensu)**, pois nesse conceito enquadram-se {green:todas as entradas de bens ou direitos a qualquer título}, podendo ou não se incorporar ao patrimônio, independentemente de haver contrapartida no passivo. A caução é exemplo clássico de **ingresso extraorçamentário** (recurso de terceiros, sujeito a devolução), mas ainda assim é receita em sentido **amplo**.\n\n> 📖 **Lato sensu:** receitas tributárias, operações de crédito, ARO, **cauções** etc.\n> **Stricto sensu:** alienação de bens, receita de contribuições, receitas industriais etc. (incorporam-se ao patrimônio sem devolução).\n\n**Por que as demais erram:** **A, B, D e E** descrevem ingressos que se incorporam ao patrimônio (sentido estrito) ou características que não os qualificam como exemplo pedido de sentido amplo com devolução, sendo a **caução** o exemplo típico que só cabe no conceito amplo.",
+    "options": [
+      "Receita de alienação de bens imóveis.",
+      "Receita de contribuições sociais.",
+      "Recebimento de depósito-caução.",
+      "Receita industrial decorrente de venda de produtos.",
+      "Receita patrimonial de aluguéis."
+    ],
+    "correctOption": "C",
+    "topicName": "Receita Pública - Conceitos"
+  },
+  {
+    "front": "^^FGV • TJ-DFT • 2022^^\n\nPara um controle adequado do volume dos recursos públicos, é necessário distinguir os recursos que efetivamente pertencem ao Estado e financiam políticas públicas daqueles que representam entradas compensatórias. Um recurso de **caráter temporário e do qual o Estado é mero agente depositário** é exemplificado por:",
+    "back": "**Gabarito: E.** A palavra-chave do enunciado é {blue:\"caráter temporário\"}, que remete aos **ingressos extraorçamentários** — recursos de terceiros, dos quais o Estado é {green:mero agente depositário}, com posterior devolução. As **antecipações de receita orçamentária (ARO)** são o exemplo típico: embora as operações de crédito comuns sejam orçamentárias, as **operações de crédito por ARO são extraorçamentárias**.\n\n> 📖 **Mnemônico — extraorçamentárias \"CADE\":** **C**aução, **A**RO, **D**epósitos de terceiros, **E**missão de papel-moeda.\n\n**Por que as demais erram:** **A** subvenções econômicas são despesas (transferências de capital); **B** transferências voluntárias são receitas orçamentárias correntes/capital; **C** compensações financeiras (royalties) são receita orçamentária patrimonial; **D** tarifas de uso de serviços são receita orçamentária (originária).",
+    "options": [
+      "subvenções econômicas;",
+      "transferências voluntárias;",
+      "compensações financeiras;",
+      "tarifas de uso de serviços públicos;",
+      "antecipações da receita orçamentária."
+    ],
+    "correctOption": "E",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • Contador • Câmara de Fortaleza-CE • 2019 • adaptada C/E→A–E^^\n\nÀ luz do art. 57 da Lei nº 4.320/1964, sobre a classificação das receitas arrecadadas como receita orçamentária, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** O art. 57 manda classificar como receita orçamentária **toda receita arrecadada**, inclusive as provenientes de operações de crédito, ainda que não previstas no orçamento — **EXCETO** as classificadas como extraorçamentárias. E as **operações de crédito por ARO** são justamente {red:extraorçamentárias}. Logo, é {red:incorreto} dizer que a ARO se classifica como receita orçamentária.\n\n> 📖 **Art. 57, Lei 4.320/64:** \"Ressalvado o disposto no parágrafo único do art. 3º desta Lei serão classificadas como receita orçamentária, sob as rubricas próprias, todas as receitas arrecadadas, inclusive as provenientes de operações de crédito, ainda que não previstas no Orçamento.\"\n\n**Atenção:** {green:operação de crédito = orçamentária}; {red:operação de crédito por ARO = extraorçamentária}.\n\n**Por que as demais erram:** **A, C, D e E** afirmam, direta ou indiretamente, que a ARO seria receita orçamentária ou que toda operação de crédito é extraorçamentária — ambas incorretas.",
+    "options": [
+      "As operações de crédito por ARO são receita orçamentária, pois toda operação de crédito é orçamentária.",
+      "As operações de crédito por ARO são extraorçamentárias, excepcionando a regra do art. 57.",
+      "Toda operação de crédito é extraorçamentária, inclusive as de longo prazo.",
+      "Nenhuma receita arrecadada sem previsão no orçamento pode ser classificada como orçamentária.",
+      "A ARO é receita orçamentária de capital, na origem operações de crédito."
+    ],
+    "correctOption": "B",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • APOG • Pref. de Recife-PE • 2019 • adaptada C/E→A–E^^\n\nAssinale a alternativa que caracteriza corretamente as **receitas extraorçamentárias**.",
+    "back": "**Gabarito: C.** As receitas extraorçamentárias **não integram o orçamento público** e constituem **passivos exigíveis** do ente: correspondem a ingressos financeiros dos quais o ente é {green:apenas depositário}, gerando uma disponibilidade financeira em **contrapartida a uma obrigação financeira**. Têm caráter temporário e não se incorporam ao patrimônio (fato permutativo).\n\n> 📖 Seu pagamento/devolução {blue:não se sujeita a autorização legislativa}, pois não estão na LOA.\n\n**Por que as demais erram:** **A** elas não pertencem ao Estado nem se incorporam ao patrimônio; **B** não dependem de previsão na LOA; **D** não financiam despesas públicas orçamentárias; **E** não decorrem do poder de tributar (não são derivadas).",
+    "options": [
+      "São ingressos que pertencem definitivamente ao Estado e se incorporam ao seu patrimônio.",
+      "São ingressos previstos na LOA como fonte de financiamento de despesas.",
+      "Correspondem a ingressos financeiros dos quais o ente é apenas depositário, gerando disponibilidade em contrapartida a uma obrigação financeira.",
+      "São recursos definitivos que financiam despesas públicas orçamentárias.",
+      "Decorrem do poder de tributar do Estado, sendo espécie de receita derivada."
+    ],
+    "correctOption": "C",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário • TJ-MA • 2019 • adaptada C/E→A–E^^\n\nConforme o MCASP, os recursos financeiros de **caráter temporário**, dos quais o Estado é uma espécie de **agente depositário** e que, por isso, **não integram a LOA**, são as receitas:",
+    "back": "**Gabarito: D.** Essa é a descrição exata das receitas **extraorçamentárias** (ingressos extraorçamentários): caráter temporário, Estado como agente depositário e ausência de integração à LOA. A questão original trocava \"extraorçamentárias\" por \"orçamentárias\", tornando-a {red:errada}.\n\n> 📖 As **orçamentárias**, ao contrário, pertencem ao Estado, transitam pelo patrimônio público e, via de regra, **estão previstas na LOA**.\n\n**Por que as demais erram:** **A** orçamentárias integram a LOA e pertencem ao Estado; **B** correntes e **C** de capital são subdivisões das orçamentárias por categoria econômica; **E** intraorçamentárias são orçamentárias entre órgãos do mesmo ente.",
+    "options": [
+      "orçamentárias.",
+      "correntes.",
+      "de capital.",
+      "extraorçamentárias.",
+      "intraorçamentárias."
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • Contador • Câmara de Fortaleza-CE • 2019 • adaptada C/E→A–E^^\n\nSobre as receitas **orçamentárias**, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** As receitas **orçamentárias** pertencem ao Estado, **transitam pelo patrimônio do poder público** e, via de regra, **estão previstas na LOA** (por força do princípio da universalidade). A versão original afirmava que \"via de regra **não** estão previstas na LOA\", o que a tornava {red:errada}.\n\n> 📖 **Art. 57 da Lei 4.320/64:** ainda que uma receita arrecadada não esteja formalmente registrada na LOA, ela mantém o caráter orçamentário — mas a **regra** é a previsão.\n\n**Por que as demais erram:** **B** não se incorporar ao patrimônio é característica das extraorçamentárias; **C** o Estado não é mero depositário das orçamentárias; **D** elas não dispensam, em regra, a previsão na LOA; **E** a devolução posterior é própria das extraorçamentárias.",
+    "options": [
+      "Pertencem ao Estado, transitam pelo patrimônio do Poder Público e, via de regra, estão previstas na LOA.",
+      "Não se incorporam ao patrimônio público, pois têm caráter temporário.",
+      "O Estado é mero agente depositário desses recursos.",
+      "Via de regra, não estão previstas na Lei Orçamentária Anual.",
+      "Sujeitam-se a devolução posterior por meio do passivo financeiro."
+    ],
+    "correctOption": "A",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^CESPE • Analista • IPHAN • 2018 • adaptada C/E→A–E^^\n\nOs recursos recebidos em **caução** por determinado tribunal no curso de processos judiciais devem ser classificados como:",
+    "back": "**Gabarito: D.** As **cauções** são receitas **extraorçamentárias** — recursos de terceiros, de caráter temporário, sujeitos a devolução, dos quais o ente é mero depositário. Portanto, {red:não} integram o total de receitas orçamentárias.\n\n> 📖 Lembre-se: caução, ARO, depósitos e fianças = **extraorçamentárias**.\n\n**Por que as demais erram:** **A, B, C e E** classificam a caução como espécie de receita orçamentária (corrente, de capital, patrimonial ou de serviços), o que contraria seu caráter de mero depósito restituível.",
+    "options": [
+      "receita orçamentária corrente.",
+      "receita orçamentária de capital.",
+      "receita patrimonial.",
+      "receita extraorçamentária.",
+      "receita corrente de serviços."
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^CESPE • Auditor Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nSe o Estado receber determinado recurso na condição de depositário, sem que a correspondente restituição se sujeite a autorização legislativa, esse ingresso:",
+    "back": "**Gabarito: D.** Trata-se de **ingresso extraorçamentário**: o Estado é {green:depositário} e a restituição **não se sujeita a autorização legislativa**, justamente porque não integra a LOA. Logo, o ingresso **não será incluído na lei orçamentária anual**.\n\n> 📖 Extraorçamentárias = passivos exigíveis, caráter temporário, não se incorporam ao patrimônio.\n\n**Por que as demais erram:** **A, B e C** dizem que o ingresso seria orçamentário e/ou exigiria previsão na LOA; **E** o fato de o Estado ser depositário caracteriza a extraorçamentária, e não uma receita derivada.",
+    "options": [
+      "será incluído na LOA como receita corrente.",
+      "será incluído na LOA como receita de capital.",
+      "exigirá autorização legislativa para sua devolução.",
+      "não será incluído na lei orçamentária anual.",
+      "constituirá receita derivada do ente."
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^CESPE • Auditor Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nSobre as receitas **extraorçamentárias**, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** As receitas extraorçamentárias **não pertencem ao Estado**, têm **caráter temporário** e são reconhecidas na contabilidade como **passivos financeiros** (passivos exigíveis). Não integram o orçamento e sua devolução não depende de autorização legislativa.\n\n> 📖 São {blue:recursos de terceiros}: caução, ARO, depósitos, fianças, consignações.\n\n**Por que as demais erram:** **B** pertencem a terceiros, não ao Estado; **C** não se incorporam ao patrimônio (caráter temporário); **D** não integram a LOA; **E** geram fato permutativo, não aumentam o patrimônio líquido.",
+    "options": [
+      "Não pertencem ao Estado, têm caráter temporário e são reconhecidas como passivos financeiros.",
+      "Pertencem ao Estado e aumentam o seu patrimônio líquido.",
+      "Incorporam-se definitivamente ao patrimônio público.",
+      "Integram a Lei Orçamentária Anual como fonte de despesas.",
+      "Aumentam o saldo patrimonial do ente, gerando fato modificativo aumentativo."
+    ],
+    "correctOption": "A",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^CESPE • Auditor Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nClassificam-se como **receita orçamentária**, sob as rubricas próprias, todas as receitas arrecadadas. A respeito das operações de crédito por antecipação da receita (ARO) e das emissões de papel-moeda, é correto afirmar que:",
+    "back": "**Gabarito: B.** Serão classificadas como receita orçamentária todas as receitas arrecadadas, inclusive operações de crédito — **EXCETO** as classificadas como extraorçamentárias, como as **operações de crédito por ARO** e as **emissões de papel-moeda**. A questão original incluía indevidamente a ARO e a emissão de papel-moeda entre as orçamentárias, sendo {red:errada}.\n\n> 📖 **Art. 57, Lei 4.320/64** + ressalva das extraorçamentárias (ARO, emissão de moeda).\n\n**Por que as demais erram:** **A, C, D e E** afirmam que ARO e/ou emissão de papel-moeda seriam receita orçamentária, contrariando a ressalva legal.",
+    "options": [
+      "ARO e emissão de papel-moeda são receitas orçamentárias de capital.",
+      "ARO e emissão de papel-moeda são extraorçamentárias, excetuadas da regra do art. 57.",
+      "ARO é orçamentária e a emissão de papel-moeda é extraorçamentária.",
+      "ambas são receitas orçamentárias correntes.",
+      "ARO é extraorçamentária e a emissão de papel-moeda é orçamentária."
+    ],
+    "correctOption": "B",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas Públicas • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nA respeito da relação entre ingresso de receita e previsão orçamentária, assinale a alternativa correta.",
+    "back": "**Gabarito: C.** Conforme o **art. 57 da Lei 4.320/64**, serão classificadas como receita orçamentária todas as receitas arrecadadas, **inclusive as provenientes de operações de crédito, ainda que não previstas no Orçamento**. Logo, {red:nem todo} ingresso pressupõe prévia previsão na lei orçamentária — a arrecadação independe de constar formalmente na LOA.\n\n> 📖 **Art. 57, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** afirma que todo ingresso pressupõe previsão na LOA (errado); **B** a movimentação de recursos não exige sempre prévia autorização legislativa específica; **D e E** restringem indevidamente o conceito de receita orçamentária à previsão prévia.",
+    "options": [
+      "Todo ingresso de receita pressupõe sua prévia previsão na lei orçamentária.",
+      "A movimentação de qualquer recurso financeiro exige prévia autorização legislativa específica.",
+      "As receitas arrecadadas, inclusive as de operações de crédito, classificam-se como orçamentárias ainda que não previstas no orçamento.",
+      "Receita não prevista na LOA não pode ser classificada como orçamentária.",
+      "Somente receitas previstas na LOA podem ser arrecadadas pelo ente."
+    ],
+    "correctOption": "C",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^CESPE • Analista Administrativo • EBSERH • 2018 • adaptada C/E→A–E^^\n\nOperação de **arrendamento mercantil** feita por determinado órgão público para a aquisição de bens, quanto à sua classificação no conjunto das receitas, deve ser:",
+    "back": "**Gabarito: D.** O arrendamento mercantil (espécie de operação de crédito) **não deve ser excluído** das receitas orçamentárias. Pelo **art. 57** da Lei 4.320/64, classificam-se como orçamentárias todas as receitas arrecadadas, inclusive as de operações de crédito, exceto as extraorçamentárias (como a ARO). Como não é ARO, a operação é **receita orçamentária**.\n\n> 📖 {green:Operação de crédito comum = receita orçamentária de capital.}\n\n**Por que as demais erram:** **A** não deve ser excluída; **B** não é extraorçamentária; **C** é receita de capital, não corrente; **E** não é mero ingresso de terceiros.",
+    "options": [
+      "excluída das receitas orçamentárias, por ser operação de terceiros.",
+      "classificada como receita extraorçamentária.",
+      "classificada como receita corrente.",
+      "incluída entre as receitas orçamentárias, na categoria receita de capital (operações de crédito).",
+      "tratada como ingresso extraorçamentário sujeito a devolução."
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FGV • Especialista Legislativo • ALERJ • 2017 • adaptada C/E→A–E^^\n\nAssinale a alternativa correta sobre as receitas **extraorçamentárias**.",
+    "back": "**Gabarito: A.** As receitas extraorçamentárias são **recursos financeiros de caráter temporário**, que não integram o orçamento público e constituem passivos exigíveis do ente, não sujeitos a autorização legislativa para devolução.\n\n> 📖 Caráter temporário + Estado depositário + não se incorpora ao patrimônio.\n\n**Por que as demais erram:** **B** não se incorporam ao patrimônio; **C** não integram a LOA; **D** não decorrem do poder de tributar; **E** geram fato permutativo, não aumentativo.",
+    "options": [
+      "São recursos financeiros de caráter temporário.",
+      "Incorporam-se definitivamente ao patrimônio público.",
+      "Integram a LOA como fonte de despesas.",
+      "Decorrem do poder de tributar do Estado.",
+      "Aumentam o patrimônio líquido do ente."
+    ],
+    "correctOption": "A",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • TJTRT4 • TRT-4 • 2022^^\n\nO que caracteriza uma receita como **extraorçamentária**, diferenciando-a das receitas orçamentárias?",
+    "back": "**Gabarito: D.** O traço característico da extraorçamentária é {green:ingressar nos cofres públicos apenas de forma transitória, com caráter compensatório e não passível de constituir fonte para geração de despesas previstas na LOA}. São recursos de terceiros (caução, ARO, depósitos), dos quais o ente é mero depositário, gerando fato permutativo no patrimônio.\n\n> 📖 Para a STN, são recursos de terceiros arrecadados exclusivamente para posterior devolução; não se encontram previstos no orçamento.\n\n**Por que as demais erram:** **A** elas não constam dos quadros da LOA como base de metas fiscais; **B** excesso de arrecadação é fenômeno das **orçamentárias**, não o que define a extraorçamentária; **C** alienação de ativos e operações de crédito são receitas **orçamentárias** de capital; **E** previsão na LDO como cobertura de riscos não as caracteriza.",
+    "options": [
+      "O fato de não transitar no caixa, mas constar dos quadros demonstrativos da LOA como base das metas fiscais.",
+      "Seu caráter contingente, por serem originadas de excesso de arrecadação, gerando créditos suplementares.",
+      "Sua origem em alienação de ativos ou operações de crédito, com aplicação restrita em despesas de capital.",
+      "O fato de ingressar nos cofres públicos apenas de forma transitória, com caráter compensatório e não passível de gerar despesas previstas na LOA.",
+      "A previsão na LDO como fonte para cobertura de riscos fiscais."
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • AJTRT23 • TRT-23 • 2022^^\n\nConsiderando os princípios e a normatização relativa ao orçamento público, as denominadas **receitas extraorçamentárias**:",
+    "back": "**Gabarito: D.** As receitas extraorçamentárias possuem **caráter de extemporaneidade e transitoriedade** e **não integram o orçamento público** para fins de geração de despesas públicas. São recursos de terceiros, dos quais o ente é mero depositário.\n\n> 📖 Não se sujeitam a autorização legislativa; geram fato permutativo (ativo e passivo financeiro).\n\n**Por que as demais erram:** **A** não são vedadas; **B** não se originam de operações de crédito/securitização (estas são orçamentárias); **C** não são receitas derivadas nem decorrem de alienação de ativos; **E** não se vinculam ao pagamento de precatórios de exercício subsequente.",
+    "options": [
+      "são expressamente vedadas, salvo se provenientes de taxa ou preço público.",
+      "possuem caráter excepcional, originadas de operações de crédito ou securitização de dívidas.",
+      "constituem receitas derivadas, oriundas da alienação de ativos.",
+      "possuem caráter de extemporaneidade e transitoriedade e não integram o orçamento público para fins de geração de despesas.",
+      "pertencem ao exercício subsequente, constituindo fonte para pagamento de precatórios."
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • Proc(PGE-GO) • PGE-GO • 2021^^\n\nConsiderando a classificação relativa a receitas públicas e outras entradas de recursos, as denominadas **receitas extraorçamentárias** constituem:",
+    "back": "**Gabarito: C.** As receitas extraorçamentárias são **ingressos financeiros que transitam pelo caixa do Tesouro**, sendo objeto de lançamento contábil, **porém não passíveis de utilização para suportar despesas públicas previstas na LOA**. São recursos de terceiros, dos quais o ente é mero depositário.\n\n> 📖 Geram disponibilidade financeira em contrapartida a uma obrigação (passivo exigível).\n\n**Por que as demais erram:** **A** descreve o **excesso de arrecadação** (fenômeno das orçamentárias); **B** o princípio da anualidade não as restringe a restos a pagar; **D** alienação de ativos é receita orçamentária de capital; **E** não decorrem de liquidação de direitos patrimoniais do Balanço.",
+    "options": [
+      "excesso de arrecadação que dá suporte à abertura de créditos adicionais.",
+      "receitas de exercícios anteriores utilizáveis apenas para restos a pagar.",
+      "ingressos financeiros que transitam pelo caixa do Tesouro, objeto de lançamento contábil, mas não passíveis de suportar despesas previstas na LOA.",
+      "recursos da alienação de ativos não previstos no orçamento.",
+      "ingressos de lançamentos contábeis de natureza não financeira do Balanço Patrimonial."
+    ],
+    "correctOption": "C",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^CESPE • Auditor Estadual • TCM-BA • 2018 • adaptada C/E→A–E^^\n\nDurante o exercício de 2017, um estado registrou, entre outros: devolução de cauções R$ 260; recebimento de contrato de permissão de uso R$ 500; aluguel R$ 200; recebimento de impostos R$ 150; **retenção de contribuição para o INSS em folha R$ 110**; **inscrição de restos a pagar do exercício R$ 170**; royalties R$ 350. O total da **receita extraorçamentária** do exercício foi de:",
+    "back": "**Gabarito: D.** Receitas **extraorçamentárias** são as que transitam pelo caixa sem pertencer ao ente. No rol apresentado, elas são:\n\n| Evento | Valor (R$) |\n|---|---|\n| Retenção de contribuição para o INSS (folha) | 110 |\n| Inscrição de restos a pagar do exercício | 170 |\n| **Total** | **280** |\n\n> 📖 A **retenção de INSS** é consignação (recurso de terceiros) e a **inscrição de restos a pagar** (31/12) é registrada como receita extraorçamentária para compensar a despesa orçamentária empenhada (art. 103, parágrafo único, Lei 4.320/64).\n\n**Atenção:** a **devolução** de cauções é saída (extraorçamentária na devolução), não entrada; aluguel, permissão, impostos e royalties são **orçamentários**.\n\n**Por que as demais erram:** somam indevidamente valores orçamentários (impostos, aluguel, royalties) ao montante.",
+    "options": [
+      "R$ 110",
+      "R$ 170",
+      "R$ 410",
+      "R$ 280",
+      "R$ 540"
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^FCC • Analista • CNMP • 2015 • adaptada C/E→A–E^^\n\nEm fevereiro de 2015, um ente contabilizou: ITR (principal R$ 190.000 + multas/juros, total R$ 198.500); **ARO R$ 45.500**; aluguel de imóvel R$ 15.500; leilão de bens móveis R$ 19.000; **caução de licitante R$ 22.500**. O valor total das **receitas extraorçamentárias** é:",
+    "back": "**Gabarito: D.** As receitas **extraorçamentárias** do caso são:\n\n| Evento | Valor (R$) |\n|---|---|\n| Operações de crédito por ARO | 45.500 |\n| Caução de empresa em licitação | 22.500 |\n| **Total** | **68.000** |\n\n> 📖 ARO e caução são clássicos ingressos **extraorçamentários** (recursos de terceiros / antecipação). ITR (e suas multas/juros), aluguel e leilão de bens móveis são receitas **orçamentárias**.\n\n**Por que as demais erram:** incluem indevidamente o aluguel (R$ 15.500), o leilão (R$ 19.000) ou o ITR no cômputo das extraorçamentárias.",
+    "options": [
+      "R$ 45.500",
+      "R$ 22.500",
+      "R$ 90.500",
+      "R$ 68.000",
+      "R$ 86.500"
+    ],
+    "correctOption": "D",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre a possibilidade de uma receita extraorçamentária **converter-se** em orçamentária, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** Uma receita extraorçamentária **pode se tornar orçamentária**. Exemplo clássico: o **depósito-caução** exigido de licitante é extraorçamentário (sujeito a devolução). Se o licitante vencedor {red:não honrar} sua proposta no prazo, **perde a caução em favor do erário**, que a incorpora como **receita orçamentária**.\n\n> 📖 Outro ponto-chave: {green:operações de crédito = orçamentárias}; {red:operações de crédito por ARO = extraorçamentárias}.\n\n**Esquema:**\n\n```\nCaução (extraorçamentária / depósito de terceiro)\n   └─ licitante descumpre → perda da caução\n         └─ incorporação ao erário = RECEITA ORÇAMENTÁRIA\n```\n\n**Por que as demais erram:** **A** a conversão é possível, não vedada; **C** a ARO é extraorçamentária, e não o contrário; **D** a emissão de papel-moeda permanece extraorçamentária; **E** restos a pagar inscritos são extraorçamentários no momento da inscrição.",
+    "options": [
+      "Uma receita extraorçamentária jamais pode se converter em orçamentária.",
+      "A caução de licitante (extraorçamentária) pode tornar-se orçamentária se for incorporada ao erário pelo descumprimento da proposta.",
+      "A operação de crédito por ARO é orçamentária, e a operação de crédito comum é extraorçamentária.",
+      "A emissão de papel-moeda é classificada como receita orçamentária de capital.",
+      "Os restos a pagar inscritos em 31/12 são receita orçamentária corrente."
+    ],
+    "correctOption": "B",
+    "topicName": "Ingressos Orçamentários e Extraorçamentários"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa classificação das receitas quanto à **coercitividade ou procedência**, assinale a alternativa que distingue corretamente **originárias** e **derivadas**.",
+    "back": "**Gabarito: C.** Essa classificação (uso acadêmico/doutrinário, segundo o MTO) divide as receitas em:\n\n| Tipo | Origem | Também chamadas | Exemplos |\n|---|---|---|---|\n| **Originárias** | exploração do {blue:próprio patrimônio} do Estado (sem coerção) | economia privada / direito privado | aluguéis, preços públicos, venda de produtos, dividendos |\n| **Derivadas** | {blue:autoridade coercitiva} do Estado sobre o patrimônio do particular | economia pública / direito público | tributos, multas, penalidades |\n\n> 📖 **Mnemônico:** **O**riginária = **O** próprio patrimônio do Estado (Origem interna); **D**erivada = **D**eriva do patrimônio do particular (poder coercitivo).\n\n**Por que as demais erram:** **A, B, D e E** invertem os conceitos ou vinculam a distinção a constar ou não do orçamento, o que não é o critério (ambas são, em regra, orçamentárias).",
+    "options": [
+      "Originárias decorrem da coerção estatal; derivadas, da gestão do patrimônio público.",
+      "Originárias não constam do orçamento; derivadas decorrem da execução orçamentária.",
+      "Originárias decorrem da gestão do próprio patrimônio do Estado; derivadas, da autoridade coercitiva do Estado.",
+      "Originárias decorrem da execução orçamentária; derivadas não constam do orçamento.",
+      "Originárias possuem indicação de natureza da despesa; derivadas não."
+    ],
+    "correctOption": "C",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^FCC • Proc(PGE-AM) • PGE-AM • 2022^^\n\nConsiderando a classificação de receitas públicas, as receitas **derivadas** são aquelas decorrentes de:",
+    "back": "**Gabarito: A.** As receitas **derivadas** são obtidas pelo Estado em função de sua **soberania/autoridade coercitiva**, por meio de **tributos** (impostos, taxas, contribuições), penalidades, indenizações e restituições. Logo, a arrecadação de **impostos, taxas e contribuições** é o exemplo típico.\n\n> 📖 Derivadas = derivam do patrimônio do particular, mediante imposição estatal.\n\n**Por que as demais erram:** **B** alienação de ativos é receita **originária** (de capital); **C e D** operações de crédito e emissão de títulos são receitas de capital, não derivadas; **E** royalties são receita **originária** (patrimonial).",
+    "options": [
+      "arrecadação de impostos, taxas e contribuições.",
+      "alienação de ativos de titularidade do ente.",
+      "operações de crédito.",
+      "emissão de títulos da dívida pública.",
+      "royalties pela exploração de petróleo e gás natural."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^FCC • AJTRT17 • TRT-17 • 2022^^\n\nNo que concerne às receitas públicas, a classificação entre **derivadas** e **originárias** considera como aspecto relevante:",
+    "back": "**Gabarito: C.** O critério é a **origem/procedência** (coercitividade): as **derivadas** são auferidas a partir da **imposição estatal** sobre o patrimônio dos particulares (tributos, impostos, taxas); as **originárias**, da exploração do patrimônio do próprio Estado.\n\n> 📖 Pode ser tratada como classificação quanto à **coercitividade** ou quanto à **procedência**.\n\n**Por que as demais erram:** **A** derivadas não são obtidas pela exploração do patrimônio do ente nem se restringem a despesas de capital; **B** inverte (originárias não vêm de arrecadação fiscal); **D** a distinção não é temporal; **E** vinculação a saúde/educação não é o critério.",
+    "options": [
+      "a previsibilidade, sendo as derivadas obtidas pela exploração do patrimônio e destináveis só a despesas de capital.",
+      "a forma de ingresso, sendo as originárias provenientes da arrecadação fiscal.",
+      "a origem, sendo as derivadas auferidas a partir da imposição estatal sobre o patrimônio dos particulares, como impostos e taxas.",
+      "a temporalidade, sendo que apenas as originárias pertencem ao orçamento anual.",
+      "o critério de destinação, sendo as derivadas vinculadas a saúde e educação."
+    ],
+    "correctOption": "C",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^FCC • Ana(DETRAN-AP) • DETRAN-AP • 2022^^\n\nÉ exemplo das classificações doutrinárias a divisão das receitas em **originárias** e **derivadas**, segundo a qual as primeiras (originárias):",
+    "back": "**Gabarito: C.** As **originárias** {green:decorrem da gestão do próprio patrimônio} da Administração Pública (receita efetiva oriunda de rendas dos ativos, cessão remunerada de bens e valores, atividades econômicas), enquanto as **derivadas** decorrem da **autoridade coercitiva** do Estado (tributos, penalidades).\n\n> 📖 Originárias = economia privada; Derivadas = economia pública.\n\n**Por que as demais erram:** **A** inverte os conceitos; **B e D** ligam a distinção a constar/não constar do orçamento (não é o critério); **E** indicação de natureza da despesa não diferencia receitas.",
+    "options": [
+      "decorrem da autoridade coercitiva do Estado; as segundas, da gestão do patrimônio público.",
+      "não constam do orçamento; as segundas derivam da execução orçamentária.",
+      "decorrem da gestão do próprio patrimônio da administração; as segundas, da autoridade coercitiva do Estado.",
+      "decorrem da execução orçamentária; as segundas não constam do orçamento.",
+      "possuem indicação de natureza da despesa; as segundas não necessitam de tal classificação."
+    ],
+    "correctOption": "C",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^CESPE • TJ-ES • 2023 • adaptada C/E→A–E^^\n\nAs rendas provenientes de **contratos de aluguel** que tenham por objeto itens do patrimônio imobiliário do Estado são classificadas como receitas:",
+    "back": "**Gabarito: D.** As rendas de **aluguel** decorrem da **exploração do patrimônio público**, sem qualquer coerção; logo, são receitas **originárias** (e, na classificação por natureza, receitas correntes **patrimoniais**).\n\n> 📖 Originárias = rendas do patrimônio mobiliário/imobiliário, preços públicos, prestação de serviços comerciais, venda de produtos.\n\n**Por que as demais erram:** **A** derivadas vêm de coerção (tributos/multas); **B** extraorçamentárias são recursos de terceiros; **C e E** aluguel é receita corrente patrimonial, não de capital nem tributária.",
+    "options": [
+      "derivadas.",
+      "extraorçamentárias.",
+      "de capital.",
+      "originárias.",
+      "tributárias."
+    ],
+    "correctOption": "D",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^CESPE • Analista Administrativo • EBSERH • 2018 • adaptada C/E→A–E^^\n\nOs recursos financeiros obtidos por um órgão da administração pública na **exploração de atividade econômica** são considerados receitas:",
+    "back": "**Gabarito: A.** Receitas **originárias** são as que provêm do próprio patrimônio do Estado, resultantes da venda de produtos/serviços ou da cessão remunerada de bens e valores. A exploração de atividade econômica pelo Estado (atuando como empresário) gera receita **originária**.\n\n> 📖 Originárias = economia privada / direito privado.\n\n**Por que as demais erram:** **B** derivadas decorrem de coerção (tributos); **C** extraorçamentárias são recursos de terceiros; **D** não é de capital pela mera exploração econômica; **E** transferência corrente vem de outro ente.",
+    "options": [
+      "originárias.",
+      "derivadas.",
+      "extraorçamentárias.",
+      "de capital.",
+      "de transferências correntes."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^CESPE • Analista Administrativo • EBSERH • 2018 • adaptada C/E→A–E^^\n\nAcerca das receitas públicas **originárias**, assinale a alternativa correta.",
+    "back": "**Gabarito: E.** Receitas **originárias** {green:provêm do próprio patrimônio do Estado} (venda de produtos/serviços, cessão remunerada de bens e valores), sem coerção. A questão original afirmava que originárias seriam arrecadadas \"por meio da soberania estatal, como os impostos\" — isso descreve as **derivadas**, tornando-a {red:errada}.\n\n> 📖 Impostos = receita **derivada** (poder de império).\n\n**Por que as demais erram:** **A, B, C e D** atribuem às originárias a coerção/soberania ou exemplificam com tributos, características das **derivadas**.",
+    "options": [
+      "São arrecadadas por meio da soberania estatal, como os impostos.",
+      "Decorrem da autoridade coercitiva do Estado sobre o particular.",
+      "Têm como exemplo típico as taxas e contribuições de melhoria.",
+      "Resultam da imposição compulsória de tributos.",
+      "Provêm do próprio patrimônio do Estado, como aluguéis e preços públicos."
+    ],
+    "correctOption": "E",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas Públicas • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nA receita proveniente da **arrecadação tributária** dos estados, quanto à coercitividade, é classificada como:",
+    "back": "**Gabarito: B.** A arrecadação de **tributos** decorre do **poder de imposição** (soberania) do Estado; logo, é receita **derivada**. Dizer que seria \"originária\" por relacionar-se ao exercício da competência constitucional está {red:errado}.\n\n> 📖 Derivadas = deriva do patrimônio do particular, por coerção.\n\n**Por que as demais erram:** **A** originárias vêm do patrimônio do próprio Estado; **C** extraorçamentárias são recursos de terceiros; **D e E** tributo não é receita de capital nem patrimonial originária.",
+    "options": [
+      "originária.",
+      "derivada.",
+      "extraorçamentária.",
+      "de capital.",
+      "patrimonial originária."
+    ],
+    "correctOption": "B",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas Públicas • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nA respeito do enquadramento da **caução** dada em garantia pelo particular que contrata com o poder público, é correto afirmar que:",
+    "back": "**Gabarito: C.** A **caução** é receita **extraorçamentária** (recurso de terceiro, sujeito a devolução), e {red:não} integra a definição de receita pública **originária**. A questão original incluía a caução entre as originárias, sendo errada.\n\n> 📖 Originárias provêm do patrimônio do Estado; a caução é mero depósito de terceiro.\n\n**Por que as demais erram:** **A** não é originária; **B** não é derivada; **D** não é receita de capital; **E** não é receita corrente patrimonial.",
+    "options": [
+      "é exemplo de receita pública originária.",
+      "é exemplo de receita pública derivada.",
+      "é receita extraorçamentária, não integrando o conceito de receita originária.",
+      "é receita de capital, na origem alienação de bens.",
+      "é receita corrente patrimonial."
+    ],
+    "correctOption": "C",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^FGV • Especialista Legislativo • ALERJ • 2017 • adaptada C/E→A–E^^\n\nSobre a procedência das receitas, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** As receitas **originárias decorrem da exploração de atividades econômicas** e do patrimônio do próprio Estado (economia privada). Já as **tributárias** são derivadas (caráter coercitivo).\n\n> 📖 Originárias = patrimônio do Estado; Derivadas/tributárias = coerção.\n\n**Por que as demais erram:** **B** originárias não decorrem de coerção; **C** tributárias são derivadas; **D** originárias não vêm da soberania; **E** ambas, em regra, são orçamentárias.",
+    "options": [
+      "Receitas originárias decorrem da exploração de atividades econômicas.",
+      "Receitas originárias decorrem do poder coercitivo do Estado.",
+      "Receitas tributárias são receitas originárias.",
+      "Receitas originárias decorrem da soberania estatal.",
+      "Receitas originárias não integram o orçamento, ao contrário das derivadas."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^FGV • Especialista Legislativo • ALERJ • 2017 • adaptada C/E→A–E^^\n\nQuanto à coercitividade, as **receitas tributárias** são receitas de caráter:",
+    "back": "**Gabarito: B.** As **receitas tributárias** são receitas **derivadas** e, portanto, de caráter **coercitivo** — obtidas pelo Estado mediante sua autoridade de império, exigindo do particular o pagamento compulsório.\n\n> 📖 Tributo = prestação pecuniária compulsória (art. 3º, CTN).\n\n**Por que as demais erram:** **A, C, D e E** descrevem as **originárias** (voluntário/patrimonial/contratual/facultativo), que provêm do patrimônio do Estado sem coerção.",
+    "options": [
+      "voluntário.",
+      "coercitivo.",
+      "patrimonial originário.",
+      "contratual.",
+      "facultativo."
+    ],
+    "correctOption": "B",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas Públicas • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nO pagamento pelo **consumo de energia elétrica** e a **taxa de prevenção a incêndio** constituem exemplos, respectivamente, de receita pública:",
+    "back": "**Gabarito: D.** O recebimento pela **prestação de serviço de energia elétrica** é receita **originária** (preço público/tarifa — não decorre do poder de imposição). Já a **taxa** (tributo) é receita **derivada** (poder coercitivo). Logo, **originária e derivada**, respectivamente.\n\n> 📖 Tarifa/preço público = originária; Taxa (tributo) = derivada.\n\n**Por que as demais erram:** **A, B, C e E** invertem a ordem ou enquadram um dos itens como extraorçamentário, contrariando a natureza de cada um.",
+    "options": [
+      "derivada e originária.",
+      "originária e originária.",
+      "derivada e derivada.",
+      "originária e derivada.",
+      "extraorçamentária e derivada."
+    ],
+    "correctOption": "D",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^CESPE • Analista de Controle Externo • TCE-PE • 2017 • adaptada C/E→A–E^^\n\nA respeito da natureza jurídica do **pedágio** cobrado pela utilização de rodovias mantidas por regime de **concessão**, é correto afirmar que ele:",
+    "back": "**Gabarito: A.** Segundo entendimento adotado, o **pedágio** cobrado em rodovias sob **concessão** tem natureza de **tarifa (preço público)** — e {green:não} de taxa. Por isso é correto afirmar que o pedágio **não tem natureza jurídica de taxa**.\n\n> 📖 Tarifa = receita **originária** (contratual, regime de concessão); Taxa = tributo (receita derivada).\n\n**Por que as demais erram:** **B, C e D** afirmam ser taxa/tributo; **E** dizer que seria contribuição de melhoria é incorreto.",
+    "options": [
+      "não tem natureza jurídica de taxa.",
+      "tem natureza jurídica de taxa.",
+      "é tributo da espécie taxa de serviço.",
+      "é receita derivada, por ter natureza tributária.",
+      "tem natureza de contribuição de melhoria."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^FCC • AnaLeg(ALAP) • ALAP • 2020^^\n\nO termo **tributo** é definido pelo CTN sob a ótica do Direito Tributário e, pela Lei nº 4.320/1964, sob a ótica do Direito Financeiro. Assinale a alternativa correta.",
+    "back": "**Gabarito: B.** Pela **Lei 4.320/64 (art. 9º)**, tributo é a **receita derivada** instituída pelas entidades de direito público, compreendendo impostos, taxas e contribuições, destinando-se seu produto ao custeio de atividades estatais. É a definição sob a ótica do **Direito Financeiro** (foco arrecadatório).\n\n> 📖 **Art. 9º, Lei 4.320/64:** \"Tributo é a receita derivada instituída pelas entidades de direito público, compreendendo os impostos, as taxas e contribuições...\"\n> **Art. 3º, CTN:** \"Tributo é toda prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada.\"\n\n**Por que as demais erram:** **A** o CTN exige que **não** constitua sanção de ato ilícito (e tributo não é \"originária\"); **C** a Lei 4.320 não fala em \"ainda que constitua sanção de ato ilícito\"; **D** o CTN não diz \"cobrada na data do vencimento\"; **E** tributo não é \"modalidade de imposto\".",
+    "options": [
+      "Pelo CTN, tributo é receita originária compulsória, inclusive quando constitua sanção de ato ilícito.",
+      "Pela Lei 4.320/64, tributo é receita derivada, instituída por entidades de direito público, compreendendo impostos, taxas e contribuições.",
+      "Pela Lei 4.320/64, tributo é prestação pecuniária compulsória, ainda que constitua sanção de ato ilícito.",
+      "Pelo CTN, tributo é prestação em moeda instituída na legislação e cobrada na data do vencimento.",
+      "Pelo CTN, tributo é modalidade de imposto destinada ao custeio de atividades estatais."
+    ],
+    "correctOption": "B",
+    "topicName": "Receitas Originárias e Derivadas"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNos termos do **art. 11 da Lei nº 4.320/1964**, a receita classifica-se em quais **categorias econômicas**?",
+    "back": "**Gabarito: A.** A classificação por **categoria econômica** (1º dígito da natureza da receita) divide as receitas em **Receitas Correntes** e **Receitas de Capital**.\n\n| Categoria | Compõem | Efeito no PL |\n|---|---|---|\n| **Correntes (1)** | tributária, de contribuições, patrimonial, agropecuária, industrial, de serviços, transferências correntes e outras | em geral {green:aumentam} o PL |\n| **De Capital (2)** | operações de crédito, alienação de bens, amortização de empréstimos, transferências de capital e **superávit do orçamento corrente** | em geral {blue:mutações} (nada acrescentam) |\n\n> 📖 **Art. 11, Lei 4.320/64:** \"A receita classificar-se-á nas seguintes categorias econômicas: Receitas Correntes e Receitas de Capital.\"\n\nAinda há as **intraorçamentárias** (7 – correntes intra; 8 – capital intra).\n\n**Por que as demais erram:** **B/C/D** misturam origens (impostos, operações de crédito) com categorias econômicas; **E** correntes/capital servem tanto para receita quanto para despesa.",
+    "options": [
+      "Receitas Correntes e Receitas de Capital.",
+      "Receitas Tributárias e Receitas Não Tributárias.",
+      "Operações de Crédito, Alienação de Bens e Amortização de Empréstimos.",
+      "Impostos, Taxas e Contribuições.",
+      "Receitas Efetivas e Receitas Não Efetivas."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • TecGP(PGE-AM) • PGE-AM • 2022^^\n\nA receita pública classifica-se, por **categoria econômica**:",
+    "back": "**Gabarito: A.** Por **categoria econômica**, a receita classifica-se **apenas em \"de capital\" e \"corrente\"** (art. 11 da Lei 4.320/64). É o **1º nível** (1º dígito) da classificação por natureza da receita.\n\n> 📖 **Art. 11, Lei 4.320/64.** A categoria econômica é comum à receita e à despesa.\n\n**Por que as demais erram:** **B** o \"entre outras classificações legais\" sobra — por categoria econômica há **apenas** essas duas; **C e D** operações de crédito, alienação e amortização são **origens** de receita de capital, não categorias econômicas; **E** impostos/taxas/contribuições são **espécies/origens**.",
+    "options": [
+      "apenas em \"de capital\" e \"corrente\".",
+      "entre outras classificações legais, em \"de capital\" e \"corrente\".",
+      "apenas em \"operações de crédito\", \"alienação de bens\" e \"amortização de empréstimos\".",
+      "entre outras, em \"operações de crédito\", \"alienação de bens\" e \"amortização de empréstimos\".",
+      "em \"impostos\", \"taxas\" e \"contribuições\"."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • ProcA(MANAUSPREV) • MANAUSPREV • 2021^^\n\nA Lei federal nº 4.320/1964 classifica receitas e despesas em categorias econômicas. De acordo com essa lei, as receitas e as despesas classificam-se, respectivamente, como:",
+    "back": "**Gabarito: C.** A **categoria econômica** serve tanto para a receita quanto para a despesa: receitas em **correntes e de capital**; despesas em **despesas correntes e despesas de capital** (art. 11 e art. 12 da Lei 4.320/64).\n\n> 📖 É a mesma lógica econômica aplicada aos dois lados do orçamento.\n\n**Por que as demais erram:** **A** \"necessárias e facultativas\" não é classificação legal; **B** despesas \"mobiliárias/imobiliárias\" não existem como categoria; **D** \"extrapatrimoniais\" não é categoria de receita; **E** \"extracorrentes\" não existe.",
+    "options": [
+      "tributárias e não tributárias; necessárias e facultativas.",
+      "tributárias e patrimoniais; de pessoal, mobiliárias e imobiliárias.",
+      "correntes e de capital; despesas correntes e despesas de capital.",
+      "tributárias, patrimoniais e extrapatrimoniais; correntes, facultativas e de pessoal.",
+      "correntes e extracorrentes; correntes, necessárias, mobiliárias e imobiliárias."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • AJTRT14 • TRT-14 • 2022^^\n\nA Lei nº 4.320/1964 estabelece que o **superávit do orçamento corrente** é classificado como:",
+    "back": "**Gabarito: C.** O **superávit do orçamento corrente** (diferença positiva entre receitas e despesas correntes) é classificado como **receita de capital**, por força do **art. 11, § 2º** da Lei 4.320/64. Atenção: ele {red:não constitui item de receita orçamentária} no momento da arrecadação — é apenas categoria de receita de capital para fins de equilíbrio.\n\n> 📖 **Art. 11, § 2º, Lei 4.320/64:** \"São Receitas de Capital as provenientes... e, ainda, o superávit do Orçamento Corrente.\"\n\n**Por que as demais erram:** **A, B, D e E** classificam-no como receita corrente (patrimonial, transferência, tributária ou outras correntes), o que contraria o § 2º.",
+    "options": [
+      "receita patrimonial.",
+      "transferência corrente.",
+      "receita de capital.",
+      "receita tributária.",
+      "outras receitas correntes."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • AP(MANAUSPREV) • MANAUSPREV • 2021^^\n\nA execução do orçamento de um ente resultou em **superávit do orçamento corrente**. Esse resultado é classificado como receita:",
+    "back": "**Gabarito: A.** O **superávit do orçamento corrente** é classificado como **receita de capital**, nos termos do **art. 11, § 2º** da Lei 4.320/64.\n\n> 📖 **Art. 11, § 2º, Lei 4.320/64.**\n\n**Por que as demais erram:** **B, C, D e E** o enquadram como corrente (genérica, tributária, patrimonial) ou inversão financeira (que é despesa), contrariando a lei.",
+    "options": [
+      "de capital.",
+      "corrente.",
+      "tributária.",
+      "patrimonial.",
+      "de inversão financeira."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • AdvLeg(ALAP) • ALAP • 2020^^\n\nUm Estado auferiu: I. receitas de **venda de imóveis**; II. recursos recebidos de outras pessoas de direito público para **cobrir déficits de manutenção de empresas públicas**; III. receitas de **taxas pelo exercício do poder de polícia**. As categorias econômicas de I, II e III são, respectivamente:",
+    "back": "**Gabarito: D.** Aplicando o art. 11 da Lei 4.320/64:\n\n| Item | Natureza | Categoria |\n|---|---|---|\n| I — venda de imóveis | alienação de bens | **de capital** |\n| II — transferência para custeio (despesas correntes) | transferências correntes | **corrente** |\n| III — taxa de poder de polícia | tributária | **corrente** |\n\n> 📖 A transferência é **corrente** porque se destina a cobrir **despesas correntes** (manutenção/custeio).\n\n**Por que as demais erram:** **A, B, C e E** erram ao classificar a venda de imóveis como corrente ou a taxa/transferência como de capital.",
+    "options": [
+      "de capital; de capital; de capital.",
+      "corrente; corrente; corrente.",
+      "corrente; corrente; de capital.",
+      "de capital; corrente; corrente.",
+      "corrente; de capital; de capital."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^CONSULPLAN • Analista Judiciário • TRF-2 • 2017 • adaptada C/E→A–E^^\n\nAs receitas realizadas entre órgãos e entidades da Administração Pública do **mesmo ente** (que não representam novas entradas, mas mera movimentação interna) são denominadas:",
+    "back": "**Gabarito: D.** Essa é a definição de receitas **intraorçamentárias** — operações entre órgãos, fundos e entidades do mesmo ente, integrantes dos orçamentos fiscal e da seguridade. A questão original chamava-as de \"receitas de capital\", o que está {red:errado}.\n\n> 📖 Intra = dentro do mesmo ente (códigos 7 e 8 de categoria econômica).\n\n**Por que as demais erram:** **A** de capital decorrem de dívidas/alienações; **B** correntes vêm de tributos/patrimônio; **C** extraorçamentárias são recursos de terceiros; **E** transferências correntes vêm de **outro** ente.",
+    "options": [
+      "receitas de capital.",
+      "receitas correntes.",
+      "receitas extraorçamentárias.",
+      "receitas intraorçamentárias.",
+      "transferências correntes."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^CESPE • Conselheiro Substituto • TCE-PR • 2016 • adaptada C/E→A–E^^\n\nQuanto ao efeito no patrimônio líquido, é correto afirmar que:",
+    "back": "**Gabarito: B.** Como **regra geral**, as **receitas correntes** provocam {green:efeito positivo} no patrimônio líquido. Já as **receitas de capital** são, em geral, **mutações patrimoniais** que {blue:nada acrescentam} ao patrimônio — ocorre apenas troca de elementos (entra recurso financeiro, sai um bem/direito ou cria-se dívida). A questão original dizia que ambas teriam efeito positivo, o que é {red:errado}.\n\n> 📖 Receita de capital = aumento no sistema financeiro + baixa no sistema patrimonial.\n\n**Por que as demais erram:** **A** afirma que ambas aumentam o PL; **C** inverte (correntes não são meras mutações como regra); **D e E** generalizam indevidamente.",
+    "options": [
+      "tanto as correntes quanto as de capital provocam efeito positivo no patrimônio líquido.",
+      "as correntes, em regra, aumentam o patrimônio líquido; as de capital, em regra, são mutações que nada lhe acrescentam.",
+      "as correntes são meras mutações patrimoniais; as de capital aumentam o patrimônio líquido.",
+      "ambas reduzem o patrimônio líquido do Estado.",
+      "as de capital sempre aumentam o patrimônio líquido, e as correntes nunca o alteram."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • TecGP(PGE-AM) • PGE-AM • 2022^^\n\nA arrecadação oriunda da **alienação de uma patente** desenvolvida por uma entidade pública estadual deve ser classificada como receita orçamentária na espécie:",
+    "back": "**Gabarito: D.** A **alienação** de bens é **receita de capital**, na origem **\"alienação de bens\"**. A patente é um **bem intangível**; logo, a espécie é **alienação de bens intangíveis**.\n\n> 📖 Alienação de bens (capital) → espécies: bens móveis, imóveis e **intangíveis**, além de títulos e valores mobiliários.\n\n**Por que as demais erram:** **A** \"receita de capital\" é a categoria, não a espécie; **B** \"alienação de bens\" é a origem, não a espécie específica; **C** títulos/valores mobiliários é outra espécie; **E** outras receitas correntes não cabe (alienação é capital).",
+    "options": [
+      "receita de capital.",
+      "alienação de bens.",
+      "alienação de títulos e valores mobiliários.",
+      "alienação de bens intangíveis.",
+      "outras receitas correntes."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • AJTRT5 • TRT-5 • 2022^^\n\nDe acordo com o Ementário da Classificação por Natureza de Receita, qual associação está **correta**?",
+    "back": "**Gabarito: A.** A **\"Delegação para a Prestação dos Serviços de Transporte\"** é classificada na origem **Receita Patrimonial** (delegação de serviços públicos mediante concessão/permissão).\n\n> 📖 São receitas **patrimoniais** as delegações de serviços de transporte, infraestrutura e telecomunicações, além de aluguéis, dividendos e royalties.\n\n**Por que as demais erram:** **B** \"Indenizações por Danos ao Patrimônio Público\" = Outras Receitas Correntes; **C** \"Inscrição em Concursos\" = Receita de Serviços (não tributária); **D** \"Restituição de Seguro-Desemprego\" = Outras Receitas Correntes; **E** \"Taxas pelo Exercício do Poder de Polícia\" = Receita Tributária.",
+    "options": [
+      "\"Delegação para a Prestação dos Serviços de Transporte\" → Receita Patrimonial.",
+      "\"Indenizações por Danos Causados ao Patrimônio Público\" → Receita Patrimonial.",
+      "\"Inscrição em Concursos e Processos Seletivos\" → Impostos, Taxas e Contribuições de Melhoria.",
+      "\"Restituição de Parcelas do Seguro-Desemprego\" → Receita de Serviços.",
+      "\"Taxas pelo Exercício do Poder de Polícia\" → Receita de Serviços."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • TecGP(PGE-AM) • PGE-AM • 2022^^\n\nSão, respectivamente, uma **receita de capital** e uma **despesa de capital**:",
+    "back": "**Gabarito: A.** **Amortização de empréstimos** (recebimento) é **receita de capital**; **amortização da dívida pública** (pagamento) é **despesa de capital**.\n\n> 📖 Cuidado com o espelho: recebo amortização (receita) × pago amortização da dívida (despesa).\n\n**Por que as demais erram:** **B** investimentos e inversões são ambos despesas de capital; **C** receita tributária é corrente; **D** operações de crédito é receita de capital (não despesa); **E** subvenções sociais são despesa corrente.",
+    "options": [
+      "amortização de empréstimos e amortização da dívida pública.",
+      "investimentos e inversões financeiras.",
+      "receita tributária e subvenções econômicas.",
+      "amortização da dívida pública e operações de crédito.",
+      "operações de crédito e subvenções sociais."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • AJTRT4 • TRT-4 • 2022^^\n\nReceitas decorrentes de \"**Indenizações, Restituições e Ressarcimentos**\" e de \"**Exploração do Patrimônio Imobiliário do Estado**\" classificam-se quanto à **origem**, respectivamente, como:",
+    "back": "**Gabarito: E.** Pelo Ementário (MTO/MCASP):\n\n| Item | Origem |\n|---|---|\n| Indenizações, Restituições e Ressarcimentos | **Outras Receitas Correntes** |\n| Exploração do Patrimônio Imobiliário | **Receita Patrimonial** |\n\n> 📖 **Outras Receitas Correntes**: receitas que não se enquadram nas demais (indenizações, restituições, multas, etc.). **Receita Patrimonial**: fruição do patrimônio (aluguéis, dividendos, royalties, exploração imobiliária).\n\n**Por que as demais erram:** **A** nenhuma é de capital; **B** a 2ª é patrimonial, não \"corrente\" genérica; **C** a 1ª não é receita de serviços; **D** a 2ª não é alienação de bens.",
+    "options": [
+      "Receitas Correntes e Receitas de Capital.",
+      "Receitas Correntes e Receitas Correntes.",
+      "Receita de Serviços e Receita Patrimonial.",
+      "Outras Receitas Correntes e Alienações de Bens.",
+      "Outras Receitas Correntes e Receita Patrimonial."
+    ],
+    "correctOption": "E",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • AJTRT23 • TRT-23 • 2022^^\n\nDe acordo com a Lei nº 4.320/1964, é **correto** afirmar que a receita orçamentária arrecadada por um ente com:",
+    "back": "**Gabarito: E.** Os **dividendos** decorrem da fruição do patrimônio (participações societárias); são receita **corrente**, na origem **patrimonial**. Logo, quanto à categoria econômica, são **Receitas Correntes**.\n\n> 📖 Dividendos = receita patrimonial (corrente).\n\n**Por que as demais erram:** **A** alienação de veículo = receita de **capital** (não patrimonial); **B** amortização de empréstimos concedidos = receita de **capital**; **C** caução = **extraorçamentária**; **D** operação de crédito = receita de **capital** (não corrente).",
+    "options": [
+      "alienação de veículo deve ser classificada, quanto à categoria econômica, em Receita Patrimonial.",
+      "amortização de empréstimos concedidos deve ser classificada em Transferências de Capital.",
+      "depósito em caução recebido deve ser classificado, quanto à origem, em Transferências de Capital.",
+      "operação de crédito deve ser classificada, quanto à origem, em Receitas Correntes.",
+      "dividendos devem ser classificados, quanto à categoria econômica, em Receitas Correntes."
+    ],
+    "correctOption": "E",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • AJTRT4 • TRT-4 • 2022^^\n\nEm 2021, um ente arrecadou: Impostos R$ 20.000.000.000; Valores Mobiliários R$ 410.500.000; Indenizações e Restituições R$ 130.000.000; **Amortização de Empréstimos R$ 27.000.000**; **Alienação de Bens Imóveis R$ 12.000.000**; **Operações de Crédito por ARO R$ 5.000.000**. O valor da **Receita de Capital** arrecadada foi:",
+    "back": "**Gabarito: C.** Classificando cada item:\n\n| Item | Valor (R$) | Categoria |\n|---|---|---|\n| Impostos | 20.000.000.000 | Corrente |\n| Valores Mobiliários | 410.500.000 | Corrente (patrimonial) |\n| Indenizações e Restituições | 130.000.000 | Corrente |\n| **Amortização de Empréstimos** | 27.000.000 | **Capital** |\n| **Alienação de Bens Imóveis** | 12.000.000 | **Capital** |\n| Operações de Crédito por **ARO** | 5.000.000 | **Extraorçamentária** |\n\n**Receita de Capital = 27.000.000 + 12.000.000 = R$ 39.000.000.**\n\n> 📖 {red:Cuidado:} a **ARO** é extraorçamentária — não entra no cômputo.\n\n**Por que as demais erram:** **A, B, D e E** incluem indevidamente a ARO ou somam itens correntes.",
+    "options": [
+      "R$ 169.000.000,00",
+      "R$ 454.500.000,00",
+      "R$ 39.000.000,00",
+      "R$ 44.000.000,00",
+      "R$ 449.500.000,00"
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^CESPE • Auditor de Controle Interno • CGDF • 2023^^\n\nUma entidade apresentou, entre outros lançamentos: Operações de crédito R$ 2.000.000; Alienação de bens R$ 500.000; Amortização de empréstimos R$ 500.000; Transferência de capital R$ 2.000.000. O valor das **receitas de capital** é:",
+    "back": "**Gabarito: A.** Somam-se as origens de **receita de capital**:\n\n| Origem (capital) | Valor (R$) |\n|---|---|\n| Operações de crédito | 2.000.000 |\n| Alienação de bens | 500.000 |\n| Amortização de empréstimos | 500.000 |\n| Transferência de capital | 2.000.000 |\n| **Total** | **5.000.000** |\n\n> 📖 As 4 origens clássicas de receita de capital: **operações de crédito, alienação de bens, amortização de empréstimos e transferências de capital** (+ superávit do orçamento corrente).\n\n**Por que as demais erram:** **B, C e D** incluiriam valores correntes ou excluiriam alguma origem de capital.",
+    "options": [
+      "R$ 5.000.000",
+      "R$ 6.500.000",
+      "R$ 8.000.000",
+      "R$ 4.500.000"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FGV • SEFAZ-ES • 2021^^\n\nUma entidade contabilizou em X0: Amortização de empréstimos R$ 25.000; Impostos e taxas R$ 50.000; Operações de crédito R$ 12.000; De serviços R$ 40.000; Patrimonial R$ 30.000; Alienação de bens R$ 60.000. O montante das **receitas de capital** é:",
+    "back": "**Gabarito: B.** Somam-se as **receitas de capital**:\n\n| Origem (capital) | Valor (R$) |\n|---|---|\n| Amortização de empréstimos | 25.000 |\n| Operações de crédito | 12.000 |\n| Alienação de bens | 60.000 |\n| **Total** | **97.000** |\n\n> 📖 Impostos/taxas, serviços e patrimonial são **correntes** → ficam de fora.\n\n**Por que as demais erram:** **A, C, D e E** somam indevidamente origens correntes (serviços, patrimonial) ao total.",
+    "options": [
+      "R$ 90.000",
+      "R$ 97.000",
+      "R$ 115.000",
+      "R$ 125.000",
+      "R$ 127.000"
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • Contador • Câmara de Fortaleza-CE • 2019 • adaptada C/E→A–E^^\n\nDados (em milhões): Impostos/taxas/contrib. de melhoria $250; Operações de Crédito $50; Alienação de Bens $100; Receita Patrimonial $18; Transferências de Capital $80; Receita Agropecuária $120; Receita Industrial $140; Amortização de Empréstimos $20. Os totais de **Receitas Correntes** e **Receitas de Capital** são, respectivamente:",
+    "back": "**Gabarito: C.** Separando por categoria econômica:\n\n| Correntes | $ | Capital | $ |\n|---|---|---|---|\n| Impostos/taxas/contrib. melhoria | 250 | Operações de Crédito | 50 |\n| Receita Patrimonial | 18 | Alienação de Bens | 100 |\n| Receita Agropecuária | 120 | Transferências de Capital | 80 |\n| Receita Industrial | 140 | Amortização de Empréstimos | 20 |\n| **Total correntes** | **528** | **Total capital** | **250** |\n\nLogo, **$528 milhões (correntes)** e **$250 milhões (capital)**. A questão original afirmava \"$578 e $200\", estando {red:errada}.\n\n**Por que as demais erram:** demais combinações deslocam agropecuária/industrial para capital ou erram a soma.",
+    "options": [
+      "$ 578 milhões e $ 200 milhões.",
+      "$ 408 milhões e $ 370 milhões.",
+      "$ 528 milhões e $ 250 milhões.",
+      "$ 250 milhões e $ 528 milhões.",
+      "$ 638 milhões e $ 140 milhões."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • Auditor Fiscal • SEFAZ-BA • 2019 • adaptada C/E→A–E^^\n\nEm 2018, um ente arrecadou: Impostos R$ 8.850.000; Exploração do Patrimônio Imobiliário R$ 800.000; **ARO R$ 650.000.000**; Operações de Crédito – Mercado Interno R$ 500.000.000; Delegação de Serviços R$ 130.000; Indenizações/Restituições R$ 100.000; Alienação de Bens Imóveis R$ 80.000; multas/juros de impostos R$ 50.000; Serviços Administrativos R$ 20.000. Sobre o **total das receitas correntes**, é correto afirmar:",
+    "back": "**Gabarito: D.** As **receitas correntes** somam **R$ 9.950.000**:\n\n| Item corrente | Valor (R$) |\n|---|---|\n| Impostos | 8.850.000 |\n| Exploração do Patrimônio Imobiliário | 800.000 |\n| Delegação de Serviços (patrimonial) | 130.000 |\n| Indenizações/Restituições | 100.000 |\n| Multas e juros de impostos | 50.000 |\n| Serviços Administrativos | 20.000 |\n| **Total correntes** | **9.950.000** |\n\n> 📖 {red:Atenção:} a **ARO** (R$ 650 milhões) é **extraorçamentária**; a operação de crédito de mercado interno (R$ 500 milhões) e a alienação de imóveis (R$ 80 mil) são **capital**.\n\n**Por que as demais erram:** **A, B, C e E** incluem a ARO ou as receitas de capital no total de correntes.",
+    "options": [
+      "o total das receitas correntes é R$ 659.950.000.",
+      "o total das receitas correntes é R$ 10.030.000.",
+      "o total das receitas correntes inclui a ARO de R$ 650.000.000.",
+      "o total das receitas correntes é R$ 9.950.000, pois a ARO é extraorçamentária.",
+      "o total das receitas correntes é R$ 509.950.000."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^CESPE • Auditor Estadual • TCM-BA • 2018 • adaptada C/E→A–E^^\n\nEm 2017, um estado registrou, entre outros: permissão de uso R$ 500; aluguel R$ 200; impostos do exercício anterior R$ 150; royalties de petróleo R$ 350; indenização/restituição R$ 540; dívida ativa não tributária R$ 680. O **total da receita orçamentária corrente** foi:",
+    "back": "**Gabarito: A.** As **receitas correntes** do rol somam **R$ 2.420**:\n\n| Item | Valor (R$) |\n|---|---|\n| Recebimento de contrato de permissão de uso | 500 |\n| Aluguel | 200 |\n| Impostos (lançados em exercício anterior) | 150 |\n| Royalties de petróleo | 350 |\n| Indenização e restituição | 540 |\n| Dívida ativa não tributária | 680 |\n| **Total** | **2.420** |\n\n> 📖 Royalties e aluguéis = patrimoniais; impostos = tributária; indenização/dívida ativa não tributária = outras receitas correntes.\n\n**Por que as demais erram:** alteram a soma ao excluir a dívida ativa não tributária ou os royalties, ou ao incluir itens de capital/extraorçamentários.",
+    "options": [
+      "R$ 2.420",
+      "R$ 1.740",
+      "R$ 2.770",
+      "R$ 1.200",
+      "R$ 2.080"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário • TRE-SP • 2017 • adaptada C/E→A–E^^\n\nReceitas arrecadadas em 2016: FPE R$ 180.000; Transferência de Capital p/ hospitais R$ 160.000; Aplicações Financeiras R$ 45.000; Aluguel R$ 15.000; **Operações de Crédito de Longo Prazo R$ 320.000**; **Alienação de Bens Imóveis R$ 210.000**; cota-parte ITR R$ 75.000; outros. Sabendo que a previsão de receitas de capital na LOA foi R$ 650.000, é correto afirmar que houve:",
+    "back": "**Gabarito: A.** As **receitas de capital arrecadadas** somam **R$ 690.000**:\n\n| Origem (capital) | Valor (R$) |\n|---|---|\n| Transferência de capital p/ hospitais | 160.000 |\n| Operações de Crédito de Longo Prazo | 320.000 |\n| Alienação de Bens Imóveis | 210.000 |\n| **Total arrecadado** | **690.000** |\n\nComo o arrecadado (690.000) **superou** o previsto na LOA (650.000), houve **excesso de arrecadação de R$ 40.000**.\n\n> 📖 **Excesso de arrecadação** = arrecadado − previsto (fonte de créditos adicionais, art. 43, § 1º, II, Lei 4.320/64).\n\n**Por que as demais erram:** **B, C, D e E** erram o valor do excesso ou afirmam déficit/equilíbrio.",
+    "options": [
+      "excesso de arrecadação de R$ 40.000 nas receitas de capital.",
+      "déficit de arrecadação de R$ 40.000.",
+      "excesso de arrecadação de R$ 250.000.",
+      "equilíbrio entre previsão e arrecadação.",
+      "excesso de arrecadação de R$ 690.000."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • Analista de Gestão Contábil • Pref. de Recife-PE • 2019 • adaptada C/E→A–E^^\n\nA receita de \"**Remuneração de Depósitos Bancários**\" é classificada, quanto à **espécie**, como:",
+    "back": "**Gabarito: D.** \"Remuneração de Depósitos Bancários\" é receita **corrente patrimonial**, espécie **Valores Mobiliários**. São valores mobiliários os juros e correções monetárias de aplicações do ente (remuneração de depósitos bancários e especiais, juros de títulos de renda, juros sobre capital próprio, dividendos).\n\n| Nível | Classificação |\n|---|---|\n| Categoria | Receitas Correntes |\n| Origem | Receita Patrimonial |\n| **Espécie** | **Valores Mobiliários** |\n\n**Por que as demais erram:** **A** receita de serviços não cabe; **B** tributária não cabe; **C** \"receita patrimonial\" é a **origem**, não a espécie; **E** outras receitas correntes não cabe.",
+    "options": [
+      "Receita de Serviços.",
+      "Receita Tributária.",
+      "Receita Patrimonial.",
+      "Valores Mobiliários.",
+      "Outras Receitas Correntes."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Auditor Fiscal • SEFAZ-BA • 2019 • adaptada C/E→A–E^^\n\nReceitas com \"**Valores Mobiliários**\" e com \"**Exploração de Recursos Naturais**\" classificam-se, quanto à **origem**, respectivamente, como:",
+    "back": "**Gabarito: A.** Ambas são **Receita Patrimonial** (origem). A receita patrimonial decorre de rendimentos sobre investimentos do ativo, aplicações de disponibilidades e demais rendas de ativos — o que abrange tanto **valores mobiliários** quanto a **exploração de recursos naturais** (royalties/compensações).\n\n> 📖 Receita Patrimonial = fruição do patrimônio (aluguéis, dividendos, royalties, valores mobiliários, exploração de recursos naturais).\n\n**Por que as demais erram:** **B, C, D e E** classificam um dos itens como receita de capital, de serviços ou tributária, o que não corresponde ao Ementário.",
+    "options": [
+      "Receita Patrimonial e Receita Patrimonial.",
+      "Receita de Capital e Receita Patrimonial.",
+      "Receita de Serviços e Receita Patrimonial.",
+      "Receita Patrimonial e Receita de Capital.",
+      "Receita Tributária e Receita Patrimonial."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Analista Executivo • SEGEP-MA • 2018 • adaptada C/E→A–E^^\n\nA receita oriunda de **juros sobre aplicação em títulos de renda** no mercado financeiro classifica-se, quanto à **categoria econômica** e **origem**, respectivamente, como:",
+    "back": "**Gabarito: A.** Juros de aplicações financeiras do ente são **Receita Corrente** (categoria) e **Receita Patrimonial** (origem) — espécie Valores Mobiliários.\n\n> 📖 Juros/correções de aplicações = receita corrente patrimonial (valores mobiliários).\n\n**Por que as demais erram:** **B, C, D e E** classificam como receita de capital ou em origem diversa (serviços, financeira), o que não corresponde ao Ementário.",
+    "options": [
+      "Receita Corrente e Receita Patrimonial.",
+      "Receita de Capital e Operações de Crédito.",
+      "Receita Corrente e Receita de Serviços.",
+      "Receita de Capital e Receita Patrimonial.",
+      "Receita Corrente e Receita Financeira."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Analista Previdenciário • SEGEP-MA • 2018 • adaptada C/E→A–E^^\n\nAs **contribuições dos servidores ativos para o RPPS** classificam-se, quanto à **origem** e à **espécie**, respectivamente, como:",
+    "back": "**Gabarito: B.** São **Receita de Contribuições** (origem), espécie **Contribuições Sociais**. A origem \"Receitas de Contribuições\" abrange contribuições sociais, econômicas e para entidades privadas de serviço social.\n\n| Nível | Classificação |\n|---|---|\n| Categoria | Receitas Correntes |\n| Origem | Receitas de Contribuições |\n| **Espécie** | **Contribuições Sociais** |\n\n**Por que as demais erram:** **A** \"Contribuições Econômicas\" é outra espécie; **C** não são receita de serviços; **D** não são tributárias; **E** não são patrimoniais.",
+    "options": [
+      "Contribuições e Contribuições Econômicas.",
+      "Contribuições e Contribuições Sociais.",
+      "Receita de Serviços e Contribuições Sociais.",
+      "Receita Tributária e Contribuições Sociais.",
+      "Receita Patrimonial e Contribuições Sociais."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Assistente Técnico Fazendário • Pref. de Manaus-AM • 2019 • adaptada C/E→A–E^^\n\nA receita de \"**Contribuição de Melhoria** para Expansão de Rede de Iluminação Pública Rural\" classifica-se, quanto à **espécie**, como:",
+    "back": "**Gabarito: C.** É **Contribuição de Melhoria** (espécie). Quanto aos demais níveis: categoria **Receitas Correntes**; origem **Receitas Tributárias** (Impostos, Taxas e Contribuições de Melhoria).\n\n| Nível | Classificação |\n|---|---|\n| Categoria | Receitas Correntes |\n| Origem | Receitas Tributárias |\n| **Espécie** | **Contribuições de Melhoria** |\n\n**Por que as demais erram:** **A, B, D e E** confundem a espécie com a origem tributária, com taxa, com imposto ou com contribuição social.",
+    "options": [
+      "Receita Tributária.",
+      "Taxa.",
+      "Contribuição de Melhoria.",
+      "Imposto.",
+      "Contribuição Social."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Perito Criminal • Polícia Federal • 2018 • adaptada C/E→A–E^^\n\nA receita obtida por um ente público oriunda da **exploração ordenada de recursos naturais vegetais** em ambiente natural e protegido integra a categoria econômica:",
+    "back": "**Gabarito: A.** As **receitas agropecuárias** (exploração ordenada de recursos naturais vegetais, cultivo agrícola/florestal, extração de madeira etc.) são **Receitas Correntes**. Quanto à procedência, são **originárias** (Estado atua como empresário).\n\n> 📖 Agropecuárias = receita corrente, origem específica; é também uma receita originária.\n\n**Por que as demais erram:** **B** não é de capital; **C** não é extraorçamentária; **D** \"intraorçamentária\" exige operação entre órgãos do mesmo ente; **E** não é despesa.",
+    "options": [
+      "receita corrente.",
+      "receita de capital.",
+      "receita extraorçamentária.",
+      "receita intraorçamentária.",
+      "despesa corrente."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Administrador • IFF • 2018 • adaptada C/E→A–E^^\n\nNa classificação da receita pública **por origem**, qual ingresso é definido como **receita agropecuária**?",
+    "back": "**Gabarito: B.** A origem **\"receitas agropecuárias\"** decorre da **exploração econômica, pelo ente público, de atividades agropecuárias** (venda de produtos agrícolas, pecuários, florestais).\n\n> 📖 É receita corrente e originária.\n\n**Por que as demais erram:** **A** aluguel = patrimonial; **C** imposto = tributária; **D** operação de crédito = capital; **E** caução = extraorçamentária.",
+    "options": [
+      "Aluguel de imóvel do ente.",
+      "Venda de produtos agrícolas explorados economicamente pelo ente.",
+      "Arrecadação de imposto.",
+      "Operação de crédito.",
+      "Recebimento de caução."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Analista Judiciário • STM • 2018 • adaptada C/E→A–E^^\n\nAs receitas dos tribunais decorrentes da **prestação de serviços** devem ser classificadas como:",
+    "back": "**Gabarito: C.** São **receita corrente de serviços**. A origem \"Receita de Serviços\" abrange a prestação de serviços de transporte, saúde, comunicação, portuários, armazenagem, processamento de dados, etc.\n\n> 📖 Serviço prestado pelo tribunal = receita corrente de serviços (originária).\n\n**Por que as demais erram:** **A** não é tributária (não é taxa); **B** não é patrimonial; **D** não é de capital; **E** não é extraorçamentária.",
+    "options": [
+      "receita tributária.",
+      "receita patrimonial.",
+      "receita corrente de serviços.",
+      "receita de capital.",
+      "receita extraorçamentária."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas Públicas • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nSobre as **multas administrativas**, é correto afirmar que:",
+    "back": "**Gabarito: A.** Embora as multas decorram de atos de sanção, são **consideradas receitas orçamentárias**. A questão original afirmava que \"não são incluídas no conceito de receita pública por serem atos punitivos\", o que está {red:errado}.\n\n> 📖 Multas = receita derivada (poder de império), classificadas no orçamento.\n\n**Por que as demais erram:** **B** são receitas, não meros atos punitivos sem efeito orçamentário; **C** não são extraorçamentárias; **D** não são receita de capital; **E** não deixam de ser receita por serem sanção.",
+    "options": [
+      "as multas administrativas são consideradas receitas orçamentárias, ainda que decorram de sanção.",
+      "as multas administrativas não integram o conceito de receita pública por serem atos punitivos.",
+      "as multas administrativas são receitas extraorçamentárias.",
+      "as multas administrativas são receitas de capital.",
+      "as multas administrativas não são receitas, por constituírem sanção de ato ilícito."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Técnico Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nA **concessão de serviço público** a um particular que implique cessão de **patrimônio imobiliário** do Estado a terceiro representará receita:",
+    "back": "**Gabarito: B.** As receitas oriundas da **exploração do patrimônio imobiliário** do Estado são **receitas correntes patrimoniais**. A questão original afirmava que seria \"receita de capital\", o que está {red:errado}.\n\n> 📖 Exploração do patrimônio (aluguel, concessão, cessão de uso) = receita corrente patrimonial.\n\n**Por que as demais erram:** **A** não é de capital; **C** não é extraorçamentária; **D** não é tributária; **E** não é de serviços.",
+    "options": [
+      "de capital.",
+      "corrente patrimonial.",
+      "extraorçamentária.",
+      "tributária.",
+      "corrente de serviços."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Auditor Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nSobre as receitas **agropecuárias** e **industriais**, é correto afirmar que são exemplos típicos de receitas:",
+    "back": "**Gabarito: A.** As receitas **agropecuárias e industriais** são exemplos típicos de receitas **orçamentárias correntes** (originárias). A questão original as classificava como \"extraorçamentárias\", o que está {red:errado}.\n\n> 📖 Agropecuárias e industriais = receitas correntes (exploração econômica pelo Estado).\n\n**Por que as demais erram:** **B** não são extraorçamentárias; **C** não são de capital; **D** não são derivadas (são originárias); **E** não são intraorçamentárias.",
+    "options": [
+      "orçamentárias correntes.",
+      "extraorçamentárias.",
+      "de capital.",
+      "derivadas.",
+      "intraorçamentárias."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário • TJ-MA • 2019 • adaptada C/E→A–E^^\n\nSão exemplos de **receitas correntes**:",
+    "back": "**Gabarito: A.** **Contribuições de melhoria** (receita tributária) e **receita de serviços administrativos e gerais** são, ambas, **receitas correntes**.\n\n> 📖 Correntes: tributária, contribuições, patrimonial, agropecuária, industrial, serviços, transferências correntes e outras.\n\n**Por que as demais erram:** **B** operações de crédito e alienação de bens são de **capital**; **C** o resultado do Banco Central é receita de **capital**; **D** amortização de empréstimos é de capital; **E** superávit do orçamento corrente é receita de capital.",
+    "options": [
+      "contribuições de melhoria e receita de serviços administrativos e gerais.",
+      "operações de crédito e alienação de bens.",
+      "contribuições para entidades privadas de serviço social e resultado do Banco Central.",
+      "amortização de empréstimos e receita patrimonial.",
+      "superávit do orçamento corrente e receita de serviços."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário • TJ-MA • 2019 • adaptada C/E→A–E^^\n\nA respeito da classificação de \"**contribuições para entidades privadas de serviço social**\" e do \"**resultado do Banco Central**\", é correto afirmar que:",
+    "back": "**Gabarito: C.** As **contribuições para entidades privadas de serviço social** são receitas **correntes** (origem contribuições), mas o **resultado do Banco Central** é receita de **CAPITAL**. Logo, a afirmação de que ambas seriam correntes está {red:errada}.\n\n> 📖 Resultado do BACEN = receita de capital.\n\n**Por que as demais erram:** **A** o resultado do BC não é corrente; **B** ambos não são de capital; **D e E** invertem ou generalizam indevidamente.",
+    "options": [
+      "ambas são receitas correntes.",
+      "ambas são receitas de capital.",
+      "a contribuição é receita corrente, mas o resultado do Banco Central é receita de capital.",
+      "a contribuição é de capital e o resultado do BC é corrente.",
+      "ambas são receitas extraorçamentárias."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FGV • SEFAZ-AM • 2022^^\n\nAssinale a opção que indica um fato classificado como **Receita Corrente – Patrimonial** por uma entidade do setor público.",
+    "back": "**Gabarito: D.** **Multas pelo atraso no pagamento da dívida ativa de aluguéis** seguem a natureza do principal: como **aluguéis são receita patrimonial**, suas multas/juros e a respectiva dívida ativa também são **patrimoniais**.\n\n> 📖 Regra: multas, juros e dívida ativa **acompanham a origem** da receita principal (identificados pelo \"tipo\", 8º dígito).\n\n**Por que as demais erram:** **A** multas de trânsito = outras receitas correntes; **B e E** multas/dívida ativa de **impostos** = tributárias; **C** multas de biblioteca = outras receitas correntes.",
+    "options": [
+      "Multas de trânsito.",
+      "Multas pelo atraso no pagamento de impostos.",
+      "Multas pelo atraso na devolução de livros em biblioteca.",
+      "Multas pelo atraso no pagamento da dívida ativa de aluguéis.",
+      "Multas pelo atraso no pagamento na dívida ativa de impostos."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário • TJ-MA • 2019 • adaptada C/E→A–E^^\n\nA \"**receita patrimonial**\" e a \"**receita agropecuária**\" são exemplos de qual categoria econômica?",
+    "back": "**Gabarito: A.** Ambas são **Receitas Correntes**. As receitas correntes incluem: tributária, de contribuições, **patrimonial**, **agropecuária**, industrial, de serviços, transferências correntes e outras.\n\n> 📖 **Art. 11, § 1º, Lei 4.320/64.**\n\n**Por que as demais erram:** **B** não são de capital; **C** não são extraorçamentárias; **D** patrimonial não é tributária; **E** não são intraorçamentárias.",
+    "options": [
+      "Receitas Correntes.",
+      "Receitas de Capital.",
+      "Receitas Extraorçamentárias.",
+      "Receitas Tributárias apenas.",
+      "Receitas Intraorçamentárias."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas Públicas • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nSobre o **recebimento de amortização da dívida pública** e o **ingresso de operações de crédito**, é correto afirmar que se classificam como receita:",
+    "back": "**Gabarito: B.** Tanto o **recebimento de amortização de empréstimos** quanto as **operações de crédito** são receitas de **CAPITAL**. A questão original os classificava como \"receita corrente\", o que está {red:errado}.\n\n> 📖 Origens de receita de capital: operações de crédito, alienação de bens, amortização de empréstimos, transferências de capital, superávit do orçamento corrente.\n\n**Por que as demais erram:** **A** não são correntes; **C** não são extraorçamentárias (operação de crédito comum é orçamentária); **D** não são patrimoniais; **E** não são transferências correntes.",
+    "options": [
+      "corrente.",
+      "de capital.",
+      "extraorçamentária.",
+      "patrimonial.",
+      "de transferências correntes."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário • TRT-11 • 2017 • adaptada C/E→A–E^^\n\nEm um TRT, as receitas com a **alienação de bens móveis** são classificadas como receitas:",
+    "back": "**Gabarito: B.** A **alienação de bens** (móveis ou imóveis) é receita de **CAPITAL** (origem alienação de bens). A questão original dizia \"receitas correntes\", estando {red:errada}.\n\n> 📖 Alienação de bens = receita de capital.\n\n**Por que as demais erram:** **A** não é corrente; **C** não é extraorçamentária; **D** não é patrimonial; **E** não é de serviços.",
+    "options": [
+      "correntes.",
+      "de capital.",
+      "extraorçamentárias.",
+      "correntes patrimoniais.",
+      "correntes de serviços."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^IADES • Analista • Hemocentro • 2017 • adaptada C/E→A–E^^\n\nNo orçamento público brasileiro, as **operações de crédito** classificam-se como receitas:",
+    "back": "**Gabarito: B.** As **operações de crédito** são receitas de **CAPITAL** (constituição de dívidas). A questão original as classificava como correntes, estando {red:errada}.\n\n> 📖 Operação de crédito comum = receita de capital (orçamentária); ARO = extraorçamentária.\n\n**Por que as demais erram:** **A** não são correntes; **C** a operação de crédito comum é orçamentária (capital); **D** não são patrimoniais; **E** não são tributárias.",
+    "options": [
+      "correntes.",
+      "de capital.",
+      "extraorçamentárias.",
+      "correntes patrimoniais.",
+      "tributárias."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Auditor Fiscal • SEFAZ-GO • 2018 • adaptada C/E→A–E^^\n\nReceitas com \"**Aluguéis e Arrendamentos – Dívida Ativa – Multas e Juros**\" e com \"**Alienação de Títulos Mobiliários – Principal**\" classificam-se, quanto à **categoria econômica**, respectivamente, como:",
+    "back": "**Gabarito: C.** Veja a classificação correta:\n\n| Item | Categoria | Origem |\n|---|---|---|\n| Aluguéis e Arrendamentos – Dívida Ativa – Multas e Juros | **Receita Corrente** | Patrimonial |\n| Alienação de Títulos Mobiliários – Principal | **Receita de Capital** | Alienação de Bens |\n\nA questão original dizia que **ambas** seriam de capital, o que é {red:errado} (a primeira é corrente).\n\n**Por que as demais erram:** **A, B, D e E** classificam erroneamente a 1ª como de capital ou a 2ª como corrente.",
+    "options": [
+      "Receita de Capital e Receita de Capital.",
+      "Receita Corrente e Receita Corrente.",
+      "Receita Corrente e Receita de Capital.",
+      "Receita de Capital e Receita Corrente.",
+      "Receita Patrimonial e Receita Patrimonial."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas Públicas • TCE-PB • 2018 • adaptada C/E→A–E^^\n\nQuanto à classificação das **contribuições sociais**, das **contribuições de melhoria** e das **multas de impostos**, é correto afirmar que:",
+    "back": "**Gabarito: C.** As receitas **tributárias** são oriundas de **impostos, taxas e contribuições de melhoria**. As **contribuições sociais** são **receitas de contribuições** (não tributárias, nessa classificação). As **multas de impostos** são tributárias, identificadas pelo **tipo** (8º dígito). A questão original colocava todas como \"tributárias\", o que está {red:errado} quanto às contribuições sociais.\n\n> 📖 Contribuição de melhoria = tributária; Contribuição social = receita de contribuições.\n\n**Por que as demais erram:** **A, B, D e E** classificam todas como tributárias ou todas como contribuições, ignorando a separação entre contribuição **de melhoria** (tributária) e contribuição **social** (de contribuições).",
+    "options": [
+      "todas são receitas tributárias.",
+      "todas são receitas de contribuições.",
+      "as contribuições de melhoria e as multas de impostos são tributárias, mas as contribuições sociais são receitas de contribuições.",
+      "as contribuições sociais são tributárias e as de melhoria são de contribuições.",
+      "todas são receitas patrimoniais."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Técnico • MPU • 2018 • adaptada C/E→A–E^^\n\nPara classificar uma receita de acordo com o **acontecimento real (fato gerador)** que ocasionou o ingresso nos cofres públicos, deve-se utilizar a classificação:",
+    "back": "**Gabarito: D.** A **classificação por natureza da receita** procura refletir o **fato gerador** que ocasionou o ingresso dos recursos. É a {blue:menor célula de informação} no contexto orçamentário das receitas e deve conter todas as informações para as devidas vinculações.\n\n> 📖 Código de 8 dígitos: categoria econômica · origem · espécie · desdobramentos · tipo.\n\n**Por que as demais erram:** **A** por fontes identifica destinação; **B** por identificador de resultado primário separa primárias/financeiras; **C** por esfera identifica fiscal/seguridade/investimento; **E** por categoria econômica é apenas o 1º nível.",
+    "options": [
+      "por fontes/destinação de recursos.",
+      "por identificador de resultado primário.",
+      "por esfera orçamentária.",
+      "por natureza da receita.",
+      "apenas por categoria econômica."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Auditor • TCE-PE • 2017 • adaptada C/E→A–E^^\n\nPara identificar a **origem** de determinada receita conforme o acontecimento real que ocasionou o ingresso, utiliza-se a classificação:",
+    "back": "**Gabarito: A.** A classificação **por natureza de receita** reflete o **fato gerador** (acontecimento real) que ocasionou o ingresso, identificando a entrada de receitas de acordo com esse acontecimento.\n\n> 📖 É a classificação mais analítica (8 dígitos).\n\n**Por que as demais erram:** **B** por fontes trata da destinação; **C** identificador de resultado separa primárias/financeiras; **D** esfera identifica o orçamento (fiscal/seguridade/investimento); **E** doutrinária não é classificador oficial.",
+    "options": [
+      "por natureza de receita.",
+      "por fontes/destinação de recursos.",
+      "por identificador de resultado primário.",
+      "por esfera orçamentária.",
+      "doutrinária por afetação patrimonial."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário • TRE-SP • 2017 • adaptada C/E→A–E^^\n\nNo código de natureza de receita \"**1.1.1.3.01.1.1**\" (IRPF), os três primeiros dígitos \"1.1.1\" referem-se, respectivamente, a:",
+    "back": "**Gabarito: A.** Os **três primeiros dígitos** da natureza de receita são: **categoria econômica · origem · espécie**. No código do IRPF:\n\n| Posição | Dígito | Significado |\n|---|---|---|\n| 1º | 1 | **Categoria econômica** – Receitas Correntes |\n| 2º | 1 | **Origem** – Impostos, Taxas e Contrib. de Melhoria |\n| 3º | 1 | **Espécie** – Impostos |\n| 4º–7º | 3.01.1 | Desdobramentos (peculiaridades) |\n| 8º | 1 | **Tipo** – Principal |\n\nA questão original dizia \"categoria econômica, **rubrica e alínea**\", o que está {red:errado}.\n\n**Por que as demais erram:** **B, C, D e E** usam termos da classificação **antiga** (rubrica, alínea, subalínea) ou trocam a ordem.",
+    "options": [
+      "categoria econômica, origem e espécie.",
+      "categoria econômica, rubrica e alínea.",
+      "origem, espécie e tipo.",
+      "categoria econômica, fonte e espécie.",
+      "rubrica, alínea e subalínea."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Auditor Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nNa atual classificação da receita por natureza, o **último dígito** (8º) da natureza de receita tem a finalidade de:",
+    "back": "**Gabarito: A.** O **8º dígito** corresponde ao **\"tipo\"**, cuja finalidade é identificar o **tipo de arrecadação** a que se refere a natureza da receita (ex.: 0 = natureza agregadora; 1 = principal; 2 = multas; 3 = juros; 4 = dívida ativa; etc.).\n\n> 📖 É o \"tipo\" que diferencia, p.ex., imposto principal de suas multas e juros.\n\n**Por que as demais erram:** **B** categoria econômica é o 1º dígito; **C** origem é o 2º; **D** espécie é o 3º; **E** a fonte/destinação é outra classificação (4 dígitos próprios).",
+    "options": [
+      "identificar o tipo de arrecadação a que se refere a natureza da receita.",
+      "identificar a categoria econômica da receita.",
+      "identificar a origem da receita.",
+      "identificar a espécie da receita.",
+      "identificar a fonte/destinação de recursos."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^CESPE • Auditor Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nSão **critérios** para a classificação da receita orçamentária, entre outros:",
+    "back": "**Gabarito: A.** Segundo o MTO, as receitas orçamentárias são classificadas segundo: **natureza de receita; indicador de resultado primário; fonte/destinação de recursos; e esfera orçamentária**. Logo, a **natureza** e a **fonte/destinação** são critérios válidos.\n\n> 📖 4 critérios: Natureza · Resultado primário · Fonte/destinação · Esfera.\n\n**Por que as demais erram:** **B, C, D e E** incluem critérios inexistentes (regularidade obrigatória, afetação como classificador oficial) ou negam critérios válidos — as classificações doutrinárias (afetação, regularidade) não são classificadores **oficiais**.",
+    "options": [
+      "a natureza de receita e a fonte/destinação dos recursos.",
+      "a afetação patrimonial e a regularidade, como classificadores oficiais.",
+      "apenas a categoria econômica.",
+      "a periodicidade e o poder de tributar, como classificadores oficiais.",
+      "exclusivamente a esfera orçamentária."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Analista de Gestão Contábil • TRT/15 • 2018 • adaptada C/E→A–E^^\n\nSão exemplos de **receitas correntes**:",
+    "back": "**Gabarito: A.** **Receita patrimonial** e **receita agropecuária** são, ambas, **receitas correntes** (art. 11, § 1º, Lei 4.320/64).\n\n> 📖 Correntes: tributária, contribuições, patrimonial, agropecuária, industrial, serviços, transferências correntes, outras.\n\n**Por que as demais erram:** **B** alienação e operações de crédito são de capital; **C** amortização de empréstimos é de capital; **D** superávit do orçamento corrente é de capital; **E** transferências de capital são de capital.",
+    "options": [
+      "receita patrimonial e receita agropecuária.",
+      "alienação de bens e operações de crédito.",
+      "amortização de empréstimos e receita industrial.",
+      "superávit do orçamento corrente e receita de serviços.",
+      "transferências de capital e receita tributária."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • Analista - CNMP • 2015 • adaptada C/E→A–E^^\n\nO **ITR** (R$ 190.000) e suas **multas e juros de mora** (R$ 8.500) classificam-se quanto à origem como:",
+    "back": "**Gabarito: B.** O **imposto (ITR)** e suas **multas e juros de mora** são classificados na origem **Receitas Tributárias** (impostos, taxas e contribuições de melhoria), diferenciando-se apenas no **tipo** (8º dígito): principal × multas × juros. A questão original os colocava em \"receita patrimonial\", o que está {red:errado}.\n\n> 📖 Multas e juros **seguem a origem do principal**, mudando só o tipo.\n\n**Por que as demais erram:** **A** não são patrimoniais; **C** não são de serviços; **D** não são de capital; **E** o principal não é tributário e os acréscimos patrimoniais — ambos são tributários.",
+    "options": [
+      "receita patrimonial, tanto o principal quanto os acréscimos.",
+      "receitas tributárias, diferenciando-se apenas no tipo (principal, multas e juros).",
+      "receita de serviços.",
+      "receita de capital.",
+      "o principal como tributária e os acréscimos como patrimoniais."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Receita"
+  },
+  {
+    "front": "^^FCC • AnaLeg(ALAP) • ALAP • 2020^^\n\nAs **Receitas Correntes Intraorçamentárias** são:",
+    "back": "**Gabarito: B.** As intraorçamentárias são operações **realizadas entre órgãos e demais entidades da Administração Pública** integrantes do **orçamento fiscal e da seguridade social do mesmo ente federativo** e, por isso, **não representam novas entradas** de recursos nos cofres do ente.\n\n> 📖 Finalidade: evitar a **dupla contagem** na consolidação das contas (códigos 7 e 8 de categoria econômica). Ex.: recolhimento de contribuição patronal ao RPPS; contratação entre estatais dependentes.\n\n**Por que as demais erram:** **A** restringe a \"Administração direta\" (são da Administração Pública em geral); **C, D e E** descrevem-nas como instrumento de financiamento/contratação de dívida, sem o traço essencial de operação **interna ao mesmo ente**.",
+    "options": [
+      "realizadas entre órgãos da Administração direta integrantes dos orçamentos, sem novas entradas de recursos.",
+      "realizadas entre órgãos e entidades da Administração Pública integrantes dos orçamentos fiscal e da seguridade do mesmo ente, sem representar novas entradas de recursos.",
+      "arrecadadas dentro do exercício e são instrumento de financiamento de programas e ações.",
+      "arrecadadas dentro do exercício e instrumento para financiar objetivos por meio de contratação de dívida.",
+      "arrecadadas dentro do ciclo operacional e instrumentos de investimento."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^CESPE • Auditor Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nAcerca das receitas **intraorçamentárias**, é correto afirmar que:",
+    "back": "**Gabarito: B.** As receitas intraorçamentárias são a **contrapartida das despesas na modalidade de aplicação 91** (operação entre órgãos/fundos/entidades dos orçamentos fiscal e da seguridade), e **têm justamente a função de anular o efeito da dupla contagem** na consolidação das contas. A questão original dizia que \"**não** são capazes de anular a dupla contagem\", o que está {red:errado}.\n\n> 📖 Criadas pela Portaria Interministerial STN/SOF 163/2001 (modalidade 91); não são novas categorias econômicas, mas especificações.\n\n**Por que as demais erram:** **A** negam a função anti-dupla-contagem; **C** representam, sim, contrapartida da modalidade 91; **D** são especificações, não novas categorias; **E** envolvem o mesmo ente, não entes distintos.",
+    "options": [
+      "não permitem anular o efeito da dupla contagem na consolidação das contas.",
+      "são a contrapartida da modalidade de aplicação 91 e permitem anular o efeito da dupla contagem na consolidação das contas.",
+      "não têm relação com a modalidade de aplicação 91.",
+      "constituem novas categorias econômicas de receita.",
+      "decorrem de operações entre entes federativos distintos."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^FCC • AJTRT18 • TRT-18 • 2023^^\n\nConsiderando as categorizações de receitas/ingressos públicos, são exemplos: I. **Receita Originária**: royalties de petróleo e gás; II. **Receita Derivada**: produto da arrecadação de impostos; III. **Ingressos Extraorçamentários**: depósitos em caução; IV. **Receita primária**: recursos de juros de operações financeiras. Está correto APENAS o que se afirma em:",
+    "back": "**Gabarito: B.** Analisando cada item:\n\n| Item | Afirmação | Correto? |\n|---|---|---|\n| I | Royalties = receita **originária** (patrimonial) | ✅ |\n| II | Impostos = receita **derivada** | ✅ |\n| III | Caução = **ingresso extraorçamentário** | ✅ |\n| IV | Juros de operações financeiras = receita **financeira (não primária)** | ❌ |\n\nLogo, corretos **I, II e III**. O item IV erra: juros/aplicações financeiras são **receitas financeiras (não primárias)**, e não primárias.\n\n> 📖 Receita financeira ≠ receita primária; entram no cálculo do resultado **primário** apenas as primárias.\n\n**Por que as demais erram:** todas as outras incluem o item IV ou excluem algum dos itens I–III, que estão corretos.",
+    "options": [
+      "I e II.",
+      "I, II e III.",
+      "I, III e IV.",
+      "II e IV.",
+      "I, II e IV."
+    ],
+    "correctOption": "B",
+    "topicName": "Receita Pública - Conceitos"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre a **Dívida Ativa**, nos termos da Lei nº 4.320/1964, assinale a alternativa correta.",
+    "back": "**Gabarito: C.** A **Dívida Ativa** abrange os créditos da Fazenda Pública cuja **certeza e liquidez** foram apuradas e que **não foram pagos** nos vencimentos. Para inscrição, é essencial que o crédito seja **líquido, certo e esteja vencido**. A certidão de dívida ativa goza de {blue:presunção relativa} de liquidez e certeza (admite prova em contrário).\n\n| Espécie | Origem |\n|---|---|\n| **Dívida Ativa Tributária** | tributos, adicionais e multas tributárias |\n| **Dívida Ativa Não Tributária** | demais créditos (custas, aluguéis, foros, multas não tributárias, etc.) |\n\n> 📖 **Art. 39, § 2º, Lei 4.320/64.** As receitas de dívida ativa incluem, além do principal, atualização monetária, multa e juros de mora.\n\n**Por que as demais erram:** **A** a inscrição é fato **permutativo**, não modificativo aumentativo; **B** a presunção é relativa, não absoluta; **D** não se limita a créditos tributários; **E** abrange tributária E não tributária.",
+    "options": [
+      "A inscrição em dívida ativa constitui fato modificativo aumentativo.",
+      "A certidão de dívida ativa goza de presunção absoluta de liquidez e certeza.",
+      "Abrange os créditos líquidos, certos e vencidos da Fazenda Pública, dividindo-se em tributária e não tributária.",
+      "Limita-se aos créditos de natureza tributária.",
+      "Compreende apenas a dívida ativa tributária."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • AJTRT22 • TRT-22 • 2022^^\n\nConsidere: I. Dívida fundada; II. Dívida flutuante; III. Dívida ativa tributária; IV. Dívida ativa não tributária. Consoante a Lei nº 4.320/1964, constitui **crédito** da Fazenda Pública o constante em:",
+    "back": "**Gabarito: C.** **Dívida Ativa** (tributária e não tributária) representa **créditos a receber** da Fazenda Pública — itens **III e IV**. Já dívida **fundada** e **flutuante** são espécies de **dívida pública passiva** (obrigações do ente), e não créditos.\n\n> 📖 **Art. 39, Lei 4.320/64:** dívida ativa = créditos da Fazenda apurados e não pagos no vencimento.\n\n**Atenção:** Dívida ATIVA = crédito (a receber); Dívida fundada/flutuante = dívida (a pagar).\n\n**Por que as demais erram:** **A, B, D e E** incluem dívida fundada/flutuante (passivas) ou excluem uma das espécies de dívida ativa.",
+    "options": [
+      "I, II, III e IV.",
+      "I e II, apenas.",
+      "III e IV, apenas.",
+      "III, apenas.",
+      "IV, apenas."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • AJTRT22 • TRT-22 • 2022^^\n\nCréditos a receber provenientes de **custas processuais** classificam-se, nos termos da Lei nº 4.320/1964, como:",
+    "back": "**Gabarito: D.** As **custas processuais** são **Dívida Ativa Não Tributária**. Pelo art. 39, § 2º, a dívida ativa não tributária compreende os demais créditos da Fazenda (empréstimos compulsórios, contribuições, multas não tributárias, foros, laudêmios, aluguéis, **custas processuais**, preços de serviços, etc.).\n\n> 📖 **Art. 39, § 2º, Lei 4.320/64.**\n\n**Por que as demais erram:** **A** \"valores a fundo perdido\" não existe como classificação; **B** não são contribuições legais; **C** \"receita ativa não tributária\" não é o termo correto (é **dívida** ativa); **E** não são compensações financeiras.",
+    "options": [
+      "valores a fundo perdido.",
+      "contribuições legais.",
+      "receita ativa não tributária.",
+      "dívida ativa não tributária.",
+      "compensações financeiras."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • Ana(DETRAN-AP) • DETRAN-AP • 2022^^\n\nA **inscrição** do crédito em dívida ativa:",
+    "back": "**Gabarito: C.** Segundo o MCASP, a **inscrição** do crédito em dívida ativa é **fato permutativo** e o crédito é classificado como receita **extraorçamentária** (para evitar duplicidade de valores). Por isso, a inscrição {green:não constitui receita orçamentária do exercício}. A receita orçamentária surge no **recebimento** da dívida ativa.\n\n> 📖 Inscrição = permutativo / extraorçamentária; Recebimento = receita orçamentária do exercício em que arrecadada.\n\n**Por que as demais erram:** **A e D** a inscrição não se limita a obrigação tributária; **B** não é fato modificativo redutivo; **E** não é fato modificativo aumentativo (é permutativo).",
+    "options": [
+      "somente pode ocorrer se oriundo de inadimplência de obrigação tributária principal ou acessória.",
+      "constitui fato modificativo redutivo.",
+      "não constitui receita orçamentária do exercício.",
+      "somente pode ocorrer se oriundo de fato gerador tributário.",
+      "constitui fato modificativo aumentativo."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • TecGP(PGE-AM) • PGE-AM • 2022^^\n\nA arrecadação oriunda do **protesto de certidões de dívida ativa** em tabelionato deve ser reconhecida como:",
+    "back": "**Gabarito: D.** Independentemente do fato gerador que originou o crédito, pela **ótica orçamentária** considera-se **receita orçamentária do exercício vigente** a que for **arrecadada dentro dele** (art. 35 da Lei 4.320/64 — regime de caixa para a receita). Logo, é **receita do orçamento vigente**.\n\n> 📖 **Art. 35, Lei 4.320/64:** \"Pertencem ao exercício financeiro as receitas nele arrecadadas...\" (regime de caixa).\n\n**Por que as demais erram:** **A** não é receita do orçamento em que inscrita a certidão; **B, C e E** não é conta retificadora de dívida (fundada/flutuante/consolidada).",
+    "options": [
+      "receita do orçamento em que inscrita a certidão.",
+      "conta retificadora da dívida consolidada.",
+      "conta retificadora da dívida flutuante.",
+      "receita do orçamento vigente.",
+      "conta retificadora da dívida fundada."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • Ana(DETRAN-AP) • DETRAN-AP • 2022^^\n\nSomente se admite a **inscrição em dívida ativa** de:",
+    "back": "**Gabarito: B.** Para que uma dívida se torne \"dívida ativa\" é essencial que o **crédito** seja **líquido, certo e esteja vencido**. São créditos a receber, classificados no ativo, representando fonte potencial de fluxo de caixa.\n\n> 📖 Requisitos: crédito **líquido + certo + vencido**.\n\n**Atenção:** é **crédito** (a receber), não \"débito\".\n\n**Por que as demais erram:** **A, C e E** falam em \"débitos\" (errado: é crédito) ou admitem créditos ilíquidos/a vencer; **D** admite créditos \"a vencer\", mas a dívida ativa exige crédito **vencido**.",
+    "options": [
+      "débitos líquidos, certos e vencidos.",
+      "créditos líquidos, certos e vencidos.",
+      "débitos líquidos e certos, vencidos ou a vencer.",
+      "créditos líquidos e certos, vencidos ou a vencer.",
+      "débitos ou créditos certos, líquidos ou ilíquidos, vencidos ou a vencer."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQuanto à **afetação patrimonial**, assinale a alternativa que distingue corretamente receitas **efetivas** e **não efetivas**.",
+    "back": "**Gabarito: A.** Classificação doutrinária (afetação patrimonial), conforme o MCASP:\n\n| Tipo | Conceito | Efeito |\n|---|---|---|\n| **Efetiva** | ingresso **não** precedido de registro de reconhecimento de direito e **sem** obrigação correspondente | {green:aumenta o PL} |\n| **Não efetiva** (mutação) | ingresso **precedido** de reconhecimento de direito ou que constitui **obrigação** correspondente | {blue:nada acrescenta} (permutativo) |\n\n> 📖 São **efetivas** todas as receitas correntes, **exceto** o recebimento de **dívida ativa** (permutativo = não efetiva). São **não efetivas**, em regra, as receitas de capital (operações de crédito, alienação de bens).\n\n**Por que as demais erram:** **B** inverte os conceitos; **C** operações de crédito são não efetivas; **D** dívida ativa recebida é não efetiva; **E** aluguéis (correntes) são efetivos.",
+    "options": [
+      "Efetivas aumentam o PL, sem registro prévio de direito; não efetivas (mutação) são permutativas, precedidas de reconhecimento de direito ou que geram obrigação.",
+      "Efetivas são meras mutações patrimoniais; não efetivas aumentam o patrimônio líquido.",
+      "As operações de crédito são exemplos de receitas efetivas.",
+      "O recebimento de dívida ativa é exemplo de receita efetiva.",
+      "Os aluguéis são receitas não efetivas."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Efetivas e Não Efetivas"
+  },
+  {
+    "front": "^^CESPE • TCE-RJ • 2021 • adaptada C/E→A–E^^\n\nQuanto ao impacto na situação patrimonial líquida, a **receita orçamentária efetiva** é aquela em que:",
+    "back": "**Gabarito: A.** Segundo o MCASP, a **receita orçamentária efetiva** é aquela cujos ingressos de disponibilidade de recursos **não foram precedidos de registro de reconhecimento do direito** e **não constituem obrigações correspondentes** — por isso aumenta o patrimônio líquido.\n\n> 📖 Efetiva = sem direito prévio + sem obrigação correspondente → aumenta o PL.\n\n**Por que as demais erram:** **B, C e D** descrevem a receita **não efetiva** (precedida de reconhecimento de direito ou que gera obrigação); **E** confunde com regime de competência.",
+    "options": [
+      "os ingressos não foram precedidos de registro de reconhecimento do direito e não constituem obrigações correspondentes.",
+      "os ingressos foram precedidos de registro de reconhecimento do direito.",
+      "os ingressos constituem obrigações correspondentes no passivo.",
+      "há mutação patrimonial sem alteração do patrimônio líquido.",
+      "a receita é reconhecida pelo regime de competência."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Efetivas e Não Efetivas"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário • TJ-MA • 2019 • adaptada C/E→A–E^^\n\nDe acordo com o MCASP, as **receitas orçamentárias não efetivas** são aquelas em que:",
+    "back": "**Gabarito: A.** As receitas orçamentárias **não efetivas** (por mutação patrimonial) são aquelas cujos ingressos **foram precedidos de registro do reconhecimento de direito** e **constituem obrigações correspondentes** — nada acrescentam ao patrimônio (fato permutativo).\n\n> 📖 Ex.: operações de crédito (cria obrigação), recebimento de dívida ativa (baixa de direito).\n\n**Por que as demais erram:** **B, C e D** descrevem a receita **efetiva**; **E** generaliza indevidamente para todas as correntes.",
+    "options": [
+      "os ingressos foram precedidos de registro do reconhecimento de direito e constituem obrigações correspondentes.",
+      "os ingressos não foram precedidos de reconhecimento de direito.",
+      "não há obrigação correspondente no passivo.",
+      "há aumento do patrimônio líquido sem contrapartida.",
+      "todas as receitas correntes são não efetivas."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Efetivas e Não Efetivas"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário • TJ-MA • 2019 • adaptada C/E→A–E^^\n\nSobre as **receitas orçamentárias efetivas** e as **operações de crédito**, é correto afirmar que:",
+    "back": "**Gabarito: C.** As receitas **efetivas** são aquelas cujos ingressos **não foram precedidos** de registro de reconhecimento de direito. Já as **operações de crédito** são exemplo de receitas **NÃO efetivas** (criam obrigação no passivo). A questão original citava as operações de crédito como exemplo de efetivas, o que está {red:errado}.\n\n> 📖 Operação de crédito = não efetiva (gera obrigação).\n\n**Por que as demais erram:** **A, B, D e E** classificam as operações de crédito como efetivas ou invertem os conceitos de efetiva/não efetiva.",
+    "options": [
+      "as operações de crédito são exemplo de receita efetiva.",
+      "as receitas efetivas são precedidas de reconhecimento de direito.",
+      "as receitas efetivas não são precedidas de reconhecimento de direito, e as operações de crédito são exemplo de receitas não efetivas.",
+      "as operações de crédito aumentam o patrimônio líquido.",
+      "tanto as efetivas quanto as operações de crédito são permutativas."
+    ],
+    "correctOption": "C",
+    "topicName": "Receitas Efetivas e Não Efetivas"
+  },
+  {
+    "front": "^^CESPE • Técnico Municipal de Controle Interno • CGM-JP • 2018 • adaptada C/E→A–E^^\n\nA respeito da **receita orçamentária efetiva**, é correto afirmar que ela:",
+    "back": "**Gabarito: A.** A receita orçamentária **efetiva** {green:contribui para o aumento do patrimônio líquido}, sem correspondência no passivo — ou seja, é aquela cujos ingressos **não foram precedidos** de registro de reconhecimento de algum direito. A questão original dizia que a efetiva \"recebeu prévio reconhecimento do direito ou constitui obrigação\", confundindo-a com a **não efetiva** ({red:errada}).\n\n> 📖 Efetiva → aumenta o PL, sem direito prévio. Não efetiva → mutação patrimonial (direito prévio ou obrigação).\n\n**Por que as demais erram:** **B, C e D** atribuem à efetiva características da **não efetiva**; **E** nega seu efeito positivo sobre o PL.",
+    "options": [
+      "contribui para o aumento do patrimônio líquido e não é precedida de reconhecimento de direito.",
+      "recebeu prévio reconhecimento do direito.",
+      "constitui obrigação correspondente no passivo.",
+      "é receita por mutação patrimonial.",
+      "não altera o patrimônio líquido do ente."
+    ],
+    "correctOption": "A",
+    "topicName": "Receitas Efetivas e Não Efetivas"
+  },
+  {
+    "front": "^^FCC • Analista do Tesouro Estadual • SEFAZ-PI • 2015 • adaptada C/E→A–E^^\n\nQuanto ao impacto na situação líquida patrimonial, as receitas de **aluguéis** e de **impostos** são, respectivamente:",
+    "back": "**Gabarito: D.** **Aluguéis** e **impostos** são **receitas correntes** e, portanto, **ambas efetivas** (aumentam o PL sem contrapartida no passivo). A questão original dizia \"efetivas e não efetivas, respectivamente\", o que está {red:errado}.\n\n> 📖 São efetivas todas as correntes, **exceto** o recebimento de dívida ativa.\n\n**Por que as demais erram:** **A, B, C e E** classificam ao menos uma delas como não efetiva ou invertem.",
+    "options": [
+      "efetiva e não efetiva.",
+      "não efetiva e efetiva.",
+      "ambas não efetivas.",
+      "ambas efetivas.",
+      "não efetiva e não efetiva."
+    ],
+    "correctOption": "D",
+    "topicName": "Receitas Efetivas e Não Efetivas"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre a classificação da receita por **Fonte/Destinação de Recursos**, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** **Fonte/Destinação de Recursos** é cada **agrupamento de receitas que possui as mesmas normas de aplicação**. É instrumento de gestão **da receita e da despesa ao mesmo tempo**, pois assegura que determinadas receitas financiem despesas específicas conforme a lei.\n\n| Destinação | Conceito |\n|---|---|\n| **Vinculada** | origem e aplicação atreladas a finalidade específica (lei, convênio, empréstimo) |\n| **Não vinculada (ordinária/livre)** | alocação livre, para quaisquer finalidades |\n\n> 📖 Código de **4 dígitos**: 1º = grupo de fonte; demais = especificação. Ex.: 1 = arrecadados no exercício corrente; 3 = exercícios anteriores; 7 = operações de crédito ressalvadas pela regra de ouro; 9 = recursos condicionados.\n\n**Por que as demais erram:** **A** a fonte é marcador da **receita** e precede a execução da despesa; **C** vincula-se a normas legais, não é livre por padrão; **D** é código de 4 dígitos, não 8; **E** controla-se desde a elaboração, não só na execução.",
+    "options": [
+      "A fonte de recursos serve apenas para classificar despesas, não receitas.",
+      "É o agrupamento de receitas com as mesmas normas de aplicação, atuando como instrumento de gestão da receita e da despesa, com destinações vinculadas e não vinculadas.",
+      "Toda receita tem destinação livre, salvo vedação expressa.",
+      "É um código de oito dígitos idêntico ao da natureza da receita.",
+      "Aplica-se somente na fase de execução orçamentária."
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Fontes/Destinação de Recursos"
+  },
+  {
+    "front": "^^FGV • Analista Administrativo • TJ-SC • 2015 • adaptada C/E→A–E^^\n\nSobre o **controle das disponibilidades financeiras por fonte/destinação de recursos**, é correto afirmar que:",
+    "back": "**Gabarito: A.** O controle das disponibilidades por fonte de recursos deve ser feito **desde a elaboração do orçamento até a sua execução**, incluindo o ingresso, o comprometimento e a saída dos recursos. A questão original afirmava que seria feito \"apenas durante a execução\", o que está {red:errado}.\n\n> 📖 A fonte é um marcador da receita que **precede** a execução das despesas.\n\n**Por que as demais erram:** **B, C, D e E** restringem o controle à execução ou negam seu papel desde o planejamento.",
+    "options": [
+      "deve ser feito desde a elaboração do orçamento até a execução, abrangendo ingresso, comprometimento e saída dos recursos.",
+      "deve ser feito apenas durante a execução orçamentária.",
+      "ocorre somente no encerramento do exercício.",
+      "é dispensável quando a destinação é livre.",
+      "limita-se ao momento do ingresso da receita."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Fontes/Destinação de Recursos"
+  },
+  {
+    "front": "^^FGV • Analista Administrativo • TJ-SC • 2015 • adaptada C/E→A–E^^\n\nSobre a **destinação ordinária** de recursos, é correto afirmar que:",
+    "back": "**Gabarito: A.** A **destinação ordinária** (não vinculada/livre) é o processo de **alocação livre** entre a origem e a aplicação de recursos, para atender a **quaisquer finalidades**.\n\n> 📖 Ordinária (livre) × Vinculada (finalidade específica fixada em norma).\n\n**Por que as demais erram:** **B** descreve a destinação **vinculada**; **C** convênios geram recursos **vinculados**; **D** a destinação ordinária não exige finalidade específica; **E** confunde com fonte de operações de crédito.",
+    "options": [
+      "é o processo de alocação livre entre origem e aplicação de recursos, para quaisquer finalidades.",
+      "vincula a origem à aplicação em finalidade específica fixada em lei.",
+      "decorre sempre de convênios e contratos de empréstimo.",
+      "exige a indicação de finalidade específica para cada recurso.",
+      "refere-se exclusivamente a operações de crédito ressalvadas pela regra de ouro."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Fontes/Destinação de Recursos"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSobre a classificação da receita por **Identificador de Resultado Primário**, assinale a alternativa correta.",
+    "back": "**Gabarito: C.** Essa classificação divide as receitas em **primárias (P)** e **financeiras/não primárias (F)**:\n\n| Tipo | Conceito | Exemplos |\n|---|---|---|\n| **Primária (P)** | entra no cálculo do **resultado primário**; diminui a dívida líquida sem relação com juros | tributos, contribuições sociais, concessões, dividendos da União |\n| **Financeira (F)** | **não** entra no cálculo do resultado primário | operações de crédito, aplicações financeiras, privatizações, emissão de títulos |\n\n> 📖 {blue:Resultado primário} = receitas primárias − despesas primárias. A metodologia surgiu de acordos com o **FMI**. Não é obrigatória para todos os entes — foi instituída para a **União**.\n\n**Por que as demais erram:** **A** não é obrigatória a todos os entes; **B** não divide em \"periódica/extraordinária\"; **D** não separa resultado fiscal/operacional; **E** aplicações financeiras são **financeiras**, não primárias.",
+    "options": [
+      "É obrigatória para todos os entes da Federação.",
+      "Divide as receitas em periódicas e extraordinárias.",
+      "Divide as receitas em primárias (P) e financeiras (F), sendo as primárias as que compõem o cálculo do resultado primário.",
+      "Separa as receitas entre relacionadas ao resultado fiscal e ao resultado operacional.",
+      "Classifica as aplicações financeiras como receitas primárias."
+    ],
+    "correctOption": "C",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^FGV • TJ-DFT • 2022^^\n\nNa conferência das **receitas primárias**, um servidor detectou classificação equivocada que gerou receita primária **a maior**. Um item que pode ter chamado sua atenção refere-se a receitas de:",
+    "back": "**Gabarito: D.** As **aplicações financeiras** {red:não entram} no resultado primário (são receitas **financeiras**). Se classificadas como primárias, geram resultado primário **a maior** (erro).\n\n> 📖 Primárias: tributos, contribuições sociais, concessões, dividendos, compensações financeiras, doações. Financeiras: aplicações financeiras, operações de crédito, privatizações, emissão/rolagem de títulos.\n\n**Por que as demais erram:** **A** doações, **B** dividendos, **C** alienação de bens (concessões/recursos do esforço de arrecadação) e **E** compensações financeiras são, em regra, **primárias** — não causariam o erro apontado.",
+    "options": [
+      "doações;",
+      "dividendos;",
+      "alienação de bens;",
+      "aplicações financeiras;",
+      "compensações financeiras."
+    ],
+    "correctOption": "D",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^CESPE • Analista Judiciário • STJ • 2018 • adaptada C/E→A–E^^\n\nA classificação da receita para apuração do **resultado primário** é:",
+    "back": "**Gabarito: B.** A classificação por identificador de resultado primário {red:não tem caráter obrigatório} para todos os entes — foi instituída para a **União**, a fim de identificar receitas e despesas que compõem o resultado primário do governo federal.\n\n> 📖 Resultado primário = receitas primárias − despesas primárias.\n\n**Por que as demais erram:** **A** afirma a obrigatoriedade a todos os entes (errado); **C, D e E** vinculam a obrigatoriedade a Estados/Municípios ou à LRF de forma incorreta.",
+    "options": [
+      "obrigatória para todos os entes da Federação.",
+      "não obrigatória para todos os entes, tendo sido instituída para a União.",
+      "obrigatória apenas para Estados e Municípios.",
+      "obrigatória por força da LRF para todos os entes.",
+      "facultativa para a União e obrigatória para os demais entes."
+    ],
+    "correctOption": "B",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^CESPE • Técnico Judiciário • STJ • 2018 • adaptada C/E→A–E^^\n\nConforme a classificação por indicador de resultado primário, as **receitas financeiras** são aquelas que:",
+    "back": "**Gabarito: A.** As **receitas financeiras** são aquelas que **não alteram o endividamento líquido** do governo (setor público não financeiro) no exercício, pois criam uma obrigação ou extinguem um direito de natureza financeira (emissão de títulos, operações de crédito, aplicações financeiras, privatizações).\n\n> 📖 Financeiras = não compõem o resultado primário.\n\n**Por que as demais erram:** **B** descreve as primárias; **C** não são as decorrentes de tributos; **D** não aumentam o PL necessariamente; **E** não se confundem com receitas correntes em geral.",
+    "options": [
+      "não alteram o endividamento líquido do governo no exercício, pois criam obrigação ou extinguem direito de natureza financeira.",
+      "advêm de tributos e contribuições sociais.",
+      "compõem o cálculo do resultado primário.",
+      "sempre aumentam o patrimônio líquido do ente.",
+      "correspondem a todas as receitas correntes."
+    ],
+    "correctOption": "A",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^CESPE • Administrador • MPOG • 2015 • adaptada C/E→A–E^^\n\nPara operacionalizar o **indicador de resultado primário**, a norma vigente classifica a receita em:",
+    "back": "**Gabarito: A.** A classificação por identificador de resultado divide as receitas em **primárias** e **financeiras**. A questão original dizia \"periódica ou extraordinária\", o que está {red:errado} (isso é classificação doutrinária por regularidade).\n\n> 📖 Resultado primário ⇒ primárias × financeiras.\n\n**Por que as demais erram:** **B** periódica/extraordinária é classificação por **regularidade**; **C** efetiva/não efetiva é por **afetação patrimonial**; **D** originária/derivada é por **coercitividade**; **E** corrente/capital é **categoria econômica**.",
+    "options": [
+      "primárias e financeiras.",
+      "periódicas e extraordinárias.",
+      "efetivas e não efetivas.",
+      "originárias e derivadas.",
+      "correntes e de capital."
+    ],
+    "correctOption": "A",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^CESPE • Analista Técnico-Administrativo • CADE • 2014 • adaptada C/E→A–E^^\n\nA classificação da receita por **identificador de resultado** divide as receitas públicas entre:",
+    "back": "**Gabarito: A.** Divide as receitas em **primárias** e **financeiras**. A questão original dizia \"relacionadas com resultado fiscal e com resultado operacional\", o que está {red:errado}.\n\n> 📖 Primária entra no resultado primário; financeira, não.\n\n**Por que as demais erram:** **B, C, D e E** usam dicotomias de outras classificações (fiscal/operacional, corrente/capital, efetiva/não efetiva, originária/derivada).",
+    "options": [
+      "primárias e financeiras.",
+      "relacionadas com o resultado fiscal e com o resultado operacional.",
+      "correntes e de capital.",
+      "efetivas e não efetivas.",
+      "originárias e derivadas."
+    ],
+    "correctOption": "A",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^FGV • CGU • 2023^^\n\nNa apresentação sobre metas de **Resultado Primário (RP)** e **Resultado Nominal (RN)** do Anexo de Metas Fiscais da LDO, qual informação está **equivocada**?",
+    "back": "**Gabarito: C.** O **Resultado Primário (RP)** é apurado pelo confronto de **receitas e despesas PRIMÁRIAS** — e {red:não} de receitas e despesas financeiras. Dizer que o RP é apurado pelo confronto de receitas e despesas **financeiras** é o erro conceitual.\n\n> 📖 **RP** = receitas primárias − despesas primárias. **RN** = RP + saldo da conta de juros (RN reflete a variação do estoque da dívida líquida).\n\n**Por que as demais (corretas) descrevem bem o tema:** **A** a apuração do RP abrange órgãos e estatais dependentes; **B** o RN = RP + juros; **D** os juros do RN são apurados por competência; **E** RN nulo = endividamento mantido constante.",
+    "options": [
+      "a apuração do RP abrange órgãos e entidades como fundações e empresas estatais dependentes;",
+      "o RN pode ser apurado acrescentando ao RP o saldo da conta de juros;",
+      "o RP é apurado pelo confronto de receitas e despesas financeiras;",
+      "os juros considerados no cálculo do RN são apurados por competência;",
+      "um RN nulo significa que o ente manteve constante o seu nível de endividamento."
+    ],
+    "correctOption": "C",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^CESPE • Administrador • MPOG • 2015 • adaptada C/E→A–E^^\n\nSobre a **perenidade da fonte de recurso** e a classificação doutrinária da receita quanto à **regularidade/periodicidade**, é correto afirmar que:",
+    "back": "**Gabarito: A.** Quanto à **regularidade/periodicidade** (classificação doutrinária), as receitas são:\n\n| Tipo | Conceito | Exemplos |\n|---|---|---|\n| **Ordinárias** | ingressos permanentes, estáveis, regulares em cada exercício | IR, ICMS, IPVA, IPTU |\n| **Extraordinárias** | ingressos eventuais, inconstantes, imprevisíveis | guerras, doações, indenizações |\n\n> 📖 Não confundir essa classificação **doutrinária** com a de identificador de resultado primário (primária/financeira) — que é a usada para **operacionalizar** o resultado primário.\n\n**Por que as demais erram:** **B, C, D e E** atribuem a ordinária/extraordinária a função de operacionalizar o resultado primário (papel das primárias/financeiras) ou invertem os conceitos.",
+    "options": [
+      "ordinárias são ingressos permanentes e estáveis (como os tributos), e extraordinárias são eventuais e imprevisíveis (como receitas de guerra e doações).",
+      "ordinárias e extraordinárias são a base de operacionalização do resultado primário.",
+      "ordinárias são eventuais e extraordinárias são permanentes.",
+      "extraordinárias compõem sempre o orçamento de todos os exercícios.",
+      "ordinárias correspondem às receitas financeiras."
+    ],
+    "correctOption": "A",
+    "topicName": "Identificador de Resultado Primário"
+  },
+  {
+    "front": "^^CEBRASPE • ISS-Fortaleza • 2023 • adaptada C/E→A–E^^\n\nSobre o conceito de **federalismo fiscal**, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** O **federalismo fiscal** é a parte do acordo federativo que atribui a cada ente da Federação a **competência para arrecadar** determinado tributo e a **responsabilidade pela alocação** dos recursos e **prestação de bens e serviços** à sociedade.\n\n> 📖 Três elementos essenciais: **(1) competência tributária; (2) repartição de receitas; (3) responsabilidade pela oferta** de bens e serviços. Base: CF/88 (arts. 145 a 162; autonomia dos entes no art. 18).\n\n**Por que as demais erram:** **B** não é exclusivo da União; **C** não se limita à repartição de receitas, abrangendo também competências e responsabilidades; **D** não garante arrecadação equânime; **E** não é mera técnica contábil.",
+    "options": [
+      "Atribui a cada ente a competência para arrecadar tributos e a responsabilidade pela alocação de recursos e prestação de bens e serviços à sociedade.",
+      "É competência exclusiva da União, que centraliza arrecadação e gastos.",
+      "Limita-se à repartição de receitas tributárias entre os entes.",
+      "Garante arrecadação tributária equânime entre todos os entes.",
+      "É mera técnica contábil de consolidação das contas públicas."
+    ],
+    "correctOption": "A",
+    "topicName": "Federalismo Fiscal"
+  },
+  {
+    "front": "^^CESPE • TRF-6 • Analista • 2025 • adaptada C/E→A–E^^\n\nSobre o **federalismo fiscal** (distribuição de competências e tributos entre as esferas de governo), assinale a alternativa correta.",
+    "back": "**Gabarito: B.** O federalismo fiscal {red:não garante} arrecadação **equânime** no país. A realidade brasileira é de **desigualdade**: a União concentra os tributos mais arrecadatórios (IR, IPI), enquanto Estados e Municípios dependem de **transferências constitucionais** (FPE, FPM). A capacidade de arrecadação dos entes é heterogênea.\n\n> 📖 Há **desequilíbrio vertical** (entre esferas) e **horizontal** (entre entes da mesma esfera).\n\n**Por que as demais erram:** **A** afirma a equanimidade (errado); **C** a União não tem competência tributária exclusiva sobre tudo; **D** as transferências reduzem, mas não eliminam, as desigualdades; **E** o federalismo não impõe arrecadação idêntica.",
+    "options": [
+      "O federalismo fiscal garante que a arrecadação seja equânime entre as esferas e os entes.",
+      "O federalismo fiscal não assegura arrecadação equânime: há desigualdade e dependência de transferências constitucionais por Estados e Municípios.",
+      "Apenas a União detém competência tributária no país.",
+      "As transferências constitucionais eliminam completamente as desigualdades de arrecadação.",
+      "O federalismo fiscal impõe arrecadação idêntica a todos os entes."
+    ],
+    "correctOption": "B",
+    "topicName": "Federalismo Fiscal"
+  },
+  {
+    "front": "^^FGV • ALESC • 2024^^\n\nSobre o **federalismo fiscal**, analise: I. estuda a repartição fiscal e de competências entre esferas, buscando melhor alocação e eficiência da arrecadação; II. analisa como a federação se organiza entre os entes para melhor arrecadação e oferta de bens; III. busca parâmetros de racionalidade e eficiência econômica para orientar ajustes na organização das federações. Está correto o que se afirma em:",
+    "back": "**Gabarito: E.** Todos os itens (I, II e III) estão **corretos**. O federalismo fiscal é o ramo que analisa como **competências tributárias** e **responsabilidades de gasto** se distribuem entre os níveis de governo, buscando **alocação eficiente**, **maximização da arrecadação** e **melhor oferta de bens e serviços**.\n\n> 📖 Foco: eficiência econômica + racionalidade nas relações fiscais intergovernamentais.\n\n**Por que as demais erram:** **A, B, C e D** excluem indevidamente algum dos itens I, II ou III, todos verdadeiros.",
+    "options": [
+      "I, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correctOption": "E",
+    "topicName": "Federalismo Fiscal"
+  },
+  {
+    "front": "^^INSTITUTO AOCP • CODEBA • 2023^^\n\nDentre os princípios que caracterizam o Sistema Tributário Brasileiro está o **federalismo fiscal**, que consiste no fato de que:",
+    "back": "**Gabarito: D.** Embora o Brasil adote o **federalismo cooperativo**, há **desequilíbrio vertical**: existe uma **clara concentração da competência tributária no governo central (União)**, que detém as bases mais produtivas (IR, IPI, contribuições sociais), enquanto os demais entes dependem de transferências.\n\n> 📖 Concentração na União + dependência de FPE/FPM pelos demais entes.\n\n**Por que as demais erram:** **A** disputa por ICMS não define o federalismo fiscal; **B** o FPEM não é a única/principal fonte; **C** Estados, Municípios e DF **têm** competência para taxas e contribuições; **E** não só o governo federal cria tributos — há competência distribuída.",
+    "options": [
+      "existe uma disputa dos estados por impostos, em especial o ICMS.",
+      "o Fundo de Participação dos Estados e Municípios é a principal fonte de receita desses entes.",
+      "estados, municípios e o DF não têm competência para criar taxas e contribuições.",
+      "há uma clara concentração da competência tributária no governo central.",
+      "apenas o governo federal tem competência para criar e extinguir tributos."
+    ],
+    "correctOption": "D",
+    "topicName": "Federalismo Fiscal"
+  },
+  {
+    "front": "^^FGV • Especialista Legislativo • ALERJ • 2017 • adaptada C/E→A–E^^\n\nÀ luz da **regra de ouro**, sobre as **operações de crédito** é correto afirmar que:",
+    "back": "**Gabarito: A.** A **regra de ouro** (art. 167, III, da CF) **veda a realização de operações de crédito que excedam o montante das despesas de capital**, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por **maioria absoluta**.\n\n> 📖 **Art. 167, III, CF/88:** veda operações de crédito que excedam as despesas de capital. Objetivo: impedir que o ente se endivide para custear **despesas correntes**.\n\n**Por que as demais erram:** **B** não há vedação total a operações de crédito; **C** o limite é o das despesas de **capital**, não correntes; **D** a ressalva exige maioria absoluta, não simples; **E** a regra não se refere ao limite da dívida consolidada (isso é a LRF).",
+    "options": [
+      "as operações de crédito não devem ultrapassar o montante das despesas de capital, salvo ressalvas aprovadas pelo Legislativo por maioria absoluta.",
+      "as operações de crédito são totalmente vedadas pela Constituição.",
+      "as operações de crédito não devem ultrapassar as despesas correntes.",
+      "a ressalva à regra exige apenas maioria simples do Legislativo.",
+      "a regra de ouro limita a dívida consolidada a 120% da RCL."
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQuais são as **origens** que compõem as **Receitas de Capital** (2ª categoria econômica), nos termos da Lei nº 4.320/1964?",
+    "back": "**Gabarito: E.** As **Receitas de Capital** provêm da realização de recursos financeiros oriundos de constituição de dívidas; da conversão de bens e direitos em espécie; de recursos de terceiros para despesas de capital; e do superávit do orçamento corrente. Suas **origens**:\n\n| Origem (capital) | Exemplo |\n|---|---|\n| **Operações de Crédito** | empréstimos, títulos públicos |\n| **Alienação de Bens** | venda de imóveis, móveis, intangíveis |\n| **Amortização de Empréstimos** | recebimento de empréstimos concedidos |\n| **Transferências de Capital** | recursos de outro ente para despesa de capital |\n| **Outras Receitas de Capital** | superávit do orçamento corrente, resultado do BACEN |\n\n> 📖 **Art. 11, § 2º, Lei 4.320/64.** **Mnemônico — \"O ATO\":** **O**perações de crédito, **A**lienação de bens, **T**ransferências de capital, amortização (**O**utras + amortização).\n\n**Por que as demais erram:** **A, B, C e D** incluem origens correntes (tributária, patrimonial, serviços, transferências correntes) entre as de capital.",
+    "options": [
+      "Tributária, Patrimonial, de Serviços e Transferências Correntes.",
+      "Impostos, Taxas, Contribuições de Melhoria e Patrimonial.",
+      "Patrimonial, Agropecuária, Industrial e de Serviços.",
+      "Transferências Correntes, Operações de Crédito e Receita de Serviços.",
+      "Operações de Crédito, Alienação de Bens, Amortização de Empréstimos e Transferências de Capital."
+    ],
+    "correctOption": "E",
+    "topicName": "Classificação por Categoria Econômica"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNo regime estabelecido pela Lei nº 4.320/1964, a que **exercício financeiro** pertencem as receitas?",
+    "back": "**Gabarito: B.** Para a **receita**, a Lei 4.320/64 adota o **regime de CAIXA**: pertencem ao exercício financeiro as receitas **nele arrecadadas** (independentemente do exercício do fato gerador).\n\n> 📖 **Art. 35, Lei 4.320/64:** \"Pertencem ao exercício financeiro: I – as receitas nele **arrecadadas**; II – as despesas nele **legalmente empenhadas**.\"\n\n**Contraponto:** a **despesa** segue o regime de **competência** (empenho). Por isso se diz que a Lei 4.320/64 adota um **regime misto**: caixa para receita, competência para despesa.\n\n**Por que as demais erram:** **A** competência é para a despesa; **C** não é o exercício do fato gerador; **D** não é o do lançamento; **E** não há regime de competência para a receita orçamentária na Lei 4.320.",
+    "options": [
+      "Ao exercício em que ocorre o fato gerador (regime de competência).",
+      "Ao exercício em que são arrecadadas (regime de caixa).",
+      "Ao exercício do fato gerador do crédito.",
+      "Ao exercício em que ocorre o lançamento.",
+      "Ao exercício seguinte ao da previsão."
+    ],
+    "correctOption": "B",
+    "topicName": "Receita Pública - Conceitos"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa codificação por **fontes/destinação de recursos**, o que identifica o **grupo de fonte** \"7\" e o grupo \"9\"?",
+    "back": "**Gabarito: C.** Os grupos de fonte (1º dígito do código de 4 dígitos) incluem:\n\n| Código | Grupo de Fonte |\n|---|---|\n| **1** | Recursos arrecadados no **exercício corrente** |\n| **3** | Recursos arrecadados em **exercícios anteriores** |\n| **7** | Operações de crédito **ressalvadas pela regra de ouro** (autorizadas acima das despesas de capital) |\n| **9** | Recursos **condicionados** (dependem de aprovação de créditos adicionais/alteração de legislação em tramitação) |\n\n> 📖 **Recursos condicionados (9):** só mudam de classificação **se e quando** aprovadas as respectivas propostas legislativas no Congresso.\n\n**Por que as demais erram:** **A, B, D e E** trocam os significados dos grupos (corrente, exercícios anteriores) ou inventam categorias inexistentes.",
+    "options": [
+      "7 = exercício corrente; 9 = exercícios anteriores.",
+      "7 = recursos vinculados; 9 = recursos livres.",
+      "7 = operações de crédito ressalvadas pela regra de ouro; 9 = recursos condicionados.",
+      "7 = recursos condicionados; 9 = operações de crédito.",
+      "7 = transferências da União; 9 = recursos próprios."
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação por Fontes/Destinação de Recursos"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa classificação **por natureza da receita**, o que representa, respectivamente, a **origem** (2º dígito) e a **espécie** (3º dígito)?",
+    "back": "**Gabarito: D.** A natureza da receita tem **8 dígitos**:\n\n| Posição | Nível | Função |\n|---|---|---|\n| 1º | **Categoria econômica** | corrente / capital |\n| 2º | **Origem** | procedência do recurso (derivada, originária, transferências, outras) |\n| 3º | **Espécie** | detalha o fato gerador dentro da origem |\n| 4º–7º | **Desdobramentos** | peculiaridades |\n| 8º | **Tipo** | tipo de arrecadação (principal, multas, juros, dívida ativa) |\n\nEx.: na origem \"Contribuições\", as **espécies** são Contribuições Sociais, Econômicas e para Entidades Privadas.\n\n> 📖 A **origem** identifica a procedência no momento do ingresso; a **espécie** qualifica com maior detalhe o fato gerador.\n\n**Por que as demais erram:** **A, B, C e E** trocam a ordem ou os conceitos (categoria, tipo, fonte) dos níveis.",
+    "options": [
+      "Origem = corrente/capital; Espécie = tipo de arrecadação.",
+      "Origem = fato gerador detalhado; Espécie = categoria econômica.",
+      "Origem = tipo (principal/multas/juros); Espécie = fonte de recursos.",
+      "Origem = procedência do recurso no ingresso; Espécie = detalhamento do fato gerador dentro da origem.",
+      "Origem = fonte/destinação; Espécie = esfera orçamentária."
+    ],
+    "correctOption": "D",
+    "topicName": "Classificação por Natureza da Receita"
+  }
+]
