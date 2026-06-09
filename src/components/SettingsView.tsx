@@ -51,9 +51,11 @@ export function SettingsView({ cardCount, decks, cards, onClearAllData }: Settin
         <h3 className="text-lg font-bold text-slate-900 mb-4">Metas Diárias</h3>
         <div className="space-y-4 max-w-sm">
           <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">Novos cartões por dia</label>
+            <label htmlFor="newPerDay" className="block text-sm font-medium text-slate-700 mb-1">Novos cartões por dia</label>
             <input
+              id="newPerDay"
               type="number"
+              min={0}
               name="newPerDay"
               value={settings.newPerDay}
               onChange={handleChange}
@@ -61,9 +63,11 @@ export function SettingsView({ cardCount, decks, cards, onClearAllData }: Settin
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">Revisões máximas por dia</label>
+            <label htmlFor="reviewsPerDay" className="block text-sm font-medium text-slate-700 mb-1">Revisões máximas por dia</label>
             <input
+              id="reviewsPerDay"
               type="number"
+              min={0}
               name="reviewsPerDay"
               value={settings.reviewsPerDay}
               onChange={handleChange}
