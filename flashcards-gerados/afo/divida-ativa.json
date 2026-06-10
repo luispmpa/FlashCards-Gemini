@@ -1,0 +1,964 @@
+[
+  {
+    "front": "^^CEBRASPE • TRT-10 • 2025 • Técnico Judiciário • adaptada C/E→A–E^^\n\nAssinale a alternativa correta sobre o **conceito de dívida ativa** e suas formas de recuperação.",
+    "back": "**Gabarito: A.** A **dívida ativa** corresponde aos créditos da Fazenda Pública (tributários ou não) {red:não pagos no vencimento} e regularmente **inscritos** para cobrança, após apuração de **liquidez e certeza**. Sua recuperação pode ocorrer por **protesto extrajudicial, parcelamento ou execução fiscal**, sendo uma {blue:fonte potencial de fluxos de caixa} que contribui para o **equilíbrio fiscal** e o financiamento de políticas públicas.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **B** a dívida ativa não se restringe a créditos tributários (também abrange não tributários); **C** a inscrição exige o {red:prévio transcurso do prazo} e a apuração de liquidez/certeza — não basta o fato gerador; **D** dívida ativa é {red:crédito (ativo)} a favor da Fazenda, não despesa/obrigação; **E** a recuperação pode ser **judicial ou extrajudicial**, não exclusivamente judicial.",
+    "options": [
+      "Corresponde a créditos não pagos no vencimento e inscritos para cobrança, recuperáveis por protesto, parcelamento ou execução fiscal, contribuindo para o equilíbrio fiscal.",
+      "Abrange apenas créditos de natureza tributária inscritos para cobrança.",
+      "Basta a ocorrência do fato gerador da obrigação para a inscrição do crédito em dívida ativa.",
+      "Representa obrigação (despesa) da Fazenda Pública originada em exercício anterior.",
+      "Sua recuperação só pode ocorrer por execução fiscal judicial, vedada a cobrança extrajudicial."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CEBRASPE • ANM • 2025 • Analista Administrativo • adaptada C/E→A–E^^\n\nA respeito da dívida ativa da União, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** A inscrição em dívida ativa **NÃO se restringe a créditos tributários**. A própria Lei nº 4.320/64 admite expressamente os **créditos não tributários** (como multas administrativas, aluguéis e indenizações) como integrantes da dívida ativa. O item original (que afirmava ocorrer {red:exclusivamente} com a constituição de crédito tributário por lançamento) está **errado**.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A** é a afirmação falsa do enunciado — exclui indevidamente os não tributários; **C** multas administrativas {green:podem} ser inscritas como DA não tributária; **D** o que define a DA é o {blue:transcurso do prazo} + apuração de liquidez/certeza, não a espécie do crédito; **E** a inscrição não depende de lançamento tributário em todos os casos.",
+    "options": [
+      "A inscrição ocorre exclusivamente quando há constituição de crédito tributário por lançamento.",
+      "Tanto créditos tributários quanto não tributários (ex.: multas administrativas) podem ser inscritos em dívida ativa.",
+      "Multas administrativas não tributárias não podem integrar a dívida ativa.",
+      "A inscrição depende exclusivamente da natureza tributária do crédito.",
+      "Só há dívida ativa após o lançamento tributário, em qualquer hipótese."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CEBRASPE • Pref. Aracaju • 2025 • Procurador do Município • adaptada C/E→A–E^^\n\nMunicípio cede onerosamente, mediante lei específica, a pessoas jurídicas de direito privado, direitos originados de créditos tributários e não tributários (inclusive inscritos em dívida ativa). Sobre a destinação das **receitas de capital** decorrentes dessa venda, assinale a correta.",
+    "back": "**Gabarito: C.** A receita da cessão onerosa de créditos é **receita de capital** (alienação de bens/direitos) e deve observar o **art. 44 da LRF**: ao menos **50% destinada à previdência social** e o restante a **despesas com investimentos** (art. 39-A, § 6º, da Lei 4.320/64).\n\n> 📖 **LC nº 101/2000 (LRF), art. 44:** \"É vedada a aplicação da receita de capital derivada da **alienação de bens e direitos** que integram o patrimônio público para o financiamento de **despesa corrente**, salvo se destinada por lei aos **regimes de previdência social**, geral e próprio dos servidores públicos.\"\n\n> 📖 **Lei 4.320/64, art. 39-A, § 6º** (incluído pela **LC 208/2024**): destina-se **pelo menos 50%** à previdência social e o restante a investimentos.\n\n**Por que as demais erram:** **A/B** a receita {red:não pode} custear despesa corrente (vedação do art. 44 LRF); **D** não há livre destinação — há vinculação legal; **E** a destinação à previdência é o **piso de 50%**, não teto.",
+    "options": [
+      "Podem financiar livremente despesas correntes do município.",
+      "Devem ser integralmente aplicadas em despesas correntes de custeio.",
+      "Devem destinar-se a despesas com regime de previdência social e a despesas com investimentos.",
+      "Têm destinação livre, a critério do chefe do Executivo.",
+      "No máximo 50% pode ir à previdência, sendo o restante para despesa corrente."
+    ],
+    "correctOption": "C",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^VUNESP • DESENVOLVE SP • 2024 • Contador^^\n\nO crédito da Fazenda Pública, proveniente de **obrigação legal relativa a tributos e respectivos adicionais e multas**, é denominado:",
+    "back": "**Gabarito: C.** Trata-se da **Dívida Ativa Tributária**, exatamente como definida no art. 39, § 2º, da Lei 4.320/64: crédito da Fazenda Pública proveniente de **obrigação legal relativa a tributos** e seus **adicionais e multas**.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n| Dívida Ativa **Tributária** | Dívida Ativa **Não Tributária** |\n|---|---|\n| Tributos (impostos, taxas, contrib. de melhoria) | Empréstimos compulsórios, contribuições em lei |\n| Adicionais e **multas tributárias** | **Multas não tributárias** (ex.: trânsito) |\n| | Foros, laudêmios, aluguéis, taxas de ocupação |\n| | Custas processuais, preços de serviços, indenizações, reposições, restituições, alcances |\n\n**Por que as demais erram:** **A** \"títulos a receber\" é conta genérica do ativo, não a definição legal; **B** dívida ativa {red:não} tributária reúne os {blue:demais} créditos (não os tributários); **D** perda estimada (PECLD) é ajuste, não o crédito em si; **E** VPA é variação patrimonial, não a classificação do crédito.",
+    "options": [
+      "Títulos a receber.",
+      "Dívida ativa não tributária.",
+      "Dívida ativa tributária.",
+      "Perda estimada de crédito de liquidação duvidosa.",
+      "Variação patrimonial aumentativa."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • UNIFESP • 2024 • Técnico^^\n\nDo ponto de vista orçamentário, os **créditos da Fazenda Pública**, de natureza tributária ou não tributária, serão escriturados como:",
+    "back": "**Gabarito: C.** Nos termos do **art. 39, caput**, da Lei 4.320/64, os créditos da Fazenda Pública são escriturados como **receita do exercício em que forem arrecadados**, nas respectivas rubricas orçamentárias. Isso reflete o **regime de caixa** da receita orçamentária.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** créditos a receber não são \"capital social\" — não há participação de contribuintes; **B** não são despesas de exercícios anteriores; **D** restos a pagar são de **despesa**, não de receita; **E** o registro orçamentário se dá pela **arrecadação**, não pela competência (VPA) do exercício de referência.",
+    "options": [
+      "Aumento de capital social, pela participação social dos contribuintes.",
+      "Despesas de exercícios anteriores.",
+      "Receita do exercício em que forem arrecadados.",
+      "Restos a pagar processados do exercício em que forem arrecadados.",
+      "Variação patrimonial aumentativa do exercício a que se referem."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • TRF-3 • 2023 • Analista Judiciário^^\n\nConfigura-se como exemplo de **dívida ativa tributária** o crédito da Fazenda Pública proveniente de:",
+    "back": "**Gabarito: D.** O **Imposto de Renda** é tributo; vencido e não pago, após regular inscrição, torna-se **dívida ativa tributária** (art. 39, § 2º). Os demais exemplos são créditos **não tributários**.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A** descumprimento de contrato → DA **não tributária**; **B** custa processual → **não tributária**; **C** FGTS → não tem natureza tributária (contribuição social específica/fundo); **E** multa trabalhista → **não tributária** (multa não decorre de obrigação tributária).",
+    "options": [
+      "Descumprimento de contrato com a União.",
+      "Custa processual.",
+      "Fundo de Garantia do Tempo de Serviço.",
+      "Imposto de Renda.",
+      "Multa trabalhista."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • Pref. Marília • 2023 • Analista^^\n\nSegundo o MCASP, no recebimento (baixa) do **principal** da dívida ativa, no órgão competente, o registro da **informação patrimonial** será:",
+    "back": "**Gabarito: A.** O recebimento do principal é uma {green:receita} sob a ótica orçamentária, com **simultânea baixa patrimonial** do crédito antes registrado no ativo. No enfoque **patrimonial**, debita-se a **disponibilidade** e credita-se o **crédito de longo prazo** baixado:\n\n> 📖 **MCASP — baixa por recebimento do principal (órgão de inscrição):**\n> D **Caixa e Equivalentes de Caixa** (F)\n> C **Créditos a Longo Prazo** (P)\n\n| Enfoque | Lançamento |\n|---|---|\n| **Patrimonial** | D Caixa e Equiv. / C Créditos a Longo Prazo |\n| **Orçamentário** | D Receita a Realizar / C Receita Realizada |\n| **Controle** | D Controle da Disponibilidade / C DDR |\n\n**Por que as demais erram:** **B/D** são lançamentos do enfoque **orçamentário/controle**, não patrimonial; **C** é o enfoque de **controle** (DDR); **E** credita \"Receita Realizada\" (orçamentário) no lugar do crédito patrimonial.",
+    "options": [
+      "D: Caixa e Equivalentes de Caixa em Moeda Nacional e C: Créditos a Longo Prazo (P).",
+      "D: Receita a Realizar e C: Receita Realizada.",
+      "D: Controle da Disponibilidade de Recursos e C: Disponibilidade por Destinação de Recursos (DDR).",
+      "D: Receita a Realizar e C: Disponibilidade por Destinação de Recursos (DDR).",
+      "D: Caixa e Equivalentes de Caixa em Moeda Nacional e C: Receita Realizada."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^CEBRASPE • CNJ • 2024 • Técnico Judiciário (Administrativa) • adaptada C/E→A–E^^\n\nSobre o **reconhecimento da receita** de dívida ativa, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** A dívida ativa é uma **exceção ao regime de caixa** da receita orçamentária: pelo enfoque **orçamentário**, a receita é reconhecida **no momento da inscrição** (regime de competência), e não na arrecadação, como as demais receitas. {blue:Pela ótica patrimonial}, o reconhecimento por competência (VPA na inscrição) é a regra geral — só é \"exceção\" quando observada sob o enfoque **orçamentário**.\n\n> 📖 **Regra geral (art. 35 da Lei 4.320/64):** a receita orçamentária pertence ao exercício em que for **arrecadada** (regime de caixa). A dívida ativa é a clássica **exceção**.\n\n**Por que as demais erram:** **B** afirma que segue o regime de caixa como as demais — contraria a exceção; **C** o reconhecimento orçamentário se dá na **inscrição**, não na arrecadação; **D** dívida ativa não é registrada como despesa; **E** o crédito a receber é {red:ativo}, não passivo.",
+    "options": [
+      "A inscrição configura exceção ao regime de caixa, reconhecendo-se a receita pela competência no momento da inscrição.",
+      "Segue integralmente o regime de caixa, como as demais receitas orçamentárias.",
+      "A receita só é reconhecida na efetiva arrecadação, sem qualquer exceção.",
+      "É reconhecida como despesa do exercício de origem do crédito.",
+      "O crédito inscrito é reconhecido como passivo da entidade."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^CEBRASPE • SEPLAG-CE • 2024 • Analista de Gestão Pública (Contab.) • adaptada C/E→A–E^^\n\nSobre os requisitos para inscrição em dívida ativa, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** Créditos a que a Fazenda Pública tenha direito e que **não sejam pagos no prazo legal** deverão, **após apurada sua liquidez e certeza**, ser inscritos em dívida ativa (art. 39, § 1º). A apuração prévia de **liquidez** (mensurabilidade) e **certeza** (existência inequívoca) é requisito indispensável.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **B** a inscrição {red:exige} a prévia apuração de liquidez e certeza; **C** não basta o vencimento sem essa apuração; **D** o fato gerador isolado não autoriza a inscrição; **E** a dívida ativa abrange créditos tributários **e** não tributários, não só os tributários.",
+    "options": [
+      "Créditos não pagos no prazo legal, após apurada a liquidez e certeza, deverão ser inscritos em dívida ativa.",
+      "A inscrição independe da prévia apuração de liquidez e certeza dos créditos.",
+      "Basta o vencimento do prazo, dispensada qualquer apuração, para a inscrição.",
+      "A mera ocorrência do fato gerador autoriza a inscrição em dívida ativa.",
+      "Somente créditos tributários podem ser inscritos em dívida ativa."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • SEGEP-MA • 2018 • Analista Previdenciário (Atuarial e Contábil)^^\n\nNo que se refere à **dívida ativa**, a Lei nº 4.320/1964 estabelece que se trata de um:",
+    "back": "**Gabarito: C.** A dívida ativa é o **crédito da Fazenda Pública**, exigível pelo transcurso do prazo, **inscrito após apurada a sua liquidez e certeza** (art. 39, caput e § 1º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** \"processado/não processado\" é classificação de **restos a pagar**, não da DA; **B/D** dívida ativa é {green:crédito} (ativo) da Fazenda, não {red:débito}; **E** embora possa haver crédito em moeda estrangeira (§ 3º), isso não é a definição essencial da DA — a alternativa C reproduz o núcleo legal.",
+    "options": [
+      "Crédito da Fazenda Pública, classificado em processado e não processado.",
+      "Débito da Fazenda Pública, sobre o qual incide juros e correção monetária.",
+      "Crédito da Fazenda Pública, inscrito após apurada sua liquidez e certeza.",
+      "Débito da Fazenda Pública, que pode ser tributário ou não tributário.",
+      "Crédito da Fazenda Pública, que pode ser inscrito em moeda estrangeira."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • TRT-6 • 2018 • Técnico Judiciário (Administrativa)^^\n\nNa forma da Lei nº 4.320/1964, os **créditos da Fazenda Pública**:",
+    "back": "**Gabarito: D.** Devem ser escriturados como **receita do exercício em que forem arrecadados**, nas respectivas rubricas orçamentárias, **sejam de natureza tributária ou não tributária** (art. 39, caput).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** o registro orçamentário segue a **arrecadação**, não o fato gerador/pagamento; **B** a DA não se limita aos créditos {red:tributários}; **C** a inscrição não depende de parcelamento/reconhecimento pelo devedor; **E** créditos não tributários não viram \"receitas ordinárias\" — seguem a regra do caput.",
+    "options": [
+      "Pertencem ao exercício do fato gerador (tributários) ou do efetivo pagamento (não tributários).",
+      "Constituem Dívida Ativa da União apenas se de natureza tributária.",
+      "Só são escriturados como Dívida Ativa se houver parcelamento ou reconhecimento pelo devedor.",
+      "Devem ser escriturados como receita do exercício em que forem arrecadados, sejam tributários ou não tributários.",
+      "São Dívida Ativa quando tributários e receitas ordinárias quando não tributários."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • TRF-3 • 2016 • Analista Judiciário (Contadoria)^^\n\nConforme a Lei nº 4.320/1964, a **dívida ativa** é um:",
+    "back": "**Gabarito: E.** A receita da dívida ativa **inclui** os valores correspondentes à **atualização monetária, multa e juros de mora e ao encargo** incidentes (art. 39, § 4º). Logo, é crédito da Fazenda cujo recebimento abrange esses acréscimos.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 4º:** \"A receita da Dívida Ativa abrange os créditos mencionados nos parágrafos anteriores, bem como os valores correspondentes à respectiva **atualização monetária**, à **multa** e **juros de mora** e ao **encargo** (...).\"\n\n**Por que as demais erram:** **A** \"processado/não processado\" é de restos a pagar; **B** o recebimento {red:está} sujeito à atualização monetária; **C/D** dívida ativa é {green:crédito} (ativo), não débito/precatório/despesa.",
+    "options": [
+      "Crédito da Fazenda Pública classificado como processado e não processado.",
+      "Crédito cuja receita abrange tributários e não tributários, sem atualização monetária.",
+      "Débito da Fazenda Pública que deve ser pago por precatórios.",
+      "Débito da Fazenda Pública escriturado como despesa do exercício em que for paga.",
+      "Crédito da Fazenda Pública cujo recebimento inclui multa e juros de mora e o encargo."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • MP-PB • 2015 • Analista Ministerial (Auditor de Contas Públicas)^^\n\nOs créditos relativos à dívida ativa, escriturados como receita do exercício em que forem arrecadados, **dividem-se nas naturezas**:",
+    "back": "**Gabarito: E.** A dívida ativa classifica-se em **tributária e não tributária** (art. 39, § 2º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n| Dívida Ativa **Tributária** | Dívida Ativa **Não Tributária** |\n|---|---|\n| Tributos (impostos, taxas, contrib. de melhoria) | Empréstimos compulsórios, contribuições em lei |\n| Adicionais e **multas tributárias** | **Multas não tributárias** (ex.: trânsito) |\n| | Foros, laudêmios, aluguéis, taxas de ocupação |\n| | Custas processuais, preços de serviços, indenizações, reposições, restituições, alcances |\n\n**Por que as demais erram:** **A, B, C, D** apresentam dicotomias inexistentes para a DA na Lei 4.320/64 (pública/privada, orçamentária/financeira, mobiliária/imobiliária, patrimonial/extrapatrimonial).",
+    "options": [
+      "Pública e privada.",
+      "Orçamentária e financeira.",
+      "Mobiliária e imobiliária.",
+      "Patrimonial e extrapatrimonial.",
+      "Tributária e não tributária."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • SEFAZ-PI • 2015 • Analista do Tesouro Estadual^^\n\nO Estado alugou imóveis de sua propriedade e os **aluguéis não foram pagos**. Ao final do exercício, o valor correspondente integrará:",
+    "back": "**Gabarito: D.** **Aluguéis** vencidos e não pagos integram a **Dívida Ativa Não Tributária** — estão expressamente listados no rol do art. 39, § 2º (foros, laudêmios, **aluguéis** ou taxas de ocupação).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A/B** \"receita/dívida de contingência\" não existem nesse contexto legal; **C** \"créditos de exercícios anteriores\" não é a classificação correta; **E** aluguel {red:não} é tributo, logo não é DA **tributária**.",
+    "options": [
+      "A receita diferida contingencial.",
+      "A dívida de contingência.",
+      "Os créditos dos exercícios anteriores.",
+      "A dívida ativa não tributária.",
+      "A dívida ativa tributária."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • TCE-AM • 2015 • Auditor (Conselheiro Substituto)^^\n\nO Estado inscreveu em dívida ativa valores de Carlos originários de: (I) débitos de **IPVA**; (II) **multas por infração à legislação do IPVA**; (III) **multas de trânsito** (CTB). Esses valores classificam-se, respectivamente, como dívidas ativas:",
+    "back": "**Gabarito: E.** **Tributárias, tributárias e não tributárias**. O **IPVA** é tributo (DA tributária); a **multa por infração à legislação do IPVA** é {blue:adicional/multa relativa a tributo}, também **tributária**; já a **multa de trânsito** (CTB) é multa {red:não tributária} → DA **não tributária**.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Regra-chave:** multa **relativa a tributo** = tributária; multa de **outra origem** (trânsito, administrativa) = não tributária.\n\n**Por que as demais erram:** **A, B, C, D** erram a natureza de pelo menos um dos itens (notadamente tratam a multa do IPVA como não tributária ou a multa de trânsito como tributária).",
+    "options": [
+      "Tributárias, não tributárias e não tributárias.",
+      "Não tributárias, não tributárias e não tributárias.",
+      "Tributárias, tributárias e tributárias.",
+      "Não tributárias, tributárias e não tributárias.",
+      "Tributárias, tributárias e não tributárias."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • TCE-CE • 2015 • Auditor de Controle Externo^^\n\nOs créditos da Fazenda Pública Estadual provenientes de obrigação legal relativa ao **IPVA**, exigíveis pelo transcurso do prazo para pagamento, devem ser inscritos como:",
+    "back": "**Gabarito: B.** O **IPVA** é tributo; vencido e inscrito, configura **dívida ativa tributária** (art. 39, caput, § 1º e § 2º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A** seria \"não tributária\" — incorreto para tributo; **C/D/E** \"crédito tributário ativo\", \"crédito tributário vencido\" e \"dívida tributária vencida\" não são as denominações legais da Lei 4.320/64 — a expressão correta é **dívida ativa tributária**.",
+    "options": [
+      "Dívida ativa não tributária.",
+      "Dívida ativa tributária.",
+      "Crédito tributário ativo.",
+      "Crédito tributário vencido.",
+      "Dívida tributária vencida."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • TCE-GO • 2014 • Auditor de Controle Externo (Jurídica)^^\n\nNão pago um crédito devido à Administração, devidamente constituído, para sua cobrança deve ser:",
+    "back": "**Gabarito: C.** Deve-se **inscrever o débito em dívida ativa**, depois de **esgotado o prazo** fixado por lei ou por decisão final em processo administrativo (art. 39, § 1º). A inscrição é o ato que confere exigibilidade e legitima a cobrança.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** o protesto não é etapa prévia obrigatória à inscrição; **B** a negativação não é requisito legal da inscrição; **D** a execução fiscal pressupõe a **prévia inscrição** e a CDA, não é imediata; **E** a inscrição não depende de certidão de mora para protesto prévio.",
+    "options": [
+      "Feito o prévio protesto da dívida e posterior inscrição na dívida ativa.",
+      "Feita a notificação extrajudicial e negativação do nome, sob pena de inscrição.",
+      "Feita a inscrição do débito na dívida ativa, depois de esgotado o prazo para pagamento.",
+      "Proposta, de imediato, a execução fiscal, desde que o débito seja tributário.",
+      "Emitida certidão de mora para protesto extrajudicial, autorizando a inscrição."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FCC • TCE-RS • 2014 • Auditor Público Externo (Contabilidade)^^\n\nDa dívida ativa tributária inscrita (R$ 380), a Procuradoria verificou que **R$ 40** deveriam ser **cancelados** por impossibilidade de recebimento. Sob o aspecto patrimonial, o cancelamento da inscrição:",
+    "back": "**Gabarito: C.** O **cancelamento** de crédito inscrito em dívida ativa representa sua **extinção** e provoca **diminuição da situação líquida patrimonial** — é uma **Variação Patrimonial Diminutiva (VPD)**, independente da execução orçamentária (variação passiva extraorçamentária). O mesmo vale para abatimentos, anistia ou reduções que **não** decorram de efetivo recebimento.\n\n> 📖 **MCASP:** baixas por cancelamento/anistia/abatimento da DA, sem recebimento, são reconhecidas como **VPD**.\n\n**Por que as demais erram:** **A** baixa de crédito {red:não aumenta} o ativo; **B** há, sim, alteração do resultado patrimonial (reduz); **D** \"variação qualitativa\" (permutativa) não altera o PL — mas aqui **altera** (reduz); **E** dívida ativa é {green:ativo}, seu cancelamento não diminui passivo.",
+    "options": [
+      "Provoca aumento do ativo circulante.",
+      "Não altera o resultado patrimonial.",
+      "Provoca variação patrimonial diminutiva.",
+      "Provoca variação patrimonial qualitativa.",
+      "Provoca diminuição do passivo circulante."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^FCC • MPU • 2007 • Analista (Controle Interno)^^\n\nIntegram a **Dívida Ativa Tributária** os créditos da Fazenda Pública provenientes de:",
+    "back": "**Gabarito: E.** Compõem a DA **tributária** os créditos de obrigação legal relativa a tributos e respectivos **adicionais e multas** — logo, **multas por descumprimento de obrigação legal relativa a tributos** (art. 39, § 2º). Os demais itens são exemplos de DA **não tributária**.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A** foros/laudêmios/taxas de ocupação → **não tributária**; **B** preços de serviços → **não tributária**; **C** obrigações em moeda estrangeira/sub-rogação → **não tributária**; **D** empréstimos compulsórios, contribuições e aluguéis → **não tributária**.",
+    "options": [
+      "Foros, laudêmios ou taxas de ocupação.",
+      "Preços de serviços prestados por estabelecimentos públicos.",
+      "Obrigações em moeda estrangeira, sub-rogação de hipoteca, fiança, aval.",
+      "Empréstimos compulsórios, contribuições em lei e aluguéis de imóveis.",
+      "Multas por descumprimento de obrigação legal relativa a tributos."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FGV • DPE-RJ • 2019 • Técnico Superior (Economia)^^\n\nO conjunto de créditos tributários e não tributários em favor da Fazenda Pública, não recebidos no prazo e inscritos após apuração de certeza e liquidez, pode ser concebido como:",
+    "back": "**Gabarito: E.** A dívida ativa é uma **fonte potencial de fluxos de caixa**, reconhecida contabilmente no **ativo** da entidade (espelha créditos a receber), com impacto positivo pela recuperação de valores.\n\n> 📖 **MCASP:** a dívida ativa é potencial fluxo de caixa, alocada no **ativo** (circulante ou não circulante).\n\n**Por que as demais erram:** **A** não reduz restos a pagar (que são despesa); **B** não é provisão de perdas (há, à parte, ajuste para perdas); **C** não é mero ajuste de direitos já reconhecidos — é o próprio crédito inscrito; **D** o reconhecimento orçamentário se dá na **inscrição**, não \"no exercício em que forem lançados\" como receita corrente do período.",
+    "options": [
+      "Um saldo redutor dos restos a pagar da entidade.",
+      "Um saldo que deve ser provisionado como perdas em cada exercício.",
+      "Um saldo que ajusta os direitos já reconhecidos no patrimônio.",
+      "Uma fonte de receita orçamentária do exercício em que forem lançados.",
+      "Uma fonte potencial de fluxos de caixa reconhecida contabilmente no ativo."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FGV • SEFIN-RO • 2018 • Contador^^\n\nConforme o art. 39 da Lei nº 4.320/64, \"as importâncias relativas a tributo, multas e créditos da Fazenda Pública, lançadas, mas não cobradas ou não recolhidas no exercício de origem, constituem...\":",
+    "back": "**Gabarito: C.** Constituem a **dívida ativa** — créditos devidos à Fazenda Pública que não foram arrecadados no prazo devido, divididos em **tributária** e **não tributária** (art. 39).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** créditos adicionais são autorizações de **despesa**; **B** fundos especiais são vinculação de receita a programas; **D** **dívida fundada** é dívida {red:passiva} (>12 meses); **E** **dívida flutuante** também é {red:passiva} (curto prazo) — ambas são obrigações, não créditos.",
+    "options": [
+      "Os créditos adicionais.",
+      "Os fundos especiais.",
+      "A dívida ativa.",
+      "A dívida fundada.",
+      "A dívida flutuante."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FGV • Senado Federal • 2008 • Consultor de Orçamentos^^\n\nO estoque da dívida ativa em 31/12/2006 era de R$ 100.000. Em 2007 foram **inscritos** R$ 30.000 e **recebidos 50%** do estoque de 2006. Em 2007, o estoque da dívida ativa apresentou:",
+    "back": "**Gabarito: D.** Calcula-se apenas a **variação de 2007**:\n\n| Movimento | Valor |\n|---|---|\n| (+) Inscrições em 2007 | + R$ 30.000 |\n| (–) Recebimentos (50% de R$ 100.000) | – R$ 50.000 |\n| **Variação** | **– R$ 20.000** |\n\nLogo, **redução de R$ 20.000**. As inscrições {green:aumentam} o estoque; os recebimentos/baixas o {red:reduzem}.\n\n**Por que as demais erram:** **A/C/E** indicam aumento, mas as baixas superaram as inscrições; **B** R$ 30.000 ignora o recebimento de R$ 50.000.",
+    "options": [
+      "Aumento de R$ 30.000.",
+      "Redução de R$ 30.000.",
+      "Aumento de R$ 20.000.",
+      "Redução de R$ 20.000.",
+      "Aumento de R$ 50.000."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^ESAF • DNIT • 2013 • Analista Administrativo (Contábil)^^\n\nSobre os créditos da dívida ativa (Lei 4.320/64) e seu reflexo patrimonial, é correto afirmar, **EXCETO**:",
+    "back": "**Gabarito: E.** É a **incorreta**: a **Dívida Ativa da União** é apurada e inscrita pela **Procuradoria da Fazenda Nacional (PGFN)** — e {red:não} pelos órgãos detentores dos créditos (art. 39, § 5º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 5º:** \"A **Dívida Ativa da União** será apurada e inscrita na **Procuradoria da Fazenda Nacional** (PGFN).\"\n\n**Por que as demais estão corretas:** **A** créditos não tributários podem ser inscritos (§ 2º); **B** créditos inscritos viram receita orçamentária **só no recebimento** (exceção ao caixa); **C** crédito em moeda estrangeira é convertido na data da inscrição, na falta de notificação (§ 3º); **D** juros, multas de mora e atualizações também são receita da DA (§ 4º).",
+    "options": [
+      "Créditos de origem não tributária podem ser inscritos em dívida ativa.",
+      "Os créditos inscritos são reconhecidos como receita orçamentária somente no exercício do recebimento.",
+      "Crédito em moeda estrangeira é convertido para moeda nacional na data da inscrição (à falta de notificação).",
+      "Juros, multas de mora e atualizações sobre os créditos também constituem receitas da dívida ativa.",
+      "Na União, a apuração e inscrição da dívida ativa cabem aos órgãos detentores dos créditos."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • Pref. Suzano • 2016 • Analista em Gestão Orçamentária e Financeira^^\n\nO conjunto de créditos tributários e não tributários em favor da Fazenda Pública, não recebidos no prazo, inscrito após apuração de certeza e liquidez, refere-se:",
+    "back": "**Gabarito: E.** É a **dívida ativa** (art. 39, caput e § 1º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** **dívida pública** é {red:passiva} (obrigações do ente); **B** \"crédito inscrito\" é genérico; **C** \"direito creditório\" é conceito da cessão (art. 39-A), não o instituto; **D** **dívida mobiliária** é dívida passiva representada por títulos.",
+    "options": [
+      "À dívida pública.",
+      "Ao crédito inscrito.",
+      "Ao direito creditório.",
+      "À dívida mobiliária.",
+      "À dívida ativa."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • CGM São Paulo • 2015 • Auditor de Controle Interno^^\n\nA Dívida Ativa é composta por créditos do ente público:",
+    "back": "**Gabarito: D.** Compõe-se de créditos de natureza **tributária OU não tributária**, **depois de esgotado o prazo** fixado para pagamento (art. 39, caput e § 1º). A inscrição decorre do **transcurso do prazo**, não do \"mês seguinte ao fato gerador\".\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A/C** restringem indevidamente aos {red:tributários}; **B** restringe aos não tributários; **A/B/E** atrelam ao \"mês seguinte ao fato\", quando o critério é o **esgotamento do prazo** de pagamento.",
+    "options": [
+      "De natureza tributária apenas, incluídos no mês seguinte ao fato gerador.",
+      "De natureza não tributária apenas, incluídos no mês seguinte ao fato gerador.",
+      "De natureza tributária apenas, depois de esgotado o prazo para pagamento.",
+      "Tributária ou não tributária, depois de esgotado o prazo para pagamento.",
+      "Tributária ou não tributária, incluídos no mês seguinte ao fato gerador."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • TJ-PA • 2014 • Analista Judiciário (Fiscal de Arrecadação)^^\n\nUm contribuinte não pagou um **tributo**; outro não pagou uma **multa de trânsito**. Após cobrança não atendida, o ente público responsável deverá:",
+    "back": "**Gabarito: E.** Deverá **inscrever ambos**, **após análise circunstanciada**, na **Dívida Ativa** — tanto o crédito **tributário** quanto o **não tributário** (multa de trânsito) podem ser inscritos. A inscrição é ato jurídico que **legitima a origem** do crédito e o reveste dos requisitos para cobrança.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** a ação judicial não depende de previsão na LOA; **B/C** {red:ambos} (tributo e multa) podem ser inscritos, não só um; **D** a inscrição não é \"imediata\" — exige apuração de liquidez/certeza.",
+    "options": [
+      "Mover ação judicial dos valores desde que previstos na LOA.",
+      "Iniciar ação judicial contra o multado e inscrever o tributado na Dívida Ativa.",
+      "Inscrever o multado na Dívida Ativa e analisar circunstanciadamente o tributado.",
+      "Inscrever imediatamente ambos na Dívida Ativa.",
+      "Inscrever ambos, após análise circunstanciada, na Dívida Ativa."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • CREA-SP • 2008 • Analista de Finanças^^\n\n\"Conjunto de créditos da Fazenda Pública regularmente inscrito na repartição competente, depois de esgotado o prazo para pagamento, que goza da presunção de certeza e liquidez.\" Trata-se:",
+    "back": "**Gabarito: A.** É a **Dívida Ativa**. A dívida ativa inscrita **goza da presunção de certeza e liquidez** e tem equivalência de **prova pré-constituída** contra o devedor (presunção {blue:relativa}, derrogável por prova inequívoca a cargo do sujeito passivo).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **B** dívida {red:passiva} é obrigação do ente; **C/D** receita tributária e corrente são classificações de receita, não o instituto; **E** operação de crédito é ingresso de capital, não a DA.",
+    "options": [
+      "Da Dívida Ativa.",
+      "Da Dívida Passiva.",
+      "Da Receita Tributária.",
+      "Da Receita Corrente.",
+      "De Operações de crédito a curto prazo."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^VUNESP • TJ-SP • 2008 • Contador^^\n\nCréditos da Fazenda Pública como **empréstimos compulsórios, contribuições estabelecidas em lei, foros, laudêmios, aluguéis, custas, indenizações, reposições e alcances**, quando vencidos e não pagos, constituem:",
+    "back": "**Gabarito: E.** Todos esses são exemplos expressos do rol do art. 39, § 2º para a **Dívida Ativa Não Tributária** (não derivam de obrigação tributária).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A** \"passivo circulante\" é obrigação, não crédito; **B/C** dívida fundada e flutuante são dívidas {red:passivas}; **D** DA **tributária** seria apenas para tributos e suas multas/adicionais.",
+    "options": [
+      "Passivo Circulante.",
+      "Dívida Fundada.",
+      "Dívida Flutuante.",
+      "Dívida Ativa Tributária.",
+      "Dívida Ativa Não Tributária."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CEPERJ • Procon-RJ • 2012 • Técnico em Contabilidade^^\n\nOs valores devidos ao Estado não liquidados no prazo serão inscritos na Dívida Ativa. De acordo com a legislação, a Dívida Ativa é classificada nas naturezas:",
+    "back": "**Gabarito: B.** A dívida ativa classifica-se em **tributária e não tributária** (art. 39, § 2º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A/C/D/E** apresentam dicotomias que não correspondem à classificação legal da DA (ordinária/extraordinária, corrente/capital, financeira/não financeira, orçamentária/extraorçamentária).",
+    "options": [
+      "Ordinária e extraordinária.",
+      "Tributária e não tributária.",
+      "Corrente e de capital.",
+      "Financeira e não financeira.",
+      "Orçamentária e extraorçamentária."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESGRANRIO • CAPES • 2008 • Analista em Ciência e Tecnologia^^\n\nConforme o art. 39 da Lei nº 4.320/64, os créditos da Fazenda Pública, tributários ou não tributários, serão escriturados como receita do exercício em que forem:",
+    "back": "**Gabarito: D.** **Arrecadados** — a receita orçamentária da dívida ativa é escriturada no exercício da **arrecadação** (regime de caixa), nas respectivas rubricas (art. 39, caput).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** \"fixados\" e **C** \"orçados\" referem-se à **despesa/previsão**; **B** \"previstos\" é etapa de planejamento da receita; **E** \"empenhados\" é estágio da **despesa**.",
+    "options": [
+      "Fixados.",
+      "Previstos.",
+      "Orçados.",
+      "Arrecadados.",
+      "Empenhados."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^IDECAN • Câmara de Pancas-ES • 2014 • Contador^^\n\nAs Receitas de Dívida Ativa são créditos da Fazenda Pública cobrados por meio de **certidão de dívida ativa (CDA)**, com validade de título executivo. A Dívida Ativa divide-se em:",
+    "back": "**Gabarito: B.** **Tributária e não tributária** (art. 39, § 2º). A cobrança se dá pela **CDA**, que é **título executivo extrajudicial** e instrui a execução fiscal.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A** efetiva/não efetiva é classificação de receita quanto à mutação patrimonial; **C** processada/não processada é de restos a pagar; **D/E** orçamentária/extraorçamentária não é a divisão da DA.",
+    "options": [
+      "Efetiva e não efetiva.",
+      "Tributária e não tributária.",
+      "Processada e não processada.",
+      "Orçamentária e não orçamentária.",
+      "Extraorçamentária e intraorçamentária."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FUNRIO • MDIC • 2009 • Analista Técnico-Administrativo^^\n\nSegundo a Lei nº 4.320/64, classifica-se como **dívida ativa tributária** o crédito da Fazenda Pública proveniente de:",
+    "back": "**Gabarito: C.** **Multas e adicionais relativos a tributos** integram a DA **tributária** — decorrem de obrigação legal relativa a tributos (art. 39, § 2º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A** obrigações em moeda estrangeira → **não tributária**; **B** laudêmio → **não tributária**; **D** depósitos/empréstimos compulsórios → **não tributária**; **E** contribuições estabelecidas em lei → **não tributária**.",
+    "options": [
+      "Obrigações em moeda estrangeira.",
+      "Laudêmio.",
+      "Multas e adicionais relativos a tributos.",
+      "Depósitos compulsórios.",
+      "Contribuições estabelecidas em lei."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FUNRIO • JUCERJA • 2008 • Contador^^\n\nA Dívida Ativa é classificada em:",
+    "back": "**Gabarito: B.** **Tributária e Não Tributária** (art. 39, § 2º, da Lei 4.320/64).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais erram:** **A/C/D/E** misturam conceitos de dívida **passiva** (consolidada, fundada, flutuante) com a classificação da DA, que é apenas **tributária x não tributária**.",
+    "options": [
+      "Consolidada e Corrente.",
+      "Tributária e Não Tributária.",
+      "Tributária e Consolidada.",
+      "Primária e Flutuante.",
+      "Passiva e Não Tributária."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CETRO • ANVISA • 2013 • Analista Administrativo^^\n\nConforme a Lei nº 4.320/64, os créditos da Fazenda Pública, tributários ou não, exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como:",
+    "back": "**Gabarito: B.** **Dívida Ativa** (art. 39, § 1º) — a inscrição ocorre após o transcurso do prazo e a apuração de liquidez e certeza.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A/C/E** créditos adicionais, suplementares e extraordinários são autorizações de **despesa**; **D** \"exigível a longo prazo\" é grupo do **passivo**, não a denominação legal da inscrição.",
+    "options": [
+      "Créditos Adicionais.",
+      "Dívida Ativa.",
+      "Créditos Suplementares.",
+      "Exigível a Longo Prazo.",
+      "Créditos Extraordinários."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CETRO • Pref. Campinas • 2012 • Procurador^^\n\nAssinale o órgão responsável pela representação da União na **execução da dívida ativa de natureza tributária**, conforme a Constituição Federal.",
+    "back": "**Gabarito: D.** A **Procuradoria-Geral da Fazenda Nacional (PGFN)** é o órgão responsável pela apuração da liquidez e certeza dos créditos da União (tributários ou não) a serem inscritos em DA e pela sua **representação na execução** (art. 39, § 5º, da Lei 4.320/64; art. 131, § 3º, da CF/88).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 5º:** \"A **Dívida Ativa da União** será apurada e inscrita na **Procuradoria da Fazenda Nacional** (PGFN).\"\n\n> 📖 **CF/88, art. 131, § 3º:** \"Na execução da dívida ativa de natureza tributária, a representação da União cabe à **Procuradoria-Geral da Fazenda Nacional**.\"\n\n**Por que as demais erram:** **A** MPF não representa a União na execução fiscal; **B** AGU faz a gestão geral, mas a execução tributária é da **PGFN**; **C/E** PGU e CGU não têm essa atribuição específica.",
+    "options": [
+      "Ministério Público Federal.",
+      "Advocacia-Geral da União.",
+      "Procuradoria-Geral da União.",
+      "Procuradoria-Geral da Fazenda Nacional.",
+      "Consultoria-Geral da União."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CONSULPLAN • Pref. Sabará-MG • 2017 • Auditor^^\n\nSobre dívida ativa, assinale a alternativa **INCORRETA**.",
+    "back": "**Gabarito: A.** É a **incorreta**: a competência para a gestão administrativa e judicial da DA **não é genericamente da AGU para todos os entes**. Na União, a DA **tributária** é gerida pela **PGFN** e a das autarquias/fundações pela **Procuradoria-Geral Federal (PGF)**; **Estados, DF e Municípios** dispõem sobre a competência de seus próprios órgãos.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 4º:** \"A receita da Dívida Ativa abrange os créditos mencionados nos parágrafos anteriores, bem como os valores correspondentes à respectiva **atualização monetária**, à **multa** e **juros de mora** e ao **encargo** (...).\"\n\n**Por que as demais estão corretas:** **B** a receita da DA abrange atualização, multa, juros e encargos (§ 4º); **C** reproduz o art. 39, caput e § 1º; **D** só se inscreve crédito vencido antes reconhecido como crédito a receber no órgão de origem, que o encaminha ao órgão competente (MCASP).",
+    "options": [
+      "A gestão administrativa e judicial da dívida ativa de todos os entes federativos é da AGU.",
+      "A receita da dívida ativa abrange os créditos de origem, a atualização monetária, multa, juros de mora e encargos.",
+      "Os créditos exigíveis pelo transcurso do prazo são inscritos como dívida ativa, após apurada liquidez e certeza.",
+      "Só se inscreve crédito vencido antes reconhecido como crédito a receber no ativo do órgão de origem.",
+      "A receita é escriturada no exercício em que for arrecadada, nas respectivas rubricas orçamentárias."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CONSULPLAN • MAPA • 2014 • Contador^^\n\nEm relação à dívida ativa da Fazenda Pública, é **INCORRETO** afirmar que:",
+    "back": "**Gabarito: A.** É a **incorreta**: **empréstimos compulsórios e contribuições estabelecidas em lei** integram a DA **NÃO tributária** (art. 39, § 2º), e não a tributária, como afirma a alternativa.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 2º:** \"**Dívida Ativa Tributária** é o crédito da Fazenda Pública dessa natureza, proveniente de obrigação legal relativa a **tributos e respectivos adicionais e multas**, e **Dívida Ativa não Tributária** são os demais créditos da Fazenda Pública, tais como os provenientes de empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza (exceto as tributárias), foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances dos responsáveis definitivamente julgados (...).\"\n\n**Por que as demais estão corretas:** **B** indenizações, reposições, restituições e alcances são DA **não tributária**; **C** a DA tributária deriva de obrigação relativa a tributos, adicionais e multas; **D** reproduz o art. 39, § 1º (inscrição após liquidez e certeza); **E** a receita é escriturada no exercício da arrecadação.",
+    "options": [
+      "Integram a DA tributária os créditos decorrentes de empréstimos compulsórios e contribuições em lei.",
+      "Integram a DA não tributária indenizações, reposições, restituições e alcances dos responsáveis.",
+      "A DA tributária deriva de obrigação legal relativa a tributos, adicionais e multas.",
+      "Os créditos exigíveis pelo transcurso do prazo são inscritos como DA após apurada liquidez e certeza.",
+      "A receita da dívida ativa é escriturada no exercício em que for arrecadada."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^FUNCAB • Pref. Várzea Grande-MT • 2011 • Contador^^\n\nConforme a Lei nº 4.320/64, é correto afirmar que a **Dívida Ativa** é:",
+    "back": "**Gabarito: C.** É o **conjunto de créditos** da Fazenda Pública (tributários ou não), escriturados como **receita do exercício em que forem arrecadados**, nas respectivas rubricas, **incluindo juros e multas adicionais** relativos aos tributos (art. 39, caput e § 4º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 4º:** \"A receita da Dívida Ativa abrange os créditos mencionados nos parágrafos anteriores, bem como os valores correspondentes à respectiva **atualização monetária**, à **multa** e **juros de mora** e ao **encargo** (...).\"\n\n**Por que as demais erram:** **A/D** confundem com dívida {red:passiva}/balanço do ente devedor; **B** descreve mal o regime (a DA é exceção ao caixa); **E** {red:exclui} os juros e multas, mas o § 4º os {green:inclui}.",
+    "options": [
+      "Valores devidos a outro ente, registrados no passivo do devedor e ativo do credor.",
+      "Receita reconhecida nos exercícios posteriores por força do regime misto.",
+      "Conjunto de créditos da Fazenda Pública escriturados como receita do exercício em que forem arrecadados, incluindo juros e multas.",
+      "O total da dívida do ente, divulgado no Balanço Patrimonial.",
+      "Conjunto de créditos escriturados como receita, excluindo-se juros e multas relativos a tributos."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Universa • SEPLAG-DF • 2009 • Auditor de Controle Interno^^\n\nContribuinte autuado por não recolher tributo recebeu **prazo de 20 dias** para pagar ou impugnar a cobrança. **Durante esse prazo**, é correto afirmar que:",
+    "back": "**Gabarito: A.** **Durante o prazo** ainda **não há dívida ativa tributária**, pois o crédito **só pode ser inscrito após o transcurso do prazo** para pagamento. Enquanto pendente o prazo, falta a exigibilidade que autoriza a inscrição (art. 39, § 1º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos, na forma da legislação própria, como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **B** não se trata de DA não tributária (é tributo); **C** o débito {red:ainda não} se consolidou em DA; **D** descreve incorretamente o requisito (não é a presunção absoluta); **E** sem inscrição e CDA não cabe execução fiscal — o débito ainda não pode ser cobrado judicialmente.",
+    "options": [
+      "Não se trata de dívida ativa tributária, pois ainda não se esgotou o prazo para pagamento, o que impossibilita a inscrição.",
+      "Trata-se de dívida ativa não tributária até a inscrição na forma da lei.",
+      "O débito já se consolidou em dívida ativa tributária.",
+      "Para ser DA tributária bastaria a inscrição, que não admitiria prova em contrário.",
+      "O débito já pode ser cobrado judicialmente."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CEBRASPE • MPE-CE • 2025 • adaptada C/E→A–E^^\n\nQuanto à apuração e inscrição da **Dívida Ativa da União**, assinale a alternativa correta.",
+    "back": "**Gabarito: B.** A **Dívida Ativa da União** é apurada e inscrita na **Procuradoria da Fazenda Nacional (PGFN)** — e não na Secretaria da Receita Federal (art. 39, § 5º). O item original (SRF) está {red:errado}.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 5º:** \"A **Dívida Ativa da União** será apurada e inscrita na **Procuradoria da Fazenda Nacional** (PGFN).\"\n\n**Por que as demais erram:** **A** atribui à Receita Federal, que **lança/arrecada** tributos, mas {red:não inscreve} a DA; **C** a competência não é dos órgãos de origem dos créditos; **D** a SOF cuida de orçamento, não de inscrição em DA; **E** o STN não inscreve dívida ativa.",
+    "options": [
+      "A Dívida Ativa da União é apurada e inscrita pela Secretaria da Receita Federal.",
+      "A Dívida Ativa da União é apurada e inscrita na Procuradoria da Fazenda Nacional.",
+      "A inscrição cabe a cada órgão de origem do crédito.",
+      "A inscrição da Dívida Ativa da União compete à Secretaria de Orçamento Federal (SOF).",
+      "A inscrição da Dívida Ativa da União compete ao Tesouro Nacional (STN)."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CEBRASPE • CAPES • 2024 • adaptada C/E→A–E^^\n\nSobre o **efeito patrimonial** do ato de inscrição de um crédito em dívida ativa, assinale a correta.",
+    "back": "**Gabarito: C.** A inscrição em dívida ativa é um **fato contábil PERMUTATIVO** (qualitativo): **não altera** o valor do patrimônio líquido. No órgão de origem, baixa-se o crédito a receber contra uma **VPD**; no órgão competente para inscrição, reconhece-se o crédito de DA contra uma **VPA**. Considerando o ente como um todo, há apenas **troca** do crédito a receber pelo crédito inscrito, sem variação do PL.\n\n> 📖 **MCASP:** \"A inscrição do crédito em dívida ativa configura **fato contábil permutativo**, pois não altera o valor do patrimônio líquido do ente público.\"\n\n| Órgão de **origem** | Órgão de **inscrição** |\n|---|---|\n| Baixa crédito a receber (AC) contra **VPD** | Reconhece crédito de DA (ANC) contra **VPA** |\n\n**Por que as demais erram:** **A/B** afirmam alteração positiva do PL (fato aumentativo) — está {red:errado}, é permutativo; **D** não é fato diminutivo; **E** a inscrição não transita por resultado, no consolidado.",
+    "options": [
+      "Configura fato aumentativo que eleva o patrimônio líquido do ente.",
+      "Aumenta o PL por reconhecer um direito de longo prazo no ativo.",
+      "Configura fato permutativo, não alterando o valor do patrimônio líquido do ente.",
+      "Configura fato diminutivo que reduz o patrimônio líquido do ente.",
+      "Sempre reduz o resultado patrimonial do exercício da inscrição."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^CEBRASPE • STJ • 2024 • adaptada C/E→A–E^^\n\nSobre o significado da **inscrição** da dívida ativa, assinale a alternativa correta.",
+    "back": "**Gabarito: A.** A inscrição corresponde ao **reconhecimento formal** do crédito tributário ou não tributário **não pago**, **habilitando o ente** a cobrar judicialmente o devedor (art. 39, caput e § 1º). A inscrição confere exigibilidade e legitima o crédito como dívida passível de cobrança (via CDA/execução fiscal).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos (...) como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **B** a inscrição depende do {red:transcurso do prazo} + liquidez/certeza, não do mero fato gerador; **C** alcança créditos tributários **e** não tributários; **D** não basta o vencimento sem apuração; **E** a habilitação à cobrança judicial é, sim, efeito da inscrição.",
+    "options": [
+      "Reconhecimento formal do crédito não pago, habilitando o ente a cobrar judicialmente o devedor.",
+      "Decorre automaticamente da ocorrência do fato gerador da obrigação.",
+      "Aplica-se exclusivamente a créditos de natureza tributária.",
+      "Independe da apuração de liquidez e certeza do crédito.",
+      "Não habilita o ente à cobrança judicial do devedor."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • TJ-ES • 2023 • Analista Judiciário • adaptada C/E→A–E^^\n\nQuanto aos requisitos para inscrição dos créditos exigíveis em dívida ativa, assinale a correta.",
+    "back": "**Gabarito: B.** Os créditos exigíveis pelo transcurso do prazo só serão inscritos **APÓS apurada a sua liquidez e certeza** (art. 39, § 1º). O item original (inscrição {red:independentemente} de prévia apuração) está errado.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos (...) como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** dispensa indevidamente a apuração de liquidez/certeza; **C** o fato gerador isolado não autoriza a inscrição; **D** restringe aos tributários; **E** a inscrição não é automática no vencimento.",
+    "options": [
+      "Os créditos são inscritos independentemente de prévia apuração de liquidez e certeza.",
+      "Os créditos são inscritos após apurada a sua liquidez e certeza.",
+      "A inscrição decorre da mera ocorrência do fato gerador.",
+      "Somente créditos tributários são inscritos em dívida ativa.",
+      "A inscrição é automática no dia do vencimento, sem qualquer apuração."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • SEFAZ-DF • 2020 • Auditor Fiscal • adaptada C/E→A–E^^\n\nOs créditos da Fazenda Pública serão escriturados como receita do exercício em que:",
+    "back": "**Gabarito: A.** Serão escriturados como receita do exercício em que forem **arrecadados** (regime de caixa), nas respectivas rubricas orçamentárias (art. 39, caput). O item original (exercício do **fato gerador**) está {red:errado}.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos (...) como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **B** o critério não é o fato gerador; **C** \"lançamento\" não é o marco da escrituração orçamentária; **D** \"vencimento\" não é o critério; **E** a inscrição marca o reconhecimento da receita da DA, mas a regra do caput refere-se à **arrecadação**.",
+    "options": [
+      "Forem arrecadados, nas respectivas rubricas orçamentárias.",
+      "Tiver se dado o fato gerador da obrigação.",
+      "Ocorrer o lançamento do crédito.",
+      "Ocorrer o vencimento do prazo de pagamento.",
+      "For inscrita a dívida ativa, em qualquer hipótese."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • TCE-PB • 2018 • Auditor de Contas Públicas • adaptada C/E→A–E^^\n\nA respeito da **competência** para inscrição da Dívida Ativa da União, assinale a correta.",
+    "back": "**Gabarito: B.** A **Dívida Ativa da União** é apurada e inscrita pela **PGFN** (art. 39, § 5º), e {red:não} por cada unidade gestora isoladamente.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 5º:** \"A **Dívida Ativa da União** será apurada e inscrita na **Procuradoria da Fazenda Nacional** (PGFN).\"\n\n**Por que as demais erram:** **A** afirma a competência de cada unidade gestora — incorreto; **C** a Receita Federal arrecada/lança, mas não inscreve a DA; **D** SOF cuida de orçamento; **E** o TCU é controle externo, não inscreve DA.",
+    "options": [
+      "Cada unidade gestora é responsável pela inscrição de seus créditos na dívida ativa.",
+      "A Dívida Ativa da União é apurada e inscrita na Procuradoria da Fazenda Nacional.",
+      "A inscrição compete à Secretaria da Receita Federal.",
+      "A inscrição compete à Secretaria de Orçamento Federal.",
+      "A inscrição compete ao Tribunal de Contas da União."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • TCE-PB • 2018 • Auditor de Contas Públicas • adaptada C/E→A–E^^\n\nSobre o que é necessário para a inscrição de um crédito em dívida ativa, assinale a correta.",
+    "back": "**Gabarito: C.** {red:Não basta} a ocorrência do fato gerador: a DA abrange créditos cuja **certeza e liquidez foram apuradas** e que **não foram pagos no prazo**. É indispensável a **falta de recebimento no prazo** estipulado (art. 39, § 1º).\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos (...) como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A/B** consideram o fato gerador suficiente — incorreto; **D** a inscrição não é automática no lançamento; **E** dispensa indevidamente a apuração de liquidez e certeza.",
+    "options": [
+      "Basta a ocorrência do fato gerador para a inscrição em dívida ativa.",
+      "O fato gerador, isoladamente, autoriza a cobrança e a inscrição.",
+      "Não basta o fato gerador: exige-se o não pagamento no prazo e a apuração de liquidez e certeza.",
+      "A inscrição ocorre automaticamente no momento do lançamento.",
+      "Dispensa-se a apuração de liquidez e certeza para a inscrição."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • TCE-PB • 2018 • Auditor de Contas Públicas • adaptada C/E→A–E^^\n\nSobre a **natureza** dos créditos que podem ser inscritos em dívida ativa, assinale a correta.",
+    "back": "**Gabarito: D.** Podem ser inscritos os créditos de natureza **tributária OU não tributária** (art. 39, caput e § 2º). O item original (\"somente os tributários\") está {red:errado}.\n\n> 📖 **Lei nº 4.320/1964, art. 39, caput e § 1º:** \"Os créditos da Fazenda Pública, de natureza tributária ou não tributária, serão escriturados como receita do exercício em que forem arrecadados (...). § 1º Os créditos (...), exigíveis pelo transcurso do prazo para pagamento, serão inscritos (...) como **Dívida Ativa**, em registro próprio, **após apurada a sua liquidez e certeza**, e a respectiva receita será escriturada a esse título.\"\n\n**Por que as demais erram:** **A** restringe aos tributários; **B** restringe aos não tributários; **C** só multas — incorreto; **E** só contratos — incorreto. A DA abrange ambas as naturezas.",
+    "options": [
+      "Somente créditos de natureza tributária podem ser inscritos.",
+      "Somente créditos de natureza não tributária podem ser inscritos.",
+      "Apenas multas podem ser inscritas em dívida ativa.",
+      "Tanto créditos tributários quanto não tributários podem ser inscritos em dívida ativa.",
+      "Apenas créditos decorrentes de contratos podem ser inscritos."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • TRE-PE • 2017 • Analista Judiciário • adaptada C/E→A–E^^\n\nSobre a distinção entre **dívida ativa** e **dívida passiva**, assinale a correta.",
+    "back": "**Gabarito: B.** A **dívida ativa** ({green:crédito} a favor da Fazenda) **não se confunde** com a **dívida pública/passiva** ({red:obrigações} do ente para com terceiros). A divisão não decorre da \"etapa da execução orçamentária do pagamento\" — são institutos distintos: a ativa é direito a receber; a passiva é dever de pagar.\n\n> 📖 A dívida ativa abrange créditos a favor da Fazenda Pública, cuja certeza e liquidez foram apuradas, por não terem sido recebidos nas datas aprazadas (Lei 4.320/64, art. 39).\n\n**Por que as demais erram:** **A** atrela a divisão à etapa de execução do pagamento — incorreto; **C** dívida ativa não é obrigação do ente; **D/E** confundem ativa (direito) com passiva (obrigação).",
+    "options": [
+      "As dívidas dividem-se em ativas e passivas conforme a etapa da execução orçamentária do pagamento.",
+      "A dívida ativa é crédito a favor da Fazenda; a passiva é obrigação do ente para com terceiros.",
+      "A dívida ativa representa obrigação do ente público para com terceiros.",
+      "Dívida ativa e dívida passiva são sinônimos para a mesma obrigação.",
+      "A dívida ativa é a fase final da dívida passiva no pagamento da despesa."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • TRE-PI • 2016 • Analista Judiciário • adaptada C/E→A–E^^\n\nA inscrição da dívida ativa de natureza tributária da União compete:",
+    "back": "**Gabarito: D.** Compete à **Procuradoria da Fazenda Nacional (PGFN)** (art. 39, § 5º). O item original (SOF) está {red:errado}.\n\n> 📖 **Lei nº 4.320/1964, art. 39, § 5º:** \"A **Dívida Ativa da União** será apurada e inscrita na **Procuradoria da Fazenda Nacional** (PGFN).\"\n\n**Por que as demais erram:** **A** a SOF cuida de orçamento; **B** a Receita Federal lança/arrecada; **C** o STN é contabilidade/tesouro; **E** a CGU é controle interno — nenhum inscreve a DA da União.",
+    "options": [
+      "À Secretaria de Orçamento Federal (SOF).",
+      "À Secretaria da Receita Federal.",
+      "ao Tesouro Nacional (STN).",
+      "À Procuradoria da Fazenda Nacional (PGFN).",
+      "À Controladoria-Geral da União (CGU)."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^CESPE • TCE-PR • 2016 • Auditor (Conselheiro Substituto) • adaptada C/E→A–E^^\n\nSobre a natureza contábil da dívida ativa, assinale a correta.",
+    "back": "**Gabarito: A.** A dívida ativa corresponde a **créditos** (direitos a receber) exigíveis pelo transcurso do prazo — ou seja, é {green:ativo}. **Dívida ativa NÃO é despesa**. O item original (despesa originada em exercício anterior) está {red:errado}.\n\n> 📖 A dívida ativa é potencial fluxo de caixa, **alocada no ativo** (MCASP); decorre de créditos não pagos no prazo.\n\n**Por que as demais erram:** **B** despesa de exercício anterior é conceito de **despesa**; **C** não é obrigação/passivo; **D** não é receita extraorçamentária; **E** não é mera previsão da LOA.",
+    "options": [
+      "É crédito (ativo) exigível pelo transcurso do prazo, não constituindo despesa.",
+      "É despesa originada em exercício anterior, presente no orçamento corrente.",
+      "É obrigação (passivo) da Fazenda para com terceiros.",
+      "É receita extraorçamentária por natureza.",
+      "É mera previsão de arrecadação registrada na LOA."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nSobre os **requisitos** da cessão onerosa de créditos tributários inscritos em dívida ativa (LC 208/2024), assinale a correta.",
+    "back": "**Gabarito: A.** A cessão deve, **obrigatoriamente, preservar a natureza do crédito**, mantendo suas **garantias e privilégios** (ex.: preferência em execuções judiciais) — art. 39-A, § 1º, I.\n\n> 📖 **Art. 39-A, § 1º, I:** \"**preservar a natureza** do crédito de que se tenha originado o direito cedido, **mantendo as garantias e os privilégios** desse crédito\".\n\n**Por que as demais erram:** **B** a cessão {red:não} retira garantias/privilégios; **C** não altera a preferência do crédito; **D** as garantias seguem o crédito cedido; **E** o cessionário não adquire crédito \"quirografário\" — a natureza é preservada.",
+    "options": [
+      "A cessão deve preservar a natureza do crédito, mantendo garantias e privilégios (ex.: preferência em execução).",
+      "A cessão extingue as garantias e privilégios originais do crédito.",
+      "A cessão rebaixa a preferência do crédito perante terceiros.",
+      "As garantias não acompanham o crédito cedido ao cessionário.",
+      "O cessionário adquire crédito quirografário, sem privilégios."
+    ],
+    "correctOption": "A",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nUm município pretende ceder créditos tributários de ISS inscritos em dívida ativa a um fundo de investimento. Sobre a **autorização** exigida, assinale a correta.",
+    "back": "**Gabarito: B.** A cessão deve ser **autorizada por LEI ESPECÍFICA** do ente; **não basta** a mera autorização do chefe do Poder Executivo (art. 39-A, § 1º, VI).\n\n> 📖 **Art. 39-A, § 1º, VI:** a cessão deve \"**ser autorizada, na forma de lei específica do ente**, pelo chefe do Poder Executivo ou por autoridade administrativa a quem se faça a delegação dessa competência\".\n\n**Por que as demais erram:** **A/C** dispensam a lei específica — incorreto; **D** decreto não substitui a lei específica; **E** a CVM regula os fundos, mas não autoriza a cessão pelo ente.",
+    "options": [
+      "Basta a autorização do chefe do Executivo, dispensada lei específica.",
+      "Exige-se lei específica do ente que autorize a cessão, não bastando ato do Executivo.",
+      "Independe de qualquer autorização, por se tratar de crédito já inscrito.",
+      "Basta decreto regulamentar do Executivo municipal.",
+      "A autorização compete exclusivamente à CVM."
+    ],
+    "correctOption": "B",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nSobre o **limite temporal** da cessão de direitos creditórios em relação ao fim do mandato do chefe do Executivo, assinale a correta.",
+    "back": "**Gabarito: C.** A cessão deve realizar-se **até 90 dias antes** do encerramento do mandato, **ressalvado** o caso em que o **integral pagamento** pela cessão ocorra **após essa data** (art. 39-A, § 1º, VII). Logo, é **permitida** a cessão no último mês do mandato se o pagamento integral for posterior ao término.\n\n> 📖 **Art. 39-A, § 1º, VII:** \"realizar-se até **90 (noventa) dias** antes da data de encerramento do mandato (...), ressalvado o caso em que o integral pagamento (...) ocorra após essa data.\"\n\n**Por que as demais erram:** **A** veda de forma absoluta — incorreto; **B** o prazo é de 90 dias, não 30; **D** a ressalva existe (pagamento posterior); **E** não há vedação total nos últimos 90 dias quando o pagamento integral é posterior.",
+    "options": [
+      "É vedada qualquer cessão nos últimos 90 dias do mandato, sem exceção.",
+      "O limite é de 30 dias antes do fim do mandato.",
+      "É permitida no último mês do mandato se o pagamento integral ocorrer após o término do mandato.",
+      "Não há qualquer limite temporal vinculado ao mandato.",
+      "A cessão é proibida em todo o último ano do mandato."
+    ],
+    "correctOption": "C",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nSobre a possibilidade de a cessão abranger percentuais de créditos que, por força constitucional, pertencem a **outro ente federativo**, assinale a correta.",
+    "back": "**Gabarito: B.** A cessão **NÃO poderá** abranger percentuais do crédito que, por regras constitucionais, **pertençam a outros entes** da Federação (art. 39-A, § 3º). Ex.: a parcela do ICMS pertencente aos municípios não pode ser cedida pelo Estado.\n\n> 📖 **Art. 39-A, § 3º:** \"A cessão (...) **não poderá abranger** percentuais do crédito que, por força de **regras constitucionais, pertençam a outros entes** da Federação.\"\n\n**Por que as demais erram:** **A/C/D** admitem ceder a parcela alheia — vedado; **E** a preservação do principal não autoriza ceder cota de outro ente.",
+    "options": [
+      "Pode incluir a parcela de outro ente, desde que preservado o valor principal.",
+      "Não pode abranger percentuais que, por regra constitucional, pertençam a outros entes.",
+      "Pode incluir a cota de outro ente mediante autorização do cessionário.",
+      "Pode ceder a parcela de transferências constitucionais a outros entes livremente.",
+      "Pode ceder a cota alheia se mantida a natureza do crédito."
+    ],
+    "correctOption": "B",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nA cessão de créditos por meio de uma **Sociedade de Propósito Específico (SPE)**, quanto à exigência de licitação:",
+    "back": "**Gabarito: A.** Na hipótese de cessão realizada por meio de **SPE**, a **licitação é dispensada** (art. 39-A, § 7º). A SPE atua como intermediária/gestora da operação.\n\n> 📖 **Art. 39-A, § 7º:** a cessão pode ser feita por meio de SPE, **dispensada, nessa hipótese, a licitação**.\n\n**Por que as demais erram:** **B/C** exigem licitação — incorreto na hipótese de SPE; **D** a dispensa não depende de autorização da CVM; **E** a SPE não é vedada — é justamente o instrumento previsto.",
+    "options": [
+      "É dispensada a licitação quando a cessão é feita por meio de SPE.",
+      "Exige-se licitação na modalidade concorrência.",
+      "Exige-se licitação em qualquer hipótese de cessão.",
+      "A dispensa depende de prévia autorização da CVM.",
+      "É vedada a utilização de SPE para a cessão."
+    ],
+    "correctOption": "A",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nSobre a atuação de **instituição financeira controlada** pelo ente cedente na cessão de seus créditos, assinale a correta.",
+    "back": "**Gabarito: B.** É **VEDADO** à instituição financeira controlada pelo ente cedente **adquirir ou negociar** esses direitos creditórios **em mercado secundário** (e também participar da aquisição primária ou realizar operação lastreada/garantida por eles) — art. 39-A, § 8º. Pode, porém, atuar como **estruturadora** da operação (§ 9º).\n\n> 📖 **Art. 39-A, § 8º:** é vedado à instituição financeira controlada pelo ente cedente: I - participar de aquisição primária; **II - adquirir ou negociar em mercado secundário**; III - realizar operação lastreada/garantida.\n\n**Por que as demais erram:** **A/C** permitem a aquisição no mercado secundário — vedado; **D** a vedação alcança operações primárias e secundárias; **E** a instituição pode atuar como estruturadora (não há vedação total).",
+    "options": [
+      "Pode adquirir os créditos no mercado secundário se não houver operação primária vinculada.",
+      "É vedado à instituição controlada adquirir ou negociar os créditos do ente em mercado secundário.",
+      "Pode negociar livremente os créditos do ente no mercado secundário.",
+      "A vedação alcança apenas operações primárias, não as secundárias.",
+      "É vedada qualquer participação da instituição, inclusive como estruturadora."
+    ],
+    "correctOption": "B",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nSobre a **destinação** da receita obtida com a cessão onerosa de créditos, assinale a correta.",
+    "back": "**Gabarito: A.** A receita de capital decorrente da venda observa o **art. 44 da LRF**: **no mínimo 50%** a **despesas associadas a regime de previdência social** e **o restante a investimentos** (art. 39-A, § 6º).\n\n> 📖 **Art. 39-A, § 6º:** destina-se **pelo menos 50%** a despesas com regime de previdência social, e o restante a **investimentos**.\n\n**Por que as demais erram:** **B/C** permitem custeio de despesa corrente — vedado pelo art. 44 da LRF; **D** 100% à previdência não é o comando (o piso é 50%); **E** não há livre destinação.",
+    "options": [
+      "No mínimo 50% à previdência social e o restante a investimentos.",
+      "Integralmente a despesas correntes de custeio.",
+      "No mínimo 50% a despesas correntes e o restante a investimentos.",
+      "100% obrigatoriamente à previdência social.",
+      "Destinação livre, a critério do gestor."
+    ],
+    "correctOption": "A",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nSobre a cessão de créditos originados de **parcelamentos administrativos NÃO inscritos** em dívida ativa, assinale a correta.",
+    "back": "**Gabarito: B.** A cessão desses créditos é **limitada ao estoque existente até a data de publicação** da lei autorizativa (federal, estadual, distrital ou municipal) — art. 39-A, § 10. Logo, **não** se pode ceder créditos constituídos {red:após} essa data.\n\n> 📖 **Art. 39-A, § 10:** a cessão de créditos originados de parcelamentos administrativos **não inscritos** em DA é **limitada ao estoque** de créditos existentes **até a data de publicação** da respectiva lei autorizativa.\n\n**Por que as demais erram:** **A/C** admitem ceder créditos surgidos após a lei — vedado; **D** não há limitação apenas aos inscritos; **E** o limite é o estoque na data da publicação, não \"qualquer estoque futuro\".",
+    "options": [
+      "Podem ser cedidos créditos constituídos após a publicação da lei autorizativa.",
+      "A cessão limita-se ao estoque de créditos existentes até a publicação da lei autorizativa.",
+      "Não há limite temporal para créditos de parcelamentos não inscritos.",
+      "Só créditos já inscritos em dívida ativa podem ser cedidos.",
+      "Pode-se ceder qualquer estoque futuro de parcelamentos."
+    ],
+    "correctOption": "B",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nPara fins da **Lei de Responsabilidade Fiscal**, a cessão onerosa de créditos tributários é classificada como:",
+    "back": "**Gabarito: A.** A cessão **NÃO se enquadra** como **operação de crédito** (não se aplica o art. 29, III e IV, nem o art. 37 da LRF): é considerada **operação de venda definitiva de patrimônio público** — alienação (art. 39-A, § 4º). Por isso não aumenta a dívida pública de forma direta.\n\n> 📖 **Art. 39-A, § 4º:** as cessões \"**não se enquadram** nas definições (...) de operação de crédito (...), sendo consideradas **operação de venda definitiva de patrimônio público**.\"\n\n**Por que as demais erram:** **B/C** classificam como operação de crédito/empréstimo — incorreto; **D** não é antecipação de receita orçamentária (ARO); **E** é alienação (receita de capital), não receita corrente.",
+    "options": [
+      "Operação de venda definitiva de patrimônio público (alienação), não operação de crédito.",
+      "Operação de crédito sujeita aos limites de endividamento.",
+      "Empréstimo equiparado à dívida fundada.",
+      "Antecipação de receita orçamentária (ARO).",
+      "Receita corrente tributária do exercício."
+    ],
+    "correctOption": "A",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Cessão de créditos (art. 39-A) • adaptada C/E→A–E^^\n\nApós a cessão, quanto aos **critérios de atualização** do crédito cedido, assinale a correta.",
+    "back": "**Gabarito: B.** Devem ser **mantidos inalterados** os critérios de atualização/correção, os montantes (principal, juros e multas), as condições de pagamento, datas de vencimento e prazos **avençados originalmente** (art. 39-A, § 1º, II). O cessionário {red:não} pode definir novos critérios.\n\n> 📖 **Art. 39-A, § 1º, II:** \"**manter inalterados** os critérios de atualização ou correção de valores e os montantes representados pelo principal, os juros e as multas, assim como as condições de pagamento (...).\"\n\n**Por que as demais erram:** **A/C/D** permitem ao cessionário alterar critérios/juros — vedado; **E** nem mesmo com anuência do devedor é a regra do dispositivo (os termos originais são preservados por lei).",
+    "options": [
+      "O cessionário pode definir novos critérios de atualização, desde que preserve o principal.",
+      "Devem ser mantidos inalterados os critérios de atualização, montantes, prazos e condições originais.",
+      "O cessionário pode majorar os juros do crédito cedido.",
+      "Os prazos e datas de vencimento podem ser livremente alterados pelo cessionário.",
+      "Os critérios podem mudar mediante simples acordo entre cessionário e devedor."
+    ],
+    "correctOption": "B",
+    "topicName": "Cessão de Direitos Creditórios"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nO que **caracteriza** um crédito como **dívida ativa**, nos termos da Lei nº 4.320/1964?",
+    "back": "**Gabarito: D.** A dívida ativa abrange os **créditos a favor da Fazenda Pública**, cuja **certeza e liquidez foram apuradas**, por **não terem sido recebidos nas datas aprazadas** (exigíveis pelo transcurso do prazo). É uma {blue:fonte potencial de fluxos de caixa}, alocada no **ativo**.\n\n> 📖 **Lei 4.320/64, art. 39, § 1º:** os créditos \"exigíveis pelo **transcurso do prazo** para pagamento, serão inscritos (...) como **Dívida Ativa**, (...) **após apurada a sua liquidez e certeza**\".\n\n**Três elementos-chave (mnemônico \"V-A-I\"):** crédito **Vencido** (não pago no prazo) + **Apurado** (liquidez e certeza) + **Inscrito** em registro próprio.\n\n**Por que as demais erram:** **A** não basta o fato gerador; **B** dívida ativa é {green:crédito}, não despesa; **C** a inscrição depende do transcurso do prazo, não do mero lançamento; **E** alcança tributários e não tributários.",
+    "options": [
+      "Basta a ocorrência do fato gerador da obrigação.",
+      "É despesa do ente originada em exercício anterior.",
+      "Decorre do mero lançamento, antes do vencimento.",
+      "Crédito vencido e não pago, com liquidez e certeza apuradas, inscrito em registro próprio.",
+      "Apenas créditos tributários, excluídos os não tributários."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nComo se **classifica** a dívida ativa quanto à origem do crédito, e qual o critério para distinguir as duas espécies?",
+    "back": "**Gabarito: C.** A DA divide-se em **Tributária** e **Não Tributária** (art. 39, § 2º). O **critério** é a origem do crédito: se decorre de **obrigação relativa a tributos** (e seus adicionais/multas) → **tributária**; **demais créditos** → **não tributária**.\n\n| **Tributária** | **Não Tributária** |\n|---|---|\n| Tributos (impostos, taxas, contrib. de melhoria) | Empréstimos compulsórios, contribuições em lei |\n| **Adicionais e multas tributárias** | **Multas não tributárias** (trânsito, administrativas) |\n| | Foros, laudêmios, aluguéis, taxas de ocupação |\n| | Custas, preços de serviços, indenizações, reposições, restituições, alcances |\n\n==Pegadinha clássica==: **multa relativa a tributo** = {green:tributária}; **multa de outra origem** = {red:não tributária}.\n\n**Por que as demais erram:** **A/B/D/E** trazem dicotomias inexistentes para a DA (corrente/capital, processada/não processada, ordinária/extraordinária, orçamentária/extraorçamentária).",
+    "options": [
+      "Corrente e de capital, conforme a categoria econômica.",
+      "Processada e não processada.",
+      "Tributária e não tributária, conforme a origem do crédito.",
+      "Ordinária e extraordinária.",
+      "Orçamentária e extraorçamentária."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nA dívida ativa regularmente inscrita **goza de presunção de certeza e liquidez**. Essa presunção é:",
+    "back": "**Gabarito: B.** A inscrição em dívida ativa goza de **presunção de certeza e liquidez** e tem equivalência de **prova pré-constituída** contra o devedor. Trata-se, porém, de presunção **RELATIVA (juris tantum)**: pode ser **derrogada por prova inequívoca**, cujo ônus cabe ao **sujeito passivo** (devedor).\n\n> 📖 A presunção de certeza e liquidez da dívida ativa é **relativa**, podendo ser afastada por prova inequívoca a cargo do sujeito passivo (Lei 4.320/64, art. 39, § 1º; CTN, art. 204).\n\n**Por que as demais erram:** **A** presunção absoluta ({red:iuris et de iure}) não admitiria prova em contrário — incorreto; **C** o ônus da prova é do {blue:devedor}, não da Fazenda; **D** não é mera ficção; **E** a CDA é título executivo extrajudicial, mas a presunção é relativa.",
+    "options": [
+      "Absoluta, não admitindo prova em contrário.",
+      "Relativa, podendo ser afastada por prova inequívoca a cargo do devedor.",
+      "Relativa, cabendo à Fazenda Pública o ônus de provar o crédito em juízo.",
+      "Mera ficção legal sem efeitos probatórios.",
+      "Inexistente, pois a CDA não tem força executiva."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nAlém do **valor principal**, o que mais compõe a **receita da dívida ativa**, segundo o art. 39, § 4º, da Lei 4.320/64?",
+    "back": "**Gabarito: E.** A receita da DA abrange o **principal** mais a **atualização monetária**, a **multa**, os **juros de mora** e os **encargos** legais.\n\n> 📖 **Art. 39, § 4º:** \"A receita da Dívida Ativa abrange os créditos (...), bem como os valores correspondentes à respectiva **atualização monetária**, à **multa** e **juros de mora** e ao **encargo** (...).\"\n\n**Mnemônico \"P-A-M-J-E\"**: **P**rincipal + **A**tualização + **M**ulta + **J**uros de mora + **E**ncargos.\n\n**Por que as demais erram:** **A** o principal não é o único componente; **B/C/D** omitem parte dos acréscimos legais (atualização, multa, juros ou encargos), que a lei {green:inclui} integralmente.",
+    "options": [
+      "Somente o valor principal do crédito.",
+      "Principal e atualização monetária, apenas.",
+      "Principal, multa e juros, excluída a atualização monetária.",
+      "Principal e encargos, excluídas multa e juros.",
+      "Principal, atualização monetária, multa, juros de mora e encargos."
+    ],
+    "correctOption": "E",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQuando o crédito a ser inscrito em dívida ativa estiver em **moeda estrangeira**, em que momento ocorre a **conversão** para a moeda nacional (art. 39, § 3º)?",
+    "back": "**Gabarito: C.** A conversão se dá à taxa cambial oficial (para compra) na **data da notificação/intimação do devedor** pela autoridade administrativa **ou, à sua falta, na data da inscrição** da Dívida Ativa; a partir da conversão, incidem atualização monetária e juros de mora.\n\n> 📖 **Art. 39, § 3º:** converte-se na **data da notificação/intimação** do devedor ou, **à falta**, na **data da inscrição** da Dívida Ativa.\n\n**Por que as demais erram:** **A** a data do fato gerador não é o marco; **B** a data do vencimento não é o critério; **D** o encerramento do exercício não é regra; **E** a regra subsidiária é a data da **inscrição**, não a do efetivo pagamento.",
+    "options": [
+      "Na data do fato gerador da obrigação.",
+      "Na data do vencimento do crédito.",
+      "Na data da notificação/intimação do devedor ou, à falta, na data da inscrição.",
+      "No encerramento do exercício financeiro.",
+      "Apenas na data do efetivo pagamento pelo devedor."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa **União**, a quem compete a **gestão e inscrição** da dívida ativa, e como ficam os demais entes?",
+    "back": "**Gabarito: D.** Na União, a gestão administrativa e judicial da DA cabe à **AGU**, sendo a DA **tributária** gerida pela **PGFN** e a das **autarquias e fundações federais** pela **Procuradoria-Geral Federal (PGF)**. Os **Estados, DF e Municípios** dispõem sobre a competência de seus próprios órgãos.\n\n> 📖 **Lei 4.320/64, art. 39, § 5º:** \"A Dívida Ativa da União será apurada e inscrita na **Procuradoria da Fazenda Nacional**.\"\n> 📖 **CF/88, art. 131, § 3º:** na execução da dívida ativa de natureza tributária, a representação da União cabe à **PGFN**.\n\n| Esfera | Órgão |\n|---|---|\n| União (tributária) | **PGFN** |\n| Autarquias/fundações federais | **PGF** |\n| Estados, DF, Municípios | **Órgãos próprios** de cada ente |\n\n**Por que as demais erram:** **A** a Receita Federal lança/arrecada, não inscreve a DA; **B** SOF é orçamento; **C** atribuir tudo genericamente à AGU ignora a PGFN/PGF; **E** os entes subnacionais têm órgãos próprios, não dependem da PGFN.",
+    "options": [
+      "À Secretaria da Receita Federal, em todas as esferas.",
+      "À Secretaria de Orçamento Federal (SOF).",
+      "Genericamente à AGU para a União e todos os demais entes.",
+      "PGFN (União tributária), PGF (autarquias/fundações federais) e órgãos próprios de Estados/DF/Municípios.",
+      "À PGFN, inclusive para Estados e Municípios."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQual a diferença essencial entre **dívida ativa** e **dívida pública (passiva)**?",
+    "back": "**Gabarito: A.** A **dívida ativa** é o conjunto de **créditos** (direitos a receber) a favor da Fazenda — fica no **ativo**. Já a **dívida pública/passiva** representa as **obrigações** do ente para com terceiros — fica no **passivo**. São institutos {red:inconfundíveis}.\n\n| **Dívida ATIVA** | **Dívida PASSIVA (pública)** |\n|---|---|\n| Direito a **receber** (crédito) | Obrigação de **pagar** (dívida) |\n| Registrada no **ativo** | Registrada no **passivo** |\n| Trib. x não tributária | **Fundada** (>12m) x **flutuante** (curto prazo) |\n\n**Por que as demais erram:** **B** inverte os conceitos; **C** dívida ativa não é passivo; **D** a dívida passiva divide-se em fundada/flutuante, não trib./não trib.; **E** não se distinguem por \"etapa da execução orçamentária do pagamento\".",
+    "options": [
+      "A dívida ativa é crédito (ativo) a receber; a passiva é obrigação (passivo) a pagar.",
+      "A dívida ativa é obrigação a pagar; a passiva é crédito a receber.",
+      "Ambas são registradas no passivo do ente.",
+      "A dívida passiva divide-se em tributária e não tributária.",
+      "Distinguem-se apenas pela etapa da execução orçamentária do pagamento."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nPor que a dívida ativa é apontada como **exceção ao regime de caixa** da receita orçamentária?",
+    "back": "**Gabarito: B.** Pela regra geral (art. 35 da Lei 4.320/64), a receita orçamentária pertence ao exercício em que for **arrecadada** (regime de caixa). A dívida ativa é a clássica **exceção**: sob o enfoque **orçamentário**, a receita é reconhecida **no momento da inscrição** (competência), e não na arrecadação.\n\n> 📖 **Art. 35:** pertencem ao exercício financeiro as receitas nele **arrecadadas** (regime de caixa).\n\n{yellow:Atenção}: pela ótica **patrimonial**, o reconhecimento por competência (VPA na inscrição) é a regra — a DA só é \"exceção\" quando analisada sob o enfoque **orçamentário**.\n\n**Por que as demais erram:** **A** a regra geral é o caixa, não a competência; **C** a DA não é exceção ao regime de competência da despesa; **D** o reconhecimento orçamentário não espera a arrecadação; **E** não há regime \"misto\" que justifique a exceção da DA neste ponto.",
+    "options": [
+      "Porque a regra geral da receita é o regime de competência, e a DA segue o caixa.",
+      "Porque a receita da DA é reconhecida na inscrição (competência), e não na arrecadação (caixa).",
+      "Porque é exceção ao regime de competência aplicável à despesa.",
+      "Porque seu reconhecimento orçamentário só ocorre na efetiva arrecadação.",
+      "Porque adota regime misto, de caixa e competência, simultaneamente."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSob a ótica patrimonial, **como se registra a inscrição** de um crédito em dívida ativa, segundo o MCASP?",
+    "back": "**Gabarito: C.** A inscrição é **fato permutativo** (não altera o PL do ente). No órgão de **origem**, baixa-se o crédito a receber (AC) contra uma **VPD**; no órgão de **inscrição**, reconhece-se o crédito de DA (ANC) contra uma **VPA**. No ente como um todo, há apenas a **troca** de um crédito por outro, sem variação líquida.\n\n> 📖 **MCASP:** \"A inscrição do crédito em dívida ativa configura **fato contábil permutativo**, pois não altera o valor do patrimônio líquido (...).\"\n\n| Órgão de **origem** | Órgão de **inscrição** |\n|---|---|\n| D **VPD** / C Crédito a receber (AC) | D Dívida Ativa (ANC) / C **VPA** |\n\nTambém há **troca de expectativa de realização**: do **ativo circulante** (origem) para o **ativo não circulante** (inscrição), pois o inadimplemento torna incerto o prazo.\n\n**Por que as demais erram:** **A/B** tratam como fato aumentativo/diminutivo; **D** afeta o PL — incorreto (permutativo não afeta); **E** a inscrição não é fato exclusivamente orçamentário.",
+    "options": [
+      "Fato aumentativo, elevando o patrimônio líquido.",
+      "Fato diminutivo, reduzindo o patrimônio líquido.",
+      "Fato permutativo: VPD na origem e VPA no órgão de inscrição, sem alterar o PL.",
+      "Fato modificativo que reduz o patrimônio líquido na origem.",
+      "Fato exclusivamente orçamentário, sem reflexo patrimonial."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nApós a inscrição, em que situação a dívida ativa registrada no **ativo não circulante** pode ser **reclassificada para o ativo circulante**?",
+    "back": "**Gabarito: D.** Quando o ente puder **estimar com razoável certeza** o montante com **expectativa de recebimento em até 12 meses** da data das demonstrações (ex.: **acordos de parcelamento/renegociação** com datas e valores definidos), a parcela correspondente pode ser **reclassificada para o ativo circulante**, permanecendo o restante no não circulante.\n\n> 📖 **MCASP:** parcela com expectativa de realização **em até 12 meses** pode ser reclassificada para a DA do **ativo circulante** (ex.: parcelamentos).\n\n**Por que as demais erram:** **A** a regra inicial é registrar no **não circulante** (prazo incerto); **B** não depende do mero vencimento; **C** não exige recebimento integral; **E** não há reclassificação automática de todo o estoque.",
+    "options": [
+      "Logo na inscrição, todo o saldo vai para o ativo circulante.",
+      "No vencimento de qualquer parcela, automaticamente.",
+      "Somente após o recebimento integral do crédito.",
+      "Na parcela com expectativa de recebimento em até 12 meses (ex.: parcelamento), mediante estimativa confiável.",
+      "Todo o estoque é reclassificado ao fim de cada exercício."
+    ],
+    "correctOption": "D",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa classificação por **natureza da receita** (código de 8 dígitos), qual **dígito** identifica a dívida ativa, e em qual **tipo**?",
+    "back": "**Gabarito: B.** A dívida ativa é identificada pelo **8º dígito** (o \"**tipo**\"), especificamente o **Tipo 3** — \"dívida ativa da respectiva receita\".\n\n| Tipo | Significado |\n|---|---|\n| 0 | Natureza não valorizável/agregadora |\n| 1 | Arrecadação **principal** |\n| 2 | Multas e juros de mora da receita |\n| **3** | **Dívida ativa** da respectiva receita |\n| 4 | Multas e juros de mora **da dívida ativa** |\n\nAssim, todos os acréscimos de um mesmo recurso ficam agrupados sob o mesmo código, diferenciados apenas no último dígito.\n\n**Por que as demais erram:** **A** o 1º dígito é a **categoria econômica**; **C** o 2º é a **origem**; **D** o 3º é a **espécie**; **E** o tipo 1 é a arrecadação principal, não a dívida ativa.",
+    "options": [
+      "1º dígito (categoria econômica), tipo 0.",
+      "8º dígito (tipo), tipo 3.",
+      "2º dígito (origem), tipo 2.",
+      "3º dígito (espécie), tipo 4.",
+      "8º dígito (tipo), tipo 1."
+    ],
+    "correctOption": "B",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQual o instrumento que aparelha a **cobrança judicial** da dívida ativa e qual sua natureza?",
+    "back": "**Gabarito: A.** É a **Certidão de Dívida Ativa (CDA)**, que constitui **título executivo extrajudicial** e instrui a **execução fiscal** (Lei nº 6.830/80 — LEF). A inscrição confere exigibilidade e a CDA garante liquidez à cobrança.\n\n> 📖 **Lei 6.830/80 (LEF):** a Dívida Ativa regularmente inscrita é cobrada por **execução fiscal**, instruída pela **CDA**, título executivo extrajudicial.\n\n**Por que as demais erram:** **B** precatório é forma de pagamento de dívidas {red:do} Estado (passiva), não de cobrança da DA; **C** nota de empenho é de **despesa**; **D** a CDA é extrajudicial, não sentença; **E** a CDA não é título de crédito privado (duplicata).",
+    "options": [
+      "Certidão de Dívida Ativa (CDA), título executivo extrajudicial, na execução fiscal (Lei 6.830/80).",
+      "Precatório judicial expedido pelo tribunal.",
+      "Nota de empenho da despesa correspondente.",
+      "Sentença judicial condenatória prévia obrigatória.",
+      "Duplicata mercantil emitida pela Fazenda."
+    ],
+    "correctOption": "A",
+    "topicName": "Dívida Ativa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQual o efeito patrimonial do **cancelamento** (anistia, abatimento ou baixa sem recebimento) de um crédito inscrito em dívida ativa?",
+    "back": "**Gabarito: C.** O cancelamento representa a **extinção** do crédito e provoca **diminuição da situação líquida** — é reconhecido como **Variação Patrimonial Diminutiva (VPD)**, independente da execução orçamentária (variação passiva extraorçamentária). Aplica-se também a anistias, abatimentos e reduções que **não** decorram de efetivo recebimento.\n\n> 📖 **MCASP:** baixas da DA por cancelamento/anistia/abatimento, sem recebimento, são **VPD**.\n\n**Distinção importante:** o **recebimento** é fato permutativo (troca crédito por caixa); já o **cancelamento sem recebimento** é **VPD** (perda).\n\n**Por que as demais erram:** **A** baixa não aumenta o ativo; **B** há, sim, redução do resultado; **D** não é fato meramente permutativo (afeta o PL); **E** não reduz passivo (DA é ativo).",
+    "options": [
+      "Aumenta o ativo circulante.",
+      "Não altera o resultado patrimonial.",
+      "Reconhece-se como Variação Patrimonial Diminutiva (VPD), reduzindo a situação líquida.",
+      "É fato permutativo, sem efeito no patrimônio líquido.",
+      "Reduz o passivo circulante do ente."
+    ],
+    "correctOption": "C",
+    "topicName": "Dívida Ativa - Contabilização"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nA **LC nº 208/2024** inseriu o **art. 39-A** na Lei 4.320/64. Em que consiste a **cessão de direitos creditórios** e qual sua principal classificação para fins da LRF?",
+    "back": "**Gabarito: E.** A cessão de direitos creditórios permite que **União, Estados, DF e Municípios cedam onerosamente** direitos originados de **créditos tributários e não tributários** (inclusive inscritos em DA) a **pessoas jurídicas de direito privado ou fundos de investimento (CVM)**, mediante **lei específica**. Para fins da LRF, **não é operação de crédito**, mas **venda definitiva de patrimônio público** (alienação).\n\n> 📖 **Art. 39-A, caput e § 4º:** cessão onerosa mediante lei específica; **não** se enquadra como operação de crédito — é **venda definitiva de patrimônio**.\n\n**Requisitos do § 1º (visão geral):** preservar a natureza/garantias do crédito; manter critérios de atualização e prazos; assegurar à Fazenda a cobrança; ser operação definitiva (devedor segue responsável); abranger só créditos já constituídos; ser autorizada por lei específica; e ocorrer **até 90 dias** antes do fim do mandato (salvo pagamento posterior).\n\n**Por que as demais erram:** **A** não é empréstimo/operação de crédito; **B** independe de aumento da dívida pública; **C** não dispensa lei específica; **D** a receita é de **capital** (alienação), não corrente tributária.",
+    "options": [
+      "É uma operação de crédito que aumenta a dívida pública do ente.",
+      "É vedada aos Municípios, restrita à União.",
+      "Pode ser feita por simples decreto, sem lei específica.",
+      "Gera receita corrente tributária no exercício da cessão.",
+      "É venda onerosa de direitos creditórios, mediante lei específica, classificada como alienação de patrimônio (não operação de crédito)."
+    ],
+    "correctOption": "E",
+    "topicName": "Cessão de Direitos Creditórios"
+  }
+]
