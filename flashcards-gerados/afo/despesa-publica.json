@@ -1,0 +1,1575 @@
+[
+  {
+    "front": "^^Elaborada pelo professor^^\n\nO que é **despesa pública** e qual a diferença entre despesa **orçamentária** e **extraorçamentária**?",
+    "back": "**Gabarito: A.**\n\n**Despesa pública** é a aplicação de recursos do Estado, por autoridade competente e mediante **autorização legislativa**, para atender a uma necessidade da coletividade prevista no orçamento (Aliomar Baleeiro: \"aplicação de certa quantia em dinheiro [...] dentro de uma autorização legislativa, para execução de um fim a cargo do governo\").\n\nQuanto à **forma de ingresso**:\n\n| | {green:Orçamentária} | {blue:Extraorçamentária} |\n|---|---|---|\n| Previsão | Fixada na LOA/créditos adicionais | NÃO consta do orçamento |\n| Autorização legislativa | **Depende** | **Independe** |\n| Natureza dos recursos | Do ente público | De **terceiros** (transitórios) |\n| Estágios | Fixação, empenho, liquidação, pagamento | — |\n| Exemplos | Pessoal, obras, custeio | Devolução de caução, **pagamento de RAP**, resgate de ARO, repasse de consignações |\n\n==Mnemônico dos restos a pagar==: **Inscrição** de RAP = receita extraorçamentária; **Pagamento** de RAP = despesa extraorçamentária.\n\n- **B/C/D/E** erram porque descrevem apenas um dos polos ou invertem a regra da autorização legislativa.\n\n> **Lei nº 4.320/1964, art. 35.** Pertencem ao exercício financeiro: I - as receitas nele arrecadadas; **II - as despesas nele legalmente empenhadas.**",
+    "options": [
+      "Despesa orçamentária depende de autorização legislativa (LOA/créditos); a extraorçamentária independe, pois devolve recursos de terceiros",
+      "Toda despesa pública é orçamentária, pois sempre consta da LOA",
+      "Despesa extraorçamentária depende de autorização legislativa específica em lei especial",
+      "A diferença é apenas o valor: acima de determinado limite, a despesa é orçamentária",
+      "Despesa orçamentária é a paga em dinheiro; extraorçamentária é a paga por outros meios"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa **classificação por natureza da despesa** (código de 8 dígitos), o que representa cada nível?",
+    "back": "**Gabarito: A.**\n\nA **classificação por natureza da despesa** é estruturada num código de **8 dígitos** (Portaria Interministerial SOF/STN nº 163/2001):\n\n| Dígito(s) | Nível | Exemplo |\n|---|---|---|\n| **1º** | {blue:Categoria econômica} | 3-Corrente / 4-Capital |\n| **2º** | {blue:Grupo de Natureza da Despesa (GND)} | 1-Pessoal, 3-ODC, 4-Investimentos |\n| **3º-4º** | {blue:Modalidade de aplicação} | 90-Aplicação direta |\n| **5º-6º** | {blue:Elemento de despesa} | 11-Vencimentos |\n| **7º-8º** | {blue:Subelemento} (desdobramento facultativo) | — |\n\nFormato: **C.G.MM.EE.SS** (ex.: 3.1.90.11.00).\n\n> **Portaria 163/2001, art. 6º.** Na LOA, a discriminação da despesa, quanto à sua natureza, far-se-á, **no mínimo, por categoria econômica, grupo de natureza de despesa e modalidade de aplicação**.\n\n> **Lei nº 4.320/1964, art. 15.** Na Lei de Orçamento, a discriminação da despesa far-se-á **no mínimo por elementos**.\n\n- **B/C/D/E** invertem a ordem ou trocam os níveis (erro clássico de banca: GND no 5º/6º dígito).",
+    "options": [
+      "1º categoria econômica; 2º GND; 3º-4º modalidade de aplicação; 5º-6º elemento; 7º-8º subelemento",
+      "1º GND; 2º categoria econômica; 3º elemento; 4º modalidade de aplicação",
+      "1º elemento; 2º subelemento; 3º-4º GND; 5º categoria econômica",
+      "1º modalidade de aplicação; 2º elemento; 3º categoria econômica; 4º GND",
+      "1º função; 2º subfunção; 3º programa; 4º ação; 5º categoria econômica"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQuais são as **categorias econômicas** da despesa e qual o critério que as separa?",
+    "back": "**Gabarito: A.**\n\nA categoria econômica é o **1º nível** da classificação por natureza e obedece a **critério econômico** (permite analisar o impacto do gasto na economia do país):\n\n| Código | Categoria | Conceito |\n|---|---|---|\n| **3** | {green:Despesas Correntes} | NÃO contribuem **diretamente** para a formação/aquisição de um bem de capital |\n| **4** | {blue:Despesas de Capital} | Contribuem **diretamente** para a formação/aquisição de um bem de capital |\n\nGiacomoni: as despesas correntes possibilitam determinar a participação do setor público no **consumo geral** do país.\n\n> **Lei nº 4.320/1964, art. 12.** A despesa será classificada nas seguintes **categorias econômicas: Despesas Correntes e Despesas de Capital.**\n\n- **B** confunde com a classificação da receita (originárias/derivadas).\n- **C** (ordinárias/extraordinárias) é classificação doutrinária por regularidade.\n- **D** (públicas/privadas) não existe.\n- **E** (operacionais/patrimoniais) é de contabilidade empresarial.",
+    "options": [
+      "Despesas Correntes e Despesas de Capital — critério econômico (impacto na economia)",
+      "Despesas Originárias e Derivadas — critério da procedência",
+      "Despesas Ordinárias e Extraordinárias — critério da regularidade",
+      "Despesas Públicas e Privadas — critério do ente",
+      "Despesas Operacionais e Patrimoniais — critério contábil"
+    ],
+    "correctOption": "A",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQuais são os **Grupos de Natureza da Despesa (GND)** e em que categoria econômica cada um se classifica?",
+    "back": "**Gabarito: A.**\n\nO **GND** (2º dígito) agrega elementos com as mesmas características quanto ao objeto de gasto:\n\n| GND | Nome | Categoria |\n|---|---|---|\n| **1** | Pessoal e Encargos Sociais | {green:Corrente} |\n| **2** | Juros e Encargos da Dívida | {green:Corrente} |\n| **3** | Outras Despesas Correntes (ODC) | {green:Corrente} |\n| **4** | Investimentos | {blue:Capital} |\n| **5** | Inversões Financeiras | {blue:Capital} |\n| **6** | Amortização da Dívida | {blue:Capital} |\n| **9** | Reserva de Contingência/RPPS | {red:não executável} |\n\n==Pegadinha clássica==: o serviço da dívida se **divide**: {red:Juros e Encargos (GND 2) = CORRENTE}, mas {red:Amortização (GND 6) = CAPITAL}.\n\n> Caput do **art. 18 da LRF** fundamenta o GND 1 (pessoal). A codificação da Reserva (GND 9) consta do **art. 8º da Portaria 163/2001** (\"9.9.99.99.99\").\n\n- **B/C/D/E** erram a categoria de pelo menos um GND (tipicamente colocam amortização em corrente ou juros em capital).",
+    "options": [
+      "1-Pessoal, 2-Juros (correntes); 4-Investimentos, 5-Inversões, 6-Amortização (capital)",
+      "1-Pessoal, 6-Amortização (correntes); 2-Juros, 4-Investimentos (capital)",
+      "Todos os GND são despesas de capital, pois envolvem o orçamento",
+      "1-Investimentos, 2-Inversões (correntes); 4-Juros, 5-Pessoal (capital)",
+      "O GND não tem relação com a categoria econômica da despesa"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nO que é a **modalidade de aplicação** (3º nível) e qual seu principal objetivo?",
+    "back": "**Gabarito: A.**\n\nA **modalidade de aplicação** (3º e 4º dígitos) indica **se os recursos serão aplicados**:\n- {blue:diretamente} pela unidade detentora do crédito (ou por outro órgão da mesma esfera); ou\n- mediante {blue:transferência financeira} (descentralização) para outros níveis de governo, entidades privadas etc.\n\nÉ uma **informação gerencial** cujo objetivo principal é **eliminar a dupla contagem** dos recursos transferidos ou descentralizados.\n\n| Modalidade | Destino |\n|---|---|\n| 20/30/40 | Transferências à União / Estados-DF / Municípios |\n| 50/60 | Inst. privadas sem / com fins lucrativos |\n| **90** | {green:Aplicações diretas} (a mais usada) |\n| 99 | A definir |\n\n⚠️ As \"transferências\" dos arts. 16 e 21 da Lei 4.320/64 (subvenções, auxílios, contribuições) são **elementos**, e NÃO se confundem com as transferências financeiras (modalidades de aplicação).\n\n- **B** confunde com elemento de despesa (objeto do gasto).\n- **C** confunde com GND.\n- **D** é a categoria econômica.\n- **E** é o identificador de uso (IDUSO).",
+    "options": [
+      "Indica se os recursos são aplicados diretamente ou por transferência; objetiva eliminar a dupla contagem",
+      "Identifica o objeto do gasto (vencimentos, diárias, material) — é o elemento de despesa",
+      "Agrega elementos com as mesmas características de objeto de gasto",
+      "Classifica a despesa em corrente ou de capital",
+      "Indica se os recursos compõem contrapartida nacional de empréstimos ou doações"
+    ],
+    "correctOption": "A",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nO que é o **elemento de despesa** (4º nível) e há vedações ao seu uso?",
+    "back": "**Gabarito: A.**\n\nO **elemento de despesa** (5º e 6º dígitos) tem por finalidade **identificar o objeto de gasto**: vencimentos, juros, diárias, material de consumo, serviços de terceiros, obras, equipamentos, amortização etc. (Anexo II da Portaria 163/2001).\n\nExemplos: **11**-Vencimentos e Vantagens Fixas (Pessoal Civil); **39**-Outros Serviços de Terceiros-PJ; **61**-Aquisição de imóveis; **91**-Sentenças Judiciais.\n\n**Vedações** (relação projeto/atividade × operação especial):\n- É {red:vedado} usar em **projetos e atividades** os elementos **41**-Contribuições, **42**-Auxílios e **43**-Subvenções Sociais (só em **operações especiais**).\n- É {red:vedado} usar elementos típicos de gastos (30, 36, 39, 51, 52...) em **operações especiais**.\n\nMotivo: projetos/atividades geram **produto/contraprestação**; operações especiais **não geram produto**.\n\n> O desdobramento do elemento (subelemento, 7º-8º dígitos) é **facultativo** a cada ente.\n\n- **B/C/D/E** trocam o conceito de elemento pelo de modalidade, GND ou categoria econômica.",
+    "options": [
+      "Identifica o objeto de gasto; há vedações cruzadas entre elementos típicos e operações especiais",
+      "Indica se os recursos são aplicados diretamente ou por transferência",
+      "É o agregador de elementos com a mesma categoria econômica",
+      "Classifica a despesa em corrente ou de capital, conforme o impacto na economia",
+      "O desdobramento do elemento (subelemento) é obrigatório para todos os entes"
+    ],
+    "correctOption": "A",
+    "topicName": "Elemento de Despesa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa **estrutura da programação orçamentária da despesa**, qual a diferença entre a programação **qualitativa** e a **quantitativa**?",
+    "back": "**Gabarito: A.**\n\nSegundo o MTO, o orçamento organiza-se em **programas de trabalho** com informações qualitativas e quantitativas (físicas ou financeiras):\n\n| Dimensão | Responde | Compõe-se de |\n|---|---|---|\n| {blue:QUALITATIVA} | **No que** / **para que** / **onde** se gasta | Esfera, classificação institucional, classificação funcional, estrutura programática |\n| {green:QUANTITATIVA - física} | **Quanto** se desenvolve do produto | Meta física (quantidade de bens/serviços a entregar) |\n| {green:QUANTITATIVA - financeira} | **Quanto** custa e com quais recursos | Natureza da despesa, IDUSO, fonte, IDOC, **RP**, dotação |\n\n==CESPE TCE/PB 2022 (correta)==: \"a **dimensão física** define a quantidade de bens e serviços a serem entregues\".\n\nClassificação por dimensões do orçamento (Cunha/Core): só elemento = **unidimensional** (tradicional); + programa de trabalho = **bidimensional** (desempenho); + objetivo da ação = **tridimensional** (orçamento-programa).\n\n- **B/C/D/E** invertem os blocos qualitativo/quantitativo ou trocam por estágios da despesa.",
+    "options": [
+      "Qualitativa define o programa de trabalho (no quê/para quê); quantitativa define as dimensões física e financeira (quanto)",
+      "Qualitativa define o valor; quantitativa define a finalidade do gasto",
+      "Ambas se referem exclusivamente à fixação da despesa na LOA",
+      "Qualitativa é a meta física; quantitativa é a classificação funcional",
+      "Qualitativa é o regime de caixa; quantitativa é o regime de competência"
+    ],
+    "correctOption": "A",
+    "topicName": "Estrutura da Programação Orçamentária"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nClassificação **doutrinária** quanto à **afetação patrimonial**: o que distingue a despesa **efetiva** da **não efetiva**?",
+    "back": "**Gabarito: A.**\n\nQuanto à **afetação patrimonial** (classificação para fins contábeis - MCASP):\n\n| | {green:Efetiva} | {blue:Não efetiva (mutação)} |\n|---|---|---|\n| Patrimônio líquido | **Reduz** a SLP no momento da realização | **Não reduz** a SLP |\n| Fato contábil | **Modificativo diminutivo** | **Permutativo** |\n| Regra geral | Despesas **correntes** | Despesas **de capital** |\n\n**Exceções (muito cobradas):**\n- {red:Despesa CORRENTE não efetiva}: aquisição de **material para estoque** e **adiantamentos** (fatos permutativos).\n- {red:Despesa de CAPITAL efetiva}: **transferências de capital** (causam variação patrimonial diminutiva).\n\n==Mnemônico==: \"**E**fetiva = r**E**duz o PL\".\n\n- **B** inverte (efetiva = capital).\n- **C** (curto/longo prazo) e **D** (atividade-fim) não têm relação com afetação patrimonial.\n- **E** confunde com regime contábil.",
+    "options": [
+      "Efetiva reduz a situação líquida patrimonial (fato modificativo diminutivo); não efetiva não reduz (fato permutativo)",
+      "Efetiva é despesa de capital; não efetiva é despesa corrente",
+      "Efetiva é de curto prazo; não efetiva é de longo prazo",
+      "Efetiva relaciona-se à atividade-fim; não efetiva, a outras finalidades",
+      "Efetiva segue regime de competência; não efetiva, regime de caixa"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSegundo a **Lei nº 4.320/1964**, quais são as espécies de **Despesas Correntes** e de **Despesas de Capital**?",
+    "back": "**Gabarito: A.**\n\nA Lei nº 4.320/1964 (art. 12) classifica:\n\n| {green:DESPESAS CORRENTES} | {blue:DESPESAS DE CAPITAL} |\n|---|---|\n| **Despesas de Custeio** (§1º) | **Investimentos** (§4º) |\n| **Transferências Correntes** (§2º) | **Inversões Financeiras** (§5º) |\n| | **Transferências de Capital** (§6º) |\n\n- **Despesas de custeio**: manutenção de serviços já criados (pessoal, material, serviços, obras de conservação/adaptação).\n- **Transferências correntes**: sem contraprestação direta (subvenções, **inativos/aposentados**, **juros da dívida**).\n- **Investimentos**: planejamento e execução de **obras**, equipamentos, material permanente.\n- **Inversões financeiras**: aquisição de imóveis/bens **já em utilização**, títulos de empresas já constituídas.\n- **Transferências de capital**: para investimentos/inversões de outros + **amortização da dívida**.\n\n> Conti: o critério da Lei 4.320/64 é \"preponderantemente **econômico**\".\n\n- **B/C/D/E** misturam custeio com capital ou inversões com correntes.",
+    "options": [
+      "Correntes: custeio e transferências correntes. Capital: investimentos, inversões financeiras e transferências de capital",
+      "Correntes: investimentos e custeio. Capital: inversões e transferências correntes",
+      "Correntes: inversões financeiras e custeio. Capital: investimentos e transferências correntes",
+      "Correntes: transferências de capital e custeio. Capital: investimentos e inversões",
+      "Correntes: apenas pessoal. Capital: todo o restante das despesas"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nQual a diferença entre **investimentos** e **inversões financeiras** e a relação com o **PIB**?",
+    "back": "**Gabarito: A.**\n\nAmbos são **despesas de capital**, mas:\n\n| | {green:Investimentos} | {blue:Inversões Financeiras} |\n|---|---|---|\n| Objeto | Planejamento/execução de **obras**, material permanente, **bem NOVO** | Aquisição de imóveis/bens **JÁ em utilização**; títulos de empresas **já constituídas** |\n| Geração de bens/serviços | **SIM** | **NÃO** (só muda a titularidade) |\n| Efeito no PIB | **Incrementa** o PIB | **Não** incrementa o PIB |\n| Exemplo | Construir um novo edifício | Comprar prédio pronto |\n\n==Macete==: obra/coisa **nova** = investimento (gera PIB); coisa **usada/já pronta** = inversão.\n\n> **Lei nº 4.320/1964, art. 12, §4º** (investimentos) e **§5º** (inversões financeiras: I - aquisição de imóveis ou bens de capital **já em utilização**).\n\n⚠️ Há divergência: nos **manuais**, constituição/aumento de capital de empresa = inversão (sem restrição); na **Lei 4.320/64**, só é inversão se a empresa visar fins comerciais/financeiros — caso contrário é **investimento**.\n\n- **B/C/D/E** invertem os conceitos ou negam o efeito no PIB.",
+    "options": [
+      "Investimento gera bem novo e incrementa o PIB; inversão adquire bem já existente e não incrementa o PIB",
+      "Inversão gera bem novo e incrementa o PIB; investimento adquire bem usado",
+      "Ambos incrementam o PIB de forma idêntica",
+      "Investimento é despesa corrente; inversão é despesa de capital",
+      "Investimento é a aquisição de imóveis usados; inversão é a construção de obras"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nSegundo a **Lei nº 4.320/1964**, o que são **subvenções** e como se distinguem as **sociais** das **econômicas**?",
+    "back": "**Gabarito: A.**\n\n**Subvenções** são transferências destinadas a cobrir **despesas de custeio** das entidades beneficiadas (art. 12, §3º). São **transferências correntes** (despesa corrente).\n\n| | {green:Subvenções SOCIAIS} | {blue:Subvenções ECONÔMICAS} |\n|---|---|---|\n| Destino | Instituições públicas/privadas de caráter **assistencial ou cultural**, **sem** fins lucrativos | Empresas públicas/privadas de caráter **industrial, comercial, agrícola ou pastoril** |\n| Base | Art. 12, §3º, I; arts. 16-17 | Art. 12, §3º, II; art. 18 |\n\n==Macete==: **SOCIAL** → assistência/cultura sem lucro; **ECONÔMICA** → empresa (atividade econômica).\n\n> **Art. 19.** A Lei de Orçamento **não consignará ajuda financeira, a qualquer título, a empresa de fins lucrativos, salvo** quando se tratar de subvenções cuja concessão tenha sido **expressamente autorizada em lei especial**.\n\n- **B** inverte os destinatários.\n- **C** classifica subvenção como despesa de capital (é corrente).\n- **D** afirma que toda ajuda a empresa lucrativa é vedada (há a exceção do art. 19).\n- **E** restringe subvenção a entes públicos.",
+    "options": [
+      "Sociais: entidades assistenciais/culturais sem fins lucrativos. Econômicas: empresas de caráter industrial/comercial/agrícola/pastoril",
+      "Sociais: empresas comerciais. Econômicas: entidades assistenciais sem fins lucrativos",
+      "Ambas são despesas de capital, classificadas como transferências de capital",
+      "Toda ajuda financeira a empresa de fins lucrativos é vedada, sem exceção",
+      "Subvenções só podem ser concedidas a entes públicos"
+    ],
+    "correctOption": "A",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nO que é a **Reserva de Contingência** e como ela se classifica quanto à natureza da despesa?",
+    "back": "**Gabarito: A.**\n\nA **Reserva de Contingência** é a dotação global destinada ao atendimento de **passivos contingentes** e outros **riscos e eventos fiscais imprevistos**. É **definida na LDO** com base na **Receita Corrente Líquida (RCL)**.\n\nCaracterísticas:\n- {red:NÃO é despesa corrente nem de capital}: é identificada pelo **GND 9**.\n- {red:NÃO é passível de execução} direta — serve de **fonte para abertura de créditos adicionais**, pelos quais a despesa será, então, classificada nos grupos próprios.\n- Codificação da natureza: **\"9.9.99.99.99\"**; programática: \"99.999.9999...\" (Reserva de Contingência) e \"99.997.9999...\" (Reserva do RPPS).\n\n> **Art. 5º, III, da LRF (LC 101/2000)** e **art. 8º da Portaria 163/2001**. Os passivos contingentes referidos no **art. 4º, §3º, da LRF** dividem-se em Riscos Fiscais Orçamentários e Riscos Fiscais de Dívida.\n\n- **B** afirma execução direta (não é executável).\n- **C** classifica como corrente.\n- **D** baseia na receita total (é na RCL).\n- **E** confunde com superávit financeiro.",
+    "options": [
+      "É dotação global (GND 9), definida na LDO com base na RCL, não executável diretamente — serve de fonte para créditos adicionais",
+      "É despesa corrente executável diretamente para pagamento de pessoal",
+      "É despesa de capital classificada como investimento",
+      "É definida na LOA com base na receita orçamentária total arrecadada",
+      "É o superávit financeiro acumulado de exercícios anteriores"
+    ],
+    "correctOption": "A",
+    "topicName": "Reserva de Contingência"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nNa **Lei nº 4.320/1964**, em que nível **mínimo** a despesa deve ser discriminada na LOA? E na Portaria 163/2001?",
+    "back": "**Gabarito: A.**\n\nHá **duas referências** distintas para a discriminação da despesa na LOA:\n\n| Norma | Discriminação mínima |\n|---|---|\n| **Lei nº 4.320/1964** (art. 15) | no mínimo por **ELEMENTOS** |\n| **Portaria 163/2001** (art. 6º) | no mínimo por **categoria econômica + GND + modalidade de aplicação** |\n\n⚠️ O termo \"**elementos**\" da Lei 4.320/64 aproxima-se, na verdade, do conceito atual de **GND**, e não do elemento de despesa que estudamos hoje (que não existia legalmente à época).\n\n**Na prova:**\n- Se a questão **citar a legislação** → o item está correto se corresponder à norma citada.\n- Se **não citar** → qualquer das duas classificações está correta.\n\n> **Lei nº 4.320/1964, art. 15.** Na Lei de Orçamento a discriminação da despesa far-se-á **no mínimo por elementos**.\n\n- **B/C/D/E** trocam o nível mínimo de uma das normas (ex.: dizer que a Lei 4.320/64 exige até modalidade de aplicação).",
+    "options": [
+      "Lei 4.320/64: no mínimo por elementos. Portaria 163/2001: até modalidade de aplicação",
+      "Lei 4.320/64: até modalidade de aplicação. Portaria 163/2001: no mínimo por elementos",
+      "Ambas exigem discriminação até o subelemento (8º dígito)",
+      "Ambas exigem discriminação apenas por categoria econômica",
+      "A Lei 4.320/64 não trata de discriminação da despesa na LOA"
+    ],
+    "correctOption": "A",
+    "topicName": "Lei 4.320/64 - Discriminação da Despesa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nPara fins da **Lei nº 4.320/1964**, o que é **material permanente** e o que é **unidade orçamentária**?",
+    "back": "**Gabarito: A.**\n\n**Material permanente** — para efeito de classificação da despesa, é o de **duração superior a dois anos** (art. 15, §2º). *(Compare com o MCASP, que usa critérios qualitativos — durabilidade, fragilidade, perecibilidade, incorporabilidade, transformabilidade — para distinguir material de consumo.)*\n\n**Unidade Orçamentária (UO)** — é o **agrupamento de serviços** subordinados ao mesmo órgão ou repartição a que serão consignadas **dotações próprias** (art. 14). São as estruturas administrativas responsáveis pelas dotações e pela realização das ações. Em casos excepcionais, dotações podem ser consignadas a unidades administrativas (art. 14, parágrafo único).\n\n> **Lei nº 4.320/1964:**\n> **Art. 14.** Constitui **unidade orçamentária** o agrupamento de serviços subordinados ao mesmo órgão ou repartição a que serão consignadas dotações próprias.\n> **Art. 15, §2º.** Considera-se **material permanente** o de duração superior a **dois anos**.\n\n- **B** (1 ano) e demais erram o prazo do material permanente ou o conceito de UO.",
+    "options": [
+      "Material permanente: duração superior a 2 anos. UO: agrupamento de serviços com dotações próprias",
+      "Material permanente: duração superior a 1 ano. UO: cada Poder do ente",
+      "Material permanente: valor acima de R$ 10.000. UO: cada elemento de despesa",
+      "Material permanente: qualquer bem móvel. UO: o próprio órgão central de orçamento",
+      "Material permanente: duração superior a 5 anos. UO: a função de governo"
+    ],
+    "correctOption": "A",
+    "topicName": "Lei 4.320/64 - Despesa"
+  },
+  {
+    "front": "^^Elaborada pelo professor^^\n\nO que é a **classificação funcional** da despesa e qual sua principal característica?",
+    "back": "**Gabarito: A.**\n\nA **classificação funcional** (instituída pela **Portaria nº 42/1999** do MPOG) agrega os gastos públicos por **área de ação governamental**. Compõe-se de **função** (maior nível) e **subfunção**.\n\nCaracterísticas:\n- É **comum e obrigatória** a **todos os entes** da Federação → permite a **consolidação nacional** dos gastos públicos.\n- **Matricialidade das subfunções**: uma mesma despesa pode ser alocada em subfunção típica de **outra função** (quando abrange mais de um campo de atuação).\n- A partir de 1999/2001, a classificação **funcional** foi **dissociada** da **programática** (antes, \"funcional-programática\").\n\n> A função responde \"**em que área**\" (ex.: 26-Transporte); a classificação por **programas** responde \"**para quê**\" (objetivos da política pública).\n\n- **B** torna a classificação facultativa a municípios pequenos (é obrigatória a todos).\n- **C** baseia nas estruturas administrativas (isso é a institucional).\n- **D** veda a matricialidade (ela é permitida).\n- **E** vincula ao PPA de cada ciclo (a estrutura é fixa e comum).",
+    "options": [
+      "Agrega gastos por área de ação; é comum e obrigatória a todos os entes, permitindo a consolidação nacional",
+      "É facultativa a municípios de pequeno porte",
+      "Tem suas categorias estabelecidas a partir da estrutura administrativa de cada ente",
+      "Veda a combinação de subfunções típicas entre diferentes funções",
+      "Depende da definição dos programas e ações em cada ciclo do PPA"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação Funcional"
+  },
+  {
+    "front": "^^CONSULPAM • Controlador/RJ • 2023 • adaptada C/E→A–E^^\n\nAssinale a alternativa que conceitua corretamente a **despesa orçamentária pública**.",
+    "back": "**Gabarito: A.**\n\nA **despesa orçamentária pública** é o conjunto de dispêndios realizados pelos **entes públicos** para custear os serviços públicos prestados à sociedade ou para realizar investimentos.\n\nO enunciado original (CONSULPAM) afirmava que seriam dispêndios das \"**organizações do terceiro setor**\" — está {red:errado}: o terceiro setor (ONGs, OSCIPs) não realiza despesa orçamentária pública; quem a realiza é o **Estado/pessoa de direito público**.\n\n- **B** restringe ao terceiro setor (erro do enunciado original).\n- **C** restringe a empresas privadas contratadas.\n- **D** limita à seguridade social.\n- **E** confunde despesa com receita pública.\n\n> Glossário do Tesouro Nacional: despesa pública é \"a aplicação (em dinheiro) de recursos do Estado para custear os serviços de ordem pública ou para investir no próprio desenvolvimento econômico do Estado\".",
+    "options": [
+      "Conjunto de dispêndios realizados pelos entes públicos para custear serviços públicos e realizar investimentos",
+      "Conjunto de dispêndios realizados pelas organizações do terceiro setor para manter serviços públicos",
+      "Conjunto de pagamentos feitos exclusivamente por empresas privadas contratadas pelo Estado",
+      "Apenas os gastos do orçamento da seguridade social",
+      "O total de recursos arrecadados pelo Estado em determinado exercício"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Pública - Conceito"
+  },
+  {
+    "front": "^^CESPE • Sec. Educação-PE • 2022 • adaptada C/E→A–E^^\n\nNo modelo orçamentário brasileiro, são classificações **da despesa** pública:",
+    "back": "**Gabarito: A.**\n\nSegundo o MCASP, o MTO e a doutrina consolidada, a classificação da despesa pode ser **institucional**, **funcional** e **programática** (além da classificação por **natureza**).\n\nO enunciado original (CESPE) citava classificação \"**administrativa**\" — {red:não existe} essa nomenclatura entre as classificações da despesa.\n\n| Classificação | Pergunta que responde |\n|---|---|\n| **Institucional** | Quem gasta (órgão/UO) |\n| **Funcional** | Em que área (função/subfunção) |\n| **Programática** | Para quê (programa/ação) |\n| **Por natureza** | O que se gasta (categoria/GND/modalidade/elemento) |\n\n- **B** insere a inexistente \"administrativa\".\n- **C/D/E** trocam por classificações de receita ou conceitos sem previsão.",
+    "options": [
+      "Institucional, funcional e programática",
+      "Institucional, funcional e administrativa",
+      "Originária, derivada e patrimonial",
+      "Efetiva, não efetiva e administrativa",
+      "Tributária, de capital e de custeio"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^CESPE • SEPLAN/RR • 2023 • adaptada C/E→A–E^^\n\nSobre a **despesa orçamentária pública**, é correto afirmar que:",
+    "back": "**Gabarito: A.**\n\nA despesa orçamentária é o conjunto de dispêndios para prestação de serviços públicos e execução de políticas públicas, e {green:depende de autorização legislativa}.\n\nO enunciado original (CESPE) dizia que sua realização \"**independe de autorização legislativa**\" — {red:errado}: **toda despesa orçamentária necessita de autorização legislativa** (LOA ou créditos adicionais).\n\n- **B** afirma a independência de autorização (erro do enunciado original).\n- **C** confunde com a despesa extraorçamentária.\n- **D** restringe a despesas de capital.\n- **E** nega a obediência aos estágios da despesa.\n\n> A despesa orçamentária obedece aos estágios: **fixação, empenho, liquidação e pagamento**, sempre dentro da autorização legislativa.",
+    "options": [
+      "Atende à sociedade por meio de serviços e políticas públicas e depende de autorização legislativa",
+      "Sua realização independe de autorização legislativa",
+      "Não consta da LOA e corresponde à devolução de recursos de terceiros",
+      "Compreende apenas as despesas de capital fixadas na LOA",
+      "Não obedece a estágios, sendo executada diretamente pelo gestor"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^CONSULPAM • Controlador/RJ • 2023 • adaptada C/E→A–E^^\n\nAssinale a alternativa que define corretamente **despesa orçamentária**.",
+    "back": "**Gabarito: A.**\n\n**Despesa orçamentária** é toda transação que **depende de autorização legislativa**, na forma de **consignação de dotação orçamentária**, para ser efetivada (conceito do MCASP, alinhado a Aliomar Baleeiro).\n\nObedece aos estágios: **fixação, empenho, liquidação e pagamento**.\n\n- **B** descreve o dispêndio extraorçamentário (depósitos, RAP).\n- **C** dispensa a dotação orçamentária.\n- **D** confunde com receita.\n- **E** restringe à despesa de capital.\n\n> Aliomar Baleeiro: despesa pública é \"a aplicação de certa quantia em dinheiro [...] dentro de uma autorização legislativa, para execução de um fim a cargo do governo\".",
+    "options": [
+      "Toda transação que depende de autorização legislativa, na forma de consignação de dotação orçamentária, para ser efetivada",
+      "Saída de numerário decorrente de depósitos e pagamento de restos a pagar, sem autorização legislativa",
+      "Transação efetivada independentemente de dotação orçamentária",
+      "A conversão, em espécie, de bens e direitos do ente público",
+      "Apenas as dotações destinadas à aquisição de bens de capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^CONSULPAM • Controlador/RJ • 2023 • adaptada C/E→A–E^^\n\nSaídas de numerário decorrentes de **depósitos** e **pagamento de restos a pagar** caracterizam:",
+    "back": "**Gabarito: A.**\n\nSaídas de numerário decorrentes de **depósitos**, **pagamento de restos a pagar** e **resgate de operações de ARO** são **dispêndios extraorçamentários** (não constam da LOA e independem de autorização legislativa).\n\nO enunciado original chamava isso de \"dispêndio orçamentário\" — {red:errado}: trata-se do conceito de **despesa extraorçamentária**.\n\n==Lembrete==: **pagamento** de RAP = despesa extraorçamentária; **inscrição** de RAP = receita extraorçamentária.\n\n- **B** chama de orçamentária despesa que não consta da LOA.\n- **C/D/E** confundem com estágios da despesa orçamentária ou com receita.",
+    "options": [
+      "Dispêndios extraorçamentários, que não constam da LOA e independem de autorização legislativa",
+      "Dispêndios orçamentários, que dependem de dotação na LOA",
+      "Despesas de capital do grupo investimentos",
+      "Receitas extraorçamentárias do ente público",
+      "Despesas correntes do grupo outras despesas correntes"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^FCC • Assist. Téc. Fazendário/Pref. Manaus-AM • 2019 • adaptada C/E→A–E^^\n\nSegundo o MCASP, o **pagamento de restos a pagar processados** corresponde a:",
+    "back": "**Gabarito: A.**\n\nO **pagamento de restos a pagar** (processados ou não) é **despesa/dispêndio extraorçamentário**.\n\nO enunciado original afirmava ser um \"ingresso extraorçamentário\" — {red:errado}: pagamento é **saída** (dispêndio), não ingresso. Quem é ingresso (receita) extraorçamentário é a **inscrição** dos restos a pagar.\n\n| Evento | Natureza |\n|---|---|\n| **Inscrição** de RAP | {blue:Receita} extraorçamentária (ingresso) |\n| **Pagamento** de RAP | {green:Despesa} extraorçamentária (dispêndio) |\n\n- **B** classifica como ingresso (erro do enunciado original).\n- **C/D/E** classificam como despesa orçamentária.",
+    "options": [
+      "Um dispêndio (despesa) extraorçamentário",
+      "Um ingresso (receita) extraorçamentário",
+      "Uma despesa orçamentária corrente",
+      "Uma despesa orçamentária de capital",
+      "Uma receita orçamentária corrente"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^CESPE • Téc. Controle Interno/CGM-JP • 2018 • adaptada C/E→A–E^^\n\nSobre a **despesa orçamentária**, é correto afirmar:",
+    "back": "**Gabarito: A.**\n\nAs **despesas orçamentárias** são fixadas nas **leis orçamentárias** ou nas de **créditos adicionais**, instituídas em bases legais.\n\nO enunciado original dizia que seria despesa orçamentária aquela realizada \"ainda que **não tenha sido objeto de dotação orçamentária**\" — {red:errado}: sem dotação não há despesa orçamentária válida.\n\n- **B** dispensa a dotação (erro do enunciado original).\n- **C** confunde com extraorçamentária.\n- **D** afirma independência de autorização legislativa.\n- **E** restringe a um único Poder.\n\n> A despesa orçamentária pressupõe **prévia dotação** (LOA ou crédito adicional) e obedece aos estágios fixação→empenho→liquidação→pagamento.",
+    "options": [
+      "É a fixada nas leis orçamentárias ou de créditos adicionais, em bases legais, com prévia dotação",
+      "É a realizada com sacrifício de receitas, ainda que sem dotação orçamentária",
+      "É a devolução de recursos de terceiros mantidos em custódia",
+      "É a despesa que independe de autorização legislativa",
+      "É apenas a despesa do Poder Executivo prevista na LDO"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^CESPE • Auditor Estadual/TCM-BA • 2018 • adaptada C/E→A–E^^\n\nUm estado registrou em 2017: devolução de cauções R$ 260; pagamento de ARO R$ 430; pagamento de construção de escolas empenhada em exercício anterior (restos a pagar) R$ 280. O total dos **dispêndios extraorçamentários** foi de:",
+    "back": "**Gabarito: A.**\n\nSão **dispêndios extraorçamentários** todas as saídas que não passam pela autorização do orçamento do exercício:\n\n| Evento | Valor | Extra? |\n|---|---|---|\n| Devolução de cauções | 260 | ✅ |\n| Pagamento de ARO | 430 | ✅ |\n| Pagamento de RAP (escolas, exerc. anterior) | 280 | ✅ |\n| **Total** | **970** | |\n\nO pagamento de **restos a pagar** é extraorçamentário porque a autorização (empenho) ocorreu em **exercício anterior**; a devolução de **cauções** e o pagamento de **ARO** devolvem recursos de terceiros/transitórios.\n\n- **B (690)** exclui os restos a pagar.\n- **C (540)** soma apenas dois itens.\n- **D (280)** considera só os restos a pagar.\n- **E (430)** considera só a ARO.",
+    "options": [
+      "R$ 970",
+      "R$ 690",
+      "R$ 540",
+      "R$ 280",
+      "R$ 430"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^FGV • Analista Administrativo/TJ-SC • 2015 • adaptada C/E→A–E^^\n\nDe um quadro contábil, sabe-se que houve **pagamento de restos a pagar** de R$ 250,00 (e nenhum outro evento extraorçamentário). O valor das **despesas extraorçamentárias** foi de:",
+    "back": "**Gabarito: A.**\n\nO único dispêndio **extraorçamentário** do quadro é o **pagamento de restos a pagar** = **R$ 250,00**.\n\nO enunciado original (FGV) propunha R$ 350,00 — {red:errado}: incluía indevidamente algum item orçamentário. Pagamento de RAP é extraorçamentário porque a autorização da despesa se deu em **exercício anterior**.\n\n- **B (350)** soma item orçamentário ao RAP (erro do enunciado original).\n- **C/D/E** incluem despesas orçamentárias correntes/de capital, que não são extraorçamentárias.",
+    "options": [
+      "R$ 250,00 (pagamento de restos a pagar)",
+      "R$ 350,00",
+      "R$ 600,00",
+      "R$ 0,00, pois pagamento de RAP é orçamentário",
+      "R$ 100,00"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^FGV • TJ/DFT • 2022^^\n\nAo tratar da classificação da despesa, o MTO destaca as abordagens **qualitativa** e **quantitativa**. Das categorias abaixo, a que apresenta um item **qualitativo** e um **quantitativo**, respectivamente, é:",
+    "back": "**Gabarito: D.**\n\nNo MTO, as classificações **qualitativas** identificam o **programa de trabalho** (no que/para que se gasta) e as **quantitativas** o **volume de recursos**.\n\n- **Função** → classificação **funcional** = {blue:QUALITATIVA}.\n- **Grupo de natureza da despesa (GND)** → {green:QUANTITATIVA}.\n\nLogo, o par \"função; GND\" tem um item qualitativo e um quantitativo (letra D).\n\n- **A** despesas primárias (RP) é quantitativa; modalidade também é quantitativa → não há qualitativa.\n- **B** categoria econômica e unidade orçamentária — UO é qualitativa, categoria é quantitativa, mas a ordem pedida (qualitativo; quantitativo) não bate.\n- **C** despesa de capital e elemento — ambos quantitativos.\n- **E** despesa corrente (quantitativo) e programa (qualitativo) — ordem invertida.",
+    "options": [
+      "Despesas primárias; modalidade de aplicação",
+      "Categoria econômica; unidade orçamentária",
+      "Despesa de capital; elemento de despesa",
+      "Função; grupo de natureza da despesa",
+      "Despesa corrente; programa"
+    ],
+    "correctOption": "D",
+    "topicName": "Estrutura da Programação Orçamentária"
+  },
+  {
+    "front": "^^CESPE • Técnico/MPU • 2018 • adaptada C/E→A–E^^\n\nOs objetivos da **estrutura de programação orçamentária** incluem atender às necessidades de informação de quem?",
+    "back": "**Gabarito: A.**\n\nA compreensão do orçamento exige o conhecimento de sua **estrutura e organização**, implementadas por um sistema de classificação cujo propósito é **atender às exigências de informação de todos os interessados** nas finanças públicas: Poderes públicos, **organizações públicas e privadas** e os **cidadãos em geral**.\n\nO item original (CESPE) afirmava isso e estava {green:correto}.\n\n- **B/C/D/E** restringem indevidamente o público-alvo (só governo, só órgãos de controle etc.), contrariando o caráter amplo de transparência do MTO.",
+    "options": [
+      "Poderes públicos, organizações públicas e privadas e cidadãos em geral",
+      "Apenas os órgãos do Poder Executivo",
+      "Somente os órgãos de controle interno e externo",
+      "Exclusivamente as instituições financeiras credoras do Estado",
+      "Apenas os servidores da área de orçamento"
+    ],
+    "correctOption": "A",
+    "topicName": "Estrutura da Programação Orçamentária"
+  },
+  {
+    "front": "^^CESPE • Analista Judiciário/CNJ • 2013 • adaptada C/E→A–E^^\n\nNo aspecto **qualitativo**, o programa de trabalho é composto de quais blocos de informação?",
+    "back": "**Gabarito: A.**\n\nAs programações orçamentárias organizam-se em programas de trabalho com informações qualitativas e quantitativas (físicas ou financeiras). No aspecto **qualitativo**, o programa de trabalho compõe-se de:\n- {blue:classificação por esfera};\n- {blue:classificação institucional};\n- {blue:classificação funcional};\n- {blue:estrutura programática}.\n\nO item original (CESPE) estava {green:correto}.\n\n- **B** inclui \"elemento de despesa\", que é **quantitativo** (dimensão financeira).\n- **C** inclui \"meta física\", que é **quantitativa**.\n- **D/E** trocam por estágios da despesa ou classificações de receita.",
+    "options": [
+      "Classificação por esfera, institucional, funcional e estrutura programática",
+      "Esfera, institucional, funcional e elemento de despesa",
+      "Esfera, meta física, fonte de recursos e dotação",
+      "Empenho, liquidação, pagamento e dotação",
+      "Origem, espécie, rubrica e alínea da receita"
+    ],
+    "correctOption": "A",
+    "topicName": "Estrutura da Programação Orçamentária"
+  },
+  {
+    "front": "^^FCC • Contador/Câmara de Fortaleza-CE • 2019 • adaptada C/E→A–E^^\n\nDe acordo com sua **categoria econômica**, as despesas se dividem em:",
+    "back": "**Gabarito: A.**\n\nQuanto à **categoria econômica** (1º dígito da natureza), a despesa classifica-se em **Despesas Correntes (3)** e **Despesas de Capital (4)**.\n\nO item original (FCC) estava {green:correto}.\n\n> **Lei nº 4.320/1964, art. 12.** A despesa será classificada nas seguintes **categorias econômicas: Despesas Correntes e Despesas de Capital.**\n\n- **B** confunde com GND.\n- **C** confunde com classificação doutrinária (regularidade).\n- **D** confunde com afetação patrimonial.\n- **E** confunde com classificação da receita.",
+    "options": [
+      "Despesas correntes e despesas de capital",
+      "Pessoal, juros, investimentos e amortização",
+      "Despesas ordinárias e extraordinárias",
+      "Despesas efetivas e não efetivas",
+      "Despesas originárias e derivadas"
+    ],
+    "correctOption": "A",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^FCC • Analista Plan. e Orçamento/SEAD-AP • 2018 • adaptada C/E→A–E^^\n\nAs despesas 3.1.90.11, 3.2.90.21 e 3.3.90.14 possuem a **mesma classificação** quanto a quê?",
+    "back": "**Gabarito: A.**\n\nLendo os códigos da **natureza da despesa** (C.G.MM.EE):\n\n| Código | Categoria (1º) | GND (2º) | Modalidade (3º-4º) | Elemento (5º-6º) |\n|---|---|---|---|---|\n| 3.1.90.11 | 3-Corrente | 1-Pessoal | 90 | 11 |\n| 3.2.90.21 | 3-Corrente | 2-Juros | 90 | 21 |\n| 3.3.90.14 | 3-Corrente | 3-ODC | 90 | 14 |\n\nIguais: **categoria econômica (3)** e **modalidade de aplicação (90)**. Diferem o **GND** e o **elemento**.\n\nO enunciado original dizia \"mesma modalidade e mesmo **elemento**\" — {red:errado}: os elementos (11, 21, 14) são diferentes.\n\n- **B** afirma mesmo elemento (erro do enunciado original).\n- **C/D/E** afirmam igualdade de GND ou de tudo, o que é falso.",
+    "options": [
+      "Mesma categoria econômica e mesma modalidade de aplicação",
+      "Mesma modalidade de aplicação e mesmo elemento de despesa",
+      "Mesmo grupo de natureza da despesa e mesmo elemento",
+      "Mesma categoria econômica, GND, modalidade e elemento",
+      "Mesmo elemento de despesa e mesma categoria econômica"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^FCC • Consultor Téc. Legislativo/CL-DF • 2018 • adaptada C/E→A–E^^\n\nAquisição de **veículo novo** e aquisição de **imóvel já em utilização** classificam-se, quanto ao GND, respectivamente, como:",
+    "back": "**Gabarito: A.**\n\nAmbas são **despesas de capital**, mas:\n- **Veículo novo** (material permanente) → GND **Investimentos**.\n- **Imóvel já em utilização** → GND **Inversões Financeiras** (bem **já existente**, não incrementa o PIB).\n\nO item original (FCC) estava {green:correto}.\n\n==Macete==: coisa **nova** = investimento; coisa **usada/já em uso** = inversão.\n\n> **Lei nº 4.320/1964, art. 12, §5º, I.** Classificam-se como inversões financeiras as dotações destinadas à **aquisição de imóveis, ou de bens de capital já em utilização**.\n\n- **B** inverte os dois.\n- **C/D** classificam um deles como corrente.\n- **E** classifica imóvel usado como transferência de capital.",
+    "options": [
+      "Investimentos e Inversões Financeiras",
+      "Inversões Financeiras e Investimentos",
+      "Investimentos e Transferências Correntes",
+      "Outras Despesas Correntes e Investimentos",
+      "Investimentos e Transferências de Capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^CESPE • Delegado/Polícia Federal • 2018 • adaptada C/E→A–E^^\n\nDespesas empenhadas (R$ mil): pessoal 15.000; custeio 3.000; juros da dívida 1.000; obras públicas 3.000; amortização da dívida 3.000. O total das **despesas de capital** foi de:",
+    "back": "**Gabarito: A.**\n\nSão **despesas de capital** apenas:\n\n| Item | Valor | Capital? |\n|---|---|---|\n| Pessoal | 15.000 | Corrente |\n| Custeio | 3.000 | Corrente |\n| Juros da dívida (GND 2) | 1.000 | Corrente |\n| **Obras públicas** (Investimentos) | 3.000 | ✅ Capital |\n| **Amortização da dívida** (GND 6) | 3.000 | ✅ Capital |\n| **Total de capital** | **6.000** | |\n\n==Pegadinha==: **juros** da dívida são **correntes**; só a **amortização** é capital.\n\n- **B (7.000)** soma indevidamente os juros.\n- **C (3.000)** considera só um item.\n- **D (9.000)** soma juros + obras + amortização.\n- **E (4.000)** soma juros + amortização.",
+    "options": [
+      "R$ 6.000 mil",
+      "R$ 7.000 mil",
+      "R$ 3.000 mil",
+      "R$ 9.000 mil",
+      "R$ 4.000 mil"
+    ],
+    "correctOption": "A",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^FCC • Analista Legislativo/ALE-SE • 2018 • adaptada C/E→A–E^^\n\nA **amortização da dívida** é exemplo de qual tipo de despesa quanto à categoria econômica?",
+    "back": "**Gabarito: A.**\n\nA **amortização da dívida** (pagamento do **principal**) é **despesa de capital** (GND 6).\n\nO enunciado original afirmava ser \"despesa corrente\" — {red:errado}.\n\n==Cuidado com o serviço da dívida==:\n- {red:Juros e encargos} da dívida → **corrente** (GND 2).\n- {red:Amortização} (principal) → **capital** (GND 6).\n\n- **B** classifica como corrente (erro do enunciado original).\n- **C/D/E** confundem com custeio, transferência corrente ou receita.",
+    "options": [
+      "Despesa de capital",
+      "Despesa corrente",
+      "Despesa de custeio",
+      "Transferência corrente",
+      "Receita de capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-11 • 2017 • adaptada C/E→A–E^^\n\nNo orçamento da União, a **aquisição de um software com vida útil indefinida** é:",
+    "back": "**Gabarito: A.**\n\nA aquisição de **software** (bem de duração) é **despesa orçamentária de capital**, no GND **Investimentos**.\n\nO enunciado original dizia ser \"**receita** orçamentária de capital\" — {red:errado}: aquisição é **despesa**, não receita.\n\n- **B** classifica como receita (erro do enunciado original).\n- **C** classifica como despesa corrente.\n- **D** classifica como inversão financeira (seria bem já em uso/título).\n- **E** classifica como extraorçamentária.\n\n> O MTO trata software adquirido/desenvolvido como **investimento** (bem permanente), e não como inversão financeira.",
+    "options": [
+      "Despesa de capital do grupo Investimentos",
+      "Receita orçamentária de capital",
+      "Despesa corrente do grupo Outras Despesas Correntes",
+      "Despesa de capital do grupo Inversões Financeiras",
+      "Despesa extraorçamentária"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^FCC • Técnico Judiciário/TRT-11 • 2017 • adaptada C/E→A–E^^\n\nAs despesas com **telefone** e **material de expediente** classificam-se como:",
+    "back": "**Gabarito: A.**\n\nDespesas com **telefone** (serviço) e **material de expediente** (material de consumo) são **despesas correntes**, no GND **Outras Despesas Correntes (ODC)**.\n\nO enunciado original dizia \"despesas de **capital**\" — {red:errado}: são gastos de manutenção da máquina pública (custeio/ODC), que **não** formam bem de capital.\n\n- **B** classifica como capital (erro do enunciado original).\n- **C/D** classificam como investimento/inversão.\n- **E** classifica como extraorçamentária.",
+    "options": [
+      "Despesas correntes (Outras Despesas Correntes)",
+      "Despesas de capital",
+      "Investimentos",
+      "Inversões financeiras",
+      "Despesas extraorçamentárias"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^CESPE • Analista Administrativo/EBSERH • 2018 • adaptada C/E→A–E^^\n\nO **desdobramento dos elementos de despesa** (subelemento) é:",
+    "back": "**Gabarito: A.**\n\nO desdobramento do elemento (**subelemento**, 7º-8º dígitos) é **facultativo** a cada ente, conforme as necessidades de escrituração contábil e controle da execução orçamentária.\n\nO enunciado original afirmava ser \"**obrigatório**, independentemente do ente\" — {red:errado}.\n\n> Portaria 163/2001: fica **facultado**, por parte de cada ente, o desdobramento dos elementos de despesa (subelemento).\n\n- **B** afirma obrigatoriedade (erro do enunciado original).\n- **C/D/E** confundem o subelemento com a modalidade de aplicação ou com a discriminação mínima da LOA.",
+    "options": [
+      "Facultativo a cada ente, conforme suas necessidades de controle",
+      "Obrigatório para todos os entes federativos",
+      "Obrigatório apenas para a União",
+      "Vedado em qualquer hipótese",
+      "Exigido como nível mínimo de discriminação na LOA"
+    ],
+    "correctOption": "A",
+    "topicName": "Elemento de Despesa"
+  },
+  {
+    "front": "^^FCC • Auditor Fiscal/SEFAZ-GO • 2018 • adaptada C/E→A–E^^\n\nDespesas codificadas com modalidade **90** e categoria econômica **3** foram realizadas, respectivamente, como:",
+    "back": "**Gabarito: A.**\n\nNa natureza da despesa:\n- **Modalidade 90** = {green:Aplicações Diretas} (a mais utilizada — aplicação direta do recurso pelo próprio ente).\n- **Categoria econômica 3** = {green:Despesas Correntes}.\n\nO item original (FCC) estava {green:correto}.\n\n- **B** troca a modalidade por transferência.\n- **C** troca a categoria por capital.\n- **D/E** confundem com elemento ou GND.\n\n> Modalidade 90 (MTO): \"aplicação, pela unidade orçamentária, dos créditos a ela alocados ou oriundos de descentralização\".",
+    "options": [
+      "Aplicações Diretas (modalidade 90) e Despesas Correntes (categoria 3)",
+      "Transferências a Municípios (modalidade 40) e Despesas Correntes",
+      "Aplicações Diretas (modalidade 90) e Despesas de Capital (categoria 4)",
+      "Aplicação direta e Pessoal e Encargos (GND 1)",
+      "Transferências à União e Despesas de Capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^CESPE • Analista Judiciário/TRT-7 • 2017 • adaptada C/E→A–E^^\n\nA informação gerencial que indica se os recursos serão **aplicados diretamente** ou **mediante transferência** a outros entes é denominada:",
+    "back": "**Gabarito: A.**\n\nA **modalidade de aplicação** indica se os recursos serão aplicados mediante **transferência financeira** (descentralização para outros níveis de governo, órgãos, entidades privadas) ou **diretamente** pela unidade detentora do crédito.\n\nO item original (CESPE) estava {green:correto}.\n\nÉ uma **informação gerencial** que objetiva **eliminar a dupla contagem** dos recursos transferidos/descentralizados.\n\n- **B** elemento de despesa = objeto do gasto.\n- **C** GND = agregador de elementos.\n- **D** categoria econômica = corrente/capital.\n- **E** função = área de atuação.",
+    "options": [
+      "Modalidade de aplicação",
+      "Elemento de despesa",
+      "Grupo de natureza da despesa",
+      "Categoria econômica",
+      "Classificação funcional"
+    ],
+    "correctOption": "A",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^FGV • Analista Legislativo/Câmara de Salvador • 2018 • adaptada C/E→A–E^^\n\nA codificação \"**41 - Transferências a Municípios - Fundo a Fundo**\" refere-se a qual nível da natureza da despesa?",
+    "back": "**Gabarito: A.**\n\nA codificação de **transferência financeira** a outro ente (\"41 - Transferências a Municípios - Fundo a Fundo\") é uma **modalidade de aplicação** — indica se o recurso é aplicado direta ou indiretamente, eliminando a **dupla contagem**.\n\nO item original (FGV) estava {green:correto}.\n\n⚠️ Não confundir com o **elemento** \"41 - Contribuições\": aqui o \"41\" está no campo da **modalidade de aplicação** (transferência a municípios), não no campo de elemento.\n\n- **B** elemento (objeto do gasto).\n- **C** GND.\n- **D** categoria econômica.\n- **E** subelemento.",
+    "options": [
+      "Modalidade de aplicação",
+      "Elemento de despesa",
+      "Grupo de natureza da despesa",
+      "Categoria econômica",
+      "Subelemento (desdobramento do elemento)"
+    ],
+    "correctOption": "A",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^FGV • Analista Administrativo/TJ-SC • 2015 • adaptada C/E→A–E^^\n\nNum período, a contração de operações de crédito foi de R$ 700 e a amortização da dívida (principal) foi de R$ 400. Sobre o endividamento, é correto afirmar:",
+    "back": "**Gabarito: A.**\n\nComparando os fluxos da dívida:\n- **Contração** de operações de crédito (novo endividamento): **+700**.\n- **Amortização** (pagamento do principal): **-400**.\n- Resultado: **aumento líquido do endividamento de R$ 300** no período.\n\nO enunciado original (FGV) afirmava ter havido \"redução do endividamento\" — {red:errado}: endividou-se mais (700) do que se pagou (400).\n\n- **B** afirma redução (erro do enunciado original).\n- **C** afirma equilíbrio.\n- **D/E** confundem amortização com juros ou ignoram a contração.",
+    "options": [
+      "Houve aumento do endividamento (contraiu 700 e amortizou apenas 400)",
+      "Houve redução do endividamento no período",
+      "O endividamento permaneceu inalterado",
+      "Não é possível avaliar sem o valor dos juros",
+      "Houve redução, pois a amortização sempre supera a contração"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^FCC • Analista/CNMP • 2015 • adaptada C/E→A–E^^\n\nDespesas: folha de ativos 190; contribuições a institutos de previdência 150; gasolina 120; energia elétrica 110; locação de mão de obra 90. Os totais de **Pessoal e Encargos (GND 1)** e **Outras Despesas Correntes (GND 3)** são, respectivamente:",
+    "back": "**Gabarito: A.**\n\nClassificando por GND (despesas correntes, 1º dígito 3):\n\n| Item | Valor | GND |\n|---|---|---|\n| Folha de ativos | 190 | **1 - Pessoal** |\n| Contribuições previdenciárias (patronais) | 150 | **1 - Pessoal** |\n| Gasolina | 120 | **3 - ODC** |\n| Energia elétrica | 110 | **3 - ODC** |\n| Locação de mão de obra | 90 | **3 - ODC** |\n\n- **GND 1 (Pessoal)** = 190 + 150 = **340**.\n- **GND 3 (ODC)** = 120 + 110 + 90 = **320**.\n\nO item original (FCC) estava {green:correto}.\n\n- **B/C/D/E** erram a alocação (ex.: pôr contribuições em ODC ou locação de mão de obra em Pessoal).",
+    "options": [
+      "340 e 320",
+      "320 e 340",
+      "190 e 470",
+      "340 e 470",
+      "470 e 190"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^FGV • Analista/IBGE • 2016 • adaptada C/E→A–E^^\n\nA classificação por natureza da despesa é complementada por qual informação gerencial?",
+    "back": "**Gabarito: A.**\n\nA classificação por natureza é complementada pela **modalidade de aplicação** — informação **gerencial** que objetiva, principalmente, **eliminar a dupla contagem** dos recursos transferidos ou descentralizados.\n\nO item original (FGV) estava {green:correto}.\n\n- **B** identificador de uso (IDUSO) indica contrapartida de empréstimos/doações.\n- **C** fonte de recursos.\n- **D** função (área).\n- **E** programa (objetivo).",
+    "options": [
+      "Modalidade de aplicação",
+      "Identificador de uso",
+      "Fonte de recursos",
+      "Classificação funcional",
+      "Classificação por programas"
+    ],
+    "correctOption": "A",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^FGV • SEFAZ/AM • 2022^^\n\nPara fins contábeis, qual a diferença entre **despesa orçamentária efetiva** e **não efetiva**?",
+    "back": "**Gabarito: B.**\n\nSegundo o MCASP:\n- **Despesa efetiva**: no momento da realização, **reduz** a situação líquida patrimonial (SLP) — fato contábil **modificativo diminutivo**. Em geral, correntes.\n- **Despesa não efetiva**: **não reduz** a SLP — fato contábil **permutativo**. Em geral, de capital.\n\n- **A** inverte (efetiva = capital).\n- **C** (curto/longo prazo) é critério temporal, não patrimonial.\n- **D** (atividade-fim) não tem relação.\n- **E** confunde com regime contábil (competência/caixa).",
+    "options": [
+      "As efetivas representam despesa de capital; as não efetivas, despesa corrente",
+      "As efetivas reduzem a situação líquida patrimonial no momento da realização; as não efetivas não produzem esse impacto",
+      "As efetivas têm realização no curto prazo; as não efetivas, no longo prazo",
+      "As efetivas relacionam-se à atividade-fim; as não efetivas, a outras finalidades",
+      "As efetivas seguem o regime de competência; as não efetivas, o regime de caixa"
+    ],
+    "correctOption": "B",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^FGV • Analista Legislativo/Câmara de Salvador • 2018 • adaptada C/E→A–E^^\n\nA **aquisição de estoques** representa, quanto à afetação patrimonial, qual tipo de despesa?",
+    "back": "**Gabarito: A.**\n\nA **aquisição de materiais para estoque** é despesa **corrente NÃO EFETIVA** — constitui **fato permutativo** (troca caixa por estoque, sem reduzir o patrimônio líquido).\n\nO enunciado original afirmava que a aquisição de estoques representaria \"redução **efetiva** do patrimônio\" — {red:errado}: é uma das **exceções** (corrente, mas não efetiva).\n\n==Exceções (correntes não efetivas)==: **estoques** e **adiantamentos**.\n\n- **B** afirma despesa efetiva (erro do enunciado original).\n- **C/D/E** classificam como capital ou negam o caráter permutativo.",
+    "options": [
+      "Despesa corrente não efetiva (fato permutativo) — é exceção",
+      "Despesa corrente efetiva (reduz o patrimônio líquido)",
+      "Despesa de capital efetiva",
+      "Despesa de capital não efetiva, como regra geral das despesas de capital",
+      "Despesa extraorçamentária"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRE-SP • 2017 • adaptada C/E→A–E^^\n\nQuanto à afetação patrimonial, como se classificam a **contratação de pessoal por tempo determinado** e a **manutenção de veículos**?",
+    "back": "**Gabarito: A.**\n\nTanto a **contratação de pessoal por tempo determinado** quanto a **manutenção de veículos** são **despesas correntes EFETIVAS** — ambas **reduzem** a situação líquida patrimonial (fatos contábeis **modificativos diminutivos**).\n\nO enunciado original dizia serem, respectivamente, \"modificativo diminutivo\" e \"**permutativo**\" — {red:errado}: a manutenção de veículos **não** é fato permutativo; é despesa efetiva (consumo de serviço).\n\n- **B** classifica a manutenção como permutativa/não efetiva (erro do enunciado original).\n- **C/D/E** classificam como de capital ou invertem.",
+    "options": [
+      "Ambas são despesas correntes efetivas (fatos modificativos diminutivos)",
+      "A primeira é efetiva e a segunda é não efetiva (permutativa)",
+      "Ambas são despesas não efetivas (permutativas)",
+      "Ambas são despesas de capital",
+      "A primeira é permutativa e a segunda é modificativa diminutiva"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^CESPE • Analista Judiciário/STJ • 2015 • adaptada C/E→A–E^^\n\nUma **transferência da União a um município** para aquisição de equipamentos médicos é, quanto à afetação patrimonial, uma despesa:",
+    "back": "**Gabarito: A.**\n\nA transferência da União ao município para **aquisição de equipamentos** (investimentos) caracteriza uma **transferência de capital**, que — embora seja despesa **de capital** — é **EFETIVA**, pois causa **variação patrimonial diminutiva** (saída definitiva de recursos do transferidor).\n\nO item original (CESPE) estava {green:correto}: é despesa **de capital efetiva**.\n\n==Exceção==: transferências de capital são as **despesas de capital que são efetivas**.\n\n- **B** afirma não efetiva (regra geral de capital, mas aqui é exceção).\n- **C** classifica como corrente.\n- **D/E** confundem o conceito de transferência de capital.",
+    "options": [
+      "De capital efetiva (transferência de capital — exceção que reduz o patrimônio)",
+      "De capital não efetiva (fato permutativo)",
+      "Corrente efetiva",
+      "Corrente não efetiva",
+      "Extraorçamentária, pois é repasse a terceiros"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^FCC • Contador/AL-MS • 2016 • adaptada C/E→A–E^^\n\nDesembolsos de 2015: amortização da dívida de longo prazo 85.000; aquisição de veículos 55.000; aquisição de imóveis 115.000. O total dos desembolsos que **alteram a composição patrimonial sem afetar o patrimônio líquido** é:",
+    "back": "**Gabarito: A.**\n\nDesembolsos que **não afetam o PL** = despesas **NÃO EFETIVAS** (fatos permutativos), tipicamente despesas de capital:\n\n| Item | Valor | Não efetiva? |\n|---|---|---|\n| Amortização da dívida LP | 85.000 | ✅ |\n| Aquisição de veículos | 55.000 | ✅ |\n| Aquisição de imóveis | 115.000 | ✅ |\n| **Total** | **255.000** | |\n\nTodos são despesas de capital (não efetivas) — trocam ativo/passivo sem reduzir o PL.\n\nO item original (FCC) estava {green:correto}.\n\n- **B (140.000)** soma só dois.\n- **C (170.000)** soma amortização + imóveis.\n- **D (55.000)** considera só veículos.\n- **E (200.000)** soma amortização + imóveis sem veículos? — inconsistente.",
+    "options": [
+      "R$ 255.000,00",
+      "R$ 140.000,00",
+      "R$ 170.000,00",
+      "R$ 55.000,00",
+      "R$ 200.000,00"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^Instituto Consulplan • MPE/MG • 2023^^\n\nAnalise: I) aquisição de imóvel (prédio) para órgão público = investimento; II) recursos aplicados em instituições financeiras = despesas correntes e rendimentos = receita de capital; III) subvenções econômicas = valores à manutenção de entidades culturais sem fins lucrativos. Quais são verdadeiras?",
+    "back": "**Gabarito: A.**\n\nTodas as afirmativas são **falsas**:\n- **I (Falso)**: aquisição de imóvel (prédio) **já existente** para órgão público é **inversão financeira**, não investimento (seria investimento se fosse planejamento/execução de obra).\n- **II (Falso)**: recursos aplicados em instituições financeiras geram **receitas correntes patrimoniais** (não de capital), e o conceito de \"despesa corrente\" está deslocado.\n- **III (Falso)**: entidades **culturais sem fins lucrativos** recebem **subvenções SOCIAIS**; subvenções **econômicas** vão a empresas industriais/comerciais/agrícolas/pastoris.\n\nLogo, **todas falsas** → letra A.\n\n- **B/C/D/E** consideram verdadeira alguma das afirmativas, o que está incorreto.",
+    "options": [
+      "Todas as afirmativas são falsas",
+      "Apenas a afirmativa I é verdadeira",
+      "As afirmativas II e III são falsas; a I é verdadeira",
+      "As afirmativas I e III são falsas; a II é verdadeira",
+      "Todas as afirmativas são verdadeiras"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FGV • SEFAZ/AM • 2022^^\n\nSegundo a Lei nº 4.320/1964, as **receitas orçamentárias** classificam-se, quanto à categoria econômica, em:",
+    "back": "**Gabarito: C.**\n\nAssim como a despesa, a **receita** é classificada, quanto à categoria econômica, em **Receitas Correntes** e **Receitas de Capital** (Lei nº 4.320/1964, art. 11).\n\n- **A** (públicas/privadas) não é classificação por categoria econômica.\n- **B** (originárias/derivadas) é classificação quanto à **coercitividade/procedência**.\n- **D** (ordinárias/extraordinárias) é quanto à **regularidade**.\n- **E** (operacionais/patrimoniais) é classificação empresarial.\n\n> **Lei nº 4.320/1964, art. 11.** A receita classificar-se-á nas seguintes **categorias econômicas: Receitas Correntes e Receitas de Capital.**",
+    "options": [
+      "Públicas e privadas",
+      "Originárias e derivadas",
+      "Correntes e de capital",
+      "Ordinárias e extraordinárias",
+      "Operacionais e patrimoniais"
+    ],
+    "correctOption": "C",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^FGV • Pref. Manaus • 2021^^\n\nDe acordo com a Lei nº 4.320/64, é correto afirmar sobre a **classificação da despesa**:",
+    "back": "**Gabarito: A.**\n\nTanto as **inversões financeiras** quanto os **investimentos** são **despesas de capital** (art. 12, §§ 4º e 5º).\n\n- **B** errada: inversões financeiras são de **capital**, não correntes.\n- **C** errada: **transferências correntes** são despesas **correntes** (só os investimentos são de capital).\n- **D** errada: inversões financeiras são de **capital**.\n- **E** errada: **despesas de custeio** são **correntes**.\n\n> **Lei nº 4.320/1964, art. 12, caput.** Despesas de Capital: investimentos, inversões financeiras e transferências de capital.",
+    "options": [
+      "As inversões financeiras e os investimentos são despesas de capital",
+      "As despesas de custeio e as inversões financeiras são despesas correntes",
+      "As transferências correntes e os investimentos são despesas de capital",
+      "As inversões financeiras e as transferências correntes são despesas correntes",
+      "As despesas de custeio e as transferências de capital são despesas de capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Contador/Câmara de Fortaleza-CE • 2019 • adaptada C/E→A–E^^\n\nDespesas com **pessoal ativo e respectivos encargos**, com **inativos** e com **juros da dívida pública** classificam-se, segundo a Lei 4.320/64, como:",
+    "back": "**Gabarito: A.**\n\nÉ preciso separar:\n- **Pessoal ATIVO** e respectivos encargos → **despesas de custeio** (correntes).\n- **INATIVOS** (aposentados) e **juros da dívida** → **transferências correntes** (correntes, mas não custeio — não mantêm a máquina pública em funcionamento).\n\nO enunciado original dizia que **todos** seriam \"despesas de custeio\" — {red:errado}: inativos e juros são **transferências correntes**.\n\n==Lembrete==: aposentado já contribuiu e não mantém o serviço; juros não são manutenção → **transferências correntes**.\n\n- **B** coloca tudo como custeio (erro do enunciado original).\n- **C/D/E** classificam algum item como capital.",
+    "options": [
+      "Pessoal ativo = custeio; inativos e juros da dívida = transferências correntes (todas correntes)",
+      "Pessoal ativo, inativos e juros da dívida são todos despesas de custeio",
+      "Pessoal ativo = custeio; inativos e juros = despesas de capital",
+      "Todos são transferências de capital",
+      "Pessoal ativo = transferência corrente; inativos e juros = custeio"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Contador/Câmara de Fortaleza-CE • 2019 • adaptada C/E→A–E^^\n\n**Amortização da dívida pública**, **concessão de empréstimos** e **subvenções econômicas** classificam-se, respectivamente, como:",
+    "back": "**Gabarito: A.**\n\nClassificando:\n- **Amortização da dívida** → despesa de **capital** (transferência de capital / GND 6).\n- **Concessão de empréstimos** → despesa de **capital** (inversão financeira).\n- **Subvenções econômicas** → despesa **CORRENTE** (transferência corrente).\n\nO enunciado original dizia que os **três** seriam despesas de capital — {red:errado}: subvenções econômicas são **correntes**.\n\n- **B** coloca os três como capital (erro do enunciado original).\n- **C/D/E** erram a classificação de algum item.",
+    "options": [
+      "Capital, capital e corrente (subvenções econômicas são correntes)",
+      "Capital, capital e capital",
+      "Corrente, corrente e corrente",
+      "Capital, corrente e capital",
+      "Corrente, capital e capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^CESPE • Téc. Controle Interno/CGM-JP • 2018 • adaptada C/E→A–E^^\n\nA **subvenção econômica** destinada a empresa agrícola, pastoril, industrial ou comercial é classificada como:",
+    "back": "**Gabarito: A.**\n\nA **subvenção econômica** é **despesa corrente** (transferência corrente) destinada a **empresas públicas ou privadas** de caráter **industrial, comercial, agrícola ou pastoril**.\n\nO item original (CESPE) estava {green:correto}.\n\n> **Lei nº 4.320/1964, art. 12, §3º, II.** Subvenções econômicas, as que se destinem a **empresas públicas ou privadas de caráter industrial, comercial, agrícola ou pastoril**.\n\n- **B** classifica como despesa de capital.\n- **C** como inversão financeira.\n- **D** como subvenção social.\n- **E** como transferência de capital.",
+    "options": [
+      "Despesa corrente (transferência corrente)",
+      "Despesa de capital (transferência de capital)",
+      "Inversão financeira",
+      "Subvenção social",
+      "Investimento"
+    ],
+    "correctOption": "A",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas/TCE-PB • 2018 • adaptada C/E→A–E^^\n\nSe um órgão precisa adquirir **equipamentos novos necessários à execução de uma obra**, a despesa será classificada como:",
+    "back": "**Gabarito: A.**\n\nA aquisição de **instalações, equipamentos e material permanente** (inclusive os necessários à execução de obras) é **investimento**.\n\nO item original (CESPE) estava {green:correto}.\n\n> **Lei nº 4.320/1964, art. 12, §4º.** Classificam-se como **investimentos** as dotações para o planejamento e a execução de obras [...], aquisição de instalações, **equipamentos e material permanente**.\n\n- **B** inversão financeira (seria bem já em uso).\n- **C** custeio (corrente).\n- **D** transferência de capital.\n- **E** despesa extraorçamentária.",
+    "options": [
+      "Investimento",
+      "Inversão financeira",
+      "Despesa de custeio",
+      "Transferência de capital",
+      "Despesa extraorçamentária"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^CESPE • Auditor de Contas/TCE-PB • 2018 • adaptada C/E→A–E^^\n\nA **despesa de custeio** engloba os gastos com **juros e encargos da dívida** e com sua **amortização**?",
+    "back": "**Gabarito: A.**\n\nNão. No âmbito da Lei nº 4.320/1964:\n- **Juros** da dívida → **transferências correntes**.\n- **Amortização** da dívida → **transferência de capital**.\n\nNenhum dos dois é **despesa de custeio**. O enunciado original afirmava que o custeio englobaria juros e amortização — {red:errado}.\n\n- **B** afirma que ambos são custeio (erro do enunciado original).\n- **C/D/E** colocam um deles como custeio ou invertem.",
+    "options": [
+      "Não: juros são transferências correntes e amortização é transferência de capital — nenhum é custeio",
+      "Sim: juros e amortização são despesas de custeio",
+      "Apenas os juros são despesa de custeio; a amortização é capital",
+      "Apenas a amortização é despesa de custeio; os juros são correntes",
+      "Ambos são investimentos"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-15 • 2018 • adaptada C/E→A–E^^\n\nUm servidor classificou: I) aquisição de título de empresa já constituída (sem aumento de capital) como **investimento**; II) conversão de bens/direitos em espécie como **receita corrente**; III) material permanente como o de duração superior a 2 anos; IV) transferência a instituição pública cultural como **subvenção social**. Quais estão **corretos**?",
+    "back": "**Gabarito: A.**\n\nAnalisando à luz da Lei 4.320/64:\n- **I (Errado)**: aquisição de título de empresa **já constituída**, sem aumento de capital, é **inversão financeira** (art. 12, §5º, II), não investimento.\n- **II (Errado)**: a conversão de bens/direitos em espécie é **receita de CAPITAL** (art. 11, §2º), não corrente.\n- **III (Correto)**: material permanente = duração superior a **2 anos** (art. 15, §2º).\n- **IV (Correto)**: transferência a instituição cultural sem fins lucrativos para custeio = **subvenção social** (art. 12, §3º, I).\n\nLogo, corretos apenas **III e IV**.\n\n- **B/C/D/E** incluem I ou II, que estão errados.",
+    "options": [
+      "Apenas III e IV",
+      "Apenas I e III",
+      "Apenas II e IV",
+      "Apenas I, III e IV",
+      "Todos os itens estão corretos"
+    ],
+    "correctOption": "A",
+    "topicName": "Lei 4.320/64 - Despesa"
+  },
+  {
+    "front": "^^FCC • Analista Previdenciário/SEGEP-MA • 2018 • adaptada C/E→A–E^^\n\nSegundo a Lei nº 4.320/1964, a **aquisição de imóveis** pode ser classificada como:",
+    "back": "**Gabarito: A.**\n\nA **aquisição de imóveis** pode ser, conforme o caso:\n- **Investimento** — quando se trata de imóvel necessário à **realização de obra** (planejamento/execução), art. 12, §4º; ou\n- **Inversão financeira** — quando é imóvel **já em utilização**, art. 12, §5º, I.\n\nO item original (FCC) estava {green:correto}.\n\n==Macete==: imóvel ligado a **obra nova** = investimento; imóvel **pronto/já usado** = inversão.\n\n- **B** restringe só a investimento.\n- **C** só a inversão.\n- **D** classifica como corrente.\n- **E** como transferência de capital.",
+    "options": [
+      "Investimento ou inversão financeira, conforme o caso",
+      "Sempre como investimento",
+      "Sempre como inversão financeira",
+      "Sempre como despesa corrente de custeio",
+      "Sempre como transferência de capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TST • 2017 • adaptada C/E→A–E^^\n\nUm contabilista classificou: custeio (serviços de terceiros; subvenções sociais); transferências correntes (inativos; salário-família); despesas de capital (juros da dívida). Onde está o **erro**?",
+    "back": "**Gabarito: A.**\n\nA classificação está incorreta porque:\n- **Subvenções sociais** NÃO são custeio → são **transferências correntes**.\n- **Juros da dívida pública** NÃO são despesa de capital → são **transferências correntes** (corrente).\n\n(Serviços de terceiros = custeio ✅; inativos e salário-família = transferências correntes ✅.)\n\nO enunciado original (FCC) tentava justificar o erro dizendo que \"serviços de terceiros e juros são despesas de capital\" — isso também está {red:errado}: serviços de terceiros são **custeio**, e juros são **transferências correntes**.\n\n- **B/C/D/E** apontam erro em itens corretos ou repetem a justificativa equivocada.",
+    "options": [
+      "Subvenções sociais e juros da dívida são transferências correntes, não custeio nem capital",
+      "Serviços de terceiros e juros da dívida são despesas de capital",
+      "Inativos e salário-família são despesas de capital",
+      "A classificação está integralmente correta",
+      "Subvenções sociais são despesas de capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^CESPE • Auditor Fiscal de Controle Externo/TCE-SC • 2016 • adaptada C/E→A–E^^\n\nOs créditos orçamentários e adicionais devem discriminar a despesa, no mínimo, até que nível, segundo a Lei nº 4.320/1964?",
+    "back": "**Gabarito: A.**\n\nSegundo a **Lei nº 4.320/1964 (art. 15)**, na Lei de Orçamento a discriminação da despesa far-se-á **no mínimo por elementos**.\n\nO item original (CESPE) afirmava que os créditos discriminam até o **elemento de despesa** e estava {green:correto} (referência à Lei 4.320/64).\n\n> **Art. 15.** Na Lei de Orçamento a discriminação da despesa far-se-á **no mínimo por elementos**. §1º Entende-se por elementos o desdobramento da despesa com pessoal, material, serviços, obras e outros meios.\n\n⚠️ Pela **Portaria 163/2001 (art. 6º)**, o mínimo é até **modalidade de aplicação** (categoria + GND + modalidade).\n\n- **B** afirma só categoria econômica.\n- **C** afirma até subelemento.\n- **D/E** trocam o nível mínimo.",
+    "options": [
+      "No mínimo por elementos (Lei 4.320/64, art. 15)",
+      "Apenas por categoria econômica",
+      "Obrigatoriamente até o subelemento (8º dígito)",
+      "Apenas por função e subfunção",
+      "Não há nível mínimo exigido em lei"
+    ],
+    "correctOption": "A",
+    "topicName": "Lei 4.320/64 - Discriminação da Despesa"
+  },
+  {
+    "front": "^^CESPE • Analista/MPU • 2015 • adaptada C/E→A–E^^\n\nA **discriminação da despesa quanto à natureza**, na elaboração da LOA, deve ser feita, no mínimo, por:",
+    "back": "**Gabarito: A.**\n\nConforme a **Portaria Interministerial SOF/STN nº 163/2001 (art. 6º)**, na LOA a discriminação da despesa, quanto à natureza, far-se-á **no mínimo por categoria econômica, grupo de natureza de despesa e modalidade de aplicação**.\n\nO item original (CESPE) estava {green:correto}.\n\n> **Portaria 163/2001, art. 6º.** Na lei orçamentária, a discriminação da despesa, quanto à sua natureza, far-se-á, no mínimo, por **categoria econômica, grupo de natureza de despesa e modalidade de aplicação**.\n\n- **B** inclui elemento (não é o mínimo da Portaria).\n- **C** só categoria econômica.\n- **D** confunde com função/subfunção.\n- **E** inclui subelemento.",
+    "options": [
+      "Categoria econômica, grupo de natureza de despesa e modalidade de aplicação",
+      "Categoria econômica, GND, modalidade de aplicação e elemento",
+      "Apenas categoria econômica",
+      "Função, subfunção e programa",
+      "Categoria, GND, modalidade, elemento e subelemento"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRE-SE • 2016 • adaptada C/E→A–E^^\n\nÉ possível conceder **subvenção a empresa de fins lucrativos**?",
+    "back": "**Gabarito: A.**\n\nSim, **excepcionalmente**: a Lei de Orçamento **não consignará** ajuda financeira a empresa de fins lucrativos, **salvo** quando se tratar de subvenções cuja concessão tenha sido **expressamente autorizada em lei especial**.\n\nO item original (FCC) estava {green:correto}.\n\n> **Lei nº 4.320/1964, art. 19.** A Lei de Orçamento não consignará ajuda financeira, a qualquer título, a empresa de fins lucrativos, **salvo quando se tratar de subvenções cuja concessão tenha sido expressamente autorizada em lei especial**.\n\n- **B** veda em qualquer hipótese.\n- **C** dispensa a lei especial.\n- **D/E** condicionam a outros requisitos não previstos (área de atuação, participação acionária).",
+    "options": [
+      "Sim, desde que expressamente autorizada em lei especial",
+      "Não, é vedada em qualquer hipótese",
+      "Sim, independentemente de autorização legislativa específica",
+      "Sim, apenas se a empresa atuar na área de educação ou saúde",
+      "Sim, mediante contrapartida de participação acionária do ente"
+    ],
+    "correctOption": "A",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-18 • 2023^^\n\nA Lei Orçamentária Anual de um ente municipal referente a 2023, de acordo com a Lei nº 4.320/1964:",
+    "back": "**Gabarito: D.**\n\nA LOA deve apresentar **juros da dívida** como **Despesa Corrente** (GND 2) e **amortização do principal** como **Despesa de Capital** (GND 6) — o serviço da dívida se divide.\n\n- **A** errada: a **reserva de contingência** é definida com base na **Receita Corrente Líquida (RCL)**, não na receita total arrecadada.\n- **B** errada: dispor sobre projetos de lei que alterem a estrutura político-administrativa fere o **princípio da exclusividade**.\n- **C** errada: a LOA **não pode** consignar **dotações globais** indiferenciadas (princípio da discriminação/especificação — art. 5º).\n- **E** errada: normas de **gestão patrimonial** cabem à **lei complementar** (CF, art. 165, §9º), e o **controle de custos** é matéria da **LDO** (art. 4º da LRF).\n\n> **Lei nº 4.320/1964, art. 5º.** A Lei de Orçamento não consignará dotações globais destinadas a atender indiferentemente a despesas de pessoal, material, serviços de terceiros, transferências ou quaisquer outras.",
+    "options": [
+      "Deve estabelecer a reserva de contingência com base na receita orçamentária total arrecadada em 2022",
+      "Deve dispor sobre projetos de lei que alterem a estrutura político-administrativa do ente",
+      "Pode consignar dotações globais para atender indiferentemente despesas de pessoal e serviços de terceiros",
+      "Deve apresentar juros da dívida como Despesa Corrente e amortização do principal como Despesa de Capital",
+      "Pode estabelecer normas de gestão patrimonial da administração direta e de controle de custos dos programas"
+    ],
+    "correctOption": "D",
+    "topicName": "Lei 4.320/64 - Despesa"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-18 • 2023^^\n\nSegundo a Lei nº 4.320/1964, as dotações para:",
+    "back": "**Gabarito: C.**\n\nO **aumento de capital de empresas que NÃO sejam de caráter comercial ou financeiro** classifica-se como **Investimentos** (art. 12, §4º).\n\n- **A** errada: manutenção de serviços hospitalares já criados = **despesas de custeio** (correntes).\n- **B** errada: aquisição de **edifício já em utilização** = **Inversões Financeiras**.\n- **D** errada: devolução de caução = **despesa extraorçamentária** (não corrente).\n- **E** errada: amortização do principal de **ARO** = **despesa extraorçamentária**.\n\n> **Lei nº 4.320/1964, art. 12, §4º.** Classificam-se como investimentos as dotações para [...] **constituição ou aumento do capital de empresas que não sejam de caráter comercial ou financeiro**.",
+    "options": [
+      "Manutenção de serviços hospitalares anteriormente criados classificam-se como Despesas de Capital",
+      "Aquisição de um edifício já em utilização classificam-se como Investimentos",
+      "Aumento de capital de empresas que não sejam de caráter comercial classificam-se como Investimentos",
+      "Devolução de depósito em caução fornecido pelo contratado classificam-se como Despesas Correntes",
+      "Amortização do principal de Operações de Crédito por Antecipação de Receita classificam-se como Despesas de Capital"
+    ],
+    "correctOption": "C",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-23 • 2022^^\n\nA Lei Orçamentária Anual de 2022 de um ente público, de acordo com a Lei nº 4.320/1964:",
+    "back": "**Gabarito: E.**\n\nA LOA **pode conter autorização** ao Executivo para realizar, em qualquer mês, **operações de crédito por antecipação da receita (ARO)** para atender a insuficiências de caixa (art. 7º, II).\n\n- **A** errada: alteração de alíquotas e demonstrativo de renúncia são matérias da **LDO** (CF, art. 165, §2º; art. 4º da LRF).\n- **B** errada: a LOA deve **consolidar** as receitas/despesas dos Poderes em **um único projeto de lei** (princípio da unidade).\n- **C** errada: a LOA de 2022 só fixa receitas/despesas de **2022** (princípio da anualidade).\n- **D** errada: vedação a **dotações globais** indiferenciadas (art. 5º).\n\n> **Lei nº 4.320/1964, art. 7º, II.** A Lei de Orçamento poderá conter autorização ao Executivo para realizar, em qualquer mês do exercício, **operações de crédito por antecipação da receita, para atender a insuficiências de caixa**.",
+    "options": [
+      "Deve dispor sobre alteração de alíquotas de tributos e apresentar demonstrativo de renúncia de receita",
+      "Deve segregar receitas e despesas dos Poderes em documentos legais distintos",
+      "Deve indicar as receitas previstas e despesas fixadas para 2022, 2023 e 2024",
+      "Pode consignar dotações globais para atender indiferentemente despesas de pessoal, material, serviços e transferências",
+      "Pode conter autorização ao Executivo para realizar operações de crédito por antecipação de receita"
+    ],
+    "correctOption": "E",
+    "topicName": "Lei 4.320/64 - Despesa"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-23 • 2022^^\n\nNa LOA de um ente público, de acordo com a Lei nº 4.320/1964:",
+    "back": "**Gabarito: D.**\n\nA despesa fixada para **pagamento de juros da dívida** classifica-se, quanto à categoria econômica, em **Despesas Correntes** (a amortização é que é de capital).\n\n- **A** errada: **ARO** é receita **extraorçamentária**, não integra o orçamento (não é receita de capital).\n- **B** errada: alienação de bens é receita de **capital**, mas não \"patrimonial\" (patrimonial é receita corrente de aluguéis/dividendos).\n- **C** errada: devolução de caução é **extraorçamentária**, não transferência de capital.\n- **E** errada: planejamento e execução de obras = **investimentos** (despesa de capital), não despesa de custeio.\n\n> **Categoria econômica** só admite dois valores: **CORRENTE** ou **CAPITAL**.",
+    "options": [
+      "A receita com ARO deve ser classificada, quanto à categoria econômica, em Receita de Capital",
+      "A receita com alienação de bens deve ser classificada em Receita Patrimonial",
+      "A despesa com devolução de caução deve ser classificada em Transferências de Capital",
+      "A despesa com pagamento de juros da dívida pública deve ser classificada em Despesas Correntes",
+      "A despesa com planejamento e execução de obras deve ser classificada em Despesas de Custeio"
+    ],
+    "correctOption": "D",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-5 • 2022^^\n\nAquisição de **materiais de limpeza para estoque**, **adiantamento** a servidor para futura prestação de contas e aquisição de **veículo novo** (uso por 7 anos) dão origem, quanto à afetação patrimonial, respectivamente, a despesas:",
+    "back": "**Gabarito: D.**\n\nQuanto à afetação patrimonial:\n- **Materiais de limpeza para estoque** → corrente, mas {red:NÃO efetiva} (exceção — fato permutativo).\n- **Adiantamento** a servidor → corrente, mas {red:NÃO efetiva} (exceção — fato permutativo).\n- **Veículo novo** → despesa de **capital** → {red:não efetiva} (regra geral).\n\nLogo: **não efetiva, não efetiva e não efetiva** (letra D).\n\n==As 2 exceções de corrente não efetiva==: **estoques** e **adiantamentos**. A FCC cobra isso em quase toda prova.\n\n- **A/B/C/E** marcam alguma das três como \"efetiva\", o que está errado.",
+    "options": [
+      "Efetiva, efetiva e não efetiva",
+      "Efetiva, não efetiva e não efetiva",
+      "Não efetiva, efetiva e não efetiva",
+      "Não efetiva, não efetiva e não efetiva",
+      "Não efetiva, efetiva e efetiva"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-22 • 2022^^\n\nClassifique, segundo a Lei 4.320/64: I) dotações para investimentos/inversões que outros entes devam realizar + amortização da dívida; II) planejamento e execução de obras, equipamentos, material permanente; III) dotações sem contraprestação direta, para contribuições e subvenções de manutenção de outras entidades. Respectivamente:",
+    "back": "**Gabarito: C.**\n\nAplicando os parágrafos do art. 12:\n- **I** = **Transferências de capital** (§6º): investimentos/inversões que outros devam realizar + amortização da dívida.\n- **II** = **Investimentos** (§4º): planejamento/execução de obras, equipamentos, material permanente.\n- **III** = **Transferências correntes** (§2º): dotações sem contraprestação direta, contribuições e subvenções.\n\nLogo: **transferências de capital, investimentos e transferências correntes** (letra C).\n\nQuestão **literal** da Lei 4.320/64 (\"copia e cola\"), recorrente na FCC.\n\n- **A/B/D/E** trocam a ordem ou o tipo de alguma das três dotações.",
+    "options": [
+      "Transferências de capital, transferências correntes e inversões financeiras",
+      "Transferências correntes, inversões financeiras e investimentos",
+      "Transferências de capital, investimentos e transferências correntes",
+      "Inversões financeiras, investimentos e transferências correntes",
+      "Transferências correntes, inversões financeiras e transferências de capital"
+    ],
+    "correctOption": "C",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Técnico de Gestão/PGE-AM • 2022^^\n\nSobre **investimentos** e **inversões financeiras**, é correto classificar:",
+    "back": "**Gabarito: B.**\n\n**Aquisições de imóveis** (já em utilização) = **inversões financeiras**; **obras públicas** (planejamento/execução) = **investimentos**.\n\n==Macete==: obra/coisa **nova** que gera bem = investimento; imóvel **já existente** = inversão.\n\n> **Lei nº 4.320/1964, art. 12, §4º** (investimentos: planejamento/execução de obras) e **§5º, I** (inversões: aquisição de imóveis ou bens de capital já em utilização).\n\n- **A** põe imóveis como investimentos.\n- **C** inverte os dois.\n- **D** põe obras como inversões.\n- **E** põe obras como transferência de capital.",
+    "options": [
+      "Aquisições de imóveis e obras públicas como investimentos",
+      "Aquisições de imóveis como inversões financeiras e obras públicas como investimentos",
+      "Aquisições de imóveis como investimentos e obras públicas como inversões financeiras",
+      "Aquisições de imóveis e obras públicas como inversões financeiras",
+      "Aquisições de imóveis como investimentos, mas obras públicas como transferência de capital"
+    ],
+    "correctOption": "B",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Analista/DETRAN-AP • 2022^^\n\nClassificam-se como **despesas de custeio**:",
+    "back": "**Gabarito: D.**\n\nSão **despesas de custeio** as dotações para manutenção de serviços anteriormente criados, **inclusive as destinadas a atender a obras de conservação e adaptação de bens imóveis** (art. 12, §1º).\n\n- **A** errada: dotações sem contraprestação direta = **transferências correntes** (§2º), não custeio.\n- **B** errada: subvenções de manutenção = transferências correntes.\n- **C** errada: \"todas as despesas do orçamento fiscal\" é genérico e falso.\n- **E** errada: exclui justamente as obras de conservação/adaptação, que **integram** o custeio.\n\n> **Lei nº 4.320/1964, art. 12, §1º.** Classificam-se como Despesas de Custeio as dotações para **manutenção de serviços anteriormente criados, inclusive as destinadas a atender a obras de conservação e adaptação de bens imóveis**.",
+    "options": [
+      "As dotações para as quais não corresponda contraprestação direta em bens ou serviços",
+      "As subvenções destinadas a atender à manutenção de outras entidades",
+      "Todas as despesas que constem do orçamento fiscal",
+      "As dotações destinadas a atender a obras de conservação e adaptação de bens imóveis",
+      "As dotações para conservação de bens, exceto obras de conservação e adaptação em imóveis"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Procurador/PGE-AM • 2022^^\n\nO Estado pretende destinar recursos orçamentários a **empresas privadas de tecnologia já constituídas (com fins lucrativos)**, para cobrir déficit operacional. Juridicamente, deve-se indicar que:",
+    "back": "**Gabarito: D.**\n\nA medida consiste em **subvenção econômica** (destinada a empresa de caráter econômico, para cobrir déficit/custeio) e, por se tratar de **empresa com fins lucrativos**, **somente** poderá ser concedida **mediante autorização legislativa específica** (lei especial).\n\n> **Lei nº 4.320/1964, art. 19.** A Lei de Orçamento não consignará ajuda financeira, a qualquer título, a empresa de fins lucrativos, **salvo quando se tratar de subvenções cuja concessão tenha sido expressamente autorizada em lei especial**.\n\n- **A** restringe a estatais como transferência corrente.\n- **B** afirma vedação constitucional absoluta.\n- **C** chama de subvenção social (é econômica).\n- **E** exige contrapartida em participação acionária (não previsto).",
+    "options": [
+      "É admissível só para empresas públicas, como subvenção para investimento prevista como transferência corrente",
+      "Há vedação constitucional que impede subsidiar empresas em competição, salvo entidades sem fins lucrativos",
+      "Consiste em subvenção social, admissível para empresas de relevante interesse público",
+      "Consiste em subvenção econômica e só poderá ser destinada a empresa com fins lucrativos mediante autorização legislativa específica",
+      "É expressamente vedada, salvo aporte como subvenção para investimento com contrapartida em participação acionária"
+    ],
+    "correctOption": "D",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-4 • 2022^^\n\nO pagamento do **valor principal de ARO** e o pagamento de **Restos a Pagar Processados** são, respectivamente:",
+    "back": "**Gabarito: D.**\n\nTanto o pagamento do **principal da ARO** quanto o pagamento de **Restos a Pagar Processados** são **dispêndios extraorçamentários** — não constaram (nem precisam constar) da LOA/créditos adicionais; são contrapartidas de ingressos extraorçamentários ou despesas autorizadas em **exercício anterior**.\n\n> Lembre: o **resgate (pagamento)** de ARO é extraorçamentário; já os **encargos** sobre a ARO (juros) são **orçamentários** (elemento 25).\n\n- **A/B/C** classificam um dos itens como despesa orçamentária (corrente ou capital).\n- **E** classifica o RAP como despesa orçamentária.",
+    "options": [
+      "Uma Despesa Orçamentária de Capital e uma Despesa Orçamentária",
+      "Uma Despesa Orçamentária de Capital e um Dispêndio Extraorçamentário",
+      "Uma Despesa Orçamentária Corrente e um Dispêndio Extraorçamentário",
+      "Um Dispêndio Extraorçamentário e um Dispêndio Extraorçamentário",
+      "Um Dispêndio Extraorçamentário e uma Despesa Orçamentária"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^FCC • Analista de Controle Externo/TCE-GO • 2022^^\n\nA **devolução parcial de caução**, a **aquisição de veículo novo** e o **pagamento de RAP processados** correspondem, respectivamente, a:",
+    "back": "**Gabarito: B.**\n\nClassificando:\n- **Devolução de caução** → {blue:Dispêndio Extraorçamentário}.\n- **Aquisição de veículo novo** → {green:Despesa de Capital} (Investimentos).\n- **Pagamento de RAP processados** → {blue:Dispêndio Extraorçamentário}.\n\nLogo: **extraorçamentário, despesa de capital, extraorçamentário** (letra B).\n\n- **A** põe RAP como despesa corrente.\n- **C** põe veículo como inversão (é investimento) e RAP como corrente.\n- **D/E** põem a caução como despesa corrente.",
+    "options": [
+      "Dispêndio Extraorçamentário, Investimento e Despesa Corrente",
+      "Dispêndio Extraorçamentário, Despesa de Capital e Dispêndio Extraorçamentário",
+      "Dispêndio Extraorçamentário, Inversão Financeira e Despesa Corrente",
+      "Despesa Corrente, Despesa de Capital e Dispêndio Extraorçamentário",
+      "Despesa Corrente, Inversão Financeira e Dispêndio Extraorçamentário"
+    ],
+    "correctOption": "B",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-22 • 2022^^\n\nRepasse a entidade **sem fins lucrativos** para prestação de serviços essenciais de **assistência social** (suplementação privada mais econômica). Conforme a Lei 4.320/64, classifica-se como despesa:",
+    "back": "**Gabarito: B.**\n\nClassifica-se como despesa **corrente** → **transferência corrente** → **subvenção social** (entidade sem fins lucrativos de caráter assistencial; suplementação de recursos privados mais econômica).\n\n> **Lei nº 4.320/1964, art. 16.** Fundamentalmente e nos limites das possibilidades financeiras, a concessão de **subvenções sociais** visará à prestação de serviços essenciais de **assistência social, médica e educacional**, sempre que a suplementação de recursos de origem privada revelar-se mais econômica.\n\n- **A** chama de subvenção econômica (é social).\n- **C/D** classificam como despesa de capital.\n- **E** chama de serviços de terceiros.",
+    "options": [
+      "Corrente, transferência corrente e subvenção econômica",
+      "Corrente, transferência corrente e subvenção social",
+      "De capital, transferência de capital e subvenção social",
+      "De capital, transferência de capital e subvenção econômica",
+      "Corrente, despesa de custeio e serviços de terceiros"
+    ],
+    "correctOption": "B",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-9 • 2022^^\n\nNos termos da Lei 4.320/64, as despesas que se destinem a **empresas públicas ou privadas de caráter industrial, comercial, agrícola ou pastoril** são classificadas como Despesas:",
+    "back": "**Gabarito: E.**\n\nSão despesas **Correntes** → **Transferências Correntes** → **Subvenções Econômicas** (destinadas a empresas de caráter industrial/comercial/agrícola/pastoril).\n\n> **Lei nº 4.320/1964, art. 12, §3º, II.** Subvenções **econômicas**, as que se destinem a **empresas públicas ou privadas de caráter industrial, comercial, agrícola ou pastoril**.\n\n- **A/C/D** classificam como despesa de capital/transferência de capital.\n- **B** chama de subvenção social (é econômica).\n\n==Lembre==: subvenções (sociais e econômicas) são sempre **despesas correntes**.",
+    "options": [
+      "De Capital, Transferências de Capital e Inversões Financeiras",
+      "Correntes, Transferências Correntes e Subvenções Sociais",
+      "De Capital, Transferências de Capital e Subvenções Sociais",
+      "De Capital, Transferências de Capital e Subvenções Econômicas",
+      "Correntes, Transferências Correntes e Subvenções Econômicas"
+    ],
+    "correctOption": "E",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^FCC • Analista Judiciário/TRT-4 • 2022^^\n\nDespesa de R$ 590.000,00 empenhada para a **construção de um prédio**. Conforme a Lei 4.320/64, classifica-se na categoria econômica:",
+    "back": "**Gabarito: E.**\n\nA construção de prédio (planejamento/execução de **obra**) é **Despesa de Capital**, no grupo **Investimentos**.\n\n⚠️ Atenção à terminologia: **categoria econômica** só pode ser **CORRENTE** ou **CAPITAL**. Investimentos/inversões/transferências de capital são **GND**, não categoria econômica.\n\n> **Lei nº 4.320/1964, art. 12, §4º.** Classificam-se como **investimentos** as dotações para o planejamento e a **execução de obras**.\n\n- **A** põe \"Investimentos\" como categoria econômica (Investimentos é GND).\n- **B/C** classificam como inversões/transferências de capital.\n- **D** descreve como inversão financeira.",
+    "options": [
+      "Investimentos e é uma despesa com Obras Públicas",
+      "Inversões Financeiras e é uma despesa com Obras Públicas",
+      "Transferências de Capital e é uma despesa com Obras Públicas",
+      "Despesa de Capital e é uma despesa com Inversões Financeiras",
+      "Despesa de Capital e é uma despesa com Investimentos"
+    ],
+    "correctOption": "E",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FCC • Auditor Fiscal/SEFAZ-PE • 2022^^\n\nSobre despesas e receitas públicas, a legislação estabelece:",
+    "back": "**Gabarito: D.**\n\nAs **receitas públicas** podem originar-se da **exploração da atividade econômica** do Estado, de **aluguéis, royalties, multas e heranças** — são as **receitas originárias** (decorrem da exploração do patrimônio/atividade econômica estatal).\n\n- **A** errada: despesas públicas **obedecem** a formalidades/trâmites (o princípio da eficiência não as dispensa).\n- **B** errada: despesas públicas não são norteadas por \"valorização e expansão do capital investido\" (lógica privada), e sim pelo interesse público.\n- **C** errada: tributo com **efeito confiscatório** é vedado (CF/CTN), mesmo em tempos de paz.\n- **E** errada: **pedágio** (preço público/tarifa) **não tem a mesma natureza dos impostos**; preços públicos e taxas não se confundem (Súmula 545 do STF).",
+    "options": [
+      "As despesas públicas não obedecem a formalidades desde a EC 19/98 (princípio da eficiência)",
+      "As despesas públicas são norteadas por interesses de valorização e expansão do capital investido",
+      "O tributo com efeito confiscatório pode ser usado como receita, desde que haja previsão orçamentária",
+      "As receitas públicas podem originar-se da exploração da atividade econômica, de aluguéis, royalties, multas e heranças",
+      "O pedágio tem a mesma natureza tributária dos impostos e constitui receita patrimonial"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesa Pública - Conceito"
+  },
+  {
+    "front": "^^FCC • Auditor Previdenciário/MANAUSPREV • 2021^^\n\nUm ente consignou no orçamento **ajuda financeira a uma empresa de fins lucrativos**. Segundo a Lei 4.320/64, essa ajuda é:",
+    "back": "**Gabarito: B.**\n\nÉ **legal**, **desde que** se trate de **subvenção cuja concessão tenha sido expressamente autorizada em lei especial**.\n\n> **Lei nº 4.320/1964, art. 19.** A Lei de Orçamento **não consignará ajuda financeira, a qualquer título, a empresa de fins lucrativos, salvo** quando se tratar de subvenções cuja concessão tenha sido **expressamente autorizada em lei especial**.\n\n- **A** condiciona a uma área de atuação (não previsto).\n- **C** afirma ilegalidade absoluta (ignora a exceção do art. 19).\n- **D** chama de despesa extraorçamentária.\n- **E** classifica como transferência de capital.",
+    "options": [
+      "Legal, desde que a empresa atue na área de educação, saúde ou assistência social",
+      "Legal, desde que se trate de subvenção expressamente autorizada em lei especial",
+      "Ilegal, pois não há possibilidade de concessão de recursos a empresas de fins lucrativos",
+      "Ilegal, pois ajuda a empresa de fins lucrativos é despesa extraorçamentária",
+      "Legal, sendo a despesa classificada como transferência de capital"
+    ],
+    "correctOption": "B",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^FCC • Analista Legislativo/ALAP • 2020^^\n\nA **devolução de caução em dinheiro** (fornecida por PJ contratada) dá origem, na entidade pública, a:",
+    "back": "**Gabarito: A.**\n\nA **devolução de caução** em dinheiro é um **dispêndio extraorçamentário** — não constou do orçamento e independe de autorização legislativa; é contrapartida (devolução) de um **ingresso extraorçamentário** (a caução recebida pertence a terceiro).\n\n- **B** classifica como despesa orçamentária com serviços.\n- **C** chama de restituição de receita orçamentária.\n- **D/E** classificam como despesa orçamentária com investimento/inversão.\n\n> Ingressos/dispêndios extraorçamentários (cauções, ARO, RAP) **transitam** pelos cofres públicos sem pertencer ao ente — por isso não dependem de autorização orçamentária.",
+    "options": [
+      "Um dispêndio extraorçamentário",
+      "Uma despesa orçamentária com Outros Serviços de Terceiros",
+      "Uma restituição de receita orçamentária",
+      "Uma despesa orçamentária com Investimento",
+      "Uma despesa orçamentária com Inversão Financeira"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^VUNESP • Contador/Pref. Lins • 2024^^\n\nDe acordo com a Lei nº 4.320/64, **despesa orçamentária** é:",
+    "back": "**Gabarito: D.**\n\n**Despesa orçamentária** é toda transação que **depende de autorização legislativa**, na forma de **consignação de dotação orçamentária**, para ser efetivada.\n\n- **A** descreve só a autorização, sem precisar a dotação como pressuposto de efetivação (incompleta).\n- **B** confunde com o conceito de despesa efetiva (altera o PL).\n- **C** descreve a despesa **efetiva** (reduz a SLP — fato modificativo diminutivo), que é classificação **patrimonial**, não o conceito de despesa orçamentária.\n- **E** (distrator) — dispêndio extraorçamentário não depende de autorização legislativa.\n\n> Pertencem ao exercício financeiro as despesas nele **legalmente empenhadas** (Lei 4.320/64, art. 35, II).",
+    "options": [
+      "A transação com autorização legislativa, na forma de dotação orçamentária",
+      "Aquela que, no momento de sua realização, altera o patrimônio líquido da entidade",
+      "Aquela que reduz a situação líquida patrimonial (fato contábil modificativo diminutivo)",
+      "Toda transação que depende de autorização legislativa, na forma de consignação de dotação orçamentária, para ser efetivada",
+      "O dispêndio que não consta da LOA e independe de autorização legislativa"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesa Pública - Conceito"
+  },
+  {
+    "front": "^^FGV • Controle Interno/Pref. Caraguatatuba • 2024^^\n\nSobre a distinção entre registros **orçamentários** e **extraorçamentários**, assinale a opção correta.",
+    "back": "**Gabarito: B.**\n\nSão **extraorçamentários** os desembolsos de **recursos de terceiros** em poder do ente público, como a **devolução de cauções** — não afetam o orçamento, pois movimentam dinheiro que **não pertence** ao governo.\n\n- **A** errada: emissão de **empenho** integra a despesa **orçamentária** (não é extraorçamentário).\n- **C** errada: \"salário-maternidade\" é elemento de despesa (gasto corrente), não \"ação\" que alcança fins de programas.\n- **D** errada: **consignações e retenções** (INSS, IR na folha) são **extraorçamentárias** (valores de terceiros).\n- **E** errada: **ARO** é **extraorçamentária**, não receita definitiva.",
+    "options": [
+      "Extraorçamentário: derivam de empenho para suportar contrato, como serviços de terceiros",
+      "Extraorçamentário: desembolsos de recursos de terceiros em poder do ente, como devolução de cauções",
+      "Orçamentário: alcançam os fins dos programas, como pagamento de salário-maternidade",
+      "Orçamentário: recolhimento de consignações e retenções da folha de pessoal",
+      "Orçamentário: pagamento das operações de crédito por antecipação de receita"
+    ],
+    "correctOption": "B",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^FGV • Analista/CVM • 2024^^\n\nContratação de entidade do Orçamento Fiscal/Seguridade para treinamento; recolhimento de contribuições patronais ao RPPS; recolhimento de tributos por estatais dependentes. Essas transações são exemplos de:",
+    "back": "**Gabarito: E.**\n\nSão **transações (operações) intraorçamentárias** — realizadas entre **órgãos e entidades da Administração Pública do mesmo ente** integrantes do orçamento fiscal e da seguridade social. NÃO representam novas entradas nos cofres do ente, apenas **movimentação de receitas entre seus órgãos** (MCASP 11ª ed.).\n\nExemplos: contratação de estatais dependentes para treinamento/concursos, **recolhimento de contribuições patronais ao RPPS**, recolhimento de tributos do ente por estatais dependentes.\n\n- **A** despesas de caráter continuado (LRF) é outro conceito.\n- **B** discricionárias é outro critério.\n- **C** mutação patrimonial é classificação contábil.\n- **D** \"com contraprestação\" não é o conceito pedido.",
+    "options": [
+      "Despesas de caráter continuado",
+      "Despesas de caráter discricionário",
+      "Despesas por mutação patrimonial",
+      "Transações com contraprestação",
+      "Transações (operações) intraorçamentárias"
+    ],
+    "correctOption": "E",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^FGV • Consultor Legislativo/Câmara dos Deputados • 2024^^\n\nNo **Balanço Orçamentário** (receitas correntes R$ 10.041 mi; despesas empenhadas R$ 9.314 mi), avalie: (I) Superávit Financeiro = R$ 109 bi; (II) RAP Não Processados = R$ 154 bi; (III) superávit orçamentário é classificado como receita; (IV) quociente de Resultado Orçamentário = 1,01. A sequência F/V é:",
+    "back": "**Gabarito: B.**\n\nSequência **F – F – F – V**:\n- **I (Falso)**: o **superávit financeiro** difere do orçamentário e envolve saldo de exercícios anteriores (não indicado); o resultado orçamentário do exercício foi de ~R$ 727 mi, não R$ 109 bi.\n- **II (Falso)**: a questão não menciona restos a pagar; o valor é desproporcional.\n- **III (Falso)**: superávit/déficit **não** são classificados diretamente como receita/despesa; o superávit gera **saldo financeiro** para o exercício seguinte.\n- **IV (Verdadeiro)**: quociente do Resultado Orçamentário = receita ÷ despesa ≈ 10.041 / 9.314 ≈ **1,01**.\n\n> {blue:Quociente do Resultado Orçamentário} = Receita Executada ÷ Despesa Executada. >1 indica superávit.\n\n- **A/C/D/E** erram ao marcar como verdadeiras as assertivas I, II ou III.",
+    "options": [
+      "V – V – F – F",
+      "F – F – F – V",
+      "F – F – V – V",
+      "F – V – F – V",
+      "V – V – V – F"
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^CESPE • MPO • 2024 • adaptada C/E→A–E^^\n\nSobre a natureza das despesas correntes e de capital, é correto afirmar:",
+    "back": "**Gabarito: A.**\n\nO que define a despesa como **corrente ou de capital** é a **destinação do recurso e o objeto do gasto** (Lei 4.320/64; MTO/MCASP), não a finalidade indireta.\n\nO enunciado original (CESPE) afirmava que \"algumas despesas correntes contribuem diretamente para a formação de bem de capital, como **auxílios** a outros entes\" — {red:errado}: quando o **auxílio** tem por objeto a aquisição/construção de bem de capital, a despesa é **de capital** (transferência de capital), não corrente.\n\n- **B** repete o erro do enunciado (auxílio para bem de capital seria corrente).\n- **C/D/E** confundem a classificação com a finalidade ou com o ente recebedor.",
+    "options": [
+      "A classificação corrente/capital decorre da destinação do recurso e do objeto do gasto, não da finalidade indireta",
+      "Auxílios que resultem em bem de capital por outro ente são sempre despesas correntes",
+      "Toda transferência a entidade sem fins lucrativos é despesa corrente",
+      "A categoria econômica depende exclusivamente do ente recebedor",
+      "Despesas correntes podem formar diretamente bem de capital quando há auxílio a outro ente"
+    ],
+    "correctOption": "A",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^CESPE • MPO • 2024 • adaptada C/E→A–E^^\n\nSobre a **despesa pública não efetiva**, é correto afirmar:",
+    "back": "**Gabarito: A.**\n\nA **despesa não efetiva** é a que, no momento da realização, **não reduz** a situação patrimonial líquida (fato **permutativo**) — em geral, despesas de **capital** (ex.: investimentos, amortização).\n\nO enunciado original (CESPE) incluía os \"**encargos** (juros) da dívida\" entre as não efetivas — {red:errado}: os **juros/encargos** da dívida são despesa **EFETIVA** (reduzem o PL); apenas a **amortização** (principal) é não efetiva.\n\n- **B** inclui os juros como não efetivos (erro do enunciado original).\n- **C** afirma que não efetivas reduzem o PL (contradição).\n- **D/E** confundem com critério temporal ou de regime contábil.",
+    "options": [
+      "É a que não reduz a SLP no momento da realização (fato permutativo), como investimentos e amortização da dívida",
+      "Inclui as despesas com investimentos e com o serviço da dívida (amortização e encargos/juros)",
+      "É a que reduz a situação patrimonial líquida da entidade",
+      "É a despesa de curto prazo, ao contrário da efetiva",
+      "É a despesa contabilizada pelo regime de caixa"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^CEBRASPE • Auditor de Controle Externo/TCE-PR • 2024^^\n\nO Estado promove **transferência voluntária** a um município para **construção de escola técnica**, com fonte em recursos livres da arrecadação de **impostos**. Trata-se de despesa:",
+    "back": "**Gabarito: C.**\n\nÉ uma despesa **de capital EFETIVA**, custeada com **receitas correntes efetivas e derivadas**:\n- **De capital**: destina-se a investimento (construção de escola) em outro ente → **transferência de capital**.\n- **Efetiva**: transferências de capital são a {red:exceção} — reduzem o patrimônio do transferidor (variação patrimonial diminutiva).\n- **Receita corrente, efetiva e derivada**: provém de **impostos** (tributo = receita **derivada**; arrecadação de impostos é receita **corrente** e **efetiva**).\n\n- **A** põe despesa como corrente e receita de capital.\n- **B/D** dizem despesa não efetiva (transferência de capital é efetiva).\n- **E** diz receita de capital originária (impostos são correntes derivados).",
+    "options": [
+      "Corrente não efetiva, custeada com receitas de capital efetivas e derivadas",
+      "De capital não efetiva, custeada com receitas correntes efetivas e derivadas",
+      "De capital efetiva, custeada com receitas correntes efetivas e derivadas",
+      "De capital não efetiva, custeada com receitas correntes efetivas e originárias",
+      "De capital efetiva, custeada com receitas de capital efetivas e originárias"
+    ],
+    "correctOption": "C",
+    "topicName": "Despesa Efetiva e Não Efetiva"
+  },
+  {
+    "front": "^^CEBRASPE • Analista Judiciário/STJ • 2024 • adaptada C/E→A–E^^\n\nO **1º dígito** do código da natureza da despesa representa:",
+    "back": "**Gabarito: A.**\n\nO **1º dígito** representa a **categoria econômica**, que classifica a despesa em **3 - Correntes** e **4 - Capital** (MTO 2025).\n\nO item original (CEBRASPE) estava {green:correto}.\n\n| Dígito | Nível |\n|---|---|\n| **1º** | Categoria econômica |\n| 2º | GND |\n| 3º-4º | Modalidade de aplicação |\n| 5º-6º | Elemento |\n| 7º-8º | Subelemento |\n\n- **B** GND.\n- **C** modalidade de aplicação.\n- **D** elemento de despesa.\n- **E** função.",
+    "options": [
+      "A categoria econômica (correntes/de capital)",
+      "O grupo de natureza da despesa (GND)",
+      "A modalidade de aplicação",
+      "O elemento de despesa",
+      "A função de governo"
+    ],
+    "correctOption": "A",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^CEBRASPE • Analista Judiciário/STJ • 2024 • adaptada C/E→A–E^^\n\nSobre o **grupo de natureza de despesa (GND)** e as **inversões financeiras**, é correto afirmar:",
+    "back": "**Gabarito: A.**\n\nO **GND** é representado pelo **2º dígito** (e NÃO pelos 5º/6º, que são o elemento). É um agregador de elementos com as mesmas características quanto ao objeto de gasto.\n\nAlém disso, **softwares** e **planejamento/execução de obra** são **Investimentos** (GND 4), NÃO inversões financeiras. **Inversões** são: aquisição de imóveis/bens **já em uso**, títulos de empresas já constituídas, empréstimos com retorno.\n\nO enunciado original (CEBRASPE) errava ao pôr o GND nos 5º/6º dígitos e classificar software/obra como inversão — {red:errado}.\n\n- **B** põe o GND nos 5º/6º dígitos.\n- **C** classifica software/obra como inversão.\n- **D/E** confundem GND com elemento ou modalidade.",
+    "options": [
+      "O GND é o 2º dígito; softwares e execução de obras são investimentos, não inversões financeiras",
+      "O GND é representado pelos 5º e 6º dígitos do código",
+      "Softwares e execução de obras classificam-se como inversões financeiras",
+      "O GND identifica o objeto de gasto, como o elemento de despesa",
+      "Inversões financeiras compreendem o planejamento e a execução de obras novas"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^CEBRASPE • Analista Judiciário/STJ • 2024 • adaptada C/E→A–E^^\n\nSobre os **quatro últimos dígitos** da natureza da despesa (elemento e subelemento), é correto afirmar:",
+    "back": "**Gabarito: A.**\n\nOs quatro últimos dígitos correspondem ao **elemento** (objeto do gasto: material, serviço, pessoal) e ao **subelemento** (detalhamento técnico).\n\nO enunciado original (CEBRASPE) afirmava que esses dígitos indicariam a **movimentação financeira por cota ou repasse** — {red:errado}: **cotas e repasses** são mecanismos de **execução/programação financeira** (Decreto 93.872/86, arts. 45-49; SIAFI), e **não decorrem** da codificação da natureza da despesa.\n\n- **B** vincula elemento/subelemento a cotas e repasses (erro do enunciado original).\n- **C/D/E** confundem o elemento com modalidade, GND ou com a programação financeira.",
+    "options": [
+      "Indicam o objeto do gasto (elemento) e seu detalhamento (subelemento); cotas e repasses são da execução financeira",
+      "Indicam a movimentação por cota ou repasse na liberação de recursos",
+      "Representam a categoria econômica e o grupo de natureza da despesa",
+      "Correspondem à modalidade de aplicação dos recursos",
+      "Determinam o cronograma de desembolso fixado pelo Tesouro"
+    ],
+    "correctOption": "A",
+    "topicName": "Elemento de Despesa"
+  },
+  {
+    "front": "^^CEBRASPE • Técnico Judiciário/CNJ • 2024 • adaptada C/E→A–E^^\n\nNa execução do CNJ em 2023, o GND **Inversões Financeiras** apresentou valores zerados (empenhado/pago). Conclui-se que:",
+    "back": "**Gabarito: A.**\n\nComo **inversões financeiras** correspondem à **aquisição de imóveis ou bens de capital já em utilização** e a tabela mostra esse GND **zerado**, conclui-se que **não foram realizadas despesas com aquisição de imóveis/bens de capital já em uso**.\n\nO item original (CEBRASPE) estava {green:correto}. (No GND Investimentos houve execução — destinada a obras/equipamentos novos.)\n\n> **Lei nº 4.320/1964, art. 12, §5º, I.** Inversões financeiras: aquisição de imóveis ou de bens de capital **já em utilização**.\n\n- **B** conclui que houve aquisição de bens já em uso (contraria os dados).\n- **C/D/E** confundem investimentos com inversões.",
+    "options": [
+      "Não foram realizadas despesas com aquisição de imóveis ou bens de capital já em utilização",
+      "Houve aquisição de imóveis já em utilização registrada em investimentos",
+      "Os investimentos zerados indicam ausência de obras no exercício",
+      "Inversões e investimentos são sinônimos, logo houve execução",
+      "A aquisição de bens já em uso foi registrada como despesa corrente"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^CEBRASPE • Técnico Judiciário/CNJ • 2024 • adaptada C/E→A–E^^\n\nO valor pago no GND **Investimentos** pelo CNJ está alocado em qual orçamento da LOA?",
+    "back": "**Gabarito: A.**\n\nNo **orçamento fiscal**. O **orçamento de investimentos** da LOA destina-se **especificamente** aos investimentos da **União em estatais independentes** (empresas públicas e sociedades de economia mista com autonomia).\n\nO **CNJ é órgão do Poder Judiciário** (não é estatal), de modo que qualquer investimento por ele realizado é alocado no **orçamento fiscal**, e não no orçamento de investimentos.\n\nO enunciado original (CEBRASPE) afirmava estar no \"orçamento de investimento\" — {red:errado}.\n\n- **B** afirma orçamento de investimentos (erro do enunciado original).\n- **C** orçamento da seguridade social.\n- **D/E** confundem com classificação por GND.",
+    "options": [
+      "No orçamento fiscal, pois o CNJ não é estatal independente",
+      "No orçamento de investimentos das estatais independentes",
+      "No orçamento da seguridade social",
+      "Em orçamento próprio do Poder Judiciário, fora dos três orçamentos da LOA",
+      "No orçamento de investimentos, por ser despesa de capital"
+    ],
+    "correctOption": "A",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^CEBRASPE • INPI • 2024 • adaptada C/E→A–E^^\n\nSobre a **modalidade de aplicação**, é correto afirmar:",
+    "back": "**Gabarito: A.**\n\nA **modalidade de aplicação** indica se os recursos serão aplicados **diretamente** pela unidade detentora do crédito **ou mediante transferência** para entidades públicas/privadas (inclusive sem fins lucrativos). É **informação gerencial** que permite **eliminar a dupla contagem** no orçamento (MCASP 10ª ed.).\n\nO item original (CEBRASPE) estava {green:correto}.\n\n- **B** confunde com elemento (objeto do gasto).\n- **C** confunde com GND.\n- **D** confunde com categoria econômica.\n- **E** confunde com identificador de uso (IDUSO).",
+    "options": [
+      "Indica se os recursos são aplicados diretamente ou por transferência; elimina a dupla contagem",
+      "Identifica o objeto do gasto (material, serviço, pessoal)",
+      "Agrega elementos com as mesmas características de objeto de gasto",
+      "Classifica a despesa em corrente ou de capital",
+      "Indica se os recursos compõem contrapartida nacional de empréstimos ou doações"
+    ],
+    "correctOption": "A",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^CEBRASPE • ISS Mossoró/AFTM • 2024 • adaptada C/E→A–E^^\n\nConforme a Lei 4.320/64, os programas constantes do **Quadro de Recursos e de Aplicação de Capital** serão correlacionados a metas objetivas?",
+    "back": "**Gabarito: A.**\n\nSim, mas a redação correta (art. 25) refere-se aos **programas** constantes do Quadro: \"sempre que possível serão **correlacionados a metas objetivas** em termos de realização de obras e prestação de serviços\".\n\nO enunciado original (CEBRASPE) trocou \"programas\" por \"obras e serviços\" e atribuiu o individualiza das metas ao quadro — {red:errado} (a banca considerou a redação imprecisa).\n\n> **Lei nº 4.320/1964:**\n> **Art. 23.** As receitas e despesas de capital serão objeto de um **Quadro de Recursos e de Aplicação de Capital**, aprovado por decreto, abrangendo no mínimo um **triênio**.\n> **Art. 25.** Os **programas** constantes do Quadro [...] serão correlacionados a metas objetivas.\n\n- **B** repete a redação incorreta do enunciado original.\n- **C/D/E** erram o prazo (triênio) ou o conteúdo do quadro.",
+    "options": [
+      "Sim: os programas do Quadro serão correlacionados a metas objetivas de obras e serviços (art. 25)",
+      "São as obras e serviços que individualizam as metas como resultado de cada projeto",
+      "O Quadro abrange no mínimo um decênio, aprovado por lei",
+      "O Quadro é aprovado por resolução do Legislativo, sem prazo definido",
+      "Os programas do Quadro independem de qualquer correlação com metas"
+    ],
+    "correctOption": "A",
+    "topicName": "Lei 4.320/64 - Despesa"
+  },
+  {
+    "front": "^^IBFC • Analista Judiciário/TRF-5 • 2024^^\n\nO orçamento agrupa despesas e receitas para atender a determinadas necessidades. Assinale a alternativa **INCORRETA** (necessidade que NÃO existe na estruturação oficial):",
+    "back": "**Gabarito: D.**\n\nA expressão \"**da despesa classificatória**\" **não** é utilizada na estruturação oficial do orçamento público → alternativa **incorreta** (gabarito).\n\nAs necessidades reconhecidas são:\n- {green:Do objeto da programação} — detalha a finalidade das despesas (classificações qualitativa/quantitativa).\n- {green:Do processo da programação} — etapas de elaboração, execução e controle.\n- {green:Do acompanhamento e da avaliação} — monitoramento e avaliação de resultados.\n\n- **A/B/C** são necessidades **válidas** (logo, não são a resposta da questão, que pede a incorreta).\n- **E** (distrator) \"Da arrecadação tributária\" também não seria critério, mas a banca elegeu D.",
+    "options": [
+      "Do objeto da programação",
+      "Do processo da programação",
+      "Do acompanhamento e da avaliação",
+      "Da despesa classificatória",
+      "Da arrecadação tributária"
+    ],
+    "correctOption": "D",
+    "topicName": "Estrutura da Programação Orçamentária"
+  },
+  {
+    "front": "^^FGV • EPE • 2024^^\n\nNa despesa **10.39.252.26.XXX.XXXX**, o código \"**252**\" refere-se a(o):",
+    "back": "**Gabarito: A.**\n\nNa estrutura programática (MTO 2024), o código decompõe-se:\n\n| Trecho | Classificador |\n|---|---|\n| 10 | Esfera orçamentária (fiscal) |\n| 39 | Órgão orçamentário |\n| **252** | **Unidade Orçamentária** |\n| 26 | Função |\n| XXX | Subfunção |\n| XXXX | Programa/ação |\n\nLogo, \"252\" = **Unidade Orçamentária**.\n\n- **B** \"Esfera Funcional\" não é classificador.\n- **C** \"Função Institucional\" mistura conceitos.\n- **D** Órgão é o \"39\".\n- **E** \"Estágio Financeiro\" não compõe a estrutura programática.",
+    "options": [
+      "Unidade Orçamentária",
+      "Esfera Funcional",
+      "Função Institucional",
+      "Órgão Administrativo",
+      "Estágio Financeiro"
+    ],
+    "correctOption": "A",
+    "topicName": "Estrutura da Programação Orçamentária"
+  },
+  {
+    "front": "^^FGV • Técnico Judiciário/TRF-1 • 2024^^\n\nPara apurar despesas **aplicadas por outros entes da Federação e suas entidades** (área de cultura), a classificação da despesa a ser consultada é por:",
+    "back": "**Gabarito: D.**\n\nA **modalidade de aplicação** indica se os recursos são aplicados **diretamente** ou **transferidos** a outros entes da Federação e suas entidades. É o critério adequado para **rastrear transferências/aplicações indiretas** (como recursos repassados para ações de cultura em outros entes).\n\n- **A** elemento (objeto do gasto) não identifica o ente aplicador.\n- **B** GND agrega objetos de gasto.\n- **C** IDUSO indica contrapartida de empréstimos/doações.\n- **E** órgão/UO identifica quem detém o crédito, não para quem foi transferido.",
+    "options": [
+      "Elemento de despesa",
+      "Grupo de natureza de despesa",
+      "Identificador de uso",
+      "Modalidade de aplicação",
+      "Órgão e unidade orçamentária"
+    ],
+    "correctOption": "D",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^AOCP • Técnico Judiciário/TRF-2 • 2024^^\n\nSobre a Lei 4.320/64: I) receita em correntes e de capital; II) receitas correntes provêm da constituição de dívidas; III) custeio = manutenção de serviços já criados, inclusive conservação/adaptação de imóveis; IV) subvenções econômicas a entidades assistenciais sem fins lucrativos. Quais corretas?",
+    "back": "**Gabarito: D.**\n\nCorretos **apenas I e III**:\n- **I (Certo)**: receita = Correntes e de Capital (art. 11).\n- **II (Errado)**: receitas da **constituição de dívidas** são de **CAPITAL** (não correntes).\n- **III (Certo)**: custeio = manutenção de serviços já criados, inclusive conservação/adaptação de imóveis (art. 12, §1º).\n- **IV (Errado)**: entidades **assistenciais/culturais sem fins lucrativos** recebem subvenções **SOCIAIS**; econômicas vão a empresas.\n\n- **A** só I (ignora III).\n- **B** só IV (que é errado).\n- **C** II e IV (ambos errados).\n- **E** inclui II e IV (errados).",
+    "options": [
+      "Apenas I",
+      "Apenas IV",
+      "Apenas II e IV",
+      "Apenas I e III",
+      "Apenas II, III e IV"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^FGV • TCE-ES • 2023^^\n\nSobre a **classificação funcional** (Portaria nº 42/1999), considera-se que ela:",
+    "back": "**Gabarito: C.**\n\nPor ser de **aplicação comum e obrigatória** a todos os entes, a classificação funcional **possibilita a consolidação nacional** dos gastos do setor público (agregador por área de ação governamental).\n\n- **A** errada: a estrutura funcional é **fixa e comum**, não depende da definição de programas a cada ciclo do PPA (isso seria a classificação programática).\n- **B** errada: é **obrigatória a todos** os entes (não facultativa a municípios pequenos).\n- **D** errada: classificação baseada na estrutura administrativa é a **institucional**.\n- **E** errada: a **matricialidade** das subfunções é **permitida** (uma despesa pode ser alocada em subfunção de outra função).",
+    "options": [
+      "Depende da definição dos programas e ações em cada ciclo do PPA",
+      "Tem estrutura comum, mas é facultativa a municípios de pequeno porte",
+      "Por ser de aplicação comum, possibilita a consolidação nacional dos gastos do setor público",
+      "Tem as categorias estabelecidas a partir da estrutura administrativa dos entes",
+      "Veda a combinação de subfunções típicas entre diferentes categorias funcionais"
+    ],
+    "correctOption": "C",
+    "topicName": "Classificação Funcional"
+  },
+  {
+    "front": "^^FGV • TCE-ES • 2023^^\n\nPara informar ao cidadão **o que se pretende alcançar** com uma política pública, a classificação da despesa mais apropriada é por:",
+    "back": "**Gabarito: B.**\n\nA classificação por **programas** responde ao questionamento sobre o **alcance/objetivo** de uma política pública (implementação e efetividade) — é a lógica do **orçamento-programa**, que integra planejamento e orçamento.\n\n- **A** função indica em que **área** se atua, não o objetivo.\n- **C** IDUSO indica contrapartida de empréstimos/doações.\n- **D** modalidade de aplicação trata de aplicação direta/transferência.\n- **E** GND agrega objetos de gasto.\n\n> O orçamento-programa enfatiza **realizações**: avalia eficácia (metas) e efetividade (impacto final).",
+    "options": [
+      "Função",
+      "Programas",
+      "Identificador de uso",
+      "Modalidade de aplicação",
+      "Grupo de natureza de despesa"
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Programas"
+  },
+  {
+    "front": "^^FGV • CGE-SC • 2023^^\n\nQual a distinção entre **despesas orçamentárias correntes** e **de capital**?",
+    "back": "**Gabarito: E.**\n\nAs **correntes NÃO contribuem diretamente** para a formação ou aquisição de um bem de capital; as **de capital contribuem diretamente** para essa formação/aquisição (critério econômico).\n\n- **A** errada: a distinção não é prazo (curto/longo).\n- **B** errada: não é intra/intergovernamental.\n- **C** errada: imprecisa (correntes não \"aumentam o resultado\" por definição).\n- **D** errada: inverte — quem se relaciona à **manutenção de serviços** existentes são as **correntes**.\n\n> Giacomoni: as despesas correntes determinam a participação do setor público no **consumo geral** do país.",
+    "options": [
+      "As correntes são de curto prazo; as de capital, de longo prazo",
+      "As correntes são intragovernamentais; as de capital, intergovernamentais",
+      "As correntes aumentam o resultado; as de capital aumentam o patrimônio líquido",
+      "As correntes não se relacionam à manutenção de serviços; as de capital, sim",
+      "As correntes não contribuem diretamente para formar bem de capital; as de capital, sim"
+    ],
+    "correctOption": "E",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^CEBRASPE • TCE-RJ • 2023 • adaptada C/E→A–E^^\n\nSegundo a jurisprudência do STF, a **revisão geral anual da remuneração** dos servidores depende de:",
+    "back": "**Gabarito: A.**\n\nDepende, **cumulativamente**, de **dotação na LOA** e de **previsão na LDO** (interpretação do art. 169, §1º, da CF — STF, RE 905.357).\n\nO item original (CEBRASPE) estava {green:correto}.\n\n> **CF, art. 169, §1º.** A concessão de qualquer vantagem ou aumento de remuneração [...] só poderão ser feitas se houver **prévia dotação orçamentária** suficiente (I) e **autorização específica na LDO** (II).\n\n- **B** exige só a LOA.\n- **C** exige só a LDO.\n- **D** dispensa ambas.\n- **E** condiciona ao PPA.",
+    "options": [
+      "Cumulativamente, de dotação na LOA e de previsão na LDO",
+      "Apenas de dotação na lei orçamentária anual",
+      "Apenas de previsão na lei de diretrizes orçamentárias",
+      "De lei específica, independentemente de previsão na LOA e na LDO",
+      "De previsão no plano plurianual (PPA)"
+    ],
+    "correctOption": "A",
+    "topicName": "Lei 4.320/64 - Despesa"
+  },
+  {
+    "front": "^^CEBRASPE • Planejamento e Orçamento/CG-DF • 2023^^\n\nÀ luz dos princípios orçamentários, assinale a opção correta:",
+    "back": "**Gabarito: C.**\n\nAs **despesas ordinárias e rotineiras** da Administração, **já previstas no orçamento** e destinadas à manutenção de ações preexistentes, **dispensam** as exigências dos incisos I e II do **art. 16 da LRF** (Orientação Normativa AGU 52/2014).\n\n- **A** errada: pelo regime orçamentário, a Lei 4.320/64 (art. 35) usa critério **misto** — receita por **caixa**, despesa por **competência** (empenho).\n- **B** errada: pelo princípio da **universalidade**, a LOA contém **todas** as receitas e despesas (mesmo as irrelevantes têm estimativa).\n- **D** errada: as **emissões de papel-moeda** são entradas compensatórias e **não** integram a LOA (art. 3º, parágrafo único).\n- **E** (distrator) — não há tal regra.",
+    "options": [
+      "As despesas e receitas são registradas pelo regime de competência",
+      "As despesas irrelevantes não precisam de estimativa na peça orçamentária",
+      "As despesas rotineiras e ordinárias já previstas no orçamento dispensam estimativas de impacto orçamentário e financeiro",
+      "As despesas com emissões de papel-moeda devem constar na LOA",
+      "Toda despesa, sem exceção, exige estimativa trienal de impacto"
+    ],
+    "correctOption": "C",
+    "topicName": "Lei 4.320/64 - Despesa"
+  },
+  {
+    "front": "^^VUNESP • TCM-SP • 2023^^\n\nOs núcleos da administração direta e indireta que detalham a proposta orçamentária em **atividades e projetos** denominam-se:",
+    "back": "**Gabarito: C.**\n\nSão as **Unidades Orçamentárias (UOs)** — estruturas organizacionais responsáveis por desdobrar a proposta orçamentária em **atividades e projetos** e por coordenar a elaboração da programação no seu âmbito (MTO 2023).\n\n> **Lei nº 4.320/1964, art. 14.** Constitui unidade orçamentária o **agrupamento de serviços** subordinados ao mesmo órgão a que serão consignadas **dotações próprias**.\n\n- **A/B/D/E** (\"unidades/centros de despesas\", \"centros de custos\", \"centros orçamentários\") não são a denominação legal.",
+    "options": [
+      "Unidades de despesas",
+      "Centros de custos",
+      "Unidades orçamentárias",
+      "Centros de despesas",
+      "Centros orçamentários"
+    ],
+    "correctOption": "C",
+    "topicName": "Estrutura da Programação Orçamentária"
+  },
+  {
+    "front": "^^VUNESP • Pref. Guaratinguetá • 2022^^\n\nComplete (Lei 4.320/64): \"São ______ as dotações para investimentos ou inversões financeiras que outras pessoas de direito público ou privado devam realizar [...], constituindo essas ______, [...] bem como as dotações para ______.\"",
+    "back": "**Gabarito: A.**\n\nReprodução literal do **art. 12, §6º**:\n- 1ª lacuna: **transferências de capital**;\n- 2ª lacuna: **transferências auxílios ou contribuições**;\n- 3ª lacuna: **amortização da dívida pública**.\n\n> **Lei nº 4.320/1964, art. 12, §6º.** São **Transferências de Capital** as dotações para investimentos ou inversões financeiras que outras pessoas [...] devam realizar [...], constituindo essas **transferências auxílios ou contribuições** [...], bem como as dotações para **amortização da dívida pública**.\n\n- **B/C/D/E** trocam a ordem das lacunas ou inserem \"transferências correntes\" (a hipótese é de **capital**).",
+    "options": [
+      "transferências de capital / transferências auxílios ou contribuições / amortização da dívida pública",
+      "transferências auxílios ou contribuições / transferências de capital / amortização da dívida pública",
+      "amortizações de dívida pública / transferências auxílios ou contribuições / transferências de capital",
+      "transferências correntes / amortizações de dívida pública / transferências auxílios ou contribuições",
+      "transferências correntes / transferências auxílios ou contribuições / amortização da dívida pública"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^VUNESP • CM Potim • 2021^^\n\nO registro de \"**como fazer**\" e \"**onde fazer**\" — informações relevantes sobre programas e ações orçamentárias — constará:",
+    "back": "**Gabarito: B.**\n\nEssas informações qualitativas das ações constam do **cadastro de ações** orçamentárias (mantido no SIOP pelas Unidades Orçamentárias e Órgãos Setoriais), no processo de atualização/aperfeiçoamento das ações.\n\n- **A** cadastro de programas trata de objetivos/programas, não do \"como/onde fazer\" da ação.\n- **C** proposta orçamentária é o produto, não o cadastro específico.\n- **D** LDO traz diretrizes/metas.\n- **E** LOA fixa a programação quantitativa.\n\n> A **Proposta Qualitativa** resulta da atualização de atividades, projetos e operações especiais do **cadastro de ações** (MTO 2023).",
+    "options": [
+      "Do cadastro de programas",
+      "Do cadastro de ações",
+      "Da proposta orçamentária",
+      "Da Lei de Diretrizes Orçamentárias",
+      "Da Lei Orçamentária Anual"
+    ],
+    "correctOption": "B",
+    "topicName": "Classificação por Programas"
+  },
+  {
+    "front": "^^CESGRANRIO • EPE • 2014^^\n\n\"É toda transação que depende de autorização legislativa, na forma de consignação de dotação orçamentária, para ser efetivada.\" Essa definição (MCASP) refere-se a:",
+    "back": "**Gabarito: A.**\n\nÉ a definição de **despesa orçamentária** (MCASP, campo conceitual da receita e da despesa).\n\n- **B** dispêndio extraorçamentário **não** depende de dotação/autorização.\n- **C** \"empréstimo vencível antes de 10 meses\" — irrelevante ao conceito.\n- **D** receita extraorçamentária é ingresso de terceiros.\n- **E** receita orçamentária é ingresso previsto na LOA.\n\n> A despesa orçamentária pública é o conjunto de dispêndios dos entes públicos para o funcionamento e manutenção dos serviços públicos, **autorizados pelo Poder competente** na lei orçamentária.",
+    "options": [
+      "Despesa orçamentária",
+      "Dispêndio extraorçamentário",
+      "Empréstimo vencível antes de 10 meses",
+      "Receita extraorçamentária",
+      "Receita orçamentária"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Pública - Conceito"
+  },
+  {
+    "front": "^^CESGRANRIO • Analista de Gestão Corporativa/EPE • 2014^^\n\nDe um total de R$ 180.000 em créditos (computadores, mobiliário, veículos, ar-condicionado, frigobar, micro-ondas, impressoras = capital; material, diárias, passagens, combustível, seguros, limpeza/vigilância, livros, pen-drives, telefonia = corrente), os percentuais de despesas **correntes** e **de capital** são:",
+    "back": "**Gabarito: B.**\n\nClassificando por categoria econômica e somando:\n- **Despesas de capital** (material permanente/equipamentos: computadores, impressoras, mobiliário, veículos, ar-condicionado, frigobar, micro-ondas, pen-drives) = **R$ 107.000** → **59,4%**.\n- **Despesas correntes** (material de expediente, diárias, passagens, combustível, seguros, limpeza/vigilância, livros, telefonia/internet) = **R$ 73.000** → **40,6%**.\n\nTotal R$ 180.000 (100%). Logo, **40,6% e 59,4%** (letra B).\n\n==Dica==: bens de **duração superior a 2 anos** (material permanente) = capital; consumo/serviços = corrente.\n\n- **A/C/D/E** resultam de classificar erradamente algum item (ex.: pen-drive ou livros).",
+    "options": [
+      "40,3% e 59,7%",
+      "40,6% e 59,4%",
+      "38,3% e 61,7%",
+      "40,8% e 59,2%",
+      "39,7% e 60,3%"
+    ],
+    "correctOption": "B",
+    "topicName": "Categoria Econômica da Despesa"
+  },
+  {
+    "front": "^^VUNESP • Diretor de Finanças/Câmara de Jales • 2018^^\n\nAs despesas distinguem-se em **orçamentárias** e **extraorçamentárias** com a finalidade de:",
+    "back": "**Gabarito: C.**\n\nA distinção serve para **identificar movimentações financeiras autorizadas ou não autorizadas na lei orçamentária**: as **orçamentárias** dependem de autorização legislativa (LOA/créditos); as **extraorçamentárias** (devolução de recursos de terceiros) **não** dependem.\n\n- **A** restringe a balanços do exercício.\n- **B** confunde com apuração de déficit/superávit.\n- **D** restringe à programação das despesas.\n- **E** restringe a operações de crédito.",
+    "options": [
+      "Apresentar balanços e demonstrativos restritos ao exercício fiscal",
+      "Evidenciar, ao final de um período, eventuais déficits ou superávits",
+      "Identificar movimentações financeiras autorizadas ou não autorizadas na lei orçamentária",
+      "Permitir analisar a programação das despesas orçamentárias",
+      "Permitir autorização legislativa específica para operações de crédito"
+    ],
+    "correctOption": "C",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^VUNESP • Controlador Interno/IPRESB • 2017^^\n\nÉ exemplo de **despesa extraorçamentária**:",
+    "back": "**Gabarito: D.**\n\nA **devolução, em dinheiro, de cauções** dadas em garantia é **despesa extraorçamentária** — devolve recurso de **terceiro** que apenas transitou pelos cofres públicos.\n\n- **A** amortização da dívida interna = despesa **orçamentária** de capital.\n- **B** aquisição de bens móveis/imóveis = orçamentária (capital).\n- **C** aquisição de ações de sociedade privada = orçamentária (inversão financeira).\n- **E** concessão de empréstimos a estatais = orçamentária (inversão financeira).",
+    "options": [
+      "Amortização da dívida pública interna",
+      "Aquisição de bens móveis e imóveis",
+      "Aquisição de ações de sociedades de direito privado",
+      "Devolução, em dinheiro, de cauções dadas em garantia de contratos",
+      "Concessão de empréstimos a empresas estatais dependentes"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^VUNESP • Controlador Interno/Câmara de Itanhaém • 2017^^\n\nUma prefeitura devolverá R$ 1.000.000 recebidos em **caução** (garantia de proposta, contrato já cumprido). Nesse caso:",
+    "back": "**Gabarito: B.**\n\nA devolução de caução constitui **despesa pública, mas NÃO despesa orçamentária** — é **extraorçamentária** (devolve recurso de terceiro, não consta da LOA e independe de autorização legislativa).\n\n- **A** afirma ser despesa orçamentária do período seguinte.\n- **C** exige juros/correção e previsão na LOA.\n- **D** classifica a caução recebida como receita orçamentária (é receita extraorçamentária).\n- **E** inventa multa por ferir isonomia.\n\n> Caução **recebida** = receita extraorçamentária; caução **devolvida** = despesa extraorçamentária.",
+    "options": [
+      "A devolução constará do orçamento seguinte e será Despesa Orçamentária do período",
+      "A devolução constituirá despesa pública, mas não despesa orçamentária",
+      "A caução será devolvida com juros e correção e constará da LOA do período",
+      "A caução foi receita orçamentária e será devolvida como despesa extraorçamentária",
+      "A caução deverá ser devolvida acrescida de multa e correção como despesa orçamentária"
+    ],
+    "correctOption": "B",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^VUNESP • Analista Financeiro/Câmara de Araras • 2015^^\n\nO grupo econômico de capital (investimentos, inversões, amortização da dívida etc.), **fixado na lei e previamente autorizado**, classifica-se como despesas:",
+    "back": "**Gabarito: A.**\n\nSão **despesas orçamentárias** — fixadas nas leis orçamentárias ou de **créditos adicionais**, em bases legais, **dependentes de autorização legislativa** (dos representantes eleitos).\n\n- **B** extraorçamentárias independem de autorização legislativa.\n- **C** \"tributárias\" não é classificação de despesa.\n- **D** \"derivadas\" é classificação de **receita**.\n- **E** \"mutações econômicas\" não se aplica.",
+    "options": [
+      "Orçamentárias",
+      "Extraorçamentárias",
+      "Tributárias",
+      "Derivadas",
+      "Por mutações econômicas"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesa Orçamentária e Extraorçamentária"
+  },
+  {
+    "front": "^^VUNESP • Analista de Gestão/Pref. São José dos Campos • 2018^^\n\nNa classificação da despesa por natureza, os **quatro primeiros dígitos** correspondem a:",
+    "back": "**Gabarito: E.**\n\nNa natureza da despesa (C.G.MM.EE.SS):\n- 1º dígito: **categoria econômica**;\n- 2º dígito: **GND**;\n- 3º e 4º dígitos: **modalidade de aplicação**.\n\nLogo, os **quatro primeiros dígitos** = **categoria econômica + GND + modalidade de aplicação** (letra E).\n\n- **A/B/C** incluem indevidamente \"elemento\", \"item\" ou \"reserva de contingência\" nos 4 primeiros dígitos.\n- **D** confunde com a descrição das categorias.",
+    "options": [
+      "Categoria econômica, GND, item de despesa e elemento de despesa",
+      "Categoria econômica, GND, modalidade de aplicação e reserva de contingência",
+      "Categoria econômica, GND, modalidade de aplicação e elemento de despesa",
+      "Despesas correntes, despesas de capital, amortizações e reserva de contingência",
+      "Categoria econômica, grupo de natureza da despesa e modalidade de aplicação"
+    ],
+    "correctOption": "E",
+    "topicName": "Classificação por Natureza da Despesa"
+  },
+  {
+    "front": "^^VUNESP • Analista de Suporte/ARSESP • 2018^^\n\nNo conceito do PPA, o grupo de despesas usado para classificar os gastos com **investimentos** é tratado como:",
+    "back": "**Gabarito: E.**\n\nOs **investimentos** são **despesas de capital** (GND 4).\n\n- **A** metas são resultados a alcançar.\n- **B** despesas correntes não abrangem investimentos.\n- **C** diretrizes são orientações.\n- **D** programas são instrumentos de organização da ação governamental.\n\n> Investimentos: dotações para planejamento/execução de obras, equipamentos e material permanente (Lei 4.320/64, art. 12, §4º).",
+    "options": [
+      "Metas",
+      "Despesas correntes",
+      "Diretrizes",
+      "Programas",
+      "Despesas de capital"
+    ],
+    "correctOption": "E",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^VUNESP • Analista de Gestão/Pref. São José dos Campos • 2018^^\n\nSão consideradas **despesas correntes**:",
+    "back": "**Gabarito: D.**\n\nAs **indenizações e restituições** são **despesas correntes** (Outras Despesas Correntes).\n\n- **A** equipamentos e material permanente = **investimentos** (capital).\n- **B** amortização da dívida = capital (GND 6).\n- **C** obras e instalações = investimentos (capital).\n- **E** aquisição de títulos de crédito = inversão financeira (capital).",
+    "options": [
+      "Equipamentos e material permanente",
+      "Amortização da dívida pública",
+      "Obras e instalações",
+      "Indenizações e restituições",
+      "Aquisição de títulos de créditos"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^VUNESP • Analista de Orçamento/Pref. Sertãozinho • 2018^^\n\nSão consideradas **despesas correntes**:",
+    "back": "**Gabarito: A.**\n\nAs despesas com **suprimentos de fundos** (adiantamento) são **despesas correntes**.\n\n- **B** aquisição de títulos de crédito = inversão financeira (capital).\n- **C** amortização da dívida = capital.\n- **D** aquisição de imóveis = capital (investimento/inversão).\n- **E** equipamentos e material permanente = investimentos (capital).\n\n> O **adiantamento/suprimento de fundos** é despesa corrente, ainda que constitua exceção como despesa **não efetiva** (fato permutativo).",
+    "options": [
+      "As despesas com suprimentos de fundos",
+      "A aquisição de títulos de crédito",
+      "As despesas com amortização da dívida",
+      "A aquisição de imóveis",
+      "Os equipamentos e o material permanente"
+    ],
+    "correctOption": "A",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^VUNESP • Diretor Contábil/Câmara de Dois Córregos • 2018^^\n\nNo Balanço Orçamentário, receitas apresentadas por **origem** (impostos, contribuições...) e despesas por seus grandes grupos (Pessoal, Juros, ODC, Investimentos...) correspondem às classificações por:",
+    "back": "**Gabarito: E.**\n\n- As **receitas** foram apresentadas por **espécie** (ex.: impostos, taxas e contribuições de melhoria são espécies; contribuições sociais/econômicas são espécies da origem Contribuições).\n- As **despesas** foram apresentadas por **Grupo de Natureza da Despesa (GND)**: Pessoal e Encargos, Juros e Encargos, Outras Despesas Correntes, Investimentos, Inversões Financeiras e Amortização da Dívida.\n\nLogo: **Espécie e Grupo de Natureza da Despesa** (letra E).\n\n- **A/B/C** dizem receita por \"origem\" (é por espécie) e/ou despesa por categoria/elemento.\n- **D** despesa por categoria econômica (são apenas 2 grupos; aqui há 6 = GND).",
+    "options": [
+      "Origem e Categoria Econômica",
+      "Origem e Elemento de Despesa",
+      "Origem e Grupo de Natureza da Despesa",
+      "Espécie e Categoria Econômica",
+      "Espécie e Grupo de Natureza da Despesa"
+    ],
+    "correctOption": "E",
+    "topicName": "Grupo de Natureza da Despesa (GND)"
+  },
+  {
+    "front": "^^VUNESP • APOFP/Concurso Unificado • 2017^^\n\nDentre empenhos por natureza, a despesa com **investimentos realizada mediante transferências a municípios** corresponde a qual classificação (e valor: 4.4.40.51 = R$ 580.000.000)?",
+    "back": "**Gabarito: C.**\n\nÉ preciso casar dois campos da natureza da despesa:\n- **GND 4 (Investimentos)** → 2º dígito = 4.\n- **Modalidade 40 (Transferências a Municípios)** → 3º e 4º dígitos = 40.\n\nO único código que combina **4 (investimentos) + 40 (transf. municípios)** é **4.4.40.51 = R$ 580.000.000,00**.\n\n- **A (170 mi)** é 4.4.20.42 (modalidade 20 = transf. à União).\n- **B/D** somam códigos com outras modalidades.\n- **E** soma valores de modalidades diferentes (aplicações diretas etc.).",
+    "options": [
+      "R$ 170.000.000,00",
+      "R$ 204.200.000,00",
+      "R$ 580.000.000,00",
+      "R$ 580.730.000,00",
+      "R$ 6.080.000.000,00"
+    ],
+    "correctOption": "C",
+    "topicName": "Modalidade de Aplicação"
+  },
+  {
+    "front": "^^VUNESP • Procurador/Pref. Francisco Morato • 2019^^\n\nAs dotações para investimentos/inversões que outras pessoas devam realizar [...], constituindo auxílios ou contribuições, bem como as dotações para amortização da dívida pública, são (Lei 4.320/64):",
+    "back": "**Gabarito: D.**\n\nSão **Transferências de Capital** (art. 12, §6º) — incluem as dotações para investimentos/inversões a cargo de outras pessoas e as dotações para **amortização da dívida pública**.\n\n> **Lei nº 4.320/1964, art. 12, §6º.** São **Transferências de Capital** as dotações para investimentos ou inversões financeiras que outras pessoas [...] devam realizar [...], bem como as dotações para amortização da dívida pública.\n\n- **A** transferências correntes (são de **capital**).\n- **B/E** subvenções (sociais/econômicas) são correntes.\n- **C** \"transferências de custeio\" não existe.",
+    "options": [
+      "Transferências correntes",
+      "Subvenções sociais",
+      "Transferências de custeio",
+      "Transferências de capital",
+      "Subvenções econômicas"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^VUNESP • Encarregado de Licitações/UNIFAI • 2019^^\n\nEm relação à classificação da despesa (Lei 4.320/64), é correto afirmar:",
+    "back": "**Gabarito: D.**\n\nConsideram-se **subvenções** as transferências para cobrir despesas de **custeio** das entidades beneficiadas, distinguindo-se as **econômicas** (empresas de caráter industrial, comercial, agrícola ou pastoril) das sociais (art. 12, §3º).\n\n- **A** errada: investimentos são para empresas que **não** sejam de caráter comercial/financeiro (a alternativa inverteu).\n- **B** errada: transferências correntes são dotações às quais **NÃO** corresponda contraprestação direta, inclusive a entidades de direito **privado** (a alternativa vedou o privado).\n- **C** errada: custeio é manutenção de serviços **já criados** (não \"criação\").\n- **E** errada: inversão financeira é aquisição de títulos de empresas **já constituídas** quando a operação **não importe** aumento de capital.",
+    "options": [
+      "Investimentos incluem o aumento de capital de empresas de caráter comercial ou financeiro",
+      "Transferências correntes correspondem a despesas com contraprestação direta, vedada a entidades privadas",
+      "Despesas de custeio são dotações para criação de serviços destinadas a instituições privadas",
+      "Subvenções cobrem despesas de custeio; as econômicas destinam-se a empresas industriais/comerciais/agrícolas/pastoris",
+      "Inversões financeiras incluem aquisição de títulos com aumento de capital de sociedade anônima"
+    ],
+    "correctOption": "D",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^VUNESP • Encarregado de Licitações/UNIFAI • 2019^^\n\nEm relação às despesas de capital, considera-se **inversão financeira**:",
+    "back": "**Gabarito: C.**\n\nA **constituição de fundos rotativos** é **inversão financeira** (despesa de capital).\n\n- **A** subvenções econômicas = transferências **correntes**.\n- **B** amortização da dívida pública = **transferência de capital**.\n- **D** serviços em regime de programação especial = **investimentos**.\n- **E** subvenções sociais = transferências **correntes**.\n\n> Inversões financeiras envolvem aquisição de bens/títulos **já existentes** ou aplicações financeiras que não geram novo produto (não incrementam o PIB).",
+    "options": [
+      "Subvenções Econômicas",
+      "Amortização da Dívida Pública",
+      "Constituição de Fundos Rotativos",
+      "Serviços em Regime de Programação Especial",
+      "Subvenções Sociais"
+    ],
+    "correctOption": "C",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^VUNESP • Procurador/Câmara de Indaiatuba • 2018^^\n\nDe acordo com a Lei 4.320/64, são **despesas correntes**:",
+    "back": "**Gabarito: B.**\n\nSão **despesas correntes** as **despesas de custeio** e as **transferências correntes** (art. 12, caput).\n\n- **A** inclui investimentos (capital).\n- **C** inversões + investimentos = capital.\n- **D** inclui inversões financeiras (capital).\n- **E** inclui transferências de capital.\n\n> **Lei nº 4.320/1964, art. 12, caput.** Despesas Correntes: **Despesas de Custeio** e **Transferências Correntes**.",
+    "options": [
+      "Despesas de custeio e os investimentos",
+      "Despesas de custeio e as transferências correntes",
+      "Inversões financeiras e os investimentos",
+      "Inversões financeiras e as transferências correntes",
+      "As transferências de capital e as transferências correntes"
+    ],
+    "correctOption": "B",
+    "topicName": "Despesas Correntes e de Capital (Lei 4.320/64)"
+  },
+  {
+    "front": "^^VUNESP • Analista Legislativo/Câmara de São José dos Campos • 2018^^\n\n\"Subvenções Sociais\" (R$ 950.000) e \"Subvenções Econômicas\" (R$ 780.000) classificam-se, respectivamente, como despesas (Lei 4.320/64):",
+    "back": "**Gabarito: C.**\n\nAmbas as subvenções (sociais e econômicas) são **despesas Correntes → Transferências Correntes**.\n\nLogo: **Correntes-Transferências Correntes** e **Correntes-Transferências Correntes** (letra C).\n\n> **Lei nº 4.320/1964, art. 12, §§ 2º e 3º.** As subvenções (sociais e econômicas) integram as **transferências correntes** (despesa corrente).\n\n- **A/B/D/E** classificam alguma subvenção como despesa de **capital** (transferência de capital ou inversão), o que está errado.",
+    "options": [
+      "De Capital–Transferências de Capital e De Capital–Inversões Financeiras",
+      "De Capital–Transferências de Capital e Correntes–Transferências Correntes",
+      "Correntes–Transferências Correntes e Correntes–Transferências Correntes",
+      "Correntes–Transferências Correntes e De Capital–Transferências de Capital",
+      "Correntes–Despesas de Custeio e De Capital–Inversões Financeiras"
+    ],
+    "correctOption": "C",
+    "topicName": "Subvenções"
+  },
+  {
+    "front": "^^VUNESP • Controlador Interno/Câmara de Indaiatuba • 2018^^\n\nSão classificadas como **despesas de capital**:",
+    "back": "**Gabarito: D.**\n\nAs **inversões financeiras** são **despesas de capital**.\n\n- **A** transferências de tributos a outro ente = transferências **correntes** (em regra).\n- **B** subvenções econômicas = correntes.\n- **C** transferências a instituições privadas sem fins lucrativos (subvenções) = correntes.\n- **E** **juros** da dívida fundada = corrente (só a amortização é capital).\n\n> **Lei nº 4.320/1964, art. 12, caput.** Despesas de Capital: investimentos, inversões financeiras e transferências de capital.",
+    "options": [
+      "As transferências de tributos para outro ente público",
+      "As subvenções econômicas",
+      "As transferências para instituições privadas sem fins lucrativos",
+      "As inversões financeiras",
+      "As decorrentes dos juros pagos sobre a dívida pública fundada"
+    ],
+    "correctOption": "D",
+    "topicName": "Despesas de Capital (Lei 4.320/64)"
+  }
+]
