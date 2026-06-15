@@ -219,10 +219,10 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                         </button>
                         <button
                            onClick={() => {
-                               const toDelete = Array.from(selectedIds).map(id => {
-                                   const card = allCards.find(c => c.id === id);
-                                   return { id: card?.id as string, deckId: card?.deckId as string };
-                               }).filter(c => c.id);
+                               const toDelete = Array.from(selectedIds)
+                                   .map(id => allCards.find(c => c.id === id))
+                                   .filter((c): c is Flashcard => Boolean(c))
+                                   .map(c => ({ id: c.id, deckId: c.deckId }));
                                setConfirmDeleteModal({isOpen: true, cardsToDelete: toDelete, message: `Deseja realmente excluir ${selectedIds.size} flashcard(s)?`});
                            }}
                            className="flex items-center text-xs bg-rose-100 text-rose-700 px-2 py-1 rounded hover:bg-rose-200 transition-colors"
