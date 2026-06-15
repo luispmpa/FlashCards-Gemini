@@ -80,7 +80,7 @@ export const isSimilarTopic = (nameA: string, nameB: string, subjectName?: strin
   
   const stopwords = new Set([
       'e', 'o', 'a', 'os', 'as', 'de', 'do', 'da', 'dos', 'das', 'em', 'um', 'uma', 'no', 'na', 'nos', 'nas', 
-      'para', 'com', 'por', 'sobre', 'sob', 'art', 'artigo', 'lei', 'decreto', 'regulamento', 'poker',
+      'para', 'com', 'por', 'sobre', 'sob', 'art', 'artigo', 'lei', 'decreto', 'regulamento',
       'geral', 'basico', 'introducao', 'teoria', 'questoes', 'questao', 'n', 'no', 'num', 'numero',
       'principios', 'conceitos', 'fundamentos', 'noções', 'nocoes', 'normas', 'aspectos'
   ]);
