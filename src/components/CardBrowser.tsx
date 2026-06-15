@@ -219,10 +219,10 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                         </button>
                         <button
                            onClick={() => {
-                               const toDelete = Array.from(selectedIds).map(id => {
-                                   const card = allCards.find(c => c.id === id);
-                                   return { id: card?.id as string, deckId: card?.deckId as string };
-                               }).filter(c => c.id);
+                               const toDelete = Array.from(selectedIds)
+                                   .map(id => allCards.find(c => c.id === id))
+                                   .filter((c): c is Flashcard => Boolean(c))
+                                   .map(c => ({ id: c.id, deckId: c.deckId }));
                                setConfirmDeleteModal({isOpen: true, cardsToDelete: toDelete, message: `Deseja realmente excluir ${selectedIds.size} flashcard(s)?`});
                            }}
                            className="flex items-center text-xs bg-rose-100 text-rose-700 px-2 py-1 rounded hover:bg-rose-200 transition-colors"
@@ -378,8 +378,8 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
 
        {editingCard && (
            <div className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-               <div className="bg-white rounded-xl shadow-xl max-w-2xl w-full p-6 space-y-6 flex flex-col max-h-full relative">
-                   <h3 className="text-xl font-bold text-slate-800">Editar Flashcard</h3>
+               <div role="dialog" aria-modal="true" aria-labelledby="edit-card-title" className="bg-white rounded-xl shadow-xl max-w-2xl w-full p-6 space-y-6 flex flex-col max-h-full relative">
+                   <h3 id="edit-card-title" className="text-xl font-bold text-slate-800">Editar Flashcard</h3>
                    <div className="space-y-4 overflow-y-auto">
                        <div>
                           <label className="block text-sm font-medium text-slate-700 mb-1 flex justify-between">
@@ -435,9 +435,9 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
 
        {confirmDeleteModal.isOpen && (
            <div className="fixed inset-0 bg-slate-900/60 flex items-center justify-center p-4 z-[999] backdrop-blur-sm">
-               <div className="bg-white rounded-2xl max-w-sm w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+               <div role="dialog" aria-modal="true" aria-labelledby="confirm-delete-title" className="bg-white rounded-2xl max-w-sm w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
                    <div className="p-6 text-center whitespace-pre-wrap">
-                       <h3 className="text-lg font-bold text-slate-900 mb-2">Confirmar Exclusão</h3>
+                       <h3 id="confirm-delete-title" className="text-lg font-bold text-slate-900 mb-2">Confirmar Exclusão</h3>
                        <p className="text-sm text-slate-600 mb-6">{confirmDeleteModal.message}</p>
                        <div className="flex justify-end space-x-3">
                            <button 

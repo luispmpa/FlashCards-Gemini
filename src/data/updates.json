@@ -232,5 +232,65 @@
     ],
     "commit": "8cb73d8",
     "status": "applied"
+  },
+  {
+    "id": "c6d87a07-7d67-4764-b9b0-88439d374282",
+    "date": "2026-06-15T00:00:00.000Z",
+    "category": "ux",
+    "title": "Logo do Google em SVG embutido na tela de login",
+    "description": "A tela de login baixava o logo do Google de https://www.google.com/favicon.ico via <img>. Substituído por um SVG inline do logo oficial, removendo uma requisição de rede a terceiros (privacidade), garantindo que o logo apareça mesmo offline ou com o domínio bloqueado e evitando o pequeno layout shift enquanto a imagem carregava.",
+    "files": [
+      "src/App.tsx"
+    ],
+    "commit": "0f6a3d2",
+    "status": "applied"
+  },
+  {
+    "id": "d9740bde-20a1-4385-b680-7b7390519309",
+    "date": "2026-06-15T00:00:00.000Z",
+    "category": "refactor",
+    "title": "Remover cast inseguro na exclusão em lote de flashcards",
+    "description": "Na exclusão de cards selecionados, a lista era montada com card?.id as string e card?.deckId as string, afirmando ao TypeScript um tipo string mesmo quando o find() não encontrava o card (retornando undefined). Reescrito com um type guard (c is Flashcard) que descarta entradas indefinidas antes de montar os objetos, eliminando a asserção de tipo enganosa sem alterar o comportamento.",
+    "files": [
+      "src/components/CardBrowser.tsx"
+    ],
+    "commit": "87853ba",
+    "status": "applied"
+  },
+  {
+    "id": "d7c42709-efd1-4bb6-9ec0-d6d412c42740",
+    "date": "2026-06-15T00:00:00.000Z",
+    "category": "a11y",
+    "title": "Modais do CardBrowser como diálogos acessíveis",
+    "description": "Os modais de \"Editar Flashcard\" e de \"Confirmar Exclusão\" eram apenas divs visuais, sem semântica de diálogo. Adicionados role=\"dialog\", aria-modal=\"true\" e aria-labelledby associando cada modal ao seu título, para que leitores de tela anunciem o diálogo e seu nome, seguindo o padrão já adotado no ReportProblemModal.",
+    "files": [
+      "src/components/CardBrowser.tsx"
+    ],
+    "commit": "cfd0ac2",
+    "status": "applied"
+  },
+  {
+    "id": "c471c926-c6cb-4b48-9f62-60c17fab904c",
+    "date": "2026-06-15T00:00:00.000Z",
+    "category": "refactor",
+    "title": "Remover stopword inválida \"poker\" em topicUtils",
+    "description": "A lista de stopwords usada na comparação de similaridade de tópicos continha \"poker\", um resíduo acidental no contexto de um app de concursos (ao lado de \"art\", \"lei\", \"decreto\"). A entrada nunca ocorre no domínio e apenas poluía a lista; removida para manter o conjunto coerente, sem impacto no comportamento real de correspondência.",
+    "files": [
+      "src/lib/topicUtils.ts"
+    ],
+    "commit": "d29297d",
+    "status": "applied"
+  },
+  {
+    "id": "515aeac2-a1b3-4d19-a122-fa561874f411",
+    "date": "2026-06-15T00:00:00.000Z",
+    "category": "tests",
+    "title": "Cobertura de testes para o utilitário cn()",
+    "description": "O helper cn() (clsx + tailwind-merge), usado amplamente nos componentes, não tinha testes. Adicionados casos cobrindo junção simples de classes, descarte de valores falsy (classes condicionais), objeto de condições e a resolução de conflitos do tailwind-merge (a última classe vence), protegendo esse utilitário central contra regressões.",
+    "files": [
+      "src/lib/utils.test.ts"
+    ],
+    "commit": "32c4b18",
+    "status": "applied"
   }
 ]
