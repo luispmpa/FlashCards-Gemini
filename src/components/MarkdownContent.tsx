@@ -86,15 +86,15 @@ function remarkInlineFormatting() {
   };
 }
 
-// Converte referências {{alias}} presentes em nós de texto em nós "span"
-// marcados com data-kb-alias, para que sejam renderizados como chips clicáveis.
+// Converte referências (\alias ou {{alias}}) presentes em nós de texto em nós
+// "span" marcados com data-kb-alias, renderizados como chips clicáveis.
 function remarkKnowledgeRefs() {
   return (tree: any) => {
     const visit = (node: any) => {
       if (!node?.children) return;
 
       node.children = node.children.flatMap((child: any) => {
-        if (child.type !== 'text' || child.value.indexOf('{{') === -1) {
+        if (child.type !== 'text' || (child.value.indexOf('{{') === -1 && child.value.indexOf('\\') === -1)) {
           visit(child);
           return [child];
         }

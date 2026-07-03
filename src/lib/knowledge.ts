@@ -11,11 +11,16 @@ import {
 // testes e manter baixo acoplamento com a UI e com o Firestore.
 // ============================================================================
 
-// Formato canônico de referência dentro de um flashcard: {{alias}}.
-// Escolhido por ser inequívoco e não colidir com a sintaxe Markdown (onde "#"
-// já significa cabeçalho). Aceita um "#" opcional interno ({{#fumus}}) para
-// conforto de quem digita, mas o alias é sempre normalizado sem o "#".
-const REFERENCE_TOKEN = /\{\{\s*#?([\p{L}\p{N}_-]+)\s*\}\}/gu;
+// Formatos de referência dentro de um flashcard:
+//   1. \alias        -> formato principal (barra + apelido, sem fechamento).
+//                       Termina no primeiro caractere que não seja letra,
+//                       dígito, "_" ou "-" (espaço, pontuação etc.).
+//   2. {{alias}}     -> formato legado, mantido por compatibilidade.
+// Ambos aceitam um "#" opcional logo após o gatilho; o alias é sempre
+// normalizado sem o "#". No formato "\", o alias precisa começar com letra ou
+// dígito, evitando conflito com escapes do Markdown (ex.: "\_", "\-").
+const REFERENCE_TOKEN =
+  /\{\{\s*#?([\p{L}\p{N}_-]+)\s*\}\}|\\#?([\p{L}\p{N}][\p{L}\p{N}_-]*)/gu;
 
 /**
  * Normaliza um alias para a forma canônica usada como chave única no sistema:
@@ -43,7 +48,7 @@ export function extractReferences(text: string): string[] {
   const found: string[] = [];
   const seen = new Set<string>();
   for (const match of text.matchAll(REFERENCE_TOKEN)) {
-    const alias = normalizeAlias(match[1]);
+    const alias = normalizeAlias(match[1] ?? match[2] ?? "");
     if (alias && !seen.has(alias)) {
       seen.add(alias);
       found.push(alias);
@@ -274,7 +279,7 @@ export function segmentText(text: string): TextSegment[] {
     if (start > lastIndex) {
       segments.push({ type: "text", value: text.slice(lastIndex, start) });
     }
-    segments.push({ type: "reference", value: normalizeAlias(match[1]) });
+    segments.push({ type: "reference", value: normalizeAlias(match[1] ?? match[2] ?? "") });
     lastIndex = start + match[0].length;
   }
   if (lastIndex < text.length) {

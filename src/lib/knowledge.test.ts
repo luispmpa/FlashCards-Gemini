@@ -64,6 +64,25 @@ describe("extractReferences", () => {
     expect(extractReferences(text)).toEqual(["fumus", "competencia"]);
   });
 
+  it("extracts \\alias tokens ending at non-alias chars", () => {
+    expect(extractReferences("Veja \\fumus, \\tutela_urgencia e \\competencia.")).toEqual([
+      "fumus",
+      "tutela_urgencia",
+      "competencia",
+    ]);
+  });
+
+  it("supports an optional # after the backslash", () => {
+    expect(extractReferences("Ref \\#Fumus aqui")).toEqual(["fumus"]);
+  });
+
+  it("mixes both formats and de-duplicates across them", () => {
+    expect(extractReferences("{{fumus}} e \\fumus e \\competencia")).toEqual([
+      "fumus",
+      "competencia",
+    ]);
+  });
+
   it("returns empty for text without references", () => {
     expect(extractReferences("nada aqui #naoconta")).toEqual([]);
     expect(extractReferences("")).toEqual([]);
@@ -85,6 +104,14 @@ describe("segmentText", () => {
     expect(segs).toEqual([
       { type: "reference", value: "a" },
       { type: "reference", value: "b" },
+    ]);
+  });
+
+  it("splits \\alias references and keeps surrounding text", () => {
+    expect(segmentText("A \\fumus B")).toEqual([
+      { type: "text", value: "A " },
+      { type: "reference", value: "fumus" },
+      { type: "text", value: " B" },
     ]);
   });
 });
