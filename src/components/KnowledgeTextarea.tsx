@@ -52,6 +52,7 @@ export function KnowledgeTextarea({
 }: KnowledgeTextareaProps) {
   const ref = useRef<HTMLTextAreaElement>(null);
   const [open, setOpen] = useState(false);
+  const [dropUp, setDropUp] = useState(false);
   const [suggestions, setSuggestions] = useState<AliasSuggestion[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const triggerRef = useRef<{ start: number; query: string; form: TriggerForm } | null>(null);
@@ -68,6 +69,10 @@ export function KnowledgeTextarea({
     const sugg = suggestAliases(items, trig.query, 8);
     setSuggestions(sugg);
     setActiveIndex(0);
+    // Abre para cima quando não há espaço suficiente abaixo (ex.: campo Verso,
+    // mais embaixo no modal), evitando que a lista de sugestões fique cortada.
+    const rect = el.getBoundingClientRect();
+    setDropUp(window.innerHeight - rect.bottom < 288);
     setOpen(sugg.length > 0);
   }, [value, items]);
 
@@ -132,7 +137,10 @@ export function KnowledgeTextarea({
       {open && (
         <ul
           role="listbox"
-          className="absolute left-0 right-0 z-30 mt-1 max-h-64 overflow-y-auto rounded-lg border border-slate-200 bg-white shadow-lg"
+          className={cn(
+            'absolute left-0 right-0 z-30 max-h-64 overflow-y-auto rounded-lg border border-slate-200 bg-white shadow-lg',
+            dropUp ? 'bottom-full mb-1' : 'top-full mt-1'
+          )}
         >
           {suggestions.map((s, i) => (
             <li key={`${s.item.id}-${s.alias}`} role="option" aria-selected={i === activeIndex}>
