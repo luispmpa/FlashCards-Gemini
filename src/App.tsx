@@ -1,21 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { Dashboard } from './components/Dashboard';
 import { StudyView } from './components/StudyView';
 import { DeckManager } from './components/DeckManager';
 import { CardBrowser, CardBrowserFilter } from './components/CardBrowser';
-import { Deck, Flashcard, ReviewLog } from './types';
+import { Deck, Flashcard, ReviewLog, KnowledgeItem, KnowledgeCategory } from './types';
 import { v4 as uuidv4 } from "uuid";
 import { createInitialFSRSData } from './lib/fsrs';
 import { SettingsView } from './components/SettingsView';
 import { Search, Loader2, Menu } from 'lucide-react';
 import { auth, loginWithGoogle, logout } from './firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
-import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb, clearAllCardsAndLogs } from './db';
+import { subscribeToDecks, subscribeToCards, saveDeckToDb, saveCardsBatchToDb, updateCardInDb, deleteCardFromDb, deleteDeckCascade, subscribeToReviewLogs, saveReviewLogInDb, clearAllCardsAndLogs, subscribeToKnowledgeItems, subscribeToKnowledgeCategories, saveKnowledgeItemToDb, updateKnowledgeItemInDb, deleteKnowledgeItemFromDb, saveKnowledgeCategoryToDb, updateKnowledgeCategoryInDb, deleteKnowledgeCategoryFromDb } from './db';
 import { isSimilarTopic } from './lib/topicUtils';
+import { buildAliasIndex, computeBacklinks } from './lib/knowledge';
 import { ReviewHistory } from './components/ReviewHistory';
 import { UpdatesView } from './components/UpdatesView';
 import { ReportProblemModal } from './components/ReportProblemModal';
+import { KnowledgeBase } from './components/KnowledgeBase';
+import { KnowledgeViewerModal } from './components/KnowledgeViewerModal';
+import { KnowledgeContext } from './components/KnowledgeContext';
 
 interface NavigationState {
   view: string;
@@ -29,6 +33,9 @@ export default function App() {
   const [decks, setDecks] = useState<Deck[]>([]);
   const [cards, setCards] = useState<Record<string, Flashcard[]>>({});
   const [reviewLogs, setReviewLogs] = useState<ReviewLog[]>([]);
+  const [knowledgeItems, setKnowledgeItems] = useState<KnowledgeItem[]>([]);
+  const [knowledgeCategories, setKnowledgeCategories] = useState<KnowledgeCategory[]>([]);
+  const [viewingKnowledgeId, setViewingKnowledgeId] = useState<string | null>(null);
   const [globalSearch, setGlobalSearch] = useState("");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
@@ -52,21 +59,34 @@ export default function App() {
       let unSubDecks: () => void;
       let unSubCards: () => void;
       let unSubLogs: () => void;
+      let unSubKnowledge: () => void;
+      let unSubCategories: () => void;
       if (user) {
           unSubDecks = subscribeToDecks(user.uid, setDecks);
           unSubCards = subscribeToCards(user.uid, setCards);
           unSubLogs = subscribeToReviewLogs(user.uid, setReviewLogs);
+          unSubKnowledge = subscribeToKnowledgeItems(user.uid, setKnowledgeItems);
+          unSubCategories = subscribeToKnowledgeCategories(user.uid, setKnowledgeCategories);
       } else {
           setDecks([]);
           setCards({});
           setReviewLogs([]);
+          setKnowledgeItems([]);
+          setKnowledgeCategories([]);
       }
       return () => {
           if (unSubDecks) unSubDecks();
           if (unSubCards) unSubCards();
           if (unSubLogs) unSubLogs();
+          if (unSubKnowledge) unSubKnowledge();
+          if (unSubCategories) unSubCategories();
       };
   }, [user]);
+
+  // Índice de aliases e backlinks derivados do Acervo + flashcards. Recalculados
+  // só quando itens/cards mudam — O(n) e suficiente para milhares de registros.
+  const aliasIndex = useMemo(() => buildAliasIndex(knowledgeItems), [knowledgeItems]);
+  const backlinks = useMemo(() => computeBacklinks(cards, aliasIndex), [cards, aliasIndex]);
 
   const handleLogin = async () => {
       setIsLoggingIn(true);
@@ -259,6 +279,30 @@ export default function App() {
       }
   };
 
+  // ----- Acervo de Conhecimento -----
+  const handleSaveKnowledgeItem = async (item: KnowledgeItem) => {
+      if (user) await saveKnowledgeItemToDb(user.uid, item);
+  };
+  const handleUpdateKnowledgeItem = async (item: KnowledgeItem) => {
+      if (user) await updateKnowledgeItemInDb(user.uid, item);
+  };
+  const handleDeleteKnowledgeItem = async (itemId: string) => {
+      if (user) await deleteKnowledgeItemFromDb(user.uid, itemId);
+  };
+  const handleSaveKnowledgeCategory = async (cat: KnowledgeCategory) => {
+      if (user) await saveKnowledgeCategoryToDb(user.uid, cat);
+  };
+  const handleUpdateKnowledgeCategory = async (cat: KnowledgeCategory) => {
+      if (user) await updateKnowledgeCategoryInDb(user.uid, cat);
+  };
+  const handleDeleteKnowledgeCategory = async (catId: string) => {
+      if (user) await deleteKnowledgeCategoryFromDb(user.uid, catId);
+  };
+  const handleOpenCardFromKnowledge = (cardId: string) => {
+      setViewingKnowledgeId(null);
+      handleNavigate('study', undefined, cardId);
+  };
+
   if (authLoading) {
       return (
           <div className="min-h-[100dvh] bg-slate-50 flex items-center justify-center">
@@ -304,9 +348,12 @@ export default function App() {
       );
   }
 
+  const viewingKnowledgeItem = viewingKnowledgeId ? knowledgeItems.find(i => i.id === viewingKnowledgeId) : null;
+
   return (
+   <KnowledgeContext.Provider value={{ aliasIndex, onOpenKnowledge: setViewingKnowledgeId }}>
     <div className="flex h-[100dvh] bg-slate-50 overflow-hidden font-sans">
-      <Sidebar 
+      <Sidebar
         currentView={navState.view} 
         onChangeView={(v) => handleNavigate(v)} 
         isMobileOpen={isMobileMenuOpen}
@@ -375,7 +422,21 @@ export default function App() {
          <div className="flex-1 overflow-y-auto">
              {navState.view === 'dashboard' && <Dashboard cards={cards} decks={decks} logs={reviewLogs} onNavigate={handleNavigate} />}
              {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} targetCardIds={navState.studyCardIds} onFinishStudy={() => handleNavigate('browser', navState.filter)} />}
-             {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} onStudyCards={(ids) => handleNavigate('study', navState.filter, undefined, ids)} initialFilter={navState.filter} /> }
+             {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} onStudyCards={(ids) => handleNavigate('study', navState.filter, undefined, ids)} initialFilter={navState.filter} knowledgeItems={knowledgeItems} /> }
+             {navState.view === 'acervo' && (
+                 <KnowledgeBase
+                   items={knowledgeItems}
+                   categories={knowledgeCategories}
+                   backlinks={backlinks}
+                   onSaveItem={handleSaveKnowledgeItem}
+                   onUpdateItem={handleUpdateKnowledgeItem}
+                   onDeleteItem={handleDeleteKnowledgeItem}
+                   onSaveCategory={handleSaveKnowledgeCategory}
+                   onUpdateCategory={handleUpdateKnowledgeCategory}
+                   onDeleteCategory={handleDeleteKnowledgeCategory}
+                   onOpenCard={handleOpenCardFromKnowledge}
+                 />
+             )}
              {navState.view === 'decks' && <DeckManager decks={decks} cards={cards} onAddDeck={handleAddDeck} onDeleteDeck={handleDeleteDeck} onDeleteDecks={handleDeleteDecks} onImportCards={handleImportCards} onNavigate={handleNavigate} />}
              {navState.view === 'history' && <ReviewHistory logs={reviewLogs} />}
              {navState.view === 'updates' && <UpdatesView />}
@@ -390,7 +451,20 @@ export default function App() {
          </div>
 
          <ReportProblemModal isOpen={reportModalOpen} onClose={() => setReportModalOpen(false)} />
+
+         {viewingKnowledgeItem && (
+             <KnowledgeViewerModal
+                 item={viewingKnowledgeItem}
+                 categories={knowledgeCategories}
+                 allItems={knowledgeItems}
+                 backlinks={backlinks.get(viewingKnowledgeItem.id) || []}
+                 onClose={() => setViewingKnowledgeId(null)}
+                 onOpenItem={(id) => setViewingKnowledgeId(id)}
+                 onOpenCard={(cardId) => handleOpenCardFromKnowledge(cardId)}
+             />
+         )}
       </main>
     </div>
+   </KnowledgeContext.Provider>
   );
 }

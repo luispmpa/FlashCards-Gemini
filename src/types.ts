@@ -111,3 +111,80 @@ export interface ReviewLog {
   newState: FSRSState;
   reviewedAt: Date;
 }
+
+// ============================================================================
+// Acervo de Conhecimento (Knowledge Base)
+// ----------------------------------------------------------------------------
+// Repositório centralizado de conteúdos de apoio (mnemônicos, mapas mentais,
+// tabelas, resumos, jurisprudência etc.) reutilizáveis por múltiplos flashcards.
+// Os flashcards NÃO duplicam esse conteúdo: apenas o referenciam por um alias
+// no formato {{alias}}. Alterar um item do Acervo reflete automaticamente em
+// todos os flashcards que o referenciam.
+//
+// A modelagem é deliberadamente preparada para evoluções futuras com IA
+// (busca semântica, sugestões, deduplicação). Campos reservados para esses
+// recursos são opcionais e NÃO são preenchidos/consumidos pela UI atual — ver
+// KnowledgeItem.embedding / aiMeta. Isso permite adicioná-los sem refatoração.
+// ============================================================================
+
+// Tipos de anexo suportados. A lista é intencionalmente aberta ("file" cobre
+// qualquer novo formato) para permitir novos tipos sem alterar a modelagem.
+export type KnowledgeAttachmentKind = "image" | "pdf" | "file";
+
+export interface KnowledgeAttachment {
+  id: string;
+  kind: KnowledgeAttachmentKind;
+  mimeType: string; // ex.: "image/png", "application/pdf"
+  name: string; // nome de exibição do arquivo
+  url: string; // URL hospedada do arquivo
+  size?: number; // bytes (opcional)
+}
+
+// Extensões de arquivo aceitas inicialmente para anexos. Ampliar esta lista é
+// suficiente para habilitar novos formatos — nenhuma outra mudança é exigida.
+export const ACCEPTED_ATTACHMENT_EXTENSIONS = [
+  "png",
+  "jpg",
+  "jpeg",
+  "webp",
+  "gif",
+  "svg",
+  "pdf",
+] as const;
+
+export interface KnowledgeCategory {
+  id: string;
+  name: string;
+  color?: string; // cor opcional para identificação visual
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface KnowledgeItem {
+  id: string;
+  title: string;
+  description?: string;
+  categoryId?: string;
+  content: string; // texto rico em Markdown
+  aliases: string[]; // apelidos únicos no sistema (normalizados, sem "#")
+  attachments: KnowledgeAttachment[];
+  relatedIds: string[]; // relacionamentos manuais com outros itens
+  parentId?: string; // organização hierárquica (índice em árvore)
+  createdAt: Date;
+  updatedAt: Date;
+
+  // ----- Reservado para evoluções futuras com IA (não usado hoje) -----
+  // Vetor de embedding para busca semântica. Mantido opcional para que a
+  // geração possa ser adicionada depois sem migração de dados.
+  embedding?: number[];
+  // Metadados livres gerados por IA (sugestões, deduplicação etc.).
+  aiMeta?: Record<string, unknown>;
+}
+
+// Referência resolvida de um flashcard para um item do Acervo. Usada para
+// exibir backlinks ("Utilizado em: Flashcard X, Y, Z").
+export interface KnowledgeBacklink {
+  cardId: string;
+  deckId: string;
+  cardFront: string;
+}
