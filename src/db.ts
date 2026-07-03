@@ -1,6 +1,6 @@
-import { collection, doc, setDoc, updateDoc, deleteDoc, onSnapshot, query, serverTimestamp, orderBy, writeBatch, getDocs, where, limit as fbLimit, Timestamp, QueryDocumentSnapshot, DocumentData } from 'firebase/firestore';
+import { collection, doc, setDoc, updateDoc, deleteDoc, deleteField, onSnapshot, query, serverTimestamp, orderBy, writeBatch, getDocs, where, limit as fbLimit, Timestamp, QueryDocumentSnapshot, DocumentData } from 'firebase/firestore';
 import { db, auth } from './firebase';
-import { Deck, Flashcard, ReviewLog } from './types';
+import { Deck, Flashcard, ReviewLog, KnowledgeItem, KnowledgeCategory } from './types';
 
 const mapCardDoc = (doc: QueryDocumentSnapshot<DocumentData>): Flashcard => {
     const data = doc.data();
@@ -324,6 +324,161 @@ export const clearAllCardsAndLogs = async (userId: string): Promise<{ cards: num
     } catch (error) {
         handleFirestoreError(error, OperationType.DELETE, `users/${userId} (clear cards+logs)`);
         return { cards: 0, logs: 0 }; // inalcançável: handleFirestoreError lança exceção
+    }
+};
+
+// ============================================================================
+// Acervo de Conhecimento (Knowledge Base)
+// Coleções: users/{uid}/knowledgeItems e users/{uid}/knowledgeCategories.
+// Seguem o mesmo padrão dos cards/decks: assinatura em tempo real + escrita
+// direta. serverTimestamp() para createdAt/updatedAt.
+// ============================================================================
+
+const mapKnowledgeItemDoc = (docSnap: QueryDocumentSnapshot<DocumentData>): KnowledgeItem => {
+    const data = docSnap.data();
+    return {
+        id: docSnap.id,
+        title: data.title || "",
+        description: data.description,
+        categoryId: data.categoryId,
+        content: data.content || "",
+        aliases: Array.isArray(data.aliases) ? data.aliases : [],
+        attachments: Array.isArray(data.attachments) ? data.attachments : [],
+        relatedIds: Array.isArray(data.relatedIds) ? data.relatedIds : [],
+        parentId: data.parentId,
+        createdAt: data.createdAt ? data.createdAt.toDate() : new Date(),
+        updatedAt: data.updatedAt ? data.updatedAt.toDate() : new Date(),
+        embedding: data.embedding,
+        aiMeta: data.aiMeta,
+    };
+};
+
+// Remove campos undefined/vazios que o Firestore rejeita ou que não devem ser
+// persistidos (parentId/categoryId/description opcionais; embedding/aiMeta são
+// reservados para IA futura e só vão ao banco quando existirem).
+const stripKnowledgeItem = (item: KnowledgeItem) => {
+    const { id, ...rest } = item;
+    void id;
+    const data: any = { ...rest };
+    if (data.description === undefined || data.description === "") delete data.description;
+    if (data.categoryId === undefined || data.categoryId === "") delete data.categoryId;
+    if (data.parentId === undefined || data.parentId === "") delete data.parentId;
+    if (data.embedding === undefined) delete data.embedding;
+    if (data.aiMeta === undefined) delete data.aiMeta;
+    // createdAt/updatedAt são controlados pelo servidor.
+    delete data.createdAt;
+    delete data.updatedAt;
+    return data;
+};
+
+export const subscribeToKnowledgeItems = (userId: string, callback: (items: KnowledgeItem[]) => void) => {
+    const q = query(collection(db, 'users', userId, 'knowledgeItems'));
+    return onSnapshot(q, (snapshot) => {
+        const items: KnowledgeItem[] = [];
+        snapshot.forEach(docSnap => items.push(mapKnowledgeItemDoc(docSnap)));
+        items.sort((a, b) => a.title.localeCompare(b.title));
+        callback(items);
+    }, (error) => {
+        handleFirestoreError(error, OperationType.LIST, `users/${userId}/knowledgeItems`);
+    });
+};
+
+export const saveKnowledgeItemToDb = async (userId: string, item: KnowledgeItem) => {
+    try {
+        const ref = doc(db, 'users', userId, 'knowledgeItems', item.id);
+        await setDoc(ref, {
+            ...stripKnowledgeItem(item),
+            userId,
+            createdAt: serverTimestamp(),
+            updatedAt: serverTimestamp(),
+        });
+    } catch (error) {
+        handleFirestoreError(error, OperationType.WRITE, `users/${userId}/knowledgeItems/${item.id}`);
+    }
+};
+
+export const updateKnowledgeItemInDb = async (userId: string, item: KnowledgeItem) => {
+    try {
+        const ref = doc(db, 'users', userId, 'knowledgeItems', item.id);
+        // updateDoc preserva createdAt/userId automaticamente. Campos opcionais
+        // esvaziados são removidos com deleteField() para não deixar lixo.
+        const base: any = {
+            title: item.title,
+            content: item.content,
+            aliases: item.aliases,
+            attachments: item.attachments,
+            relatedIds: item.relatedIds,
+            description: item.description && item.description !== "" ? item.description : deleteField(),
+            categoryId: item.categoryId && item.categoryId !== "" ? item.categoryId : deleteField(),
+            parentId: item.parentId && item.parentId !== "" ? item.parentId : deleteField(),
+            updatedAt: serverTimestamp(),
+        };
+        if (item.embedding !== undefined) base.embedding = item.embedding;
+        if (item.aiMeta !== undefined) base.aiMeta = item.aiMeta;
+        await updateDoc(ref, base);
+    } catch (error) {
+        handleFirestoreError(error, OperationType.UPDATE, `users/${userId}/knowledgeItems/${item.id}`);
+    }
+};
+
+export const deleteKnowledgeItemFromDb = async (userId: string, itemId: string) => {
+    try {
+        await deleteDoc(doc(db, 'users', userId, 'knowledgeItems', itemId));
+    } catch (error) {
+        handleFirestoreError(error, OperationType.DELETE, `users/${userId}/knowledgeItems/${itemId}`);
+    }
+};
+
+const mapCategoryDoc = (docSnap: QueryDocumentSnapshot<DocumentData>): KnowledgeCategory => {
+    const data = docSnap.data();
+    return {
+        id: docSnap.id,
+        name: data.name || "",
+        color: data.color,
+        createdAt: data.createdAt ? data.createdAt.toDate() : new Date(),
+        updatedAt: data.updatedAt ? data.updatedAt.toDate() : new Date(),
+    };
+};
+
+export const subscribeToKnowledgeCategories = (userId: string, callback: (cats: KnowledgeCategory[]) => void) => {
+    const q = query(collection(db, 'users', userId, 'knowledgeCategories'));
+    return onSnapshot(q, (snapshot) => {
+        const cats: KnowledgeCategory[] = [];
+        snapshot.forEach(docSnap => cats.push(mapCategoryDoc(docSnap)));
+        cats.sort((a, b) => a.name.localeCompare(b.name));
+        callback(cats);
+    }, (error) => {
+        handleFirestoreError(error, OperationType.LIST, `users/${userId}/knowledgeCategories`);
+    });
+};
+
+export const saveKnowledgeCategoryToDb = async (userId: string, cat: KnowledgeCategory) => {
+    try {
+        const ref = doc(db, 'users', userId, 'knowledgeCategories', cat.id);
+        const data: any = { name: cat.name, userId };
+        if (cat.color) data.color = cat.color;
+        await setDoc(ref, { ...data, createdAt: serverTimestamp(), updatedAt: serverTimestamp() });
+    } catch (error) {
+        handleFirestoreError(error, OperationType.WRITE, `users/${userId}/knowledgeCategories/${cat.id}`);
+    }
+};
+
+export const updateKnowledgeCategoryInDb = async (userId: string, cat: KnowledgeCategory) => {
+    try {
+        const ref = doc(db, 'users', userId, 'knowledgeCategories', cat.id);
+        const data: any = { name: cat.name };
+        if (cat.color !== undefined) data.color = cat.color;
+        await updateDoc(ref, { ...data, updatedAt: serverTimestamp() });
+    } catch (error) {
+        handleFirestoreError(error, OperationType.UPDATE, `users/${userId}/knowledgeCategories/${cat.id}`);
+    }
+};
+
+export const deleteKnowledgeCategoryFromDb = async (userId: string, catId: string) => {
+    try {
+        await deleteDoc(doc(db, 'users', userId, 'knowledgeCategories', catId));
+    } catch (error) {
+        handleFirestoreError(error, OperationType.DELETE, `users/${userId}/knowledgeCategories/${catId}`);
     }
 };
 

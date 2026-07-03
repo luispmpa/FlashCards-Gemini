@@ -46,6 +46,53 @@
         "updatedAt": { "type": "string", "format": "date-time" }
       },
       "required": ["userId", "deckId", "front", "back", "fsrsData", "createdAt", "updatedAt"]
+    },
+    "KnowledgeItem": {
+      "title": "KnowledgeItem",
+      "description": "Reusable knowledge base item referenced by flashcards via {{alias}}",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string", "description": "Optional short description" },
+        "categoryId": { "type": "string", "description": "Optional category reference" },
+        "content": { "type": "string", "description": "Rich text content (Markdown)" },
+        "aliases": { "type": "array", "items": { "type": "string" }, "description": "Unique aliases across the system" },
+        "attachments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "kind": { "type": "string", "enum": ["image", "pdf", "file"] },
+              "mimeType": { "type": "string" },
+              "name": { "type": "string" },
+              "url": { "type": "string" },
+              "size": { "type": "number" }
+            }
+          }
+        },
+        "relatedIds": { "type": "array", "items": { "type": "string" }, "description": "Manual relations to other items" },
+        "parentId": { "type": "string", "description": "Optional parent item for tree hierarchy" },
+        "embedding": { "type": "array", "items": { "type": "number" }, "description": "Reserved for future AI semantic search" },
+        "aiMeta": { "type": "object", "description": "Reserved for future AI-generated metadata" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "title", "content", "aliases", "attachments", "relatedIds", "createdAt", "updatedAt"]
+    },
+    "KnowledgeCategory": {
+      "title": "KnowledgeCategory",
+      "description": "User-defined category for knowledge base items",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "name": { "type": "string" },
+        "color": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "name", "createdAt", "updatedAt"]
     }
   },
   "firestore": {
@@ -56,6 +103,14 @@
     "/users/{userId}/cards/{cardId}": {
       "schema": { "$ref": "#/entities/Card" },
       "description": "Flashcards owned by the user"
+    },
+    "/users/{userId}/knowledgeItems/{itemId}": {
+      "schema": { "$ref": "#/entities/KnowledgeItem" },
+      "description": "Knowledge base items owned by the user"
+    },
+    "/users/{userId}/knowledgeCategories/{catId}": {
+      "schema": { "$ref": "#/entities/KnowledgeCategory" },
+      "description": "Knowledge base categories owned by the user"
     }
   }
 }

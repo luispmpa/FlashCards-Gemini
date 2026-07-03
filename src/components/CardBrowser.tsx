@@ -1,8 +1,9 @@
 import { useMemo, useState, useEffect } from 'react';
-import { Flashcard, Deck } from '../types';
+import { Flashcard, Deck, KnowledgeItem } from '../types';
 import { Search, Edit2, Trash2, ArrowUpDown, ArrowUp, ArrowDown, Play, Loader2 } from 'lucide-react';
 import { format, isSameDay, isBefore, parseISO, isSameMonth } from 'date-fns';
 import { uploadImageFromPaste } from '../lib/imageUpload';
+import { KnowledgeTextarea } from './KnowledgeTextarea';
 
 export interface CardBrowserFilter {
   search?: string;
@@ -21,11 +22,12 @@ interface CardBrowserProps {
   onStudyCard: (cardId: string) => void;
   onStudyCards: (cardIds: string[]) => void;
   initialFilter?: CardBrowserFilter;
+  knowledgeItems?: KnowledgeItem[];
 }
 
 type SortKey = 'front' | 'deck' | 'state' | 'due' | 'createdAt';
 
-export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCard, onStudyCards, initialFilter }: CardBrowserProps) {
+export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCard, onStudyCards, initialFilter, knowledgeItems = [] }: CardBrowserProps) {
   const [search, setSearch] = useState(initialFilter?.search || "");
   const [sortKey, setSortKey] = useState<SortKey>('due');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc');
@@ -384,26 +386,28 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                        <div>
                           <label className="block text-sm font-medium text-slate-700 mb-1 flex justify-between">
                               <span>Frente (Questão)</span>
-                              <span className="text-xs text-slate-400 font-normal">Aceita Ctrl+V de imagens</span>
+                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · {'{{'} para referências</span>
                           </label>
-                          <textarea 
+                          <KnowledgeTextarea
                             className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 min-h-[100px]"
                             value={editingCard.front}
-                            onChange={e => setEditingCard({...editingCard, front: e.target.value})}
+                            onChange={v => setEditingCard({...editingCard, front: v})}
                             onPaste={(e) => handlePaste(e, 'front')}
+                            items={knowledgeItems}
                             disabled={isUploading}
                           />
                        </div>
                        <div>
                           <label className="block text-sm font-medium text-slate-700 mb-1 flex justify-between">
                               <span>Verso (Resposta e Explicação)</span>
-                              <span className="text-xs text-slate-400 font-normal">Aceita Ctrl+V de imagens</span>
+                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · {'{{'} para referências</span>
                           </label>
-                          <textarea 
+                          <KnowledgeTextarea
                             className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 min-h-[200px]"
                             value={editingCard.back}
-                            onChange={e => setEditingCard({...editingCard, back: e.target.value})}
+                            onChange={v => setEditingCard({...editingCard, back: v})}
                             onPaste={(e) => handlePaste(e, 'back')}
+                            items={knowledgeItems}
                             disabled={isUploading}
                           />
                        </div>

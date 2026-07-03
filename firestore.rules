@@ -123,5 +123,78 @@ service cloud.firestore {
                       
         allow delete: if isSignedIn() && request.auth.uid == userId;
     }
+
+    // ===== Acervo de Conhecimento (Knowledge Base) =====
+    // Itens reutilizáveis referenciados pelos flashcards via {{alias}}.
+    function isValidKnowledgeItem(data) {
+        return data.keys().hasAll(['userId', 'title', 'content', 'aliases', 'attachments', 'relatedIds']) &&
+               data.userId == request.auth.uid &&
+               data.title is string && data.title.size() > 0 && data.title.size() <= 200 &&
+               data.content is string && data.content.size() <= 100000 &&
+               data.aliases is list && data.aliases.size() <= 50 &&
+               data.attachments is list && data.attachments.size() <= 100 &&
+               data.relatedIds is list && data.relatedIds.size() <= 500 &&
+               (!('description' in data) || (data.description is string && data.description.size() <= 5000)) &&
+               (!('categoryId' in data) || (data.categoryId is string && data.categoryId.size() <= 128)) &&
+               (!('parentId' in data) || (data.parentId is string && data.parentId.size() <= 128)) &&
+               data.createdAt is timestamp &&
+               data.updatedAt is timestamp;
+    }
+
+    match /users/{userId}/knowledgeItems/{itemId} {
+        allow read: if isSignedIn() && request.auth.uid == userId;
+        allow list: if isSignedIn() && request.auth.uid == userId && resource.data.userId == request.auth.uid;
+
+        allow create: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(itemId) &&
+                      isValidKnowledgeItem(incoming()) &&
+                      incoming().createdAt == request.time &&
+                      incoming().updatedAt == request.time;
+
+        allow update: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(itemId) &&
+                      isValidKnowledgeItem(incoming()) &&
+                      incoming().userId == existing().userId &&
+                      incoming().createdAt == existing().createdAt &&
+                      incoming().updatedAt == request.time &&
+                      incoming().diff(existing()).affectedKeys().hasOnly(['title', 'description', 'categoryId', 'content', 'aliases', 'attachments', 'relatedIds', 'parentId', 'embedding', 'aiMeta', 'updatedAt']);
+
+        allow delete: if isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidKnowledgeCategory(data) {
+        return data.keys().hasAll(['userId', 'name']) &&
+               data.size() >= 4 && data.size() <= 5 &&
+               data.userId == request.auth.uid &&
+               data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+               (!('color' in data) || (data.color is string && data.color.size() <= 32)) &&
+               data.createdAt is timestamp &&
+               data.updatedAt is timestamp;
+    }
+
+    match /users/{userId}/knowledgeCategories/{catId} {
+        allow read: if isSignedIn() && request.auth.uid == userId;
+        allow list: if isSignedIn() && request.auth.uid == userId && resource.data.userId == request.auth.uid;
+
+        allow create: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(catId) &&
+                      isValidKnowledgeCategory(incoming()) &&
+                      incoming().createdAt == request.time &&
+                      incoming().updatedAt == request.time;
+
+        allow update: if isSignedIn() &&
+                      request.auth.uid == userId &&
+                      isValidId(userId) && isValidId(catId) &&
+                      isValidKnowledgeCategory(incoming()) &&
+                      incoming().userId == existing().userId &&
+                      incoming().createdAt == existing().createdAt &&
+                      incoming().updatedAt == request.time &&
+                      incoming().diff(existing()).affectedKeys().hasOnly(['name', 'color', 'updatedAt']);
+
+        allow delete: if isSignedIn() && request.auth.uid == userId;
+    }
   }
 }

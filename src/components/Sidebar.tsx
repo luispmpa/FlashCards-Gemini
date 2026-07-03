@@ -1,4 +1,4 @@
-import { Activity, BookOpen, Layers, Settings, Database, Brain, X, History, Bug, Sparkles } from "lucide-react";
+import { Activity, BookOpen, Layers, Settings, Database, Brain, X, History, Bug, Sparkles, BookMarked } from "lucide-react";
 import { cn } from "../lib/utils";
 
 interface SidebarProps {
@@ -14,6 +14,7 @@ export function Sidebar({ currentView, onChangeView, isMobileOpen, onCloseMobile
     { id: "dashboard", label: "Dashboard", icon: Activity },
     { id: "study", label: "Estudar", icon: Brain },
     { id: "browser", label: "Flashcards", icon: Database },
+    { id: "acervo", label: "Acervo de Conhecimento", icon: BookMarked },
     { id: "decks", label: "Matérias (Hierarquia)", icon: Layers },
     { id: "history", label: "Histórico de Estudos", icon: History },
     { id: "updates", label: "Atualizações", icon: Sparkles },
