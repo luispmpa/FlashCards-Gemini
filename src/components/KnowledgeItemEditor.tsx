@@ -11,7 +11,7 @@ interface KnowledgeItemEditorProps {
   item: KnowledgeItem | null; // null = criar novo
   categories: KnowledgeCategory[];
   allItems: KnowledgeItem[];
-  onSave: (item: KnowledgeItem) => void;
+  onSave: (item: KnowledgeItem) => void | Promise<void>;
   onClose: () => void;
 }
 
@@ -30,7 +30,19 @@ export function KnowledgeItemEditor({ item, categories, allItems, onSave, onClos
   const [parentId, setParentId] = useState(item?.parentId || '');
   const [relatedSearch, setRelatedSearch] = useState('');
   const [isUploading, setIsUploading] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState('');
+
+  // Extrai uma mensagem legível de erros do Firestore (que chegam como JSON
+  // serializado por handleFirestoreError). Detecta o caso mais comum: regras
+  // não publicadas / permissão negada.
+  const describeError = (e: unknown): string => {
+    const raw = e instanceof Error ? e.message : String(e);
+    if (/permission-denied|Missing or insufficient permissions|PERMISSION_DENIED/i.test(raw)) {
+      return 'Permissão negada pelo Firestore. As regras de segurança das novas coleções do Acervo podem não ter sido publicadas. Rode: npx firebase deploy --only firestore:rules';
+    }
+    return `Falha ao salvar: ${raw}`;
+  };
 
   const otherItems = useMemo(() => allItems.filter(i => i.id !== item?.id), [allItems, item?.id]);
 
@@ -84,7 +96,7 @@ export function KnowledgeItemEditor({ item, categories, allItems, onSave, onClos
     }]);
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     if (!title.trim()) { setError('O título é obrigatório.'); return; }
     const conflicts = findAliasConflicts(aliases, allItems, item?.id);
     if (conflicts.length > 0) {
@@ -107,7 +119,16 @@ export function KnowledgeItemEditor({ item, categories, allItems, onSave, onClos
       embedding: item?.embedding,
       aiMeta: item?.aiMeta,
     };
-    onSave(saved);
+    setError('');
+    setIsSaving(true);
+    try {
+      await onSave(saved);
+      onClose(); // fecha apenas quando o salvamento confirma
+    } catch (e) {
+      setError(describeError(e));
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   const relatedMatches = relatedSearch.trim()
@@ -317,8 +338,9 @@ export function KnowledgeItemEditor({ item, categories, allItems, onSave, onClos
         </div>
 
         <div className="flex justify-end gap-3 border-t border-slate-200 p-4">
-          <button onClick={onClose} className="rounded-lg px-4 py-2 font-medium text-slate-600 hover:bg-slate-100">Cancelar</button>
-          <button onClick={handleSave} disabled={isUploading} className="rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white shadow-sm hover:bg-indigo-700 disabled:opacity-50">
+          <button onClick={onClose} disabled={isSaving} className="rounded-lg px-4 py-2 font-medium text-slate-600 hover:bg-slate-100 disabled:opacity-50">Cancelar</button>
+          <button onClick={handleSave} disabled={isUploading || isSaving} className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white shadow-sm hover:bg-indigo-700 disabled:opacity-50">
+            {isSaving && <Loader2 size={16} className="animate-spin" />}
             {isNew ? 'Criar item' : 'Salvar'}
           </button>
         </div>

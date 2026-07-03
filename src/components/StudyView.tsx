@@ -1,10 +1,11 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Flashcard, Deck, Rating } from '../types';
+import { Flashcard, Deck, Rating, KnowledgeItem } from '../types';
 import { applyFSRSRating, shouldRequeueAfterRating, getSchedulingOptions } from '../lib/fsrs';
 import { startOfToday, addDays } from 'date-fns';
-import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, Loader2 } from 'lucide-react';
+import { Brain, CheckCircle, Clock, ChevronDown, ChevronRight, Loader2, Pencil } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { MarkdownContent } from './MarkdownContent';
+import { CardEditorModal } from './CardEditorModal';
 import { getCorrectIndex } from '../lib/cardUtils';
 import { getUserSettings } from '../lib/settings';
 import { fetchDueCards, fetchNewCards, getCardsForStudySession } from '../db';
@@ -20,19 +21,29 @@ interface StudyViewProps {
   targetCardIds?: string[]; // Estudar uma seleção específica de cards
   onFinishStudy?: () => void; // Optional to know when specific card study is done
   onLogReview?: (card: Flashcard, rating: Rating, oldState: string, newState: string) => void;
+  knowledgeItems?: KnowledgeItem[]; // para autocomplete de referências ao editar
 }
 
 type StudyMode = 'all' | 'review';
 // Chave de carregamento por botão (deck + modo), para o spinner aparecer só no botão clicado.
 const studyKey = (deckId: string, mode: StudyMode) => `${mode}:${deckId}`;
 
-export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCardIds, onFinishStudy, onLogReview }: StudyViewProps) {
+export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCardIds, onFinishStudy, onLogReview, knowledgeItems = [] }: StudyViewProps) {
   const [activeCard, setActiveCard] = useState<Flashcard | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [queue, setQueue] = useState<Flashcard[]>([]);
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
   const [expandedDecks, setExpandedDecks] = useState<Record<string, boolean>>({});
   const [loadingDeckId, setLoadingDeckId] = useState<string | null>(null);
+  const [isEditingActive, setIsEditingActive] = useState(false);
+
+  // Salva a edição feita durante o estudo: persiste e atualiza a cópia local
+  // (card ativo + fila) para refletir imediatamente, preservando o FSRS.
+  const handleSaveActiveCard = (updated: Flashcard) => {
+    onSaveCard(updated);
+    setActiveCard(prev => (prev && prev.id === updated.id ? updated : prev));
+    setQueue(prev => prev.map(c => (c.id === updated.id ? updated : c)));
+  };
 
   const scheduling = useMemo(
     () => (activeCard ? getSchedulingOptions(activeCard) : null),
@@ -376,10 +387,20 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
           <span className="flex items-center"><Clock size={16} className="mr-1"/> FSRS Ativo</span>
       </div>
 
-      <div className="w-full bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-200 overflow-hidden flex flex-col min-h-[400px]">
+      <div className="relative w-full bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-200 overflow-hidden flex flex-col min-h-[400px]">
+        {/* Editar o flashcard atual sem sair da tela de estudo */}
+        <button
+          type="button"
+          onClick={() => setIsEditingActive(true)}
+          className="absolute top-3 right-3 z-10 p-2 rounded-lg text-slate-300 hover:text-indigo-600 hover:bg-slate-100 transition-colors"
+          title="Editar este flashcard"
+          aria-label="Editar este flashcard"
+        >
+          <Pencil size={16} />
+        </button>
         {/* FRONT */}
         <div className="p-8 flex-1 flex flex-col">
-          <div className="text-xs font-semibold tracking-wider text-indigo-500 uppercase mb-4">
+          <div className="text-xs font-semibold tracking-wider text-indigo-500 uppercase mb-4 pr-8">
              {decks.find(d => d.id === activeCard.deckId)?.name || 'Matéria'}
           </div>
           <MarkdownContent className="text-xl font-medium text-slate-800 leading-relaxed flex-1 prose-p:text-xl prose-p:font-medium">
@@ -463,6 +484,15 @@ export function StudyView({ decks, allCards, onSaveCard, targetCardId, targetCar
              </div>
          )}
       </div>
+
+      {isEditingActive && activeCard && (
+        <CardEditorModal
+          card={activeCard}
+          knowledgeItems={knowledgeItems}
+          onSave={handleSaveActiveCard}
+          onClose={() => setIsEditingActive(false)}
+        />
+      )}
     </div>
   );
 }

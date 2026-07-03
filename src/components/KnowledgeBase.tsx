@@ -13,8 +13,8 @@ interface KnowledgeBaseProps {
   items: KnowledgeItem[];
   categories: KnowledgeCategory[];
   backlinks: Map<string, KnowledgeBacklink[]>;
-  onSaveItem: (item: KnowledgeItem) => void;
-  onUpdateItem: (item: KnowledgeItem) => void;
+  onSaveItem: (item: KnowledgeItem) => void | Promise<void>;
+  onUpdateItem: (item: KnowledgeItem) => void | Promise<void>;
   onDeleteItem: (itemId: string) => void;
   onSaveCategory: (cat: KnowledgeCategory) => void;
   onUpdateCategory: (cat: KnowledgeCategory) => void;
@@ -170,10 +170,11 @@ export function KnowledgeBase({
           item={editing === 'new' ? null : editing}
           categories={categories}
           allItems={items}
-          onSave={(saved) => {
-            if (editing === 'new') onSaveItem(saved);
-            else onUpdateItem(saved);
-            setEditing(null);
+          onSave={async (saved) => {
+            // Aguarda a confirmação da escrita; o editor se fecha sozinho no
+            // sucesso e exibe o erro (sem fechar) em caso de falha.
+            if (editing === 'new') await onSaveItem(saved);
+            else await onUpdateItem(saved);
           }}
           onClose={() => setEditing(null)}
         />
