@@ -34,3 +34,22 @@ npx firebase deploy --only firestore:rules
 
 Se as regras não forem publicadas, as gravações nas novas coleções são **negadas**
 (regra padrão de "negar tudo") e telas como "Novo item do Acervo" falham ao salvar.
+
+### Publicação automática (opcional, recomendado)
+
+O workflow [`.github/workflows/deploy-firestore-rules.yml`](.github/workflows/deploy-firestore-rules.yml)
+publica as regras automaticamente sempre que `firestore.rules` mudar no `main`
+(e pode ser disparado manualmente na aba **Actions**). Configuração única:
+
+1. No **Google Cloud Console** do projeto (`graphite-pad-467523-q3`), vá em
+   **IAM e administrador → Contas de serviço → Criar conta de serviço**.
+2. Dê um nome (ex.: `github-firestore-deploy`) e conceda o papel
+   **Firebase Rules Admin** (ou **Firebase Admin**).
+3. Na conta criada, abra **Chaves → Adicionar chave → Criar nova chave → JSON**
+   e baixe o arquivo.
+4. No GitHub, em **Settings → Secrets and variables → Actions → New repository
+   secret**, crie o secret **`FIREBASE_SERVICE_ACCOUNT`** e cole todo o conteúdo
+   do JSON baixado.
+
+Feito isso, cada alteração nas regras é publicada sozinha. Enquanto o secret não
+existir, o workflow apenas avisa e é pulado (não falha).
