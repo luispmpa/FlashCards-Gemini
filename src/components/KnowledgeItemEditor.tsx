@@ -177,7 +177,7 @@ export function KnowledgeItemEditor({ item, categories, allItems, onSave, onClos
           {/* Aliases */}
           <div>
             <label className="mb-1 block text-sm font-medium text-slate-700">
-              Aliases <span className="font-normal text-slate-400">(referencie nos cards com {'{{alias}}'})</span>
+              Aliases <span className="font-normal text-slate-400">(apelidos para referenciar este item nos cards)</span>
             </label>
             <div className="flex flex-wrap gap-2 rounded-lg border border-slate-300 p-2">
               {aliases.map(a => (
@@ -201,16 +201,20 @@ export function KnowledgeItemEditor({ item, categories, allItems, onSave, onClos
                   }
                 }}
                 onBlur={() => aliasDraft && addAlias(aliasDraft)}
-                className="min-w-[120px] flex-1 border-0 p-1 text-sm focus:outline-none focus:ring-0"
-                placeholder="Digite e Enter…"
+                className="min-w-[160px] flex-1 border-0 p-1 text-sm focus:outline-none focus:ring-0"
+                placeholder="ex.: fumus, tutela_urgencia — e tecle Enter"
               />
             </div>
+            <p className="mt-1.5 text-xs text-slate-500">
+              Não use "#" nem "\": digite só o apelido e tecle <strong>Enter</strong> (sem acentos; espaços viram "_").
+              Depois, no card, escreva <code className="rounded bg-slate-100 px-1 font-mono text-indigo-700">\{aliases[0] || 'fumus'}</code> para inserir a referência.
+            </p>
           </div>
 
           {/* Conteúdo */}
           <div>
             <label className="mb-1 block text-sm font-medium text-slate-700">
-              Conteúdo <span className="font-normal text-slate-400">(Markdown · {'{{'} referencia outros itens)</span>
+              Conteúdo <span className="font-normal text-slate-400">(Markdown · digite "\" para referenciar outros itens)</span>
             </label>
             <KnowledgeTextarea
               value={content}

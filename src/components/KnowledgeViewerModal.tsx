@@ -57,7 +57,7 @@ export function KnowledgeViewerModal({
             {item.aliases.length > 0 && (
               <div className="mt-2 flex flex-wrap gap-1">
                 {item.aliases.map(a => (
-                  <span key={a} className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[11px] text-slate-500">{`{{${a}}}`}</span>
+                  <span key={a} className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[11px] text-slate-500">{`\\${a}`}</span>
                 ))}
               </div>
             )}

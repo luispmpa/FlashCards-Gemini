@@ -22,6 +22,17 @@ describe('MarkdownContent knowledge refs (SSR)', () => {
     expect(html).toContain('<button');
   });
 
+  it('renders a \\alias reference as a chip with the item title', () => {
+    const idx = buildAliasIndex([item]);
+    const html = renderToStaticMarkup(
+      <KnowledgeContext.Provider value={{ aliasIndex: idx, onOpenKnowledge: () => {} }}>
+        <MarkdownContent>{'Estude \\fumus hoje.'}</MarkdownContent>
+      </KnowledgeContext.Provider>
+    );
+    expect(html).toContain('Tutela de Urgência');
+    expect(html).toContain('<button');
+  });
+
   it('renders an unresolved reference as a muted alias', () => {
     const idx = buildAliasIndex([]);
     const html = renderToStaticMarkup(

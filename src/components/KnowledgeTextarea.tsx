@@ -16,13 +16,22 @@ interface KnowledgeTextareaProps {
   onPaste?: (e: React.ClipboardEvent<HTMLTextAreaElement>) => void;
 }
 
-// Detecta um gatilho de autocomplete: um "{{" ainda não fechado imediatamente
-// antes do cursor. Retorna o prefixo digitado e onde o "{{" começa.
-function detectTrigger(text: string, caret: number): { start: number; query: string } | null {
+type TriggerForm = 'backslash' | 'brace';
+
+// Detecta um gatilho de autocomplete imediatamente antes do cursor:
+//   - "\" seguido do apelido em digitação (formato principal), ou
+//   - "{{" ainda não fechado (formato legado).
+// Retorna o prefixo digitado, onde o gatilho começa e qual formato usar.
+function detectTrigger(
+  text: string,
+  caret: number
+): { start: number; query: string; form: TriggerForm } | null {
   const before = text.slice(0, caret);
-  const match = before.match(/\{\{\s*#?([^{}\n]*)$/);
-  if (!match) return null;
-  return { start: caret - match[0].length, query: match[1] };
+  const brace = before.match(/\{\{\s*#?([^{}\n]*)$/);
+  if (brace) return { start: caret - brace[0].length, query: brace[1], form: 'brace' };
+  const back = before.match(/\\#?([\p{L}\p{N}_-]*)$/u);
+  if (back) return { start: caret - back[0].length, query: back[1], form: 'backslash' };
+  return null;
 }
 
 /**
@@ -45,7 +54,7 @@ export function KnowledgeTextarea({
   const [open, setOpen] = useState(false);
   const [suggestions, setSuggestions] = useState<AliasSuggestion[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
-  const triggerRef = useRef<{ start: number; query: string } | null>(null);
+  const triggerRef = useRef<{ start: number; query: string; form: TriggerForm } | null>(null);
 
   const refresh = useCallback(() => {
     const el = ref.current;
@@ -67,7 +76,9 @@ export function KnowledgeTextarea({
     const trig = triggerRef.current;
     if (!el || !trig) return;
     const caret = el.selectionStart || 0;
-    const insert = `{{${s.alias}}}`;
+    // Insere no mesmo formato do gatilho usado: "\alias" (principal) ou o
+    // legado "{{alias}}". Um espaço final delimita o "\alias" do texto seguinte.
+    const insert = trig.form === 'backslash' ? `\\${s.alias} ` : `{{${s.alias}}}`;
     const next = value.slice(0, trig.start) + insert + value.slice(caret);
     onChange(next);
     setOpen(false);
@@ -138,7 +149,7 @@ export function KnowledgeTextarea({
                 <span className="min-w-0 flex-1">
                   <span className="flex items-baseline gap-2">
                     <span className="truncate font-medium text-slate-800">{s.item.title}</span>
-                    <span className="shrink-0 font-mono text-[11px] text-slate-400">{`{{${s.alias}}}`}</span>
+                    <span className="shrink-0 font-mono text-[11px] text-slate-400">{`\\${s.alias}`}</span>
                   </span>
                   {s.item.description && (
                     <span className="mt-0.5 block truncate text-xs text-slate-500">{s.item.description}</span>

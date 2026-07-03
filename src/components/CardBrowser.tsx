@@ -386,7 +386,7 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                        <div>
                           <label className="block text-sm font-medium text-slate-700 mb-1 flex justify-between">
                               <span>Frente (Questão)</span>
-                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · {'{{'} para referências</span>
+                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · "\" para referências</span>
                           </label>
                           <KnowledgeTextarea
                             className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 min-h-[100px]"
@@ -400,7 +400,7 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
                        <div>
                           <label className="block text-sm font-medium text-slate-700 mb-1 flex justify-between">
                               <span>Verso (Resposta e Explicação)</span>
-                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · {'{{'} para referências</span>
+                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · "\" para referências</span>
                           </label>
                           <KnowledgeTextarea
                             className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 min-h-[200px]"
