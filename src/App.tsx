@@ -421,7 +421,7 @@ export default function App() {
 
          <div className="flex-1 overflow-y-auto">
              {navState.view === 'dashboard' && <Dashboard cards={cards} decks={decks} logs={reviewLogs} onNavigate={handleNavigate} />}
-             {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} targetCardIds={navState.studyCardIds} onFinishStudy={() => handleNavigate('browser', navState.filter)} />}
+             {navState.view === 'study' && <StudyView decks={decks} allCards={cards} onSaveCard={handleSaveCard} onLogReview={handleLogReview} targetCardId={navState.studyCardId} targetCardIds={navState.studyCardIds} onFinishStudy={() => handleNavigate('browser', navState.filter)} knowledgeItems={knowledgeItems} />}
              {navState.view === 'browser' && <CardBrowser cards={cards} decks={decks} onDeleteCards={handleDeleteCards} onEditCard={handleSaveCard} onStudyCard={(id) => handleNavigate('study', undefined, id)} onStudyCards={(ids) => handleNavigate('study', navState.filter, undefined, ids)} initialFilter={navState.filter} knowledgeItems={knowledgeItems} /> }
              {navState.view === 'acervo' && (
                  <KnowledgeBase

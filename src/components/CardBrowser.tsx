@@ -1,9 +1,8 @@
 import { useMemo, useState, useEffect } from 'react';
 import { Flashcard, Deck, KnowledgeItem } from '../types';
-import { Search, Edit2, Trash2, ArrowUpDown, ArrowUp, ArrowDown, Play, Loader2 } from 'lucide-react';
+import { Search, Edit2, Trash2, ArrowUpDown, ArrowUp, ArrowDown, Play } from 'lucide-react';
 import { format, isSameDay, isBefore, parseISO, isSameMonth } from 'date-fns';
-import { uploadImageFromPaste } from '../lib/imageUpload';
-import { KnowledgeTextarea } from './KnowledgeTextarea';
+import { CardEditorModal } from './CardEditorModal';
 
 export interface CardBrowserFilter {
   search?: string;
@@ -34,51 +33,7 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [lastSelectedIndex, setLastSelectedIndex] = useState<number | null>(null);
   const [editingCard, setEditingCard] = useState<Flashcard | null>(null);
-  const [isUploading, setIsUploading] = useState(false);
   const [confirmDeleteModal, setConfirmDeleteModal] = useState<{isOpen: boolean, cardsToDelete: {id: string, deckId: string}[], message: string}>({isOpen: false, cardsToDelete: [], message: ""});
-  
-  const handlePaste = async (e: React.ClipboardEvent<HTMLTextAreaElement>, field: 'front' | 'back') => {
-      const items = e.clipboardData?.items;
-      if (!items) return;
-      
-      // Capture the state before any async operations or re-renders
-      const textarea = e.currentTarget;
-      const startPos = textarea.selectionStart || 0;
-      const endPos = textarea.selectionEnd || 0;
-
-      for (let i = 0; i < items.length; i++) {
-          if (items[i].type.startsWith('image/')) {
-              e.preventDefault();
-              const file = items[i].getAsFile();
-              if (!file || !editingCard) return;
-              
-              setIsUploading(true);
-              try {
-                  const url = await uploadImageFromPaste(file);
-                  const markdownImage = `\n![imagem](${url})\n`;
-                  
-                  const text = editingCard[field] || "";
-                  const newText = text.substring(0, startPos) + markdownImage + text.substring(endPos);
-                  setEditingCard({ ...editingCard, [field]: newText });
-                  
-                  // Try to restore focus after the state updates
-                  setTimeout(() => {
-                      if (textarea && !textarea.disabled) {
-                          textarea.selectionStart = startPos + markdownImage.length;
-                          textarea.selectionEnd = startPos + markdownImage.length;
-                          textarea.focus();
-                      }
-                  }, 100);
-              } catch (error: any) {
-                  console.error("Failed to upload image", error);
-                  alert(error.message || "Erro ao enviar a imagem. Verifique sua chave da API.");
-              } finally {
-                  setIsUploading(false);
-              }
-              break; // Handle only the first image
-          }
-      }
-  };
 
   useEffect(() => {
      if (initialFilter?.search !== undefined) {
@@ -379,62 +334,12 @@ export function CardBrowser({ cards, decks, onDeleteCards, onEditCard, onStudyCa
        </div>
 
        {editingCard && (
-           <div className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-               <div className="bg-white rounded-xl shadow-xl max-w-2xl w-full p-6 space-y-6 flex flex-col max-h-full relative">
-                   <h3 className="text-xl font-bold text-slate-800">Editar Flashcard</h3>
-                   <div className="space-y-4 overflow-y-auto">
-                       <div>
-                          <label className="block text-sm font-medium text-slate-700 mb-1 flex justify-between">
-                              <span>Frente (Questão)</span>
-                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · "\" para referências</span>
-                          </label>
-                          <KnowledgeTextarea
-                            className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 min-h-[100px]"
-                            value={editingCard.front}
-                            onChange={v => setEditingCard({...editingCard, front: v})}
-                            onPaste={(e) => handlePaste(e, 'front')}
-                            items={knowledgeItems}
-                            disabled={isUploading}
-                          />
-                       </div>
-                       <div>
-                          <label className="block text-sm font-medium text-slate-700 mb-1 flex justify-between">
-                              <span>Verso (Resposta e Explicação)</span>
-                              <span className="text-xs text-slate-400 font-normal">Ctrl+V de imagens · "\" para referências</span>
-                          </label>
-                          <KnowledgeTextarea
-                            className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 min-h-[200px]"
-                            value={editingCard.back}
-                            onChange={v => setEditingCard({...editingCard, back: v})}
-                            onPaste={(e) => handlePaste(e, 'back')}
-                            items={knowledgeItems}
-                            disabled={isUploading}
-                          />
-                       </div>
-                   </div>
-                   {isUploading && (
-                       <div className="absolute inset-0 z-10 bg-white/60 backdrop-blur-[1px] flex items-center justify-center rounded-xl">
-                           <div className="flex items-center space-x-2 text-indigo-600 bg-white px-4 py-2 rounded-lg shadow-sm border border-indigo-100">
-                               <Loader2 className="w-5 h-5 animate-spin" />
-                               <span className="font-medium text-sm">Enviando imagem...</span>
-                           </div>
-                       </div>
-                   )}
-                   <div className="flex justify-end space-x-3 pt-4 border-t border-slate-200 shrink-0">
-                       <button 
-                         onClick={() => setEditingCard(null)}
-                         className="px-4 py-2 font-medium text-slate-600 hover:bg-slate-100 rounded-lg transition"
-                       >Cancelar</button>
-                       <button 
-                         onClick={() => {
-                             onEditCard(editingCard);
-                             setEditingCard(null);
-                         }}
-                         className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition shadow-sm"
-                       >Salvar</button>
-                   </div>
-               </div>
-           </div>
+           <CardEditorModal
+             card={editingCard}
+             knowledgeItems={knowledgeItems}
+             onSave={onEditCard}
+             onClose={() => setEditingCard(null)}
+           />
        )}
 
        {confirmDeleteModal.isOpen && (

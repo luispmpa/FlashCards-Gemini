@@ -1,0 +1,60 @@
+name: Deploy Firestore Rules
+
+# Publica automaticamente as regras de segurança do Firestore sempre que
+# firestore.rules (ou os arquivos de config) mudarem no main. Também pode ser
+# disparado manualmente na aba "Actions" (workflow_dispatch).
+#
+# Pré-requisito (configuração única): adicionar o secret FIREBASE_SERVICE_ACCOUNT
+# no repositório (Settings > Secrets and variables > Actions), contendo o JSON de
+# uma conta de serviço com permissão para publicar regras (papel "Firebase Rules
+# Admin" ou "Firebase Admin"). Sem esse secret, o job apenas avisa e é pulado.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - firestore.rules
+      - firestore.indexes.json
+      - firebase.json
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      FIREBASE_PROJECT: graphite-pad-467523-q3
+    steps:
+      - name: Verifica se o secret está configurado
+        id: guard
+        run: |
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Secret FIREBASE_SERVICE_ACCOUNT ausente — pulando o deploy das regras. Configure-o para habilitar a publicação automática."
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.guard.outputs.ok == 'true'
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        if: steps.guard.outputs.ok == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instala o Firebase CLI
+        if: steps.guard.outputs.ok == 'true'
+        run: npm install -g firebase-tools
+
+      - name: Grava a chave da conta de serviço
+        if: steps.guard.outputs.ok == 'true'
+        run: printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/gcp-sa.json"
+
+      - name: Publica as regras do Firestore
+        if: steps.guard.outputs.ok == 'true'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/gcp-sa.json
+        run: firebase deploy --only firestore:rules --project "$FIREBASE_PROJECT" --non-interactive
