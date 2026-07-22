@@ -58,6 +58,20 @@ no build do app). A rotina deve mantê-lo com estes campos:
 
 ## Como importar no sistema
 
+### Um clique (recomendado) — "Atualizar do acervo"
+
+Estes `.json` são **empacotados no build** do app. Em **Matérias e Assuntos**,
+cada matéria-raiz tem o botão **Atualizar** (ícone de recarregar): ele importa
+automaticamente todos os flashcards da matéria correspondente do acervo, cria os
+subtópicos (`topicName`) e pula duplicatas. O app tenta casar a matéria pelo nome
+(ex.: pasta `afo` ↔ "AFO - Administração…"); se não houver correspondência óbvia,
+basta escolher a matéria do acervo no seletor do modal.
+
+> Como o acervo vai no build, novos `.json` só aparecem no botão **após um novo
+> deploy** do app.
+
+### Manual (colar JSON)
+
 1. Abra o arquivo `.json` desejado aqui no GitHub.
 2. Copie todo o conteúdo (ou baixe o arquivo).
 3. No AprovaCard: **Matérias (Hierarquia) → Importar** → cole o JSON → confirme.

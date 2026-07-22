@@ -1,7 +1,8 @@
 import { useState, useMemo } from 'react';
 import { Deck, Flashcard } from '../types';
-import { Folder, FolderPlus, Plus, Upload, X, ChevronDown, ChevronRight, AlertCircle, Trash2, CheckSquare } from 'lucide-react';
+import { Folder, FolderPlus, Plus, Upload, X, ChevronDown, ChevronRight, AlertCircle, Trash2, CheckSquare, RefreshCw, Database } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
+import { getAcervoMaterias, findMatchingSlug } from '../lib/acervo';
 
 interface DeckManagerProps {
   decks: Deck[];
@@ -25,6 +26,14 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
   const [importTargetName, setImportTargetName] = useState("");
   const [importText, setImportText] = useState("");
   const [importError, setImportError] = useState("");
+
+  // Acervo (importar/atualizar a partir dos flashcards já gerados no repositório) modal state
+  const acervoMaterias = useMemo(() => getAcervoMaterias(), []);
+  const [acervoModalOpen, setAcervoModalOpen] = useState(false);
+  const [acervoTargetDeckId, setAcervoTargetDeckId] = useState<string | null>(null);
+  const [acervoTargetName, setAcervoTargetName] = useState("");
+  const [acervoSelectedSlug, setAcervoSelectedSlug] = useState("");
+  const [acervoAutoMatched, setAcervoAutoMatched] = useState(false);
 
   const [createDeckModalOpen, setCreateDeckModalOpen] = useState(false);
   const [createDeckParentId, setCreateDeckParentId] = useState<string | undefined>();
@@ -110,6 +119,23 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
       onImportCards(importTargetDeckId, parsed);
   }
 
+  const openAcervoModal = (deckId: string, deckName: string) => {
+      setAcervoTargetDeckId(deckId);
+      setAcervoTargetName(deckName);
+      const matched = findMatchingSlug(deckName, acervoMaterias.map(m => m.slug));
+      setAcervoSelectedSlug(matched ?? (acervoMaterias[0]?.slug ?? ""));
+      setAcervoAutoMatched(!!matched);
+      setAcervoModalOpen(true);
+  }
+
+  const handleAcervoImport = () => {
+      if (!acervoTargetDeckId || !acervoSelectedSlug) return;
+      const materia = acervoMaterias.find(m => m.slug === acervoSelectedSlug);
+      if (!materia || materia.cards.length === 0) return;
+      setAcervoModalOpen(false);
+      onImportCards(acervoTargetDeckId, materia.cards);
+  }
+
   // Helper to recursively get all descendant deck IDs
   const getChildrenIds = (deckId: string): string[] => {
       const children = decks.filter(d => d.parentId === deckId);
@@ -182,6 +208,15 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
                   </div>
                   {!selectionMode && (
                   <div className="flex items-center space-x-1 sm:space-x-2 shrink-0 opacity-100 transition-opacity lg:absolute lg:right-3 lg:top-1/2 lg:-translate-y-1/2 lg:opacity-0 lg:group-hover:opacity-100 lg:bg-slate-50 lg:pl-3 lg:rounded-md">
+                      {level === 0 && acervoMaterias.length > 0 && (
+                        <button
+                          onClick={(e) => { e.stopPropagation(); openAcervoModal(deck.id, deck.name); }}
+                          className="text-xs flex items-center bg-emerald-50 text-emerald-700 px-2 sm:px-2.5 py-1 rounded-md font-medium hover:bg-emerald-100 transition"
+                          title="Atualizar do acervo (AprovaCard) — importa os flashcards já gerados desta matéria"
+                        >
+                           <RefreshCw size={14} className="sm:mr-1"/> <span className="hidden sm:inline">Atualizar</span>
+                        </button>
+                      )}
                       <button
                         onClick={(e) => { e.stopPropagation(); openImportModal(deck.id, deck.name, parentName); }}
                         className="text-xs flex items-center bg-indigo-50 text-indigo-600 px-2 sm:px-2.5 py-1 rounded-md font-medium hover:bg-indigo-100 transition"
@@ -332,6 +367,82 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
                </div>
            </div>
        )}
+
+       {acervoModalOpen && (() => {
+           const selected = acervoMaterias.find(m => m.slug === acervoSelectedSlug);
+           const cardCount = selected?.cards.length ?? 0;
+           return (
+           <div className="fixed inset-0 bg-slate-900/50 flex items-center justify-center p-4 z-[60]">
+               <div className="bg-white rounded-2xl max-w-lg w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 flex flex-col max-h-[90vh]">
+                   <div className="px-6 py-4 border-b border-slate-100 flex justify-between items-center bg-slate-50 shrink-0">
+                       <h3 className="font-bold text-slate-800 flex items-center">
+                           <Database size={18} className="mr-2 text-emerald-600" />
+                           Atualizar do acervo — {acervoTargetName}
+                       </h3>
+                       <button onClick={() => setAcervoModalOpen(false)} className="text-slate-400 hover:text-slate-600">
+                           <X size={20} />
+                       </button>
+                   </div>
+
+                   <div className="p-6 space-y-4 overflow-y-auto">
+                       <p className="text-sm text-slate-500">
+                           Importa os flashcards <strong>já gerados</strong> (formato AprovaCard) da matéria
+                           selecionada no acervo do repositório. Os tópicos (<code>topicName</code>) viram
+                           subtópicos automaticamente e itens duplicados são ignorados.
+                       </p>
+
+                       <div>
+                           <label className="block text-sm font-medium text-slate-700 mb-2">
+                               Matéria no acervo
+                           </label>
+                           <select
+                               value={acervoSelectedSlug}
+                               onChange={e => { setAcervoSelectedSlug(e.target.value); setAcervoAutoMatched(false); }}
+                               className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 outline-none text-sm bg-white"
+                           >
+                               {acervoMaterias.map(m => (
+                                   <option key={m.slug} value={m.slug}>
+                                       {m.slug} — {m.cards.length} card(s), {m.fileCount} assunto(s)
+                                   </option>
+                               ))}
+                           </select>
+                           {acervoAutoMatched ? (
+                               <p className="text-xs text-emerald-600 mt-2">
+                                   Correspondência detectada automaticamente pelo nome. Ajuste acima se não for a matéria certa.
+                               </p>
+                           ) : (
+                               <p className="text-xs text-slate-400 mt-2">
+                                   Selecione a matéria do acervo que corresponde a esta pasta.
+                               </p>
+                           )}
+                       </div>
+
+                       <div className="rounded-lg bg-emerald-50 border border-emerald-100 px-4 py-3 text-sm text-emerald-800">
+                           {cardCount > 0
+                               ? <>Serão importados até <strong>{cardCount}</strong> flashcard(s). Os que já existem (mesmo enunciado) são pulados.</>
+                               : <>Nenhum flashcard disponível para esta matéria no acervo.</>}
+                       </div>
+                   </div>
+
+                   <div className="px-6 py-4 bg-slate-50 border-t border-slate-100 flex justify-end space-x-3 shrink-0">
+                       <button
+                           onClick={() => setAcervoModalOpen(false)}
+                           className="px-4 py-2 text-sm font-medium text-slate-600 hover:text-slate-800 transition"
+                       >
+                           Cancelar
+                       </button>
+                       <button
+                           onClick={handleAcervoImport}
+                           disabled={cardCount === 0}
+                           className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700 shadow-sm transition flex items-center disabled:opacity-50 disabled:cursor-not-allowed"
+                       >
+                           <RefreshCw size={16} className="mr-2" /> Importar do acervo
+                       </button>
+                   </div>
+               </div>
+           </div>
+           );
+       })()}
 
        {createDeckModalOpen && (
            <div className="fixed inset-0 bg-slate-900/50 flex items-center justify-center p-4 z-[60]">
