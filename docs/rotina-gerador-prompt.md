@@ -13,6 +13,11 @@ continuar nas próximas noites sem repetir nem pular conteúdo.
 ORGANIZAÇÃO DA FONTE (por matéria)
 - Os PDFs ficam em subpastas de `material-fonte/`, UMA POR MATÉRIA. O nome da pasta
   é a MATÉRIA (ex.: "afo"). Ignore arquivos README/.gitkeep.
+- Uma matéria pode ser AGRUPADA em mais um nível: `material-fonte/<grupo>/<sub-materia>/`
+  (ex.: "Tecnologia da Informação/Informática", "Tecnologia da Informação/Banco de
+  dados"). Nesse caso, a SUB-MATÉRIA (a pasta-folha, ex.: "Informática") é a matéria;
+  o grupo (ex.: "Tecnologia da Informação") é só o agrupamento. Espelhe essa estrutura
+  na saída (ver SAÍDA).
 - Os nomes dos arquivos PDF podem ser ALEATÓRIOS: identifique o ASSUNTO/TÓPICO de
   cada PDF pelo seu CONTEÚDO (geralmente 1 assunto por PDF).
 - PDFs são extensos (150–250 págs); leia por seções, não de uma vez.
@@ -98,6 +103,10 @@ QUANTIDADE
 
 SAÍDA (formato de importação)
 - Grave um arquivo por matéria/assunto: `flashcards-gerados/<materia>/<assunto>.json`.
+- Se a matéria for AGRUPADA, ESPELHE a estrutura de `material-fonte/`:
+  `flashcards-gerados/<grupo>/<sub-materia>/<assunto>.json` (ex.:
+  `flashcards-gerados/Tecnologia da Informação/Informática/intranet-extranet-internet.json`).
+  O app importa a sub-matéria dentro da pasta correta automaticamente (botão "Atualizar").
 - Conteúdo = array JSON. Cada item:
     {
       "front": "^^<metadados>^^\n\n<enunciado>",
@@ -116,6 +125,8 @@ ATUALIZAR O PAINEL (_progresso.json)
   pdfs[]{arquivo, assunto, paginas, cardsGerados, concluido} e alertas[].
 - pdfsDetectados = total de PDFs na pasta da matéria; pdfsProcessados = quantos já
   foram cobertos. Marque pdfs[].concluido=false enquanto um PDF não estiver 100%.
+- Para matéria AGRUPADA, use `materia` = "<grupo>/<sub-materia>" (ex.:
+  "Tecnologia da Informação/Informática"), espelhando a pasta de saída.
 - NÃO apague o histórico já existente no arquivo; apenas acrescente/atualize.
 
 VALIDAÇÃO E ENTREGA

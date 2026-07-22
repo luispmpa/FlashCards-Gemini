@@ -196,12 +196,15 @@ export default function App() {
   const buildAndSaveCards = async (
       deckId: string,
       aiCards: any[],
-      opts: { skipDuplicates?: boolean } = {}
+      opts: { skipDuplicates?: boolean; forceTopicNesting?: boolean } = {}
   ): Promise<{ added: number; skipped: number; topicsCreated: number }> => {
       if (!user) return { added: 0, skipped: 0, topicsCreated: 0 };
 
       const targetDeck = decks.find(d => d.id === deckId);
-      const isRoot = targetDeck && !targetDeck.parentId;
+      // Cria sub-decks a partir do topicName quando o alvo é uma matéria-raiz OU
+      // quando o chamador força o aninhamento (ex.: importar uma sub-matéria do
+      // acervo dentro da pasta correta, preservando o assunto como subtópico).
+      const isRoot = (targetDeck && !targetDeck.parentId) || opts.forceTopicNesting;
 
       const relevantDeckIds = [deckId, ...decks.filter(d => d.parentId === deckId).map(d => d.id)];
       const existingFronts = new Set<string>();
@@ -253,9 +256,9 @@ export default function App() {
       return { added: newCards.length, skipped, topicsCreated: newDecks.length };
   };
 
-  const handleImportCards = async (deckId: string, aiCards: any[]) => {
+  const handleImportCards = async (deckId: string, aiCards: any[], opts: { forceTopicNesting?: boolean } = {}) => {
       try {
-          const { added, skipped, topicsCreated } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true });
+          const { added, skipped, topicsCreated } = await buildAndSaveCards(deckId, aiCards, { skipDuplicates: true, forceTopicNesting: opts.forceTopicNesting });
           const parts = [`${added} flashcards importados.`];
           if (topicsCreated > 0) parts.push(`${topicsCreated} tópico(s) criado(s).`);
           if (skipped > 0) parts.push(`${skipped} pulados (duplicados ou inválidos).`);

@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Deck, Flashcard } from '../types';
 import { Folder, FolderPlus, Plus, Upload, X, ChevronDown, ChevronRight, AlertCircle, Trash2, CheckSquare, RefreshCw, Database } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
-import { getAcervoMaterias, findMatchingSlug } from '../lib/acervo';
+import { getAcervoEntries, resolveDeckAcervo, normalizeForMatch, DeckAcervoView } from '../lib/acervo';
 
 interface DeckManagerProps {
   decks: Deck[];
@@ -10,7 +10,7 @@ interface DeckManagerProps {
   onAddDeck: (deck: Deck) => void;
   onDeleteDeck: (deckId: string) => void;
   onDeleteDecks: (deckIds: string[]) => void;
-  onImportCards: (deckId: string, cards: any[]) => void;
+  onImportCards: (deckId: string, cards: any[], opts?: { forceTopicNesting?: boolean }) => void;
   onNavigate: (view: string, filter?: any) => void;
 }
 
@@ -28,12 +28,12 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
   const [importError, setImportError] = useState("");
 
   // Acervo (importar/atualizar a partir dos flashcards já gerados no repositório) modal state
-  const acervoMaterias = useMemo(() => getAcervoMaterias(), []);
+  const hasAcervo = useMemo(() => getAcervoEntries().length > 0, []);
   const [acervoModalOpen, setAcervoModalOpen] = useState(false);
   const [acervoTargetDeckId, setAcervoTargetDeckId] = useState<string | null>(null);
   const [acervoTargetName, setAcervoTargetName] = useState("");
-  const [acervoSelectedSlug, setAcervoSelectedSlug] = useState("");
-  const [acervoAutoMatched, setAcervoAutoMatched] = useState(false);
+  const [acervoView, setAcervoView] = useState<DeckAcervoView | null>(null);
+  const [acervoSelectedKey, setAcervoSelectedKey] = useState("");
 
   const [createDeckModalOpen, setCreateDeckModalOpen] = useState(false);
   const [createDeckParentId, setCreateDeckParentId] = useState<string | undefined>();
@@ -122,18 +122,37 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
   const openAcervoModal = (deckId: string, deckName: string) => {
       setAcervoTargetDeckId(deckId);
       setAcervoTargetName(deckName);
-      const matched = findMatchingSlug(deckName, acervoMaterias.map(m => m.slug));
-      setAcervoSelectedSlug(matched ?? (acervoMaterias[0]?.slug ?? ""));
-      setAcervoAutoMatched(!!matched);
+      const view = resolveDeckAcervo(deckName);
+      setAcervoView(view);
+      // Pré-seleciona a primeira opção COM cards; nunca uma matéria não relacionada.
+      const firstAvailable = view.options.find(o => o.available) ?? null;
+      setAcervoSelectedKey(firstAvailable?.key ?? "");
       setAcervoModalOpen(true);
   }
 
+  // Garante um sub-deck (sub-matéria) com o nome dado sob a matéria-raiz e retorna seu id.
+  const ensureSubdeck = (rootId: string, name: string): string => {
+      const existing = decks.find(d => d.parentId === rootId && normalizeForMatch(d.name) === normalizeForMatch(name));
+      if (existing) return existing.id;
+      const id = uuidv4();
+      onAddDeck({ id, parentId: rootId, name: name.trim(), createdAt: new Date() });
+      return id;
+  }
+
   const handleAcervoImport = () => {
-      if (!acervoTargetDeckId || !acervoSelectedSlug) return;
-      const materia = acervoMaterias.find(m => m.slug === acervoSelectedSlug);
-      if (!materia || materia.cards.length === 0) return;
+      if (!acervoTargetDeckId || !acervoView) return;
+      const option = acervoView.options.find(o => o.key === acervoSelectedKey);
+      if (!option || !option.available) return;
       setAcervoModalOpen(false);
-      onImportCards(acervoTargetDeckId, materia.cards);
+      if (option.group) {
+          // Sub-matéria (ex.: "Informática"): cria/encontra o sub-deck sob a matéria
+          // e importa lá, preservando o assunto (topicName) como subtópico.
+          const subId = ensureSubdeck(acervoTargetDeckId, option.label);
+          onImportCards(subId, option.cards, { forceTopicNesting: true });
+      } else {
+          // Matéria simples (ex.: "afo"): importa direto na matéria-raiz.
+          onImportCards(acervoTargetDeckId, option.cards);
+      }
   }
 
   // Helper to recursively get all descendant deck IDs
@@ -208,7 +227,7 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
                   </div>
                   {!selectionMode && (
                   <div className="flex items-center space-x-1 sm:space-x-2 shrink-0 opacity-100 transition-opacity lg:absolute lg:right-3 lg:top-1/2 lg:-translate-y-1/2 lg:opacity-0 lg:group-hover:opacity-100 lg:bg-slate-50 lg:pl-3 lg:rounded-md">
-                      {level === 0 && acervoMaterias.length > 0 && (
+                      {level === 0 && hasAcervo && (
                         <button
                           onClick={(e) => { e.stopPropagation(); openAcervoModal(deck.id, deck.name); }}
                           className="text-xs flex items-center bg-emerald-50 text-emerald-700 px-2 sm:px-2.5 py-1 rounded-md font-medium hover:bg-emerald-100 transition"
@@ -368,9 +387,11 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
            </div>
        )}
 
-       {acervoModalOpen && (() => {
-           const selected = acervoMaterias.find(m => m.slug === acervoSelectedSlug);
-           const cardCount = selected?.cards.length ?? 0;
+       {acervoModalOpen && acervoView && (() => {
+           const view = acervoView;
+           const selected = view.options.find(o => o.key === acervoSelectedKey);
+           const cardCount = selected?.available ? selected.cards.length : 0;
+           const isGroup = view.kind === 'group';
            return (
            <div className="fixed inset-0 bg-slate-900/50 flex items-center justify-center p-4 z-[60]">
                <div className="bg-white rounded-2xl max-w-lg w-full shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 flex flex-col max-h-[90vh]">
@@ -386,41 +407,75 @@ export function DeckManager({ decks, cards, onAddDeck, onDeleteDeck, onDeleteDec
 
                    <div className="p-6 space-y-4 overflow-y-auto">
                        <p className="text-sm text-slate-500">
-                           Importa os flashcards <strong>já gerados</strong> (formato AprovaCard) da matéria
-                           selecionada no acervo do repositório. Os tópicos (<code>topicName</code>) viram
-                           subtópicos automaticamente e itens duplicados são ignorados.
+                           Importa os flashcards <strong>já gerados</strong> (formato AprovaCard) do acervo do
+                           repositório. Os assuntos (<code>topicName</code>) viram subtópicos automaticamente e
+                           itens duplicados (mesmo enunciado) são ignorados.
                        </p>
 
-                       <div>
-                           <label className="block text-sm font-medium text-slate-700 mb-2">
-                               Matéria no acervo
-                           </label>
-                           <select
-                               value={acervoSelectedSlug}
-                               onChange={e => { setAcervoSelectedSlug(e.target.value); setAcervoAutoMatched(false); }}
-                               className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 outline-none text-sm bg-white"
-                           >
-                               {acervoMaterias.map(m => (
-                                   <option key={m.slug} value={m.slug}>
-                                       {m.slug} — {m.cards.length} card(s), {m.fileCount} assunto(s)
-                                   </option>
-                               ))}
-                           </select>
-                           {acervoAutoMatched ? (
+                       {isGroup ? (
+                           <div>
+                               <p className="text-sm font-medium text-slate-700 mb-2">
+                                   Sub-matérias de <strong>{view.groupName}</strong>
+                               </p>
+                               <div className="space-y-1.5">
+                                   {view.options.map(o => {
+                                       const isSel = o.key === acervoSelectedKey;
+                                       return (
+                                       <button
+                                           key={o.key}
+                                           disabled={!o.available}
+                                           onClick={() => setAcervoSelectedKey(o.key)}
+                                           className={`w-full text-left px-3 py-2.5 rounded-lg border flex items-center justify-between transition ${
+                                               !o.available
+                                                   ? 'border-slate-100 bg-slate-50 cursor-not-allowed opacity-70'
+                                                   : isSel
+                                                       ? 'border-emerald-500 bg-emerald-50 ring-1 ring-emerald-400'
+                                                       : 'border-slate-200 hover:bg-slate-50'
+                                           }`}
+                                       >
+                                           <span className="flex items-center text-sm text-slate-800 min-w-0">
+                                               <Folder size={15} className={`mr-2 shrink-0 ${o.available ? 'text-emerald-500' : 'text-slate-300'}`} />
+                                               <span className="truncate">{o.label}</span>
+                                           </span>
+                                           <span className={`ml-2 shrink-0 text-xs ${o.available ? 'text-emerald-700 font-medium' : 'text-slate-400 italic'}`}>
+                                               {o.available ? `${o.cards.length} card(s)` : 'nada gerado ainda'}
+                                           </span>
+                                       </button>
+                                       );
+                                   })}
+                               </div>
                                <p className="text-xs text-emerald-600 mt-2">
-                                   Correspondência detectada automaticamente pelo nome. Ajuste acima se não for a matéria certa.
+                                   Matéria reconhecida automaticamente pelo nome. Cada sub-matéria é importada como um subtópico desta pasta.
                                </p>
-                           ) : (
-                               <p className="text-xs text-slate-400 mt-2">
-                                   Selecione a matéria do acervo que corresponde a esta pasta.
+                           </div>
+                       ) : (
+                           <div>
+                               <label className="block text-sm font-medium text-slate-700 mb-2">Matéria no acervo</label>
+                               <select
+                                   value={acervoSelectedKey}
+                                   onChange={e => setAcervoSelectedKey(e.target.value)}
+                                   className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 outline-none text-sm bg-white"
+                               >
+                                   {!selected && <option value="">Selecione…</option>}
+                                   {view.options.map(o => (
+                                       <option key={o.key} value={o.key} disabled={!o.available}>
+                                           {o.group ? `${o.group} › ${o.label}` : o.label}
+                                           {o.available ? ` — ${o.cards.length} card(s)` : ' — nada gerado ainda'}
+                                       </option>
+                                   ))}
+                               </select>
+                               <p className={`text-xs mt-2 ${view.matched ? 'text-emerald-600' : 'text-slate-400'}`}>
+                                   {view.matched
+                                       ? 'Matéria reconhecida automaticamente pelo nome. Ajuste acima se necessário.'
+                                       : 'Nenhuma matéria correspondente no acervo — selecione manualmente qual importar.'}
                                </p>
-                           )}
-                       </div>
+                           </div>
+                       )}
 
-                       <div className="rounded-lg bg-emerald-50 border border-emerald-100 px-4 py-3 text-sm text-emerald-800">
+                       <div className={`rounded-lg px-4 py-3 text-sm border ${cardCount > 0 ? 'bg-emerald-50 border-emerald-100 text-emerald-800' : 'bg-slate-50 border-slate-100 text-slate-500'}`}>
                            {cardCount > 0
-                               ? <>Serão importados até <strong>{cardCount}</strong> flashcard(s). Os que já existem (mesmo enunciado) são pulados.</>
-                               : <>Nenhum flashcard disponível para esta matéria no acervo.</>}
+                               ? <>Serão importados até <strong>{cardCount}</strong> flashcard(s){selected?.group ? <> em <strong>{selected.label}</strong></> : null}. Os que já existem (mesmo enunciado) são pulados.</>
+                               : <>Nada gerado ainda para importar. Adicione PDF(s) na pasta correspondente de <code>material-fonte/</code> e aguarde a rotina gerar os flashcards.</>}
                        </div>
                    </div>
 

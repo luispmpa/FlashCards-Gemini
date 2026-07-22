@@ -1,0 +1,464 @@
+[
+  {
+    "front": "^^Elaborada pelo professor • Tema: Internet^^\n\nAssinale a alternativa que apresenta a definição mais adequada de **Internet**.",
+    "options": [
+      "Rede privada e restrita, pertencente a uma organização, acessível apenas a seus colaboradores.",
+      "Extensão de uma rede interna disponibilizada a parceiros e fornecedores mediante autenticação.",
+      "Conjunto de segmentos de redes públicas, distribuídas e conectadas por todo o globo, que trocam informações por meio de protocolos comuns (TCP/IP).",
+      "Protocolo de transferência de arquivos entre um computador remoto e o computador local.",
+      "Software de navegação utilizado para requisitar páginas HTML."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** A **Internet** – também chamada de **rede mundial de computadores** – é um conjunto de **segmentos de redes públicas**, distribuídas e conectadas por todo o globo terrestre, capazes de trocar informações por meio de **protocolos comuns** de comunicação (a pilha **TCP/IP**).\n\n- É **pública** (acesso a todos que atendem critérios mínimos) e **descentralizada** (sem controle central).\n- Em termos de abrangência, é uma **WAN** (*Wide Area Network*), composta majoritariamente por **redes locais** interligadas por **backbones** (ex.: cabos de fibra óptica).\n\n**Por que as demais erram:** **A** define **Intranet** (rede privada/restrita); **B** define **Extranet**; **D** descreve o **FTP/download**; **E** descreve um **navegador (browser)**, não a Internet.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Internet — Serviços^^\n\nA Internet é o nome dado ao conjunto de tecnologias que disponibilizam serviços online. Qual das opções **NÃO** é, por si só, um serviço/tecnologia da Internet?",
+    "options": [
+      "Web (WWW) — páginas HTML sob demanda.",
+      "Correio Eletrônico (E-mail) — troca de mensagens eletrônicas.",
+      "FTP — transferência de arquivos (upload e download).",
+      "TCP/IP — pilha de protocolos que serve de base para a comunicação.",
+      "Redes Sociais — portais de interação entre usuários."
+    ],
+    "correctOption": "D",
+    "back": "**Gabarito: D.** A questão pede o que **não é um serviço** oferecido *ao usuário*. O **TCP/IP** é a **pilha de protocolos** que dá **base** à comunicação na rede — é a **infraestrutura**, e não um serviço de uso final como os demais.\n\n| Serviço | Função |\n|---|---|\n| **Web (WWW)** | Requisição de páginas **HTML** sob demanda |\n| **E-mail** | Troca de mensagens eletrônicas |\n| **FTP** | Transferência de arquivos (**upload**/**download**) |\n| **Mensagens instantâneas / Bate-papo** | Comunicação em tempo real |\n| **Redes Sociais** | Interação entre usuários/empresas |\n\n**Por que as demais erram:** **A, B, C, E** são **serviços** efetivamente prestados sobre a Internet. Apenas o **TCP/IP** (D) é protocolo de transporte/rede — o alicerce, não o serviço.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Intranet^^\n\nSobre a **Intranet**, é correto afirmar que:",
+    "options": [
+      "É uma rede pública, de alcance global, sem controle centralizado.",
+      "É uma rede corporativa **privada e restrita**, que usa tecnologias/padrões da Internet (TCP/IP) para comunicação interna.",
+      "Só pode existir se houver conexão ativa com a Internet.",
+      "Substitui os sistemas operacionais dos computadores da organização.",
+      "É uma réplica exata da Internet, com os mesmos usuários e conteúdos."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** A **Intranet** é uma **rede corporativa privada, restrita e exclusiva** a um público específico (em geral, os colaboradores de uma organização), que se utiliza das **mesmas tecnologias, padrões e serviços da Internet** (==TCP/IP==, HTTP, FTP, e-mail etc.) para **compartilhar informações e recursos** e **melhorar a comunicação interna**. Em regra, é uma **LAN** (ou várias LANs interligadas).\n\n> 💡 A intranet pode ser considerada uma **versão privada da Internet** (uma \"micro-internet\" restrita à organização).\n\n**Por que as demais erram:** **A** descreve a **Internet** (pública/global); **C** {red:errado} — é **possível usar intranet SEM conexão com a Internet}; **D** a intranet **não compartilha** sistemas operacionais (cada máquina tem o seu); **E** não é \"réplica exata\" da Internet.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Intranet — independência da Internet^^\n\nUma organização mantém sua intranet funcionando internamente mesmo quando o link de Internet cai. Isso é possível?",
+    "options": [
+      "Não, pois a intranet depende obrigatoriamente da Internet para existir.",
+      "Sim, pois a intranet é uma rede **privada** que apenas **reaproveita as tecnologias** da Internet, podendo operar de forma independente.",
+      "Sim, mas somente para o serviço de e-mail.",
+      "Não, porque os endereços IP internos deixam de funcionar sem Internet.",
+      "Sim, desde que todos os computadores usem o mesmo navegador."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** A intranet **utiliza as tecnologias e protocolos da Internet** (TCP/IP), mas **não depende** de uma conexão ativa com a Internet para funcionar. É perfeitamente possível ter uma **intranet isolada**, operando apenas na rede interna (LAN) da organização.\n\n**Por que as demais erram:** **A** e **D** partem da premissa falsa de dependência da Internet — os **IPs privados** (10.x.x.x, 172.16–31.x.x, 192.168.x.x) funcionam **internamente** sem qualquer relação com a Internet; **C** limita indevidamente a um único serviço; **E** a padronização do navegador é benefício de gestão, não requisito para a intranet existir.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Extranet^^\n\nQual afirmação define corretamente a **Extranet**?",
+    "options": [
+      "Rede mundial pública que interliga computadores no mundo todo.",
+      "Rede interna e isolada, sem qualquer acesso externo.",
+      "**Extensão da Intranet** que permite **acesso externo controlado**, via Internet, a parceiros, fornecedores e clientes autorizados.",
+      "Protocolo de criptografia usado para proteger e-mails.",
+      "Servidor web público que hospeda o site institucional da empresa."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** A **Extranet** é uma **rede privada que funciona como extensão da Intranet**, permitindo o **acesso remoto e controlado** de **usuários externos** (em geral **parceiros, fornecedores e clientes**) por meio da **Internet**, mediante **autenticação** (usuário e senha).\n\n> 🔑 Regra prática para não errar em prova:\n> - Acesso remoto de **colaborador** à rede interna → **Intranet (remota)**.\n> - Acesso remoto de **parceiro comercial** à rede interna → **Extranet**.\n\n**Por que as demais erram:** **A** define **Internet**; **B** descreve intranet isolada (extranet, por definição, abre acesso externo); **D** confunde com **VPN/criptografia**; **E** acessar o **site público** da empresa **não** é acessar sua intranet/extranet.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Cenários de acesso^^\n\nUm **parceiro comercial**, fora da empresa, conecta-se pela Internet à rede interna da organização (com autenticação). Ele está acessando a:",
+    "options": [
+      "Internet, apenas.",
+      "Intranet, presencialmente.",
+      "Extranet.",
+      "Rede pública sem controle.",
+      "Nenhuma rede — o acesso é impossível."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** Quando um **parceiro/fornecedor/cliente** externo acessa a rede interna da organização **remotamente pela Internet**, o acesso ocorre via **Extranet**.\n\nCompare os cenários da aula:\n| Cenário | Quem | Como | Rede |\n|---|---|---|---|\n| 1 | Colaborador | No local, na rede interna | **Intranet** |\n| 2 | Colaborador | Remoto, via Internet | **Intranet (remota)** |\n| 3 | **Parceiro** | Remoto, via Internet | **Extranet** |\n\n**Por que as demais erram:** **A** ignora que ele alcança a rede **interna**; **B** ele **não** está presencial; **D** o acesso é **controlado/autenticado**; **E** o acesso é justamente o que a extranet viabiliza.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: VPN^^\n\nPara acessar uma Extranet pela Internet de forma segura, costuma-se utilizar uma **VPN**. Sobre a VPN, é correto afirmar:",
+    "options": [
+      "É um tipo de cabo de fibra óptica usado nos backbones.",
+      "É uma **rede privada virtual** que usa a infraestrutura da Internet para transmitir informações de forma **segura**, por meio de **criptografia** e **tunelamento**.",
+      "É um navegador especializado em redes sociais.",
+      "É um protocolo de e-mail que substitui o SMTP.",
+      "É sinônimo de rede pública sem qualquer proteção."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** A **VPN** (*Virtual Private Network*) é uma **rede privada virtual**: usa a **infraestrutura pública da Internet** para transmitir dados **com segurança**, **criptografando** as requisições/respostas e ocultando o **IP** do usuário. Para isso emprega **técnicas de tunelamento** (encapsulamento de um protocolo dentro de outro — ex.: **IPSec**, **L2TP**).\n\n> 🔒 O datagrama é **encriptado** → **encapsulado** (cabeçalho extra) → enviado pela rede pública → no destino é **desencapsulado** e **desencriptado**.\n\n**Por que as demais erram:** **A** confunde com **backbone**; **C** e **D** confundem com navegador/protocolo de e-mail; **E** é o oposto — a VPN **protege** o tráfego sobre a rede pública.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: VPN — tipos de conexão^^\n\nSobre os tipos de VPN, relacione corretamente:",
+    "options": [
+      "Site-to-Site liga um único dispositivo a uma rede; Client-to-Site liga duas redes.",
+      "**Site-to-Site** (gateway a gateway) liga **duas redes** (ex.: dois escritórios); **Client-to-Site** (acesso remoto) liga **um dispositivo** a uma rede remota.",
+      "Ambas ligam apenas dois dispositivos individuais entre si.",
+      "Client-to-Site é usada apenas entre matrizes e filiais; Site-to-Site é só doméstica.",
+      "Não há diferença entre elas — são sinônimos."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.**\n\n| Tipo | Também chamada | Liga | Uso típico |\n|---|---|---|---|\n| **Site-to-Site** | Gateway a Gateway / Roteador a Roteador | **duas redes** | Conectar **escritórios** em locais diferentes |\n| **Client-to-Site** | VPN de **Acesso Remoto** | **um dispositivo** ↔ rede remota | Funcionário/usuário doméstico acessando a empresa |\n\nDiferença-chave: **Client-to-Site** cria um link privado entre **um dispositivo** e uma rede; **Site-to-Site** cria um link privado entre **duas redes** diferentes.\n\n**Por que as demais erram:** **A** **inverte** as definições; **C** reduz ambas a \"dois dispositivos\"; **D** troca os usos; **E** nega uma diferença que existe.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Site público x Intranet^^\n\nUm aluno acessa o site **www.estrategiaconcursos.com.br** e faz login com usuário e senha. Ele está acessando a **intranet** do Estratégia?",
+    "options": [
+      "Sim, pois todo login em site corresponde a acesso à intranet.",
+      "Sim, porque usou usuário e senha.",
+      "Não — ele acessa apenas o **sítio público** (servidor web) da empresa; a **intranet** é a **rede interna** privada da organização.",
+      "Não, porque sites públicos não exigem autenticação.",
+      "Sim, desde que o servidor esteja na sede da empresa."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** Acessar o **site público** de uma empresa (hospedado em um **servidor web**) **não é** acessar sua **intranet**. A **intranet** é a **rede interna e privada** da organização, usada para compartilhar dados internos, impressoras, arquivos e sistemas — restrita aos colaboradores.\n\n> A simples existência de **login** não transforma um site público em intranet.\n\n**Por que as demais erram:** **A** e **B** {red:generalizam} — login não é sinônimo de intranet; **D** sites públicos **podem** ter autenticação (áreas de aluno, por exemplo); **E** o local do servidor não muda a natureza **pública** do site.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Comparativo Internet x Intranet x Extranet^^\n\nQuanto ao **acesso e controle**, a associação correta é:",
+    "options": [
+      "Internet: acesso restrito; Intranet: público; Extranet: interno.",
+      "**Internet: público e sem controle central; Intranet: restrito a membros internos; Extranet: restrito a externos autorizados.**",
+      "Todas são públicas e sem controle.",
+      "Internet e Extranet são idênticas; a Intranet é pública.",
+      "Extranet é totalmente aberta; Intranet é global."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.**\n\n| Rede | Acesso/controle | Alcance |\n|---|---|---|\n| **Internet** | **Público**, sem controle centralizado | **Global** |\n| **Intranet** | **Restrito a membros internos**, alto controle | Confinada à organização |\n| **Extranet** | **Restrito a externos autorizados** (parceiros/fornecedores/clientes), controle rigoroso | Organização + parceiros |\n\n**Por que as demais erram:** **A** inverte os conceitos; **C** e **E** ignoram que Intranet/Extranet são **restritas**; **D** iguala indevidamente Internet e Extranet e torna a Intranet \"pública\".",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^Elaborada pelo professor • Tema: Intranet — endereçamento IP^^\n\nSobre os endereços IP utilizados internamente em uma intranet, é correto afirmar:",
+    "options": [
+      "São sempre endereços IP públicos, roteáveis na Internet.",
+      "São **endereços IP privados** (faixas 10.x.x.x, 172.16–31.x.x, 192.168.x.x), **não roteados** na Internet pública.",
+      "A intranet não utiliza endereços IP.",
+      "Precisam ser obrigatoriamente diferentes, byte a byte, de qualquer IP do mundo.",
+      "São atribuídos exclusivamente pelo provedor de Internet (ISP)."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** As intranets costumam usar **endereços IP privados**, reservados para uso interno e **não roteáveis** na Internet pública:\n\n| Faixa privada | Notação |\n|---|---|\n| 10.0.0.0 – 10.255.255.255 | 10.x.x.x |\n| 172.16.0.0 – 172.31.255.255 | 172.16–31.x.x |\n| 192.168.0.0 – 192.168.255.255 | 192.168.x.x |\n\nPor serem privados, **podem coexistir** com endereços iguais em outras redes internas mundo afora, sem conflito na Internet.\n\n**Por que as demais erram:** **A** troca por IP público; **C** toda comunicação TCP/IP usa IP; **D** o objetivo dos IPs privados é justamente **poderem se repetir** entre redes internas distintas; **E** os IPs privados são definidos/administrados **internamente**, não pelo ISP.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^IDECAN • Prefeitura de Maracanaú • 2023^^\n\nNo que se refere às redes empresariais, julgue os itens:\n\n**I.** A *bitnet* é uma rede empresarial interna, voltada exclusivamente à comunidade de uma empresa, implementada com recursos da Internet, acessível só por pessoas autorizadas, usada para comunicação interna (portal com comunicados, arquivos e dados).\n\n**II.** A *extranet* é uma rede empresarial, implementada com recursos da Internet, acessível por pessoas autorizadas de forma remota; é uma rede interna aberta a fornecedores e parceiros, para compartilhar arquivos e realizar trâmites (pedidos, pagamentos).\n\nAssinale a opção correta.",
+    "options": [
+      "Nenhum item está certo.",
+      "Apenas o item I está certo.",
+      "Apenas o item II está certo.",
+      "Todos os itens estão certos."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** Apenas o **item II** está correto.\n\n- **Item I — ERRADO:** a **Bitnet** (\"*Because It's Time Network*\") **não** é uma rede empresarial interna; foi uma das **redes precursoras** da Internet, usada sobretudo para **comunicação acadêmica**. O conceito descrito no item corresponde, na verdade, à **Intranet**.\n- **Item II — CERTO:** descreve corretamente a **Extranet** — extensão da rede interna, com **acesso externo autorizado** a parceiros/fornecedores.\n\n**Por que as demais erram:** **A** ignora que II está certo; **B** inverte (I é o errado); **D** afirma que todos estão certos, mas I é falso.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^IDECAN • Prefeitura de Serra • 2023^^\n\nNo contexto das redes de computadores, as empresas implementam um tipo de rede que disponibiliza serviços análogos à Internet, baseado na pilha **TCP/IP**, mas **restrito a um local físico** — fechada, interna e exclusiva. Funciona como portal corporativo com informações de interesse dos funcionários. Esse tipo de rede é conhecido como:",
+    "options": [
+      "Metronet.",
+      "Extranet.",
+      "Bytenet.",
+      "Intranet."
+    ],
+    "correctOption": "D",
+    "back": "**Gabarito: D.** A descrição — rede **interna, fechada e exclusiva**, baseada em **TCP/IP**, funcionando como **portal corporativo** — é a definição clássica de **Intranet**.\n\n**Por que as demais erram:** **A \"Metronet\"** e **C \"Bytenet\"** não são termos técnicos padronizados para esse conceito; **B Extranet** permite **acesso externo** a parceiros/fornecedores, logo **não** é \"restrita a um local físico\".",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^FUNDATEC • BRDE • 2023^^\n\nSegundo Batista (2012), o termo **intranet** tem a seguinte definição:",
+    "options": [
+      "Nome dado ao usuário de internet.",
+      "Conexão entre dois elementos de um sistema de computação.",
+      "Rede corporativa que utiliza a tecnologia e a infraestrutura de transferência de dados da internet na comunicação interna da própria empresa ou com outras empresas.",
+      "Nova modalidade de prestação de serviços bancários que utiliza a internet como canal.",
+      "Processo de transferência de arquivos de um computador remoto para o próprio computador por meio da internet."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** A **intranet** é a **rede corporativa** que utiliza a **tecnologia e a infraestrutura** da Internet (TCP/IP) para a **comunicação interna** da empresa (e, em certos casos, com outras empresas), de forma **restrita e segura**.\n\n**Por que as demais erram:** **A** intranet é uma **rede**, não um usuário; **B** definição genérica demais (não capta a essência); **D** descreve **internet banking**; **E** descreve **download/FTP**.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CREFITO7 • 2023 • adaptada C/E→A–E^^\n\nA respeito de sistemas baseados em intranet, assinale a alternativa **correta**:",
+    "options": [
+      "Eles privilegiam a informação **interna** da organização.",
+      "São públicos e acessíveis a qualquer usuário da Internet.",
+      "Não permitem compartilhamento de documentos entre setores.",
+      "Substituem a necessidade de qualquer controle de acesso.",
+      "Destinam-se exclusivamente a entretenimento."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) Sistemas baseados em **intranet** são projetados para **focar na informação interna** da organização: compartilhamento de documentos, políticas internas, notícias da empresa, ferramentas de colaboração e aplicativos corporativos — tudo restrito aos membros da organização.\n\n**Por que as demais erram:** **B** intranet é **privada/restrita**, não pública; **C** o compartilhamento de documentos é um de seus principais usos; **D** ela pressupõe **controle de acesso**; **E** seu foco é **corporativo**, não entretenimento.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CAU-GO • 2023 • adaptada C/E→A–E^^\n\nSobre o uso da intranet como ambiente de trabalho, assinale a alternativa **correta**:",
+    "options": [
+      "A intranet é um ambiente ideal para o compartilhamento de informações **dinâmicas e interligadas** dentro da organização.",
+      "A intranet só permite armazenar informações estáticas, nunca interligadas.",
+      "A intranet impede a colaboração entre funcionários.",
+      "A intranet é acessível publicamente por qualquer pessoa na Internet.",
+      "A intranet dispensa o uso de protocolos TCP/IP."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) A intranet, por usar tecnologias da Internet (**TCP/IP**) de forma **segura e privada**, é um **ambiente de trabalho ideal** para compartilhar **informações dinâmicas e interligadas** (documentos, notícias, sistemas), com ganhos de comunicação e produtividade.\n\n**Por que as demais erram:** **B** ela suporta conteúdo **dinâmico e interligado**; **C** ela **fomenta** a colaboração; **D** é **privada**, não pública; **E** ela **usa** TCP/IP.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CAU-GO • 2023 • adaptada C/E→A–E^^\n\nNos estágios iniciais de implantação em empresas, um dos usos mais comuns da intranet é:",
+    "options": [
+      "Divulgar informações internas (departamentos, resoluções da diretoria, avisos).",
+      "Substituir a Internet pública para acesso global de clientes.",
+      "Hospedar o site institucional público da empresa.",
+      "Fornecer acesso irrestrito a fornecedores externos.",
+      "Servir como backbone mundial de telecomunicações."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) Nos **estágios iniciais**, um dos usos mais comuns da intranet é a **divulgação de informações internas**: comunicados sobre departamentos, **resoluções da diretoria**, avisos e demais comunicações — de forma rápida e acessível a todos os funcionários.\n\n**Por que as demais erram:** **B** intranet não substitui a Internet nem serve a clientes globais; **C** o site público fica em **servidor web**, não na intranet; **D** acesso a fornecedores externos é papel da **Extranet** (e controlado); **E** backbone mundial é da **Internet**.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^CONSULPLAN • SESPA-PA • 2023^^\n\nÉ possível afirmar que a **Intranet** é uma rede privada:",
+    "options": [
+      "que permite o acesso restrito a informações confidenciais de diversas organizações.",
+      "que utiliza a infraestrutura da internet para conectar usuários de diferentes organizações.",
+      "que utiliza a infraestrutura da internet para fornecer acesso público a informações restritas.",
+      "que utiliza tecnologias da internet para permitir o acesso remoto aos recursos da organização.",
+      "interna de determinada organização que utiliza tecnologias da internet, a fim de compartilhar informações e recursos entre seus membros."
+    ],
+    "correctOption": "E",
+    "back": "**Gabarito: E.** A **Intranet** é a **rede interna de UMA organização** que usa **tecnologias da Internet** para **compartilhar informações e recursos entre seus membros** (comunicação interna, documentos, aplicativos corporativos).\n\n**Por que as demais erram:** **A** e **B** falam de **diversas/diferentes organizações** (a intranet é de **uma** organização); **C** intranet **não** fornece acesso **público**; **D** o **acesso remoto** é **possível**, mas **não** é o que **define** a intranet (é característica opcional/associada à extranet ou intranet remota).",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CRM-MG • 2023^^\n\nA intranet é uma:",
+    "options": [
+      "rede de computadores que conecta diferentes organizações em todo o mundo.",
+      "rede informática privada que utiliza normas e protocolos da internet.",
+      "plataforma de comunicação on-line utilizada exclusivamente para entretenimento.",
+      "rede pública com base em TCP/IP.",
+      "réplica exata da internet."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** A intranet é uma **rede informática privada** que emprega as **normas e protocolos da Internet** (TCP/IP, HTTP etc.), mas é **acessível apenas** aos membros/usuários autorizados da organização.\n\n**Por que as demais erram:** **A** ela é **interna** de uma organização (não conecta o mundo); **C** não é para entretenimento; **D** é **privada**, não pública; **E** não é \"réplica exata\" da Internet.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CREFITO7 • 2023 • adaptada C/E→A–E^^\n\nSobre a relação entre intranet e Internet, assinale a alternativa **correta**:",
+    "options": [
+      "São espaços informacionais **distintos** quanto a objetivos, usuários, restrições técnicas e estilos de design.",
+      "São exatamente a mesma coisa, sem qualquer distinção.",
+      "A intranet é pública e a Internet é privada.",
+      "Nenhuma das duas utiliza protocolos em comum.",
+      "A Internet é interna a uma organização e a intranet é global."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) Embora **compartilhem tecnologias** (TCP/IP), a **intranet** e a **Internet** são **espaços informacionais distintos** — diferem em **objetivos, usuários, restrições técnicas e estilos de design**.\n\n**Por que as demais erram:** **B** há distinções claras; **C** {red:inverte} — Internet é **pública**, intranet é **privada}; **D** ambas usam protocolos **comuns** (TCP/IP); **E** inverte alcance (Internet é global; intranet é interna).",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CREFITO7 • 2023 • adaptada C/E→A–E^^\n\nQuanto à homogeneidade dos recursos computacionais, assinale a alternativa **correta**:",
+    "options": [
+      "Na intranet, os recursos tendem a ser **mais homogêneos** que na Internet (ex.: navegador padronizado).",
+      "Na intranet, os recursos são sempre mais heterogêneos que na Internet.",
+      "Internet e intranet possuem exatamente o mesmo grau de padronização.",
+      "A padronização é impossível em uma intranet.",
+      "A intranet não permite qualquer tipo de controle centralizado."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) Por haver **controle centralizado** na organização, a **intranet** tende a apresentar **recursos mais homogêneos** (ex.: **versão padronizada do navegador**, sistemas e configurações uniformes), facilitando suporte e segurança. Na **Internet**, a diversidade de dispositivos/SO/navegadores gera **heterogeneidade** muito maior.\n\n**Por que as demais erram:** **B** é o oposto; **C** os graus de padronização **diferem**; **D** a padronização é justamente uma vantagem viável; **E** a intranet **permite** controle centralizado.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CRMV-SP • 2022 • adaptada C/E→A–E^^\n\nA respeito de correio eletrônico em intranet, assinale a alternativa **correta**:",
+    "options": [
+      "Uma intranet **pode** oferecer correio eletrônico acessível pelo navegador (webmail interno).",
+      "Correio eletrônico só existe na Internet, nunca em intranet.",
+      "Intranet e e-mail são tecnologias incompatíveis.",
+      "Webmail exige, obrigatoriamente, acesso à Internet pública.",
+      "Servidores de e-mail não podem ser internos a uma organização."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **ERRADO** → a assertiva verdadeira é esta.) Uma **intranet pode, sim, oferecer correio eletrônico** via navegador. Muitas organizações mantêm **servidores de e-mail internos** acessíveis aos funcionários pela intranet, com interfaces **web-based** semelhantes às da Internet.\n\n**Por que as demais erram:** **B, C, D, E** repetem o **equívoco** do item original: o e-mail **não é exclusivo** da Internet; servidores de e-mail **podem** ser **internos**; e o webmail **não** exige a Internet pública.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CRMV-SP • 2022 • adaptada C/E→A–E^^\n\nAssinale a definição **correta** de intranet:",
+    "options": [
+      "Rede privada, localizada em uma empresa ou órgão, formada por **uma ou mais** redes locais interligadas.",
+      "Rede pública global, sem fronteiras organizacionais.",
+      "Rede que só pode ser composta por **uma única** LAN.",
+      "Rede que dispensa qualquer protocolo de comunicação.",
+      "Rede destinada exclusivamente a usuários externos."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) A **intranet** é uma **rede privada**, situada em uma empresa/órgão, podendo ser formada por **uma ou mais redes locais (LANs) interligadas**, sempre no **contexto privado** da organização.\n\n**Por que as demais erram:** **B** ela é **privada**, não global; **C** {red:pode ter várias LANs}, não apenas uma; **D** ela usa **TCP/IP**; **E** destina-se aos **membros internos** (usuários externos → extranet).",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CRMV-SP • 2022 • adaptada C/E→A–E^^\n\nUm dos objetivos centrais da intranet é:",
+    "options": [
+      "Agilizar o processo de **comunicação organizacional** interna.",
+      "Fornecer acesso público global a qualquer usuário.",
+      "Substituir os provedores de acesso à Internet.",
+      "Impedir o compartilhamento de recursos entre colaboradores.",
+      "Servir como rede de entretenimento aberta."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) A intranet tem como um de seus **principais objetivos agilizar a comunicação organizacional**, permitindo compartilhar informações e recursos de forma eficiente entre colaboradores (e-mail corporativo, gestão de documentos, plataformas de colaboração), aumentando a produtividade.\n\n**Por que as demais erram:** **B** ela é **restrita**; **C** ela não substitui ISPs; **D** ela **facilita** (não impede) o compartilhamento; **E** não é rede de entretenimento aberta.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • SEDF • 2022 • adaptada C/E→A–E^^\n\nSobre o âmbito e a constituição da intranet, assinale a alternativa **correta**:",
+    "options": [
+      "Possui âmbito **estritamente limitado** e pode ser constituída por **uma ou mais** redes privadas (LANs).",
+      "Possui alcance **global**, como a Internet.",
+      "É composta obrigatoriamente por redes **públicas**.",
+      "Não pode ser dividida em mais de uma rede local.",
+      "É acessível a qualquer usuário, sem restrição."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **CORRETO**.) A intranet tem **âmbito estritamente limitado** à organização (acessível a funcionários/autorizados) e pode ser **composta por uma ou mais redes locais privadas (LANs)**, usando a arquitetura **TCP/IP**.\n\n**Por que as demais erram:** **B** alcance global é da **Internet**; **C** ela usa redes **privadas**; **D** {red:pode} ter várias LANs; **E** o acesso é **restrito**.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^IDECAN • UFBA • 2022 • adaptada C/E→A–E^^\n\nA intranet é uma rede pertencente a uma organização, acessível só a seus usuários. Sobre o endereçamento IP nesse contexto, assinale a alternativa **correta**:",
+    "options": [
+      "A intranet usa **IPs privados** (10.x, 172.16–31.x, 192.168.x), que **não são roteados** na Internet — por isso podem coincidir com endereços usados em outras redes internas.",
+      "Os IPs da intranet precisam ser sempre diferentes de todos os IPs da Internet.",
+      "A intranet não utiliza endereços IP.",
+      "A intranet só funciona com IPs públicos atribuídos pelo provedor.",
+      "Endereços privados são roteáveis livremente na Internet pública."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** As intranets usam **endereços IP privados** — faixas **10.x.x.x**, **172.16–31.x.x** e **192.168.x.x** — reservadas para uso **interno** e **não roteadas** na Internet pública. Justamente por não serem roteados, **podem se repetir** em diferentes redes internas sem conflito.\n\n> ⚠️ O item original (\"os IPs não podem ser iguais aos da Internet\") induz ao erro: como os privados **não trafegam** na Internet, a coincidência de números **não gera conflito**.\n\n**Por que as demais erram:** **B** parte da premissa equivocada de \"unicidade global\"; **C** toda rede TCP/IP usa IP; **D** IPs privados são internos (não do ISP); **E** endereços privados **não** são roteáveis na Internet.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CRBM-4 • 2021 • adaptada C/E→A–E^^\n\nAssinale a alternativa que descreve corretamente a intranet:",
+    "options": [
+      "Rede **restrita** voltada ao compartilhamento de informações, ferramentas de colaboração e serviços **dentro de uma organização**.",
+      "Rede pública mundial de acesso irrestrito.",
+      "Ambiente exclusivo para compartilhar **sistemas operacionais** entre máquinas.",
+      "Serviço bancário prestado pela Internet.",
+      "Rede aberta a clientes e fornecedores externos por padrão."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** A intranet é uma **rede restrita**, usada **dentro de uma organização** para **compartilhar informações, ferramentas de colaboração e serviços** (e-mail corporativo, gestão de documentos, RH etc.).\n\n> Obs.: a intranet pode **distribuir atualizações/políticas** de sistemas operacionais, mas **não \"compartilha\" o SO** em si — cada máquina tem o seu.\n\n**Por que as demais erram:** **B** ela é **privada**; **C** não compartilha SO no sentido tradicional; **D** confunde com internet banking; **E** acesso a externos é papel da **Extranet** (e controlado).",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CREMESE • 2021 • adaptada C/E→A–E^^\n\nA intranet usa os mesmos protocolos da Internet, mas é restrita. Assinale a alternativa **correta** sobre o alcance dessa restrição:",
+    "options": [
+      "O acesso é permitido aos **usuários autorizados**, **não** ficando limitado a computadores específicos da organização (é possível acessar de outros dispositivos).",
+      "O acesso é permitido apenas a partir dos computadores físicos da organização, jamais de outro dispositivo.",
+      "A intranet não utiliza os mesmos protocolos da Internet.",
+      "A intranet é pública e sem restrição de acesso.",
+      "Somente o administrador de rede pode acessar a intranet."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **ERRADO** → a correta é esta.) A intranet é **restrita a usuários autorizados**, mas **não** existe a limitação de \"somente computadores da organização\": é possível, por exemplo, **acessar a intranet do trabalho a partir de outro dispositivo** (intranet remota). A restrição é de **quem** (usuário autorizado), não necessariamente de **qual máquina**.\n\n**Por que as demais erram:** **B** repete o **erro** do item original; **C** ela **usa** TCP/IP; **D** ela é **restrita**, não pública; **E** o acesso não se limita ao administrador.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^QUADRIX • CFT • 2021 • adaptada C/E→A–E^^\n\nSobre a constituição da intranet, assinale a alternativa **correta**:",
+    "options": [
+      "Pode ser constituída por **várias redes locais (LANs) interligadas**, conforme o tamanho e a estrutura da organização.",
+      "É obrigatoriamente constituída por **somente uma** rede local.",
+      "É constituída exclusivamente por redes públicas globais.",
+      "Não admite qualquer serviço interno (e-mail, colaboração).",
+      "É constituída apenas por dispositivos externos à organização."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** (Item original **ERRADO** → a correta é esta.) A intranet **pode ser composta por várias LANs interligadas**, dependendo do porte e da estrutura da organização. Restringir a \"somente uma rede local\" **limita indevidamente** o escopo possível.\n\n**Por que as demais erram:** **B** repete o **erro** do item original; **C** ela usa redes **privadas**; **D** ela **oferece** serviços internos (e-mail, colaboração); **E** é constituída por recursos **internos**, não externos.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^GUALIMP • Prefeitura de Areal/RJ • 2020^^\n\nQual das opções refere-se a uma rede que utiliza a Internet para **partilhar parte** de seu sistema de informação com segurança e permite **acesso externo controlado** para negócios específicos ou projetos educacionais?",
+    "options": [
+      "Internet.",
+      "Intranet.",
+      "Extranet.",
+      "Ethernet."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** A rede que usa a Internet para **partilhar parte** de seu sistema de informação **com segurança**, permitindo **acesso externo controlado** (negócios/projetos), é a **Extranet**.\n\n**Por que as demais erram:** **A Internet** é pública e global (não \"parte controlada\"); **B Intranet** é **interna** (sem foco em acesso externo); **D Ethernet** é uma **tecnologia/padrão de rede local** (camada de enlace), não um tipo de rede corporativa como intranet/extranet.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^UNIFIL • Prefeitura de Sertaneja/PR • 2020^^\n\nQual conceito corresponde a: \"rede de computadores **privada** que assenta sobre a suíte de protocolos da Internet, de **uso exclusivo de um determinado local** (ex.: a rede de uma empresa), acessível apenas por seus utilizadores/colaboradores internos\"?",
+    "options": [
+      "Internet.",
+      "Extranet.",
+      "Intranet.",
+      "Rede Pública."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C.** Rede **privada**, sobre protocolos da Internet (TCP/IP), de **uso exclusivo** de um local e restrita a **colaboradores internos** = **Intranet**.\n\n**Por que as demais erram:** **A Internet** e **D Rede Pública** são **públicas** (não privadas/exclusivas); **B Extranet** abre **acesso externo** a parceiros — não é \"de uso exclusivo interno\".",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^DÉDALUS • COREN-SC • 2020^^\n\nLeia as afirmativas:\n\n**I –** Intranet: rede privada dentro de uma organização, acessível apenas por membros/empregados/terceiros autorizados.\n**II –** Internet: permite acesso externo controlado para negócios específicos ou projetos educacionais; empresas a usam para relacionamento com parceiros, clientes e fornecedores.\n**III –** Extranet: rede mundial que interliga computadores para dar ao usuário acesso a diversas informações.\n\nPodemos dizer que:",
+    "options": [
+      "Apenas o item I está correto.",
+      "Apenas os itens I e II estão corretos.",
+      "Apenas os itens I e III estão corretos.",
+      "Apenas os itens II e III estão corretos.",
+      "Todos os itens estão corretos."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** Só o **item I** está correto — ele define bem a **Intranet**.\n\n- **II — ERRADO:** o texto (\"acesso externo controlado... parceiros/clientes/fornecedores\") descreve a **Extranet**, e não a Internet. {red:Os rótulos foram trocados.}\n- **III — ERRADO:** \"rede mundial que interliga computadores\" é a **Internet**, e não a Extranet.\n\n**Por que as demais erram:** todas incluem II e/ou III, que estão com os **conceitos trocados**.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^IDIB • CRO/BA • 2017^^\n\nAnalise as afirmativas sobre Internet e Intranet:\n\n**I.** Tanto a Internet como a Intranet utilizam o protocolo **HTTP**.\n**II.** Na Internet é possível acessar clientes de correio eletrônico como, por exemplo, o **Gmail da Microsoft**.\n**III.** A Intranet é um espaço restrito a determinado público, usado para compartilhar informações restritas.\n\nMarque a alternativa verdadeira.",
+    "options": [
+      "Apenas as afirmativas I e II estão corretas.",
+      "Apenas as afirmativas I e III estão corretas.",
+      "Apenas as afirmativas II e III estão corretas.",
+      "Apenas a afirmativa I está correta."
+    ],
+    "correctOption": "B",
+    "back": "**Gabarito: B.** Corretas: **I** e **III**.\n\n- **I — CERTO:** Internet e Intranet usam as **mesmas tecnologias/protocolos**, inclusive o **HTTP**.\n- **II — ERRADO:** {red:pegadinha} — o **Gmail é do Google**, não da **Microsoft**.\n- **III — CERTO:** a Intranet é **restrita** a determinado público, para compartilhar informações **restritas**.\n\n**Por que as demais erram:** todas as opções que incluem **II** estão erradas (o erro do \"Gmail da Microsoft\"); e **D** despreza a afirmativa **III**, que é correta.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^IDIB • CRC/CE • 2017^^\n\nAcerca de Internet, Extranet e Intranet, marque a alternativa **FALSA**:",
+    "options": [
+      "O acesso à Internet é de domínio público.",
+      "O acesso à Intranet é restrito a funcionários de uma empresa ou órgão.",
+      "A informação compartilhada na rede de Internet é distribuída somente em determinadas empresas.",
+      "O acesso à Extranet é restrito a clientes, parceiros e/ou fornecedores de uma determinada empresa ou órgão."
+    ],
+    "correctOption": "C",
+    "back": "**Gabarito: C** (a **falsa**). A **Internet** é **pública** e distribui informação **amplamente** — dizer que ela é \"distribuída somente em determinadas empresas\" **inverte** o conceito (isso caberia à **Intranet**).\n\n**Por que as demais são verdadeiras:** **A** Internet é de **domínio público** ✔; **B** Intranet é **restrita** a funcionários ✔; **D** Extranet é, em geral, **restrita** a clientes/parceiros/fornecedores ✔.\n\n> 📝 A banca considerou **C** como gabarito. Há quem defenda ambiguidade em **D** (\"restrito... não é regra absoluta\"), mas a alternativa **claramente falsa** é a **C**.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^AOCP • EBSERH • 2017^^\n\nAlgumas empresas criam ambientes virtuais com servidores de páginas (sites), servidores de e-mail e servidores de arquivos, visando comunicação **mais rápida e centralizada** entre os funcionários. Tal estrutura é conhecida como:",
+    "options": [
+      "intranet.",
+      "internet.",
+      "telnet.",
+      "SMTP.",
+      "FTP."
+    ],
+    "correctOption": "A",
+    "back": "**Gabarito: A.** A estrutura interna com **servidores web, de e-mail e de arquivos** voltada à **comunicação rápida e centralizada entre funcionários** é a **Intranet**.\n\n**Por que as demais erram:** **B Internet** é a rede **mundial** (não \"centralizada entre funcionários\"); **C TELNET** é **protocolo de acesso remoto**; **D SMTP** é **protocolo de envio de e-mail**; **E FTP** é **protocolo de transferência de arquivos** — nenhum deles é a \"estrutura\" descrita.",
+    "topicName": "Intranet, Extranet e Internet"
+  },
+  {
+    "front": "^^FACET • Prefeitura de Marcação • 2016^^\n\nQual das redes abaixo permite o **compartilhamento de impressoras** (cenário típico de uma empresa em que os funcionários usam a mesma impressora)?",
+    "options": [
+      "Extranet",
+      "Internet",
+      "Arpanet",
+      "Telnet",
+      "Intranet"
+    ],
+    "correctOption": "E",
+    "back": "**Gabarito: E.** O **compartilhamento de impressoras** entre funcionários de uma empresa é cenário típico de uma **Intranet** (rede **interna** que compartilha recursos como impressoras, arquivos e sistemas).\n\n**Por que as demais erram:** **A Extranet** — embora **teoricamente** possível, **não é o cenário mais comum** (o professor observa que caberia recurso, mas o gabarito é Intranet); **B Internet** é rede pública global; **C Arpanet** foi a **rede precursora** da Internet (histórica); **D Telnet** é **protocolo de acesso remoto**, não uma rede de compartilhamento local.",
+    "topicName": "Intranet, Extranet e Internet"
+  }
+]
