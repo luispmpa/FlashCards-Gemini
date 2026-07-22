@@ -5,6 +5,10 @@ Saída da rotina **"Gerador de flashcards (PDF → import)"**.
 - A saída é organizada **por matéria**, espelhando `material-fonte/`:
   `flashcards-gerados/<materia>/<assunto>.json` — cada um um **array JSON** no
   formato de importação do AprovaCard.
+- Matérias **agrupadas** ganham mais um nível, também espelhando a fonte:
+  `flashcards-gerados/<grupo>/<sub-materia>/<assunto>.json` (ex.:
+  `Tecnologia da Informação/Informática/…`). No app, o botão **Atualizar** da
+  matéria-raiz lista as sub-matérias e importa cada uma como um subtópico.
 - O arquivo `_progresso.json` é a **memória entre execuções**: registra o que já
   foi coberto e mantém o **registro canônico de tópicos** por matéria, para a
   rotina continuar de onde parou, **não repetir** cards e **reaproveitar**

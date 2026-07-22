@@ -20,6 +20,10 @@ material-fonte/
 
 - **Renomeie** cada pasta `materia-XX` para o nome real da matéria. O nome da
   pasta é usado como a **matéria** (deck raiz) na organização dos flashcards.
+- Uma matéria pode ser **agrupada** em mais um nível — `material-fonte/<grupo>/<sub-matéria>/`
+  (ex.: `Tecnologia da Informação/Informática/`). A **sub-matéria** (pasta-folha) é a
+  matéria; o **grupo** é só o agrupamento. No app, o botão **Atualizar** da
+  matéria-raiz lista as sub-matérias e importa cada uma como um subtópico.
 - Os **nomes dos arquivos PDF podem ser aleatórios** — a rotina identifica o
   assunto pelo **conteúdo** de cada PDF, não pelo nome.
 - Cada PDF costuma ser de **um assunto/tópico específico**; a rotina marca os
