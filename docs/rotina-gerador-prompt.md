@@ -22,6 +22,41 @@ CONTINUIDADE ENTRE EXECUÇÕES
 - NÃO repita assuntos/cards já cobertos. Deduplique por `front`.
 - Priorize os assuntos MAIS ABORDADOS/recorrentes ainda não cobertos.
 
+FILA E DEDUP — INCLUI PRs ABERTOS (crítico; evita refazer o mesmo PDF)
+- A "memória" (o _progresso.json e os .json gerados) pode estar em PRs AINDA NÃO
+  MESCLADOS. Olhar SÓ a branch main NÃO basta: você redaria o mesmo PDF noite após
+  noite (foi o que aconteceu — 4 PRs refazendo a mesma aula).
+- No INÍCIO de cada execução, monte o conjunto "JÁ FEITO OU EM ANDAMENTO" =
+  (a) PDFs com `pdfs[].concluido=true` no _progresso.json da main; MAIS
+  (b) PDFs que já têm um PR ABERTO. LISTE os PRs abertos do repositório (use o
+      GitHub: títulos, branches e arquivos alterados) e identifique qual aula/
+      assunto cada um cobre.
+- Escolha o PRÓXIMO PDF que NÃO esteja nesse conjunto (menor número de aula /
+  assunto mais recorrente ainda não coberto). NUNCA reprocesse um PDF que já tenha
+  PR aberto, ainda que ele não esteja na main.
+- Resultado desejado: sem nenhum merge, a rotina AVANÇA na fila (aula 07 numa noite,
+  08 na seguinte, 09 depois...). Os PRs ficam represados aguardando o merge manual —
+  nunca duplicados. Quando o usuário mesclar o backlog, a main "alcança" a fila.
+
+UM PDF POR EXECUÇÃO + NOMES DETERMINÍSTICOS
+- Processe APENAS UM PDF (uma aula) por execução — não tente várias.
+- Saia SEMPRE da main ATUALIZADA, criando uma branch nova a cada execução; NÃO
+  empilhe uma aula sobre a branch de outra. Assim os PRs são independentes e podem
+  ser mesclados em QUALQUER ordem.
+- Use nomes DETERMINÍSTICOS e legíveis, com matéria + número da aula:
+  - branch: `gerador/<materia>-aula-NN` (ex.: `gerador/afo-aula-07`);
+  - título do PR: `feat(<materia>): Aula NN — <assunto> (<N> cards)`.
+  Isso torna a fila visível e a deduplicação por PR trivial.
+- 1 aula = 1 arquivo .json = 1 PR. Use SEMPRE o mesmo nome de arquivo para a mesma
+  aula (`flashcards-gerados/<materia>/<assunto-canonico>.json`); não crie variações
+  de nome para o mesmo assunto (ex.: `despesa-publica.json` vs
+  `despesa-publica-conceito-classificacoes.json`).
+- _progresso.json: como vários PRs represados editam o MESMO arquivo a partir da
+  mesma main, ao mesclar o backlog pode haver conflito nesse arquivo (só nele — os
+  cards de cada aula vivem em arquivos distintos e nunca conflitam). Mantenha a
+  edição APPEND-ONLY: acrescente a aula ao FIM de `pdfs[]` e de `alertas[]` e
+  recalcule os contadores. Em conflito, a resolução é "manter ambos".
+
 FORMATO DAS QUESTÕES (sempre A–E)
 - TODA questão é de múltipla escolha com 5 alternativas (A–E).
 - Item de certo/errado: NÃO reproduza como C/E; desenvolva uma questão A–E
@@ -121,9 +156,11 @@ ATUALIZAR O PAINEL (_progresso.json)
 VALIDAÇÃO E ENTREGA
 - Rode `npm run validate:cards` (já varre subpastas) e corrija até passar sem erros
   (JSON válido, sem duplicatas, correctOption dentro do range, front/back não vazios).
-- Commite os arquivos de cards + o _progresso.json atualizado e faça merge na main
-  (o deploy atualiza o painel). NÃO altere o código da aplicação.
-- No commit/PR, informe matéria, PDF(s), assuntos cobertos e total de cards.
+- Commite os arquivos de cards + o _progresso.json atualizado e abra UM PR em
+  RASCUNHO. NÃO faça merge — o merge é MANUAL (ao mesclar, o deploy atualiza o
+  painel). NÃO altere o código da aplicação.
+- No título/corpo do PR, informe matéria, aula/PDF, assuntos cobertos e total de
+  cards (ver "UM PDF POR EXECUÇÃO + NOMES DETERMINÍSTICOS").
 
 RESTRIÇÕES
 - Nunca exponha/edite segredos, .env ou config do Firebase. Não adicione dependências.
